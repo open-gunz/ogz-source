@@ -1,5 +1,5 @@
-# source
-Open GunZ source. Forked from updated Refined GunZ source released by the team of International GunZ barring some changes.
+# Open GunZ Source
+This is the Open GunZ source repo for gunz.exe, matchserver.exe, and associated game tools.  It was forked from updated Refined GunZ source (https://github.com/Asunaya/RefinedGunz) and updated by the International GunZ (http://igunz.net) server developers.
 
 # Building the source for the first time
 
@@ -52,3 +52,9 @@ Requisites:
 * Run GunZ.exe from client folder (DO NOT USE launcher.exe as it will downgrade to what is placed on the website for patching).
 * You can also run GunZ.exe on Linux using Wine. Currently everything seems to work but text rendering is broken and text is unreadable.
 * Register a test account within the client and login.
+
+# Credits
+Crawly (https://github.com/Asunaya/RefinedGunz)
+SuhBruh (https://igunz.net)
+Oblivic (http://igunz.net)
+ThievingSix (http://igunz.net)
