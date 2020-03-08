@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<XML ID="Sample">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+	<LABEL item="HELLOMINT2">
+		<BOUNDS>
+			<X>300</X>
+			<Y>100</Y>
+			<W>140</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>HELLOMINT2 안녕하세요~</TEXT>
+		<TEXTCOLOR>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TEXTCOLOR>
+	</LABEL>
+
+	<BUTTON item="Tab1Button">
+		<BOUNDS>
+			<X>300</X>
+			<Y>150</Y>
+			<W>140</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>TAB1</TEXT>
+		<TEXTCOLOR>
+			<R>255</R>
+			<G>0</G>
+			<B>255</B>
+		</TEXTCOLOR>
+	</BUTTON>
+	<FRAME item="Tab1Frame">
+		<BOUNDS>
+			<X>500</X>
+			<Y>150</Y>
+			<W>140</W>
+			<H>100</H>
+		</BOUNDS>
+	</FRAME>
+	<LABEL item="Tab1Label" parent = "Tab1Frame">
+		<TEXT>TAB1</TEXT>
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>200</W>
+			<H>100</H>
+		</BOUNDS>
+		<TEXTCOLOR>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TEXTCOLOR>
+	</LABEL>
+
+	<BUTTON item="Tab2Button">
+		<BOUNDS>
+			<X>300</X>
+			<Y>180</Y>
+			<W>140</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>TAB2</TEXT>
+		<TEXTCOLOR>
+			<R>255</R>
+			<G>0</G>
+			<B>255</B>
+		</TEXTCOLOR>
+	</BUTTON>
+	<FRAME item="Tab2Frame">
+		<BOUNDS>
+			<X>500</X>
+			<Y>180</Y>
+			<W>140</W>
+			<H>100</H>
+		</BOUNDS>
+	</FRAME>
+		
+	
+	
+	<TABCONTROL item="TabControl">
+		<TAB button = "Tab1Button" widget = "Tab1Frame"/>
+		<TAB button = "Tab2Button" widget = "Tab2Frame"/>
+	</TABCONTROL>
+	
+	<FRAMELOOKTEMPLATE item="DefaultFrameLook">
+		<SCALABLE/>
+		<STRETCH>true</STRETCH>
+		<BITMAPS>
+			<BITMAP type="0">
+				<SOURCE>windowframe.tga</SOURCE>
+				<BOUNDS>
+					<X>0</X>
+					<Y>56</Y>
+					<W>8</W>
+					<H>10</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="1">
+				<SOURCE>windowframe.tga</SOURCE>
+				<BOUNDS>
+					<X>10</X>
+					<Y>56</Y>
+					<W>12</W>
+					<H>10</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="2">
+				<SOURCE>windowframe.tga</SOURCE>
+				<BOUNDS>
+					<X>22</X>
+					<Y>56</Y>
+					<W>10</W>
+					<H>10</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="3">
+				<SOURCE>windowframe.tga</SOURCE>
+				<BOUNDS>
+					<X>0</X>
+					<Y>48</Y>
+					<W>10</W>
+					<H>8</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="4">
+				<SOURCE>windowframe.tga</SOURCE>
+				<BOUNDS>
+					<X>10</X>
+					<Y>48</Y>
+					<W>12</W>
+					<H>8</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="5">
+				<SOURCE>windowframe.tga</SOURCE>
+				<BOUNDS>
+					<X>22</X>
+					<Y>48</Y>
+					<W>10</W>
+					<H>8</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="6">
+				<SOURCE>windowframe.tga</SOURCE>
+				<BOUNDS>
+					<X>0</X>
+					<Y>0</Y>
+					<W>10</W>
+					<H>48</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="7">
+				<SOURCE>windowframe.tga</SOURCE>
+				<BOUNDS>
+					<X>10</X>
+					<Y>0</Y>
+					<W>12</W>
+					<H>48</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="8">
+				<SOURCE>windowframe.tga</SOURCE>
+				<BOUNDS>
+					<X>22</X>
+					<Y>0</Y>
+					<W>10</W>
+					<H>48</H>
+				</BOUNDS>
+			</BITMAP>
+		</BITMAPS>
+	</FRAMELOOKTEMPLATE>	
+
+	
+	<BUTTONLOOKTEMPLATE item="CheckboxButtonLook">
+		<SCALABLE/>
+		<FONT>굴림9</FONT>
+		<TEXTCOLOR>
+			<R>205</R>
+			<G>205</G>
+			<B>205</B>
+		</TEXTCOLOR>
+		<TEXTDOWNCOLOR>
+			<R>205</R>
+			<G>205</G>
+			<B>205</B>
+		</TEXTDOWNCOLOR>
+		<TEXTHIGHLIGHTCOLOR>
+			<R>205</R>
+			<G>205</G>
+			<B>205</B>
+		</TEXTHIGHLIGHTCOLOR>
+		<UP>
+			<BITMAP type="0">
+				<SOURCE>buttonframe.tga</SOURCE>
+				<BOUNDS>
+					<X>0</X>
+					<Y>16</Y>
+					<W>8</W>
+					<H>8</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="1">
+				<SOURCE>buttonframe.tga</SOURCE>
+				<BOUNDS>
+					<X>8</X>
+					<Y>16</Y>
+					<W>8</W>
+					<H>8</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="2">
+				<SOURCE>buttonframe.tga</SOURCE>
+				<BOUNDS>
+					<X>16</X>
+					<Y>16</Y>
+					<W>8</W>
+					<H>8</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="3">
+				<SOURCE>buttonframe.tga</SOURCE>
+				<BOUNDS>
+					<X>0</X>
+					<Y>8</Y>
+					<W>8</W>
+					<H>8</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="4">
+				<SOURCE>buttonframe.tga</SOURCE>
+				<BOUNDS>
+					<X>8</X>
+					<Y>8</Y>
+					<W>8</W>
+					<H>8</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="5">
+				<SOURCE>buttonframe.tga</SOURCE>
+				<BOUNDS>
+					<X>16</X>
+					<Y>8</Y>
+					<W>8</W>
+					<H>8</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="6">
+				<SOURCE>buttonframe.tga</SOURCE>
+				<BOUNDS>
+					<X>0</X>
+					<Y>0</Y>
+					<W>8</W>
+					<H>8</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="7">
+				<SOURCE>buttonframe.tga</SOURCE>
+				<BOUNDS>
+					<X>8</X>
+					<Y>0</Y>
+					<W>8</W>
+					<H>8</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="8">
+				<SOURCE>buttonframe.tga</SOURCE>
+				<BOUNDS>
+					<X>16</X>
+					<Y>0</Y>
+					<W>8</W>
+					<H>8</H>
+				</BOUNDS>
+			</BITMAP>
+		</UP>
+		<OVER>
+			<BITMAP type="0">
+				<SOURCE>buttonframe.tga</SOURCE>
+				<BOUNDS>
+					<X>0</X>
+					<Y>16</Y>
+					<W>8</W>
+					<H>8</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="1">
+				<SOURCE>buttonframe.tga</SOURCE>
+				<BOUNDS>
+					<X>8</X>
+					<Y>16</Y>
+					<W>8</W>
+					<H>8</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="2">
+				<SOURCE>buttonframe.tga</SOURCE>
+				<BOUNDS>
+					<X>16</X>
+					<Y>16</Y>
+					<W>8</W>
+					<H>8</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="3">
+				<SOURCE>buttonframe.tga</SOURCE>
+				<BOUNDS>
+					<X>0</X>
+					<Y>8</Y>
+					<W>8</W>
+					<H>8</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="4">
+				<SOURCE>buttonframe.tga</SOURCE>
+				<BOUNDS>
+					<X>8</X>
+					<Y>8</Y>
+					<W>8</W>
+					<H>8</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="5">
+				<SOURCE>buttonframe.tga</SOURCE>
+				<BOUNDS>
+					<X>16</X>
+					<Y>8</Y>
+					<W>8</W>
+					<H>8</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="6">
+				<SOURCE>buttonframe.tga</SOURCE>
+				<BOUNDS>
+					<X>0</X>
+					<Y>0</Y>
+					<W>8</W>
+					<H>8</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="7">
+				<SOURCE>buttonframe.tga</SOURCE>
+				<BOUNDS>
+					<X>8</X>
+					<Y>0</Y>
+					<W>8</W>
+					<H>8</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="8">
+				<SOURCE>buttonframe.tga</SOURCE>
+				<BOUNDS>
+					<X>16</X>
+					<Y>0</Y>
+					<W>8</W>
+					<H>8</H>
+				</BOUNDS>
+			</BITMAP>
+		</OVER>
+		<DOWN>
+			<BITMAP type="0">
+				<SOURCE>buttonframe.tga</SOURCE>
+				<BOUNDS>
+					<X>24</X>
+					<Y>16</Y>
+					<W>8</W>
+					<H>8</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="1">
+				<SOURCE>buttonframe.tga</SOURCE>
+				<BOUNDS>
+					<X>32</X>
+					<Y>16</Y>
+					<W>8</W>
+					<H>8</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="2">
+				<SOURCE>buttonframe.tga</SOURCE>
+				<BOUNDS>
+					<X>40</X>
+					<Y>16</Y>
+					<W>8</W>
+					<H>8</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="3">
+				<SOURCE>buttonframe.tga</SOURCE>
+				<BOUNDS>
+					<X>24</X>
+					<Y>8</Y>
+					<W>8</W>
+					<H>8</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="4">
+				<SOURCE>buttonframe.tga</SOURCE>
+				<BOUNDS>
+					<X>32</X>
+					<Y>8</Y>
+					<W>8</W>
+					<H>8</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="5">
+				<SOURCE>buttonframe.tga</SOURCE>
+				<BOUNDS>
+					<X>40</X>
+					<Y>8</Y>
+					<W>8</W>
+					<H>8</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="6">
+				<SOURCE>buttonframe.tga</SOURCE>
+				<BOUNDS>
+					<X>24</X>
+					<Y>0</Y>
+					<W>8</W>
+					<H>8</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="7">
+				<SOURCE>buttonframe.tga</SOURCE>
+				<BOUNDS>
+					<X>32</X>
+					<Y>0</Y>
+					<W>8</W>
+					<H>8</H>
+				</BOUNDS>
+			</BITMAP>
+			<BITMAP type="8">
+				<SOURCE>buttonframe.tga</SOURCE>
+				<BOUNDS>
+					<X>40</X>
+					<Y>0</Y>
+					<W>8</W>
+					<H>8</H>
+				</BOUNDS>
+			</BITMAP>
+		</DOWN>
+		
+	</BUTTONLOOKTEMPLATE>
+
+	<FRAME item="TestButtonBackgroundFrame">
+		<BOUNDS>
+			<X>270</X>
+			<Y>30</Y>
+			<W>200</W>
+			<H>140</H>
+		</BOUNDS>
+		<FRAMELOOK>DefaultFrameLook</FRAMELOOK>
+		<VISIBLE>true</VISIBLE>
+	</FRAME>
+		
+	<BUTTON item="TestButtonBackground">
+		<BOUNDS>
+			<X>290</X>
+			<Y>40</Y>
+			<W>160</W>
+			<H>100</H>
+		</BOUNDS>
+		<TEXTCOLOR>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TEXTCOLOR>
+	</BUTTON>
+	
+	<BUTTON item="TestButton">
+		<BOUNDS>
+			<X>300</X>
+			<Y>50</Y>
+			<W>140</W>
+			<H>80</H>
+		</BOUNDS>
+		<TEXT>TESTBUTTON</TEXT>
+		<TEXTCOLOR>
+			<R>255</R>
+			<G>0</G>
+			<B>255</B>
+		</TEXTCOLOR>
+		<BUTTONLOOK>CheckboxButtonLook</BUTTONLOOK>
+	</BUTTON>
+	
+</XML>

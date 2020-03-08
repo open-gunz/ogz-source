@@ -1,0 +1,172 @@
+<?xml version="1.0" ?>
+<!--
+	GAMETYPE_DEATHMATCH_SOLO	= 0
+ 	GAMETYPE_DEATHMATCH_TEAM	= 1
+	GAMETYPE_GLADIATOR_SOLO		= 2
+	GAMETYPE_GLADIATOR_TEAM		= 3
+	GAMETYPE_ASSASSINATE		= 4
+	GAMETYPE_TRAINING		= 5
+	GAMETYPE_SURVIVAL		= 6
+	GAMETYPE_QUEST			= 7
+	GAMETYPE_BERSERKER		= 8 
+	GAMETYPE_DEATHMATCH_TEAM2	= 9
+	GAMETYPE_DEATHMATCH_DUEL	= 10
+-->
+
+<XML id="channelrule">
+
+	<CHANNELRULE id="0" name="novice">
+	        <GAMETYPE id="0" />		<!-- GAMETYPE_DEATHMATCH_SOLO -->
+        	<GAMETYPE id="1" />		<!-- GAMETYPE_DEATHMATCH_TEAM -->
+	        <!-- <GAMETYPE id="9" />		GAMETYPE_DEATHMATCH_TEAM2 -->
+        	<GAMETYPE id="2" />		<!-- GAMETYPE_GLADIATOR_SOLO -->
+	        <GAMETYPE id="3" />		<!-- GAMETYPE_GLADIATOR_TEAM -->
+        	<GAMETYPE id="4" />		<!-- GAMETYPE_ASSASSINATE -->
+	        <GAMETYPE id="5" />		<!-- GAMETYPE_TRAINING -->
+
+		<MAP name="Mansion" />
+		<MAP name="Prison" />
+		<MAP name="Prison II" />
+		<MAP name="Island" />
+		<MAP name="Garden" />
+		<MAP name="Station" />
+		<MAP name="Battle Arena" />
+		<MAP name="Factory" />
+		<MAP name="Town" />
+		<!-- <MAP name="Ruin" /> -->
+		<!-- <MAP name="Port" /> -->
+		<!-- <MAP name="Castle" /> -->
+		<!-- <MAP name="Dungeon" /> -->
+		<!-- <MAP name="Lost Shrine" /> -->
+		<!-- <MAP name="Stairway" /> -->
+	</CHANNELRULE>
+
+
+	<CHANNELRULE id="3" name="newbie">
+	        <GAMETYPE id="0" />		<!-- GAMETYPE_DEATHMATCH_SOLO -->
+        	<GAMETYPE id="1" />		<!-- GAMETYPE_DEATHMATCH_TEAM -->
+	        <!-- <GAMETYPE id="9" />		GAMETYPE_DEATHMATCH_TEAM2 -->
+        	<GAMETYPE id="2" />		<!-- GAMETYPE_GLADIATOR_SOLO -->
+	        <GAMETYPE id="3" />		<!-- GAMETYPE_GLADIATOR_TEAM -->
+        	<GAMETYPE id="4" />		<!-- GAMETYPE_ASSASSINATE -->
+	        <GAMETYPE id="5" />		<!-- GAMETYPE_TRAINING -->
+
+		<MAP name="Mansion" />
+		<MAP name="Prison" />
+		<MAP name="Prison II" />
+		<MAP name="Island" />
+		<MAP name="Garden" />
+		<MAP name="Station" />
+		<MAP name="Battle Arena" />
+		<MAP name="Factory" />
+		<MAP name="Town" />
+		<!-- <MAP name="Ruin" /> -->
+		<!-- <MAP name="Port" /> -->
+		<!-- <MAP name="Castle" /> -->
+		<!-- <MAP name="Dungeon" /> -->
+		<!-- <MAP name="Lost Shrine" /> -->
+		<!-- <MAP name="Stairway" /> -->
+	</CHANNELRULE>
+
+	<CHANNELRULE id="1" name="rookie">
+	        <GAMETYPE id="0" />		<!-- GAMETYPE_DEATHMATCH_SOLO -->
+        	<GAMETYPE id="8" />		<!-- GAMETYPE_BERSERKER -->
+	        <GAMETYPE id="1" />		<!-- GAMETYPE_DEATHMATCH_TEAM -->
+        	<!-- <GAMETYPE id="9" />		GAMETYPE_DEATHMATCH_TEAM2 -->
+	        <!-- <GAMETYPE id="10" />		GAMETYPE_DEATHMATCH_DUEL -->
+        	<GAMETYPE id="2" />		<!-- GAMETYPE_GLADIATOR_SOLO -->
+	        <GAMETYPE id="3" />		<!-- GAMETYPE_GLADIATOR_TEAM -->
+        	<GAMETYPE id="4" />		<!-- GAMETYPE_ASSASSINATE -->
+	        <GAMETYPE id="5" />		<!-- GAMETYPE_TRAINING -->
+
+		<MAP name="Mansion" />
+		<MAP name="Prison" />
+		<MAP name="Prison II" />
+		<MAP name="Island" />
+		<MAP name="Garden" />
+		<MAP name="Station" />
+		<MAP name="Battle Arena" />
+		<MAP name="Factory" />
+		<MAP name="Town" />
+		<MAP name="Ruin" />
+		<MAP name="Port" />
+		<!-- <MAP name="Castle" /> -->
+		<!-- <MAP name="Dungeon" /> -->
+		<!-- <MAP name="Lost Shrine" /> -->
+		<!-- <MAP name="Stairway" /> -->
+
+		<!-- <MAP name="Hall" />		Only DUEL -->
+		<!-- <MAP name="Catacomb" />		Only DUEL -->
+		<!-- <MAP name="Jail" />		Only DUEL -->
+		<!-- <MAP name="Shower Room" />		Only DUEL -->
+	</CHANNELRULE>
+
+
+	<CHANNELRULE id="2" name="mastery">
+	        <GAMETYPE id="0" />		<!-- GAMETYPE_DEATHMATCH_SOLO -->
+        	<GAMETYPE id="8" />		<!-- GAMETYPE_BERSERKER -->
+	        <GAMETYPE id="1" />		<!-- GAMETYPE_DEATHMATCH_TEAM -->
+        	<!-- <GAMETYPE id="9" />		GAMETYPE_DEATHMATCH_TEAM2 -->
+	        <!-- <GAMETYPE id="10" />		GAMETYPE_DEATHMATCH_DUEL -->
+        	<GAMETYPE id="2" />		<!-- GAMETYPE_GLADIATOR_SOLO -->
+	        <GAMETYPE id="3" />		<!-- GAMETYPE_GLADIATOR_TEAM -->
+        	<GAMETYPE id="4" />		<!-- GAMETYPE_ASSASSINATE -->
+	        <GAMETYPE id="5" />		<!-- GAMETYPE_TRAINING -->
+
+		<MAP name="Mansion" />
+		<MAP name="Prison" />
+		<MAP name="Prison II" />
+		<MAP name="Island" />
+		<MAP name="Garden" />
+		<MAP name="Station" />
+		<MAP name="Battle Arena" />
+		<MAP name="Factory" />
+		<MAP name="Town" />
+		<MAP name="Ruin" />
+		<MAP name="Port" />
+		<MAP name="Castle" />
+		<MAP name="Dungeon" />
+		<!-- <MAP name="Lost Shrine" /> -->
+		<!-- <MAP name="Stairway" /> -->
+
+		<!-- <MAP name="Hall" />		Only DUEL -->
+		<!-- <MAP name="Catacomb" />		Only DUEL -->
+		<!-- <MAP name="Jail" />		Only DUEL -->
+		<!-- <MAP name="Shower Room" />		Only DUEL -->
+	</CHANNELRULE>
+	
+
+	<CHANNELRULE id="4" name="elite">
+		<GAMETYPE id="0" />		<!-- GAMETYPE_DEATHMATCH_SOLO -->
+		<GAMETYPE id="8" />		<!-- GAMETYPE_BERSERKER -->
+		<GAMETYPE id="1" />		<!-- GAMETYPE_DEATHMATCH_TEAM -->
+		<!-- <GAMETYPE id="9" />		GAMETYPE_DEATHMATCH_TEAM2 -->
+		<!-- <GAMETYPE id="10" />		GAMETYPE_DEATHMATCH_DUEL -->
+		<GAMETYPE id="2" />		<!-- GAMETYPE_GLADIATOR_SOLO -->
+		<GAMETYPE id="3" />		<!-- GAMETYPE_GLADIATOR_TEAM -->
+		<GAMETYPE id="4" />		<!-- GAMETYPE_ASSASSINATE -->
+		<GAMETYPE id="5" />		<!-- GAMETYPE_TRAINING -->
+
+		<MAP name="Mansion" />
+		<MAP name="Prison" />
+		<MAP name="Prison II" />
+		<MAP name="Island" />
+		<MAP name="Garden" />
+		<MAP name="Station" />
+		<MAP name="Battle Arena" />
+		<MAP name="Factory" />
+		<MAP name="Town" />
+		<MAP name="Ruin" />
+		<MAP name="Port" />
+		<MAP name="Castle" />
+		<MAP name="Dungeon" />
+		<!-- <MAP name="Lost Shrine" /> -->
+		<!-- <MAP name="Stairway" /> -->
+
+		<!-- <MAP name="Hall" />		Only DUEL -->
+		<!-- <MAP name="Catacomb" />		Only DUEL -->
+		<!-- <MAP name="Jail" />		Only DUEL -->
+		<!-- <MAP name="Shower Room" />		Only DUEL -->
+	</CHANNELRULE>
+	
+</XML>

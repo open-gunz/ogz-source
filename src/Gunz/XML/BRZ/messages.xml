@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<XML>
+
+<!-- ?ï¿½ë¼?ï¿½ì–¸???ï¿½ëŸ¬ë©”ì‹œì§€ ê´€??-->
+<MSG id="500">Aviso</MSG>
+<MSG id="501">Primeiro, selecione o servidor na lista de servidores para jogar o The Duel.</MSG>
+
+<!-- ?ï¿½ë¼?ï¿½ì–¸???ï¿½í„°?ï¿½ì´??ê´€??-->
+<MSG id="1000">Você pode informar em 1 minuto.</MSG>
+<MSG id="1001">Detalhes do chat foram reportados.</MSG>
+<MSG id="1002">Você não tem autoridade para o chat.</MSG>
+<MSG id="1003">Coloque $1 caracteres ou mais.</MSG>
+<MSG id="1004">Sintaxe Incorreta do Comando.</MSG>
+<MSG id="1005">Sintaxe Incorreta do Comando.</MSG>
+<MSG id="1006">Pode ser implementado apenas no Lobby.</MSG>
+<MSG id="1007">Pode ser implementado apenas na Sala de Espera.</MSG>
+<MSG id="1008">Pode ser implementado apenas no jogo.</MSG>
+<MSG id="1009">Isto está cancelado.</MSG>
+<MSG id="1010">Impossível usar um comando.</MSG>
+<MSG id="1011">O screenshot é salvo em "Meus documentos".</MSG>
+<MSG id="1012">Ocorreu um erro na tentativa de salvar a imagem de tela.</MSG>
+<MSG id="1013">O registro foi iniciado.</MSG>
+<MSG id="1014">O registro foi salvo no arquivo "Meus documentos$1".</MSG>
+<MSG id="1015">Ocorreu um erro ao salvar o registro.</MSG>
+<MSG id="1016">A votação para expulsão de '%s' foi iniciada.</MSG> 
+<MSG id="1017">Se você deseja participar da votação, aperte 'S' se concordar; 'N' se não.</MSG>
+<MSG id="1018">Selecione o usuário que será expulso</MSG>
+<MSG id="1019">[ESC] Cancelar</MSG>
+<MSG id="1020">A votação foi aceita.</MSG>
+<MSG id="1021">A votação foi recusada.</MSG>
+<MSG id="1022">A opção de votação está indisponível.</MSG>
+<MSG id="1023">A votação de '$1' foi iniciada.</MSG>
+<!-- ì¶”?ï¿½ë¶€?11. 15. -->
+<MSG id="1024">Localizando o time adversária $1</MSG>
+
+<MSG id="1025">texto1025.</MSG>
+
+<MSG id="1105">'$1 está tentando formar o Clã '$3' com $2. Você concorda?</MSG>
+<MSG id="1106">$1 recusou a oferta para criar um Clã.</MSG>
+<MSG id="1107">O Clã foi criado.</MSG>
+<MSG id="1108">O Clã está fechado. E será completamente fechado às 7h00.</MSG>
+<MSG id="1109">Apenas o Líder do Clã pode executar.</MSG>
+<MSG id="1110">Apenas o Líder do Clã e os sub-líderes podem executar.</MSG>
+<MSG id="1111">Você já participa de um Clã.</MSG>
+<MSG id="1112">Você não se juntou ao Clã.</MSG>
+<MSG id="1113">'$1', você aceita participar do Clã?</MSG>
+<MSG id="1114">O membro foi rejeitado.</MSG>
+<MSG id="1115">Você se juntou ao Clã.</MSG>
+<MSG id="1116">Você tem de se retirar do Clã.</MSG>
+<MSG id="1117">O Líder do Clã não pode se retirar do Clã.</MSG>
+<MSG id="1118">A exclusão não pode ser feita enquanto você for membro de um Clã. Primeiro, retire-se do Clã.</MSG>
+<MSG id="1119">A autoridade foi mudada.</MSG>
+<MSG id="1120">O membro selecionado foi removido do Clã.</MSG>
+<MSG id="1121">Você selecionou $1 membro(s) para a criação do Clã.</MSG>
+<MSG id="1122">Tem certeza de que deseja fechar o Clã?</MSG>
+<MSG id="1123">Tem certeza de que deseja se retirar do Clã?</MSG>
+<MSG id="1124">O nome do Clã é diferente.</MSG>
+<MSG id="1125">O membro do Clã '$1' acessou.</MSG>
+
+<MSG id="1200">Não é possível excluir, pois está com equipamento (ou item)</MSG>
+<MSG id="1201">Um personagem foi excluído.</MSG>
+
+<MSG id="1202">Você estará de volta à resolução anterior em $1 segundo(s).</MSG>
+
+<!-- ë¡œë¹„ UI -->
+<MSG id="1301">Líder do Clã: $1, $2 online.</MSG>
+<MSG id="1302">%d aguardando.</MSG>
+<MSG id="1303">Você não se juntou ao Clã.</MSG>
+<!-- ì¶”???ï¿½ë¶€?11.13 -->
+<MSG id="1304">Por favor, use um canal livre se não quiser utilizar a restrição de nível.</MSG>
+<MSG id="1305">No jogo de liga, você enfrenta todos os usuários sem levar em consideração o canal.</MSG>
+<MSG id="1306">$1 recebeu convite para a Sala de Chat.</MSG>
+<MSG id="1307">$1 fez um convite a você para a Sala de Chat '$2'.</MSG>
+<MSG id="1308">'$2' entrou na Sala de Chat '$1'.</MSG>
+<MSG id="1309">'$2' saiu da Sala de Chat '$1'.</MSG>
+<MSG id="1310">Será transferido para a Sala de Chat '$1'.</MSG>
+<!--
+<MSG id="1311">'$1' convidou você para a Sala de Chat '$2'.</MSG>
+-->
+<MSG id="1312">Sala de Chat($1) $2 : $3</MSG>
+<!--
+<MSG id="1313">Mensagem Privada ($1): $2</MSG>
+-->
+<!-- ï¿½ì¶”???ï¿½ë¶€?11.15 -->
+<MSG id="1313">Solicitação sendo feita para abrir a Sala de Chat...</MSG>
+<MSG id="1314">Solicitação sendo feita para entrar na Sala de Chat...</MSG>
+<MSG id="1315">Retirando-se da Sala de Chat.</MSG>
+<MSG id="1316">Selecionando a Sala de Chat.</MSG>
+<MSG id="1317">Você entrou no canal '$1'.</MSG>
+
+
+<MSG id="1400">Aguardando permissão</MSG>
+<MSG id="1401">Por favor, aguarde até que o jogador aceite.</MSG>
+<MSG id="1402">$1 convidou você para um jogo. Aceita?</MSG>
+<MSG id="1403">$1 recusou.</MSG>
+<MSG id="1404">$1 cancelou.</MSG>
+<MSG id="1405">Foi cancelado.</MSG>
+<MSG id="1406">Selecione o número certo de pessoas.</MSG>
+
+<MSG id="1420">$1 convidou você para uma Guerra de Clãs.</MSG>
+
+<!-- ?ë¶´ëžœ??-->	
+<MSG id="1510">O Clã '$1' derrotou o Clã '$2' e está indo muito bem depois de registrar $3 vitórias consecutivas.</MSG>
+<MSG id="1511">O Clã '$1' derrotou o Clã '$2' e registrou $3 vitórias consecutivas.</MSG>
+<MSG id="1512">O Clã '$1' derrotou o Clã '$2' para registrar $3 vitórias consecutivas sem problemas.</MSG>
+<MSG id="1513">O Clã '$1' derrotou o Clã '$2' para chegar com sucesso ao recorde de $3 vitórias consecutivas.</MSG>
+<MSG id="1514">O Clã '$1' derrotou o Clã '$2' para marcar $3 vitórias consecutivas.</MSG>
+<MSG id="1515">O Clã '$1' derrotou o Clã '$2' interrompendo o seu caminho para obter a terceira vitória consecutiva.</MSG>
+
+<!-- 듀얼 -->
+<MSG id="1520">'$1' venceu $4 jogos seguidos na sala $3 do canal '$2'.</MSG>
+<MSG id="1521">'$2' derrotou '$1' após sua sequência de $3 vitórias seguidas.</MSG>
+
+<!-- ë¡œë”© ë©”ì‹œì§€ -->
+<MSG id="1600">'Corrida'</MSG>
+<MSG id="1601">Você pode mover-se muito mais rápido do que na condição normal.</MSG>
+<MSG id="1602">Você pode correr até mesmo quando estiver no ar (Requer Arma de curta distância).</MSG>
+<MSG id="1603">'Guarda'</MSG>
+<MSG id="1604">'Durante a defesa, você pode bloquear completamente todas as balas e espadadas na parte superior.</MSG>
+<MSG id="1605">É impossível defender a parte inferior do corpo.</MSG>
+<MSG id="1606">'Atordoar'</MSG>
+<MSG id="1607">No caso de uma espada longa, arremessa o inimigo no ar. No caso de</MSG>
+<MSG id="1608">uma adaga, ela empurra o inimigo para o chão.</MSG>
+<MSG id="1609">'Queda Segura'</MSG>
+<MSG id="1610">Uma queda bem-sucedida sobre o solo reduz o dano adicional que você</MSG>
+<MSG id="1611">pode sofrer, pois você não pode se mover caído no chão.</MSG>
+<MSG id="1612">'Esquiva'</MSG>
+<MSG id="1613">Você pode evitar um ataque ao rolar.</MSG>
+<MSG id="1614">Você também pode disparar uma arma quando estiver rolando.</MSG>
+<MSG id="1615">'Suspendendo'</MSG>
+<MSG id="1616">Clique com o botão direito do mouse quando estiver pulando com uma arma de</MSG>
+<MSG id="1617">Curta distância, assim você pode se prender em uma parede.</MSG>
+<MSG id="1618">'Pular pelas paredes'</MSG>
+<MSG id="1619">Aperte a tecla PULAR quando estiver perto da parede,</MSG>
+<MSG id="1620">para dar outro salto.</MSG>
+<MSG id="1621">'Correndo pela Parede'</MSG>
+<MSG id="1622">Aperte a tecla PULAR quando o personagem estiver em posição diagonal contra a parede se movendo</MSG>
+<MSG id="1623">para frente, assim o personagem pode correr na parede automaticamente.</MSG>
+<MSG id="1624">'Escalando a parede'</MSG>
+<MSG id="1625">Você pode escalar a parede. Corra em direção</MSG>
+<MSG id="1626">a parede e aperte a tecla PULAR quando estiver bem próximo.</MSG>
+
+<!-- ìºë¦­???ï¿½ë³´ ?ï¿½ì‹œ -->
+<MSG id="1700">[Informação do Personagem]=============</MSG>
+<MSG id="1701">Nome</MSG>
+<MSG id="1702">Clã</MSG>
+<MSG id="1703">Nível</MSG>
+<MSG id="1704">Porcentual de Vitória</MSG>
+<MSG id="1705">Vitórias</MSG>
+<MSG id="1706">Derrotas</MSG>
+<MSG id="1707">Tempo de Conexão</MSG>
+<MSG id="1708">dia(s)</MSG>
+<MSG id="1709">hora(s)</MSG>
+<MSG id="1710">min.</MSG>
+<MSG id="1711">seg.</MSG>
+<!-- ì¶”???ï¿½ë¶€?-->
+<MSG id="1712">EXP</MSG>
+<MSG id="1713">Bounty</MSG>
+<MSG id="1714">PV</MSG>
+<MSG id="1715">PA</MSG>
+<MSG id="1716">PS</MSG>
+<MSG id="1717">Nv.</MSG>
+
+<!-- ï¿½ê²Œìž„ ?ï¿½ë©”ì‹œì§€ -->
+<MSG id="2000">$1 participou do jogo.</MSG>
+<MSG id="2001">$1 saiu do jogo.</MSG>
+<MSG id="2002">$1 subiu de nível.</MSG>
+<MSG id="2003">$1 teve o nível reduzido.</MSG>
+<MSG id="2004">Guerra de Clãs $1 ( $2 vs. $3 )</MSG>
+<!-- ì¶”???ï¿½ë¶€?-->
+<MSG id="2005">Caindo...</MSG>
+<MSG id="2006">Você se explodiu.</MSG>
+<MSG id="2007">Você se matou.</MSG>
+<MSG id="2008">$1 cometeu suicídio.</MSG>
+<MSG id="2009">Você derrotou $1.</MSG>
+<MSG id="2010">$1 derrotou você.</MSG>
+<MSG id="2011">$1 derrotou $2.</MSG>
+<MSG id="2012">Para jogar, aperte a tecla de Tiro!</MSG>
+<MSG id="2013">Aguardar por $1 segundo(s)!</MSG>
+<MSG id="2014">Você estará fora do jogo em $1 segundo(s).</MSG>
+<!-- ï¿½ì¶”?ï¿½ë¶€?11. 15. -->
+<MSG id="2015">Mensagem Privada ($1): $2</MSG>
+<MSG id="2016">O item foi colocado.</MSG>
+<MSG id="2017">O item não pode ser colocado.</MSG>
+<MSG id="2018">Você fez a compra.</MSG>
+<MSG id="2019">Você não pode fazer uma compra.</MSG>
+<MSG id="2020">Vendido.</MSG>
+<MSG id="2021">Não existe personagem para selecionar. Primeiro, crie um personagem.</MSG>
+<MSG id="2022">Você não pode vender isto.</MSG>
+<MSG id="2023">Você vai para a próxima rodada em $1 segundo(s).</MSG>
+<MSG id="2024">O Time recebeu: $1.</MSG>
+<MSG id="2025">Recebeu $2 $1(s).</MSG>
+<MSG id="2026">O Portal foi aberto.</MSG>
+<MSG id="2027">Balanceamento de times efetuado.</MSG>
+<MSG id="2028">Não existe cenário para esta combinação.</MSG>
+
+<!-- ï¿½ì¶”?ï¿½ë¶€?11. 15. -->
+<MSG id="3000">[GM]: $1</MSG>
+
+
+<!-- ï¿½ë©”ë‰´ -->
+<MSG id="8000">Nenhum</MSG>
+
+<MSG id="8001">Adicionar um amigo</MSG>
+<MSG id="8002">Excluir um amigo</MSG>
+<MSG id="8003">Verificar localização</MSG>
+<MSG id="8004">Encontrar com</MSG>
+<MSG id="8005">Mensagem Particular</MSG>
+<MSG id="8006">Expulsar</MSG>
+<MSG id="8007">Recrutar</MSG>
+
+<MSG id="8008">Delegar para o Líder do Clã</MSG>
+<MSG id="8009">Mudar para o sub-líder</MSG>
+<MSG id="8010">Mudar para um membro de Clã</MSG>
+<MSG id="8011">Expulsar Clã</MSG>
+<MSG id="8012">Sair do Clã</MSG>
+
+<MSG id="8013">Enviar para o Banco Central</MSG>
+
+<MSG id="8014">OK</MSG>
+<MSG id="8015">Cancelar</MSG>
+<MSG id="8016">Sim</MSG>
+<MSG id="8017">Não</MSG>
+<MSG id="8018">Mensagem</MSG>
+
+			
+<!-- ?ï¿½ì–´ -->
+<MSG id="9000"></MSG>
+<MSG id="9001">Líder do Clã</MSG>
+<MSG id="9002">Administrador do Clã</MSG>
+<MSG id="9003">Membro do Clã</MSG>
+
+<MSG id="9004">Administrador</MSG>
+<MSG id="9005">Desenvolvedor</MSG>
+<MSG id="9006">Comandos</MSG>
+<MSG id="9007">Ajuda</MSG>
+<MSG id="9008">Uso</MSG>
+
+<MSG id="9100">Masculino</MSG>
+<MSG id="9101">Feminino</MSG>
+<MSG id="9102">Masculino</MSG>
+<MSG id="9103">Feminino</MSG>
+
+<MSG id="9200">Lobby</MSG>
+<MSG id="9201">Fase</MSG>
+<MSG id="9202">Loja</MSG>
+<MSG id="9203">Equipamento</MSG>
+<MSG id="9204">Cash</MSG>
+
+<MSG id="9302">Para Homem</MSG>
+<MSG id="9349">Para Mulher</MSG>
+<MSG id="9303">Nível Minimo</MSG>
+<MSG id="9304">Peso</MSG>
+<MSG id="9305">Atributos: Fogo</MSG>
+<MSG id="9306">Atributos: Gelo</MSG>
+<MSG id="9307">Atributos: Veneno</MSG>
+<MSG id="9308">Atributos: Luz</MSG>
+<MSG id="9309">Duração</MSG>
+<MSG id="9310">Pente</MSG>
+<MSG id="9311">Dano</MSG>
+<MSG id="9312">Atraso</MSG>
+<MSG id="9313">Peso Máximo</MSG>
+<MSG id="9314">Velocidade</MSG>
+<MSG id="9315">Saltar [X]</MSG>
+<MSG id="9316">Corrida [X]</MSG>
+<MSG id="9317">Escalando parede [X]</MSG>
+<MSG id="9318">Dano</MSG>
+<MSG id="9319">Missão</MSG>
+<MSG id="9320">Item</MSG>
+<MSG id="9321">Sacrifício</MSG>
+<MSG id="9322">Jogadores</MSG>
+<MSG id="9323">Azul</MSG>
+<MSG id="9324">Vermelho</MSG>
+<MSG id="9325">Quantidade</MSG>
+<MSG id="9326">Localizando o time adversário</MSG>
+<MSG id="9327">Nº de itens</MSG>
+<MSG id="9328">Nº de NPC</MSG>
+<MSG id="9329">Progresso</MSG>
+<MSG id="9330">Tempo Restante</MSG>
+<MSG id="9331">V</MSG>
+<MSG id="9363">Objective Kills</MSG>
+<MSG id="9364">Round</MSG>
+
+<MSG id="9332">Frequência</MSG>
+<MSG id="9333">Graduação</MSG>
+<MSG id="9334">Regular</MSG>
+<MSG id="9335">Lendário</MSG>
+<MSG id="9336">Chefe</MSG>
+<MSG id="9337">Elite</MSG>
+<MSG id="9338">Veterano</MSG>
+<MSG id="9339">Muito Forte</MSG>
+<MSG id="9340">Forte</MSG>
+<MSG id="9341">Na Média</MSG>
+<MSG id="9342">Fraco</MSG>
+<MSG id="9343">Muito Fraco</MSG>
+
+<MSG id="9344">Infinito</MSG>
+<MSG id="9345">Não disponível</MSG>
+<MSG id="9346">Diferença de nível</MSG>
+<MSG id="9347">Permitido</MSG>
+<MSG id="9348">Proibido</MSG>
+
+<!-- 2006년 5월 3일 추가 -->
+<MSG id="9365">Tipo</MSG>
+<MSG id="9366">Exp</MSG>
+<MSG id="9367">Pontos</MSG>
+<MSG id="9368">Mortes</MSG>
+<MSG id="9369">Ping</MSG>
+
+<MSG id="9370">&lt; Cabeça &gt;</MSG>
+<MSG id="9371">&lt; Corpo &gt;</MSG>
+<MSG id="9372">&lt; Mãos &gt;</MSG>
+<MSG id="9373">&lt; Pernas &gt;</MSG>
+<MSG id="9374">&lt; Pés &gt;</MSG>
+<MSG id="9375">&lt; Anel 1 &gt;</MSG>
+<MSG id="9376">&lt; Anel 2 &gt;</MSG>
+<MSG id="9377">&lt; Lâmina &gt;</MSG>
+<MSG id="9378">&lt; Arma 1 &gt;</MSG>
+<MSG id="9379">&lt; Arma 2 &gt;</MSG>
+<MSG id="9380">&lt; Item 1 &gt;</MSG>
+<MSG id="9381">&lt; Item 2 &gt;</MSG>
+
+<MSG id="9382">Servidor Debug</MSG>
+<MSG id="9383">Servidor Geral (nível 1~10)</MSG>
+<MSG id="9384">Servidor Premium Clãs</MSG>
+<MSG id="9385">Servidor Premium Missões</MSG>
+<MSG id="9386">Servidor de Eventos</MSG>
+
+<MSG id="100100">Localizando um time adversário $1</MSG>
+<MSG id="100200">A votação em '$1' foi iniciada.</MSG>
+
+<MSG id="100300">Há uma palavra '$1' que você não pode usar.</MSG>
+
+
+<!-- ë§¤ì¹˜ ?ï¿½??-->
+<MSG id="9350">Combate</MSG>
+<MSG id="9351">Combate entre times</MSG>
+<MSG id="9352">Gladiador</MSG>
+<MSG id="9353">Gladiador entre times</MSG>
+<MSG id="9354">Eliminação</MSG>
+<MSG id="9355">Treinamento</MSG>
+<MSG id="9356">Clássico</MSG>
+<MSG id="9357">Clássico entre times</MSG>
+<MSG id="9358">Sobrevivência</MSG>
+<MSG id="9359">Missão</MSG>
+<MSG id="9360">Combate +Selvagens</MSG>
+<MSG id="9361">Combate entre times EXTREME</MSG>
+<MSG id="9362">Duel Combate</MSG>
+
+<!-- ì¶”? -->
+<MSG id="9400">restando</MSG>
+<MSG id="9401">Você entrou na fase '$1'.</MSG>
+<MSG id="9402">'$1' entrou na fase '$2'.</MSG>
+
+<MSG id="9500">Ligado</MSG>
+<MSG id="9501">Desligado</MSG>
+
+<MSG id="9601">Um programa ilegal foi detectado.</MSG>
+
+<!--
+<MSG id=""></MSG>
+-->
+
+<!-- ï¿½ê²½ê³  -->
+<MSG id="20000">Uma tentativa de Hack foi detectada. De acordo com o contrato de licença, Equipes de GMs continuam monitorando e recolhendo informações sobre os usuários envolvidos nesse ato. Tenha em mente que toda a responsabilidade em relação à execução de qualquer ato ilegal é do usuário que a cometer.</MSG>
+<MSG id="20001">Período de utilização encerrado.</MSG>
+<MSG id="20002">Você pode montar ou liberar um equipamento arrastando um ícone. Você não pode enviar um equipamento (ou item) de recompensa para o Banco.</MSG>
+<MSG id="20003">AVISO: The Duel não suporta o $1. Você pode ser incapaz de visualizar certas fontes ou continuar a jogar. Ainda assim deseja continuar?</MSG>
+<MSG id="20004">O The Duel requer o DirectX 9.0c para ser executado corretamente. Gostaria de instalar o DirectX 9.0c agora?</MSG>
+<MSG id="20005">http://www.levelupgames.com.br/theduel/downloads</MSG>
+<MSG id="20006">Por favor, digite 'SIM' se desejar excluir este personagem.</MSG>
+</XML>

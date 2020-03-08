@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<XML ID="MaietInterfaceDefinitionLanguage">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes">
+		<ElementType name="POINT">
+			<element name="X" type="int">
+				<default>0</default>
+			</element>
+			<element name="Y" type="int">
+				<default>0</default>
+			</element>
+		</ElementType>
+		<ElementType name="RECT">
+			<element name="X" type="int">
+				<default>0</default>
+			</element>
+			<element name="Y" type="int">
+				<default>0</default>
+			</element>
+			<element name="W" type="int">
+				<default>0</default>
+			</element>
+			<element name="H" type="int">
+				<default>0</default>
+			</element>
+		</ElementType>
+		<ElementType name="SIZE">
+			<element name="W" type="int">
+				<default>0</default>
+			</element>
+			<element name="H" type="int">
+				<default>0</default>
+			</element>
+		</ElementType>
+		<ElementType name="COLOR">
+			<element name="R" type="int">
+				<default>0</default>
+			</element>
+			<element name="G" type="int">
+				<default>0</default>
+			</element>
+			<element name="B" type="int">
+				<default>0</default>
+			</element>
+			<element name="ALPHA" type="int">
+				<default>255</default>
+			</element>
+		</ElementType>
+		
+		<ElementType name="CLASS">
+			<attribute name="item" type="string"/>
+		</ElementType>
+		<ElementType name="WIDGET">
+			<superType type="CLASS"/>
+			<attribute name="parent" type="string"/>
+			<element name="BOUNDS" type="RECT" />
+			<element name="TEXT" type="string" />
+		</ElementType>		
+		<ElementType name="LABEL">
+			<superType type="WIDGET"/>
+			<element name="TEXTCOLOR" type="COLOR" />
+		</ElementType>
+		<ElementType name="BUTTON">
+			<superType type="WIDGET"/>
+		</ElementType>
+		<ElementType name="FRAME">
+			<superType type="WIDGET"/>
+		</ElementType>
+	</Schema>
+</XML>

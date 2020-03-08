@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<XML>
+	<XMLHEADER>version="1.0" encoding="UTF-8"</XMLHEADER>
+	
+	<SKIN>Default</SKIN>
+	
+	<DEFFONT>MS UI Gothic</DEFFONT>
+	
+	<IME>true</IME>
+	
+	<BAREPORT>
+		<ADDR>www.battlearena.com</ADDR>
+		<DIR>incoming/gunz_japan</DIR>
+	</BAREPORT>
+	
+	<EMBLEM_URL>http://img.netmarble.jp/4G/game/CPSITE/gunz_beta</EMBLEM_URL>
+
+	<HOMEPAGE>
+	    <URL>http://gunz.netmarble.jp/</URL>
+	    <TITLE>ネットマーブル</TITLE>
+	</HOMEPAGE>
+</XML>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XML id="shop">
+	<!-- Dagger -->
+	<SELL itemid="1" />
+	<SELL itemid="11" />
+	<SELL itemid="3" />
+	<SELL itemid="4" />
+	<SELL itemid="5" />
+	<SELL itemid="6" />
+	<SELL itemid="7" />
+
+	<!-- Katana -->
+	<SELL itemid="2" />
+	<SELL itemid="12" />
+	<SELL itemid="13" />
+	<SELL itemid="14" />
+	<SELL itemid="15" />
+	<SELL itemid="16" />
+	<SELL itemid="17" />
+
+	<!-- Dual Katana -->
+
+	<SELL itemid="31" />
+	<SELL itemid="32" />
+	<SELL itemid="33" />
+	<SELL itemid="34" />
+
+	<!-- Pistol -->
+	<SELL itemid="4001" />
+	<SELL itemid="4002" />
+	<SELL itemid="4009" />
+	<SELL itemid="4010" />
+	<SELL itemid="4011" />
+	<SELL itemid="4012" />
+	<SELL itemid="4003" />
+	<SELL itemid="4004" />
+	<SELL itemid="4013" />
+	<SELL itemid="4014" />
+	<SELL itemid="4015" />
+	<SELL itemid="4016" />
+	<SELL itemid="4017" />
+	<SELL itemid="4018" />
+	<SELL itemid="4019" />
+	<SELL itemid="4020" />
+
+	<!-- Revolver -->
+	<SELL itemid="4005" />
+	<SELL itemid="4006" />
+	<SELL itemid="4501" />
+	<SELL itemid="4502" />
+	<SELL itemid="4503" />
+	<SELL itemid="4504" />
+	<SELL itemid="4007" />
+	<SELL itemid="4008" />
+	<SELL itemid="4505" />
+	<SELL itemid="4506" />
+	<SELL itemid="4507" />
+	<SELL itemid="4508" />
+	<SELL itemid="4509" />
+	<SELL itemid="4510" />
+	<SELL itemid="4511" />
+	<SELL itemid="4512" />
+	<SELL itemid="4513" />
+	<SELL itemid="4514" />
+
+	<!-- SMG -->
+	<SELL itemid="5001" />
+	<SELL itemid="5002" />
+	<SELL itemid="5003" />
+	<SELL itemid="5004" />
+	<SELL itemid="5005" />
+	<SELL itemid="5006" />
+	<SELL itemid="5007" />
+	<SELL itemid="5008" />
+	<SELL itemid="5009" />
+	<SELL itemid="5010" />
+	<SELL itemid="5011" />
+	<SELL itemid="5012" />
+	<SELL itemid="5013" />
+	<SELL itemid="5014" />
+	<SELL itemid="5015" />
+	<SELL itemid="5016" />
+	<SELL itemid="5017" />
+	<SELL itemid="5018" />
+
+	<!-- SHOTGUN -->
+	<SELL itemid="6001" />
+	<SELL itemid="6002" />
+	<SELL itemid="6003" />
+	<SELL itemid="6004" />
+	<SELL itemid="6005" />
+	<SELL itemid="6006" />
+	<SELL itemid="6007" />
+
+	<!-- RIFLE -->
+	<SELL itemid="7001" />
+	<SELL itemid="7002" />
+	<SELL itemid="7003" />
+	<SELL itemid="7004" />
+	<SELL itemid="7005" />
+	<SELL itemid="7006" />
+	<SELL itemid="7007" />
+	<SELL itemid="7008" />
+
+	<!-- ROCKET LAUNCHER -->
+	<SELL itemid="9006" />
+	<SELL itemid="9001" />
+	<SELL itemid="9002" />
+	<SELL itemid="9003" />
+	<SELL itemid="9004" />
+	<SELL itemid="9005" />
+
+	<!-- MACHINEGUN -->
+	<SELL itemid="8001" />
+	<SELL itemid="8002" />
+	<SELL itemid="8003" />
+
+
+	<!-- 남성 자켓 -->
+	<SELL itemid="21001" />
+	<SELL itemid="21006" />
+	<SELL itemid="21002" />
+	<SELL itemid="21003" />
+	<SELL itemid="21004" />
+	<SELL itemid="21007" />
+	<SELL itemid="21005" />
+	<SELL itemid="21008" />
+
+	<!-- 여성 자켓 -->
+	<SELL itemid="21501" />
+	<SELL itemid="21506" />
+	<SELL itemid="21502" />
+	<SELL itemid="21503" />
+	<SELL itemid="21504" />
+	<SELL itemid="21507" />
+	<SELL itemid="21505" />
+	<SELL itemid="21508" />
+
+	<!-- 남성 장갑 -->
+	<SELL itemid="22001" />
+	<SELL itemid="22002" />
+	<SELL itemid="22004" />
+	<SELL itemid="22003" />
+	<SELL itemid="22005" />
+
+	<!-- 여성 장갑 -->
+	<SELL itemid="22501" />
+	<SELL itemid="22502" />
+	<SELL itemid="22504" />
+	<SELL itemid="22503" />
+	<SELL itemid="22505" />
+
+	<!-- 남성 바지 -->
+	<SELL itemid="23001" />
+	<SELL itemid="23005" />
+	<SELL itemid="23002" />
+	<SELL itemid="23004" />
+	<SELL itemid="23003" />
+	<SELL itemid="23006" />
+	<SELL itemid="23007" />
+
+	<!-- 여성 바지 -->
+	<SELL itemid="23501" />
+	<SELL itemid="23508" />
+<!-- NOUGHED
+	<SELL itemid="23502" />
+	<SELL itemid="23503" />
+	<SELL itemid="23504" />
+-->
+	<SELL itemid="23505" />
+	<SELL itemid="23506" />
+	<SELL itemid="23507" />
+	<SELL itemid="23509" />
+	<SELL itemid="23510" />
+
+	<!-- 남성 신발 -->
+	<SELL itemid="24001" />
+	<SELL itemid="24002" />
+	<SELL itemid="24003" />
+	<SELL itemid="24005" />
+	<SELL itemid="24004" />
+	<SELL itemid="24006" />
+
+	<!-- 여성 신발 -->
+	<SELL itemid="24501" />
+	<SELL itemid="24502" />
+	<SELL itemid="24503" />
+	<SELL itemid="24505" />
+	<SELL itemid="24504" />
+	<SELL itemid="24506" />
+
+	<!-- RING -->
+	<SELL itemid="25001" />
+	<SELL itemid="25002" />
+	<SELL itemid="25003" />
+	<SELL itemid="25004" />
+	<SELL itemid="25005" />
+
+	<SELL itemid="25006" />
+	<SELL itemid="25007" />
+	<SELL itemid="25008" />
+	<SELL itemid="25000" />
+	<SELL itemid="25010" />
+
+	<!-- HEALING KITS -->
+	<SELL itemid="30001" />
+	<SELL itemid="30002" />
+	<SELL itemid="30003" />
+
+	<!-- REPAIR KITS -->
+	<SELL itemid="30101" />
+	<SELL itemid="30102" />
+	<SELL itemid="30103" />
+
+	<!-- GRENADE -->
+	<SELL itemid="30301" />
+	<SELL itemid="30302" />
+	<SELL itemid="30303" />
+	<SELL itemid="30304" />
+	<SELL itemid="30305" />
+
+	<!-- FLASHBANG -->
+	<SELL itemid="30201" />
+	<SELL itemid="30202" />
+	<SELL itemid="30203" />
+	<SELL itemid="30204" />
+	<SELL itemid="30205" />
+
+	<!-- SMOKE -->
+	<SELL itemid="30401" />
+	<SELL itemid="30402" />
+	<SELL itemid="30403" />
+	<SELL itemid="30404" />
+	<SELL itemid="30405" />
+	
+	<!-- Quest Page -->
+	<SELL itemid="200001" />
+	<SELL itemid="200002" />
+	<SELL itemid="200003" />
+	<!--
+	<SELL itemid="200004" />
+	-->
+	
+	<!-- Quest Skull 
+	<SELL itemid="200005" />
+	<SELL itemid="200006" />
+	<SELL itemid="200007" />
+	<SELL itemid="200008" />
+	<SELL itemid="200009" />
+	<SELL itemid="200010" />
+	-->
+	
+	<!-- Quest Fresh 
+	<SELL itemid="200011" />
+	<SELL itemid="200012" />
+	<SELL itemid="200013" />
+	-->
+	
+	<!-- Quest Ring 
+	<SELL itemid="200014" />
+	<SELL itemid="200015" />
+	<SELL itemid="200016" />
+	<SELL itemid="200017" />
+	-->
+	
+	<!-- Quest Necklace 
+	<SELL itemid="200018" />
+	-->
+	
+	<!-- Quest Doll 
+	<SELL itemid="200019" />
+	<SELL itemid="200020" />
+	<SELL itemid="200021" />
+	<SELL itemid="200022" />
+	<SELL itemid="200023" />
+	<SELL itemid="200024" />
+	<SELL itemid="200025" />
+	<SELL itemid="200026" />
+	<SELL itemid="200027" />
+	-->
+	
+	<!-- Quest Book 
+	<SELL itemid="200028" />
+	<SELL itemid="200029" />
+	<SELL itemid="200030" />
+	-->
+	
+	<!-- Quest Object 
+	<SELL itemid="200031" />
+	<SELL itemid="200032" />
+	<SELL itemid="200033" />
+	<SELL itemid="200034" />
+	<SELL itemid="200035" />
+	<SELL itemid="200036" />
+	<SELL itemid="200037" />
+	-->
+	
+	<!-- Quest Sword 
+	<SELL itemid="200038" />
+	-->
+</XML>
+

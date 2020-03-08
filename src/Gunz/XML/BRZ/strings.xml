@@ -1,0 +1,2209 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML>
+
+<!-- zitem.xml -->
+<STR id="ZITEM_NAME_1">Adaga Velha</STR>
+<STR id="ZITEM_DESC_1">Ela tem alguma ferrugem aqui e ali. Uma vez comprada e usada, com certeza será difícil vendê-la.</STR>
+
+<STR id="ZITEM_NAME_2">Espada Velha</STR>
+<STR id="ZITEM_DESC_2">Ela está um pouco enferrujada. Parece que vai ser difícil vendê-la depois de ter comprado e usado.</STR>
+
+<STR id="ZITEM_NAME_3">Adaga Militar</STR>
+<STR id="ZITEM_DESC_3">Uma adaga usada no exército para realizar ataques de surpresa.</STR>
+
+<STR id="ZITEM_NAME_4">Adaga Leve</STR>
+<STR id="ZITEM_DESC_4">Uma adaga muito leve e fácil de usar.</STR>
+
+<STR id="ZITEM_NAME_5">Adaga Especial</STR>
+<STR id="ZITEM_DESC_5">Uma adaga artesanal. Uma bela imagem gravada na superfície pelo artesão se destaca. Ela parece pesada.</STR>
+
+<STR id="ZITEM_NAME_6">Adaga Fantasma</STR>
+<STR id="ZITEM_DESC_6">Esta é uma adaga misteriosa que dizem ser usada para matar espíritos malignos, mas não se sabe se isso é verdade ou não.</STR>
+
+<STR id="ZITEM_NAME_7">KEUK-CHO-HON</STR>
+<STR id="ZITEM_DESC_7">Esta adaga é usada por pouquíssimas pessoas. Dizem que apenas um número limitado dessas adagas foi produzido.</STR>
+
+<STR id="ZITEM_NAME_11">Adaga de Ferro</STR>
+<STR id="ZITEM_DESC_11">Uma adaga que pode ser obtida facilmente pois é produzida em massa. Um número de série meio apagado pode ser visto na superfície.</STR>
+
+<STR id="ZITEM_NAME_12">Espada de Ferro</STR>
+<STR id="ZITEM_DESC_12">Uma espada que pode ser obtida facilmente pois é produzida em massa. Um número de série meio apagado pode ser visto na superfície.</STR>
+
+<STR id="ZITEM_NAME_13">Espada Militar</STR>
+<STR id="ZITEM_DESC_13">Esta espada é usada no exército. Dizem que essa arma não é fornecida para simples oficiais ou para destacamentos. Ela parece ter uma lamina muito afiada.</STR>
+
+<STR id="ZITEM_NAME_14">Espada Leve</STR>
+<STR id="ZITEM_DESC_14">Uma espada leve fácil de usar.</STR>
+
+<STR id="ZITEM_NAME_15">Espada de Alta Qualidade</STR>
+<STR id="ZITEM_DESC_15">Esta espada é feita de materiais de muita qualidade para fins especiais.</STR>
+
+<STR id="ZITEM_NAME_16">Executora de Demônios</STR>
+<STR id="ZITEM_DESC_16">Esta é uma espada misteriosa que dizem ser usada para matar espíritos malignos.</STR>
+
+<STR id="ZITEM_NAME_17">YONG-WOL-RANG</STR>
+<STR id="ZITEM_DESC_17">Esta conhecida espada é folheada a ouro. O visual atraente faz com que os colecionadores de espada a desejem desesperadamente.</STR>
+
+<STR id="ZITEM_NAME_31">Kodachi de Ferro</STR>
+<STR id="ZITEM_DESC_31">Uma Kodachi feita de forma que pode ser usada por ambas as mãos. Apropriada para o público em geral.</STR>
+
+<STR id="ZITEM_NAME_32">Kodachi Leve</STR>
+<STR id="ZITEM_DESC_32">Uma Kodachi feita de forma que pode ser usada facilmente por ambas as mãos. Ela é relativamente mais leve e menor do que a normal.</STR>
+
+<STR id="ZITEM_NAME_33">Kodachi Especial</STR>
+<STR id="ZITEM_DESC_33">Esta Kodachi é feita com materiais de muita qualidade para uso especial.</STR>
+
+<STR id="ZITEM_NAME_34">Sangue Vermelho</STR>
+<STR id="ZITEM_DESC_34">Dizem que esta Kodachi de nome assustador foi usada por um grande espadachim há muito tempo.</STR>
+
+<STR id="ZITEM_NAME_51">Espada Grande</STR>
+<STR id="ZITEM_DESC_51">Uma espada muito grande.</STR>
+
+<STR id="ZITEM_NAME_4001">Raptor 50</STR>
+<STR id="ZITEM_DESC_4001">Esta pistola é usada há muito tempo no império. Sua produção foi interrompida. Fabricante: Walcom.</STR>
+
+<STR id="ZITEM_NAME_4002">Raptor 50 x2</STR>
+<STR id="ZITEM_DESC_4002">(Arma Dupla) Esta pistola é usada há muito tempo no império. Sua produção foi interrompida. Fabricante: Walcom.</STR>
+
+<STR id="ZITEM_NAME_4003">Raptor 120</STR>
+<STR id="ZITEM_DESC_4003">Desenvolvida para os militares. Seu controle é melhor do que o da Raptor 80. Fabricante: Walcom.</STR>
+
+<STR id="ZITEM_NAME_4004">Raptor 120 x2</STR>
+<STR id="ZITEM_DESC_4004">(Arma Dupla) Desenvolvida para os militares. Seu controle é melhor se comparada com a Raptor 80.  Fabricante: Walcom.</STR>
+
+<STR id="ZITEM_NAME_4005">Minic 567</STR>
+<STR id="ZITEM_DESC_4005">Este lendário revólver foi produzido pela Maxwell e fornecido para a infantaria da República. Agora sua produção foi interrompida.</STR>
+
+<STR id="ZITEM_NAME_4006">Minic 567 x2</STR>
+<STR id="ZITEM_DESC_4006">(Arma Dupla) Este lendário revólver foi produzido pela Maxwell e fornecido para a infantaria da República. Agora sua produção foi interrompida.</STR>
+
+<STR id="ZITEM_NAME_4007">Zaurus A</STR>
+<STR id="ZITEM_DESC_4007">Este revólver foi desenvolvido pela Walcom para os militares.</STR>
+
+<STR id="ZITEM_NAME_4008">Zaurus A x2</STR>
+<STR id="ZITEM_DESC_4008">(Arma Dupla) Este revólver foi desenvolvido pela Walcom para os militares.</STR>
+
+<STR id="ZITEM_NAME_4009">Raptor 80</STR>
+<STR id="ZITEM_DESC_4009">Um modelo revisado do Raptor 50. Seu desempenho melhorou ligeiramente, mas a aparência não mudou nada da versão anterior. Sua produção foi interrompida muito cedo, pois a concorrência lançou um novo produto. Fabricante: Walcom.</STR>
+
+<STR id="ZITEM_NAME_4010">Raptor 80 x2</STR>
+<STR id="ZITEM_DESC_4010">(Arma Dupla) Um modelo revisado do Raptor 50. Seu desempenho melhorou ligeiramente, mas a aparência não mudou nada da versão anterior. Fabricante: Walcom.</STR>
+
+<STR id="ZITEM_NAME_4011">Raven 5</STR>
+<STR id="ZITEM_DESC_4011">Esta pistola foi produzida para ser fornecida para a frente de batalha da República. Fabricante: Maxwell</STR>
+
+<STR id="ZITEM_NAME_4012">Raven 5 x2</STR>
+<STR id="ZITEM_DESC_4012">(Arma Dupla) Esta pistola foi produzida para ser fornecida para a frente de batalha da República. Fabricante: Maxwell</STR>
+
+<STR id="ZITEM_NAME_4013">Raven 6</STR>
+<STR id="ZITEM_DESC_4013">O modelo que veio depois da Raven 5. O desempenho foi melhorado, mas o fabricante não conseguiu torná-la mais leve. Fabricante: Maxwell</STR>
+
+<STR id="ZITEM_NAME_4014">Raven 6 x2</STR>
+<STR id="ZITEM_DESC_4014">(Arma Dupla) O modelo que veio depois da Raven 5. O desempenho foi melhorado, mas o fabricante não conseguiu torná-la mais leve. Fabricante: Maxwell</STR>
+
+<STR id="ZITEM_NAME_4015">Raptor 160</STR>
+<STR id="ZITEM_DESC_4015">O modelo subseqüente da Raptor 120. Um desempenho mais poderoso e uma excelente cadência de tiro.</STR>
+
+<STR id="ZITEM_NAME_4016">Raptor 160 x2</STR>
+<STR id="ZITEM_DESC_4016">(Arma Dupla) O modelo subseqüente da Raptor 120. Um desempenho mais poderoso e uma excelente cadência de tiro.</STR>
+
+<STR id="ZITEM_NAME_4017">Raven 7</STR>
+<STR id="ZITEM_DESC_4017">Esta Raven 7 teve seu poder de fogo e cadência de tiro melhorados, mas ainda possui algumas desvantagens em termos de controle e peso.</STR>
+
+<STR id="ZITEM_NAME_4018">Raven 7 x2</STR>
+<STR id="ZITEM_DESC_4018">(Arma Dupla) Esta Raven 7 teve seu poder de fogo e cadência de tiro melhorados, mas ainda possui algumas desvantagens no controle e no peso.</STR>
+
+<STR id="ZITEM_NAME_4019">Raptor 200</STR>
+<STR id="ZITEM_DESC_4019">A série Raptor ganhou fama com sua mira de alta precisão. Essa arma mostra a capacidade de desenvolvimento avançado da Walcom.</STR>
+
+<STR id="ZITEM_NAME_4020">Raptor 200 x2</STR>
+<STR id="ZITEM_DESC_4020">(Arma Dupla) A série Raptor ganhou fama com sua mira de alta precisão. Essa arma mostra a capacidade de desenvolvimento avançado da Walcom.</STR>
+
+<STR id="ZITEM_NAME_4501">Dynax 7000</STR>
+<STR id="ZITEM_DESC_4501">A versão inicial do revólver leve da Canox. Embora sua produção tenha sido interrompida, a Dynax de segunda mão está sempre no mercado.</STR>
+
+<STR id="ZITEM_NAME_4502">Dynax 7000 x2</STR>
+<STR id="ZITEM_DESC_4502">(Arma Dupla) A versão inicial do revólver leve da Canox. Embora sua produção tenha sido interrompida, a Dynax de segunda mão está sempre no mercado.</STR>
+
+<STR id="ZITEM_NAME_4503">Minic 567 Edição Limitada</STR>
+<STR id="ZITEM_DESC_4503">Este modelo foi produzido para comemorar o quinto aniversário da Minic da Maxwell. Possui segurança e poder maiores do que o original.</STR>
+
+<STR id="ZITEM_NAME_4504">Minic 567 Edição Limitada x2</STR>
+<STR id="ZITEM_DESC_4504">(Arma Dupla) Este modelo foi produzido para comemorar o quinto aniversário da Minic da Maxwell. Possui segurança e poder maiores do que o original.</STR>
+
+<STR id="ZITEM_NAME_4505">Phantom Cruise</STR>
+<STR id="ZITEM_DESC_4505">Revólver de alta qualidade, produzido pela Nico. Seu design aperfeiçoado é o que atrai os entusiastas.</STR>
+
+<STR id="ZITEM_NAME_4506">Phantom Cruise x2</STR>
+<STR id="ZITEM_DESC_4506">(Arma Dupla) Revólver de alta qualidade, produzido pela Nico. Seu design aperfeiçoado é o que atrai os entusiastas.</STR>
+
+<STR id="ZITEM_NAME_4507">Phantom Cruise N</STR>
+<STR id="ZITEM_DESC_4507">Modelo do Phantom Cruise ligeiramente melhorado. Seu desempenho foi o alvo das melhorias.</STR>
+
+<STR id="ZITEM_NAME_4508">Phantom Cruise N x2</STR>
+<STR id="ZITEM_DESC_4508">(Arma Dupla) Modelo do Phantom Cruise ligeiramente melhorado. Seu desempenho foi o alvo das melhorias.</STR>
+
+<STR id="ZITEM_NAME_4509">Dynax 8000</STR>
+<STR id="ZITEM_DESC_4509">Revólver leve da Canox. Como o modelo que veio depois do Dynax 7000, seu desempenho foi melhorado extraordinariamente.</STR>
+
+<STR id="ZITEM_NAME_4510">Dynax 8000 x2</STR>
+<STR id="ZITEM_DESC_4510">(Arma Dupla) Revólver leve da Canox. Como o modelo que veio depois do Dynax 7000, seu desempenho foi melhorado extraordinariamente.</STR>
+
+<STR id="ZITEM_NAME_4511">Minic 567 MK.II</STR>
+<STR id="ZITEM_DESC_4511">Este modelo foi produzido para comemorar o quinto aniversário da Minic da Maxwell. Possui segurança e poder maiores do que o original.</STR>
+
+<STR id="ZITEM_NAME_4512">Minic 567 MK.II x2</STR>
+<STR id="ZITEM_DESC_4512">(Arma Dupla) Este modelo foi produzido para comemorar o quinto aniversário da Minic da Maxwell. Possui segurança e poder maiores do que o original.</STR>
+
+<STR id="ZITEM_NAME_4513">Zaurus B</STR>
+<STR id="ZITEM_DESC_4513">O Zaurus Tipo B possui um sólido poder de fogo. Ele tem uma ótima precisão.</STR>
+
+<STR id="ZITEM_NAME_4514">Zaurus B x2</STR>
+<STR id="ZITEM_DESC_4514">(Arma Dupla) O Zaurus Tipo B possui um sólido poder de fogo. Ele tem ainda uma melhor precisão.</STR>
+
+<STR id="ZITEM_NAME_5001">Renard</STR>
+<STR id="ZITEM_DESC_5001">Esta antiga submetralhadora produzida pela Canox é usada há muito tempo. Sua produção foi interrompida.</STR>
+
+<STR id="ZITEM_NAME_5002">Renard x2</STR>
+<STR id="ZITEM_DESC_5002">(Arma Dupla) Esta antiga submetralhadora produzida pela Canox é usada há muito tempo. Sua produção foi interrompida.</STR>
+
+<STR id="ZITEM_NAME_5003">Walcom S5</STR>
+<STR id="ZITEM_DESC_5003">Esta submetralhadora produzida pela Walcom é muito popular, com um melhor poder de fogo e uma maior capacidade de carregar balas.</STR>
+
+<STR id="ZITEM_NAME_5004">Walcom S5 x2</STR>
+<STR id="ZITEM_DESC_5004">(Arma Dupla) Esta submetralhadora produzida pela Walcom é muito popular, com um melhor poder de fogo e um pente de maior capacidade.</STR>
+
+<STR id="ZITEM_NAME_5005">Ellan</STR>
+<STR id="ZITEM_DESC_5005">A submetralhadora pequena da Canox. Ela é produzida com uma atenção maior para à portabilidade.</STR>
+
+<STR id="ZITEM_NAME_5006">Ellan x2</STR>
+<STR id="ZITEM_DESC_5006">(Arma Dupla) A submetralhadora pequena da Canox. Ela é produzida com uma atenção maior à portabilidade.</STR>
+
+<STR id="ZITEM_NAME_5007">Renard V</STR>
+<STR id="ZITEM_DESC_5007">Modelo subsequente da Renard. Maior poder de controle e cadência de tiro.</STR>
+
+<STR id="ZITEM_NAME_5008">Renard V x2</STR>
+<STR id="ZITEM_DESC_5008">(Arma Dupla) Modelo subsequente da Renard. Maior poder de controle e cadência de tiro.</STR>
+
+<STR id="ZITEM_NAME_5009">Walcom S6</STR>
+<STR id="ZITEM_DESC_5009">Modelo produzido depois da Walcom S5. Maior poder de fogo e estabilidade em comparação com o modelo anterior.</STR>
+
+<STR id="ZITEM_NAME_5010">Walcom S6 x2</STR>
+<STR id="ZITEM_DESC_5010">(Arma Dupla) Modelo produzido depois da Walcom S5. Maior poder de fogo e estabilidade em comparação com o modelo anterior.</STR>
+
+<STR id="ZITEM_NAME_5011">Nova Renard V</STR>
+<STR id="ZITEM_DESC_5011">Nova versão da popular Renard V produzida pela Canox.</STR>
+
+<STR id="ZITEM_NAME_5012">Nova Renard V x2</STR>
+<STR id="ZITEM_DESC_5012">(Arma Dupla) Nova versão da popular Renard V produzida pela Canox.</STR>
+
+<STR id="ZITEM_NAME_5013">Walcom XL</STR>
+<STR id="ZITEM_DESC_5013">Este modelo foi produzido para comemorar o 70º aniversário da Walcom. Possui um corpo leve e é chamada de 'mini S6'.</STR>
+
+<STR id="ZITEM_NAME_5014">Walcom XL x2</STR>
+<STR id="ZITEM_DESC_5014">(Arma Dupla) Este modelo foi produzido para comemorar o 70º aniversário da Walcom. Possui um corpo leve e é chamada de 'mini S6'.</STR>
+
+<STR id="ZITEM_NAME_5015">Renard VI</STR>
+<STR id="ZITEM_DESC_5015">Este novo modelo foi produzido pela Canox, cuja popularidade foi diminuída pela Walcom XL.</STR>
+
+<STR id="ZITEM_NAME_5016">Renard VI x2</STR>
+<STR id="ZITEM_DESC_5016">(Arma Dupla) Este novo modelo foi produzido pela Canox, cuja popularidade foi diminuída pela Walcom XL.</STR>
+
+<STR id="ZITEM_NAME_5017">Walcom XLS</STR>
+<STR id="ZITEM_DESC_5017">Novo modelo produzido pela Walcom, que tentou tirar vantagem da Walcom XL. A única diferença do modelo antigo é um maior poder de fogo.</STR>
+
+<STR id="ZITEM_NAME_5018">Walcom XLS x2</STR>
+<STR id="ZITEM_DESC_5018">(Arma Dupla) Novo modelo produzido pela Walcom, que tentou tirar vantagem da Walcom XL. A única diferença do modelo antigo é um maior poder de fogo.</STR>
+
+<STR id="ZITEM_NAME_6001">Treme-Terra 3</STR>
+<STR id="ZITEM_DESC_6001">Escopeta de sistema 'Pump Action' fabricada pela Leonics, que há muito tempo vem se especializando na produção de escopetas. Sua produção foi interrompida.</STR>
+
+<STR id="ZITEM_NAME_6002">Treme-Terra 5</STR>
+<STR id="ZITEM_DESC_6002">Escopeta de sistema 'Pump Action' produzida pela Leonics. Embora tenha sido produzida há muito tempo, ainda se mantém muito popular.</STR>
+
+<STR id="ZITEM_NAME_6003">Treme-Terra 6</STR>
+<STR id="ZITEM_DESC_6003">Nova escopeta da Leonics que foi lançada muito recentemente.</STR>
+
+<STR id="ZITEM_NAME_6004">Treme-Terra 7</STR>
+<STR id="ZITEM_DESC_6004">O 7º modelo da Leonics adotou um design diferente do usado nos modelos antigos. </STR>
+
+<STR id="ZITEM_NAME_6005">Vingadora</STR>
+<STR id="ZITEM_DESC_6005">Escopeta lançada pela Nico, um produto magnífico. Esta arma possui um poder de fogo destrutivo, mas tem uma desvantagem, ela só pode carregar um pequeno número de cartuchos.</STR>
+
+<STR id="ZITEM_NAME_6006">Treme-Terra 8</STR>
+<STR id="ZITEM_DESC_6006">Nova escopeta produzida pela Leonics, que é muito famosa na série Treme-Terra.</STR>
+
+<STR id="ZITEM_NAME_6007">Vingadora MK.II</STR>
+<STR id="ZITEM_DESC_6007">Novo modelo da Vingadora que pega os aventureiros de surpresa.</STR>
+
+<STR id="ZITEM_NAME_7001">Nico R2</STR>
+<STR id="ZITEM_DESC_7001">Rifle produzido pela Nico logo no início do projeto.</STR>
+
+<STR id="ZITEM_NAME_7002">Nico R5</STR>
+<STR id="ZITEM_DESC_7002">Um dos rifles mais populares do exército Republicano.</STR>
+
+<STR id="ZITEM_NAME_7003">Walcom Warrior 77</STR>
+<STR id="ZITEM_DESC_7003">Produzida pela Walcom, ela possui a desvantagem de ser difícil de usar, mas tem um poder de fogo relativamente bom.</STR>
+
+<STR id="ZITEM_NAME_7004">Maxwell LX30</STR>
+<STR id="ZITEM_DESC_7004">Produzida pela Maxwell, esta arma possui uma empunhadura estável, boa operabilidade e alta cadência de tiro.</STR>
+
+<STR id="ZITEM_NAME_7005">Nico R6</STR>
+<STR id="ZITEM_DESC_7005">Modelo que substituiu o popular R5 da Nico. Com seu poder de fogo melhorado.</STR>
+
+<STR id="ZITEM_NAME_7006">Maxwell LX44</STR>
+<STR id="ZITEM_DESC_7006">(Item Descontinuado) Rifle com uma taxa de repetição maior do que o LX30. Possui empunhadura estável com alta precisão.</STR>
+
+<STR id="ZITEM_NAME_7007">Nico R7</STR>
+<STR id="ZITEM_DESC_7007">Novo rifle da Nico com maior poder de fogo.</STR>
+
+<STR id="ZITEM_NAME_7008">Walcom Warrior 88</STR>
+<STR id="ZITEM_DESC_7008">Embora ainda não seja fácil de usar, este novo produto da Walcom é desenvolvido com o pensamento voltado para um maior poder de fogo.</STR>
+
+<STR id="ZITEM_NAME_8001">Nico MG-K8</STR>
+<STR id="ZITEM_DESC_8001">Ela é tão pesada que é difícil carregá-la, mas seu poder de fogo e a alta taxa de cadência de tiro fazem com que seus inimigos tremam de medo.</STR>
+
+<STR id="ZITEM_NAME_8002">Nico MG-K9</STR>
+<STR id="ZITEM_DESC_8002">Metralhadora K9 com poder ampliado. Sua poderosa velocidade de disparo em série e seu controle deram-lhe o nome 'Poder de Fogo Infernal'.</STR>
+
+<STR id="ZITEM_NAME_8003">Nico MG-KX</STR>
+<STR id="ZITEM_DESC_8003">A nova metralhadora da Nico com poder de fogo explosivo. Só de olhar para a MG-KX o inimigo já sentirá dor.</STR>
+
+<STR id="ZITEM_NAME_9001">Walcom L1</STR>
+<STR id="ZITEM_DESC_9001">Lança-foguetes de grande poder de fogo produzido pela Walcom.</STR>
+
+<STR id="ZITEM_NAME_9002">Maxwell RW-77</STR>
+<STR id="ZITEM_DESC_9002">Lança-foguetes produzido pela Maxwell. Possui maior número de projéteis que a série L da Walcom e uma melhor capacidade de repetição, entretanto, o poder de fogo foi sacrificado.</STR>
+
+<STR id="ZITEM_NAME_9003">Walcom L1 mk. II</STR>
+<STR id="ZITEM_DESC_9003">Lança-foguetes da Walcom. Este modelo levemente atualizado do L1 possui um poder de fogo um pouco maior.</STR>
+
+<STR id="ZITEM_NAME_9004">Maxwell RW-88</STR>
+<STR id="ZITEM_DESC_9004">Uma versão melhorada do RW-77. Embora sua aparência não tenha mudado, ele conta com um melhor poder de repetição.</STR>
+
+<STR id="ZITEM_NAME_9005">Walcom L2</STR>
+<STR id="ZITEM_DESC_9005">Lança-foguetes da Walcom. Com maior capacidade de projéteis do que o L1, ele tornou-se uma arma mais poderosa e um pouco mais leve.</STR>
+
+<STR id="ZITEM_NAME_9006">Maxwell RW-66</STR>
+<STR id="ZITEM_DESC_9006">Lança-foguetes feito logo nos primeiros dias de existência da Maxwell. Não possui muito poder de fogo.</STR>
+
+<STR id="ZITEM_NAME_10001">Rifle Sniper 1</STR>
+<STR id="ZITEM_DESC_10001">Rifle de precisão produzido pela Bird.</STR>
+
+<STR id="ZITEM_NAME_21001">Camiseta Esportiva Ares</STR>
+<STR id="ZITEM_DESC_21001">Camiseta esportiva masculina produzida pela Ares, um fornecedor de vestimentas militares.</STR>
+
+<STR id="ZITEM_NAME_21002">Camisa de Algodão Renaut</STR>
+<STR id="ZITEM_DESC_21002">Camisa masculina de algodão muito flexível produzido pela Renaut Sports.</STR>
+
+<STR id="ZITEM_NAME_21003">Jaqueta de Couro Venico</STR>
+<STR id="ZITEM_DESC_21003">Jaqueta de couro masculina produzida pela Venico.</STR>
+
+<STR id="ZITEM_NAME_21004">Casaco de Inverno Vinz</STR>
+<STR id="ZITEM_DESC_21004">Este casaco de couro e tecido para homens conta com um bom isolamento térmico.</STR>
+
+<STR id="ZITEM_NAME_21005">Jaqueta de Couro Miz</STR>
+<STR id="ZITEM_DESC_21005">Jaqueta masculina de chuva muito moderna e elegante produzida pela Miz, antiga produtora oficial da Jaqueta Militar Ares.</STR>
+
+<STR id="ZITEM_NAME_21006">Jaqueta Militar Ares</STR>
+<STR id="ZITEM_DESC_21006">Jaqueta especial que a Ares produziu para fornecer aos militares.</STR>
+
+<STR id="ZITEM_NAME_21007">Sobretudo Vinz</STR>
+<STR id="ZITEM_DESC_21007">Casaco masculino longo de algodão produzido pela Vinz.</STR>
+
+<STR id="ZITEM_NAME_21008">Camisa Leve da Renaut</STR>
+<STR id="ZITEM_DESC_21008">Camisa masculina para o verão com estampa de flores produzida pela Renaut.</STR>
+
+<STR id="ZITEM_NAME_21501">Camiseta de Algodão Flex</STR>
+<STR id="ZITEM_DESC_21501">Camiseta feminina de Algodão. Este produto é especialmente apropriado para mulheres esportistas.</STR>
+
+<STR id="ZITEM_NAME_21502">Jaqueta de Couro Urike</STR>
+<STR id="ZITEM_DESC_21502">Jaqueta de Couro Feminina da Urike muito popular e com um tecido muito elástico.</STR>
+
+<STR id="ZITEM_NAME_21503">Colete Militar Rex</STR>
+<STR id="ZITEM_DESC_21503">Colete militar feminino, que assegura boa agilidade em combate.</STR>
+
+<STR id="ZITEM_NAME_21504">Jaqueta de Couro Arona</STR>
+<STR id="ZITEM_DESC_21504">Elegante jaqueta de couro para mulheres.</STR>
+
+<STR id="ZITEM_NAME_21505">Casaco de Couro da L*</STR>
+<STR id="ZITEM_DESC_21505">Casaco feminino com visual luxuoso produzido pela L*.</STR>
+
+<STR id="ZITEM_NAME_21506">Jaqueta Militar Rex</STR>
+<STR id="ZITEM_DESC_21506">Jaqueta militar feminina fornecida pela Rex.</STR>
+
+<STR id="ZITEM_NAME_21507">Sobretudo Urike</STR>
+<STR id="ZITEM_DESC_21507">Elegante sobretudo feminino, um novo produto da Urike.</STR>
+
+<STR id="ZITEM_NAME_21508">Top de Verão Bics</STR>
+<STR id="ZITEM_DESC_21508">Top para o verão estampado com flores produzido pela Bics.</STR>
+
+<STR id="ZITEM_NAME_22001">Luvas de Combate Ares</STR>
+<STR id="ZITEM_DESC_22001">Luvas de couro masculinas da Miz, que são populares e com um design simples e confortável.</STR>
+
+<STR id="ZITEM_NAME_22002">Luvas de Inverno Vinz</STR>
+<STR id="ZITEM_DESC_22002">Luvas de inverno que protegem suas mãos do vento e do frio. Para homens.</STR>
+
+<STR id="ZITEM_NAME_22003">Luvas de Ferro Ares</STR>
+<STR id="ZITEM_DESC_22003">Luvas de ferro masculinas, com excelente poder defensivo, criadas para ser usadas em combate.</STR>
+
+<STR id="ZITEM_NAME_22004">Luvas Miz de Couro de Ovelha</STR>
+<STR id="ZITEM_DESC_22004">Luvas feitas de couro resistente.</STR>
+
+<STR id="ZITEM_NAME_22005">Luvas de Verão Renaut</STR>
+<STR id="ZITEM_DESC_22005">Luvas masculinas feitas pela Renaut para o verão.</STR>
+
+<STR id="ZITEM_NAME_22501">Luvas de Combate Rex</STR>
+<STR id="ZITEM_DESC_22501">Luvas de couro simples e flexíveis.</STR>
+
+<STR id="ZITEM_NAME_22502">Luvas de Couro para Inverno Arona</STR>
+<STR id="ZITEM_DESC_22502">Luvas de Couro para proteger do frio.</STR>
+
+<STR id="ZITEM_NAME_22503">Luvas de Ferro Rex</STR>
+<STR id="ZITEM_DESC_22503">Luvas femininas  de ferro criadas para ser usadas em combate.</STR>
+
+<STR id="ZITEM_NAME_22504">Luvas Urike de Couro de Ovelha</STR>
+<STR id="ZITEM_DESC_22504">Luvas femininas feitas de couro resistente.</STR>
+
+<STR id="ZITEM_NAME_22505">Luvas de Verão Bics</STR>
+<STR id="ZITEM_DESC_22505">Luvas de verão femininas da Bics.</STR>
+
+<STR id="ZITEM_NAME_23001">Calças de Treino Vinx</STR>
+<STR id="ZITEM_DESC_23001">Calças masculinas da Vinz com ênfase na excelente flexibilidade e maciez.</STR>
+
+<STR id="ZITEM_NAME_23002">Calças Esportivas da Renaut</STR>
+<STR id="ZITEM_DESC_23002">Calças lançadas pela Renaut Moda Esportiva.</STR>
+
+<STR id="ZITEM_NAME_23003">Calças de Couro Miz</STR>
+<STR id="ZITEM_DESC_23003">Calças de couro com design sofisticado. Usando couro natural, elas possuem corte e costura suaves e limpos.</STR>
+
+<STR id="ZITEM_NAME_23004">Calças de Brim Venico</STR>
+<STR id="ZITEM_DESC_23004">Calças de brim com faixas da Venico para homens com um caimento e tecido únicos.</STR>
+
+<STR id="ZITEM_NAME_23005">Calças Militares Ares</STR>
+<STR id="ZITEM_DESC_23005">Calças que a Ares fornece para o exército.</STR>
+
+<STR id="ZITEM_NAME_23006">Blue Jeans Webs</STR>
+<STR id="ZITEM_DESC_23006">Blue Jeans produzido pela Webs. Apropriado para os aventureiros mais durões.</STR>
+
+<STR id="ZITEM_NAME_23007">Shorts de Verão Renaut</STR>
+<STR id="ZITEM_DESC_23007">Calções de banho masculinos de verão produzidos pela Renaut.</STR>
+
+<STR id="ZITEM_NAME_23501">Calças de Treino Flex</STR>
+<STR id="ZITEM_DESC_23501">Calças femininas da Flex com excelente elasticidade e um bom caimento e tecido.</STR>
+
+<STR id="ZITEM_NAME_23502">Blue Jeans Feminino Arona</STR>
+<STR id="ZITEM_DESC_23502">(Item Descontinuado) Blue jeans muito usado por todas, muito popular. Para mulheres.</STR>
+
+<STR id="ZITEM_NAME_23503">Calças Militares Rex</STR>
+<STR id="ZITEM_DESC_23503">Confortáveis calças militares especialmente criadas para combatentes mulheres.</STR>
+
+<STR id="ZITEM_NAME_23504">Calças de Algodão Negro da L*</STR>
+<STR id="ZITEM_DESC_23504">(Item Descontinuado) Calças de algodão com um luxuoso toque que a L* traz para mulheres especiais.</STR>
+
+<STR id="ZITEM_NAME_23505">Blue Jeans Feminino Arona</STR>
+<STR id="ZITEM_DESC_23505">Blue jeans muito usado por todas, muito popular. Para mulheres.</STR>
+
+<STR id="ZITEM_NAME_23506">Calças de Camurça Vinz</STR>
+<STR id="ZITEM_DESC_23506">Calças de camurça femininas com um bom caimento produzidas pela Vinz.</STR>
+
+<STR id="ZITEM_NAME_23507">Calças de Algodão Negro da L*</STR>
+<STR id="ZITEM_DESC_23507">Calças de algodão (novas) com um luxuoso toque que a L* traz para mulheres especiais.</STR>
+
+<STR id="ZITEM_NAME_23508">Calças Militares Rex</STR>
+<STR id="ZITEM_DESC_23508">Calça militar feminina fornecida pela Rex.</STR>
+
+<STR id="ZITEM_NAME_23509">Calça Capri Urike</STR>
+<STR id="ZITEM_DESC_23509">Elegante calça de algodão feita pela Urike. Um toque de praticidade e visual elegante usando tecido cru.</STR>
+
+<STR id="ZITEM_NAME_23510">Shorts de Verão Bics</STR>
+<STR id="ZITEM_DESC_23510">Calções de banho femininos de verão produzidos pela Bics.</STR>
+
+<STR id="ZITEM_NAME_24001">Sapatos de Combate Ares</STR>
+<STR id="ZITEM_DESC_24001">Sapatos especiais confortáveis para atividades dinâmicas.</STR>
+
+<STR id="ZITEM_NAME_24002">Sapatos Informais Venico</STR>
+<STR id="ZITEM_DESC_24002">Sapatos populares com um design exclusivo.</STR>
+
+<STR id="ZITEM_NAME_24003">Calçados de Alpinismo Renaut</STR>
+<STR id="ZITEM_DESC_24003">Feitos de couro resistente, esses sapatos não rasgam, não importa quão difícil é o terreno que têm de enfrentar.</STR>
+
+<STR id="ZITEM_NAME_24004">Botas de Ferro Ares</STR>
+<STR id="ZITEM_DESC_24004">Estes calçados pesados são feitos para aqueles que dão muito valor à defesa.</STR>
+
+<STR id="ZITEM_NAME_24005">Sapatos Informais Vinz</STR>
+<STR id="ZITEM_DESC_24005">Sapatos com visual informal e muito resistentes produzidos pela Vinz.</STR>
+
+<STR id="ZITEM_NAME_24006">Sandálias de Verão Renaut</STR>
+<STR id="ZITEM_DESC_24006">Sandálias masculinas feitas pela Renaut.</STR>
+
+<STR id="ZITEM_NAME_24501">Sapatos de Couro Urike</STR>
+<STR id="ZITEM_DESC_24501">Sapatos de couro artificial com um caimento simples.</STR>
+
+<STR id="ZITEM_NAME_24502">Sapatos de Combate Rex</STR>
+<STR id="ZITEM_DESC_24502">Sapatos de combate feitos especialmente para as combatentes femininas pela Rex. </STR>
+
+<STR id="ZITEM_NAME_24503">Botas de Couro da L*</STR>
+<STR id="ZITEM_DESC_24503">Botas de couro de alta qualidade, com a qual a L* sente-se muito orgulhosa.</STR>
+
+<STR id="ZITEM_NAME_24504">Botas de Ferro Rex</STR>
+<STR id="ZITEM_DESC_24504">Por ser tão pesado, esse calçado é popular entre aquelas que dão muito valor à defesa.</STR>
+
+<STR id="ZITEM_NAME_24505">Sapatos de Couro Urike</STR>
+<STR id="ZITEM_DESC_24505">Sapatos de couro com um caimento exclusivo produzido pela Urike.</STR>
+
+<STR id="ZITEM_NAME_24506">Sandálias de Verão Bics</STR>
+<STR id="ZITEM_DESC_24506">Sandália feminina produzida pela Bics.</STR>
+
+<STR id="ZITEM_NAME_25001">Anel do Cidadão</STR>
+<STR id="ZITEM_DESC_25001">Este anel não possui muita beleza. Ele foi produzido pelo prefeito como um item comemorativo.</STR>
+
+<STR id="ZITEM_NAME_25002">Anel do Grito do Falcão</STR>
+<STR id="ZITEM_DESC_25002">Dizem que este anel foi fornecido para algumas forças especiais de combate.</STR>
+
+<STR id="ZITEM_NAME_25003">Grito do Guerreiro</STR>
+<STR id="ZITEM_DESC_25003">Este pequeno anel parece conter os desejos de muitas pessoas que anseiam voltar para casa vivas.</STR>
+
+<STR id="ZITEM_NAME_25004">Anel de Pierre</STR>
+<STR id="ZITEM_DESC_25004">Este anel foi produzido em memória de um bravo comandante que foi morto em batalha.</STR>
+
+<STR id="ZITEM_NAME_25005">Anel FMT</STR>
+<STR id="ZITEM_DESC_25005">Este anel foi produzido para celebrar a criarão do sistema FMT. Há uma assinatura de McField na jóia.</STR>
+
+<STR id="ZITEM_NAME_25006">Anel da Boa Sorte</STR>
+<STR id="ZITEM_DESC_25006">Não parece muito bonito, mas atrai boa sorte. As pessoas que usam esse anel se sentem muito mais leves.</STR>
+
+<STR id="ZITEM_NAME_25007">Anel de Altema</STR>
+<STR id="ZITEM_DESC_25007">Este anel é produzido pela TEAMI para comemorar as conquistas do Imperador Altema.</STR>
+
+<STR id="ZITEM_NAME_25008">Aliança de Sangue</STR>
+<STR id="ZITEM_DESC_25008">Um belo anel com uma bela jóia vermelha. Dizem que ele fornece energia ao usuário.</STR>
+
+<STR id="ZITEM_NAME_25009">Anel de Elia</STR>
+<STR id="ZITEM_DESC_25009">Este anel foi criado por ordem do Imperador Altema para honrar a princesa Elia. O anel aumenta a confiança de quem o usa.</STR>
+
+<STR id="ZITEM_NAME_25010">Anel da Pluma</STR>
+<STR id="ZITEM_DESC_25010">Existe um rumor de que este anel foi feito da pluma de um pássaro lendário. Ele faz com que o portador se sinta muito mais leve.</STR>
+
+<STR id="ZITEM_NAME_30001">Kit de Saúde KS-1</STR>
+<STR id="ZITEM_DESC_30001">Permite recuperar a força física. (2 unidades)</STR>
+
+<STR id="ZITEM_NAME_30002">Kit de Saúde KS-2</STR>
+<STR id="ZITEM_DESC_30002">Permite recuperar a força física. (3 unidades)</STR>
+
+<STR id="ZITEM_NAME_30003">Kit de Saúde KS-3</STR>
+<STR id="ZITEM_DESC_30003">Permite recuperar a força física. (4 unidades)</STR>
+
+<STR id="ZITEM_NAME_30101">Kit de Reparos KR-1</STR>
+<STR id="ZITEM_DESC_30101">Repara danos na armadura. (2 unidades)</STR>
+
+<STR id="ZITEM_NAME_30102">Kit de Reparos KR-2</STR>
+<STR id="ZITEM_DESC_30102">Repara danos na armadura. (3 unidades)</STR>
+
+<STR id="ZITEM_NAME_30103">Kit de Reparos KR-3</STR>
+<STR id="ZITEM_DESC_30103"> Repara danos na armadura. (4 unidades)</STR>
+
+<STR id="ZITEM_NAME_30201">Canox GA1</STR>
+<STR id="ZITEM_DESC_30201">Granada Atordoante. Esta arma pode temporariamente paralisar a visão e a audição do inimigo. (2 unidades)</STR>
+
+<STR id="ZITEM_NAME_30202">Canox GA2</STR>
+<STR id="ZITEM_DESC_30202">Granada Atordoante. Esta arma pode, temporariamente, paralisar a visão e a audição do inimigo. (3 unidades)</STR>
+
+<STR id="ZITEM_NAME_30203">Canox GA3</STR>
+<STR id="ZITEM_DESC_30203">Granada Atordoante. Esta arma pode, temporariamente, paralisar a visão e a audição do inimigo. (4 unidades)</STR>
+
+<STR id="ZITEM_NAME_30204">Canox GA4</STR>
+<STR id="ZITEM_DESC_30204">Granada Atordoante. Esta arma pode, temporariamente, paralisar a visão e a audição do inimigo. (5 unidades)</STR>
+
+<STR id="ZITEM_NAME_30205">Canox GA5</STR>
+<STR id="ZITEM_DESC_30205">Granada Atordoante. Esta arma pode, temporariamente, paralisar a visão e a audição do inimigo. (6 unidades)</STR>
+
+<STR id="ZITEM_NAME_30301">Canox FG1</STR>
+<STR id="ZITEM_DESC_30301">Nova Granada Canox produzida de uma forma que pode ser facilmente utilizada em locais fechados. (2 unidades)</STR>
+
+<STR id="ZITEM_NAME_30302">Canox FG2</STR>
+<STR id="ZITEM_DESC_30302"> Nova Granada Canox produzida de uma forma que pode ser facilmente utilizada em locais fechados. (3 unidades)</STR>
+
+<STR id="ZITEM_NAME_30303">Canox FG3</STR>
+<STR id="ZITEM_DESC_30303"> Nova Granada Canox produzida de uma forma que pode ser facilmente utilizada em locais fechados. (4 unidades)</STR>
+
+<STR id="ZITEM_NAME_30304">Canox FG4</STR>
+<STR id="ZITEM_DESC_30304"> Nova Granada Canox produzida de uma forma que pode ser facilmente utilizada em locais fechados. (5 unidades)</STR>
+
+<STR id="ZITEM_NAME_30305">Canox FG5</STR>
+<STR id="ZITEM_DESC_30305"> Nova Granada Canox produzida de uma forma que pode ser facilmente utilizada em locais fechados. (6 unidades)</STR>
+
+<STR id="ZITEM_NAME_30401">Canox GF1</STR>
+<STR id="ZITEM_DESC_30401">Granada de fumaça. É usada para atrapalhar a visão do inimigo com fumaça. (3 unidades)</STR>
+
+<STR id="ZITEM_NAME_30402">Canox GF2</STR>
+<STR id="ZITEM_DESC_30402"> Granada de fumaça. É usada para atrapalhar a visão do inimigo com fumaça. (4 unidades)</STR>
+
+<STR id="ZITEM_NAME_30403">Canox GF3</STR>
+<STR id="ZITEM_DESC_30403"> Granada de fumaça. É usada para atrapalhar a visão do inimigo com fumaça. (5 unidades)</STR>
+
+<STR id="ZITEM_NAME_30404">Canox GF4</STR>
+<STR id="ZITEM_DESC_30404"> Granada de fumaça. É usada para atrapalhar a visão do inimigo com fumaça. (6 unidades)</STR>
+
+<STR id="ZITEM_NAME_30405">Canox GF5</STR>
+<STR id="ZITEM_DESC_30405"> Granada de fumaça. É usada para atrapalhar a visão do inimigo com fumaça. (7 unidades)</STR>
+
+<STR id="ZITEM_NAME_300000">Adaga do Goblin</STR>
+<STR id="ZITEM_DESC_300000">Adaga usada pelo Goblin.</STR>
+
+<STR id="ZITEM_NAME_300001">Rifle do Goblin</STR>
+<STR id="ZITEM_DESC_300001">Rifle usado pelo Goblin.</STR>
+
+<STR id="ZITEM_NAME_300002">Maça do Goblin</STR>
+<STR id="ZITEM_DESC_300002">Maça usada pelo Chefe dos Goblins.</STR>
+
+<STR id="ZITEM_NAME_300003">Varinha do Goblin</STR>
+<STR id="ZITEM_DESC_300003">Varinha usado pelo Chefe dos Goblins.</STR>
+
+<STR id="ZITEM_NAME_300004">Grande Martelo do Goblin</STR>
+<STR id="ZITEM_DESC_300004">Grande Martelo usado pelo Rei Goblin.</STR>
+
+<STR id="ZITEM_NAME_300031">Espada dos Esqueletos</STR>
+<STR id="ZITEM_DESC_300031">Espada usada pelos esqueletos</STR>
+
+
+<STR id="ZITEM_NAME_400001">Anel da Desculpa</STR>
+<STR id="ZITEM_DESC_400001">(Item de Evento) Anel da desculpa. Desvantagem: Um pouco pesado.</STR>
+
+<STR id="ZITEM_NAME_400002">Casaco Masculino BUG-FREE</STR>
+<STR id="ZITEM_DESC_400002">(Item de Evento) Casaco que apenas aqueles aventureiros que ajudaram a combater o fenômeno anormal no mundo de Astra podem vestir.</STR>
+
+<STR id="ZITEM_NAME_400003">Casaco Feminino BUG-FREE</STR>
+<STR id="ZITEM_DESC_400003">(Item de Evento) Casaco que apenas aquelas aventureiras que ajudaram a combater o fenômeno anormal no mundo de Astra podem vestir.</STR>
+
+<STR id="ZITEM_NAME_400004">Jaqueta de Equipe para Homens</STR>
+<STR id="ZITEM_DESC_400004">(Item de Evento) Jaquetas para a equipe operacional.</STR>
+
+<STR id="ZITEM_NAME_400005">Jaqueta de Equipe para Mulheres</STR>
+<STR id="ZITEM_DESC_400005">(Item de Evento) Jaquetas para a equipe operacional.</STR>
+
+<STR id="ZITEM_NAME_400006">Anel do Trapaceiro</STR>
+<STR id="ZITEM_DESC_400006">(Item de Evento) Anel de ouro. Literalmente, está escrito 'Meu Precioso' na parte interna.</STR>
+
+<STR id="ZITEM_NAME_400007">Triângulo de Arroz</STR>
+<STR id="ZITEM_DESC_400007">(Item de Evento) Rolinhos de arroz no formato de triângulo enrolados em alga. Parecem deliciosos. Isso pode ajudar a recuperar PV e PA um pouquinho de cada vez.</STR>
+
+<STR id="ZITEM_NAME_400008">Jaqueta Pampoa Masculina</STR>
+<STR id="ZITEM_DESC_400008"></STR>
+
+<STR id="ZITEM_NAME_400009">Jaqueta Pampoa Feminina</STR>
+<STR id="ZITEM_DESC_400009"></STR>
+
+<STR id="ZITEM_NAME_400010">Doce</STR>
+<STR id="ZITEM_DESC_400010">(Item de Evento) Doce saboroso</STR>
+
+<STR id="ZITEM_NAME_400011">Chapéu Maré Vermelha Masculino</STR>
+<STR id="ZITEM_DESC_400011">Item com marca de renome, possui um design moderno e com tons românticos.</STR>
+
+<STR id="ZITEM_NAME_400012">Chapéu Maré Vermelha Feminino</STR>
+<STR id="ZITEM_DESC_400012">Item com marca de renome, possui um design moderno e com tons românticos.</STR>
+
+<STR id="ZITEM_NAME_500001">Adaga do Aventureiro</STR>
+<STR id="ZITEM_DESC_500001">Adaga leve e prática para aventureiros.</STR>
+
+<STR id="ZITEM_NAME_500002">Faca Koden</STR>
+<STR id="ZITEM_DESC_500002">Uma adaga de formato único criada por um lendário espadachim.</STR>
+
+<STR id="ZITEM_NAME_500003">Adaga Marcial Negra</STR>
+<STR id="ZITEM_DESC_500003">Uma estranha adaga que passou de geração para geração desde tempos antigos.</STR>
+
+<STR id="ZITEM_NAME_500004">Adaga do Caçador Ridick</STR>
+<STR id="ZITEM_DESC_500004">(Disponível apenas durante determinado período) Adaga de Ridick. Essa estranha adaga aumenta o PA da pessoa que a usar.</STR>
+
+<STR id="ZITEM_NAME_502001">Espada Longa do Aventureiro</STR>
+<STR id="ZITEM_DESC_502001">Espada leve e prática para aventureiros.</STR>
+
+<STR id="ZITEM_NAME_502002">Salamandra</STR>
+<STR id="ZITEM_DESC_502002">Uma espada de formato único criada por um lendário espadachim.</STR>
+
+<STR id="ZITEM_NAME_502003">Carma Negro</STR>
+<STR id="ZITEM_DESC_502003">Uma espada-adaga que passou de geração para geração desde tempos antigos.</STR>
+
+<STR id="ZITEM_NAME_504001">Pistola do Aventureiro x2</STR>
+<STR id="ZITEM_DESC_504001">Uma pistola usada principalmente por aventureiros novatos.</STR>
+
+<STR id="ZITEM_NAME_504002">Pistola do Caçador Ridick x2</STR>
+<STR id="ZITEM_DESC_504002">(Disponível apenas durante determinado período) Pistola do caçador Ridick. Essa estranha pistola aumenta o PA da pessoa que a usar.</STR>
+
+<STR id="ZITEM_NAME_504003">Pistola Íris x2</STR>
+<STR id="ZITEM_DESC_504003">Uma pistola que os soldados da República têm usado. Recebeu esse nome após o período da resistência.</STR>
+
+<STR id="ZITEM_NAME_504004">Pistola Corvo de Ferro x2</STR>
+<STR id="ZITEM_DESC_504004">Uma pistola usada em Corvo de Ferro, o centro de Havani, capital dos fora-da-lei.</STR>
+
+<STR id="ZITEM_NAME_504501">Revólver Íris x2</STR>
+<STR id="ZITEM_DESC_504501">Um revólver que os soldados da República têm usado. Recebeu este nome após o período da resistência.</STR>
+
+<STR id="ZITEM_NAME_504502">Revólver Corvo de Ferro x2</STR>
+<STR id="ZITEM_DESC_504502">Revólver usado em Corvo de Ferro, o centro de Havani, capital dos fora-da-lei.</STR>
+
+<STR id="ZITEM_NAME_504503">Gold Hound x2</STR>
+<STR id="ZITEM_DESC_504503">O revólver mais pesado da República. Não recomendado para iniciantes por possuir um recuo pesado.</STR>
+
+<STR id="ZITEM_NAME_505001">Aventureiro SMG x2</STR>
+<STR id="ZITEM_DESC_505001">Submetralhadora (SMG) usada pelos aventureiros novatos. Parece que os comerciantes remodelaram o pente da Renard ilegalmente e então a colocaram à venda no mercado.</STR>
+
+<STR id="ZITEM_NAME_505002">Íris SMG x2</STR>
+<STR id="ZITEM_DESC_505002">Uma submetralhadora que os soldados da República têm usado. Recebeu esse nome após o período da resistência.</STR>
+
+<STR id="ZITEM_NAME_505003">Submetralhadora Corvo de Ferro x2</STR>
+<STR id="ZITEM_DESC_505003">Submetralhadora usada em Corvo de Ferro, o centro de Havani, capital dos fora-da-lei.</STR>
+
+<STR id="ZITEM_NAME_506001">Escopeta Íris</STR>
+<STR id="ZITEM_DESC_506001">Uma escopeta que os soldados da República têm usado. Recebeu esse nome após o período da resistência.</STR>
+
+<STR id="ZITEM_NAME_506002">Escopeta Corvo de Ferro</STR>
+<STR id="ZITEM_DESC_506002">Escopeta usada em Corvo de Ferro, o centro de Havani, capital dos fora-da-lei.</STR>
+
+<STR id="ZITEM_NAME_506003">Escopeta Estrangeira</STR>
+<STR id="ZITEM_DESC_506003">Arma feita em terras desconhecidas. Feito de um material leve que facilita seu uso</STR>
+
+<STR id="ZITEM_NAME_506004">Cruelizon</STR>
+<STR id="ZITEM_DESC_506004">Escopeta pesada, com baixa cadência de tiros e controle.</STR>
+
+<STR id="ZITEM_NAME_507001">Rifle Íris</STR>
+<STR id="ZITEM_DESC_507001">Rifle que os soldados da República têm usado. Recebeu esse nome após o período da resistência.</STR>
+
+<STR id="ZITEM_NAME_507002">Rifle Corvo de Ferro</STR>
+<STR id="ZITEM_DESC_507002">Rifle usado em Corvo de Ferro, o centro de Havani, capital dos fora-da-lei.</STR>
+
+<STR id="ZITEM_NAME_507003">Prime TX</STR>
+<STR id="ZITEM_DESC_507003">Rifle com alta cadência de tiros e estabilidade. Excelente controle.</STR>
+
+<STR id="ZITEM_NAME_508001">Metralhadora Corvo de Ferro</STR>
+<STR id="ZITEM_DESC_508001">Metralhadora usada em Corvo de Ferro, o centro de Havani, capital dos fora-da-lei.</STR>
+
+<STR id="ZITEM_NAME_509001">Foguete Íris</STR>
+<STR id="ZITEM_DESC_509001">Foguete usado pelos soldados da República. Recebeu esse nome após o período da resistência.</STR>
+
+<STR id="ZITEM_NAME_509002">Foguete Corvo de Ferro</STR>
+<STR id="ZITEM_DESC_509002">Foguete que Corvo de Ferro usava quando dominou Havani, a cidade dos fora-da-lei.</STR>
+
+<STR id="ZITEM_NAME_509003">Pressure RX</STR>
+<STR id="ZITEM_DESC_509003">A rocket designed focusing on balance. Its damage is somewhat sacrificed but clip capacity and delay have been improved.</STR>
+
+<STR id="ZITEM_NAME_520001">Chapéu Militar Ares</STR>
+<STR id="ZITEM_DESC_520001">A Ares fornece esse chapéu para os militares. Combinação perfeita para o visual militar da Ares.</STR>
+
+<STR id="ZITEM_NAME_520002">Chapéu Cerimonial para Oficiais</STR>
+<STR id="ZITEM_DESC_520002">Chapéu cerimonial que os oficiais do Império usam em cerimônias importantes.</STR>
+
+<STR id="ZITEM_NAME_520003">Chapéu de Pano Masculino Paraíso dos Atiradores</STR>
+<STR id="ZITEM_DESC_520003">Um chapéu de pano exclusivamente para o Paraíso dos Atiradores, uma organização particular da República. Fica muito bom com casacos de cor escura.</STR>
+
+<STR id="ZITEM_NAME_520004">Proteção de Cabeça Militar para Homens</STR>
+<STR id="ZITEM_DESC_520004">Uma proteção de cabeça masculina fácil de usar. Ela pode ser usada também como disfarce no campo de batalha.</STR>
+
+<STR id="ZITEM_NAME_520005">Proteção de Cabeça sem Estampa para Homens</STR>
+<STR id="ZITEM_DESC_520005">Uma cobertura de cabeça masculina simples. Também usada algumas vezes como acessório de moda.</STR>
+
+<STR id="ZITEM_NAME_520006">Proteção de Cabeça com Estampa de Gota D'água para Homens</STR>
+<STR id="ZITEM_DESC_520006">Uma proteção de cabeça masculina leve e fácil de usar. O tecido vermelho é decorado com simpáticas estampas de gotas d'água.</STR>
+
+<STR id="ZITEM_NAME_520007">Proteção de Cabeça com Estampa de Estrela para Homens</STR>
+<STR id="ZITEM_DESC_520007">Uma proteção de cabeça masculina com estrelas estampadas com um caimento único.</STR>
+
+<STR id="ZITEM_NAME_520008">Chapéu Masculino Azul Eterno</STR>
+<STR id="ZITEM_DESC_520008">Um chapéu de uniforme masculino para o Azul Eterno, o fora-da-lei no mar.</STR>
+
+<STR id="ZITEM_NAME_520009">Chapéu Masculino do Aventureiro</STR>
+<STR id="ZITEM_DESC_520009">Um chapéu masculino leve recomendado para aventureiros novatos e para aqueles que não gostam de usar roupas e equipamentos pesados.</STR>
+
+<STR id="ZITEM_NAME_520010">Chapéu Masculino Uivo Azul</STR>
+<STR id="ZITEM_DESC_520010">Um chapéu masculino para o Uivo Azul, conhecido como a dor de cabeça do Império.</STR>
+
+<STR id="ZITEM_NAME_520011">Chapéu Masculino Ipot</STR>
+<STR id="ZITEM_DESC_520011">Um chapéu para caras legais em uma praia quente de verão.</STR>
+
+<STR id="ZITEM_NAME_520012">Chapéu Masculino Corvo de Ferro</STR>
+<STR id="ZITEM_DESC_520012">Um chapéu para homens usado em Corvo de Ferro, o centro de Havani, capital dos fora-da-lei.</STR>
+
+<STR id="ZITEM_NAME_520013">Chapéu Masculino Papai Noel</STR>
+<STR id="ZITEM_DESC_520013">Um item para o Natal. Para homens.</STR>
+
+<STR id="ZITEM_NAME_520014">Proteção de Cabeça Masculino Cria do Fantasma</STR>
+<STR id="ZITEM_DESC_520014">Uma proteção de cabeça masculina para uma organização de espionagem que passa de geração para geração desde os tempos antigos. Ela é um pouco pesada.</STR>
+
+<STR id="ZITEM_NAME_520015">Chapéu do Médico da República</STR>
+<STR id="ZITEM_DESC_520015">Um chapéu masculino para uma organização médica. Ele é leve.</STR>
+
+<STR id="ZITEM_NAME_520016">Chapéu Masculino Poeira Cinza</STR>
+<STR id="ZITEM_DESC_520016">Um chapéu masculino de uniforme para a Poeira Cinzenta, uma tropa de elite do Império.</STR>
+
+<STR id="ZITEM_NAME_520017">Chapéu Masculino LOK</STR>
+<STR id="ZITEM_DESC_520017">Chapéu Masculino LOK.</STR>
+
+<STR id="ZITEM_NAME_520018">Chapéu de Ação Masculino</STR>
+<STR id="ZITEM_DESC_520018"></STR>
+
+<STR id="ZITEM_NAME_520019">Chapéu Coreano Masculino</STR>
+<STR id="ZITEM_DESC_520019"></STR>
+
+<STR id="ZITEM_NAME_520020">Capacete Chamas do Deserto Masculino</STR>
+<STR id="ZITEM_DESC_520020">Item das tropas especializadas de ação no deserto.</STR>
+
+<STR id="ZITEM_NAME_520021">Elmo de Batalha Masculino</STR>
+<STR id="ZITEM_DESC_520021">Feito de material resistente que protege a cabeça de todos os tipos de dano.</STR>
+
+<STR id="ZITEM_NAME_520022">Chapéu Esportivo Masculino</STR>
+<STR id="ZITEM_DESC_520022">(Venda Limitada) Concede grande poder ao ser usado.</STR>
+
+<STR id="ZITEM_NAME_520025">Chapéu COS Masculino</STR>
+<STR id="ZITEM_DESC_520025">Um chapéu usado por oficiais militares. Sua nacionalidade é desconhecida.</STR>
+
+<STR id="ZITEM_NAME_520026">Chapéu de couro do Velho</STR>
+<STR id="ZITEM_DESC_520026">Um lindo chapéu masculino com um visual clássico. Ele não protege muito, mas da uma sensação incrivel.</STR>
+
+<STR id="ZITEM_NAME_520027">Bandana Zeus Masculina</STR>
+<STR id="ZITEM_DESC_520027">Uma leve bandana masculina. Não serve como defesa, mas melhora a vitalidade.</STR>
+
+<STR id="ZITEM_NAME_520028">Cabeça de Abóbora (M)</STR>
+<STR id="ZITEM_DESC_520028">Pode não ser muito útil para o combate mas parece muito confortável.</STR>
+
+<STR id="ZITEM_NAME_520029">Chapéu BlueVane</STR>
+<STR id="ZITEM_DESC_520029">Um chapéu feito especialmente para a série BlueVane. Feito de um material flexível.</STR>
+
+<STR id="ZITEM_NAME_520501">Chapéu Militar Rex</STR>
+<STR id="ZITEM_DESC_520501">Um chapéu militar para combatentes femininas. Produzido pela Rex, é um chapéu perfeito para a roupa militar da Rex.</STR>
+
+<STR id="ZITEM_NAME_520502">Boina Cerimonial Feminina</STR>
+<STR id="ZITEM_DESC_520502">Uma bonita boina fornecida para as combatentes femininas do Império.</STR>
+
+<STR id="ZITEM_NAME_520503">Chapéu Feminino Paraíso dos Atiradores</STR>
+<STR id="ZITEM_DESC_520503">Um chapéu exclusivamente para o Paraíso dos Atiradores, uma organização particular na República.</STR>
+
+<STR id="ZITEM_NAME_520504">Proteção de Cabeça Militar para Mulheres</STR>
+<STR id="ZITEM_DESC_520504">Uma proteção de cabeça feminina fácil de usar. Ela pode ser usada também como disfarce no campo de batalha.</STR>
+
+<STR id="ZITEM_NAME_520505">Proteção de Cabeça sem Estampa para Mulheres</STR>
+<STR id="ZITEM_DESC_520505">Proteção de Cabeça Simples Feminina Também usada algumas vezes como acessório de moda.</STR>
+
+<STR id="ZITEM_NAME_520506">Proteção de Cabeça com Estampa Gota D'água para Mulheres</STR>
+<STR id="ZITEM_DESC_520506">Uma proteção de cabeça feminina leve e fácil de usar. O tecido vermelho é decorado com simpáticas estampas de gotas d'água.</STR>
+
+<STR id="ZITEM_NAME_520507">Proteção de Cabeça com Estampa de Estrela para Mulheres</STR>
+<STR id="ZITEM_DESC_520507">Uma proteção de cabeça feminina com estrelas estampadas com um caimento único.</STR>
+
+<STR id="ZITEM_NAME_520508">Chapéu Feminino Azul Eterno</STR>
+<STR id="ZITEM_DESC_520508">Um chapéu de uniforme feminino para o Azul Eterno, o fora-da-lei no mar.</STR>
+
+<STR id="ZITEM_NAME_520509">Chapéu Feminino da Aventureira</STR>
+<STR id="ZITEM_DESC_520509">Um chapéu feminino leve recomendado para aventureiras novatas e para aquelas que não gostam de usar roupas e equipamento pesado.</STR>
+
+<STR id="ZITEM_NAME_520510">Chapéu Feminino Uivo Azul</STR>
+<STR id="ZITEM_DESC_520510">Um chapéu feminino para o Uivo Azul, conhecido como a dor de cabeça do Império.</STR>
+
+<STR id="ZITEM_NAME_520511">Chapéu Feminino Ipot</STR>
+<STR id="ZITEM_DESC_520511">Um chapéu para mulheres legais em uma praia quente de verão.</STR>
+
+<STR id="ZITEM_NAME_520512">Chapéu Feminino Corvo de Ferro</STR>
+<STR id="ZITEM_DESC_520512">Um chapéu para mulheres usado em Corvo de Ferro, o centro de Havani, capital dos fora-da-lei.</STR>
+
+<STR id="ZITEM_NAME_520513">Chapéu Feminino Papai Noel</STR>
+<STR id="ZITEM_DESC_520513">Um item para o Natal. Para mulheres.</STR>
+
+<STR id="ZITEM_NAME_520514">Proteção de Cabeça Feminina Cria do Fantasma</STR>
+<STR id="ZITEM_DESC_520514">Uma proteção de cabeça feminina para uma organização de espionagem que passa de geração para geração desde os tempos antigos. Ela é um pouco pesada.</STR>
+
+<STR id="ZITEM_NAME_520515">Chapéu da Médica da República</STR>
+<STR id="ZITEM_DESC_520515">Um chapéu feminino para uma organização médica. Ele é leve.</STR>
+
+<STR id="ZITEM_NAME_520516">Chapéu Feminino Poeira Cinza</STR>
+<STR id="ZITEM_DESC_520516">Um chapéu feminino de uniforme para a Poeira Cinzenta, uma tropa de elite do Império.</STR>
+
+<STR id="ZITEM_NAME_520517">Chapéu Feminino LOK</STR>
+<STR id="ZITEM_DESC_520517">Chapéu feminino LOK</STR>
+
+<STR id="ZITEM_NAME_520518">Chapéu de Ação Feminino</STR>
+<STR id="ZITEM_DESC_520518"></STR>
+
+<STR id="ZITEM_NAME_520519">Chapéu Coreano Feminino</STR>
+<STR id="ZITEM_DESC_520519"></STR>
+
+<STR id="ZITEM_NAME_520520">Capacete Chama do Deserto Feminino</STR>
+<STR id="ZITEM_DESC_520520">Item das tropas especializadas de ação no deserto.</STR>
+
+<STR id="ZITEM_NAME_520521">Elmo de Batalha Feminino</STR>
+<STR id="ZITEM_DESC_520521">Feito de material resistente que protege a cabeça de todos os tipos de dano.</STR>
+
+<STR id="ZITEM_NAME_520522">Chapéu Esportivo Feminino</STR>
+<STR id="ZITEM_DESC_520522">(Venda Limitada) Concede grande poder ao ser usado.</STR>
+
+<STR id="ZITEM_NAME_520525">Chapéu COS Feminino</STR>
+<STR id="ZITEM_DESC_520525">Um chapéu usado por oficiais militares. Sua nacionalidade é desconhecida.</STR>
+
+<STR id="ZITEM_NAME_520526">Chapéu de piquenique</STR>
+<STR id="ZITEM_DESC_520526">Um lindo chapéu de piquenique com um visual clássico. Ele não protege muito, mas da uma sensação incrivel.</STR>
+
+<STR id="ZITEM_NAME_520527">Bandana Zeus Feminina</STR>
+<STR id="ZITEM_DESC_520527">Uma leve bandana feminina. Não serve como defesa, mas melhora a vitalidade.</STR>
+
+<STR id="ZITEM_NAME_520528">Cabeça de Abóbora (F)</STR>
+<STR id="ZITEM_DESC_520528">Pode não ser muito útil para o combate mas parece muito confortável.</STR>
+
+<STR id="ZITEM_NAME_520529">Chapéu BlueVane</STR>
+<STR id="ZITEM_DESC_520529">A Um chapéu feito especialmente para a série BlueVane. Feito de um material flexível.</STR>
+
+<STR id="ZITEM_NAME_521001">Ornamento Cerimonial para Oficiais</STR>
+<STR id="ZITEM_DESC_521001">Um ornamento cerimonial que os oficiais do Império usam em cerimônias importantes.</STR>
+
+<STR id="ZITEM_NAME_521002">Sobretudo de Couro Masculino Paraíso dos Atiradores</STR>
+<STR id="ZITEM_DESC_521002">Um casaco longo de couro e ornamento exclusivamente para o Paraíso dos Atiradores, uma organização particular da República.</STR>
+
+<STR id="ZITEM_NAME_521003">Casaco Masculino Azul Eterno</STR>
+<STR id="ZITEM_DESC_521003">Um ornamento de uniforme masculino para o Azul Eterno, o fora-da-lei no mar.</STR>
+
+<STR id="ZITEM_NAME_521004">Jaqueta Masculina do Aventureiro</STR>
+<STR id="ZITEM_DESC_521004">Uma jaqueta masculina recomendada para aventureiros novatos e para aqueles que não gostam de usar roupas e equipamentos pesados.</STR>
+
+<STR id="ZITEM_NAME_521005">Jaqueta Masculina Uivo Azul</STR>
+<STR id="ZITEM_DESC_521005">Uma jaqueta masculina para o Uivo Azul, conhecido como a dor de cabeça do Império.</STR>
+
+<STR id="ZITEM_NAME_521006">Camiseta Masculina Ipot</STR>
+<STR id="ZITEM_DESC_521006">Uma camiseta Havaiana para caras legais em uma praia quente de verão.</STR>
+
+<STR id="ZITEM_NAME_521007">Casaco Masculino Corvo de Ferro</STR>
+<STR id="ZITEM_DESC_521007">Um casaco para homens usado em Corvo de Ferro, o centro de Havani, capital dos fora-da-lei.</STR>
+
+<STR id="ZITEM_NAME_521008">Casaco Masculino Papai Noel</STR>
+<STR id="ZITEM_DESC_521008">Um item para o Natal. Para homens.</STR>
+
+<STR id="ZITEM_NAME_521009">Jaqueta Masculina Cria do Fantasma</STR>
+<STR id="ZITEM_DESC_521009">Armadura masculina para uma organização de espionagem que passa de geração para geração desde os tempos antigos. Ela é um pouco pesada.</STR>
+
+<STR id="ZITEM_NAME_521010">Ornamento do Médico da República</STR>
+<STR id="ZITEM_DESC_521010">Um ornamento masculino para uma organização médica. Ele é leve.</STR>
+
+<STR id="ZITEM_NAME_521011">Sobretudo Masculino Poeira Cinzenta</STR>
+<STR id="ZITEM_DESC_521011">Um casaco masculino de uniforme para a Poeira Cinzenta, uma tropa de elite do Império.</STR>
+
+<STR id="ZITEM_NAME_521012">Ornamento Masculino LOK</STR>
+<STR id="ZITEM_DESC_521012">Ornamento Masculino LOK.</STR>
+
+<STR id="ZITEM_NAME_521013">Casaco Longo de Ação Masculino</STR>
+<STR id="ZITEM_DESC_521013"></STR>
+
+<STR id="ZITEM_NAME_521014">Casaco Longo Gun Knight Masculino</STR>
+<STR id="ZITEM_DESC_521014">Um casaco longo conhecido por ser usado por um famoso pistoleiro de Axium.</STR>
+
+<STR id="ZITEM_NAME_521015">Casaco Coreano Masculino</STR>
+<STR id="ZITEM_DESC_521015"></STR>
+
+<STR id="ZITEM_NAME_521016">Colete Chama do Deserto Masculino</STR>
+<STR id="ZITEM_DESC_521016">O colete das tropas especializadas de ação no deserto.</STR>
+
+<STR id="ZITEM_NAME_521017">Armadura de Batalha Masculina</STR>
+<STR id="ZITEM_DESC_521017">Feito de material resistente que protege o tronco de todos os tipos de dano.</STR>
+
+<STR id="ZITEM_NAME_521018">Colete Esportivo Masculino</STR>
+<STR id="ZITEM_DESC_521018">(Venda Limitada) Concede grande poder ao ser usado.</STR>
+
+<STR id="ZITEM_NAME_521021">Colete COS Masculino</STR>
+<STR id="ZITEM_DESC_521021">Um chapéu usado por oficiais militares. Sua nacionalidade é desconhecida.</STR>
+
+<STR id="ZITEM_NAME_521022">Casaco Zeus Masculino</STR>
+<STR id="ZITEM_DESC_521022">É um casaco leve. A combinação do laranja com o azul escuro atrai a atenção das pessoas.</STR>
+
+<STR id="ZITEM_NAME_521023">Colete BlueVane</STR>
+<STR id="ZITEM_DESC_521023">Colete feito de um material flexível.</STR>
+
+<STR id="ZITEM_NAME_521501">Jaqueta Cerimonial Feminina</STR>
+<STR id="ZITEM_DESC_521501">Um ornamento cerimonial fornecido para as combatentes femininas do Império.</STR>
+
+<STR id="ZITEM_NAME_521502">Sobretudo de Lã Feminino Paraíso dos Atiradores</STR>
+<STR id="ZITEM_DESC_521502">Um casaco longo de lã e ornamento exclusivamente para o Paraíso dos Atiradores, uma organização particular da República.</STR>
+
+<STR id="ZITEM_NAME_521503">Casaco Feminino Azul Eterno</STR>
+<STR id="ZITEM_DESC_521503">Um ornamento de uniforme feminino para o Azul Eterno, o fora-da-lei no mar.</STR>
+
+<STR id="ZITEM_NAME_521504">Jaqueta Feminina da Aventureira</STR>
+<STR id="ZITEM_DESC_521504">Uma jaqueta feminina recomendada para aventureiras novatas e para aquelas que não gostam de usar roupas e equipamentos pesados.</STR>
+
+<STR id="ZITEM_NAME_521505">Jaqueta Feminina Uivo Azul</STR>
+<STR id="ZITEM_DESC_521505">Uma jaqueta feminina para o Uivo Azul, conhecido como a dor de cabeça do Império.</STR>
+
+<STR id="ZITEM_NAME_521506">Ornamento Superior para Biquíni Ipot</STR>
+<STR id="ZITEM_DESC_521506">Um ornamento de biquíni para mulheres legais em uma praia quente de verão.</STR>
+
+<STR id="ZITEM_NAME_521507">Casaco Feminino Corvo de Ferro</STR>
+<STR id="ZITEM_DESC_521507">Um casaco para mulheres usado em Corvo de Ferro, o centro de Havani, capital dos fora-da-lei.</STR>
+
+<STR id="ZITEM_NAME_521508">Casaco Feminino Papai Noel</STR>
+<STR id="ZITEM_DESC_521508">Um item para o Natal. Para mulheres.</STR>
+
+<STR id="ZITEM_NAME_521509">Jaqueta Feminina Cria do Fantasma</STR>
+<STR id="ZITEM_DESC_521509">Armadura feminina para uma organização de espionagem que passa de geração para geração desde os tempos antigos. Ela é um pouco pesada.</STR>
+
+<STR id="ZITEM_NAME_521510">Ornamento da Médica da República</STR>
+<STR id="ZITEM_DESC_521510">Um ornamento feminino para uma organização médica. Ele é leve.</STR>
+
+<STR id="ZITEM_NAME_521511">Sobretudo Feminino Poeira Cinzenta</STR>
+<STR id="ZITEM_DESC_521511">Um casaco longo de uniforme para a Poeira Cinzenta, uma tropa de elite do Império.</STR>
+
+<STR id="ZITEM_NAME_521512">Ornamento Feminino LOK</STR>
+<STR id="ZITEM_DESC_521512">Ornamento feminino LOK.</STR>
+
+<STR id="ZITEM_NAME_521513">Casaco longo de Ação Feminino</STR>
+<STR id="ZITEM_DESC_521513"></STR>
+
+<STR id="ZITEM_NAME_521514">Jaqueta Gun Knight Feminina</STR>
+<STR id="ZITEM_DESC_521514">Uma jaqueta longa conhecida por ser usada por uma famosa pistoleira de Axium.</STR>
+
+<STR id="ZITEM_NAME_521515">Casaco Coreano Feminino</STR>
+<STR id="ZITEM_DESC_521515"></STR>
+
+<STR id="ZITEM_NAME_521516">Top Chama do Deserto Feminino</STR>
+<STR id="ZITEM_DESC_521516">O top das tropas especializadas de ação no deserto.</STR>
+
+<STR id="ZITEM_NAME_521517">Armadura de Batalha Feminina</STR>
+<STR id="ZITEM_DESC_521517">Feito de material resistente que protege o tronco de todos os tipos de dano.</STR>
+
+<STR id="ZITEM_NAME_521518">Top Esportivo Feminino</STR>
+<STR id="ZITEM_DESC_521518">(Venda Limitada) Concede grande poder ao ser usado.</STR>
+
+<STR id="ZITEM_NAME_521521">Chapéu COS Feminino</STR>
+<STR id="ZITEM_DESC_521521">Um chapéu usado por oficiais militares. Sua nacionalidade é desconhecida.</STR>
+
+<STR id="ZITEM_NAME_521522">Casaco Zeus Feminino</STR>
+<STR id="ZITEM_DESC_521522">É um casaco leve. A combinação do laranja com o azul escuro atrai a atenção das pessoas.</STR>
+
+<STR id="ZITEM_NAME_521523">Top BlueVane</STR>
+<STR id="ZITEM_DESC_521523">Top feito de um material flexível.</STR>
+
+<STR id="ZITEM_NAME_522001">Luvas Cerimoniais para Oficiais</STR>
+<STR id="ZITEM_DESC_522001">Luvas cerimoniais que os oficiais do Império usam em cerimônias importantes.</STR>
+
+<STR id="ZITEM_NAME_522002">Luvas Masculinas Paraíso dos Atiradores</STR>
+<STR id="ZITEM_DESC_522002">Luvas feitas exclusivamente para o Paraíso dos Atiradores, uma organização particular da República.</STR>
+
+<STR id="ZITEM_NAME_522003">Luvas Masculinas Azul Eterno</STR>
+<STR id="ZITEM_DESC_522003">Luvas de uniforme masculino para o Azul Eterno, o fora-da-lei no mar.</STR>
+
+<STR id="ZITEM_NAME_522004">Luvas Masculinas do Aventureiro</STR>
+<STR id="ZITEM_DESC_522004">Luvas masculinas recomendadas para aventureiros novatos e para aqueles que não gostam de usar roupas e equipamentos pesados.</STR>
+
+<STR id="ZITEM_NAME_522005">Luvas Masculinas Uivo Azul</STR>
+<STR id="ZITEM_DESC_522005">Luvas masculinas para o Uivo Azul, conhecido como a dor de cabeça do Império.</STR>
+
+<STR id="ZITEM_NAME_522006">Luvas Masculinas Ipot</STR>
+<STR id="ZITEM_DESC_522006">Luvas para caras legais em uma praia quente de verão.</STR>
+
+<STR id="ZITEM_NAME_522007">Luvas Masculinas Corvo de Ferro</STR>
+<STR id="ZITEM_DESC_522007">Luvas para homens usadas em Corvo de Ferro, o centro de Havani, capital dos fora-da-lei.</STR>
+
+<STR id="ZITEM_NAME_522008">Luvas Masculinas Papai Noel</STR>
+<STR id="ZITEM_DESC_522008">Um item para o Natal. Para homens.</STR>
+
+<STR id="ZITEM_NAME_522009">Luvas Masculinas Cria do Fantasma</STR>
+<STR id="ZITEM_DESC_522009">Luvas masculinas para uma organização de espionagem que passam de geração para geração desde os tempos antigos. Elas são um pouco pesadas.</STR>
+
+<STR id="ZITEM_NAME_522010">Luvas do Médico da República</STR>
+<STR id="ZITEM_DESC_522010">Luvas masculinas para uma organização médica. Elas são leves.</STR>
+
+<STR id="ZITEM_NAME_522011">Luvas Masculinas Poeira Cinzenta</STR>
+<STR id="ZITEM_DESC_522011">Luvas masculinas de uniforme para a Poeira Cinzenta, uma tropa de elite do Império.</STR>
+
+<STR id="ZITEM_NAME_522012">Luvas de Couro Masculinas LOK</STR>
+<STR id="ZITEM_DESC_522012">Luvas de Couro Masculinas LOK.</STR>
+
+<STR id="ZITEM_NAME_522013">Luvas Gun Knight Masculinas</STR>
+<STR id="ZITEM_DESC_522013">Luvas conhecidas por serem usadas por um famoso pistoleiro de Axium.</STR>
+
+<STR id="ZITEM_NAME_522014">Luvas Coreanas Masculinas</STR>
+<STR id="ZITEM_DESC_522014"></STR>
+
+<STR id="ZITEM_NAME_522015">Luvas Chama do Deserto Masculinas</STR>
+<STR id="ZITEM_DESC_522015">As luvas das tropas especializadas de ação no deserto.</STR>
+
+<STR id="ZITEM_NAME_522016">Manoplas de Batalha Masculinas</STR>
+<STR id="ZITEM_DESC_522016">Feitas de material resistente que protegem as mãos de todos os tipos de dano.</STR>
+
+<STR id="ZITEM_NAME_522017">Luvas COS Masculinas</STR>
+<STR id="ZITEM_DESC_522017">Par de luvas usadas por oficiais militares. Sua nacionalidade é desconhecida.</STR>
+
+<STR id="ZITEM_NAME_522018">Luvas BlueVane</STR>
+<STR id="ZITEM_DESC_522018">Luvas feitas de um material flexível.</STR>
+
+<STR id="ZITEM_NAME_522501">Luvas Cerimoniais Femininas</STR>
+<STR id="ZITEM_DESC_522501">Um par de luvas cerimoniais fornecido para as combatentes femininas do Império.</STR>
+
+<STR id="ZITEM_NAME_522502">Luvas Femininas de Pêlo de Coelho Paraíso dos Atiradores</STR>
+<STR id="ZITEM_DESC_522502">Luvas exclusivamente para o Paraíso dos Atiradores, uma organização particular da República. Feita com macio pêlo de Coelho.</STR>
+
+<STR id="ZITEM_NAME_522503">Luvas Femininas Azul Eterno</STR>
+<STR id="ZITEM_DESC_522503">Luvas de uniforme femininas para o Azul Eterno, o fora-da-lei no mar.</STR>
+
+<STR id="ZITEM_NAME_522504">Luvas Femininas da Aventureira</STR>
+<STR id="ZITEM_DESC_522504">Luvas femininas leves recomendadas para aventureiras novatas e para aquelas que não gostam de usar roupas e equipamentos pesados.</STR>
+
+<STR id="ZITEM_NAME_522505">Luvas Femininas Uivo Azul</STR>
+<STR id="ZITEM_DESC_522505">Luvas femininas para o Uivo Azul, conhecido como a dor de cabeça do Império.</STR>
+
+<STR id="ZITEM_NAME_522506">Luvas Femininas Ipot</STR>
+<STR id="ZITEM_DESC_522506">Luvas para mulheres legais em uma praia quente de verão.</STR>
+
+<STR id="ZITEM_NAME_522507">Luvas Femininas Corvo de Ferro</STR>
+<STR id="ZITEM_DESC_522507">Luvas para mulheres usadas em Corvo de Ferro, o centro de Havani, capital dos fora-da-lei.</STR>
+
+<STR id="ZITEM_NAME_522508">Luvas Femininas Papai Noel</STR>
+<STR id="ZITEM_DESC_522508">Um item para o Natal. Para mulheres.</STR>
+
+<STR id="ZITEM_NAME_522509">Luvas Femininas Cria do Fantasma</STR>
+<STR id="ZITEM_DESC_522509">Luvas femininas para uma organização de espionagem que passam de geração para geração desde os tempos antigos. Elas são um pouco pesadas.</STR>
+
+<STR id="ZITEM_NAME_522510">Luvas da Médica da República</STR>
+<STR id="ZITEM_DESC_522510">Luvas femininas para uma organização médica. Elas são leves.</STR>
+
+<STR id="ZITEM_NAME_522511">Luvas Femininas Poeira Cinzenta</STR>
+<STR id="ZITEM_DESC_522511">Luvas femininas de uniforme para a Poeira Cinzenta, uma tropa de elite do Império.</STR>
+
+<STR id="ZITEM_NAME_522512">Luvas de Couro Femininas LOK</STR>
+<STR id="ZITEM_DESC_522512">Luvas de Couro Femininas LOK.</STR>
+
+<STR id="ZITEM_NAME_522513">Manoplas Gun Knight Femininas</STR>
+<STR id="ZITEM_DESC_522513">Luvas conhecidas por serem usadas por uma famosa pistoleira de Axium.</STR>
+
+<STR id="ZITEM_NAME_522514">Luvas Coreanas Femininas</STR>
+<STR id="ZITEM_DESC_522514"></STR>
+
+<STR id="ZITEM_NAME_522515">Luvas Chama do Deserto Femininas</STR>
+<STR id="ZITEM_DESC_522515">As luvas das tropas especializadas de ação no deserto.</STR>
+
+<STR id="ZITEM_NAME_522516">Manoplas de Batalha Femininas</STR>
+<STR id="ZITEM_DESC_522516">Feitas de material resistente que protegem as mãos de todos os tipos de dano.</STR>
+
+<STR id="ZITEM_NAME_522517">Luvas COS Femininas</STR>
+<STR id="ZITEM_DESC_522517">Par de luvas usadas por oficiais militares. Sua nacionalidade é desconhecida.</STR>
+
+<STR id="ZITEM_NAME_522518">Luvas BlueVane</STR>
+<STR id="ZITEM_DESC_522518">Luvas feitas de um material flexível.</STR>
+
+<STR id="ZITEM_NAME_523001">Calças Cerimoniais para Oficiais</STR>
+<STR id="ZITEM_DESC_523001">Calças cerimoniais que os oficiais do Império usam em cerimônias importantes.</STR>
+
+<STR id="ZITEM_NAME_523002">Calças Masculinas Formais Paraíso dos Atiradores</STR>
+<STR id="ZITEM_DESC_523002">Calças exclusivamente para o Paraíso dos Atiradores, uma organização particular da República.</STR>
+
+<STR id="ZITEM_NAME_523003">Calças Masculinas Azul Eterno</STR>
+<STR id="ZITEM_DESC_523003">Calças de uniforme masculinas para o Azul Eterno, o fora-da-lei no mar.</STR>
+
+<STR id="ZITEM_NAME_523004">Calças Masculinas do Aventureiro</STR>
+<STR id="ZITEM_DESC_523004">Calças masculinas recomendadas para aventureiros novatos e para aqueles que não gostam de usar roupas e equipamentos pesados.</STR>
+
+<STR id="ZITEM_NAME_523005">Calças Masculinas Uivo Azul</STR>
+<STR id="ZITEM_DESC_523005">Calças masculinas para o Uivo Azul, conhecido como a dor de cabeça do Império.</STR>
+
+<STR id="ZITEM_NAME_523006">Shorts de Natação Masculinos Ipot</STR>
+<STR id="ZITEM_DESC_523006">Shorts de natação para caras legais em uma praia quente de verão.</STR>
+
+<STR id="ZITEM_NAME_523007">Calças Masculinas Corvo de Ferro</STR>
+<STR id="ZITEM_DESC_523007">Calças para homens usadas em Corvo de Ferro, o centro de Havani, capital dos fora-da-lei.</STR>
+
+<STR id="ZITEM_NAME_523008">Calças Masculinas Papai Noel</STR>
+<STR id="ZITEM_DESC_523008">Um item para o Natal. Para homens.</STR>
+
+<STR id="ZITEM_NAME_523009">Calças Masculinas Cria do Fantasma</STR>
+<STR id="ZITEM_DESC_523009">Calças masculinas para uma organização de espionagem que passam de geração para geração desde os tempos antigos. Elas são um pouco pesadas.</STR>
+
+<STR id="ZITEM_NAME_523010">Calças do Médico da República</STR>
+<STR id="ZITEM_DESC_523010">Calças masculinas para uma organização médica. Elas são leves.</STR>
+
+<STR id="ZITEM_NAME_523011">Calças Masculinas Poeira Cinzenta</STR>
+<STR id="ZITEM_DESC_523011">Calças masculinas de uniforme para a Poeira Cinzenta, uma tropa de elite do Império.</STR>
+
+<STR id="ZITEM_NAME_523012">Calças Masculinas LOK</STR>
+<STR id="ZITEM_DESC_523012">Calças Masculinas LOK.</STR>
+
+<STR id="ZITEM_NAME_523013">Calças Gun Knight Masculinas</STR>
+<STR id="ZITEM_DESC_523013">Calças conhecidas por serem usadas por um famoso pistoleiro de Axium.</STR>
+
+<STR id="ZITEM_NAME_523014">Calças Coreanas Masculinas</STR>
+<STR id="ZITEM_DESC_523014"></STR>
+
+<STR id="ZITEM_NAME_523015">Calças Chama do Deserto Masculinas</STR>
+<STR id="ZITEM_DESC_523015">As calças das tropas especializadas de ação no deserto.</STR>
+
+<STR id="ZITEM_NAME_523016">Calças de Batalha Masculinas</STR>
+<STR id="ZITEM_DESC_523016">Feitas de material resistente que protegem as pernas de todos os tipos de dano.</STR>
+
+<STR id="ZITEM_NAME_523017">Calças Esportivas Masculinas</STR>
+<STR id="ZITEM_DESC_523017">(Venda Limitada) Concede grande poder ao ser usado.</STR>
+
+<STR id="ZITEM_NAME_523020">Calças COS Masculinas</STR>
+<STR id="ZITEM_DESC_523020">Calças usadas por oficiais militares. Sua nacionalidade é desconhecida.</STR>
+
+<STR id="ZITEM_NAME_523021">Calças BlueVane</STR>
+<STR id="ZITEM_DESC_523021">Calças feitas de um material flexível.</STR>
+
+<STR id="ZITEM_NAME_523501">Calças Cerimoniais Femininas</STR>
+<STR id="ZITEM_DESC_523501">Calças cerimoniais fornecidas para as combatentes femininas do Império.</STR>
+
+<STR id="ZITEM_NAME_523502">Calças Femininas Paraíso dos Atiradores</STR>
+<STR id="ZITEM_DESC_523502">Calças femininas exclusivamente para o Paraíso dos Atiradores, uma organização particular da República.</STR>
+
+<STR id="ZITEM_NAME_523503">Calças Femininas Azul Eterno</STR>
+<STR id="ZITEM_DESC_523503">Calças de uniforme femininas para o Azul Eterno, o fora-da-lei no mar.</STR>
+
+<STR id="ZITEM_NAME_523504">Calças Femininas da Aventureira</STR>
+<STR id="ZITEM_DESC_523504">Calças femininas recomendadas para aventureiras novatas e para aquelas que não gostam de usar roupas e equipamentos pesados.</STR>
+
+<STR id="ZITEM_NAME_523505">Calças Femininas Uivo Azul</STR>
+<STR id="ZITEM_DESC_523505">Calça femininas para o Uivo Azul, conhecido como a dor de cabeça do Império.</STR>
+
+<STR id="ZITEM_NAME_523506">Calças de Biquíni Ipot</STR>
+<STR id="ZITEM_DESC_523506">Um ornamento de biquíni para mulheres legais em uma praia quente de verão.</STR>
+
+<STR id="ZITEM_NAME_523507">Calças Femininas Corvo de Ferro</STR>
+<STR id="ZITEM_DESC_523507">Calças para mulheres usadas em Corvo de Ferro, o centro de Havani, capital dos fora-da-lei.</STR>
+
+<STR id="ZITEM_NAME_523508">Calças Femininas Papai Noel</STR>
+<STR id="ZITEM_DESC_523508">Um item para o Natal. Para mulheres.</STR>
+
+<STR id="ZITEM_NAME_523509">Calças Femininas Cria do Fantasma</STR>
+<STR id="ZITEM_DESC_523509">Calças femininas que passam de geração para geração desde os tempos antigos. Elas são um pouco pesadas.</STR>
+
+<STR id="ZITEM_NAME_523510">Calças da Médica da República</STR>
+<STR id="ZITEM_DESC_523510">Calças femininas para uma organização médica. Elas são leves.</STR>
+
+<STR id="ZITEM_NAME_523511">Calças Femininas Poeira Cinzenta</STR>
+<STR id="ZITEM_DESC_523511">Calças femininas de uniforme para a Poeira Cinzenta, uma tropa de elite do Império.</STR>
+
+<STR id="ZITEM_NAME_523512">Calças Femininas LOK</STR>
+<STR id="ZITEM_DESC_523512">Calças femininas LOK.</STR>
+
+<STR id="ZITEM_NAME_523513">Calças Gun Knight Femininas</STR>
+<STR id="ZITEM_DESC_523513">Calças conhecidas por serem usadas por uma famosa pistoleira de Axium.</STR>
+
+<STR id="ZITEM_NAME_523514">Calças Coreanas Femininas</STR>
+<STR id="ZITEM_DESC_523514"></STR>
+
+<STR id="ZITEM_NAME_523515">Calças Chama Do Deserto Femininas</STR>
+<STR id="ZITEM_DESC_523515">As calças das tropas especializadas de ação no deserto.</STR>
+
+<STR id="ZITEM_NAME_523516">Calças de Batalha Femininas</STR>
+<STR id="ZITEM_DESC_523516">Feitas de material resistente que protegem as pernas de todos os tipos de dano.</STR>
+
+<STR id="ZITEM_NAME_523517">Calças Esportivas Femininas</STR>
+<STR id="ZITEM_DESC_523517">(Venda Limitada) Concede grande poder ao ser usado.</STR>
+
+<STR id="ZITEM_NAME_523520">Calças COS Femininas</STR>
+<STR id="ZITEM_DESC_523520">Calças usadas por oficiais militares. Sua nacionalidade é desconhecida.</STR>
+
+<STR id="ZITEM_NAME_523521">Calças BlueVane</STR>
+<STR id="ZITEM_DESC_523521">Calças feitas de um material flexível.</STR>
+
+<STR id="ZITEM_NAME_524001">Sapatos Cerimoniais para Oficiais</STR>
+<STR id="ZITEM_DESC_524001">Sapatos cerimoniais que os oficiais do Império usam em cerimônias importantes.</STR>
+
+<STR id="ZITEM_NAME_524002">Sapatos Masculinos Paraíso dos Atiradores</STR>
+<STR id="ZITEM_DESC_524002">Sapatos feitos exclusivamente para o Paraíso dos Atiradores, uma organização particular da República.</STR>
+
+<STR id="ZITEM_NAME_524003">Botas Masculinas Azul Eterno</STR>
+<STR id="ZITEM_DESC_524003">Botas de uniforme masculinas para o Azul Eterno, o fora-da-lei no mar.</STR>
+
+<STR id="ZITEM_NAME_524004">Botas Masculinas do Aventureiro</STR>
+<STR id="ZITEM_DESC_524004">Sapatos masculinos recomendados para aventureiros novatos e para aqueles que não gostam de usar roupas e equipamentos pesados.</STR>
+
+<STR id="ZITEM_NAME_524005">Sapatos Masculinos Uivo Azul</STR>
+<STR id="ZITEM_DESC_524005">Sapatos masculinos para o Uivo Azul, conhecido como a dor de cabeça do Império.</STR>
+
+<STR id="ZITEM_NAME_524006">Sapatos Masculinos Aqua Ipot</STR>
+<STR id="ZITEM_DESC_524006">Sapatos aqua para caras legais em uma praia quente de verão.</STR>
+
+<STR id="ZITEM_NAME_524007">Sapatos Masculinos Corvo de Ferro</STR>
+<STR id="ZITEM_DESC_524007">Sapatos para homens usados em Corvo de Ferro, o centro de Havani, capital dos fora-da-lei.</STR>
+
+<STR id="ZITEM_NAME_524008">Botas Masculinas Papai Noel</STR>
+<STR id="ZITEM_DESC_524008">Um item para o Natal. Para homens.</STR>
+
+<STR id="ZITEM_NAME_524009">Sapatos Masculinos Cria do Fantasma</STR>
+<STR id="ZITEM_DESC_524009">Sapatos masculinos para uma organização de espionagem que passa de geração para geração desde os tempos antigos. Eles são um pouco pesados.</STR>
+
+<STR id="ZITEM_NAME_524010">Botas do Médico da República</STR>
+<STR id="ZITEM_DESC_524010">Sapatos masculinos para uma organização médica. Eles são leves.</STR>
+
+<STR id="ZITEM_NAME_524011">Sapatos Masculinos Poeira Cinzenta</STR>
+<STR id="ZITEM_DESC_524011">Sapatos masculinos de uniforme para a Poeira Cinzenta, uma tropa de elite do Império.</STR>
+
+<STR id="ZITEM_NAME_524012">Sapatos Masculinos LOK</STR>
+<STR id="ZITEM_DESC_524012">Sapatos masculinos LOK.</STR>
+
+<STR id="ZITEM_NAME_524013">Sapatos Gun Knight (M)</STR>
+<STR id="ZITEM_DESC_524013">Os sapatos conhecidos por serem usados por um famoso pistoleiro de Axium.</STR>
+
+<STR id="ZITEM_NAME_524014">Sapatos Coreanos (M)</STR>
+<STR id="ZITEM_DESC_524014">Item de ano novo para homens.</STR>
+
+<STR id="ZITEM_NAME_524015">Botas Chama do Deserto (M)</STR>
+<STR id="ZITEM_DESC_524015">As botas das tropas especializadas de ação no deserto.</STR>
+
+<STR id="ZITEM_NAME_524016">Botas de Batalha (M)</STR>
+<STR id="ZITEM_DESC_524016">Feitas de material resistente que protege os pés de todos os tipos de dano.</STR>
+
+<STR id="ZITEM_NAME_524017">Sapatos Esportivos (M)</STR>
+<STR id="ZITEM_DESC_524017">(Venda Limitada) Concede grande poder ao ser usado.</STR>
+
+<STR id="ZITEM_NAME_524020">Botas COS (M)</STR>
+<STR id="ZITEM_DESC_524020">Par de botas usadas por oficiais militares. Sua nacionalidade é desconhecida.</STR>
+
+<STR id="ZITEM_NAME_524021">Sapatos BlueVane</STR>
+<STR id="ZITEM_DESC_524021">Par de sapatos feitos especialmente para a série BlueVane. Feitos de um material flexível.</STR>
+
+<STR id="ZITEM_NAME_524501">Sapatos Cerimoniais Femininos</STR>
+<STR id="ZITEM_DESC_524501">Sapatos cerimoniais fornecidos para as combatentes femininas do Império.</STR>
+
+<STR id="ZITEM_NAME_524502">Sapatos Femininos de Couro Reforçado Paraíso dos Atiradores</STR>
+<STR id="ZITEM_DESC_524502">Sapatos para o Paraíso dos Atiradores, uma organização particular da República. Feitos de couro reforçado.</STR>
+
+<STR id="ZITEM_NAME_524503">Botas Femininas Azul Eterno</STR>
+<STR id="ZITEM_DESC_524503">Botas de uniforme femininas para o Azul Eterno, o fora-da-lei no mar.</STR>
+
+<STR id="ZITEM_NAME_524504">Botas Femininas da Aventureira</STR>
+<STR id="ZITEM_DESC_524504">Sapatos femininos recomendados para aventureiras novatas e para aquelas que não gostam de usar roupas e equipamentos pesados.</STR>
+
+<STR id="ZITEM_NAME_524505">Sapatos Femininos Uivo Azul</STR>
+<STR id="ZITEM_DESC_524505">Sapatos femininos para o Uivo Azul, conhecido como a dor de cabeça do Império.</STR>
+
+<STR id="ZITEM_NAME_524506">Sandálias Femininas Ipot</STR>
+<STR id="ZITEM_DESC_524506">Sandálias para mulheres legais em uma praia quente de verão.</STR>
+
+<STR id="ZITEM_NAME_524507">Sapatos Femininos Corvo de Ferro</STR>
+<STR id="ZITEM_DESC_524507">Sapatos para mulheres usados em Corvo de Ferro, o centro de Havani, capital dos fora-da-lei.</STR>
+
+<STR id="ZITEM_NAME_524508">Botas Femininas Papai Noel</STR>
+<STR id="ZITEM_DESC_524508">Um item para o Natal. Para mulheres.</STR>
+
+<STR id="ZITEM_NAME_524509">Sapatos Femininos Cria do Fantasma</STR>
+<STR id="ZITEM_DESC_524509">Sapatos femininos para uma organização de espionagem que passa de geração para geração desde os tempos antigos. Eles são um pouco pesados.</STR>
+
+<STR id="ZITEM_NAME_524510">Botas da Médica da República</STR>
+<STR id="ZITEM_DESC_524510">Sapatos femininos para uma organização médica. Eles são leves.</STR>
+
+<STR id="ZITEM_NAME_524511">Sapatos Femininos Poeira Cinzenta</STR>
+<STR id="ZITEM_DESC_524511">Sapatos femininos de uniforme para a Poeira Cinzenta, uma tropa de elite do Império.</STR>
+
+<STR id="ZITEM_NAME_524512">Sapatos Femininos LOK</STR>
+<STR id="ZITEM_DESC_524512">Sapatos femininos LOK.</STR>
+
+<STR id="ZITEM_NAME_524513">Sapatos Gun Knight (F)</STR>
+<STR id="ZITEM_DESC_524513">Os sapatos conhecidos por serem usados por uma famosa pistoleira de Axium.</STR>
+
+<STR id="ZITEM_NAME_524514">Sapatos Hanbok (F)</STR>
+<STR id="ZITEM_DESC_524514">Item de ano novo para mulheres.</STR>
+
+<STR id="ZITEM_NAME_524515">Botas Chama do Deserto (F)</STR>
+<STR id="ZITEM_DESC_524515">As botas das tropas especializadas de ação no deserto.</STR>
+
+<STR id="ZITEM_NAME_524516">Botas de Batalha (F)</STR>
+<STR id="ZITEM_DESC_524516">Feitas de material resistente que protege os pés de todos os tipos de dano.</STR>
+
+<STR id="ZITEM_NAME_524517">Sapatos Esportivos (F)</STR>
+<STR id="ZITEM_DESC_524517">(Venda Limitada) Concede grande poder ao ser usado.</STR>
+
+<STR id="ZITEM_NAME_524520">Botas COS (F)</STR>
+<STR id="ZITEM_DESC_524520">Par de botas usadas por oficiais militares. Sua nacionalidade é desconhecida.</STR>
+
+<STR id="ZITEM_NAME_524521">Sapatos BlueVane</STR>
+<STR id="ZITEM_DESC_524521">Par de sapatos feitos especialmente para a série BlueVane. Feitos de um material flexível.</STR>
+
+<STR id="ZITEM_NAME_525001">Anel do Trevo</STR>
+<STR id="ZITEM_DESC_525001">Um anel com o símbolo da sorte (trevo) dentro de um cristal. Seu portador verá a sua capacidade de carregar peso ampliada.</STR>
+
+<STR id="ZITEM_NAME_525002">Anel Comemorativo da Cavalaria de Ferro</STR>
+<STR id="ZITEM_DESC_525002">Dizem que esse anel foi ofertado para a Cavalaria de Ferro. Você pode entender por que aqueles mágicos dos tempos antigos desenvolveram um anel com tanto poder quando pensa nas armas pesadas que eles carregavam.</STR>
+
+<STR id="ZITEM_NAME_525003">Anel do Grande Imperador</STR>
+<STR id="ZITEM_DESC_525003">Este anel foi feito para o Grande Imperador de Ryswick. A pessoa que usar esse anel com um poder misterioso será afetada pela força potente de uma magia antiga.</STR>
+
+<STR id="ZITEM_NAME_525004">Anel da Experiência</STR>
+<STR id="ZITEM_DESC_525004">Este anel concede um bônus de 20% na EXP e nos Bounties. Só é possível utilizar um deste.</STR>
+
+<STR id="ZITEM_NAME_525005">Anel da Sorte</STR>
+<STR id="ZITEM_DESC_525005">Um anel com um encanto poderoso. Só é possível utilizar um deste.</STR>
+
+<STR id="ZITEM_NAME_525101">Barra de Chocolate</STR>
+<STR id="ZITEM_DESC_525101">Delicioso e recarrega pequena quantidade de AP e HP ao ser comido.</STR>
+
+<STR id="ZITEM_NAME_526001">Pacote de Munição</STR>
+<STR id="ZITEM_DESC_526001">Carrega até 2 pentes de munição adicionais.</STR>
+
+<STR id="ZITEM_NAME_527001">Medical Kit MX-S1</STR>
+<STR id="ZITEM_DESC_527001">A powerful super light weighted medical kit. Medical Kit MX-S1 heals almost twice more than MK series. (3 bundle pack) </STR>
+
+<STR id="ZITEM_NAME_527002">Medical Kit MX-S2</STR>
+<STR id="ZITEM_DESC_527002">A powerful super light weighted medical kit. Medical Kit MX-S2 heals almost twice more than MK series. (5 bundle pack) </STR>
+
+<STR id="ZITEM_NAME_528001">Repair Kit RX-S1</STR>
+<STR id="ZITEM_DESC_528001">A powerful super light weighted repair kit. Repair Kit MX-S1 heals almost twice more than MK series. (3 bundle pack) </STR>
+	
+<STR id="ZITEM_NAME_528002">Repair Kit RX-S2</STR>
+<STR id="ZITEM_DESC_528002">A powerful super light weighted medical kit. Medical Kit MX-S2 heals almost twice more than MK series. (5 bundle pack) </STR>
+
+<STR id="ZITEM_NAME_600001">Moeda de Canopus</STR>
+<STR id="ZITEM_DESC_600001">Uma moeda com os poderes do Deus da Chama, Canopus.</STR>
+
+<STR id="ZITEM_NAME_600002">Selo de Canopus</STR>
+<STR id="ZITEM_DESC_600002">Um selo com os poderes do Deus da Chama, Canopus.</STR>
+
+<STR id="ZITEM_NAME_600003">Medalha de Canopus</STR>
+<STR id="ZITEM_DESC_600003">Uma medalha com os poderes do Deus da Chama, Canopus.</STR>
+
+<STR id="ZITEM_NAME_600004">Jóia de Canopus</STR>
+<STR id="ZITEM_DESC_600004">Uma jóia com os poderes do Deus da Chama, Canopus.</STR>
+
+<STR id="ZITEM_NAME_600005">Olho de Canopus</STR>
+<STR id="ZITEM_DESC_600005">Um olho com os poderes do Deus da Chama, Canopus.</STR>
+
+<STR id="ZITEM_NAME_600006">Canospus's Eye</STR>
+<STR id="ZITEM_DESC_600006">[Enchant Lv.0] Enchanted on this tiny jewel is the power of Canopus. Melee weapon fires up when charged. Any opponent hit by enchant attack will get damaged at every second for a certain amount of time. </STR>
+
+<STR id="ZITEM_NAME_600101">Moeda de Enia</STR>
+<STR id="ZITEM_DESC_600101">Uma moeda com os poderes do Deus da Água e do Gelo, Enia.</STR>
+
+<STR id="ZITEM_NAME_600102">Selo de Enia</STR>
+<STR id="ZITEM_DESC_600102">Um selo com os poderes do Deus da Água e do Gelo, Enia.</STR>
+
+<STR id="ZITEM_NAME_600103">Medalha de Enia</STR>
+<STR id="ZITEM_DESC_600103">Uma medalha com os poderes do Deus da Água e do Gelo, Enia.</STR>
+
+<STR id="ZITEM_NAME_600104">Jóia de Enia</STR>
+<STR id="ZITEM_DESC_600104">Uma jóia com os poderes do Deus da Água e do Gelo, Enia.</STR>
+
+<STR id="ZITEM_NAME_600105">Olho de Enia</STR>
+<STR id="ZITEM_DESC_600105">O olho do Deus da Água e do Gelo, Enia.</STR>
+
+<STR id="ZITEM_NAME_600106">Enia's Eye</STR>
+<STR id="ZITEM_DESC_600106">[Enchant Lv.0] Enchanted on this tiny jewel is the power of Enia. Melee weapon fires up when charged. Any opponent hit by enchant attack will get damaged at every second for a certain amount of time.</STR>
+
+<STR id="ZITEM_NAME_600201">Moeda de Winscar</STR>
+<STR id="ZITEM_DESC_600201">Uma moeda com os poderes do Senhor dos Ventos e do Céu, Winscar.</STR>
+
+<STR id="ZITEM_NAME_600202">Selo de Winscar</STR>
+<STR id="ZITEM_DESC_600202">Um selo com os poderes do Senhor dos Ventos e do Céu, Winscar.</STR>
+
+<STR id="ZITEM_NAME_600203">Medalha de Winscar</STR>
+<STR id="ZITEM_DESC_600203">Uma medalha com os poderes do Senhor dos Ventos e do Céu, Winscar.</STR>
+
+<STR id="ZITEM_NAME_600204">Jóia de Winscar</STR>
+<STR id="ZITEM_DESC_600204">Uma jóia com os poderes do Senhor dos Ventos e do Céu, Winscar.</STR>
+
+<STR id="ZITEM_NAME_600205">Olho de Winscar</STR>
+<STR id="ZITEM_DESC_600205">O olho de Senhor dos Ventos e do Céu, Winscar.</STR>
+
+<STR id="ZITEM_NAME_600301">Moeda de Giston</STR>
+<STR id="ZITEM_DESC_600301">Uma moeda com os poderes do Deus da Terra, Giston.</STR>
+
+<STR id="ZITEM_NAME_600302">Selo de Giston</STR>
+<STR id="ZITEM_DESC_600302">Um selo com os poderes do Deus da Terra, Giston.</STR>
+
+<STR id="ZITEM_NAME_600303">Medalha de Giston</STR>
+<STR id="ZITEM_DESC_600303">Uma medalha com os poderes do Deus da Terra, Giston.</STR>
+
+<STR id="ZITEM_NAME_600304">Jóia de Giston</STR>
+<STR id="ZITEM_DESC_600304">Uma jóia com os poderes do Deus da Terra, Giston.</STR>
+
+<STR id="ZITEM_NAME_600305">Olho de Giston</STR>
+<STR id="ZITEM_DESC_600305">O olho do Deus da Terra, Giston.</STR>
+
+
+<!-- Premium Ticket -->
+<STR id="ZITEM_NAME_700001">Item de Acesso Especial</STR>
+<STR id="ZITEM_DESC_700001">Item que possibilita o acesso aos servidores Premium.</STR>
+
+
+<!-- channel.xml -->
+<STR id="CHANNEL_DEFAULT_NAME">Canal de Transição</STR>
+
+<STR id="CHANNEL_NOVICE_NAME_1">Canal de Transição</STR>
+
+<STR id="CHANNEL_FREE_NAME_1">Canal de livre 1 (nível 1~10)</STR>
+<STR id="CHANNEL_FREE_NAME_2">Canal de livre 2 (nível 1~10)</STR>
+<STR id="CHANNEL_FREE_NAME_3">Canal de livre 3 (nível 1~10)</STR>
+<STR id="CHANNEL_FREE_NAME_4">Canal de livre 4 (nível 1~10)</STR>
+<STR id="CHANNEL_FREE_NAME_5">Canal de livre 5 (nível 1~10)</STR>
+
+<STR id="CHANNEL_NEWBIE_NAME_1">Canal de Iniciantes 1 (nível 1~10)</STR>
+<STR id="CHANNEL_NEWBIE_NAME_2">Canal de Iniciantes 2 (nível 1~10)</STR>
+
+<STR id="CHANNEL_ROOKIE_NAME_1">Canal de Veteranos 1 (nível 11~20)</STR>
+<STR id="CHANNEL_ROOKIE_NAME_2">Canal de Veteranos 2 (nível 11~20)</STR>
+
+<STR id="CHANNEL_MASTERY_NAME_1">Canal de Profissionais 1 (nível 21~34)</STR>
+<STR id="CHANNEL_MASTERY_NAME_2">Canal de Profissionais 2 (nível 21~34)</STR>
+
+<STR id="CHANNEL_ELITE_NAME_1">Canal de Elite 1  (nível 34+)</STR>
+<STR id="CHANNEL_ELITE_NAME_2">Canal de Elite 2  (nível 34+)</STR>
+
+
+
+<!-- chatcmds.xml -->
+<STR id="CMD_NAME_1">help</STR>
+<STR id="CMD_USAGE_1">/help ou /help [comando]</STR>
+<STR id="CMD_HELP_1">Mostra a lista de comandos de chat.</STR>
+<STR id="CMD_ALIAS_1_1">h</STR>
+<STR id="CMD_ALIAS_1_2"></STR>
+
+<STR id="CMD_NAME_2">mp</STR>
+<STR id="CMD_USAGE_2">/mp [ID] [msg] ou /m [ID] [msg]</STR>
+<STR id="CMD_HELP_2">Mensagem privada para o ID</STR>
+<STR id="CMD_ALIAS_2_1">whisper</STR>
+<STR id="CMD_ALIAS_2_2">m</STR>
+
+<STR id="CMD_NAME_3">reportar</STR>
+<STR id="CMD_USAGE_3">/reportar</STR>
+<STR id="CMD_HELP_3">Reporta os detalhes do chat</STR>
+<STR id="CMD_ALIAS_3_1">report</STR>
+<STR id="CMD_ALIAS_3_2"></STR>
+
+<STR id="CMD_NAME_4">amigo</STR>
+<STR id="CMD_USAGE_4">/amigo [cmd] [args]</STR>
+<STR id="CMD_HELP_4">comandos da lista de amigos</STR>
+<STR id="CMD_ALIAS_4_1">friend</STR>
+<STR id="CMD_ALIAS_4_2"></STR>
+
+<STR id="CMD_NAME_5">clã</STR>
+<STR id="CMD_USAGE_5">/clã [cmd] [args]</STR>
+<STR id="CMD_HELP_5">comandos de clã</STR>
+<STR id="CMD_ALIAS_5_1">clan</STR>
+<STR id="CMD_ALIAS_5_2"></STR>
+
+<STR id="CMD_NAME_6">seguir</STR>
+<STR id="CMD_USAGE_6">/seguir [ID]</STR>
+<STR id="CMD_HELP_6">Vai para onde o amigo está</STR>
+<STR id="CMD_ALIAS_6_1">follow</STR>
+<STR id="CMD_ALIAS_6_2"></STR>
+
+<STR id="CMD_NAME_7">jogar</STR>
+<STR id="CMD_USAGE_7">/jogar</STR>
+<STR id="CMD_HELP_7">Inicia um jogo agora em qualquer sala</STR>
+<STR id="CMD_ALIAS_7_1">go</STR>
+<STR id="CMD_ALIAS_7_2">qj</STR>
+
+<STR id="CMD_NAME_8">insultar</STR>
+<STR id="CMD_USAGE_8">/insultar</STR>
+<STR id="CMD_HELP_8">Provoca jogadores em um jogo. (Suportado apenas nos jogos)</STR>
+<STR id="CMD_ALIAS_8_1">taunt</STR>
+<STR id="CMD_ALIAS_8_2"></STR>
+
+<STR id="CMD_NAME_9">cumprimentar</STR>
+<STR id="CMD_USAGE_9">/cumprimentar</STR>
+<STR id="CMD_HELP_9">O personagem faz uma saudação.  (Suportado apenas nos jogos)</STR>
+<STR id="CMD_ALIAS_9_1">salute</STR>
+<STR id="CMD_ALIAS_9_2">bow</STR>
+
+<STR id="CMD_NAME_10">acenar</STR>
+<STR id="CMD_USAGE_10">/acenar</STR>
+<STR id="CMD_HELP_10">O personagem acena com as mãos. (Suportado apenas nos jogos)</STR>
+<STR id="CMD_ALIAS_10_1">wave</STR>
+<STR id="CMD_ALIAS_10_2"></STR>
+
+<STR id="CMD_NAME_11">rir</STR>
+<STR id="CMD_USAGE_11">/rir</STR>
+<STR id="CMD_HELP_11">O personagem ri. (Suportado apenas nos jogos)</STR>
+<STR id="CMD_ALIAS_11_1">laugh</STR>
+<STR id="CMD_ALIAS_11_2"></STR>
+
+<STR id="CMD_NAME_12">chorar</STR>
+<STR id="CMD_USAGE_12">/chorar</STR>
+<STR id="CMD_HELP_12">O personagem chora. (Suportado apenas nos jogos)</STR>
+<STR id="CMD_ALIAS_12_1">cry</STR>
+<STR id="CMD_ALIAS_12_2"></STR>
+
+<STR id="CMD_NAME_13">dançar</STR>
+<STR id="CMD_USAGE_13">/dançar</STR>
+<STR id="CMD_HELP_13">O personagem dança. (Suportado apenas nos jogos)</STR>
+<STR id="CMD_ALIAS_13_1">dance</STR>
+<STR id="CMD_ALIAS_13_2"></STR>
+
+<STR id="CMD_NAME_14">macro</STR>
+<STR id="CMD_USAGE_14">/macro</STR>
+<STR id="CMD_HELP_14">Registrar macros</STR>
+<STR id="CMD_ALIAS_14_1">macro</STR>
+<STR id="CMD_ALIAS_14_2"></STR>
+
+<STR id="CMD_NAME_15">suicidar</STR>
+<STR id="CMD_USAGE_15">/suicidar</STR>
+<STR id="CMD_HELP_15">O personagem atualmente no jogo obtém imediatamente uma derrota.</STR>
+<STR id="CMD_ALIAS_15_1">suicide</STR>
+<STR id="CMD_ALIAS_15_2"></STR>
+
+<STR id="CMD_NAME_16">votar</STR>
+<STR id="CMD_USAGE_16">/votar</STR>
+<STR id="CMD_HELP_16">votando</STR>
+<STR id="CMD_ALIAS_16_1">vote</STR>
+<STR id="CMD_ALIAS_16_2"></STR>
+
+<STR id="CMD_NAME_17">sim</STR>
+<STR id="CMD_USAGE_17">/sim</STR>
+<STR id="CMD_HELP_17">a favor</STR>
+<STR id="CMD_ALIAS_17_1">yes</STR>
+<STR id="CMD_ALIAS_17_2"></STR>
+
+<STR id="CMD_NAME_18">não</STR>
+<STR id="CMD_USAGE_18">/não</STR>
+<STR id="CMD_HELP_18">contra</STR>
+<STR id="CMD_ALIAS_18_1">no</STR>
+<STR id="CMD_ALIAS_18_2"></STR>
+
+<STR id="CMD_NAME_19">expulsar</STR>
+<STR id="CMD_USAGE_19">/expulsar</STR>
+<STR id="CMD_HELP_19">Propor a expulsão do jogador</STR>
+<STR id="CMD_ALIAS_19_1">kick</STR>
+<STR id="CMD_ALIAS_19_2"></STR>
+
+<STR id="CMD_NAME_20">chatmake</STR>
+<STR id="CMD_USAGE_20">/chatmake [nome da sala]</STR>
+<STR id="CMD_HELP_20">criar sala de chat</STR>
+<STR id="CMD_ALIAS_20_1"></STR>
+<STR id="CMD_ALIAS_20_2"></STR>
+
+<STR id="CMD_NAME_21">chatjoin</STR>
+<STR id="CMD_USAGE_21">/chatjoin [nome da sala]</STR>
+<STR id="CMD_HELP_21">entrar na sala de chat</STR>
+<STR id="CMD_ALIAS_21_1"></STR>
+<STR id="CMD_ALIAS_21_2"></STR>
+
+<STR id="CMD_NAME_22">chatleave</STR>
+<STR id="CMD_USAGE_22">/chatleave [nome da sala]</STR>
+<STR id="CMD_HELP_22">sair da sala de chat</STR>
+<STR id="CMD_ALIAS_22_1"></STR>
+<STR id="CMD_ALIAS_22_2"></STR>
+
+<STR id="CMD_NAME_23">chatselect</STR>
+<STR id="CMD_USAGE_23">/chatselect [nome da sala]</STR>
+<STR id="CMD_HELP_23">selecionar sala de chat</STR>
+<STR id="CMD_ALIAS_23_1"></STR>
+<STR id="CMD_ALIAS_23_2"></STR>
+
+<STR id="CMD_NAME_24">chatinvite</STR>
+<STR id="CMD_USAGE_24">/chatinvite [nome]</STR>
+<STR id="CMD_HELP_24">convidar</STR>
+<STR id="CMD_ALIAS_24_1"></STR>
+<STR id="CMD_ALIAS_24_2"></STR>
+
+<STR id="CMD_NAME_25">chataccept</STR>
+<STR id="CMD_USAGE_25">/chataccept</STR>
+<STR id="CMD_HELP_25">aceitar</STR>
+<STR id="CMD_ALIAS_25_1"></STR>
+<STR id="CMD_ALIAS_25_2"></STR>
+
+<STR id="CMD_NAME_26">chat</STR>
+<STR id="CMD_USAGE_26">chat [mensagem]</STR>
+<STR id="CMD_HELP_26">chat</STR>
+<STR id="CMD_ALIAS_26_1"></STR>
+<STR id="CMD_ALIAS_26_2"></STR>
+
+<!-- notify.xml -->
+<STR id="NOTIFY_10">Falha ao inicializar a rede.</STR>
+<STR id="NOTIFY_11">Porta de rede em uso.</STR>
+<STR id="NOTIFY_15">Configuração da conexão de rede NAT definida.</STR>
+<STR id="NOTIFY_51">Usuário não encontrado.</STR>
+<STR id="NOTIFY_70">O personagem não existe.</STR>
+<STR id="NOTIFY_100">A fase já existe.</STR>
+<STR id="NOTIFY_101">A fase não existe.</STR>
+<STR id="NOTIFY_110">A capacidade de participantes alcançou o limite.</STR>
+<STR id="NOTIFY_150">A Sala de Chat foi criada.</STR>
+<STR id="NOTIFY_151">Falha na criação da Sala de Chat.</STR>
+<STR id="NOTIFY_152">A Sala de Chat já existe.</STR>
+<STR id="NOTIFY_153">A Sala de Chat não existe.</STR>
+<STR id="NOTIFY_154">Não existe Sala de Chat para participar.</STR>
+<STR id="NOTIFY_155">Você não pode participar da Sala de Chat.</STR>
+<STR id="NOTIFY_156">Muitos participantes.</STR>
+<STR id="NOTIFY_200">Speed Hack foi detectado.</STR>
+<STR id="NOTIFY_201">Uso de trapaça de memória detectado.</STR>
+<STR id="NOTIFY_251">Já registrado como um amigo.</STR>
+<STR id="NOTIFY_252">Não registrado como um amigo.</STR>
+<STR id="NOTIFY_253">A lista de amigos está completa.</STR>
+<STR id="NOTIFY_255">Registrado como amigo.</STR>
+<STR id="NOTIFY_256">Liberado de um status de amigo.</STR>
+<STR id="NOTIFY_301">Seu correspondente rejeitou a mensagem privada.</STR>
+<STR id="NOTIFY_302">Mensagem privada rejeitada.</STR>
+<STR id="NOTIFY_311">Seu correspondente rejeitou o convite.</STR>
+<STR id="NOTIFY_312">O convite foi rejeitado.</STR>
+
+
+
+
+<!-- npc.xml -->
+<STR id="NPC_NAME_11">Soldado Goblin</STR>
+<STR id="NPC_DESC_11"></STR>
+
+<STR id="NPC_NAME_12">Artilheiro Goblin</STR>
+<STR id="NPC_DESC_12"></STR>
+
+<STR id="NPC_NAME_13">Feiticeiro Goblin</STR>
+<STR id="NPC_DESC_13"></STR>
+
+<STR id="NPC_NAME_14">General Goblin</STR>
+<STR id="NPC_DESC_14"></STR>
+
+<STR id="NPC_NAME_15">Goblin Ancião</STR>
+<STR id="NPC_DESC_15"></STR>
+
+<STR id="NPC_NAME_16">Rei Goblin</STR>
+<STR id="NPC_DESC_16"></STR>
+
+<STR id="NPC_NAME_17">Event Goblin</STR>
+<STR id="NPC_DESC_17"></STR>
+
+<STR id="NPC_NAME_21">Pampoa</STR>
+<STR id="NPC_DESC_21"></STR>
+
+<STR id="NPC_NAME_22">General Pampoa</STR>
+<STR id="NPC_DESC_22"></STR>
+
+<STR id="NPC_NAME_23">Pampow</STR>
+<STR id="NPC_DESC_23"></STR>
+
+<STR id="NPC_NAME_24">Pampow Amaldiçoado</STR>
+<STR id="NPC_DESC_24"></STR>
+
+<STR id="NPC_NAME_25">Bebê Pampow</STR>
+<STR id="NPC_DESC_25"></STR>
+
+<STR id="NPC_NAME_31">Esqueleto</STR>
+<STR id="NPC_DESC_31"></STR>
+
+<STR id="NPC_NAME_32">Mago Esqueleto</STR>
+<STR id="NPC_DESC_32"></STR>
+
+<STR id="NPC_NAME_33">General Esqueleto</STR>
+<STR id="NPC_DESC_33"></STR>
+
+<STR id="NPC_NAME_34">Esqueleto Gigante</STR>
+<STR id="NPC_DESC_34"></STR>
+
+<STR id="NPC_NAME_35">Cadáver Amaldiçoado</STR>
+<STR id="NPC_DESC_35"></STR>
+
+<STR id="NPC_NAME_36">Richie</STR>
+<STR id="NPC_DESC_36"></STR>
+
+<STR id="NPC_NAME_41">Gnomo</STR>
+<STR id="NPC_DESC_41"></STR>
+
+<STR id="NPC_NAME_42">Gnomo Xamã</STR>
+<STR id="NPC_DESC_42"></STR>
+
+<STR id="NPC_NAME_43">General Gnomo</STR>
+<STR id="NPC_DESC_43"></STR>
+
+<STR id="NPC_NAME_44">Rei Gnomo</STR>
+<STR id="NPC_DESC_44"></STR>
+
+<STR id="NPC_NAME_45">Golem Alquebrado</STR>
+<STR id="NPC_DESC_45"></STR>
+
+<STR id="NPC_NAME_46">Scrider</STR>
+<STR id="NPC_DESC_46"></STR>
+
+
+
+
+<!-- scenario.xml -->
+<STR id="SCENARIO_TITLE_500">Hubigo QL 0</STR>
+<STR id="SCENARIO_TITLE_501">Hubigo QL 1</STR>
+<STR id="SCENARIO_TITLE_502">Hubigo QL 2</STR>
+<STR id="SCENARIO_TITLE_503">Hubigo QL 3</STR>
+
+
+
+<!-- shutdown.xml -->
+<STR id="SHUTDOWN_01">PARADA DE EMERGÊNCIA DO SERVIDOR EM 1 MINUTO PARA PATCH</STR>
+<STR id="SHUTDOWN_02">Por favor, desconecte-se agora para proteção de dados.</STR>
+<STR id="SHUTDOWN_03">Desculpe pela inconveniência.</STR>
+<STR id="SHUTDOWN_04">Parada do Servidor em 30 segundos.</STR>
+<STR id="SHUTDOWN_05">Parada do Servidor em 20 segundos.</STR>
+<STR id="SHUTDOWN_06">Parada do Servidor em 10 segundos.</STR>
+<STR id="SHUTDOWN_07">Parada do Servidor em 5 segundos.</STR>
+<STR id="SHUTDOWN_08">Parada do Servidor em 4 segundos.</STR>
+<STR id="SHUTDOWN_09">Parada do Servidor em 3 segundos.</STR>
+<STR id="SHUTDOWN_10">Parada do Servidor em 2 segundos.</STR>
+<STR id="SHUTDOWN_11">Parada do Servidor em 1 segundo.</STR>
+<STR id="SHUTDOWN_12">DESLIGANDO</STR>
+
+
+
+<!-- zquestitem.xml -->
+<STR id="QITEM_NAME_200001">Página 13 rasgada</STR>
+<STR id="QITEM_DESC_200001">Uma página foi arrancada de um livro. A impressão esmaecida diz página 13.</STR>
+
+<STR id="QITEM_NAME_200002">Página 25 rasgada</STR>
+<STR id="QITEM_DESC_200002">Uma página foi arrancada de um livro. A impressão esmaecida diz página 25.</STR>
+
+<STR id="QITEM_NAME_200003">Página 41 rasgada</STR>
+<STR id="QITEM_DESC_200003">Uma página foi arrancada de um livro. A impressão esmaecida diz página 41.</STR>
+
+<STR id="QITEM_NAME_200004">Página 65 rasgada</STR>
+<STR id="QITEM_DESC_200004">Uma página foi arrancada de um livro. A impressão esmaecida diz página 65.</STR>
+
+<STR id="QITEM_NAME_200005">Crânio Pequeno</STR>
+<STR id="QITEM_DESC_200005">Crânio Misterioso. Parece um crânio de pássaro.</STR>
+
+<STR id="QITEM_NAME_200006">Crânio Grande</STR>
+<STR id="QITEM_DESC_200006">Crânio Misterioso. Não identificado, o dono do crânio parece ter tido uma cabeça grande.</STR>
+
+<STR id="QITEM_NAME_200007">Crânio Misterioso</STR>
+<STR id="QITEM_DESC_200007">Crânio misterioso cujo uso não foi identificado.</STR>
+
+<STR id="QITEM_NAME_200008">Crânio de Goblin</STR>
+<STR id="QITEM_DESC_200008">Crânio de Goblin. Uma inscrição de um lado diz 'Exige um novo mundo'.</STR>
+
+<STR id="QITEM_NAME_200009">Crânio de Rei Goblin</STR>
+<STR id="QITEM_DESC_200009">Crânio do Rei Goblin.</STR>
+
+<STR id="QITEM_NAME_200010">Osso muito, muito grande</STR>
+<STR id="QITEM_DESC_200010">Parece com ossos de um homem. Entretanto, o tamanho é equivalente ao de um dinossauro.</STR>
+
+<STR id="QITEM_NAME_200011">Carne Crua</STR>
+<STR id="QITEM_DESC_200011">Carne crua de um animal desconhecido. Parece ter sido usada como alimento.</STR>
+
+<STR id="QITEM_NAME_200012">Carne Temperada</STR>
+<STR id="QITEM_DESC_200012">Carne temperada e cozida. Parece deliciosa.</STR>
+
+<STR id="QITEM_NAME_200013">Bife</STR>
+<STR id="QITEM_DESC_200013">Bife que parece muito delicioso. Deve ser o favorito do Monstro.</STR>
+
+<STR id="QITEM_NAME_200014">Brincos de Ferro</STR>
+<STR id="QITEM_DESC_200014">Brincos de ferro feitos para a tribo Gnomo. Humanos não podem usá-los.</STR>
+
+<STR id="QITEM_NAME_200015">Brincos de Prata</STR>
+<STR id="QITEM_DESC_200015">Brincos de prata para a tribo Gnomo. Humanos não podem usá-los.</STR>
+
+<STR id="QITEM_NAME_200016">Brincos de Ouro</STR>
+<STR id="QITEM_DESC_200016">Brincos de ouro para a tribo Gnomo. Humanos não podem usá-los.</STR>
+
+<STR id="QITEM_NAME_200017">Brincos de Platina</STR>
+<STR id="QITEM_DESC_200017">Brincos feitos de um metal especial usados pelo Rei Gnomo. Humanos não podem usá-los.</STR>
+
+<STR id="QITEM_NAME_200018">Colar Carmesim</STR>
+<STR id="QITEM_DESC_200018">Um colar usado pelo chefe do tribunal Goblin. É impossível para humanos vesti-lo.</STR>
+
+<STR id="QITEM_NAME_200019">Boneco Esqueleto</STR>
+<STR id="QITEM_DESC_200019">Boneco feita no formato do esqueleto de um soldado. O gosto de quem fez o boneco é altamente duvidoso.</STR>
+
+<STR id="QITEM_NAME_200020">Boneco Gnomo</STR>
+<STR id="QITEM_DESC_200020">Este boneco não parece exatamente um Gnomo! Que criança ficará feliz em ganhar esse boneco?</STR>
+
+<STR id="QITEM_NAME_200021">Boneco Goblin</STR>
+<STR id="QITEM_DESC_200021">Igualzinho a um Goblin! Mas parece que não pode ser usado para nada.</STR>
+
+<STR id="QITEM_NAME_200022">Boneco Pampow</STR>
+<STR id="QITEM_DESC_200022">Boneco que parece muito com uma fada perversa, Pampow.</STR>
+
+<STR id="QITEM_NAME_200023">Boneco de Coelho</STR>
+<STR id="QITEM_DESC_200023">Um boneco bonitinho na forma de Coelho. Para que serve então?!</STR>
+
+<STR id="QITEM_NAME_200024">Urso de Pelúcia</STR>
+<STR id="QITEM_DESC_200024">Animal de pelúcia que as crianças costumam levar para a cama. Como isso veio parar aqui...?!</STR>
+
+<STR id="QITEM_NAME_200025">Urso Amaldiçoado</STR>
+<STR id="QITEM_DESC_200025">As crianças não vão querer levar este para a cama. Como isso veio parar aqui...?!</STR>
+
+<STR id="QITEM_NAME_200026">Ídolo Pampow</STR>
+<STR id="QITEM_DESC_200026">Fada que aparece nos sonhos. Parece um Pampow.</STR>
+
+<STR id="QITEM_NAME_200027">Ídolo Amaldiçoado Pampow</STR>
+<STR id="QITEM_DESC_200027">Parece um Pampow. Entretanto, esse parece de certo modo medonho.</STR>
+
+<STR id="QITEM_NAME_200028">Dicionário do Demônio</STR>
+<STR id="QITEM_DESC_200028">Dicionário carregado de um estranho conteúdo.</STR>
+
+<STR id="QITEM_NAME_200029">Registro do Scrider Volume I</STR>
+<STR id="QITEM_DESC_200029">Um livro estranho cheio de nomes de pessoas, volume I. Dizem que veio do inferno.</STR>
+
+<STR id="QITEM_NAME_200030">Registro do Scrider Volume II</STR>
+<STR id="QITEM_DESC_200030">Um livro estranho cheio de nomes de pessoas, volume II. Dizem que veio do inferno.</STR>
+
+<STR id="QITEM_NAME_200031">Cruz Abençoada</STR>
+<STR id="QITEM_DESC_200031">É similar àquelas que os sacerdotes de armas têm.</STR>
+
+<STR id="QITEM_NAME_200032">Cruz Amaldiçoada</STR>
+<STR id="QITEM_DESC_200032">É similar àquelas que os sacerdotes de armas têm. Mas...</STR>
+
+<STR id="QITEM_NAME_200033">Picareta</STR>
+<STR id="QITEM_DESC_200033">Esta é uma picareta usada em uma escavação. Mas onde minerar com esta?</STR>
+
+<STR id="QITEM_NAME_200034">Pedra Falante</STR>
+<STR id="QITEM_DESC_200034">Esta pedra pronuncia coisas estranhas de tempos em tempos. E também pode se mover. </STR>
+
+<STR id="QITEM_NAME_200035">Cristal de Gelo</STR>
+<STR id="QITEM_DESC_200035">Cristal de gelo que parece não ter sido fundido pelo calor normal.</STR>
+
+<STR id="QITEM_NAME_200036">Engrenagem Quebrada</STR>
+<STR id="QITEM_DESC_200036">Engrenagem que foi quebrada. Parece que ninguém vai poder usá-la novamente.</STR>
+
+<STR id="QITEM_NAME_200037">Engrenagem de Alta Qualidade</STR>
+<STR id="QITEM_DESC_200037">Engrenagem que parece ter tido alguma função importante em uma máquina.</STR>
+
+<STR id="QITEM_NAME_200038">Machado do Rei Goblin</STR>
+<STR id="QITEM_DESC_200038">Machado assustador que é usado pelo rei, Rei Goblin. É uma pena que os humanos não possam usá-lo.</STR>
+
+<STR id="QITEM_NAME_210001">Álbum Ilustrado de Goblin</STR>
+<STR id="QITEM_DESC_210001">Um livro com imagens que contém informações sobre Goblins.</STR>
+
+<!-- config_rel.xml -->
+<STR id="CONFIG_MACRO_F1">/h</STR>
+<STR id="CONFIG_MACRO_F2">/Provocar</STR>
+<STR id="CONFIG_MACRO_F3">/acenar</STR>
+<STR id="CONFIG_MACRO_F4">/reportar</STR>
+<STR id="CONFIG_MACRO_F5">Olá!</STR>
+<STR id="CONFIG_MACRO_F6">Bom jogo!</STR>
+<STR id="CONFIG_MACRO_F7">Belo Tiro!!</STR>
+<STR id="CONFIG_MACRO_F8">Valeu muito!</STR>
+
+<!-- ê³µìš© -->
+<STR id="UI_COMMON_OK">OK(&amp;O)</STR>
+<STR id="UI_COMMON_CANCEL">Cancelar(&amp;C)</STR>
+
+<!-- Login.xml -->
+<STR id="UI_LOGIN_01">Login do 'The Duel'</STR>
+<STR id="UI_LOGIN_02">Nome de Usuário</STR>
+<STR id="UI_LOGIN_03">Senha</STR>
+<STR id="UI_LOGIN_04">Entrar(&amp;G)</STR>
+<STR id="UI_LOGIN_05">Tem certeza de que deseja sair do jogo?</STR>
+
+
+<!-- Lobby.xml -->
+<STR id="UI_LOBBY_01">Lobby</STR>
+<STR id="UI_LOBBY_02">Iniciar Agora(&amp;G)</STR>
+<STR id="UI_LOBBY_03">Localizar um Clã adversário</STR>
+<STR id="UI_LOBBY_04">Localizando um Clã adversário</STR>
+<STR id="UI_LOBBY_05">Cancelar</STR>
+<STR id="UI_LOBBY_06">Nome</STR>
+<STR id="UI_LOBBY_07">Clã:</STR>
+<STR id="UI_LOBBY_08">Nível: 0 Nv</STR>
+<STR id="UI_LOBBY_09">EXP: 0%</STR>
+<STR id="UI_LOBBY_10">Bounty: 0</STR>
+<STR id="UI_LOBBY_11">PV: 0</STR>
+<STR id="UI_LOBBY_12">PA: 0</STR>
+<STR id="UI_LOBBY_13">PS: 0</STR>
+<STR id="UI_LOBBY_14">Jogo de Times</STR>
+<STR id="UI_LOBBY_15">Enfrentar apenas Clãs com capacidade similar.</STR>
+<STR id="UI_LOBBY_16">Selecionar jogador para participar do jogo de times.</STR>
+<STR id="UI_LOBBY_17">OK(&amp;O)</STR>
+<STR id="UI_LOBBY_18">Cancelar(&amp;C)</STR>
+<STR id="UI_LOBBY_19">Sair do Clã</STR>
+<STR id="UI_LOBBY_20">Deseja de sair do Clã?</STR>
+<STR id="UI_LOBBY_21">Sim(&amp;S)</STR>
+<STR id="UI_LOBBY_A01">Guia de Monstros</STR>
+<STR id="UI_LOBBY_A02">Tem certeza de que deseja sair do jogo?</STR>
+
+
+<!-- StageCreateFrame.xml -->
+<STR id="UI_SCF_01">Criação de Jogo</STR>
+<STR id="UI_SCF_02">Título</STR>
+<STR id="UI_SCF_03">Senha</STR>
+<STR id="UI_SCF_04">Vamos jogar!</STR>
+
+<!-- Replay.xml -->
+<STR id="UI_REPLAY_01">Replays</STR>
+<STR id="UI_REPLAY_02">../Meus documentos/The Duel/Replay</STR>
+<STR id="UI_REPLAY_03">Você pode ter problemas com a visualização</STR>
+<STR id="UI_REPLAY_04">de replays de versões mais antigas.</STR>
+<STR id="UI_REPLAY_05">Visualizar(&amp;V)</STR>
+<STR id="UI_REPLAY_06">Tem certeza de que deseja ver o replay?</STR>
+<STR id="UI_REPLAY_07">Replay</STR>
+<STR id="UI_REPLAY_08">Tem certeza de que deseja ver o replay outra vez?</STR>
+<STR id="UI_REPLAY_09">Visualizar(&amp;V)</STR>
+<STR id="UI_REPLAY_10">Sair(&amp;X)</STR>
+<STR id="UI_REPLAY_A01">Cancelar(&amp;C)</STR>
+
+<!-- PrivateStageJoinFrame.xml -->
+<STR id="UI_PSJF_01">Digitar a Senha</STR>
+<STR id="UI_PSJF_02">Título do Jogo</STR>
+<STR id="UI_PSJF_03">Senha</STR>
+
+<!-- NetPortConfirm.xml -->
+<STR id="UI_NPC_01">Modificar a Porta da Rede</STR>
+<STR id="UI_NPC_02">Reiniciar o programa The Duel para aplicar a modificação da porta de rede. Você vai finalizar o programa agora?</STR>
+<STR id="UI_NPC_03">OK(&amp;O)</STR>
+<STR id="UI_NPC_04">Cancelar(&amp;C)</STR>
+
+<!-- Greter.xml -->
+<STR id="UI_GREETER_01">Iniciar(&amp;G)</STR>
+
+<!-- CombatInterface.xml -->
+<STR id="UI_CI_01">Para Todos:</STR>
+<STR id="UI_CI_02">Para o Time</STR>
+<STR id="UI_CI_03">Menu do Jogo</STR>
+<STR id="UI_CI_04">Opções(&amp;O)</STR>
+<STR id="UI_CI_05">Voltar ao Jogo(&amp;X)</STR>
+<STR id="UI_CI_06">Voltar para a Sala de Espera(&amp;R)</STR>
+<STR id="UI_CI_07">Sair da Arena(&amp;A)</STR>
+<STR id="UI_CI_08">Tem certeza de que deseja sair da Arena?</STR>
+<STR id="UI_CI_09">Sair do Jogo(&amp;Q)</STR>
+<STR id="UI_CI_10">Tem certeza de que deseja sair do jogo?</STR>
+
+<!-- ChannelListFrame.xml -->
+<STR id="UI_CLF_01">Lista de Canais</STR>
+<STR id="UI_CLF_02">Geral</STR>
+<STR id="UI_CLF_03">Privado</STR>
+<STR id="UI_CLF_04">Clã</STR>
+<STR id="UI_CLF_05">Entrar</STR>
+<STR id="UI_CLF_06">Ir para o canal do meu Clã</STR>
+
+
+<!-- BuyConfirm.xml -->
+<STR id="UI_BC_01">Total</STR>
+<STR id="UI_BC_02">Efetuar a compra deste(s) item(s)?</STR>
+
+<!-- 112Confirm.xml -->
+<STR id="UI_112C_01">Relatório</STR>
+<STR id="UI_112C_02">Digite as razões para o preenchimento do relatório (até 10 palavras).</STR>
+<STR id="UI_112C_03">Personagem :</STR>
+<STR id="UI_112C_04">Motivo :</STR>
+<STR id="UI_112C_05">Selecione</STR>
+<STR id="UI_112C_06">Comentários agressivos</STR>
+<STR id="UI_112C_07">Preconceito</STR>
+<STR id="UI_112C_08">Linguajar inapropriado</STR>
+<STR id="UI_112C_09">Ofensas</STR>
+<STR id="UI_112C_10">Scam</STR>
+<STR id="UI_112C_11">Flood</STR>
+<STR id="UI_112C_12">Se passar por GM</STR>
+<STR id="UI_112C_13">Por favor, descreva os motivos e os acontecimentos com clareza.</STR>
+
+<!-- CharCreation.xml -->
+<STR id="UI_CC_01">Criar um Personagem</STR>
+<STR id="UI_CC_02">Nome</STR>
+<STR id="UI_CC_03">Sexo</STR>
+<STR id="UI_CC_04">Cabelo</STR>
+<STR id="UI_CC_05">Face</STR>
+<STR id="UI_CC_06">Armas</STR>
+<STR id="UI_CC_07">Executora de Demônios</STR>
+<STR id="UI_CC_08">Walcom XLx2</STR>
+<STR id="UI_CC_09">Walcom XLx2</STR>
+<STR id="UI_CC_10">Granada FG-2</STR>
+<STR id="UI_CC_11">Kit de Saúde K-11</STR>
+
+<STR id="UI_CC_LIST_01_01">Masculino</STR>
+<STR id="UI_CC_LIST_01_02">Feminino</STR>
+
+<STR id="UI_CC_LIST_02_01">Tipo1</STR>
+<STR id="UI_CC_LIST_02_02">Tipo2</STR>
+<STR id="UI_CC_LIST_02_03">Tipo3</STR>
+<STR id="UI_CC_LIST_02_04">Tipo4</STR>
+
+<STR id="UI_CC_LIST_03_01">Pistoleiro de Axium</STR>
+<STR id="UI_CC_LIST_03_02">Pistoleiro de Travia</STR>
+<STR id="UI_CC_LIST_03_03">Batedor de Axium</STR>
+<STR id="UI_CC_LIST_03_04">Batedor de Travia</STR>
+<STR id="UI_CC_LIST_03_05">Médico de Axium</STR>
+<STR id="UI_CC_LIST_03_06">Médico de Travia</STR>
+
+
+<!-- CharSelection.xml -->
+<STR id="UI_CS_01">Nome</STR>
+<STR id="UI_CS_02">0 Nv</STR>
+<STR id="UI_CS_03">Clã</STR>
+<STR id="UI_CS_04">Selecionar(&amp;G)</STR>
+<STR id="UI_CS_05">Tem certeza de que deseja sair do jogo?</STR>
+<STR id="UI_CS_06">Excluir um personagem</STR>
+<STR id="UI_CS_07">Para excluir um personagem, digite 'SIM'</STR>
+<STR id="UI_CS_08">abaixo e aperte o botão OK.</STR>
+
+<!-- Clan.xml -->
+<STR id="UI_CLAN_01">Criar um Clã</STR>
+<STR id="UI_CLAN_02">Aceitar(&amp;A)</STR>
+<STR id="UI_CLAN_03">Recusar(&amp;D)</STR>
+<STR id="UI_CLAN_04">Limite de Tempo:</STR>
+<STR id="UI_CLAN_05">Aceito criar um Clã</STR>
+<STR id="UI_CLAN_06">Espere até que os membros aceitem a criação do Clã.</STR>
+<STR id="UI_CLAN_07">Limite de Tempo:</STR>
+<STR id="UI_CLAN_08">Resposta dos membros do Clã</STR>
+<STR id="UI_CLAN_09">Espere até que os membros do Clã aceitem.</STR>
+<STR id="UI_CLAN_10">Criação do Clã</STR>
+<STR id="UI_CLAN_11">Nome do Clã</STR>
+<STR id="UI_CLAN_12">A criação do Clã requer Nv10 ou mais, 1.000 PB e a participação de quatro fundadores. Por favor, crie um nome exclusivo com até 12 letras.</STR>
+<STR id="UI_CLAN_13">Fundadores</STR>
+<STR id="UI_CLAN_14">Aguardando permissão</STR>
+<STR id="UI_CLAN_15">Permitido</STR>
+
+<!-- Equipment.xml -->
+<STR id="UI_EQUIPMENT_01">Filtrar:</STR>
+<STR id="UI_EQUIPMENT_02">Usar</STR>
+<STR id="UI_EQUIPMENT_03">Enviar para o Banco</STR>
+<STR id="UI_EQUIPMENT_04">Colocar o meu equipamento</STR>
+<STR id="UI_EQUIPMENT_05">Confirmar transferência?</STR>
+<STR id="UI_EQUIPMENT_06">[ PESO ]</STR>
+<STR id="UI_EQUIPMENT_07">0  /  0 Ps.</STR>
+<STR id="UI_EQUIPMENT_08">[ NV / PV / PA ]</STR>
+<STR id="UI_EQUIPMENT_09">0Nv  /  0  /  0</STR>
+
+<STR id="UI_EQUIPMENT_LIST_01_01">        Exibir todos</STR>
+<STR id="UI_EQUIPMENT_LIST_01_02">        Armadura: Cabeça</STR>
+<STR id="UI_EQUIPMENT_LIST_01_03">        Armadura: Corpo</STR>
+<STR id="UI_EQUIPMENT_LIST_01_04">        Armadura: Mãos</STR>
+<STR id="UI_EQUIPMENT_LIST_01_05">        Armadura: Pernas</STR>
+<STR id="UI_EQUIPMENT_LIST_01_06">        Armadura: Pés</STR>
+<STR id="UI_EQUIPMENT_LIST_01_07">        Arma: Curta Distância</STR>
+<STR id="UI_EQUIPMENT_LIST_01_08">        Arma: Longa Distância</STR>
+<STR id="UI_EQUIPMENT_LIST_01_09">        Item: Kit M-R / Granada</STR>
+<STR id="UI_EQUIPMENT_LIST_01_10">        Item: Anéis</STR>
+<STR id="UI_EQUIPMENT_LIST_01_11">        Item: Itens de missão</STR>
+
+
+
+<!-- MonsterBook.xml -->
+<STR id="UI_MB_01">Guia de Monstros</STR>
+
+<!-- NetmarbleLogin.xml -->
+<STR id="UI_NL_01">Login</STR>
+<STR id="UI_NL_02">Conectando no servidor.</STR>
+<STR id="UI_NL_03">Tem certeza de que deseja sair do jogo?</STR>
+
+<!-- ResizeConfirm.xml -->
+<STR id="UI_RC_01">Mudar Resolução</STR>
+<STR id="UI_RC_02">Aplicar Nova Resolução</STR>
+<STR id="UI_RC_03">Se uma nova resolução não for aplicada em 10</STR>
+<STR id="UI_RC_04">segundos, o jogo retornará para a anterior.</STR>
+<STR id="UI_RC_05">Deseja aplicar a nova resolução?</STR>
+<STR id="UI_RC_06">A nova resolução foi aplicada.</STR>
+<STR id="UI_RC_07">Você gostaria de manter essa resolução?</STR>
+<STR id="UI_RC_08">Sim(&amp;S)</STR>
+
+<!-- StageSettingFrame.xml -->
+<STR id="UI_SSF_01">Configuração</STR>
+<STR id="UI_SSF_02">Limite de Tempo</STR>
+<STR id="UI_SSF_03">Invasão</STR>
+<STR id="UI_SSF_04">Fogo Amigo</STR>
+<STR id="UI_SSF_05">Restrição de Nível</STR>
+<STR id="UI_SSF_06">Observação</STR>
+<STR id="UI_SSF_07">Votação</STR>
+<STR id="UI_SSF_08">Primeira vitória</STR>
+
+<!-- Option.xml -->
+<STR id="UI_OPTION_01">Opções</STR>
+<STR id="UI_OPTION_02">Resolução</STR>
+<STR id="UI_OPTION_03">Brilho</STR>
+<STR id="UI_OPTION_04">Reflexo</STR>
+<STR id="UI_OPTION_05">Mapa de Iluminação</STR>
+<STR id="UI_OPTION_06">Sombra</STR>
+<STR id="UI_OPTION_07">Iluminação Dinâmica</STR>
+<STR id="UI_OPTION_08">Qualidade de Imagem do Personagem</STR>
+<STR id="UI_OPTION_09">Qualidade de Imagem do Segundo Plano</STR>
+<STR id="UI_OPTION_10">Qualidade dos Efeitos</STR>
+<STR id="UI_OPTION_11">Qualidade da Textura</STR>
+<STR id="UI_OPTION_12">Otimizar</STR>
+<STR id="UI_OPTION_13">Música de Fundo</STR>
+<STR id="UI_OPTION_14">Volume da Música de Fundo</STR>
+<STR id="UI_OPTION_15">Efeitos Sonoros</STR>
+<STR id="UI_OPTION_16">Volume do Som</STR>
+<STR id="UI_OPTION_17">Som 3D nas caixas esquerda e direita</STR>
+<STR id="UI_OPTION_18">Suporte de Mixagem de Hardware</STR>
+<STR id="UI_OPTION_19">Som indicando que o inimigo foi atingido</STR>
+<STR id="UI_OPTION_20">Sensibilidade do Mouse</STR>
+<STR id="UI_OPTION_21">Mouse Invertido</STR>
+<STR id="UI_OPTION_22">Avançar</STR>
+<STR id="UI_OPTION_23">Recuar</STR>
+<STR id="UI_OPTION_24">Esquerda</STR>
+<STR id="UI_OPTION_25">Direita</STR>
+<STR id="UI_OPTION_26">Espada/Adaga</STR>
+<STR id="UI_OPTION_27">Arma 1</STR>
+<STR id="UI_OPTION_28">Arma 2</STR>
+<STR id="UI_OPTION_29">Selecionar Item 1</STR>
+<STR id="UI_OPTION_30">Selecionar Item 2</STR>
+<STR id="UI_OPTION_31">Arma Anterior</STR>
+<STR id="UI_OPTION_32">Próxima Arma</STR>
+<STR id="UI_OPTION_33">Menu</STR>
+<STR id="UI_OPTION_34">Recarregar</STR>
+<STR id="UI_OPTION_35">Saltar</STR>
+<STR id="UI_OPTION_36">Ver Estatísticas</STR>
+<STR id="UI_OPTION_37">Screenshot</STR>
+<STR id="UI_OPTION_38">Gravar/Reproduzir</STR>
+<STR id="UI_OPTION_39">Defesa</STR>
+<STR id="UI_OPTION_40">Chatting Visible</STR>
+<STR id="UI_OPTION_59">Fire</STR>
+<STR id="UI_OPTION_41">Padrão</STR>
+<STR id="UI_OPTION_42">Configuração de Porta</STR>
+<STR id="UI_OPTION_43">Maximizar Desempenho (em alguns sistemas, a resposta do mouse pode tornar-se lenta)</STR>
+<STR id="UI_OPTION_44">Opções de Filtro de Chat</STR>
+<STR id="UI_OPTION_45">Chat Geral</STR>
+<STR id="UI_OPTION_46">Chat em Equipe</STR>
+<STR id="UI_OPTION_47">Chat do Clã</STR>
+<STR id="UI_OPTION_48">Mensagens Privadas</STR>
+<STR id="UI_OPTION_49">Recusar Convites de Clã</STR>
+<STR id="UI_OPTION_50">Tipo de mira</STR>
+<STR id="UI_OPTION_51">Tecla F1</STR>
+<STR id="UI_OPTION_52">Tecla F2</STR>
+<STR id="UI_OPTION_53">Tecla F3</STR>
+<STR id="UI_OPTION_54">Tecla F4</STR>
+<STR id="UI_OPTION_55">Tecla F5</STR>
+<STR id="UI_OPTION_56">Tecla F6</STR>
+<STR id="UI_OPTION_57">Tecla F7</STR>
+<STR id="UI_OPTION_58">Tecla F8</STR>
+
+<STR id="UI_OPTION_LIST_01_01">Alta</STR>
+<STR id="UI_OPTION_LIST_01_02">Normal</STR>
+<STR id="UI_OPTION_LIST_01_03">Baixa</STR>
+
+<!-- Shop.xml -->
+<STR id="UI_SHOP_01">Lobby > Shop</STR>
+<STR id="UI_SHOP_02">Filtrar:</STR>
+<STR id="UI_SHOP_03">Comprar(&amp;C)</STR>
+<STR id="UI_SHOP_04">Você quer comprar o equipamento selecionado?</STR>
+<STR id="UI_SHOP_05">Comprar(&amp;C)</STR>
+<STR id="UI_SHOP_06">Adquira Créditos.</STR>
+<STR id="UI_SHOP_07">Vender(&amp;V)</STR>
+<STR id="UI_SHOP_08">Você quer vender o equipamento selecionado?</STR>
+<STR id="UI_SHOP_09">Vender(&amp;V)</STR>
+<STR id="UI_SHOP_10">[ BOUNTY ]</STR>
+<STR id="UI_SHOP_11">0 Bounty</STR>
+<STR id="UI_SHOP_12">[ Nv / Peso ]</STR>
+<STR id="UI_SHOP_13">0 Nv. / 0</STR>
+<STR id="UI_SHOP_14">Vender item</STR>
+<STR id="UI_SHOP_15">Informe a quantidade.</STR>
+<STR id="UI_SHOP_16">Quantidade</STR>
+<STR id="UI_SHOP_17">Vender(&amp;V)</STR>
+
+<STR id="UI_SHOP_LIST_01_01">        Exibir todo o Equipamento</STR>
+<STR id="UI_SHOP_LIST_01_02">        Armadura: Cabeça</STR>
+<STR id="UI_SHOP_LIST_01_03">        Armadura: Corpo</STR>
+<STR id="UI_SHOP_LIST_01_04">        Armadura: Mãos</STR>
+<STR id="UI_SHOP_LIST_01_05">        Armadura: Pernas</STR>
+<STR id="UI_SHOP_LIST_01_06">        Armadura: Pés</STR>
+<STR id="UI_SHOP_LIST_01_07">        Arma: Curta Distância</STR>
+<STR id="UI_SHOP_LIST_01_08">        Arma: Longa Distância</STR>
+<STR id="UI_SHOP_LIST_01_09">        Item: Kit M-R / Granada</STR>
+<STR id="UI_SHOP_LIST_01_10">        Item: Anéis</STR>
+<STR id="UI_SHOP_LIST_01_11">        Item: Itens de missão</STR>
+
+<!-- Stage.xml -->
+<STR id="UI_STAGE_01">Nome</STR>
+<STR id="UI_STAGE_02">Clã:</STR>
+<STR id="UI_STAGE_03">Nível: 0 Nv</STR>
+<STR id="UI_STAGE_04">EXP: -</STR>
+<STR id="UI_STAGE_05">Bounty: -</STR>
+<STR id="UI_STAGE_06">PV: -</STR>
+<STR id="UI_STAGE_07">PA: -</STR>
+<STR id="UI_STAGE_08">PS: -</STR>
+<STR id="UI_STAGE_09">Time Azul</STR>
+<STR id="UI_STAGE_10">Time Vermelho</STR>
+<STR id="UI_STAGE_11">Invasão(&amp;G)</STR>
+<STR id="UI_STAGE_12">Opções</STR>
+<STR id="UI_STAGE_13">Partida</STR>
+<STR id="UI_STAGE_14">Mapa</STR>
+<STR id="UI_STAGE_15">Jogadores</STR>
+<STR id="UI_STAGE_16">Rodada</STR>
+<STR id="UI_STAGE_17">Participantes: 0</STR>
+<STR id="UI_STAGE_18">Nível da Missão: 0</STR>
+<STR id="UI_STAGE_19">Tem certeza de que deseja sair da Arena?</STR>
+<STR id="UI_STAGE_20">Mover para cima</STR>
+<STR id="UI_STAGE_21">Não há item.</STR>
+
+
+<!-- GameResult.xml -->
+<STR id="UI_ETC_01">Nome</STR>
+<STR id="UI_ETC_02">EXP</STR>
+<STR id="UI_ETC_03">Pontos</STR>
+<STR id="UI_ETC_04">Mortes</STR>
+
+<STR id="UI_WARNING_TITLE">Programa ilegal</STR>
+<STR id="UI_WARNING_01">Um programa ilegal foi detectado. Sua conexão foi encerrada.</STR>
+
+</XML>

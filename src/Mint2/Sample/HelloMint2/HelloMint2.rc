@@ -1,0 +1,128 @@
+//Microsoft Visual C++에서 생성한 리소스 스크립트입니다.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE 2 리소스에서 생성되었습니다.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE 18, 1
+#pragma code_page(949)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 아이콘
+//
+
+// 응용 프로그램 아이콘이 모든 시스템에서 일관적인 상태를 유지하도록 하기 위해
+// 가장 낮은 ID 값을 갖는 아이콘을 처음에 배치하였습니다.
+
+IDI_HELLOMINT2       ICON         "HelloMint2.ico"
+IDI_SMALL               ICON         "small.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 메뉴
+//
+
+IDC_HELLOMINT2 MENU 
+BEGIN
+    POPUP "파일(&F)"
+    BEGIN
+        MENUITEM "끝내기(&X)",                IDM_EXIT
+    END
+    POPUP "도움말(&H)"
+    BEGIN
+        MENUITEM "정보(&A)...",           IDM_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 액셀러레이터 키
+//
+
+IDC_HELLOMINT2 ACCELERATORS
+BEGIN
+    "?",            IDM_ABOUT,              ASCII,  ALT
+    "/",            IDM_ABOUT,              ASCII,  ALT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 대화 상자
+//
+
+IDD_ABOUTBOX DIALOG   22, 17, 230, 75
+STYLE DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "정보"
+FONT 9, "System"
+BEGIN
+    ICON            IDI_HELLOMINT2,IDC_MYICON,14,9,16,16
+    LTEXT           "HelloMint2 버전 1.0",IDC_STATIC,49,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2004",IDC_STATIC,49,20,119,8
+    DEFPUSHBUTTON   "확인",IDOK,195,6,30,11,WS_GROUP
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+1 TEXTINCLUDE  
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE  
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE  
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 문자열 테이블
+//
+
+STRINGTABLE  
+BEGIN
+   IDC_HELLOMINT2   "HELLOMINT2"
+   IDS_APP_TITLE       "HelloMint2"
+END
+
+#endif
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE 3 리소스에서 생성되었습니다.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // APSTUDIO_INVOKED가 아닙니다.

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XML id="zeffect">
+	<EFFECT id="3" name="Pistol" knockback="30"/>
+	<EFFECT id="4" name="Double Pistol" knockback="30"/>
+	<EFFECT id="5" name="SMG Effect" knockback="20"/>
+	<EFFECT id="6" name="Double SMG Effect" knockback="20"/>
+	<EFFECT id="7" name="Shotgun Effect" knockback="400"/>
+	<EFFECT id="8" name="Rifle Effect" knockback="50"/>
+	<EFFECT id="9" name="Machine Gun Effect" knockback="150"/>
+	<EFFECT id="10" name="Revolver" knockback="100"/>
+	<EFFECT id="11" name="Revolver Dual" knockback="200"/>	
+</XML>

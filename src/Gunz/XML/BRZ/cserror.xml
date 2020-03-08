@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML>
+<!-- ì—ëŸ¬ ë©”ì‹œì§€. -->
+<STR id="100">O comunicador não tem uma UID. Esse comunicador deve ser inicializado pelo Master-Controller.</STR>
+<STR id="101">O comunicador não possui espaço UID para determinar sua UID.</STR>
+<STR id="110">O comunicador está tentando conectar-se a uma conexão direta inválida.</STR>
+<STR id="200">O comando possui um receptor UID inválido. Se você não se conectou a nenhum servidor e definiu o receptor-padrão, primeiro você deve fazer isso.</STR>
+<STR id="300">O Zone-Server não está conectado ao Master-Controller.</STR>
+<STR id="301">O Zone-Server está tentando invalidar o Master-Controller.</STR>
+<STR id="1000">Objeto UID inválido</STR>
+<!--
+<STR id="1001"></STR>
+-->
+
+<STR id="2000">Erro ao abrir o arquivo de Mapas.</STR>
+
+<!-- ì ‘ì†, ë¡œê·¸ì¸ ê´€ë ¨ -->
+<STR id="10000">Você digitou uma senha incorreta. Verifique as letras minúsculas e maiúsculas.</STR>
+<STR id="10001">O mesmo ID já está conectado.</STR>
+<STR id="10002">A versão não corresponde à do servidor.</STR>
+<STR id="10003">Você não pode entrar, pois existem muitos usuários conectados. Tente outra sala.</STR>
+<STR id="10004">Este ID não permite acessar o The Duel on-line.</STR>
+<STR id="10005">Falha na Autenticação.</STR>
+
+<!-- ìºë¦­í„° ê´€ë¦¬ ê´€ë ¨ -->
+<STR id="10100">Já existe este nome de personagem.</STR>
+<STR id="10101">Você usou caracteres que não são permitidos.</STR>
+<STR id="10102">O nome é muito curto.</STR>
+<STR id="10103">O nome é muito longo.</STR>
+<STR id="10104">Digite o nome do personagem.</STR>
+<STR id="10110">O nome do personagem não existe.</STR>
+<STR id="10111">Impossível excluir o personagem se ele pertence a um Clã ou possui itens em dinheiro.</STR>
+
+<!-- ì•„ì´í…œ ê´€ë ¨ -->
+<STR id="20001">Bounty insuficiente!</STR>
+<STR id="20002">Você não tem permissão para comprar esse equipamento (ou item).</STR>
+<STR id="20003">Você não tem permissão para se armar com esse equipamento.</STR>
+<STR id="20004">Você não tem permissão para largar esse equipamento.</STR>
+<STR id="20005">Você não tem permissão para vender esse equipamento (ou item).</STR>
+<STR id="20006">Você não tem permissão para vender o equipamento (ou item) equipado.</STR>
+<STR id="20007">Esse equipamento (ou item) não está disponível.</STR>
+<STR id="20008">Você possui muitos equipamentos (ou itens).</STR>
+<STR id="20009">O equipamento (ou item) selecionado não existe.</STR>
+<STR id="20010">Isto excede o peso permitido.</STR>
+<STR id="20011">Não é permitido usar isto em seu nível.</STR>
+<STR id="20012">Não é possível colocar o mesmo equipamento (ou item) em um espaço.</STR>
+<STR id="20013">Não é possível largar porque há excesso de peso.</STR>
+<STR id="20014">Não é possível vender o equipamento (ou item) em uma loja.</STR>
+<STR id="20015">Não é possível pegar o equipamento (ou item), pois ele não corresponde ao seu sexo.</STR>
+<STR id="20016">Este item não pode ser equipado, pois ele não é adequado ao seu nível. Você ainda deseja pegar o equipamento (ou item)?</STR>
+<STR id="20017">Não é possível depositar o equipamento (ou item) no Banco.</STR>
+<STR id="20018">Você pode depositar apenas dinheiro no Banco.</STR>
+<STR id="20019">O equipamento (ou item) foi retirado por causa da queda de nível.</STR>
+
+<STR id="30000">Não é possível entrar na sala.</STR>
+<STR id="30001">Impossível suportar mais usuários.</STR>
+<STR id="30002">Senha incorreta!</STR>
+<STR id="30003">Seu nível é insuficiente para entrar aqui.</STR>
+<STR id="30004">Não é permitida invasão.</STR>
+<STR id="30005">Sua entrada está proibida.</STR>
+<STR id="30006">A fase não existe.</STR>
+<STR id="30007">A fase já está presente.</STR>
+<STR id="30008">Você não pode criar a sala.</STR>
+<STR id="30009">Não há espaço disponível para você entrar.</STR>
+
+<STR id="30020">Não é possível entrar no canal.</STR>
+<STR id="30021">Impossível suportar mais usuários.</STR>
+<STR id="30022">Você não pode entrar aqui com o seu nível.</STR>
+<STR id="30023">Não é possível entrar em um canal de iniciantes ou de usuários pela primeira vez, você não possui um personagem que está no nível 21 ou acima.</STR>
+
+<!-- Primium Ticket -->
+<STR id="30024">Não é possível entrar neste canal sem o Item de Acesso Especial.</STR>
+<STR id="30025">Não é possível começar o jogo porque um dos jogadores não possui o Item de Acesso Especial.</STR>
+
+<STR id="30026">Não há ninguém que possa se igualar a você.</STR>
+
+<!-- í´ëžœ ê´€ë ¨. -->
+<STR id="30030">Não é possível formar um Clã.</STR>
+<STR id="30031">O Clã não pode ser fechado.</STR>
+<STR id="30032">A Clã já está presente.</STR>
+<STR id="30033">O número de membros não é suficiente para a criação do Clã.</STR>
+<STR id="30034">Este membro já pertence a outro Clã.</STR>
+<STR id="30035">Não existe um jogador para a criação do Clã neste lobby.</STR>
+<STR id="30036">O nome do Clã está incorreto.</STR>
+<STR id="30037">Este não é um Líder do Clã.</STR>
+<STR id="30038">Não é Líder do Clã ou Administrador.</STR>
+<STR id="30039">Este jogador já pertence a outro Clã.</STR>
+<STR id="30040">Assinatura não processada.</STR>
+<STR id="30041">Este usuário é membro de outro Clã.</STR>
+<STR id="30042">O usuário não está no Lobby.</STR>
+<STR id="30043">Você não se juntou ao Clã.</STR>
+<STR id="30044">Você não pode se retirar do Clã.</STR>
+<STR id="30045">Não é possível adicionar mais um membro ao Clã.</STR>
+<STR id="30046">Seu amigo não está conectado.</STR>
+<STR id="30047">Não no mesmo Clã.</STR>
+<STR id="30048">Você não pode mudar a autoridade.</STR>
+<STR id="30049">O membro do Clã relacionado não está disponível.</STR>
+<STR id="30050">Recompensa insuficiente (1.000 PB) para criação do Clã.</STR>
+<STR id="30051">Apenas aqueles de nível 10 ou acima podem criar um Clã.</STR>
+<STR id="30052">Clan will be closed on '%s'.</STR>
+
+<!-- ëž˜ë”ê´€ë ¨. -->
+<STR id="30070">Você não pode se candidatar a uma guerra de Clãs.</STR>
+<STR id="30071">Membros de equipes diferentes.</STR>
+<STR id="30072">O membro da equipe não está disponível.</STR>
+<STR id="30073">Existe um usuário que não pode se candidatar para um jogo de equipe.</STR>
+
+<!-- í´ëžœì „ ê´€ë ¨. -->
+<STR id="30080">Não no mesmo Clã.</STR>
+<STR id="30081">Sem jogadores.</STR>
+<STR id="30082">Existe um membro que não pode se candidatar para uma guerra de Clãs.</STR>
+
+<!-- í´ë¼ì´ì–¸íŠ¸ ê´€ë ¨. -->
+<STR id="30103">Ainda não suportado.</STR>
+<STR id="30104">Por favor, não use um linguajar vulgar ou ofensivo.</STR>
+<STR id="30105">Você não pode escrever e postar o mesmo conteúdo três vezes ou mais, consecutivamente.</STR>
+<STR id="30106">Proibido participar do chat por 1 minuto.</STR>
+
+
+<STR id="90000">Não é possível acessar o servidor.</STR>
+<STR id="90002">Desconectado do servidor.</STR>
+
+<!-- ë©”ì„¸ì§€ ê´€ë ¨. -->
+<STR id="100000">Você se juntou ao Clã.</STR>
+<STR id="100001">O Clã foi criado.</STR>
+
+
+<!-- ë”°ë¼ê°€ê¸° ê´€ë ¨. -->
+<STR id="110000">Você não pode entrar.</STR>
+
+<!-- íˆ¬í‘œê´€ë ¨. -->
+<STR id="120000">Não é possível se candidatar para votar.</STR>
+
+<!-- Disconnect message -->
+<STR id="130001">A hacking attempt was detected. Connection to the game server will be terminated shortly. </STR>
+<STR id="130002">This account has been blocked due to a hacking attempt. Account block will continue approximately for an hour.</STR>
+<STR id="130003">Connection is denied due to user's misdemeanant status. Connection to the game server will be terminated shortly.</STR>
+<STR id="130004">An invalid file has been detected.</STR>
+
+<!-- ì„œë²„ ê´€ë ¨ -->
+<STR id="200000">Impossível iniciar a votação</STR>	
+<STR id="200001">Você não pode continuar com a votação para o jogo de classificação.</STR>	
+<STR id="200002">Votação já iniciada.</STR>	
+<STR id="200003">Falha na votação.</STR>	
+<STR id="200004">10 segundos restantes.</STR>	
+<STR id="200005">30 segundos restantes.</STR>	
+<STR id="200006">60 segundos restantes.</STR>	
+<STR id="200007">Existe muita gente.</STR>	
+<STR id="200008">%s não está pronto.</STR>	
+
+</XML>

@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XML id="QUESTMAP">
+<!--
+
+ * MAPSET id는 1부터 차례대로 지정되어야 한다. 
+ * MAPSET이 새로 추가되면 소스의 MAX_MAPSET 값도 알아서 고쳐줘야 한다.
+ 
+<MAPSET id="맵셋 아이디" 
+		title="맵셋이름"
+	<SECTOR id="섹터 아이디"			// 섹터아이디는 맵셋에 상관없이 고유해야 한다.
+			title="섹터 이름"			// 섹터이름은 퀘스트맵 폴더 이름과 같아야 한다.
+			melee_spawn="근접공격맙 스폰 개수"
+			range_spawn="원근공격맙 스폰 개수"
+			boss_spawn="보스맙 스폰 개수">
+		<LINK id="링크 아이디">
+			<TARGET sector="연결될수있는섹터이름" />
+		</LINK>
+	</SECOTR>
+</MAPSET>
+-->
+
+<!-- Mansion ////////////////////////////////////////////////////////////// -->
+<MAPSET id="1"  title="Mansion">
+	<SECTOR id="101" 
+			title="Mansion_Hall1"
+			melee_spawn="12"
+			range_spawn="10"
+			boss_spawn="1">
+		<LINK name="link01">
+		  <TARGET sector="Mansion_Hall2"	/>
+			<TARGET sector="Mansion_Passage1"	/>
+		</LINK>
+	</SECTOR>
+	<SECTOR id="102" 
+			title="Mansion_Hall2"
+			melee_spawn="12"
+			range_spawn="10"
+			boss_spawn="1">
+		<LINK name="link01">
+		  <TARGET sector="Mansion_Hall1"	/>
+			<TARGET sector="Mansion_Passage1"	/>
+			<TARGET sector="Mansion_Room1"	/>
+			<TARGET sector="Mansion_Room2"	/>
+		</LINK>		
+	</SECTOR>
+	<SECTOR id="103"
+			title="Mansion_Hall3"
+			melee_spawn="12"
+			range_spawn="10">
+		<LINK name="link01">
+			<TARGET sector="Mansion_Passage2"	/>
+		</LINK>
+		<LINK name="link02">
+			<TARGET sector="Mansion_Passage1"	/>
+			<TARGET sector="Mansion_Passage3"	/>
+		</LINK>
+		<LINK name="link03">
+			<TARGET sector="Mansion_Passage1"	/>
+		</LINK>		
+	</SECTOR>
+	<SECTOR id="104"
+			title="Mansion_Room1"
+			melee_spawn="12"
+			range_spawn="10"
+			boss_spawn="1">
+		<LINK>
+			<TARGET sector="Mansion_Hall2"	/>
+			<TARGET sector="Mansion_Room1"	/>
+			<TARGET sector="Mansion_Room2"	/>
+		</LINK>
+	</SECTOR>
+	<SECTOR id="105"
+			title="Mansion_Room2"
+			melee_spawn="12"
+			range_spawn="10">
+		<LINK name="link01">
+			<TARGET sector="Mansion_Hall1"	/>
+			<TARGET sector="Mansion_Hall2"	/>
+			<TARGET sector="Mansion_Room1"	/>
+			<TARGET sector="Mansion_Passage1"	/>
+		</LINK>
+	</SECTOR>
+	<SECTOR id="106"
+			title="Mansion_Room3"
+			boss_spawn="1"
+			melee_spawn="12"
+			range_spawn="10">
+		<LINK>
+			<TARGET sector="Mansion_Passage2"	/>
+		</LINK>
+	</SECTOR>
+	<SECTOR id="107"
+			title="Mansion_Passage1"
+			melee_spawn="12"
+			range_spawn="10">
+		<LINK name="link01">
+			<TARGET sector="Mansion_Passage2"	/>
+		</LINK>
+		<LINK name="link02">
+			<TARGET sector="Mansion_Hall3"	/>
+		</LINK>
+		<LINK name="link03">
+			<TARGET sector="Mansion_Hall1"	/>
+			<TARGET sector="Mansion_Hall2"	/>
+			<TARGET sector="Mansion_Room1"	/>
+			<TARGET sector="Mansion_Room2"	/>
+		</LINK>
+	</SECTOR>
+	<SECTOR id="108"
+			title="Mansion_Passage2"
+			melee_spawn="12"
+			range_spawn="10">
+		<LINK name="link01">
+			<TARGET sector="Mansion_Hall3"	/>
+		</LINK>
+		<LINK name="link02">
+			<TARGET sector="Mansion_Passage1"	/>
+			<TARGET sector="Mansion_Passage3"	/>
+		</LINK>
+		<LINK name="link03">
+			<TARGET sector="Mansion_Room3"	/>
+		</LINK>
+	</SECTOR>
+	<SECTOR id="109"
+			title="Mansion_Passage3"
+			melee_spawn="8"
+			range_spawn="8">
+		<LINK name="link01">
+			<TARGET sector="Mansion_Passage2"	/>
+		</LINK>
+		<LINK name="link02">
+			<TARGET sector="Mansion_Hall3"	/>
+		</LINK>
+		<LINK name="link03">
+			<TARGET sector="Mansion_Hall1"	/>
+			<TARGET sector="Mansion_Hall2"	/>
+			<TARGET sector="Mansion_Room1"	/>
+			<TARGET sector="Mansion_Room2"	/>
+		</LINK>
+	</SECTOR>
+	
+</MAPSET>
+
+<!-- Prison //////////////////////////////////////////////////////////////// -->
+<MAPSET id="2"  title="Prison">
+	<SECTOR id="201"
+			title="Prison_drainage1"
+			melee_spawn="13"
+			range_spawn="13">
+		<LINK name="link01">
+			<TARGET sector="Prison_passage2"	/>
+		</LINK>
+		<LINK name="link02">
+			<TARGET sector="Prison_passage2"	/>
+			<TARGET sector="Prison_drainage2"	/>
+		</LINK>
+		<LINK name="link03">
+			<TARGET sector="Prison_hall2"	/>
+		</LINK>
+	</SECTOR>
+	<SECTOR id="202"
+			title="Prison_drainage2"
+			melee_spawn="8"
+			range_spawn="9">
+		<LINK name="link01">
+			<TARGET sector="Prison_drainage1"	/>
+		</LINK>
+		<LINK name="link02">
+			<TARGET sector="Prison_passage3"	/>
+		</LINK>
+	</SECTOR>
+	<SECTOR id="203"
+			title="Prison_hall1"
+			boss_spawn="1"
+			melee_spawn="20"
+			range_spawn="26">
+		<LINK name="link01">
+			<TARGET sector="Prison_passage1"	/>
+			<TARGET sector="Prison_prison"	/>
+		</LINK>
+		<LINK name="link02">
+			<TARGET sector="Prison_passage3"	/>
+			<TARGET sector="Prison_prison"	/>
+		</LINK>
+	</SECTOR>
+	<SECTOR id="204"
+			title="Prison_hall2"
+			boss_spawn="1"
+			melee_spawn="13"
+			range_spawn="19">
+		<LINK name="link01">
+			<TARGET sector="Prison_drainage1"	/>
+		</LINK>
+		<LINK name="link02">
+			<TARGET sector="Prison_drainage2"	/>
+			<TARGET sector="Prison_passage2"	/>
+		</LINK>
+	</SECTOR>
+	<SECTOR id="205"
+			title="Prison_passage1"
+			melee_spawn="9"
+			range_spawn="9">
+		<LINK name="link01">
+			<TARGET sector="Prison_shower_room"	/>
+		</LINK>
+		<LINK name="link02">
+			<TARGET sector="Prison_prison"	/>
+			<TARGET sector="Prison_passage3"	/>
+			<TARGET sector="Prison_hall1"	/>
+		</LINK>
+		<LINK name="link03">
+			<TARGET sector="Prison_prison"	/>
+			<TARGET sector="Prison_passage3"	/>
+			<TARGET sector="Prison_hall1"	/>
+		</LINK>
+	</SECTOR>
+	<SECTOR id="206"
+			title="Prison_passage2"
+			melee_spawn="11"
+			range_spawn="11">
+		<LINK name="link01">
+			<TARGET sector="Prison_drainage1"	/>
+		</LINK>
+		<LINK name="link02">
+		</LINK>
+		<LINK name="link03">
+			<TARGET sector="Prison_passage1"	/>
+			<TARGET sector="Prison_passage3"	/>
+		</LINK>
+		<LINK name="link04">
+			<TARGET sector="Prison_drainage1"	/>
+		</LINK>
+	</SECTOR>
+	<SECTOR id="207"
+			title="Prison_passage3"
+			melee_spawn="8"
+			range_spawn="8">
+		<LINK name="link01">
+			<TARGET sector="Prison_prison"	/>
+			<TARGET sector="Prison_passage1"	/>
+			<TARGET sector="Prison_hall1"	/>
+		</LINK>
+		<LINK name="link02">
+			<TARGET sector="Prison_prison"	/>
+			<TARGET sector="Prison_passage1"	/>
+			<TARGET sector="Prison_hall1"	/>
+		</LINK>
+		<LINK name="link03">
+			<TARGET sector="Prison_drainage2"	/>
+		</LINK>
+		<LINK name="link04">
+			<TARGET sector="Prison_passage2"	/>
+		</LINK>
+	</SECTOR>
+	<SECTOR id="208"
+			title="Prison_prison"
+			melee_spawn="26"
+			range_spawn="28">
+		<LINK name="link01">
+			<TARGET sector="Prison_passage1"	/>
+			<TARGET sector="Prison_hall1"	/>
+		</LINK>
+		<LINK name="link02">
+			<TARGET sector="Prison_passage3"	/>
+			<TARGET sector="Prison_hall1"	/>
+		</LINK>
+	</SECTOR>
+	<SECTOR id="209"
+			title="Prison_shower_room"
+			boss_spawn="1"
+			melee_spawn="10"
+			range_spawn="22">
+		<LINK name="link01">
+			<TARGET sector="Prison_passage1"	/>
+		</LINK>
+	</SECTOR>
+</MAPSET>
+
+<!-- Dungeon ////////////////////////////////////////////////////////////// -->
+<MAPSET id="3"  title="Dungeon">
+	<SECTOR id="301"
+			title="Dungeon_cavern1"
+			melee_spawn="9"
+			range_spawn="11">
+		<LINK name="link01">
+			<TARGET sector="Dungeon_passage3"	/>
+			<TARGET sector="Dungeon_cavern3"	/>
+		</LINK>
+		<LINK name="link02">
+			<TARGET sector="Dungeon_nest3"	/>
+			<TARGET sector="Dungeon_passage1"	/>
+			<TARGET sector="Dungeon_passage2"	/>
+		</LINK>
+	</SECTOR>
+	<SECTOR id="302"
+			title="Dungeon_cavern2"
+			melee_spawn="16"
+			range_spawn="16">
+		<LINK name="link01">
+			<TARGET sector="Dungeon_passage3"	/>
+		</LINK>
+		<LINK name="link02">
+			<TARGET sector="Dungeon_passage1"	/>
+			<TARGET sector="Dungeon_passage2"	/>
+		</LINK>
+	</SECTOR>
+	<SECTOR id="303"
+			title="Dungeon_cavern3"
+			boss_spawn="1"
+			melee_spawn="28"
+			range_spawn="27">
+		<LINK name="link01">
+			<TARGET sector="Dungeon_cavern1"	/>
+			<TARGET sector="Dungeon_passage3"	/>
+		</LINK>
+		<LINK name="link02">
+			<TARGET sector="Dungeon_passage1"	/>
+			<TARGET sector="Dungeon_passage2"	/>
+		</LINK>
+	</SECTOR>
+	<SECTOR id="304"
+			title="Dungeon_nest1"
+			boss_spawn="1"
+			melee_spawn="9"
+			range_spawn="9">
+		<LINK name="link01">
+			<TARGET sector="Dungeon_passage2"	/>
+			<TARGET sector="Dungeon_cavern2"	/>
+		</LINK>
+		<LINK name="link02">
+			<TARGET sector="Dungeon_passage1"	/>
+		</LINK>
+	</SECTOR>
+	<SECTOR id="305"
+			title="Dungeon_nest2"
+			boss_spawn="1"
+			melee_spawn="30"
+			range_spawn="25">
+		<LINK name="link01">
+			<TARGET sector="Dungeon_nest3"	/>
+		</LINK>
+	</SECTOR>
+	<SECTOR id="306"
+			title="Dungeon_nest3"
+			boss_spawn="1"
+			melee_spawn="12"
+			range_spawn="14">
+		<LINK name="link01">
+			<TARGET sector="Dungeon_cavern1"	/>
+			<TARGET sector="Dungeon_passage3"	/>
+		</LINK>
+		<LINK name="link02">
+			<TARGET sector="Dungeon_nest2"	/>
+		</LINK>
+	</SECTOR>
+	<SECTOR id="307"
+			title="Dungeon_passage1"
+			melee_spawn="13"
+			range_spawn="13">
+		<LINK name="link01">
+			<TARGET sector="Dungeon_nest1"	/>
+			<TARGET sector="Dungeon_cavern1"	/>
+			<TARGET sector="Dungeon_cavern2"	/>
+		</LINK>
+		<LINK name="link02">
+			<TARGET sector="Dungeon_cavern2"	/>
+			<TARGET sector="Dungeon_cavern3"	/>
+		</LINK>
+	</SECTOR>
+	<SECTOR id="308"
+			title="Dungeon_passage2"
+			melee_spawn="10"
+			range_spawn="8">
+		<LINK name="link01">
+			<TARGET sector="Dungeon_cavern2"	/>
+			<TARGET sector="Dungeon_cavern3"	/>
+		</LINK>
+		<LINK name="link02">
+			<TARGET sector="Dungeon_cavern1"	/>
+			<TARGET sector="Dungeon_nest1"	/>
+		</LINK>
+	</SECTOR>
+	<SECTOR id="309"
+			title="Dungeon_passage3"
+			melee_spawn="16"
+			range_spawn="16">
+		<LINK name="link01">
+			<TARGET sector="Dungeon_nest3"	/>
+		</LINK>
+		<LINK name="link02">
+			<TARGET sector="Dungeon_cavern1"	/>
+			<TARGET sector="Dungeon_cavern3"	/>
+		</LINK>
+		<LINK name="link03">
+			<TARGET sector="Dungeon_cavern1"	/>
+			<TARGET sector="Dungeon_cavern3"	/>
+		</LINK>
+		<LINK name="link04">
+			<TARGET sector="Dungeon_cavern2"	/>
+		</LINK>
+	</SECTOR>
+</MAPSET>
+
+
+
+
+</XML>

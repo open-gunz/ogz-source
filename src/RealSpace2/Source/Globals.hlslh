@@ -1,0 +1,77 @@
+#define SHADOW_EPSILON 0.00005f
+
+float4x4 WorldViewProjection : register(c0);
+float4x4 WorldView : register(c4);
+float4x4 Projection : register(c8);
+float4x4 LightViewProjection : register(c12);
+float4   Material : register(c16);
+float4   LightDiffuse : register(c17);
+float4   LightAmbient : register(c18);
+float    CosTheta : register(c19);
+float    ShadowMapSize : register(c20);
+// x = Start, y = End, z = End - Start. All values are squared.
+float4    AttenuationValues : register(c21);
+float4x4 World : register(c22);
+
+float3 LightPos[8] : register(c40);
+float3 LightDir[8] : register(c48);
+
+texture txScene;
+texture txLightmap;
+texture txShadow;
+texture txShadowCube;
+texture txDiffuse;
+
+sampler2D samScene : register(s0) =
+sampler_state
+{
+	Texture = <txScene>;
+MinFilter = Linear;
+MagFilter = Linear;
+MipFilter = Linear;
+};
+
+sampler2D samLightmap : register(s1) =
+sampler_state
+{
+	Texture = <txLightmap>;
+MinFilter = Linear;
+MagFilter = Linear;
+MipFilter = Linear;
+};
+
+sampler2D samShadow : register(s2) =
+sampler_state
+{
+	Texture = <txShadow>;
+MinFilter = Point;
+MagFilter = Point;
+MipFilter = Point;
+AddressU = Clamp;
+AddressV = Clamp;
+};
+
+samplerCUBE samShadowCube : register(s2) =
+sampler_state
+{
+	Texture = <txShadowCube>;
+MinFilter = Point;
+MagFilter = Point;
+MipFilter = Point;
+AddressU = Clamp;
+AddressV = Clamp;
+};
+
+sampler2D samDiffuse : register(s3) =
+sampler_state
+{
+	Texture = <txDiffuse>;
+MinFilter = Point;
+MagFilter = Point;
+MipFilter = Point;
+};
+
+float LengthSq(float3 x)
+{
+	return dot(x, x);
+}

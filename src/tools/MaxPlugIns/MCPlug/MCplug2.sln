@@ -1,0 +1,72 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MCplug2", "MCplug2.vcproj", "{BEBCB677-F42B-4E85-9691-585520CBDC10}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8D451493-65C2-49C3-ADAE-ACB17E6B0650} = {8D451493-65C2-49C3-ADAE-ACB17E6B0650}
+		{68FD6FF4-464A-4484-B397-0DFCC060B773} = {68FD6FF4-464A-4484-B397-0DFCC060B773}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cml", "..\..\CML\cml.vcproj", "{8D451493-65C2-49C3-ADAE-ACB17E6B0650}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RealSpace2", "..\..\RealSpace2\RealSpace2.vcproj", "{68FD6FF4-464A-4484-B397-0DFCC060B773}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccProjectUniqueName0 = MCplug2.vcproj
+		SccProjectName0 = \u0022$/MaxPlugIns\u0022,\u0020OIAAAAAA
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection0 = MCPlug\\
+		SccProjectUniqueName1 = ..\\..\\CML\\cml.vcproj
+		SccProjectName1 = \u0022$/CML\u0022,\u0020NLAAAAAA
+		SccLocalPath1 = ..\\..\\CML
+		SccProvider1 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SccProjectUniqueName2 = ..\\..\\RealSpace2\\RealSpace2.vcproj
+		SccProjectName2 = \u0022$/RealSpace2\u0022,\u0020SKFAAAAA
+		SccLocalPath2 = ..\\..\\RealSpace2
+		SccProvider2 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Hybrid = Hybrid
+		Release = Release
+		Release_publish = Release_publish
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{BEBCB677-F42B-4E85-9691-585520CBDC10}.Debug.ActiveCfg = Debug|Win32
+		{BEBCB677-F42B-4E85-9691-585520CBDC10}.Debug.Build.0 = Debug|Win32
+		{BEBCB677-F42B-4E85-9691-585520CBDC10}.Hybrid.ActiveCfg = Hybrid|Win32
+		{BEBCB677-F42B-4E85-9691-585520CBDC10}.Hybrid.Build.0 = Hybrid|Win32
+		{BEBCB677-F42B-4E85-9691-585520CBDC10}.Release.ActiveCfg = Release|Win32
+		{BEBCB677-F42B-4E85-9691-585520CBDC10}.Release.Build.0 = Release|Win32
+		{BEBCB677-F42B-4E85-9691-585520CBDC10}.Release_publish.ActiveCfg = Release|Win32
+		{BEBCB677-F42B-4E85-9691-585520CBDC10}.Release_publish.Build.0 = Release|Win32
+		{8D451493-65C2-49C3-ADAE-ACB17E6B0650}.Debug.ActiveCfg = Debug|Win32
+		{8D451493-65C2-49C3-ADAE-ACB17E6B0650}.Debug.Build.0 = Debug|Win32
+		{8D451493-65C2-49C3-ADAE-ACB17E6B0650}.Hybrid.ActiveCfg = Release_publish|Win32
+		{8D451493-65C2-49C3-ADAE-ACB17E6B0650}.Hybrid.Build.0 = Release_publish|Win32
+		{8D451493-65C2-49C3-ADAE-ACB17E6B0650}.Release.ActiveCfg = Release|Win32
+		{8D451493-65C2-49C3-ADAE-ACB17E6B0650}.Release.Build.0 = Release|Win32
+		{8D451493-65C2-49C3-ADAE-ACB17E6B0650}.Release_publish.ActiveCfg = Release_publish|Win32
+		{8D451493-65C2-49C3-ADAE-ACB17E6B0650}.Release_publish.Build.0 = Release_publish|Win32
+		{68FD6FF4-464A-4484-B397-0DFCC060B773}.Debug.ActiveCfg = Debug|Win32
+		{68FD6FF4-464A-4484-B397-0DFCC060B773}.Debug.Build.0 = Debug|Win32
+		{68FD6FF4-464A-4484-B397-0DFCC060B773}.Hybrid.ActiveCfg = Release_publish|Win32
+		{68FD6FF4-464A-4484-B397-0DFCC060B773}.Hybrid.Build.0 = Release_publish|Win32
+		{68FD6FF4-464A-4484-B397-0DFCC060B773}.Release.ActiveCfg = Release|Win32
+		{68FD6FF4-464A-4484-B397-0DFCC060B773}.Release.Build.0 = Release|Win32
+		{68FD6FF4-464A-4484-B397-0DFCC060B773}.Release_publish.ActiveCfg = Release_publish|Win32
+		{68FD6FF4-464A-4484-B397-0DFCC060B773}.Release_publish.Build.0 = Release_publish|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

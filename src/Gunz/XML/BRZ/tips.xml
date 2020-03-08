@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML>
+    <!-- -  category
+            default = 0 
+            0 - ??
+            1 - ??? 
+            2 - ?? 
+            3 - ??? 
+            4 - ??? 
+            5 - ??
+            6 - ??
+            7 - ??
+    -->
+    <!-- MSG??? id? ??? ???? ??? ??? ??? ?????. -->
+    
+<TIPS category="0">
+    <!-- STATIC TIPS -->
+	<MSG>The Duel é um jogo de ação em que você precisa testar seus limites.</MSG>
+	<MSG>Aperte F11 para começar a gravar uma partida. Pare de gravar, apertando F11 novamente.</MSG>
+	<MSG>Você compartilha sua conexão? Experimente a função de encaminhamento de porta.</MSG>
+	<MSG>Usando computadores em rede você terá um ping melhor.</MSG>
+	<MSG>O jogo está lento? Entre nas opções e escolha Otimizar.</MSG>
+	<MSG>É possível "Jogar Agora!" sem procurar por uma sala vazia.</MSG>
+	<MSG>Jamais um GM, administrador ou funcionário da Level Up! pedirá a sua senha.</MSG>
+	<MSG>Você pode criar um Clã para jogar com seus amigos.</MSG>
+	<MSG>Itens de recompensa não são compartilhados com outros personagens através do Banco.</MSG>
+	<MSG>O modo de treinamento não altera sua pontuação.</MSG>
+	<MSG>Você só pode jogar nos canais equivalentes ao seu nível ou livres.</MSG>
+	<MSG>Qualquer ID que possa ofender outras pessoas será cancelada.</MSG>
+	<MSG>Qualquer um que ofenda os outros dentro de uma partida está sujeito a punição pela equipe de GMs.</MSG>
+	<MSG>Quando você defende um ataque de lâmina, você tem a chance de um Ataque Fulminante no mesmo instante!</MSG>
+	<MSG>Você já jogou uma Guerra de Clãs? Então tente agora.</MSG>
+	<MSG>Em uma Guerra de Clãs você ganha 1,5X a Exp. normal.</MSG>
+
+	<MSG>Aperte Ctrl+Número enquanto observa uma partida para ter aquele número definido e para ver o jogador relacionado.</MSG>
+	<MSG>Você já jogou uma Guerra de Clãs? Então tente agora.</MSG>
+	<MSG>Em uma Guerra de Clãs você ganha 1,5X a Exp. normal.</MSG>
+</TIPS>    
+
+<!-- ??? -->
+<TIPS category="4">
+<!--	<MSG id="1">Aperte F1 enquanto estiver no jogo, para ver a descrição das teclas.</MSG> -->
+</TIPS>
+
+</XML>

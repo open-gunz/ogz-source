@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XML id="scenario">
+<!--
+
+<SCENARIO id="시나리오 아이디"
+	title="이름"
+	QL="요구 퀘스트 레벨"
+	DC="난이도 계수"
+	mapset="맵셋"
+	XP="XP 보상치"
+	BP="BP 보상치"
+	sector_xp="섹터 보너스 XP(이 값이 지정되면 원래 일정비율로 설정된 값에 상관없이 이값으로 제공)"
+	sector_bp="섹터 보너스 BP(이 값이 지정되면 원래 일정비율로 설정된 값에 상관없이 이값으로 제공)"
+	>
+	<SACRI_ITEM itemid="희생 아이템1 ID" />
+	<SACRI_ITEM itemid="희생 아이템2 ID" />
+	<SACRI_ITEM itemid="희생 아이템3 ID" />
+	<SACRI_ITEM itemid="희생 아이템4 ID" />
+	<REWARD_ITEM type="quest" itemid="특별아이템ID" rate="보상 비율" />
+	<MAP dice="1" key_sector="101">
+		<NPCSET_ARRAY>Ga1/Ga2/Ga1/Ga2/Ga3</NPCSET_ARRAY>
+	</MAP>
+</SCENARIO>
+-->
+
+<!--
+ 특별시나리오 ///////////////////////////////////////
+-->
+
+<!-- 테스트 -->
+<!--
+<SPECIAL_SCENARIO id="1"
+	title="Goblin King"
+	QL="1"
+	DC="1"
+	mapset="Mansion"
+	XP="1000"
+	BP="100">
+	<SACRI_ITEM itemid="200011" />
+	<MAP dice="1" key_sector="102" key_npc="16" boss="true" >
+		<NPCSET_ARRAY>Ga3</NPCSET_ARRAY>
+	    <JACO count="2" tick="13" min_npc="0" max_npc="8">
+	        <NPC npcid="11" rate="0.4" />
+		    <NPC npcid="12" rate="0.2" />
+		    <NPC npcid="13" rate="0.02" />
+		    <NPC npcid="14" rate="0.3" />
+		    <NPC npcid="15" rate="0.05" />
+		</JACO>
+	</MAP>
+	<MAP dice="2" key_sector="102" key_npc="16" boss="true">
+		<NPCSET_ARRAY>Ga4</NPCSET_ARRAY>
+	    <JACO count="2" tick="13" min_npc="0" max_npc="8">
+	        <NPC npcid="11" rate="0.4" />
+		    <NPC npcid="12" rate="0.2" />
+		    <NPC npcid="13" rate="0.02" />
+		    <NPC npcid="14" rate="0.3" />
+		    <NPC npcid="15" rate="0.05" />
+		</JACO>
+	</MAP>
+	<MAP dice="3" key_sector="102" key_npc="16" boss="true">
+		<NPCSET_ARRAY>Ga4</NPCSET_ARRAY>
+	    <JACO count="2" tick="13" min_npc="0" max_npc="8">
+	        <NPC npcid="11" rate="0.4" />
+		    <NPC npcid="12" rate="0.2" />
+		    <NPC npcid="13" rate="0.02" />
+		    <NPC npcid="14" rate="0.3" />
+		    <NPC npcid="15" rate="0.05" />
+		</JACO>
+	</MAP>
+	<MAP dice="4" key_sector="102" key_npc="16" boss="true">
+		<NPCSET_ARRAY>Ga4</NPCSET_ARRAY>
+	    <JACO count="2" tick="13" min_npc="0" max_npc="8">
+	        <NPC npcid="11" rate="0.4" />
+		    <NPC npcid="12" rate="0.2" />
+		    <NPC npcid="13" rate="0.02" />
+		    <NPC npcid="14" rate="0.3" />
+		    <NPC npcid="15" rate="0.05" />
+		</JACO>
+	</MAP>
+	<MAP dice="5" key_sector="102" key_npc="16" boss="true">
+		<NPCSET_ARRAY>Ga4</NPCSET_ARRAY>
+	    <JACO count="2" tick="13" min_npc="0" max_npc="8">
+	        <NPC npcid="11" rate="0.4" />
+		    <NPC npcid="12" rate="0.2" />
+		    <NPC npcid="13" rate="0.02" />
+		    <NPC npcid="14" rate="0.3" />
+		    <NPC npcid="15" rate="0.05" />
+		</JACO>
+	</MAP>
+	<MAP dice="6" key_sector="102" key_npc="16" boss="true">
+		<NPCSET_ARRAY>Ga4</NPCSET_ARRAY>
+	    <JACO count="2" tick="13" min_npc="0" max_npc="8">
+	        <NPC npcid="11" rate="0.4" />
+		    <NPC npcid="12" rate="0.2" />
+		    <NPC npcid="13" rate="0.02" />
+		    <NPC npcid="14" rate="0.3" />
+		    <NPC npcid="15" rate="0.05" />
+		</JACO>
+	</MAP>
+</SPECIAL_SCENARIO>
+
+<SPECIAL_SCENARIO id="2"
+	title="Test"
+	QL="1"
+	DC="1"
+	mapset="Mansion"
+	XP="1000"
+	BP="100">
+	<SACRI_ITEM itemid="200012" />
+	<MAP dice="1" key_sector="102" >
+		<NPCSET_ARRAY>Ga1/Ga1/Ga1</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="2" key_sector="102" >
+		<NPCSET_ARRAY>Ga1/Ga1/Ga1</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="3" key_sector="102" >
+		<NPCSET_ARRAY>Ga1/Ga1/Ga1</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="4" key_sector="102" >
+		<NPCSET_ARRAY>Ga1/Ga1/Ga1</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="5" key_sector="102" >
+		<NPCSET_ARRAY>Ga1/Ga1/Ga1</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="6" key_sector="102" >
+		<NPCSET_ARRAY>Ga1/Ga1/Ga1</NPCSET_ARRAY>
+	</MAP>
+	
+</SPECIAL_SCENARIO>
+-->
+
+<!-- 이벤트용 시나리오 -->
+<SPECIAL_SCENARIO id="500"
+	title="STR:SCENARIO_TITLE_500"
+	QL="0"
+	DC="1"
+	mapset="Mansion"
+	XP="400"
+	BP="50">
+	
+  <SACRI_ITEM itemid="200037" />
+
+	<MAP dice="1" key_sector="101">
+		<NPCSET_ARRAY>Ga2/Gb1/Gb4</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="2" key_sector="102">
+		<NPCSET_ARRAY>Ga2/Ga2/Gc2</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="3" key_sector="103">
+		<NPCSET_ARRAY>Ga2/Gb1/Gb4</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="4" key_sector="104">
+		<NPCSET_ARRAY>Ga3/Gb1/Gc2</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="5" key_sector="105">
+		<NPCSET_ARRAY>Ga2/Gb3/Gc1</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="6" key_sector="106">
+		<NPCSET_ARRAY>Ga1/Gb2/Gc1</NPCSET_ARRAY>
+	</MAP>
+</SPECIAL_SCENARIO>
+
+<SPECIAL_SCENARIO id="501"
+	title="STR:SCENARIO_TITLE_501"
+	QL="1"
+	DC="1.2"
+	mapset="Mansion"
+	XP="1000"
+	BP="100">
+	
+  <SACRI_ITEM itemid="200037" />
+  <SACRI_ITEM itemid="200011" />
+  
+	<MAP dice="1" key_sector="101">
+		<NPCSET_ARRAY>Ga2/Gb1/Gb4</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="2" key_sector="102">
+		<NPCSET_ARRAY>Ga2/Ga2/Gc2</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="3" key_sector="103">
+		<NPCSET_ARRAY>Ga2/Gb1/Gb4</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="4" key_sector="104">
+		<NPCSET_ARRAY>Ga3/Gb1/Gc2</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="5" key_sector="105">
+		<NPCSET_ARRAY>Ga2/Gb3/Gc1</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="6" key_sector="106">
+		<NPCSET_ARRAY>Ga1/Gb2/Gc1</NPCSET_ARRAY>
+	</MAP>
+</SPECIAL_SCENARIO>
+
+<SPECIAL_SCENARIO id="502"
+	title="STR:SCENARIO_TITLE_502"
+	QL="2"
+	DC="1.2"
+	mapset="Mansion"
+	XP="2500"
+	BP="200">
+	
+  <SACRI_ITEM itemid="200037" />
+  <SACRI_ITEM itemid="200012" />
+
+	<MAP dice="1" key_sector="101">
+		<NPCSET_ARRAY>Ga2/Gb1/Gc2</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="2" key_sector="102">
+		<NPCSET_ARRAY>Ga2/Ga2/Gc2</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="3" key_sector="103">
+		<NPCSET_ARRAY>Ga2/Gb1/Gb4</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="4" key_sector="104">
+		<NPCSET_ARRAY>Ga3/Gb1/Gc2</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="5" key_sector="105">
+		<NPCSET_ARRAY>Ga2/Gb3/Gc1</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="6" key_sector="106">
+		<NPCSET_ARRAY>Ga1/Gb2/Gb4</NPCSET_ARRAY>
+	</MAP>
+</SPECIAL_SCENARIO>
+
+
+<SPECIAL_SCENARIO id="503"
+	title="STR:SCENARIO_TITLE_503"
+	QL="3"
+	DC="1.2"
+	mapset="Mansion"
+	XP="5000"
+	BP="400">
+	
+  <SACRI_ITEM itemid="200037" />
+  <SACRI_ITEM itemid="200013" />
+
+	<MAP dice="1" key_sector="101">
+		<NPCSET_ARRAY>Gc1/Gd2/Gd4</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="2" key_sector="102">
+		<NPCSET_ARRAY>Gc1/Gd3/Gc3</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="3" key_sector="103">
+		<NPCSET_ARRAY>Gc1/Gd2/Gf4</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="4" key_sector="104">
+		<NPCSET_ARRAY>Gc2/Gd3/Gd4</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="5" key_sector="105">
+		<NPCSET_ARRAY>Gc2/Gd4/Gc3</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="6" key_sector="106">
+		<NPCSET_ARRAY>Gc2/Ge1/Gf4</NPCSET_ARRAY>
+	</MAP>
+</SPECIAL_SCENARIO>
+
+
+
+<!--
+ 정규시나리오 ///////////////////////////////////////
+-->
+
+<!-- Mansion -->
+<STANDARD_SCENARIO
+	QL="0"
+	title="Goblin V"
+	DC="1"
+	mapset="Mansion"
+	XP="200"
+	BP="25">
+
+	<MAP dice="1" key_sector="101">
+		<NPCSET_ARRAY>Ga1/Ga2/Ga1/Ga2/Ga3</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="2" key_sector="102">
+		<NPCSET_ARRAY>Ga2/Ga2/Ga2/Ga3/Ga4</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="3" key_sector="103">
+		<NPCSET_ARRAY>Ga1/Ga2/Ga3/Ga2/Ga4</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="4" key_sector="104">
+		<NPCSET_ARRAY>Ga3/Ga2/Ga2/Ga2/Ga4</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="5" key_sector="105">
+		<NPCSET_ARRAY>Ga2/Ga1/Ga1/Ga1/Ga4</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="6" key_sector="106">
+		<NPCSET_ARRAY>Ga1/Ga1/Ga2/Ga2/Ga4</NPCSET_ARRAY>
+	</MAP>
+</STANDARD_SCENARIO>
+
+
+<STANDARD_SCENARIO
+	QL="1"
+	title="Goblin V"
+	DC="1"
+	mapset="Mansion"
+	XP="500"
+	BP="50">
+
+	<MAP dice="1" key_sector="101">
+		<NPCSET_ARRAY>Ga2/Gb1/Gb2/Ga4/Gb3/Gb4</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="2" key_sector="102">
+		<NPCSET_ARRAY>Ga1/Gb2/Gb3/Gb1/Gb4/Gb3</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="3" key_sector="103">
+		<NPCSET_ARRAY>Ga2/Gb2/Gb1/Gb1/Gb2/Gb3</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="4" key_sector="104">
+		<NPCSET_ARRAY>Ga1/Ga2/Gb1/Gb2/Ga1/Gb1/Gb3/Ga4</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="5" key_sector="105">
+		<NPCSET_ARRAY>Ga2/Gb1/Gb2/Gb3/Ga4/Gb4</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="6" key_sector="106">
+		<NPCSET_ARRAY>Ga1/Gb2/Gb3/Gb1/Gb2/Ga3/Gb4</NPCSET_ARRAY>
+	</MAP>
+</STANDARD_SCENARIO>
+
+
+<STANDARD_SCENARIO
+	QL="2"
+	title="Goblin V"
+	DC="1"
+	mapset="Mansion"
+	XP="1600"
+	BP="120">
+
+	<MAP dice="1" key_sector="101">
+		<NPCSET_ARRAY>Ga1/Gb2/Gc2/Gb3/Gc3/Gb1/Gc4</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="2" key_sector="102">
+		<NPCSET_ARRAY>Ga2/Gc1/Gc3/Gb1/Gb2/Gb3/Gc3</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="3" key_sector="101">
+		<NPCSET_ARRAY>Ga1/Gb2/Gb1/Gb3/Gb4/Gc1/Gc3/Gc4</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="4" key_sector="101">
+		<NPCSET_ARRAY>Ga2/Ga4/Ga3/Ga1/Gc2/Gc1/Gb3/Gc3</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="5" key_sector="101">
+		<NPCSET_ARRAY>Ga2/Gb1/Gb2/Gb3/Gc1/Gc2/Gc4</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="6" key_sector="101">
+		<NPCSET_ARRAY>Gb3/Ga1/Gb4/Gb1/Gc3/Gc4</NPCSET_ARRAY>
+	</MAP>
+</STANDARD_SCENARIO>
+
+
+<STANDARD_SCENARIO
+	QL="3"
+	title="Goblin V"
+	DC="1"
+	mamset="Dungeon"
+	XP="3200"
+	BP="250">
+	
+	<MAP dice="1" key_sector="101">
+		<NPCSET_ARRAY>Ga2/Gb3/Gc1/Gc3/Gc2/Gd1/Gd2/Gd1/Gd3</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="2" key_sector="102">
+		<NPCSET_ARRAY>Gb1/Ga3/Ga4/Gb2/Gb3/Gc3/Gd3/Gd2/Gd4</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="3" key_sector="101">
+		<NPCSET_ARRAY>Gb2/Ga3/Ga4/Gb2/Gb3/Gc3/Gd3/Gd2/Gd4</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="4" key_sector="102">
+		<NPCSET_ARRAY>Gb3/Ga3/Ga4/Gb2/Gb3/Gc3/Gd3/Gd2/Gd4</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="5" key_sector="101">
+		<NPCSET_ARRAY>Gb4/Ga3/Ga4/Gb2/Gb3/Gc3/Gd3/Gd2/Gd4</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="6" key_sector="102">
+		<NPCSET_ARRAY>Ga1/Gb1/Gb4/Gb3/Gc2/Gd1/Gd2/Gd3</NPCSET_ARRAY>
+	</MAP>
+</STANDARD_SCENARIO>
+
+
+<STANDARD_SCENARIO
+	QL="4"
+	title="Goblin V"
+	DC="1"
+	mamset="Dungeon"
+	XP="6400"
+	BP="500">
+	
+	<MAP dice="1" key_sector="101">
+		<NPCSET_ARRAY>Gb3/Gc2/Gc1/Ga3/Gd1/Gd3/Gc1/Ge2/Gd1/Ge4</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="2" key_sector="102">
+		<NPCSET_ARRAY>Gb2/Gc3/Gc2/Ga4/Gd2/Ge1/Gc3/Ge3/Gd2/Ge3</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="3" key_sector="101">
+		<NPCSET_ARRAY>Gb1/Gc1/Gc3/Ga1/Gd3/Ge2/Gc2/Ge1/Gd3/Ge4</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="4" key_sector="102">
+		<NPCSET_ARRAY>Gb4/Gc4/Gc4/Ga2/Gd4/Ge4/Gc3/Ge4/Gd4/Ge3</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="5" key_sector="101">
+		<NPCSET_ARRAY>Gb2/Gd3/Gc1/Ga2/Gd1/Ge2/Gc4/Ge3/Gd1/Ge4</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="6" key_sector="102">
+		<NPCSET_ARRAY>Gb3/Ge1/Gc2/Gd3/Gd2/Gc2/Ge4/Gd2/Ge3</NPCSET_ARRAY>
+	</MAP>
+</STANDARD_SCENARIO>
+
+
+
+<STANDARD_SCENARIO
+	QL="5"
+	title="Goblin V"
+	DC="1"
+	mamset="Dungeon"
+	XP="12800"
+	BP="1200">
+	
+	<MAP dice="1" key_sector="101">
+		<NPCSET_ARRAY>Gd3/Gd1/Gd3/Gd4/Ge1/Ge2/Ge3/Ge4/Gf1/Gf2/Gf3</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="2" key_sector="102">
+		<NPCSET_ARRAY>Gd2/Gd3/Gd4/Gd1/Ge2/Ge3/Ge1/Ge4/Gf4/Gf1/Gf2</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="3" key_sector="101">
+		<NPCSET_ARRAY>Gd1/Gd3/Gd2/Gd4/Ge3/Ge4/Ge3/Ge4/Gf2/Gf3/Gf3</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="4" key_sector="102">
+		<NPCSET_ARRAY>Gd2/Gd1/Gd3/Gd4/Ge4/Ge3/Ge3/Ge2/Gf2/Gf3/Gf4</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="5" key_sector="101">
+		<NPCSET_ARRAY>Gd2/Gd3/Gd4/Gd1/Ge3/Ge3/Ge4/Ge2/Gf2/Gf2/Gf1</NPCSET_ARRAY>
+	</MAP>
+	<MAP dice="6" key_sector="102">
+		<NPCSET_ARRAY>Gd1/Gd2/Gd3/Gd4/Ge2/Ge1/Ge4/Gf3/Gf2/Gf4</NPCSET_ARRAY>
+	</MAP>
+</STANDARD_SCENARIO>
+
+
+
+
+</XML>

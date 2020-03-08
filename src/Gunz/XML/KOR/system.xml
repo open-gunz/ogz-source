@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<XML>
+	<XMLHEADER>version="1.0" encoding="UTF-8"</XMLHEADER>
+
+	<SKIN>Default</SKIN>
+	
+	<DEFFONT>굴림</DEFFONT>
+	
+	<IME>true</IME>
+	
+	<BAREPORT>
+		<ADDR>www.battlearena.com</ADDR>
+		<DIR>incoming/gunz</DIR>
+	</BAREPORT>
+
+	<EMBLEM_URL>http://cwfile.netmarble.com</EMBLEM_URL>
+	<CASHSHOP_URL>http://game3.netmarble.net/gunz/shop</CASHSHOP_URL>
+	
+	<HOMEPAGE>
+	    <URL>http://gunz.netmarble.net/</URL>
+	    <TITLE>넷마블</TITLE>
+	</HOMEPAGE>
+	
+	<LOCATORLIST>
+		<LOCATOR id="1" IP="222.111.150.84" />
+		<LOCATOR id="2" IP="222.111.150.85" />
+		<LOCATOR id="3" IP="222.111.150.86" />
+		<LOCATOR id="4" IP="222.111.150.87" />
+	</LOCATORLIST>
+</XML>

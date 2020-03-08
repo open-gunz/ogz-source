@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<XML ID="Sample">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+	<ANIMATIONTEMPLATE item="SampleAnimTemplate">
+		<DELAY>100</DELAY>
+		<BITMAP>ani1.png</BITMAP>
+		<BITMAP>ani2.png</BITMAP>
+		<BITMAP>ani3.png</BITMAP>
+		<BITMAP>ani4.png</BITMAP>
+		<BITMAP>ani5.png</BITMAP>
+		<BITMAP>ani6.png</BITMAP>
+		<BITMAP>ani7.png</BITMAP>
+		<BITMAP>ani8.png</BITMAP>
+	</ANIMATIONTEMPLATE>
+</XML>

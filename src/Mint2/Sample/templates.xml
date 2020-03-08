@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<XML ID="Sample">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+	<BUTTONLOOKTEMPLATE item="SampleButtonLook">
+		<FONT>gulim</FONT>
+		<TEXTCOLOR>
+			<R>0</R>
+			<G>241</G>
+			<B>241</B>
+		</TEXTCOLOR>
+		<TEXTDOWNCOLOR>
+			<R>255</R>
+			<G>0</G>
+			<B>0</B>
+		</TEXTDOWNCOLOR>
+		<TEXTHIGHTLIGHTCOLOR>
+			<R>0</R>
+			<G>0</G>
+			<B>255</B>
+		</TEXTHIGHTLIGHTCOLOR>
+		<TEXTDISABLECOLOR>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TEXTDISABLECOLOR>
+		<UP>
+			<BITMAP type="0">button00-0.png</BITMAP>
+			<BITMAP type="1">button00-1.png</BITMAP>
+			<BITMAP type="2">button00-2.png</BITMAP>
+			<BITMAP type="3">button00-3.png</BITMAP>
+			<BITMAP type="4">button00-4.png</BITMAP>
+			<BITMAP type="5">button00-5.png</BITMAP>
+			<BITMAP type="6">button00-6.png</BITMAP>
+			<BITMAP type="7">button00-7.png</BITMAP>
+			<BITMAP type="8">button00-8.png</BITMAP>
+		</UP>
+		<DOWN>
+			<BITMAP type="0">button00d-0.png</BITMAP>
+			<BITMAP type="1">button00d-1.png</BITMAP>
+			<BITMAP type="2">button00d-2.png</BITMAP>
+			<BITMAP type="3">button00d-3.png</BITMAP>
+			<BITMAP type="4">button00d-4.png</BITMAP>
+			<BITMAP type="5">button00d-5.png</BITMAP>
+			<BITMAP type="6">button00d-6.png</BITMAP>
+			<BITMAP type="7">button00d-7.png</BITMAP>
+			<BITMAP type="8">button00d-8.png</BITMAP>
+		</DOWN>
+	</BUTTONLOOKTEMPLATE>
+	<FRAMELOOKTEMPLATE item="SampleFrameLook">
+		<FONT>gulim</FONT>
+		<TEXTCOLOR>
+			<R>0</R>
+			<G>241</G>
+			<B>241</B>
+		</TEXTCOLOR>
+		<TEXTPOSITION>
+			<X>10</X>
+			<Y>0</Y>
+		</TEXTPOSITION>
+		<BITMAPS>
+			<BITMAP type="0">frame00-0.png</BITMAP>
+			<BITMAP type="1">frame00-1.png</BITMAP>
+			<BITMAP type="2">frame00-2.png</BITMAP>
+			<BITMAP type="3">frame00-3.png</BITMAP>
+			<BITMAP type="4">frame00-4.png</BITMAP>
+			<BITMAP type="5">frame00-5.png</BITMAP>
+			<BITMAP type="6">frame00-6.png</BITMAP>
+			<BITMAP type="7">frame00-7.png</BITMAP>
+			<BITMAP type="8">frame00-8.png</BITMAP>
+		</BITMAPS>
+		<CLOSE>
+			<BITMAP type="up">frame00-close.png</BITMAP>
+			<BITMAP type="down">frame00-closeclick.png</BITMAP>
+		</CLOSE>
+		<MINIMIZE>
+			<BITMAP type="up">frame00-minimize.png</BITMAP>
+			<BITMAP type="down">frame00-closeclick.png</BITMAP>
+		</MINIMIZE>
+		<STRETCH>true</STRETCH>
+	</FRAMELOOKTEMPLATE>
+	<ARROWLOOKTEMPLATE item="SampleArrowLook">
+		<BITMAPS>
+			<BITMAP type="0">test.png</BITMAP>
+			<BITMAP type="1">test.png</BITMAP>
+			<BITMAP type="2">test.png</BITMAP>
+			<BITMAP type="3">test.png</BITMAP>
+			<BITMAP type="4">test.png</BITMAP>
+			<BITMAP type="5">test.png</BITMAP>
+			<BITMAP type="6">test.png</BITMAP>
+			<BITMAP type="7">test.png</BITMAP>
+		</BITMAPS>
+	</ARROWLOOKTEMPLATE>
+	<THUMBLOOKTEMPLATE item="SampleThumbLook">
+		<VERTICAL type="normal">
+			<BITMAP type="0">thumb00-v0.png</BITMAP>
+			<BITMAP type="1">thumb00-v1.png</BITMAP>
+			<BITMAP type="2">thumb00-v2.png</BITMAP>
+		</VERTICAL>
+		<VERTICAL type="pressed">
+			<BITMAP type="0">thumb00-vp0.png</BITMAP>
+			<BITMAP type="1">thumb00-vp1.png</BITMAP>
+			<BITMAP type="2">thumb00-vp2.png</BITMAP>
+		</VERTICAL>
+		<HORIZONTAL type="normal">
+			<BITMAP type="0">thumb00-h0.png</BITMAP>
+			<BITMAP type="1">thumb00-h1.png</BITMAP>
+			<BITMAP type="2">thumb00-h2.png</BITMAP>
+		</HORIZONTAL>
+		<HORIZONTAL type="pressed">
+			<BITMAP type="0">thumb00-hp0.png</BITMAP>
+			<BITMAP type="1">thumb00-hp1.png</BITMAP>
+			<BITMAP type="2">thumb00-hp2.png</BITMAP>
+		</HORIZONTAL>
+	</THUMBLOOKTEMPLATE>
+	<SCROLLBARLOOKTEMPLATE item="SampleScrollBarLook">
+		<FONT>gulim</FONT>
+		<VERTICAL>
+			<BITMAP type="0">scrollbar-v0.png</BITMAP>
+			<BITMAP type="1">scrollbar-v1.png</BITMAP>
+			<BITMAP type="2">scrollbar-v2.png</BITMAP>
+		</VERTICAL>
+		<HORIZONTAL>
+			<BITMAP type="0">scrollbar-v0.png</BITMAP>
+			<BITMAP type="1">scrollbar-v1.png</BITMAP>
+			<BITMAP type="2">scrollbar-v2.png</BITMAP>
+		</HORIZONTAL>
+	</SCROLLBARLOOKTEMPLATE>
+</XML>

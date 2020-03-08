@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XML xmlns="http://tempuri.org/zitem.xsd" id="sacrificeTable">
+	<ITEM map="" ql="1" default_item_id="0" special_item_id1="0" special_item_id2="0" significant_npc="" sdc="1" ScenarioID="0" />
+	<ITEM map="" ql="1" default_item_id="0" special_item_id1="200008" special_item_id2="0" significant_npc="goblin chief" sdc="1" ScenarioID="0" />
+	
+	<ITEM map="" ql="2" default_item_id="200001"	special_item_id1="0" special_item_id2="0" significant_npc="" sdc="1" ScenarioID="0" />
+	<ITEM map="" ql="2" default_item_id="0"	special_item_id1="200024" special_item_id2="0" significant_npc="palmpoa commander" sdc="1" ScenarioID="0" />
+	<ITEM map="" ql="2" default_item_id="0"	special_item_id1="200018" special_item_id2="0" significant_npc="goblin king" sdc="1" ScenarioID="0" />
+	<ITEM map="" ql="2" default_item_id="0"	special_item_id1="200022" special_item_id2="0" significant_npc="palmpow" sdc="1" ScenarioID="0" />
+	
+	<ITEM map="" ql="3" default_item_id="200002"	special_item_id1="0" special_item_id2="0" significant_npc="" sdc="1" ScenarioID="0" />
+	<ITEM map="" ql="3" default_item_id="0"	special_item_id1="200025" special_item_id2="200027" significant_npc="cursed palmow" sdc="1" ScenarioID="0" />
+	
+	<ITEM map="" ql="4" default_item_id="200003"	special_item_id1="0" special_item_id2="0" significant_npc="" sdc="1" ScenarioID="0" />
+	
+	<ITEM map="" ql="5" default_item_id="200004"	special_item_id1="0" special_item_id2="0" significant_npc="" sdc="1" ScenarioID="0" />
+</XML>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XML id="NPCSET">
+<!--
+
+	NPC_GOBLIN					= 11,	// 병정 고블린
+	NPC_GOBLIN_GUNNER			= 12,	// 고블린 거너
+	NPC_GOBLIN_WIZARD			= 13,	// 고블린 위저드
+	NPC_GOBLIN_COMMANDER		= 14,	// 대장 고블린
+	NPC_GOBLIN_CHIEF			= 15,	// 고블린 족장
+	NPC_GOBLIN_KING				= 16,	// 고블린 킹
+
+	NPC_PALMPOA					= 21,	// 팜포아
+	NPC_PALMPOA_COMMANDER		= 22,	// 대장 팜포아
+	NPC_PALMPOW					= 23,	// 팜포우
+	NPC_CURSED_PALMPOW			= 24,	// 저주받은 팜포우
+	NPC_PALMPOW_BABY			= 25,	// 팜포우 베이비
+
+	NPC_SKELETON				= 31,	// 스켈레톤
+	NPC_SKELETON_MAGE			= 32,	// 스켈레톤 메이지
+	NPC_SKELETON_COMMANDER		= 33,	// 대장 스켈레톤
+	NPC_GIANT_SKELETON			= 34,	// 거대 스켈레톤
+	NPC_THE_UNHOLY				= 35,	// 저주받은 시신
+	NPC_LICH					= 36,	// 리치
+
+	NPC_KOBOLD					= 41,	// 코볼트
+	NPC_KOBOLD_SHAMAN			= 42,	// 코볼트 샤만
+	NPC_KOBOLD_COMMANDER		= 43,	// 대장 코볼트
+	NPC_KOBOLD_KING				= 44,	// 코볼트 왕
+	NPC_BROKEN_GOLEM			= 45,	// 고장난 골렘
+	NPC_SCRIDER					= 46,	// 스크라이더
+
+-->
+
+<NPCSET id="10001" name="Ga1" basenpc="11">
+</NPCSET>
+
+<NPCSET id="10002" name="Ga2" basenpc="11">
+	<ADDNPC npc_id="12" min_rate="10" max_rate="20" />
+</NPCSET>
+	
+<NPCSET id="10003" name="Ga3" basenpc="11">
+	<ADDNPC npc_id="12" min_rate="15" max_rate="20" />
+	<ADDNPC npc_id="13" min_rate="5" max_rate="10" />
+</NPCSET>
+
+<NPCSET id="10004" name="Ga4" basenpc="11">
+	<ADDNPC npc_id="13" min_rate="10" max_rate="20" /> 
+</NPCSET>
+
+<NPCSET id="10011" name="Gb1" basenpc="11">
+	<ADDNPC npc_id="12" min_rate="30" max_rate="40" />
+</NPCSET>
+
+<NPCSET id="10012" name="Gb2" basenpc="11">
+	<ADDNPC npc_id="12" min_rate="20" max_rate="25" />
+	<ADDNPC npc_id="13" min_rate="10" max_rate="15" />
+</NPCSET>
+
+<NPCSET id="10013" name="Gb3" basenpc="11">
+	<ADDNPC npc_id="14" min_rate="30" max_rate="40" />
+</NPCSET>
+
+<NPCSET id="10014" name="Gb4" basenpc="12">
+	<ADDNPC npc_id="14" min_rate="20" max_rate="30" />
+</NPCSET>
+
+<NPCSET id="10021" name="Gc1" basenpc="11">
+	<ADDNPC npc_id="12" min_rate="50" max_rate="60" />
+</NPCSET>
+
+<NPCSET id="10022" name="Gc2" basenpc="11">
+	<ADDNPC npc_id="12" min_rate="25" max_rate="30" />
+	<ADDNPC npc_id="13" min_rate="15" max_rate="20" />
+</NPCSET>
+
+<NPCSET id="10023" name="Gc3" basenpc="12">
+	<ADDNPC npc_id="14" min_rate="30" max_rate="40" />
+</NPCSET>
+
+<NPCSET id="10024" name="Gc4" basenpc="11">
+	<ADDNPC npc_id="12" min_rate="25" max_rate="30" />
+	<ADDNPC npc_id="13" min_rate="15" max_rate="20" />
+	<ADDNPC npc_id="14" min_rate="5" max_rate="10" />
+</NPCSET>
+
+<NPCSET id="10031" name="Gd1" basenpc="11">
+	<ADDNPC npc_id="12" min_rate="70" max_rate="80" />
+</NPCSET>
+
+<NPCSET id="10032" name="Gd2" basenpc="11">
+	<ADDNPC npc_id="12" min_rate="40" max_rate="50" />
+	<ADDNPC npc_id="15" min_rate="20" max_rate="30" />
+</NPCSET>
+
+<NPCSET id="10033" name="Gd3" basenpc="11">
+	<ADDNPC npc_id="12" min_rate="30" max_rate="40" />
+	<ADDNPC npc_id="13" min_rate="30" max_rate="40" />
+	<ADDNPC npc_id="14" min_rate="10" max_rate="15" />
+</NPCSET>
+
+<NPCSET id="10034" name="Gd4" basenpc="14">
+	<ADDNPC npc_id="15" min_rate="20" max_rate="25" />
+</NPCSET>
+
+<NPCSET id="10041" name="Ge1" basenpc="12">
+	<ADDNPC npc_id="13" min_rate="30" max_rate="40" />
+	<ADDNPC npc_id="14" min_rate="10" max_rate="20" />
+</NPCSET>
+
+<NPCSET id="10042" name="Ge2" basenpc="12">
+	<ADDNPC npc_id="13" min_rate="30" max_rate="40" />
+	<ADDNPC npc_id="14" min_rate="5" max_rate="10" />
+	<ADDNPC npc_id="15" min_rate="5" max_rate="10" />
+</NPCSET>
+
+<NPCSET id="10043" name="Ge3" basenpc="12">
+	<ADDNPC npc_id="15" min_rate="30" max_rate="40" />
+</NPCSET>
+
+<NPCSET id="10044" name="Ge4" basenpc="12">
+  <ADDNPC npc_id="13" min_rate="30" max_rate="40" />
+	<ADDNPC npc_id="14" min_rate="5" max_rate="10" />
+</NPCSET>
+
+<NPCSET id="10051" name="Gf1" basenpc="12">
+	<ADDNPC npc_id="15" min_rate="30" max_rate="40" />
+</NPCSET>
+
+<NPCSET id="10052" name="Gf2" basenpc="13">
+	<ADDNPC npc_id="14" min_rate="30" max_rate="40" />
+	<ADDNPC npc_id="15" min_rate="20" max_rate="30" />
+</NPCSET>
+
+<NPCSET id="10053" name="Gf3" basenpc="13">
+	<ADDNPC npc_id="15" min_rate="30" max_rate="40" />
+</NPCSET>
+
+<NPCSET id="10054" name="Gf4" basenpc="12">
+	<ADDNPC npc_id="14" min_rate="30" max_rate="40" />
+	<ADDNPC npc_id="15" min_rate="20" max_rate="30" />
+</NPCSET>
+
+
+<!-- 이벤트용 -->
+<NPCSET id="10061" name="Gx1" basenpc="11">
+	<ADDNPC npc_id="12" min_rate="70" max_rate="80" />
+	<ADDNPC npc_id="17" min_rate="0" max_rate="5" max_count="1" />	
+<!--	<ADDNPC npc_id="25" min_rate="1" max_rate="1" max_count="1" /> -->
+</NPCSET>
+
+<NPCSET id="10062" name="Gx2" basenpc="12">
+	<ADDNPC npc_id="17" min_rate="0" max_rate="5" max_count="1" />
+<!--	<ADDNPC npc_id="25" min_rate="0" max_rate="1" max_count="1" /> -->
+</NPCSET>
+
+<NPCSET id="10063" name="Gx3" basenpc="11">
+	<ADDNPC npc_id="13" min_rate="30" max_rate="40" />
+	<ADDNPC npc_id="14" min_rate="20" max_rate="30" />
+	<ADDNPC npc_id="17" min_rate="0" max_rate="5" max_count="1" />
+<!--	<ADDNPC npc_id="25" min_rate="0" max_rate="1" max_count="1" /> -->
+</NPCSET>
+
+
+
+<NPCSET id="10071" name="Pa1" basenpc="21">
+</NPCSET>
+
+<NPCSET id="10072" name="Pa2" basenpc="21">
+	<ADDNPC npc_id="11" min_rate="25" max_rate="30" />
+</NPCSET>
+
+<NPCSET id="10073" name="Pa3" basenpc="21">
+	<ADDNPC npc_id="12" min_rate="25" max_rate="30" />
+</NPCSET>
+
+
+
+
+
+<NPCSET id="10081" name="Pb1" basenpc="21">
+	<ADDNPC npc_id="22" min_rate="15" max_rate="20" />
+</NPCSET>
+
+<NPCSET id="10082" name="Pb2" basenpc="21">
+	<ADDNPC npc_id="22" min_rate="25" max_rate="30" />
+</NPCSET>
+
+<NPCSET id="10083" name="Pb3" basenpc="21">
+	<ADDNPC npc_id="22" min_rate="30" max_rate="40" />
+	<ADDNPC npc_id="25" min_rate="0" max_rate="1" max_count="1" />
+</NPCSET>
+
+
+
+
+
+<NPCSET id="10091" name="Sa1" basenpc="31">
+</NPCSET>
+
+<NPCSET id="10092" name="Sa2" basenpc="31">
+	<ADDNPC npc_id="32" min_rate="20" max_rate="25" />
+</NPCSET>
+
+<NPCSET id="10093" name="Sa3" basenpc="32">
+</NPCSET>
+
+
+
+
+
+<NPCSET id="10101" name="Sb1" basenpc="31">
+	<ADDNPC npc_id="32" min_rate="50" max_rate="60" />
+</NPCSET>
+
+<NPCSET id="10102" name="Sb2" basenpc="31">
+	<ADDNPC npc_id="32" min_rate="30" max_rate="40" />
+	<ADDNPC npc_id="33" min_rate="10" max_rate="20" />
+</NPCSET>
+
+<NPCSET id="10103" name="Sb3" basenpc="32">
+	<ADDNPC npc_id="33" min_rate="30" max_rate="40" />
+	<ADDNPC npc_id="25" min_rate="0" max_rate="1" max_count="1" />
+</NPCSET>
+
+<NPCSET id="10104" name="Sb4" basenpc="31">
+	<ADDNPC npc_id="32" min_rate="20" max_rate="25" />
+	<ADDNPC npc_id="34" min_rate="10" max_rate="15" max_count="5" />
+</NPCSET>
+
+<NPCSET id="10105" name="Sb5" basenpc="31">
+	<ADDNPC npc_id="32" min_rate="30" max_rate="40" />
+	<ADDNPC npc_id="33" min_rate="20" max_rate="25" />
+	<ADDNPC npc_id="34" min_rate="10" max_rate="15" max_count="5" />
+</NPCSET>
+
+
+
+
+<NPCSET id="10201" name="Sc1" basenpc="32">
+	<ADDNPC npc_id="33" min_rate="20" max_rate="25" />
+	<ADDNPC npc_id="34" min_rate="20" max_rate="25" max_count="10" />
+</NPCSET>
+
+
+
+
+<NPCSET id="10301" name="Ka1" basenpc="41">
+</NPCSET>
+
+<NPCSET id="10302" name="Ka2" basenpc="41">
+	<ADDNPC npc_id="42" min_rate="30" max_rate="50" />
+</NPCSET>
+
+<NPCSET id="10303" name="Ka3" basenpc="42">
+</NPCSET>
+
+
+
+
+<NPCSET id="10401" name="Kb1" basenpc="41">
+	<ADDNPC npc_id="42" min_rate="30" max_rate="40" />
+	<ADDNPC npc_id="43" min_rate="20" max_rate="30" />
+	<ADDNPC npc_id="25" min_rate="0" max_rate="1" max_count="1" />
+</NPCSET>
+
+<NPCSET id="10402" name="Kb2" basenpc="42">
+	<ADDNPC npc_id="43" min_rate="30" max_rate="40" />
+</NPCSET>
+
+</XML>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

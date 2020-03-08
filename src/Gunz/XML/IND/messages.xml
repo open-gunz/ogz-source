@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML>
+
+<!-- ?�라?�언???�러메시지 관??-->
+<MSG id="500">Notice</MSG>
+<MSG id="501">Log into the Netmarble GUNZ home page first and select the server in the server list to operate the GUNZ.</MSG>
+
+<!-- ?�라?�언???�터?�이??관??-->
+<MSG id="1000">You can report in 1 minute.</MSG>
+<MSG id="1001">Details of the chatting have been reported.</MSG>
+<MSG id="1002">You do not have the authority to chat.</MSG>
+<MSG id="1003">Enter $1 characters or longer.</MSG>
+<MSG id="1004">Incorrect Command Syntax.</MSG>
+<MSG id="1005">Incorrect Command Syntax.</MSG>
+<MSG id="1006">Can be implemented in the lobby only.</MSG>
+<MSG id="1007">Can be implemented in the waiting room only.</MSG>
+<MSG id="1008">Can be implemented in the game only.</MSG>
+<MSG id="1009">It is cancelled.</MSG>
+<MSG id="1010">Cannot use a command.</MSG>
+<MSG id="1011">The screen shot is saved in "My Documents$1".</MSG>
+<MSG id="1012">An attempt to save the screen shot has failed.</MSG>
+<MSG id="1013">Recording has started.</MSG>
+<MSG id="1014">Recording has been saved in the file "My Documents$1".</MSG>
+<MSG id="1015">Saving the record has failed.</MSG>
+<MSG id="1016">Voting on the forced exit of '%s' has started. </MSG>
+<MSG id="1017">If you want to participate in the voting, press 'Y' if you consent; 'N' if you do not.</MSG>
+<MSG id="1018">Select the user that should be out </MSG>
+<MSG id="1019">[ESC] Cancel</MSG>
+<MSG id="1020">Vote is accepted.</MSG>
+<MSG id="1021">Vote is rejected.</MSG>
+<MSG id="1022">Vote option is not available.</MSG>
+<MSG id="1023">Vote on '$1' has commenced.</MSG>
+<!-- 추?�부?11. 15. -->
+<MSG id="1024">Searching for the counter team $1</MSG>
+
+<MSG id="1025"></MSG>
+
+<MSG id="1105">$1 is trying to form '$3'Clan with $2. Do you agree?</MSG>
+<MSG id="1106">$1 refused the offer to create a clan.</MSG>
+<MSG id="1107">The clan is created.</MSG>
+<MSG id="1108">The clan is closed. The clan will be completed closed by 7:00 AM CST.</MSG>
+<MSG id="1109">Only the Clan Master can execute.</MSG>
+<MSG id="1110">Only the Clan Master and Clan Administrator can execute.</MSG>
+<MSG id="1111">You have already joined a clan.</MSG>
+<MSG id="1112">You have not joined the clan.</MSG>
+<MSG id="1113">'$1' Do you agree to join the clan?</MSG>
+<MSG id="1114">The member is rejected.</MSG>
+<MSG id="1115">You have joined the clan.</MSG>
+<MSG id="1116">You have withdrawn from the clan.</MSG>
+<MSG id="1117">Clan Master cannot withdraw from the clan.</MSG>
+<MSG id="1118">Deletion cannot be done while you are a clan member. Withdraw from the clan first.</MSG>
+<MSG id="1119">Authority has changed.</MSG>
+<MSG id="1120">The selected member has been removed from the clan.</MSG>
+<MSG id="1121">You have to select $1 members for clan creation in order to create a clan.</MSG>
+<MSG id="1122">Are you sure that you want to close the clan?</MSG>
+<MSG id="1123">Are you sure that you want to withdraw from the clan?</MSG>
+<MSG id="1124">Clan Name is different.</MSG>
+<MSG id="1125">Clan Member '$1' has accessed.</MSG>
+
+<MSG id="1200">Cannot be deleted as it is equipped with cash equipment(or item).</MSG>
+<MSG id="1201">A character is deleted.</MSG>
+
+<MSG id="1202">You are back previous resolution in $1 second(s).</MSG>
+
+<!-- 로비 UI -->
+<MSG id="1301">Clan Master : $1, $2 accessed.</MSG>
+<MSG id="1302">%d waiting. </MSG>
+<MSG id="1303">You have not joined the clan.</MSG>
+<!-- 추???�부?11.13 -->
+<MSG id="1304">Please use a free channel if you do not want the level restraint.</MSG>
+<MSG id="1305">You are to fight with all users regardless of the channel in the league game.</MSG>
+<MSG id="1306">$1 is invited to the Chat Room.</MSG>	
+<MSG id="1307">$1 has invited you the Chat Room '$2'.</MSG>
+<MSG id="1308">'$2' has entered the Chat Room '$1'.</MSG>
+<MSG id="1309">'$2' has exited the Chat Room '$1'.</MSG>
+<MSG id="1310">Will be converted to the Chat Room '$1'.</MSG>
+<!--
+<MSG id="1311">'$1' invites you to Chat Room '$2'.</MSG>
+-->
+<MSG id="1312">Chat Room($1) $2 : $3</MSG>
+<!--
+<MSG id="1313">Whispering ($1) : $2</MSG>
+-->
+<!-- �추???�부?11.15 -->
+<MSG id="1313">Request being made to open the Chat Room ...</MSG>
+<MSG id="1314">Request being made to join the Chat Room ...</MSG>
+<MSG id="1315">Withdrawing from the Chat Room.</MSG>
+<MSG id="1316">Selecting the Chat Room.</MSG>
+<MSG id="1317">You have entered the channel '$1'.</MSG>
+
+
+<MSG id="1400">Wait for consent</MSG>
+<MSG id="1401">Please wait until the player agrees.</MSG>
+<MSG id="1402">$1 has invited you to a game. Do you accept?</MSG>
+<MSG id="1403">$1 has rejected.</MSG>
+<MSG id="1404">$1 has cancelled.</MSG>
+<MSG id="1405">It is been cancelled.</MSG>
+<MSG id="1406">Select the right number of people.</MSG>
+
+<MSG id="1420">$1 have invited you to a clan war. Do you accept?</MSG>
+
+<!-- ?붴랜??-->	
+<MSG id="1510">'$1' Clan defeated '$2' Clan and filled with energy after recording $3 wins in a row.</MSG>
+<MSG id="1511">'$1' Clan defeated '$2' Clan recording $3 wins in a row.</MSG>
+<MSG id="1512">'$1' Clan defeated '$2' Clan to record $3 wins in a row without hitch.</MSG>
+<MSG id="1513">'$1' Clan defeated '$2' Clan to successfully record $3 wins in a row.</MSG>
+<MSG id="1514">'$1' Clan defeated '$2' Clan to mark $3 wins in a row.</MSG>
+<MSG id="1515">'$1' Clan defeated '$2' Clan blocking its way into a third consecutive win.</MSG>
+
+<!-- 듀얼 -->
+<MSG id="1520">'$1' has won $4 Duel Matches in a row in $3 room of '$2' channel.</MSG>
+<MSG id="1521">'$2' has stopped '$1' from the winning streak of $3 Duel Matches straight.</MSG>
+
+<!-- 로딩 메시지 -->
+<MSG id="1600">'Dash'</MSG>
+<MSG id="1601">You can move a lot faster than in the general state.</MSG>
+<MSG id="1602">You can enter even when you are in the air. (Close weapon prerequisite)</MSG>
+<MSG id="1603">'Perfect defense'</MSG>
+<MSG id="1604">During defense, you can completely block all the bullets and swords.</MSG>
+<MSG id="1605">Impossible to defend the lower part.</MSG>
+<MSG id="1606">'Special attack'</MSG>
+<MSG id="1607">In case of a long sword, it hits the counterpart to suspend in the air. In case of</MSG>
+<MSG id="1608">a dagger it pushes the counterpart to suspend him/her with its pushing power. </MSG>
+<MSG id="1609">'How to fall'</MSG>
+<MSG id="1610">A successful fall-down onto the ground reduces the additional damage that you</MSG>
+<MSG id="1611">might suffer as you cannot move lying on the ground.</MSG>
+<MSG id="1612">'Tumbling'</MSG>
+<MSG id="1613">You can avoid an attack by tumbling.</MSG>
+<MSG id="1614">You can also shoot a gun when tumbling.</MSG>
+<MSG id="1615">'Suspending'</MSG>
+<MSG id="1616">Click the right button of the mouse when suspended in the air and armed with a weapon for</MSG>
+<MSG id="1617">close combat you can suspend yourself from the wall using the weapon for close combat.</MSG>
+<MSG id="1618">'Wall jump'</MSG>
+<MSG id="1619">Press the JUMP key when you are close to the wall</MSG>
+<MSG id="1620">to make another jump against it.</MSG>
+<MSG id="1621">'Run the wall'</MSG>
+<MSG id="1622">Press the Jump Key when the character stands diagonal against the wall while moving</MSG>
+<MSG id="1623">forward then the character can automatically run on the wall.</MSG>
+<MSG id="1624">Climb along the wall</MSG>
+<MSG id="1625">You can climb along the wall.</MSG>
+<MSG id="1626">Unless you are very close to the wall, the function does not work.</MSG>
+
+<!-- 캐릭???�보 ?�시 -->
+<MSG id="1700">[Character Information]=============</MSG>
+<MSG id="1701">Name</MSG>
+<MSG id="1702">Clan</MSG>
+<MSG id="1703">Level</MSG>
+<MSG id="1704">Winning Percentage</MSG>
+<MSG id="1705">Win</MSG>
+<MSG id="1706">Lose</MSG>
+<MSG id="1707">Connection Time</MSG>
+<MSG id="1708">day</MSG>
+<MSG id="1709">hour</MSG>
+<MSG id="1710">min</MSG>
+<MSG id="1711">sec</MSG>
+<!-- 추???�부?-->
+<MSG id="1712">EXP</MSG>
+<MSG id="1713">Bounty</MSG>
+<MSG id="1714">HP</MSG>
+<MSG id="1715">AP</MSG>
+<MSG id="1716">WT</MSG>
+<MSG id="1717">Lv.</MSG>
+
+<!-- �게임 ?�메시지 -->
+<MSG id="2000">$1 has participated in the game.</MSG>
+<MSG id="2001">$1 has left the game.</MSG>
+<MSG id="2002">$1 has leveled up.</MSG>
+<MSG id="2003">$1 has leveled down.</MSG>
+<MSG id="2004">Clan War $1 ( $2 vs. $3 )</MSG>
+<!-- 추???�부?-->
+<MSG id="2005">Fallen into hell.</MSG>
+<MSG id="2006">You have been killed by your explosives.</MSG>
+<MSG id="2007">You have defeated yourself.</MSG>
+<MSG id="2008">$1 has commited suicide.</MSG>	
+<MSG id="2009">You have defeated $1.</MSG>
+<MSG id="2010">$1 has defeated you.</MSG>
+<MSG id="2011">$1 has defeated $2.</MSG>
+<MSG id="2012">To play, press the Fire key!</MSG>
+<MSG id="2013">Wait for $1 second(s)!</MSG>
+<MSG id="2014">You are out of the game in $1 second(s).</MSG>
+<!-- �추?�부?11. 15. -->
+<MSG id="2015">Whispering ($1) : $2</MSG>
+<MSG id="2016">The item has been brought in.</MSG>
+<MSG id="2017">The item cannot be brought in.</MSG>
+<MSG id="2018">You have made the purchase.</MSG>
+<MSG id="2019">You cannot make a purchase.</MSG>
+<MSG id="2020">It has been sold.</MSG>
+<MSG id="2021">There is no character to select. Create a character first.</MSG>
+<MSG id="2022">You cannot sell it .</MSG>
+<MSG id="2023">You go to the next round in $1 second(s).</MSG>
+<MSG id="2024">Quest Team got a(an) $1.</MSG>
+<MSG id="2025">Got $2 $1(s).</MSG>
+<MSG id="2026">The Portal was opened.</MSG>
+<MSG id="2027">auto team balanced</MSG>
+<MSG id="2028">It has no scenario.</MSG>
+
+<!-- �추?�부?11. 15. -->
+<MSG id="3000">Administrator: $1</MSG>
+
+
+<!-- �메뉴 -->
+<MSG id="8000">None</MSG>
+
+<MSG id="8001">Add a friend</MSG>
+<MSG id="8002">Delete a friend</MSG>
+<MSG id="8003">Check Location</MSG>
+<MSG id="8004">Catch up with</MSG>
+<MSG id="8005">Whisper</MSG>
+<MSG id="8006">Expel</MSG>
+<MSG id="8007">Recruit</MSG>
+
+<MSG id="8008">Delegate the clan master</MSG>
+<MSG id="8009">Change into the operator</MSG>
+<MSG id="8010">Change into a clan member</MSG>
+<MSG id="8011">Expel from the clan</MSG>
+<MSG id="8012">Quit the clan</MSG>
+
+<MSG id="8013">Send to Central Bank</MSG>
+
+<MSG id="8014">OK</MSG>
+<MSG id="8015">Cancel</MSG>
+<MSG id="8016">Yes</MSG>
+<MSG id="8017">No</MSG>
+<MSG id="8018">Message</MSG>	
+
+			
+<!-- ?�어 -->
+<MSG id="9000"></MSG>
+<MSG id="9001">Clan Master</MSG>
+<MSG id="9002">Clan Administrator</MSG>
+<MSG id="9003">Clan Member</MSG>
+
+<MSG id="9004">Administrator</MSG>
+<MSG id="9005">Developer</MSG>
+<MSG id="9006">Commands</MSG>
+<MSG id="9007">Help</MSG>
+<MSG id="9008">Usage</MSG>
+
+<MSG id="9100">Male</MSG>
+<MSG id="9101">Female</MSG>
+<MSG id="9102">Male</MSG>
+<MSG id="9103">Female</MSG>
+
+<MSG id="9200">Lobby</MSG>
+<MSG id="9201">Stage</MSG>
+<MSG id="9202">Store</MSG>
+<MSG id="9203">Equipment</MSG>
+<MSG id="9204">Cash</MSG>
+
+<MSG id="9302">For Men</MSG>
+<MSG id="9349">For Women</MSG>
+<MSG id="9303">Req. Level</MSG>
+<MSG id="9304">Weight</MSG>
+<MSG id="9305">Attributes:Fire</MSG>
+<MSG id="9306">Attributes:Ice</MSG>
+<MSG id="9307">Attributes:Poison</MSG>
+<MSG id="9308">Attributes:Lightning</MSG>
+<MSG id="9309">Duration</MSG>
+<MSG id="9310">Clip</MSG>
+<MSG id="9311">Damage</MSG>
+<MSG id="9312">Delay</MSG>
+<MSG id="9313">Max Wgt.</MSG>
+<MSG id="9314">Speed</MSG>					<!-- Speed of movement -->
+<MSG id="9315">Jump [X]</MSG>				<!-- Jump not allowed -->
+<MSG id="9316">Dash [X]</MSG>				<!-- Dash not allowed -->
+<MSG id="9317">Wall climbing [X]</MSG>		<!-- Wall climbing not allowed -->
+<MSG id="9318">Damage</MSG>
+<MSG id="9319">Quest</MSG>
+<MSG id="9320">Item</MSG>
+<MSG id="9321">Sacrifice</MSG>
+<MSG id="9322">Players</MSG>
+<MSG id="9323">Blue</MSG>
+<MSG id="9324">Red</MSG>
+<MSG id="9325">Quantity</MSG>
+<MSG id="9326">Searching for the counter team</MSG>
+<MSG id="9327">Num of items</MSG>
+<MSG id="9328">Num of NPC</MSG>
+<MSG id="9329">Progression</MSG>
+<MSG id="9330">Remaining Time</MSG>
+<MSG id="9331">V</MSG>
+<MSG id="9363">Objective Kills</MSG>
+<MSG id="9364">Round</MSG>
+
+<MSG id="9332">Rate</MSG>
+<MSG id="9333">Grade</MSG>
+<MSG id="9334">Regular</MSG>
+<MSG id="9335">Legendary</MSG>
+<MSG id="9336">Boss</MSG>
+<MSG id="9337">Elite</MSG>
+<MSG id="9338">Veteran</MSG>
+<MSG id="9339">Very strong</MSG>
+<MSG id="9340">Strong</MSG>
+<MSG id="9341">Average</MSG>
+<MSG id="9342">Weak</MSG>
+<MSG id="9343">Very Weak</MSG>
+
+<MSG id="9344">Infinite</MSG>
+<MSG id="9345">Not available</MSG>
+<MSG id="9346">Level gap</MSG>
+<MSG id="9347">Allowed</MSG>
+<MSG id="9348">Prohibited</MSG>
+
+<!-- 2006년 5월 3일 추가 -->
+<MSG id="9365">Type</MSG>
+<MSG id="9366">Exp</MSG>
+<MSG id="9367">Kill</MSG>
+<MSG id="9368">Death</MSG>
+<MSG id="9369">Ping</MSG>
+
+<MSG id="9370">&lt; Head &gt;</MSG>
+<MSG id="9371">&lt; Chest &gt;</MSG>
+<MSG id="9372">&lt; Hands &gt;</MSG>
+<MSG id="9373">&lt; Legs &gt;</MSG>
+<MSG id="9374">&lt; Feet &gt;</MSG>
+<MSG id="9375">&lt; Left Finger &gt;</MSG>
+<MSG id="9376">&lt; Right Finger &gt;</MSG>
+<MSG id="9377">&lt; Melee &gt;</MSG>
+<MSG id="9378">&lt; Primary Weapon &gt;</MSG>
+<MSG id="9379">&lt; Secondary Weapon &gt;</MSG>
+<MSG id="9380">&lt; Item 1 &gt;</MSG>
+<MSG id="9381">&lt; Item 2 &gt;</MSG>
+
+<MSG id="9382">Debug Server</MSG>
+<MSG id="9383">Match Server</MSG>
+<MSG id="9384">Clan Server</MSG>
+<MSG id="9385">Quest Server</MSG>
+<MSG id="9386">Event Server</MSG>
+
+<MSG id="100100">Searching for a counterpart team $1</MSG>
+<MSG id="100200">The vote on '$1' has started.</MSG>
+
+<MSG id="100300">There is a word '$1' that you cannot use.</MSG>
+
+
+<!-- 매치 ?�??-->
+<MSG id="9350">Deathmatch</MSG>
+<MSG id="9351">Team Deathmatch</MSG>
+<MSG id="9352">Gladiator</MSG>
+<MSG id="9353">Team Gladiator</MSG>
+<MSG id="9354">Assassination</MSG>
+<MSG id="9355">Training</MSG>
+<MSG id="9356">Classic</MSG>
+<MSG id="9357">Team Classic</MSG>
+<MSG id="9358">Survival</MSG>
+<MSG id="9359">Quest</MSG>
+<MSG id="9360">Deathmatch +Berserker</MSG>
+<MSG id="9361">Team Deathmatch +Extream</MSG>
+<MSG id="9362">The Duel match</MSG>
+
+<!-- 추? -->
+<MSG id="9400">remaining.</MSG>
+<MSG id="9401">You joined stage '$1'.</MSG>
+<MSG id="9402">'$1' joined stage '$2'.</MSG>
+
+<MSG id="9500">ON</MSG>
+<MSG id="9501">OFF</MSG>
+
+<MSG id="9601">A hacking attempt has been detected.</MSG>
+
+<!--
+<MSG id=""></MSG>
+-->
+
+<!-- �경고 -->
+<MSG id="20000">A hacking attempt has been detected. In accordance with the agreement that members have consented, the GUNZ Operation Team continues to monitor and collect information on the users who hack. Keep in mind that all the responsibility brought about by committing any illegal act in civil or criminal case falls on the shoulders of the user who commits such an illegal act.</MSG>
+<MSG id="20001">The period of use expired.</MSG>
+<MSG id="20002">You can mount or release an equipment by dragging an icon. You cannot send a bounty equipment(item) to the Central Bank.</MSG>
+<MSG id="20003">WARNING: GunZ does not support the $1. You may be unable to view certain fonts or proceed with gameplay. Do you still wish to continue?</MSG>
+<MSG id="20004">GunZ requires DirectX 9.0c to run properly. Would you like to install DirectX 9.0c now?</MSG>
+<MSG id="20005">http://www.gunzonline.com/downloads</MSG>
+<MSG id="20006">Please enter 'YES' if you wish to delete this character.</MSG>
+</XML>

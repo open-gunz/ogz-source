@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML xmlns="http://tempurl.org/EventTable.xsd" id="EventTable">
+
+<!--
+	이벤트가 등록되는 정보.
+	
+	* Attribute 이름은 최대 127바이트.	*
+	* Attribute 값은 최대 255바이트.	*
+	
+	event_type
+		0	: 스테이지 게임을 시작할때.
+		1	: 스테이지 방을 만들어 게임을 시작을 해야 활성화되는 이벤트.
+		2	: 스테이지 게임이 끝나후에.
+		100 : Custom check event.
+		
+	game_type
+		MMATCH_GAMETYPE_DEATHMATCH_SOLO		= 0,			///< 개인 데쓰매치
+		MMATCH_GAMETYPE_DEATHMATCH_TEAM		= 1,			///< 팀 데쓰매치
+		MMATCH_GAMETYPE_GLADIATOR_SOLO		= 2,			///< 개인 글래디에이터
+		MMATCH_GAMETYPE_GLADIATOR_TEAM		= 3,			///< 팀 글래디에이터
+		MMATCH_GAMETYPE_ASSASSINATE			= 4,			///< 보스전
+		MMATCH_GAMETYPE_TRAINING			= 5,			///< 연습
+		#ifdef _QUEST
+			MMATCH_GAMETYPE_SURVIVAL			= 6,			///< 서바이벌
+			MMATCH_GAMETYPE_QUEST				= 7,			///< 퀘스트
+		#endif
+		MMATCH_GAMETYPE_BERSERKER			= 8,
+		MMATCH_GAMETYPE_ALL					= 100,			///< 게임타입에 상관없음.
+		
+	server_type		
+		MSM_NORMAL		= 0,		// 일반
+		MSM_CLAN		= 1,		// 클랜전 전용 서버
+		MSM_LADDER		= 2,		// 래더 전용 서버
+		MSM_EVENT		= 3,		// 이벤트 서버
+		MSM_TEST		= 4,		// 테스트 서버
+		MSM_ALL			= 100,		// 모든 서버에 적용.
+
+	ex)
+		<Locale country="kor">
+			<Event id="1" EventID="" name="" event_type="" elapsed_time="" percent="" rate="" announce="" xp_bonus_ratio="" bp_bonus_ratio="" >
+				<ServerType order="" type="" />
+				<GameType order="" type="" />
+				<StartTime year="" month="" day="" hour="" />
+				<EndTime year="" month="" day="" hour="" />
+			</Event>
+		</Locale>
+		
+	* 모든 시간은 24로 기술 함.
+	
+	country			: 3자리 국가 코드.
+	id				: event list에 등록되어있는 event 고유 id.
+	EventID			: event.xml에 기술되있는 event의 id.
+	name			: string.xml에 기술되어 있는 event id에 해당하는 이름 id.
+	event_type		: 위에 기술되어 있음.
+	elapsed_time	: 실행 간격 기술(1/1000초)
+	percent			: rate와 같이 확률 계산에 사용. (rate/percent)
+	rate			: percent와 같이 확률 계산에 사용. (rate/percent)
+	announce		: string.xml에 기술되어있는 공지 사항 id.
+	xp_bonus_ratio	: 경험치 보너스 비율(xp_bonus_ratio/100)
+	bp_bonus_ratio	: 바운티 보너스 비율(bp_bonus_ratio/100)
+	order			: 순서를 나타냄.
+	ServerType		: 이벤트가 실핼될 서버 종류. 위에 기술.
+	GameType		: 이벤트가 실핼될 게임 종류. 위에 기술.
+	type			: 종류.
+	StartTime		: 이벤트가 시작되는 날짜.
+	EndTime			: 이벤트가 종료되는 날짜.
+	year			: 4자리 표기.
+	month			: 자리수 상관 없음.
+	day				: 자리수 상관 없음.
+	hour			: 자리수 상관 없음.
+	PartTime		: 특정 시간에 이벤트 발동이 필요할때 사용.
+	start_hour		: 시작 시간.
+	end_hour		: 끝나는 시간.
+-->
+
+<Locale country="kor">
+	<Event id="1" EventID="1" name="EVENT_NAME_1" event_type="1" elapsed_time="1000" percent="1800" rate="1" announce="EVENT_ANNOUNCE_1" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2005" month="12" day="21" hour="12" />
+		<EndTime year="2006" month="1" day="16" hour="23" />
+	</Event>
+</Locale>
+
+
+<Locale country="jpn">
+	<Event id="2" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="100" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="05" day="26" hour="0" />
+		<EndTime year="2006" month="05" day="28" hour="23" />
+		<PartTime order="1" start_hour="19" end_hour="23" />
+	</Event>
+</Locale>
+
+<Locale country="jpn">
+	<Event id="3" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="100" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="05" day="26" hour="0" />
+		<EndTime year="2006" month="05" day="28" hour="23" />
+		<PartTime order="1" start_hour="19" end_hour="23" />
+	</Event>
+</Locale>
+
+<Locale country="jpn">
+	<Event id="4" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="100">
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="08" day="18" hour="0" />
+		<EndTime year="2006" month="08" day="20" hour="23" />
+		<PartTime order="1" start_hour="19" end_hour="23" />
+	</Event>
+</Locale>
+
+<Locale country="jpn">
+	<Event id="5" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="100">
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="08" day="18" hour="0" />
+		<EndTime year="2006" month="08" day="20" hour="23" />
+		<PartTime order="1" start_hour="19" end_hour="23" />
+	</Event>
+</Locale>
+
+<!-- -->
+<Locale country="jpn">
+	<Event id="6" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="100">
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="09" day="15" hour="0" />
+		<EndTime year="2006" month="09" day="18" hour="23" />
+		<PartTime order="1" start_hour="19" end_hour="23" />
+	</Event>
+</Locale>
+
+<Locale country="jpn">
+	<Event id="7" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="100">
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="09" day="15" hour="0" />
+		<EndTime year="2006" month="09" day="18" hour="23" />
+		<PartTime order="1" start_hour="19" end_hour="23" />
+	</Event>
+</Locale>
+
+
+</XML>

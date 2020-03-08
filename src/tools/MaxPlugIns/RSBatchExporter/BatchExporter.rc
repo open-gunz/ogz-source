@@ -1,0 +1,275 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_LOG DIALOG DISCARDABLE  0, 0, 557, 195
+STYLE WS_CAPTION
+CAPTION "Log Window"
+FONT 10, "Tahoma"
+BEGIN
+    PUSHBUTTON      "Ok",IDC_BUTTON_LOG,7,173,543,15
+    EDITTEXT        IDC_EDIT_LOG,7,7,543,157,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    WS_VSCROLL
+END
+
+IDD_DIALOG_WORKSHEET DIALOGEX 0, 0, 421, 379
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Batch Exporter Work Sheet"
+FONT 10, "Tahoma"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,262,358,73,14
+    PUSHBUTTON      "Cancel",IDCANCEL,341,358,73,14
+    EDITTEXT        IDC_EDIT_DESTINATION,141,9,273,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_RMLFILE,141,24,273,12,ES_AUTOHSCROLL
+    LTEXT           "Drag && Drop Max files to be Exported here",IDC_STATIC,
+                    7,41,139,8
+    CONTROL         "Use Destination Directory",IDC_CHECK_DESTINATION,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,10,98,10
+    CONTROL         "Use Default RML File",IDC_CHECK_RMLFILE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,25,83,10
+    GROUPBOX        "Animation Property",IDC_STATIC_ANIMATION,7,306,407,37
+    PUSHBUTTON      "Load",ID_LOAD,7,358,73,14
+    PUSHBUTTON      "Save",ID_SAVE,87,358,73,14
+    EDITTEXT        IDC_EDIT_ANIMATION_NAME,41,320,185,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ANIMATION_SPEED,261,320,35,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_ANIMATION_METHOD,334,320,73,52,
+                    CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Name",IDC_STATIC_ANIMATION_NAME,15,322,20,8
+    LTEXT           "Speed",IDC_STATIC_ANIMATION_SPEED,235,322,22,8
+    LTEXT           "Method",IDC_STATIC_ANIMATION_METHOD,305,322,25,8
+    LISTBOX         IDC_LIST_EXPORT,7,55,407,119,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP,WS_EX_ACCEPTFILES
+    GROUPBOX        "Export Property",IDC_STATIC_EXPORT,7,186,407,35
+    LTEXT           "Drag && Drop Max files To be Animation here",IDC_STATIC,
+                    7,229,146,8
+    LISTBOX         IDC_LIST_ANIMATION,7,243,407,58,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP,WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT_EXPORT_NAME,40,200,363,13,ES_AUTOHSCROLL
+    LTEXT           "Name",IDC_STATIC_EXPORT_NAME,14,202,20,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG_LOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 550
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 188
+        HORZGUIDE, 80
+    END
+
+    IDD_DIALOG_WORKSHEET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 414
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 372
+        HORZGUIDE, 15
+        HORZGUIDE, 30
+        HORZGUIDE, 45
+        HORZGUIDE, 55
+        HORZGUIDE, 233
+        HORZGUIDE, 243
+        HORZGUIDE, 272
+        HORZGUIDE, 292
+        HORZGUIDE, 312
+        HORZGUIDE, 332
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG_WORKSHEET DLGINIT
+BEGIN
+    IDC_COMBO_ANIMATION_METHOD, 0x403, 10, 0
+0x7254, 0x6e61, 0x6673, 0x726f, 0x006d, 
+    IDC_COMBO_ANIMATION_METHOD, 0x403, 7, 0
+0x6556, 0x7472, 0x7865, "\000" 
+    IDC_COMBO_ANIMATION_METHOD, 0x403, 9, 0
+0x654b, 0x4679, 0x6172, 0x656d, "\000" 
+    0
+END
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PANEL DIALOG DISCARDABLE  0, 0, 108, 30
+STYLE WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Batch Export ...",IDC_BUTTON_EXPORT,7,7,94,15
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_PANEL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 101
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 23
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,0,0,17
+ PRODUCTVERSION 3,0,0,17
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "RealSpace Batch Exporter\0"
+            VALUE "CompanyName", "MAIET entertainment\0"
+            VALUE "FileDescription", "RealSpace Batch Exporter\0"
+            VALUE "FileVersion", "3.0.0.17\0"
+            VALUE "InternalName", "BatchExporter\0"
+            VALUE "LegalCopyright", "\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "BatchExporter.dlu\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "3D Studio MAX\0"
+            VALUE "ProductVersion", "3.0.0.17\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_LIBDESCRIPTION      "RealSpace Batch Exporter"
+    IDS_CATEGORY            "RealSpace"
+    IDS_CLASS_NAME          "BatchExporter"
+    IDS_PARAMS              "Parameters"
+    IDS_SPIN                "Spin"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML xmlns="http://tempurl.org/EventTable.xsd" id="EventTable">
+
+<!--
+	이벤트가 등록되는 정보.
+	
+	* Attribute 이름은 최대 127바이트.	*
+	* Attribute 값은 최대 255바이트.	*
+	
+	event_type
+		0 : 게임을 시작할때.
+		1 : 방을 만들어 게임을 시작을 해야 활성화되는 이벤트.
+		2 : 게임이 끝나후에.
+		
+	game_type
+		MMATCH_GAMETYPE_DEATHMATCH_SOLO		= 0,			///< 개인 데쓰매치
+		MMATCH_GAMETYPE_DEATHMATCH_TEAM		= 1,			///< 팀 데쓰매치
+		MMATCH_GAMETYPE_GLADIATOR_SOLO		= 2,			///< 개인 글래디에이터
+		MMATCH_GAMETYPE_GLADIATOR_TEAM		= 3,			///< 팀 글래디에이터
+		MMATCH_GAMETYPE_ASSASSINATE			= 4,			///< 보스전
+		MMATCH_GAMETYPE_TRAINING			= 5,			///< 연습
+		#ifdef _QUEST
+			MMATCH_GAMETYPE_SURVIVAL			= 6,			///< 서바이벌
+			MMATCH_GAMETYPE_QUEST				= 7,			///< 퀘스트
+		#endif
+		MMATCH_GAMETYPE_BERSERKER			= 8,
+		MMATCH_GAMETYPE_ALL					= 100,			///< 게임타입에 상관없음.
+		
+	server_type		
+		MSM_NORMAL		= 0,		// 일반
+		MSM_CLAN		= 1,		// 클랜전 전용 서버
+		MSM_LADDER		= 2,		// 래더 전용 서버
+		MSM_EVENT		= 3,		// 이벤트 서버
+		MSM_TEST		= 4,		// 테스트 서버
+		MSM_ALL			= 100,		// 모든 서버에 적용.
+
+	ex)
+		<Locale country="kor">
+			<Event EventID="1" name="EVENT_NAME_1" event_type="1" elapsed_time="1000" percent="100" rate="1" announce="EVENT_ANNOUNCE_1" >
+				<ServerType order="1" type="100" />
+				<GameType order="1" type="100" />
+				<StartTime year="2005" month="12" day="13" hour="0" />
+				<EndTime year="2005" month="12" day="23" hour="24" />
+			</Event>
+		</Locale>
+-->
+
+<Locale country="kor">
+	<Event EventID="1" name="EVENT_NAME_1" event_type="1" elapsed_time="1000" percent="1800" rate="1" announce="EVENT_ANNOUNCE_1" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2005" month="12" day="21" hour="12" />
+		<EndTime year="2006" month="1" day="16" hour="23" />
+	</Event>
+</Locale>
+
+
+</XML>

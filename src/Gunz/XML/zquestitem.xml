@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XML xmlns="http://tempuri.org/zitem.xsd" id="zquestitem">
+	<!-- id값은 절대 바뀌면 안된다. DB랑도 연관있음. -->
+	<!-- 200001 ~ 200256까지는 DB에 저장되는 퀘스트 아이템 -->
+	<!-- Page -->
+	<ITEM id="200001" name="STR:QITEM_NAME_200001" level="0" type="page" desc="STR:QITEM_DESC_200001"
+		unique="0" price="100" secrifice="1" param="0" />
+	<ITEM id="200002" name="STR:QITEM_NAME_200002" level="0" type="page" desc="STR:QITEM_DESC_200002"
+		unique="0" price="500" secrifice="1" param="0" />
+	<ITEM id="200003" name="STR:QITEM_NAME_200003" level="0" type="page" desc="STR:QITEM_DESC_200003"
+		unique="0" price="1000" secrifice="1" param="0" />
+	<ITEM id="200004" name="STR:QITEM_NAME_200004" level="0" type="page" desc="STR:QITEM_DESC_200004"
+		unique="0" price="2000" secrifice="1" param="0" />
+	<!-- Skull -->
+	<ITEM id="200005" name="STR:QITEM_NAME_200005" level="0" type="skull" desc="STR:QITEM_DESC_200005"
+		unique="0" price="20" secrifice="1" param="0" />
+	<ITEM id="200006" name="STR:QITEM_NAME_200006" level="0" type="skull" desc="STR:QITEM_DESC_200006"
+		unique="0" price="80" secrifice="1" param="0" />
+	<ITEM id="200007" name="STR:QITEM_NAME_200007" level="0" type="skull" desc="STR:QITEM_DESC_200007"
+		unique="0" price="200" secrifice="1" param="0" />
+	<ITEM id="200008" name="STR:QITEM_NAME_200008" level="0" type="skull" desc="STR:QITEM_DESC_200008"
+		unique="0" price="80" secrifice="1" param="0" />
+	<ITEM id="200009" name="STR:QITEM_NAME_200009" level="0" type="skull" desc="STR:QITEM_DESC_200009"
+		unique="0" price="2000" secrifice="1" param="0" />
+	<ITEM id="200010" name="STR:QITEM_NAME_200010" level="0" type="skull" desc="STR:QITEM_DESC_200010"
+		unique="0" price="200" secrifice="1" param="0" />
+	<!-- Fresh -->
+	<ITEM id="200011" name="STR:QITEM_NAME_200011" level="0" type="fresh" desc="STR:QITEM_DESC_200011"
+		unique="0" price="20" secrifice="1" param="0" />
+	<ITEM id="200012" name="STR:QITEM_NAME_200012" level="0" type="fresh" desc="STR:QITEM_DESC_200012"
+		unique="0" price="80" secrifice="1" param="0" />
+	<ITEM id="200013" name="STR:QITEM_NAME_200013" level="0" type="fresh" desc="STR:QITEM_DESC_200013"
+		unique="0" price="200" secrifice="1" param="0" />
+	<!-- Ring -->
+	<ITEM id="200014" name="STR:QITEM_NAME_200014" level="0" type="ring" desc="STR:QITEM_DESC_200014"
+		unique="0" price="20" secrifice="1" param="0" />
+	<ITEM id="200015" name="STR:QITEM_NAME_200015" level="0" type="ring" desc="STR:QITEM_DESC_200015"
+		unique="0" price="80" secrifice="1" param="0" />
+	<ITEM id="200016" name="STR:QITEM_NAME_200016" level="0" type="ring" desc="STR:QITEM_DESC_200016"
+		unique="0" price="200" secrifice="1" param="0" />
+	<ITEM id="200017" name="STR:QITEM_NAME_200017" level="0" type="ring" desc="STR:QITEM_DESC_200017"
+		unique="0" price="800" secrifice="1" param="0" />
+	<!-- Necklace -->
+	<ITEM id="200018" name="STR:QITEM_NAME_200018" level="0" type="necklace" desc="STR:QITEM_DESC_200018"
+		unique="1" price="200" secrifice="1" param="0" />
+	<!-- Doll -->
+	<ITEM id="200019" name="STR:QITEM_NAME_200019" level="0" type="doll" desc="STR:QITEM_DESC_200019"
+		unique="0" price="400" secrifice="1" param="0" />
+	<ITEM id="200020" name="STR:QITEM_NAME_200020" level="0" type="doll" desc="STR:QITEM_DESC_200020"
+		unique="0" price="400" secrifice="1" param="0" />
+	<ITEM id="200021" name="STR:QITEM_NAME_200021" level="0" type="doll" desc="STR:QITEM_DESC_200021"
+		unique="0" price="400" secrifice="1" param="0" />
+	<ITEM id="200022" name="STR:QITEM_NAME_200022" level="0" type="doll" desc="STR:QITEM_DESC_200022"
+		unique="0" price="400" secrifice="1" param="0" />
+	<ITEM id="200023" name="STR:QITEM_NAME_200023" level="0" type="doll" desc="STR:QITEM_DESC_200023"
+		unique="0" price="400" secrifice="1" param="0" />
+	<ITEM id="200024" name="STR:QITEM_NAME_200024" level="0" type="doll" desc="STR:QITEM_DESC_200024"
+		unique="1" price="400" secrifice="1" param="0" />
+	<ITEM id="200025" name="STR:QITEM_NAME_200025" level="0" type="doll" desc="STR:QITEM_DESC_200025"
+		unique="0" price="400" secrifice="1" param="0" />
+	<ITEM id="200026" name="STR:QITEM_NAME_200026" level="0" type="doll" desc="STR:QITEM_DESC_200026"
+		unique="0" price="400" secrifice="1" param="0" />
+	<ITEM id="200027" name="STR:QITEM_NAME_200027" level="0" type="doll" desc="STR:QITEM_DESC_200027"
+		unique="0" price="400" secrifice="1" param="0" />
+	<!-- Book -->
+	<ITEM id="200028" name="STR:QITEM_NAME_200028" level="0" type="book" desc="STR:QITEM_DESC_200028"
+		unique="0" price="80000" secrifice="1" param="0" />
+	<ITEM id="200029" name="STR:QITEM_NAME_200029" level="0" type="book" desc="STR:QITEM_DESC_200029"
+		unique="0" price="40000" secrifice="1" param="0" />
+	<ITEM id="200030" name="STR:QITEM_NAME_200030" level="0" type="book" desc="STR:QITEM_DESC_200030"
+		unique="0" price="40000" secrifice="1" param="0" />
+	<!-- Object -->
+	<ITEM id="200031" name="STR:QITEM_NAME_200031" level="0" type="object" desc="STR:QITEM_DESC_200031"
+		unique="0" price="200" secrifice="1" param="0" />
+	<ITEM id="200032" name="STR:QITEM_NAME_200032" level="0" type="object" desc="STR:QITEM_DESC_200032"
+		unique="0" price="200" secrifice="1" param="0" />
+	<ITEM id="200033" name="STR:QITEM_NAME_200033" level="0" type="object" desc="STR:QITEM_DESC_200033"
+		unique="0" price="80" secrifice="1" param="0" />
+	<ITEM id="200034" name="STR:QITEM_NAME_200034" level="0" type="object" desc="STR:QITEM_DESC_200034"
+		unique="0" price="400" secrifice="1" param="0" />
+	<ITEM id="200035" name="STR:QITEM_NAME_200035" level="0" type="object" desc="STR:QITEM_DESC_200035"
+		unique="0" price="20" secrifice="1" param="0" />
+	<ITEM id="200036" name="STR:QITEM_NAME_200036" level="0" type="object" desc="STR:QITEM_DESC_200036"
+		unique="0" price="400" secrifice="1" param="0" />
+	<ITEM id="200037" name="STR:QITEM_NAME_200037" level="0" type="object" desc="STR:QITEM_DESC_200037"
+		unique="0" price="800" secrifice="1" param="0" />
+	<!-- Sword -->
+	<ITEM id="200038" name="STR:QITEM_NAME_200038" level="0" type="sword" desc="STR:QITEM_DESC_200038"
+		unique="0" price="800" secrifice="1" param="0" />
+	<!-- 200256까지는 디비에 저장되는 퀘스트 아이템. -->
+	<!-- Monster bible -->
+	<ITEM id="210001" name="STR:QITEM_NAME_210001" level="0" type="monbible" desc="STR:QITEM_DESC_210001"
+		unique="0" price="0" secrifice="0" param="0" />
+	<!-- 210000까지는 Monster bible -->
+</XML>

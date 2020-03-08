@@ -1,0 +1,2290 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML>
+
+<!-- zitem.xml -->
+<STR id="ZITEM_NAME_1">구식 단검</STR>
+<STR id="ZITEM_DESC_1">오래된 단검. 군데군데 녹슨 흔적도 보인다. 사용후 되팔기엔 어려워보인다.</STR>
+
+<STR id="ZITEM_NAME_2">구식 장검</STR>
+<STR id="ZITEM_DESC_2">오래된 장검. 군데군데 녹슨 흔적도 보인다. 사용후 되팔기엔 어려워보인다.</STR>
+
+<STR id="ZITEM_NAME_3">군용 단검</STR>
+<STR id="ZITEM_DESC_3">군대에서 사용중인 돌격형 단검.</STR>
+
+<STR id="ZITEM_NAME_4">경량 단검</STR>
+<STR id="ZITEM_DESC_4">아주 가벼우면서도 사용하기 편리한 단검.</STR>
+
+<STR id="ZITEM_NAME_5">고급 단검</STR>
+<STR id="ZITEM_DESC_5">대량생산은 되지 않는 고급 단검. 장인이 새겨놓은 아름다운 문양이 돋보인다. 그러나 제법 묵직해보인다.</STR>
+
+<STR id="ZITEM_NAME_6">팬텀 슬레잉 대거</STR>
+<STR id="ZITEM_DESC_6">악령을 물리치기 위해 사용되었다는 신비로운 단검. 다만 이 단검으로 악령이 물리쳐지는지는 미지수.</STR>
+
+<STR id="ZITEM_NAME_7">극초혼</STR>
+<STR id="ZITEM_DESC_7">아주 소수의 사람들이 사용하는 단검. 한정수량이 제작되었다고 한다.</STR>
+
+<STR id="ZITEM_NAME_11">철제 단검</STR>
+<STR id="ZITEM_DESC_11">일반적으로 쉽게 구할수 있는 단검. 공장에서 생산된것 같다. 표면에 희미하게 일련번호가 보인다.</STR>
+
+<STR id="ZITEM_NAME_12">철제 장검</STR>
+<STR id="ZITEM_DESC_12">일반적으로 쉽게 구할수 있는 장검. 공장에서 생산된것 같다. 표면에 희미하게 일련번호가 보인다.</STR>
+
+<STR id="ZITEM_NAME_13">군용 장검</STR>
+<STR id="ZITEM_DESC_13">군대에서 사용중인 장검. 일반 사병들에게는 지급되지 않는다고 한다. 제법 고급스러운 외관</STR>
+
+<STR id="ZITEM_NAME_14">경량 장검</STR>
+<STR id="ZITEM_DESC_14">사용하기 편리하도록 만든 경량의 장검.</STR>
+
+<STR id="ZITEM_NAME_15">고급 장검</STR>
+<STR id="ZITEM_DESC_15">고급재료로 만든 특수한 용도의 장검.</STR>
+
+<STR id="ZITEM_NAME_16">데빌 슬레이어</STR>
+<STR id="ZITEM_DESC_16">악령을 물리치기 위해 만들어졌다는 신비로운 장검.</STR>
+
+<STR id="ZITEM_NAME_17">용월랑</STR>
+<STR id="ZITEM_DESC_17">금장도금이 되어 있는 명검. 이 명검의 풍채는 수집가들의 애간장을 녹이기에 충분하다.</STR>
+
+<STR id="ZITEM_NAME_31">철제 소태도</STR>
+<STR id="ZITEM_DESC_31">양손에 장착하여 사용할 수 있도록 만든 소태도. 일반인이 사용하기에 적합하도록 만들어졌다.</STR>
+
+<STR id="ZITEM_NAME_32">경량 소태도</STR>
+<STR id="ZITEM_DESC_32">양손에 장착하기 보다 쉽게 제작한 소태도. 상대적으로 가볍고 작게 만들었다.</STR>
+
+<STR id="ZITEM_NAME_33">고급 소태도</STR>
+<STR id="ZITEM_DESC_33">고급재질을 사용한 특수 용도의 소태도.</STR>
+
+<STR id="ZITEM_NAME_34">주혈령</STR>
+<STR id="ZITEM_DESC_34">무서운 이름을 가진 이 소태도는 오래전 어느 검호가 사용했다고 전해진다.</STR>
+
+<STR id="ZITEM_NAME_51">대검</STR>
+<STR id="ZITEM_DESC_51">매우큰칼.</STR>
+
+<STR id="ZITEM_NAME_4001">랩터 50</STR>
+<STR id="ZITEM_DESC_4001">제국에서 오래전부터 생산되어 사용된 권총. 현재는 단종되었다. 제작사 월콤.</STR>
+
+<STR id="ZITEM_NAME_4002">랩터 50 x2</STR>
+<STR id="ZITEM_DESC_4002">(양손장비) 제국에서 오래전부터 생산되어 사용된 권총. 현재는 단종되었다. 제작사 월콤.</STR>
+
+<STR id="ZITEM_NAME_4003">랩터 120</STR>
+<STR id="ZITEM_DESC_4003">군 납품을 목적으로 개발된 보급형. 랩터 80에 비해 향상된 제어력을 느낄수 있다. 제작사 월콤</STR>
+
+<STR id="ZITEM_NAME_4004">랩터 120 x2</STR>
+<STR id="ZITEM_DESC_4004">(양손장비) 군 납품을 목적으로 개발된 보급형. 랩터 80에 비해 향상된 제어력을 느낄수 있다. 제작사 월콤</STR>
+
+<STR id="ZITEM_NAME_4005">미닉 567</STR>
+<STR id="ZITEM_DESC_4005">맥스웰사가 제작했던 공화국의 일반보병에게 지급되었던 전설같은 리볼버. 현재는 단종되었다.</STR>
+
+<STR id="ZITEM_NAME_4006">미닉 567 x2</STR>
+<STR id="ZITEM_DESC_4006">(양손장비) 맥스웰사가 제작했던 공화국의 일반보병에게 지급되었던 전설같은 리볼버. 현재는 단종되었다.</STR>
+
+<STR id="ZITEM_NAME_4007">자우르스 A</STR>
+<STR id="ZITEM_DESC_4007">군 납품을 위해 월콤사가 개발한 보급형 리볼버.</STR>
+
+<STR id="ZITEM_NAME_4008">자우르스 A x2</STR>
+<STR id="ZITEM_DESC_4008">(양손장비) 군 납품을 위해 월콤사가 개발한 보급형 리볼버.</STR>
+
+<STR id="ZITEM_NAME_4009">랩터 80</STR>
+<STR id="ZITEM_DESC_4009">랩터 50의 후속기. 실제적으론 약간의 성능향상만 있었을뿐 외관도 변화하지 않았다. 경쟁사의 신제품 발표로 인하여 조기제작중단을 선언했다. 제작사 월콤.</STR>
+
+<STR id="ZITEM_NAME_4010">랩터 80 x2</STR>
+<STR id="ZITEM_DESC_4010">(양손장비) 랩터 50의 후속기. 실제적으론 약간의 성능향상만 있었을뿐 외관도 변화하지 않았다. 경쟁사의 신제품 발표로 인하여 조기제작중단을 선언했다. 제작사 월콤.</STR>
+
+<STR id="ZITEM_NAME_4011">레이븐 5</STR>
+<STR id="ZITEM_DESC_4011">공화국의 전선에 공급하기 위해 제작한 권총. 제작사 맥스웰.</STR>
+
+<STR id="ZITEM_NAME_4012">레이븐 5 x2</STR>
+<STR id="ZITEM_DESC_4012">(양손장비) 공화국의 전선에 공급하기 위해 제작한 권총. 제작사 맥스웰.</STR>
+
+<STR id="ZITEM_NAME_4013">레이븐 6</STR>
+<STR id="ZITEM_DESC_4013">레이븐 5의 후속모델. 보다 강력해진 성능이 눈에 뜨이나 여전히 경량화에는 실패하였다. 제작사 맥스웰.</STR>
+
+<STR id="ZITEM_NAME_4014">레이븐 6 x2</STR>
+<STR id="ZITEM_DESC_4014">(양손장비) 레이븐 5의 후속모델. 보다 강력해진 성능이 눈에 뜨이나 여전히 경량화에는 실패하였다. 제작사 맥스웰.</STR>
+
+<STR id="ZITEM_NAME_4015">랩터 160</STR>
+<STR id="ZITEM_DESC_4015">랩터 120의 후속모델. 강력해진 성능과 뛰어난 연사력을 자랑한다.</STR>
+
+<STR id="ZITEM_NAME_4016">랩터 160 x2</STR>
+<STR id="ZITEM_DESC_4016">(양손장비) 랩터 120의 후속모델. 강력해진 성능과 뛰어난 연사력을 자랑한다.</STR>
+
+<STR id="ZITEM_NAME_4017">레이븐 7</STR>
+<STR id="ZITEM_DESC_4017">보다 강화된 화력의 레이븐 7. 기존의 모델보다 더 강력한 화력과 연사력. 그러나 제어력과 무게면에선 여전히 단점을 지니고 있다.</STR>
+
+<STR id="ZITEM_NAME_4018">레이븐 7 x2</STR>
+<STR id="ZITEM_DESC_4018">(양손장비) 보다 강화된 화력의 레이븐 7. 기존의 모델보다 더 강력한 화력과 연사력. 그러나 제어력과 무게면에선 여전히 단점을 지니고 있다.</STR>
+
+<STR id="ZITEM_NAME_4019">랩터 200</STR>
+<STR id="ZITEM_DESC_4019">높은 정확성으로 신뢰받는 랩터시리즈. 월콤의 발전된 개발력을 확인할수 있다.</STR>
+
+<STR id="ZITEM_NAME_4020">랩터 200 x2</STR>
+<STR id="ZITEM_DESC_4020">(양손장비) 높은 정확성으로 신뢰받는 랩터시리즈. 월콤의 발전된 개발력을 확인할수 있다.</STR>
+
+<STR id="ZITEM_NAME_4501">다이낙스 7000</STR>
+<STR id="ZITEM_DESC_4501">카녹스의 초기형 경량리볼버. 현재는 단종된 모델이다. 현재는 단종된 모델이지만 중고모델이 자주 거래되곤 한다.</STR>
+
+<STR id="ZITEM_NAME_4502">다이낙스 7000 x2</STR>
+<STR id="ZITEM_DESC_4502">(양손장비) 카녹스의 초기형 경량리볼버. 현재는 단종된 모델이지만 중고모델이 자주 거래되곤 한다.</STR>
+
+<STR id="ZITEM_NAME_4503">미닉 567 Limited</STR>
+<STR id="ZITEM_DESC_4503">맥스웰사의 미닉발매 5주년 기념 모델. 오리지널에 비해 더 높은 안정성과 파워를 가지고 있다.</STR>
+
+<STR id="ZITEM_NAME_4504">미닉 567 Limited x2</STR>
+<STR id="ZITEM_DESC_4504">(양손장비) 맥스웰사의 미닉발매 5주년 기념 모델. 오리지널에 비해 더 높은 안정성과 파워를 가지고 있다.</STR>
+
+<STR id="ZITEM_NAME_4505">팬텀크루즈</STR>
+<STR id="ZITEM_DESC_4505">니코사가 선보인 고급 리볼버. 기존의 리볼버와는 다른 디자인으로 인기가 높다.</STR>
+
+<STR id="ZITEM_NAME_4506">팬텀크루즈 x2</STR>
+<STR id="ZITEM_DESC_4506">(양손장비) 니코사가 선보인 고급 리볼버. 기존의 리볼버와는 다른 디자인으로 인기가 높다.</STR>
+
+<STR id="ZITEM_NAME_4507">팬텀크루즈 N</STR>
+<STR id="ZITEM_DESC_4507">팬텀크루즈의 마이너 업그레이드형. 약간의 성능향상이 있었다.</STR>
+
+<STR id="ZITEM_NAME_4508">팬텀크루즈 N x2</STR>
+<STR id="ZITEM_DESC_4508">(양손장비) 팬텀크루즈의 마이너 업그레이드형. 약간의 성능향상이 있었다.</STR>
+
+<STR id="ZITEM_NAME_4509">다이낙스 8000</STR>
+<STR id="ZITEM_DESC_4509">카녹스의 경량리볼버. 7000의 후속기종이지만 성능이 탁월하게 개선되었다.</STR>
+
+<STR id="ZITEM_NAME_4510">다이낙스 8000 x2</STR>
+<STR id="ZITEM_DESC_4510">(양손장비) 카녹스의 경량리볼버. 7000의 후속기종이지만 성능이 탁월하게 개선되었다.</STR>
+
+<STR id="ZITEM_NAME_4511">미닉 567 MK.II</STR>
+<STR id="ZITEM_DESC_4511">맥스웰사의 미닉발매 5주년 기념 모델. 오리지널에 비해 더 높은 안정성과 파워를 가지고 있다.</STR>
+
+<STR id="ZITEM_NAME_4512">미닉 567 MK.II x2</STR>
+<STR id="ZITEM_DESC_4512">(양손장비) 맥스웰사의 미닉발매 5주년 기념 모델. 오리지널에 비해 더 높은 안정성과 파워를 가지고 있다.</STR>
+
+<STR id="ZITEM_NAME_4513">자우르스 B</STR>
+<STR id="ZITEM_DESC_4513">강력한 파워를 자랑하는 리볼버 자우르스 B식. 정확도가 보다 향상되었다.</STR>
+
+<STR id="ZITEM_NAME_4514">자우르스 B x2</STR>
+<STR id="ZITEM_DESC_4514">(양손장비) 강력한 파워를 자랑하는 리볼버 자우르스 B식. 정확도가 보다 향상되었다.</STR>
+
+<STR id="ZITEM_NAME_5001">레너드</STR>
+<STR id="ZITEM_DESC_5001">오래전부터 사용된 카녹스사의 구형 서브머신건. 현재는 단종되었다.</STR>
+
+<STR id="ZITEM_NAME_5002">레너드 x2</STR>
+<STR id="ZITEM_DESC_5002">(양손장비) 오래전부터 사용된 카녹스사의 구형 서브머신건. 현재는 단종되었다.</STR>
+
+<STR id="ZITEM_NAME_5003">월콤 S5</STR>
+<STR id="ZITEM_DESC_5003">월콤사의 서브머신건. 보다 높은 화력과 장탄수로 사랑받고 있다.</STR>
+
+<STR id="ZITEM_NAME_5004">월콤 S5 x2</STR>
+<STR id="ZITEM_DESC_5004">(양손장비) 월콤사의 서브머신건. 보다 높은 화력과 장탄수로 사랑받고 있다.</STR>
+
+<STR id="ZITEM_NAME_5005">엘란</STR>
+<STR id="ZITEM_DESC_5005">카녹스사의 소형 서브머신건. 휴대성에 보다 중점을 두고 제작하였다.</STR>
+
+<STR id="ZITEM_NAME_5006">엘란 x2</STR>
+<STR id="ZITEM_DESC_5006">(양손장비) 카녹스사의 소형 서브머신건. 휴대성에 보다 중점을 두고 제작하였다.</STR>
+
+<STR id="ZITEM_NAME_5007">레너드 V</STR>
+<STR id="ZITEM_DESC_5007">폭넓게 사랑받았던 레너드의 후속기종. 제어력과 연사력에 개선이 있었다.</STR>
+
+<STR id="ZITEM_NAME_5008">레너드 V x2</STR>
+<STR id="ZITEM_DESC_5008">(양손장비) 폭넓게 사랑받았던 레너드의 후속기종. 제어력과 연사력에 개선이 있었다.</STR>
+
+<STR id="ZITEM_NAME_5009">월콤 S6</STR>
+<STR id="ZITEM_DESC_5009">월콤사의 S5 후속기. 이전 모델에 비하여 더욱 향상된 화력과 안정성</STR>
+
+<STR id="ZITEM_NAME_5010">월콤 S6 x2</STR>
+<STR id="ZITEM_DESC_5010">(양손장비) 월콤사의 S5 후속기. 이전 모델에 비하여 더욱 향상된 화력과 안정성</STR>
+
+<STR id="ZITEM_NAME_5011">뉴 레너드 V</STR>
+<STR id="ZITEM_DESC_5011">카녹스가 레너드 V의 인기에 힘입어 내놓은 NEW버전</STR>
+
+<STR id="ZITEM_NAME_5012">뉴 레너드 V x2</STR>
+<STR id="ZITEM_DESC_5012">(양손장비) 카녹스가 레너드 V의 인기에 힘입어 내놓은 NEW버전</STR>
+
+<STR id="ZITEM_NAME_5013">월콤 XL</STR>
+<STR id="ZITEM_DESC_5013">월콤사의 70주년 기념 SMG. 사실상 S6의 마이너그레이드 버전으로 불리는 경량화바디</STR>
+
+<STR id="ZITEM_NAME_5014">월콤 XL x2</STR>
+<STR id="ZITEM_DESC_5014">(양손장비) 월콤사의 70주년 기념 SMG. 사실상 S6의 마이너그레이드 버전으로 불리는 경량화바디</STR>
+
+<STR id="ZITEM_NAME_5015">레너드 VI</STR>
+<STR id="ZITEM_DESC_5015">월콤 XL때문에 상대적으로 인기가 하락한 카녹스에서 내놓은 신모델.</STR>
+
+<STR id="ZITEM_NAME_5016">레너드 VI x2</STR>
+<STR id="ZITEM_DESC_5016">(양손장비) 월콤 XL때문에 상대적으로 인기가 하락한 카녹스에서 내놓은 신모델.</STR>
+
+<STR id="ZITEM_NAME_5017">월콤 XLS</STR>
+<STR id="ZITEM_DESC_5017">XL의 인기로 인하여 새로 내놓은 월콤의 신모델. 사실상 화력부분만을 개선하였다.</STR>
+
+<STR id="ZITEM_NAME_5018">월콤 XLS x2</STR>
+<STR id="ZITEM_DESC_5018">(양손장비) XL의 인기로 인하여 새로 내놓은 월콤의 신모델. 사실상 화력부분만을 개선하였다.</STR>
+
+<STR id="ZITEM_NAME_6001">브레이커 3</STR>
+<STR id="ZITEM_DESC_6001">오래전부터 샷건을 전문적으로 생산하고 있는 리오닉스사의 펌프액션타입 샷건. 현재는 단종되었다.</STR>
+
+<STR id="ZITEM_NAME_6002">브레이커 5</STR>
+<STR id="ZITEM_DESC_6002">리오닉스사의 펌프액션타입 샷건. 생산된지는 상당히 오래되었지만 여전히 인기가 높다.</STR>
+
+<STR id="ZITEM_NAME_6003">브레이커 6</STR>
+<STR id="ZITEM_DESC_6003">비교적 최근에 발표된 리오닉스의 신형샷건이다.</STR>
+
+<STR id="ZITEM_NAME_6004">브레이커 7</STR>
+<STR id="ZITEM_DESC_6004">기존의 브레이커 시리즈와는 다른 디자인으로 선보인 리오닉스의 7번째 모델.</STR>
+
+<STR id="ZITEM_NAME_6005">어벤져</STR>
+<STR id="ZITEM_DESC_6005">니코사에서 기념비적으로 내놓은 샷건. 한마디로 엄청난 파괴력을 가졌다. 적은 장탄수가 단점.</STR>
+
+<STR id="ZITEM_NAME_6006">브레이커 8</STR>
+<STR id="ZITEM_DESC_6006">브레이커 시리즈로 샷건메이커로 유명한 리오닉스의 신형 샷건</STR>
+
+<STR id="ZITEM_NAME_6007">어벤져 MK.II</STR>
+<STR id="ZITEM_DESC_6007">모험가들을 깜짝 놀라게 한 어벤져의 후속기.</STR>
+
+<STR id="ZITEM_NAME_7001">니코 R2</STR>
+<STR id="ZITEM_DESC_7001">니코사의 초기형 소총.</STR>
+
+<STR id="ZITEM_NAME_7002">니코 R5</STR>
+<STR id="ZITEM_DESC_7002">현재 제국군에서 가장 인기있는 소총중 하나이다.</STR>
+
+<STR id="ZITEM_NAME_7003">월콤 워리어 77</STR>
+<STR id="ZITEM_DESC_7003">월콤사에서 제작. 사용이 까다로운 단점은 있지만 상대적으로 강력한 위력을 맛볼수있다.</STR>
+
+<STR id="ZITEM_NAME_7004">맥스웰 LX30</STR>
+<STR id="ZITEM_DESC_7004">맥스웰사 제작. 안정감넘치는 그립과 조작성, 빠른 연사로 각광받고 있다.</STR>
+
+<STR id="ZITEM_NAME_7005">니코 R6</STR>
+<STR id="ZITEM_DESC_7005">인기높은 니코사의 R5의 후속기. 보다 화력이 개선되어 R5 매니아들의 사랑을 받고 있다.</STR>
+
+<STR id="ZITEM_NAME_7006">맥스웰 LX44</STR>
+<STR id="ZITEM_DESC_7006">(단종 아이템) LX30보다도 강력해진 연사력과 화력을 가진 라이플. 안정감 있는 그립에 여전히 높은 정확도를 자랑한다.</STR>
+
+<STR id="ZITEM_NAME_7007">니코 R7</STR>
+<STR id="ZITEM_DESC_7007">화력면에서 보다 향상됨을 느낄수 있는 인기있는 니코사의 신형 라이플</STR>
+
+<STR id="ZITEM_NAME_7008">월콤 워리어 88</STR>
+<STR id="ZITEM_DESC_7008">여전히 사용이 용이한 느낌은 아니지만 강력한 화력에 초점을 맞춘 월콤의 신제품.</STR>
+
+<STR id="ZITEM_NAME_8001">니코 MG-K8</STR>
+<STR id="ZITEM_DESC_8001">들고다니기 벅찰 정도의 무게지만 K8의 위력적인 연사력은 적들에게 있어서는 공포감을 선사하고 있다.</STR>
+
+<STR id="ZITEM_NAME_8002">니코 MG-K9</STR>
+<STR id="ZITEM_DESC_8002">보다 업그레이드 된 화력의 K9 머신건. 위력적인 연사속도와 제어성은 공포의 화기로 불리우기에 부족함이 없다.</STR>
+
+<STR id="ZITEM_NAME_8003">니코 MG-KX</STR>
+<STR id="ZITEM_DESC_8003">폭발적인 화력의 니코 신형 머신건. MG-KX를 전장에서 마주치는 것으로도 고통스러울 것 같다.</STR>
+
+<STR id="ZITEM_NAME_9001">월콤 L1</STR>
+<STR id="ZITEM_DESC_9001">월콤에서 선보인 강력한 위력의 로켓런쳐.</STR>
+
+<STR id="ZITEM_NAME_9002">맥스웰 RW-77</STR>
+<STR id="ZITEM_DESC_9002">맥스웰이 선보인 로켓. 월콤의 L시리즈보다 장탄수를 늘리고 연사력을 높였다. 단, 이를 위한 화력의 희생은 불가피하였다.</STR>
+
+<STR id="ZITEM_NAME_9003">월콤 L1 mk. II</STR>
+<STR id="ZITEM_DESC_9003">월콤의 로켓런쳐. L1의 마이너 업그레이드 버전으로 약간량 로켓의 파워를 향상시켰다.</STR>
+
+<STR id="ZITEM_NAME_9004">맥스웰 RW-88</STR>
+<STR id="ZITEM_DESC_9004">RW-77의 업그레이드형. 외관의 변화는 없었으나 연사속도를 향상시켰다.</STR>
+
+<STR id="ZITEM_NAME_9005">월콤 L2</STR>
+<STR id="ZITEM_DESC_9005">월콤의 로켓런쳐. L1보다 장탄수를 늘림으로써 더욱 위력적인 무기가 되었다. 아울러 경량화를 실현한 모델</STR>
+
+<STR id="ZITEM_NAME_9006">맥스웰 RW-66</STR>
+<STR id="ZITEM_DESC_9006">맥스웰사의 초기형 로켓. 위력은 그다지 좋지 못하다.</STR>
+
+<STR id="ZITEM_NAME_10001">SniferRifle1</STR>
+<STR id="ZITEM_DESC_10001">버드가 제작한 스나이퍼 라이플. </STR>
+
+<STR id="ZITEM_NAME_21001">아레스 런닝셔츠 A</STR>
+<STR id="ZITEM_DESC_21001">군용의류 납품업체인 아레스가 판매하는 남성용 런닝셔츠.</STR>
+
+<STR id="ZITEM_NAME_21002">르노 면셔츠 A</STR>
+<STR id="ZITEM_DESC_21002">르노 스포츠에서 내놓은 활동성 높은 남성용 면셔츠</STR>
+
+<STR id="ZITEM_NAME_21003">베니코 가죽코트 A</STR>
+<STR id="ZITEM_DESC_21003">베니코에서 내놓은 남성용 가죽코트</STR>
+
+<STR id="ZITEM_NAME_21004">빈츠 겨울철 자켓 A</STR>
+<STR id="ZITEM_DESC_21004">가죽재질의 자켓으로 보온효과가 뛰어나다. 남성용</STR>
+
+<STR id="ZITEM_NAME_21005">미즈 가죽코트 A</STR>
+<STR id="ZITEM_DESC_21005">정장메이커인 미즈에서 내놓은 최신유행의 남성용 트렌치코트</STR>
+
+<STR id="ZITEM_NAME_21006">아레스 군용자켓 A</STR>
+<STR id="ZITEM_DESC_21006">아레스사에서 군에게 납품하는 군용자켓</STR>
+
+<STR id="ZITEM_NAME_21007">빈츠 모직 롱코트 A</STR>
+<STR id="ZITEM_DESC_21007">빈츠에서 선보인 모직의 롱코트. 남성용</STR>
+
+<STR id="ZITEM_NAME_21008">르노 아쿠아 꽃무늬셔츠</STR>
+<STR id="ZITEM_DESC_21008">르노에서 여름을 겨냥하여 출시한 남성용 꽃무늬 셔츠</STR>
+
+<STR id="ZITEM_NAME_21501">플렉스 면티셔츠 A</STR>
+<STR id="ZITEM_DESC_21501">활동이 많은 여성들을 위해 내놓은 여성전용 면티셔츠</STR>
+
+<STR id="ZITEM_NAME_21502">유라이크 가죽자켓 A</STR>
+<STR id="ZITEM_DESC_21502">신축성있는 재질로 인기가 좋은 유라이크 여성용 가죽자켓</STR>
+
+<STR id="ZITEM_NAME_21503">렉스 군용조끼 A</STR>
+<STR id="ZITEM_DESC_21503">좋은 활동성과 전투에서의 생존성을 보장하는 여성용 군용조끼.</STR>
+
+<STR id="ZITEM_NAME_21504">아로나 가죽자켓 A</STR>
+<STR id="ZITEM_DESC_21504">최신유행의 예쁜 가죽자켓. 여성용</STR>
+
+<STR id="ZITEM_NAME_21505">L* 가죽코트 A</STR>
+<STR id="ZITEM_DESC_21505">L*에서 내놓은 럭셔리한 느낌의 여성용 코트</STR>
+
+<STR id="ZITEM_NAME_21506">렉스 군용자켓 A</STR>
+<STR id="ZITEM_DESC_21506">렉스가 납품하고 있는 여군용 자켓</STR>
+
+<STR id="ZITEM_NAME_21507">유라이크 롱코트 A</STR>
+<STR id="ZITEM_DESC_21507">유라이크 신상품. 맵시좋은 여성용 롱코트</STR>
+
+<STR id="ZITEM_NAME_21508">빅스 아쿠아 꽃무늬탑</STR>
+<STR id="ZITEM_DESC_21508">빅스에서 여름을 겨냥하여 출시한 여성용 꽃무늬탑</STR>
+
+<STR id="ZITEM_NAME_22001">아레스 전투장갑 A</STR>
+<STR id="ZITEM_DESC_22001">편안하고 무난한 디자인으로 사랑받는 미즈 남성용 가죽장갑</STR>
+
+<STR id="ZITEM_NAME_22002">빈츠 방한 장갑 A</STR>
+<STR id="ZITEM_DESC_22002">바람을 막아주는 따뜻한 방한장갑. 남성용</STR>
+
+<STR id="ZITEM_NAME_22003">아레스 철제장갑 A</STR>
+<STR id="ZITEM_DESC_22003">전투용으로 설계된 남성용 철제장갑. 뛰어난 방어력을 자랑한다.</STR>
+
+<STR id="ZITEM_NAME_22004">미즈 양가죽 장갑 A</STR>
+<STR id="ZITEM_DESC_22004">질긴 가죽으로 만들어진 장갑.</STR>
+
+<STR id="ZITEM_NAME_22005">르노 아쿠아 장갑</STR>
+<STR id="ZITEM_DESC_22005">르노에서 여름을 겨냥하여 출시한 남성용 장갑</STR>
+
+<STR id="ZITEM_NAME_22501">렉스 전투장갑 A</STR>
+<STR id="ZITEM_DESC_22501">무난하면서도 신축성 소재의 가죽장갑</STR>
+
+<STR id="ZITEM_NAME_22502">아로나 방한 가죽장갑 A</STR>
+<STR id="ZITEM_DESC_22502">추위에서 손을 보호하기 위한 목적으로 만든 가죽장갑</STR>
+
+<STR id="ZITEM_NAME_22503">렉스 철제장갑 A</STR>
+<STR id="ZITEM_DESC_22503">전투용으로 설계된 여성용 철제장갑</STR>
+
+<STR id="ZITEM_NAME_22504">유라이크 양가죽장갑 A</STR>
+<STR id="ZITEM_DESC_22504">전투용으로 설계된 여성용 철제장갑</STR>
+
+<STR id="ZITEM_NAME_22505">빅스 아쿠아 장갑</STR>
+<STR id="ZITEM_DESC_22505">빅스에서 여름을 겨냥하여 출시한 여성용 장갑</STR>
+
+<STR id="ZITEM_NAME_23001">빈츠 트레이닝 바지 A</STR>
+<STR id="ZITEM_DESC_23001">뛰어난 신축성과 착용감을 강조한 빈츠의 남성용 바지</STR>
+
+<STR id="ZITEM_NAME_23002">르노 활동성 바지 A</STR>
+<STR id="ZITEM_DESC_23002">르노 스포츠웨어에서 스포츠맨들을 위해 자신있게 내놓은 바지</STR>
+
+<STR id="ZITEM_NAME_23003">미즈 가죽 바지 A</STR>
+<STR id="ZITEM_DESC_23003">고급스럽게 디자인한 가죽바지. 천연가죽을 활용하여 깔끔한 재단으로 마무리하였다.</STR>
+
+<STR id="ZITEM_NAME_23004">베니코 대님바지 A</STR>
+<STR id="ZITEM_DESC_23004">독특한 느낌의 베니코 남성용 대님바지</STR>
+
+<STR id="ZITEM_NAME_23005">아레스 군용바지 A</STR>
+<STR id="ZITEM_DESC_23005">아레스사에서 군에게 납품하는 군용바지</STR>
+
+<STR id="ZITEM_NAME_23006">웹스 구제청바지 A</STR>
+<STR id="ZITEM_DESC_23006">웹스에서 선보인 구제청바지. 거친 모험가들에게 적합하다.</STR>
+
+<STR id="ZITEM_NAME_23007">르노 아쿠아 팬츠</STR>
+<STR id="ZITEM_DESC_23007">르노에서 여름을 겨냥하여 출시한 남성용 수영바지</STR>
+
+<STR id="ZITEM_NAME_23501">플렉스 트레이닝 바지 A</STR>
+<STR id="ZITEM_DESC_23501">뛰어난 신축성과 착용감을 강조한 플렉스의 여성용 바지</STR>
+
+<STR id="ZITEM_NAME_23502">아로나 여성용 청바지 A</STR>
+<STR id="ZITEM_DESC_23502">(단종 아이템) 남녀노소를 불문하고 가장 널리 입히는 청바지. 여성용</STR>
+
+<STR id="ZITEM_NAME_23503">렉스 군용바지 A</STR>
+<STR id="ZITEM_DESC_23503">여군을 위해 특별히 제작한 편안한 군용바지</STR>
+
+<STR id="ZITEM_NAME_23504">L* 블랙 면바지 A</STR>
+<STR id="ZITEM_DESC_23504">(단종 아이템) 특별한 여성들을 위해 L*에서 자신있게 내놓은 럭셔리한 느낌의 면바지</STR>
+
+<STR id="ZITEM_NAME_23505">아로나 여성용 청바지 A</STR>
+<STR id="ZITEM_DESC_23505">남녀노소를 불문하고 가장 널리 입히는 청바지. 여성용</STR>
+
+<STR id="ZITEM_NAME_23506">빈츠 세무바지 A</STR>
+<STR id="ZITEM_DESC_23506">빈츠에서 제작한 착용감 좋은 여성용 세무바지</STR>
+
+<STR id="ZITEM_NAME_23507">L* 블랙 면바지 A</STR>
+<STR id="ZITEM_DESC_23507">특별한 여성들을 위해 L*에서 자신있게 내놓은 럭셔리한 느낌의 면바지(신형)</STR>
+
+<STR id="ZITEM_NAME_23508">렉스 군용바지 A</STR>
+<STR id="ZITEM_DESC_23508">렉스가 납품하고 있는 여군용 바지</STR>
+
+<STR id="ZITEM_NAME_23509">유라이크 칠부 면바지 A</STR>
+<STR id="ZITEM_DESC_23509">유라이크에서 내놓은 새련된 느낌의 면바지. 질긴 재질을 사용하여 전장에서의 실용성과 세련된 멋을 더하였다.</STR>
+
+<STR id="ZITEM_NAME_23510">빅스 아쿠아 팬츠</STR>
+<STR id="ZITEM_DESC_23510">빅스에서 여름을 겨냥하여 출시한 여성용 수영바지</STR>
+
+<STR id="ZITEM_NAME_24001">아레스 전투화 A</STR>
+<STR id="ZITEM_DESC_24001">활동에 편안한 느낌을 주는 고급신발</STR>
+
+<STR id="ZITEM_NAME_24002">베니코 캐쥬얼 슈즈 A</STR>
+<STR id="ZITEM_DESC_24002">개성있는 디자인으로 인기를 끌고 있는 캐쥬얼슈즈</STR>
+
+<STR id="ZITEM_NAME_24003">르노 등산용 신발 A</STR>
+<STR id="ZITEM_DESC_24003">질긴 가죽으로 거친곳을 지형을 이동하더라도 찢어질 염려가 없는 신발</STR>
+
+<STR id="ZITEM_NAME_24004">아레스 철제신발 A</STR>
+<STR id="ZITEM_DESC_24004">다소 무거운 이 신발은 방어력에 치중하고자 하는 사람들을 위해 만들어졌다.</STR>
+
+<STR id="ZITEM_NAME_24005">빈츠 캐쥬얼 슈즈 A</STR>
+<STR id="ZITEM_DESC_24005">빈츠에서 선보인 질기지만 캐쥬얼한 느낌의 신발</STR>
+
+<STR id="ZITEM_NAME_24006">르노 아쿠아 샌들</STR>
+<STR id="ZITEM_DESC_24006">르노에서 여름을 겨냥하여 출시한 남성용 샌들</STR>
+
+<STR id="ZITEM_NAME_24501">유라이크 가죽구두</STR>
+<STR id="ZITEM_DESC_24501">평범한 느낌의 인조가죽 구두</STR>
+
+<STR id="ZITEM_NAME_24502">렉스 전투화</STR>
+<STR id="ZITEM_DESC_24502">렉스에서 여군을 위해 특수 제작한 전투화</STR>
+
+<STR id="ZITEM_NAME_24503">L* 가죽부츠</STR>
+<STR id="ZITEM_DESC_24503">L*에서 자신있게 내놓은 고급가죽부츠</STR>
+
+<STR id="ZITEM_NAME_24504">렉스 철제신발 A</STR>
+<STR id="ZITEM_DESC_24504">다소 무겁지만 패션보다는 전투에서의 방어력에 치중하고자 하는 사람들을 위하여 만들어졌다.</STR>
+
+<STR id="ZITEM_NAME_24505">유라이크 가죽구두 A</STR>
+<STR id="ZITEM_DESC_24505">유라이크에서 제작한 독특한 느낌의 패션 가죽구두</STR>
+
+<STR id="ZITEM_NAME_24506">빅스 아쿠아 샌들</STR>
+<STR id="ZITEM_DESC_24506">빅스에서 여름을 겨냥하여 출시한 여성용 샌들</STR>
+
+<STR id="ZITEM_NAME_25001">시민의 반지</STR>
+<STR id="ZITEM_DESC_25001">외관상으로는 그다지 아름다워 보이지는 않는 반지. 기념으로 시장이 발행하였다.</STR>
+
+<STR id="ZITEM_NAME_25002">크라잉호크 반지</STR>
+<STR id="ZITEM_DESC_25002">전설속에 내려오는 용맹한 어떤 특수대원들에게 지급되었다고 한다.</STR>
+
+<STR id="ZITEM_NAME_25003">전사의 함성</STR>
+<STR id="ZITEM_DESC_25003">이 작은 반지에는 전쟁에서 살아돌아오길 바라는 많은 이들의 염원이 담긴듯하다.</STR>
+
+<STR id="ZITEM_NAME_25004">피에르의 반지</STR>
+<STR id="ZITEM_DESC_25004">전쟁에서 사망한 어느 용맹한 지휘관을 추모하기 위해 발행된 반지.</STR>
+
+<STR id="ZITEM_NAME_25005">FMT 기념반지</STR>
+<STR id="ZITEM_DESC_25005">FMT라는 시스템을 만들어낸 과학자들을 기념하기 위해 제작된 반지. 보석에 희미하게 맥필드라는 사인이 세공되어 있다.</STR>
+
+<STR id="ZITEM_NAME_25006">행운의 반지</STR>
+<STR id="ZITEM_DESC_25006">외관의 화려함은 없지만 웬지 모를 행운이 깃든 반지. 반지 착용자는 웬지 몸이 가볍다.</STR>
+
+<STR id="ZITEM_NAME_25007">알테마의 반지</STR>
+<STR id="ZITEM_DESC_25007">팀아이에서 만든 알테마 황제의 업적을 기리기 위해 제작된 반지.</STR>
+
+<STR id="ZITEM_NAME_25008">밴드 오브 더 블러드</STR>
+<STR id="ZITEM_DESC_25008">아름다운 빨간 보석이 박힌 예쁜 반지. 착용자로 하여금 생명력이 충만하도록 만든다고 한다.</STR>
+
+<STR id="ZITEM_NAME_25009">엘리아의 반지</STR>
+<STR id="ZITEM_DESC_25009">알테마 황제의 명으로 엘리아공주를 추모하기 위해 만든 반지. 착용자로 하여금 웬지모를 자신감에 충만하게 만든다.</STR>
+
+<STR id="ZITEM_NAME_25010">깃털의 반지</STR>
+<STR id="ZITEM_DESC_25010">전설속의 새로부터 얻은 깃털로 만들었다는 반지. 착용자의 몸을 가볍게 만든다.</STR>
+
+<STR id="ZITEM_NAME_30001">의료킷 MK-1</STR>
+<STR id="ZITEM_DESC_30001">체력을 회복시켜준다. 2개</STR>
+
+<STR id="ZITEM_NAME_30002">의료킷 MK-2</STR>
+<STR id="ZITEM_DESC_30002">체력을 회복시켜준다. 3개</STR>
+
+<STR id="ZITEM_NAME_30003">의료킷 MK-3</STR>
+<STR id="ZITEM_DESC_30003">체력을 회복시켜준다. 4개</STR>
+
+<STR id="ZITEM_NAME_30101">수리킷 MK-1</STR>
+<STR id="ZITEM_DESC_30101">망가진 방어구를 고쳐준다. 2개</STR>
+
+<STR id="ZITEM_NAME_30102">수리킷 MK-2</STR>
+<STR id="ZITEM_DESC_30102">망가진 방어구를 고쳐준다. 3개</STR>
+
+<STR id="ZITEM_NAME_30103">수리킷 MK-3</STR>
+<STR id="ZITEM_DESC_30103">망가진 방어구를 고쳐준다. 4개</STR>
+
+<STR id="ZITEM_NAME_30201">카녹스 FB1</STR>
+<STR id="ZITEM_DESC_30201">섬광탄. 적의 시각과 청각을 순간 마비시킨다. 2개</STR>
+
+<STR id="ZITEM_NAME_30202">카녹스 FB2</STR>
+<STR id="ZITEM_DESC_30202">섬광탄. 적의 시각과 청각을 순간 마비시킨다. 3개</STR>
+
+<STR id="ZITEM_NAME_30203">카녹스 FB3</STR>
+<STR id="ZITEM_DESC_30203">섬광탄. 적의 시각과 청각을 순간 마비시킨다. 4개</STR>
+
+<STR id="ZITEM_NAME_30204">카녹스 FB4</STR>
+<STR id="ZITEM_DESC_30204">섬광탄. 적의 시각과 청각을 순간 마비시킨다. 5개</STR>
+
+<STR id="ZITEM_NAME_30205">카녹스 FB5</STR>
+<STR id="ZITEM_DESC_30205">섬광탄. 적의 시각과 청각을 순간 마비시킨다. 6개</STR>
+
+<STR id="ZITEM_NAME_30301">카녹스 FG1</STR>
+<STR id="ZITEM_DESC_30301">실내에서 사용하기 용이하도록 제작된 카녹스사의 신형 수류탄. 2개</STR>
+
+<STR id="ZITEM_NAME_30302">카녹스 FG2</STR>
+<STR id="ZITEM_DESC_30302">실내에서 사용하기 용이하도록 제작된 카녹스사의 신형 수류탄. 3개</STR>
+
+<STR id="ZITEM_NAME_30303">카녹스 FG3</STR>
+<STR id="ZITEM_DESC_30303">실내에서 사용하기 용이하도록 제작된 카녹스사의 신형 수류탄. 4개</STR>
+
+<STR id="ZITEM_NAME_30304">카녹스 FG4</STR>
+<STR id="ZITEM_DESC_30304">실내에서 사용하기 용이하도록 제작된 카녹스사의 신형 수류탄. 5개</STR>
+
+<STR id="ZITEM_NAME_30305">카녹스 FG5</STR>
+<STR id="ZITEM_DESC_30305">실내에서 사용하기 용이하도록 제작된 카녹스사의 신형 수류탄. 6개</STR>
+
+<STR id="ZITEM_NAME_30401">카녹스 SG1</STR>
+<STR id="ZITEM_DESC_30401">연막탄. 연기로 적의 시야를 교란시키기 위한 용도로 사용된다. 3개</STR>
+
+<STR id="ZITEM_NAME_30402">카녹스 SG2</STR>
+<STR id="ZITEM_DESC_30402">연막탄. 연기로 적의 시야를 교란시키기 위한 용도로 사용된다. 4개</STR>
+
+<STR id="ZITEM_NAME_30403">카녹스 SG3</STR>
+<STR id="ZITEM_DESC_30403">연막탄. 연기로 적의 시야를 교란시키기 위한 용도로 사용된다. 5개</STR>
+
+<STR id="ZITEM_NAME_30404">카녹스 SG4</STR>
+<STR id="ZITEM_DESC_30404">연막탄. 연기로 적의 시야를 교란시키기 위한 용도로 사용된다. 6개</STR>
+
+<STR id="ZITEM_NAME_30405">카녹스 SG5</STR>
+<STR id="ZITEM_DESC_30405">연막탄. 연기로 적의 시야를 교란시키기 위한 용도로 사용된다. 7개</STR>
+
+<STR id="ZITEM_NAME_300000">고블린 단검</STR>
+<STR id="ZITEM_DESC_300000">고블린이 쓰는 단검이다.</STR>
+
+<STR id="ZITEM_NAME_300001">고블린 라이플</STR>
+<STR id="ZITEM_DESC_300001">고블린이 쓰는 라이플이다.</STR>
+
+<STR id="ZITEM_NAME_300002">고블린 메이스</STR>
+<STR id="ZITEM_DESC_300002">고블린 대장이 쓰는 메이스</STR>
+
+<STR id="ZITEM_NAME_300003">고블린 완드</STR>
+<STR id="ZITEM_DESC_300003">고블린 치프의 완드</STR>
+
+<STR id="ZITEM_NAME_300004">고블린 그레이트 해머</STR>
+<STR id="ZITEM_DESC_300004">고블린 킹의 그레이트 해머</STR>
+
+<STR id="ZITEM_NAME_300031">스켈레톤 검</STR>
+<STR id="ZITEM_DESC_300031">스켈레톤이 쓰는 검</STR>
+
+
+<STR id="ZITEM_NAME_400001">사죄의 반지</STR>
+<STR id="ZITEM_DESC_400001">(이벤트 아이템) 사과의 마음이 깃든 반지. 다소 무겁다는게 흠이다.</STR>
+
+<STR id="ZITEM_NAME_400002">버그프리 남성용 롱코트</STR>
+<STR id="ZITEM_DESC_400002">(이벤트 아이템) 아스트라 세계의 이상현상 퇴치에 도움을 준 모험가들만이 입을수 있는 남성용 코트</STR>
+
+<STR id="ZITEM_NAME_400003">버그프리 여성용 롱코트</STR>
+<STR id="ZITEM_DESC_400003">(이벤트 아이템) 아스트라 세계의 이상현상 퇴치에 도움을 준 모험가들만이 입을수 있는 여성용 코트</STR>
+
+<STR id="ZITEM_NAME_400004">스태프 남성용 자켓</STR>
+<STR id="ZITEM_DESC_400004">(이벤트 아이템) 운영팀이 입을수 있는 자켓</STR>
+
+<STR id="ZITEM_NAME_400005">스태프 여성용 자켓</STR>
+<STR id="ZITEM_DESC_400005">(이벤트 아이템) 운영팀이 입을수 있는 자켓</STR>
+
+<STR id="ZITEM_NAME_400006">골룸의 반지</STR>
+<STR id="ZITEM_DESC_400006">(이벤트 아이템) 황금빛 반지. 안쪽에 My precious라는 글씨가 정성스럽게 새겨져 있다.</STR>
+
+<STR id="ZITEM_NAME_400007">삼각김밥</STR>
+<STR id="ZITEM_DESC_400007">(이벤트 아이템) 맛있어 보이는 삼각김밥. 먹으면 HP와 AP가 한꺼번에 소량 회복된다.</STR>
+
+<STR id="ZITEM_NAME_400008">남성용 팜포아 컴패니언 코트</STR>
+<STR id="ZITEM_DESC_400008">귀여운 팜포아가 그려져 있는 트렌치 코트. 무언가를 기념하기 위해 만들어진 것 같다.</STR>
+
+<STR id="ZITEM_NAME_400009">여성용 팜포아 컴패니언 코트</STR>
+<STR id="ZITEM_DESC_400009">귀여운 팜포아가 그려져 있는 트렌치 코트. 무언가를 기념하기 위해 만들어진 것 같다.</STR>
+
+<STR id="ZITEM_NAME_400010">사탕</STR>
+<STR id="ZITEM_DESC_400010">(이벤트 아이템) 맛있어 보이는 사탕. 먹으면 HP와 AP가 한꺼번에 소량 회복된다.</STR>
+
+<STR id="ZITEM_NAME_400011">남성용 버닝타이드 헬멧</STR>
+<STR id="ZITEM_DESC_400011">빈츠의 야심찬 브랜드 '버닝타이드' 남성용 헬멧. 열정적인 모습이 인상적.</STR>
+
+<STR id="ZITEM_NAME_400012">여성용 버닝타이드 헬멧</STR>
+<STR id="ZITEM_DESC_400012">빈츠의 야심찬 브랜드 '버닝타이드' 여성용 헬멧. 열정적인 모습이 인상적.</STR>
+
+<STR id="ZITEM_NAME_500001">모험가 단검</STR>
+<STR id="ZITEM_DESC_500001">모험가들을 위해 경량화된 실용적인 단검</STR>
+
+<STR id="ZITEM_NAME_500002">코덴나이프</STR>
+<STR id="ZITEM_DESC_500002">전설적인 검사가 고안해낸 특이한 모양의 단검</STR>
+
+<STR id="ZITEM_NAME_500003">흑무검</STR>
+<STR id="ZITEM_DESC_500003">고대로부터 전해내려온 기이한 단검.</STR>
+
+<STR id="ZITEM_NAME_500004">리딕 헌터 단검</STR>
+<STR id="ZITEM_DESC_500004">(한정기간발매) 리딕의 단검. 장착만으로도 AP가 오르는 희귀한 단검.</STR>
+
+<STR id="ZITEM_NAME_502001">모험가 장검</STR>
+<STR id="ZITEM_DESC_502001">모험가들을 위해 경량화된 실용적인 장검</STR>
+
+<STR id="ZITEM_NAME_502002">상화도</STR>
+<STR id="ZITEM_DESC_502002">전설적인 검사가 고안해낸 특이한 모양의 장검</STR>
+
+<STR id="ZITEM_NAME_502003">귀류도</STR>
+<STR id="ZITEM_DESC_502003">고대로부터 전해내려온 기이한 장검.</STR>
+
+<STR id="ZITEM_NAME_504001">모험가 권총 x2</STR>
+<STR id="ZITEM_DESC_504001">초보 모험가들이 주로 사용하는 권총.</STR>
+
+<STR id="ZITEM_NAME_504002">리딕 헌터 권총 x2</STR>
+<STR id="ZITEM_DESC_504002">(한정기간발매) 리딕 헌터의 권총. 장착만으로도 AP가 오르는 희귀한 권총.</STR>
+
+<STR id="ZITEM_NAME_504003">아일리스 권총 x2</STR>
+<STR id="ZITEM_DESC_504003">공화국의 병사들이 사용하던 권총. 자신들의 근거지의 이름을 붙였다.</STR>
+
+<STR id="ZITEM_NAME_504004">아이언크로우 권총 x2</STR>
+<STR id="ZITEM_DESC_504004">무법자들의 도시 하바니를 주름잡던 아이언크로우에서 사용하는 권총</STR>
+
+<STR id="ZITEM_NAME_504501">아일리스 리볼버 x2</STR>
+<STR id="ZITEM_DESC_504501">공화국의 병사들이 사용하던 리볼버. 자신들의 근거지의 이름을 붙였다.</STR>
+
+<STR id="ZITEM_NAME_504502">아이언크로우 리볼버 x2</STR>
+<STR id="ZITEM_DESC_504502">무법자들의 도시 하바니를 주름잡던 아이언크로우에서 사용하는 리볼버</STR>
+
+<STR id="ZITEM_NAME_504503">골드하운드 x2</STR>
+<STR id="ZITEM_DESC_504503">동급 최강의 파괴력에 집중하여 개발된 리볼버. 떨어지는 연사력과 파괴력의 증가로 인한 반동때문에 초심자가 쓰기는 어렵다.</STR>
+
+<STR id="ZITEM_NAME_505001">모험가 SMG x2</STR>
+<STR id="ZITEM_DESC_505001">초보 모험가들이 주로 사용하는 SMG. 상인들이 레너드의 탄창을 불법개조하여 판매하고 있는듯 하다.</STR>
+
+<STR id="ZITEM_NAME_505002">아일리스 SMG x2</STR>
+<STR id="ZITEM_DESC_505002">공화국의 병사들이 사용하던 SMG. 자신들의 근거지의 이름을 붙였다.</STR>
+
+<STR id="ZITEM_NAME_505003">아이언크로우 SMG x2</STR>
+<STR id="ZITEM_DESC_505003">무법자들의 도시 하바니를 주름잡던 아이언크로우에서 사용하는 SMG</STR>
+
+<STR id="ZITEM_NAME_506001">아일리스 샷건</STR>
+<STR id="ZITEM_DESC_506001">공화국의 병사들이 사용하던 샷건. 자신들의 근거지의 이름을 붙였다.</STR>
+
+<STR id="ZITEM_NAME_506002">아이언크로우 샷건</STR>
+<STR id="ZITEM_DESC_506002">무법자들의 도시 하바니를 주름잡던 아이언크로우에서 사용하는 샷건</STR>
+
+<STR id="ZITEM_NAME_506003">비기 샷건</STR>
+<STR id="ZITEM_DESC_506003">정체불명의 제조사가 제작하여 외국으로부터 입수된 샷건이라고 한다. 무기로 보기에 웬지 가벼운 디자인이지만 경량화로부터 실현된 발군의 성능이 일품!</STR>
+
+<STR id="ZITEM_NAME_506004">크루얼리즌</STR>
+<STR id="ZITEM_DESC_506004">브레이커 시리즈보다 향상된 파괴력을 가진 샷건. 연사력과 제어성은 상대적으로 희생되어 다루기가 까다롭다.</STR>
+
+<STR id="ZITEM_NAME_507001">아일리스 소총</STR>
+<STR id="ZITEM_DESC_507001">공화국의 병사들이 사용하던 소총. 자신들의 근거지의 이름을 붙였다.</STR>
+
+<STR id="ZITEM_NAME_507002">아이언크로우 소총</STR>
+<STR id="ZITEM_DESC_507002">무법자들의 도시 하바니를 주름잡던 아이언크로우에서 사용하는 소총</STR>
+
+<STR id="ZITEM_NAME_507003">프라임 TX</STR>
+<STR id="ZITEM_DESC_507003">연사력과 안정성에 초점이 맞추어진 라이플. 안정감 있는 제어성이 발군이다.</STR>
+
+<STR id="ZITEM_NAME_508001">아이언크로우 머신건</STR>
+<STR id="ZITEM_DESC_508001">무법자들의 도시 하바니를 주름잡던 아이언크로우에서 사용하는 머신건</STR>
+
+<STR id="ZITEM_NAME_509001">아일리스 로켓</STR>
+<STR id="ZITEM_DESC_509001">공화국의 병사들이 사용하던 로켓. 자신들의 근거지의 이름을 붙였다.</STR>
+
+<STR id="ZITEM_NAME_509002">아이언크로우 로켓</STR>
+<STR id="ZITEM_DESC_509002">무법자들의 도시 하바니를 주름잡던 아이언크로우에서 사용하는 로켓</STR>
+
+<STR id="ZITEM_NAME_509003">프레셔 RX</STR>
+<STR id="ZITEM_DESC_509003">밸런스에 주안점을 맞춘 로켓. 데미지는 다소 희생되었으나 장탄수와 연사력을 향상시켰다.</STR>
+
+<STR id="ZITEM_NAME_520001">아레스 군용모</STR>
+<STR id="ZITEM_DESC_520001">아레스사에서 군에 납품하는 모자. 아레스 군용복장 세트에 안성맞춤이다.</STR>
+
+<STR id="ZITEM_NAME_520002">사병예복 모자</STR>
+<STR id="ZITEM_DESC_520002">제국 사병들이 중요한 행사때 입고 나가는 예복세트 모자</STR>
+
+<STR id="ZITEM_NAME_520003">남성 거너즈헤븐 중절모</STR>
+<STR id="ZITEM_DESC_520003">공화국의 사설 조직 거너즈헤븐의 멤버전용 중절모. 짙은 코트류와 어울려보이는 모자</STR>
+
+<STR id="ZITEM_NAME_520004">남성 밀리터리룩 두건</STR>
+<STR id="ZITEM_DESC_520004">부담없이 착용하기 좋은 남성용 두건. 전쟁터에서 자신을 위장하기 위해 사용하기도 한다.</STR>
+
+<STR id="ZITEM_NAME_520005">남성 민무늬 두건</STR>
+<STR id="ZITEM_DESC_520005">센스있게 간편히 착용하기에 좋은 남성용 두건. 패션 악세서리로 사용하곤 한다.</STR>
+
+<STR id="ZITEM_NAME_520006">남성 물방울무늬 두건</STR>
+<STR id="ZITEM_DESC_520006">가볍고 손쉽게 착용가능한 남성용 두건. 빨간색 천위에 귀여운 물방울이 수놓아져 있다.</STR>
+
+<STR id="ZITEM_NAME_520007">남성 별무늬 두건</STR>
+<STR id="ZITEM_DESC_520007">독특한 센스가 담겨진 별무늬의 남성용 두건.</STR>
+
+<STR id="ZITEM_NAME_520008">남성 이터널블루 모자</STR>
+<STR id="ZITEM_DESC_520008">바다의 무법자, 이터널블루의 남성용 제복 모자</STR>
+
+<STR id="ZITEM_NAME_520009">남성 모험가 모자</STR>
+<STR id="ZITEM_DESC_520009">초보 모험가부터 무거운 장비를 싫어하는 이들에게 권장되는 가벼운 남성용 모자</STR>
+
+<STR id="ZITEM_NAME_520010">남성 블루휘슬 모자</STR>
+<STR id="ZITEM_DESC_520010">제국의 골칫거리로 불리우는 갱단, 블루휘슬의 남성용 모자</STR>
+
+<STR id="ZITEM_NAME_520011">남성 아이팟 모자</STR>
+<STR id="ZITEM_DESC_520011">뜨거운 여름 해변을 달구는 쿨가이들의 모자</STR>
+
+<STR id="ZITEM_NAME_520012">남성 아이언크로우 모자</STR>
+<STR id="ZITEM_DESC_520012">무법자들의 도시 하바니를 주름잡던 아이언크로우 남성 멤버 모자</STR>
+
+<STR id="ZITEM_NAME_520013">남성 산타클로스 모자</STR>
+<STR id="ZITEM_DESC_520013">크리스마스 시즌 아이템. 남성용</STR>
+
+<STR id="ZITEM_NAME_520014">남성 팬텀브리드 두건</STR>
+<STR id="ZITEM_DESC_520014">고대부터 전승되어온 스파이 조직의 남성용 두건. 다소 무겁다.</STR>
+
+<STR id="ZITEM_NAME_520015">공화국 건프리스트 모자</STR>
+<STR id="ZITEM_DESC_520015">종교단체와 관련된 비밀조직의 남성용 모자. 가볍다.</STR>
+
+<STR id="ZITEM_NAME_520016">남성 그레이더스트 모자</STR>
+<STR id="ZITEM_DESC_520016">제국군 엘리트 부대인 그레이더스트의 남성용 제식 모자.</STR>
+
+<STR id="ZITEM_NAME_520017">남성 LOK 모자</STR>
+<STR id="ZITEM_DESC_520017">활동성에 초점을 맞춘 스포티 룩의 LOK 남성용 모자</STR>
+
+<STR id="ZITEM_NAME_520018">남성용 비기 스포츠 모자</STR>
+<STR id="ZITEM_DESC_520018">시원스러운 느낌의 고급 스포츠 모자. 역시 메이커는 불명</STR>
+
+<STR id="ZITEM_NAME_520019">남성 개량 한복용 모자</STR>
+<STR id="ZITEM_DESC_520019">새해 시즌 아이템. 남성용</STR>
+
+<STR id="ZITEM_NAME_520020">남성 데저트플레임 모자</STR>
+<STR id="ZITEM_DESC_520020">사막에서 활동하는 데저트플레임 부대의 남성용 모자</STR>
+
+<STR id="ZITEM_NAME_520021">남성 배틀브루드 헬멧</STR>
+<STR id="ZITEM_DESC_520021">강화재질로 만들어진 남성용 특수 갑옷의 일부. 머리를 보호한다.</STR>
+
+<STR id="ZITEM_NAME_520022">남성 액티브 스포츠 두건</STR>
+<STR id="ZITEM_DESC_520022">(한정기간판매) 어떤 스포츠에 적합하도록 만들어진듯한 남성용 스포츠 슈트. 입으면 강력한 힘을 발휘할 것 같다.</STR>
+
+<STR id="ZITEM_NAME_520025">남성 COS 장교복 모자</STR>
+<STR id="ZITEM_DESC_520025">남성용. 밀리터리 매니아들로부터 애호되고 있는 국적불명의 장교용 모자</STR>
+
+<STR id="ZITEM_NAME_520026">올드맨 가죽모자</STR>
+<STR id="ZITEM_DESC_520026">클래식한 매력이 돋보이는 가죽 재질의 남성용 모자. 방어구의 의미는 없을것 같지만 웬지 즐거운 일이 일어날 것만 같다.</STR>
+
+<STR id="ZITEM_NAME_520027">남성용 제우스 머리띠</STR>
+<STR id="ZITEM_DESC_520027">경량형의 남성용 머리띠. 방어의 효과는 없지만 체력 증가의 보너스가 강한 아이템.</STR>
+
+<STR id="ZITEM_NAME_520028">남성용 펌프킨헤드</STR>
+<STR id="ZITEM_DESC_520028">호박을 오려내어 만든 목적 불문의 헬멧. 전투에는 별 도움이 될것 같지 않지만 써보면 기분 좋아질 것 같다.</STR>
+
+<STR id="ZITEM_NAME_520029">남성용 블루베인 모자</STR>
+<STR id="ZITEM_DESC_520029">신축성이 강한 소재로 개발된 블루베인 시리즈에 어울리도록 만든 모자.</STR>
+
+<STR id="ZITEM_NAME_520030">남성 트레인가드 모자</STR>
+<STR id="ZITEM_DESC_520030">제국과 공화국을 관통하는 기관차를 지키는 병사들의 남성용 모자. 경량형의 잇점이 존재한다.</STR>
+
+<STR id="ZITEM_NAME_520031">남성 PA 모자</STR>
+<STR id="ZITEM_DESC_520031">제국 귀족들의 남성 개인비서들이 착용하는 모자</STR>
+
+<STR id="ZITEM_NAME_520501">렉스 군용모</STR>
+<STR id="ZITEM_DESC_520501">여군을 위해 렉스에서 납품하고 있는 군용모. 렉스 군용복장 세트에 안성맞춤이다.</STR>
+
+<STR id="ZITEM_NAME_520502">여군예복 베레모</STR>
+<STR id="ZITEM_DESC_520502">제국의 일반 여군에게 지급되는 예쁜세트 모자</STR>
+
+<STR id="ZITEM_NAME_520503">여성 거너즈헤븐 모자</STR>
+<STR id="ZITEM_DESC_520503">공화국의 사설 조직 거너즈헤븐의 멤버전용 모자</STR>
+
+<STR id="ZITEM_NAME_520504">여성 밀리터리룩 두건</STR>
+<STR id="ZITEM_DESC_520504">부담없이 착용하기 좋은 여성용 두건. 전쟁터에서 자신을 위장하기 위해 사용하기도 한다.</STR>
+
+<STR id="ZITEM_NAME_520505">여성 민무늬 두건</STR>
+<STR id="ZITEM_DESC_520505">센스있게 간편히 착용하기에 좋은 여성용 두건. 패션 악세서리로 사용하곤 한다.</STR>
+
+<STR id="ZITEM_NAME_520506">여성 물방울무늬 두건</STR>
+<STR id="ZITEM_DESC_520506">가볍고 손쉽게 착용가능한 두건. 빨간색 천위에 귀여운 물방울이 수놓아져 있다.</STR>
+
+<STR id="ZITEM_NAME_520507">여성 별무늬 두건</STR>
+<STR id="ZITEM_DESC_520507">독특한 센스가 담겨진 별무늬의 여성용 두건.</STR>
+
+<STR id="ZITEM_NAME_520508">여성 이터널블루 모자</STR>
+<STR id="ZITEM_DESC_520508">바다의 무법자, 이터널블루의 여성용 제복 모자</STR>
+
+<STR id="ZITEM_NAME_520509">여성 모험가 모자</STR>
+<STR id="ZITEM_DESC_520509">초보 모험가부터 무거운 장비를 싫어하는 이들에게 권장되는 가벼운 여성용 모자</STR>
+
+<STR id="ZITEM_NAME_520510">여성 블루휘슬 모자</STR>
+<STR id="ZITEM_DESC_520510">제국의 골칫거리로 불리우는 갱단, 블루휘슬의 여성용 모자</STR>
+
+<STR id="ZITEM_NAME_520511">여성 아이팟 모자</STR>
+<STR id="ZITEM_DESC_520511">뜨거운 여름 해변을 달구는 멋진 여성을 위한 모자</STR>
+
+<STR id="ZITEM_NAME_520512">여성 아이언크로우 모자</STR>
+<STR id="ZITEM_DESC_520512">무법자들의 도시 하바니를 주름잡던 아이언크로우 여성 멤버 모자</STR>
+
+<STR id="ZITEM_NAME_520513">여성 산타클로스 모자</STR>
+<STR id="ZITEM_DESC_520513">크리스마스 시즌 아이템. 여성용</STR>
+
+<STR id="ZITEM_NAME_520514">여성 팬텀브리드 두건</STR>
+<STR id="ZITEM_DESC_520514">고대부터 전승되어온 스파이 조직의 여성용 두건. 다소 무겁다.</STR>
+
+<STR id="ZITEM_NAME_520515">공화국 건프리스티스 모자</STR>
+<STR id="ZITEM_DESC_520515">종교단체와 관련된 비밀조직의 여성용 모자. 가볍다.</STR>
+
+<STR id="ZITEM_NAME_520516">여성 그레이더스트 모자</STR>
+<STR id="ZITEM_DESC_520516">제국군 엘리트 부대인 그레이더스트의 여성용 제식 모자.</STR>
+
+<STR id="ZITEM_NAME_520517">여성 LOK 모자</STR>
+<STR id="ZITEM_DESC_520517">활동성에 초점을 맞춘 스포티 룩의 LOK 여성용 모자</STR>
+
+<STR id="ZITEM_NAME_520518">여성용 비기 스포츠 모자</STR>
+<STR id="ZITEM_DESC_520518">시원스러운 느낌의 고급 스포츠 모자. 역시 메이커는 불명</STR>
+
+<STR id="ZITEM_NAME_520519">여성 개량한복용 모자</STR>
+<STR id="ZITEM_DESC_520519">새해 시즌 아이템. 여성용</STR>
+
+<STR id="ZITEM_NAME_520520">여성 데저트플레임 모자</STR>
+<STR id="ZITEM_DESC_520520">사막에서 활동하는 데저트플레임 부대의 여성용 모자</STR>
+
+<STR id="ZITEM_NAME_520521">여성 배틀브루드 헬멧</STR>
+<STR id="ZITEM_DESC_520521">강화재질로 만들어진 여성용 특수 갑옷의 일부. 머리를 보호한다.</STR>
+
+<STR id="ZITEM_NAME_520522">여성 액티브 스포츠 두건</STR>
+<STR id="ZITEM_DESC_520522">(한정기간판매) 어떤 스포츠에 적합하도록 만들어진듯한 여성용 스포츠 슈트. 입으면 강력한 힘을 발휘할 것 같다.</STR>
+
+<STR id="ZITEM_NAME_520525">여성 COS 장교복 모자</STR>
+<STR id="ZITEM_DESC_520525">여성용. 밀리터리 매니아들로부터 애호되고 있는 국적불명의 장교용 모자</STR>
+
+<STR id="ZITEM_NAME_520526">나들이 모자</STR>
+<STR id="ZITEM_DESC_520526">클래식한 매력이 돋보이는 여성용 나들이 모자. 방어구의 의미는 없어보이지만 웬지 즐거운 일이 일어날 것 같다.</STR>
+
+<STR id="ZITEM_NAME_520527">여성용 제우스 머리띠</STR>
+<STR id="ZITEM_DESC_520527">경량형의 여성용 머리띠. 방어의 효과는 없지만 체력 증가의 보너스가 강한 아이템.</STR>
+
+<STR id="ZITEM_NAME_520528">여성용 펌프킨헤드</STR>
+<STR id="ZITEM_DESC_520528">호박을 오려내어 만든 목적 불문의 헬멧. 전투에는 별 도움이 될것 같지 않지만 써보면 기분 좋아질 것 같다.</STR>
+
+<STR id="ZITEM_NAME_520529">여성용 블루베인 모자</STR>
+<STR id="ZITEM_DESC_520529">신축성이 강한 소재로 개발된 블루베인 시리즈에 어울리도록 만든 모자.</STR>
+
+<STR id="ZITEM_NAME_520530">여성 트레인가드 모자</STR>
+<STR id="ZITEM_DESC_520530">제국과 공화국을 관통하는 기관차를 지키는 병사들의 여성용 모자. 경량형의 잇점이 존재한다.</STR>
+
+<STR id="ZITEM_NAME_520531">여성 PA 헤드드레스</STR>
+<STR id="ZITEM_DESC_520531">제국 귀족들의 여성 개인비서들이 애용하는 모자</STR>
+
+<STR id="ZITEM_NAME_521001">사병예복 상의</STR>
+<STR id="ZITEM_DESC_521001">제국 사병들이 중요한 행사때 입고 나가는 예복 상의</STR>
+
+<STR id="ZITEM_NAME_521002">남성 거너즈헤븐 가죽 롱코트</STR>
+<STR id="ZITEM_DESC_521002">공화국의 사설 조직 거너즈헤븐의 멤버전용 가죽 롱코트와 상의.</STR>
+
+<STR id="ZITEM_NAME_521003">남성 이터널블루 코트</STR>
+<STR id="ZITEM_DESC_521003">바다의 무법자, 이터널블루의 남성용 제복 상의</STR>
+
+<STR id="ZITEM_NAME_521004">남성 모험가 자켓</STR>
+<STR id="ZITEM_DESC_521004">초보 모험가부터 무거운 장비를 싫어하는 이들에게 권장되는 가벼운 남성용 자켓</STR>
+
+<STR id="ZITEM_NAME_521005">남성 블루휘슬 자켓</STR>
+<STR id="ZITEM_DESC_521005">제국의 골칫거리로 불리우는 갱단, 블루휘슬의 남성용 자켓</STR>
+
+<STR id="ZITEM_NAME_521006">남성 아이팟 셔츠</STR>
+<STR id="ZITEM_DESC_521006">뜨거운 여름 해변을 달구는 쿨가이들의 하와이안 셔츠</STR>
+
+<STR id="ZITEM_NAME_521007">남성 아이언크로우 코트</STR>
+<STR id="ZITEM_DESC_521007">무법자들의 도시 하바니를 주름잡던 아이언크로우 남성 멤버 코트</STR>
+
+<STR id="ZITEM_NAME_521008">남성 산타클로스 코트</STR>
+<STR id="ZITEM_DESC_521008">크리스마스 시즌 아이템. 남성용</STR>
+
+<STR id="ZITEM_NAME_521009">남성 팬텀브리드 자켓</STR>
+<STR id="ZITEM_DESC_521009">고대부터 전승되어온 스파이 조직의 남성용 갑옷. 다소 무겁다.</STR>
+
+<STR id="ZITEM_NAME_521010">공화국 건프리스트 상의</STR>
+<STR id="ZITEM_DESC_521010">종교단체와 관련된 비밀조직의 남성용 상의. 가볍다.</STR>
+
+<STR id="ZITEM_NAME_521011">남성 그레이더스트 롱코트</STR>
+<STR id="ZITEM_DESC_521011">제국군 엘리트 부대인 그레이더스트의 남성용 제식 코트.</STR>
+
+<STR id="ZITEM_NAME_521012">남성 LOK 점퍼</STR>
+<STR id="ZITEM_DESC_521012">활동성에 초점을 맞춘 스포티 룩의 LOK 남성용 점퍼</STR>
+
+<STR id="ZITEM_NAME_521013">남성용 비기 롱코트</STR>
+<STR id="ZITEM_DESC_521013">정체불명의 메이커로부터 생산된 남성용 코트. 이국적이고도 화려한 문양이 코트에 새겨져 있다.</STR>
+
+<STR id="ZITEM_NAME_521014">남성 건나이트 롱코트</STR>
+<STR id="ZITEM_DESC_521014">액시움의 어느 전설적인 남성 건파이터가 입었다던 롱코트.</STR>
+
+<STR id="ZITEM_NAME_521015">남성 개량한복 두루마기</STR>
+<STR id="ZITEM_DESC_521015">새해 시즌 아이템. 남성용</STR>
+
+<STR id="ZITEM_NAME_521016">남성 데저트플레임 상의</STR>
+<STR id="ZITEM_DESC_521016">사막에서 활동하는 데저트플레임 부대의 남성용 상의</STR>
+
+<STR id="ZITEM_NAME_521017">남성 배틀브루드 갑옷</STR>
+<STR id="ZITEM_DESC_521017">강화재질로 만들어진 남성용 특수 갑옷의 일부. 상반신을 보호한다.</STR>
+
+<STR id="ZITEM_NAME_521018">남성 액티브 스포츠 상의</STR>
+<STR id="ZITEM_DESC_521018">(한정기간판매) 어떤 스포츠에 적합하도록 만들어진듯한 남성용 스포츠 슈트. 입으면 강력한 힘을 발휘할 것 같다.</STR>
+
+<STR id="ZITEM_NAME_521021">남성 COS 장교복 상의</STR>
+<STR id="ZITEM_DESC_521021">남성용. 밀리터리 매니아들로부터 애호되고 있는 국적불명의 장교복 상의</STR>
+
+<STR id="ZITEM_NAME_521022">남성용 제우스 코트</STR>
+<STR id="ZITEM_DESC_521022">경량형의 남성용 코트. 주황색과 남색의 조화가 눈길을 끈다.</STR>
+
+<STR id="ZITEM_NAME_521023">남성용 블루베인 상의</STR>
+<STR id="ZITEM_DESC_521023">신축성이 강한 소재로 출시된 블루베인 시리즈의 상의.</STR>
+
+<STR id="ZITEM_NAME_521024">남성 트레인가드 상의</STR>
+<STR id="ZITEM_DESC_521024">제국과 공화국을 관통하는 기관차를 지키는 병사들의 남성용 상의. 경량형의 잇점이 존재한다.</STR>
+
+<STR id="ZITEM_NAME_521025">남성 PA 자켓</STR>
+<STR id="ZITEM_DESC_521025">제국 귀족들의 남성 개인비서들이 애용하고 있는 자켓</STR>
+
+<STR id="ZITEM_NAME_521501">여군예복 자켓</STR>
+<STR id="ZITEM_DESC_521501">제국의 일반 여군에게 지급되는 예복세트 상의</STR>
+
+<STR id="ZITEM_NAME_521502">여성 거너즈헤븐 모직 롱코트</STR>
+<STR id="ZITEM_DESC_521502">공화국의 사설 조직 거너즈헤븐의 멤버전용 여성용 모직롱코트 및 상의.</STR>
+
+<STR id="ZITEM_NAME_521503">여성 이터널블루 코트</STR>
+<STR id="ZITEM_DESC_521503">바다의 무법자, 이터널블루의 여성용 제복 상의</STR>
+
+<STR id="ZITEM_NAME_521504">여성 모험가 자켓</STR>
+<STR id="ZITEM_DESC_521504">초보 모험가부터 무거운 장비를 싫어하는 이들에게 권장되는 가벼운 여성용 자켓</STR>
+
+<STR id="ZITEM_NAME_521505">여성 블루휘슬 자켓</STR>
+<STR id="ZITEM_DESC_521505">제국의 골칫거리로 불리우는 갱단, 블루휘슬의 여성용 자켓</STR>
+
+<STR id="ZITEM_NAME_521506">여성 아이팟 비키니 상의</STR>
+<STR id="ZITEM_DESC_521506">뜨거운 여름 해변을 달구는 멋진 여성을 위한 비키니 상의</STR>
+
+<STR id="ZITEM_NAME_521507">여성 아이언크로우 코트</STR>
+<STR id="ZITEM_DESC_521507">무법자들의 도시 하바니를 주름잡던 아이언크로우 여성 멤버 코트</STR>
+
+<STR id="ZITEM_NAME_521508">여성 산타클로스 코트</STR>
+<STR id="ZITEM_DESC_521508">크리스마스 시즌 아이템. 여성용</STR>
+
+<STR id="ZITEM_NAME_521509">여성 팬텀브리드 자켓</STR>
+<STR id="ZITEM_DESC_521509">고대부터 전승되어온 스파이 조직의 여성용 갑옷. 다소 무겁다.</STR>
+
+<STR id="ZITEM_NAME_521510">공화국 건프리스티스 상의</STR>
+<STR id="ZITEM_DESC_521510">종교단체와 관련된 비밀조직의 여성용 상의. 가볍다.</STR>
+
+<STR id="ZITEM_NAME_521511">여성 그레이더스트 롱코트</STR>
+<STR id="ZITEM_DESC_521511">제국군 엘리트 부대인 그레이더스트의 여성용 제식 코트.</STR>
+
+<STR id="ZITEM_NAME_521512">여성 LOK 점퍼</STR>
+<STR id="ZITEM_DESC_521512">활동성에 초점을 맞춘 스포티 룩의 LOK 여성용 점퍼</STR>
+
+<STR id="ZITEM_NAME_521513">여성용 비기 롱코트</STR>
+<STR id="ZITEM_DESC_521513">정체불명의 메이커로부터 생산된 여성용 코트. 이국적이고도 화려한 문양이 코트에 새겨져 있다.</STR>
+
+<STR id="ZITEM_NAME_521514">여성 건나이트 자켓</STR>
+<STR id="ZITEM_DESC_521514">액시움의 어느 전설적인 여성 건파이터가 입었다던 자켓</STR>
+
+<STR id="ZITEM_NAME_521515">여성 개량한복 저고리</STR>
+<STR id="ZITEM_DESC_521515">새해 시즌 아이템. 여성용</STR>
+
+<STR id="ZITEM_NAME_521516">여성 데저트플레임 상의</STR>
+<STR id="ZITEM_DESC_521516">사막에서 활동하는 데저트플레임 부대의 여성용 상의</STR>
+
+<STR id="ZITEM_NAME_521517">여성 배틀브루드 갑옷</STR>
+<STR id="ZITEM_DESC_521517">강화재질로 만들어진 여성용 특수 갑옷의 일부. 상반신을 보호한다.</STR>
+
+<STR id="ZITEM_NAME_521518">여성 액티브 스포츠 상의</STR>
+<STR id="ZITEM_DESC_521518">(한정기간판매) 어떤 스포츠에 적합하도록 만들어진듯한 여성용 스포츠 슈트. 입으면 강력한 힘을 발휘할 것 같다.</STR>
+
+<STR id="ZITEM_NAME_521521">여성 COS 장교복 상의</STR>
+<STR id="ZITEM_DESC_521521">여성용. 밀리터리 매니아들로부터 애호되고 있는 국적불명의 장교복 상의</STR>
+
+<STR id="ZITEM_NAME_521522">여성용 제우스 코트</STR>
+<STR id="ZITEM_DESC_521522">경량형의 여성용 코트. 주황색과 남색의 조화가 눈길을 끈다.</STR>
+
+<STR id="ZITEM_NAME_521523">여성용 블루베인 상의</STR>
+<STR id="ZITEM_DESC_521523">신축성이 강한 소재로 출시된 블루베인 시리즈의 상의.</STR>
+
+<STR id="ZITEM_NAME_521524">여성 트레인가드 상의</STR>
+<STR id="ZITEM_DESC_521524">제국과 공화국을 관통하는 기관차를 지키는 병사들의 여성용 상의. 경량형의 잇점이 존재한다.</STR>
+
+<STR id="ZITEM_NAME_521525">여성 PA 드레스(상의)</STR>
+<STR id="ZITEM_DESC_521525">제국 귀족들의 여성 개인비서들이 입고 있는 상의</STR>
+
+<STR id="ZITEM_NAME_522001">사병예복 장갑</STR>
+<STR id="ZITEM_DESC_522001">제국 사병들이 중요한 행사때 입고 나가는 예복세트 장갑</STR>
+
+<STR id="ZITEM_NAME_522002">남성 거너즈헤븐 장갑</STR>
+<STR id="ZITEM_DESC_522002">공화국의 사설 조직 거너즈헤븐의 멤버전용 장갑</STR>
+
+<STR id="ZITEM_NAME_522003">남성 이터널블루 장갑</STR>
+<STR id="ZITEM_DESC_522003">바다의 무법자, 이터널블루의 남성용 제복 장갑</STR>
+
+<STR id="ZITEM_NAME_522004">남성 모험가 장갑</STR>
+<STR id="ZITEM_DESC_522004">초보 모험가부터 무거운 장비를 싫어하는 이들에게 권장되는 가벼운 남성용 장갑</STR>
+
+<STR id="ZITEM_NAME_522005">남성 블루휘슬 장갑</STR>
+<STR id="ZITEM_DESC_522005">제국의 골칫거리로 불리우는 갱단, 블루휘슬의 남성용 장갑</STR>
+
+<STR id="ZITEM_NAME_522006">남성 아이팟 장갑</STR>
+<STR id="ZITEM_DESC_522006">뜨거운 여름 해변을 달구는 쿨가이들의 장갑</STR>
+
+<STR id="ZITEM_NAME_522007">남성 아이언크로우 장갑</STR>
+<STR id="ZITEM_DESC_522007">무법자들의 도시 하바니를 주름잡던 아이언크로우 남성 멤버 장갑</STR>
+
+<STR id="ZITEM_NAME_522008">남성 산타클로스 장갑</STR>
+<STR id="ZITEM_DESC_522008">크리스마스 시즌 아이템. 남성용</STR>
+
+<STR id="ZITEM_NAME_522009">남성 팬텀브리드 장갑</STR>
+<STR id="ZITEM_DESC_522009">고대부터 전승되어온 스파이 조직의 남성용 장갑. 다소 무겁다.</STR>
+
+<STR id="ZITEM_NAME_522010">공화국 건프리스트 장갑</STR>
+<STR id="ZITEM_DESC_522010">종교단체와 관련된 비밀조직의 남성용 장갑. 가볍다.</STR>
+
+<STR id="ZITEM_NAME_522011">남성 그레이더스트 장갑</STR>
+<STR id="ZITEM_DESC_522011">제국군 엘리트 부대인 그레이더스트의 남성용 제식 장갑.</STR>
+
+<STR id="ZITEM_NAME_522012">남성 LOK 가죽 장갑</STR>
+<STR id="ZITEM_DESC_522012">활동성에 초점을 맞춘 스포티 룩의 LOK 남성용 가죽 장갑</STR>
+
+<STR id="ZITEM_NAME_522013">남성 건나이트 장갑</STR>
+<STR id="ZITEM_DESC_522013">액시움의 어느 전설적인 남성 건파이터가 입었다던 장갑</STR>
+
+<STR id="ZITEM_NAME_522014">남성 개량 한복용 장갑</STR>
+<STR id="ZITEM_DESC_522014">새해 시즌 아이템. 남성용</STR>
+
+<STR id="ZITEM_NAME_522015">남성 데저트플레임 장갑</STR>
+<STR id="ZITEM_DESC_522015">사막에서 활동하는 데저트플레임 부대의 남성용 가죽장갑</STR>
+
+<STR id="ZITEM_NAME_522016">남성 배틀브루드 건틀렛</STR>
+<STR id="ZITEM_DESC_522016">강화재질로 만들어진 남성용 특수 갑옷의 일부. 손을 보호한다.</STR>
+
+<STR id="ZITEM_NAME_522017">남성 COS 장교복 장갑</STR>
+<STR id="ZITEM_DESC_522017">남성용. 밀리터리 매니아들로부터 애호되고 있는 국적불명의 장교용 장갑</STR>
+
+<STR id="ZITEM_NAME_522018">남성용 블루베인 장갑</STR>
+<STR id="ZITEM_DESC_522018">신축성이 강한 소재로 개발된 블루베인 장갑.</STR>
+
+<STR id="ZITEM_NAME_522019">남성 트레인가드 장갑</STR>
+<STR id="ZITEM_DESC_522019">제국과 공화국을 관통하는 기관차를 지키는 병사들의 남성용 장갑. 경량형의 잇점이 존재한다.</STR>
+
+<STR id="ZITEM_NAME_522020">남성 PA 가죽장갑</STR>
+<STR id="ZITEM_DESC_522020">제국 귀족들의 남성 개인비서들이 애용하는 장갑</STR>
+
+<STR id="ZITEM_NAME_522501">여군예복 장갑</STR>
+<STR id="ZITEM_DESC_522501">제국의 일반 여군에게 지급되는 예복세트 장갑</STR>
+
+<STR id="ZITEM_NAME_522502">여성 거너즈헤븐 토끼털 장갑</STR>
+<STR id="ZITEM_DESC_522502">공화국의 사설 조직 거너즈헤븐의 멤버전용 털장갑. 부드러운 토끼털로 마무리되어 있다.</STR>
+
+<STR id="ZITEM_NAME_522503">여성 이터널블루 장갑</STR>
+<STR id="ZITEM_DESC_522503">바다의 무법자, 이터널블루의 여성용 제복 장갑</STR>
+
+<STR id="ZITEM_NAME_522504">여성 모험가 장갑</STR>
+<STR id="ZITEM_DESC_522504">초보 모험가부터 무거운 장비를 싫어하는 이들에게 권장되는 가벼운 여성용 장갑</STR>
+
+<STR id="ZITEM_NAME_522505">여성 블루휘슬 장갑</STR>
+<STR id="ZITEM_DESC_522505">제국의 골칫거리로 불리우는 갱단, 블루휘슬의 여성용 장갑</STR>
+
+<STR id="ZITEM_NAME_522506">여성 아이팟 장갑</STR>
+<STR id="ZITEM_DESC_522506">뜨거운 여름 해변을 달구는 멋진 여성을 위한 장갑</STR>
+
+<STR id="ZITEM_NAME_522507">여성 아이언크로우 장갑</STR>
+<STR id="ZITEM_DESC_522507">무법자들의 도시 하바니를 주름잡던 아이언크로우 여성 멤버 장갑</STR>
+
+<STR id="ZITEM_NAME_522508">여성 산타클로스 장갑</STR>
+<STR id="ZITEM_DESC_522508">크리스마스 시즌 아이템. 여성용</STR>
+
+<STR id="ZITEM_NAME_522509">여성 팬텀브리드 장갑</STR>
+<STR id="ZITEM_DESC_522509">고대부터 전승되어온 스파이 조직의 여성용 장갑. 다소 무겁다.</STR>
+
+<STR id="ZITEM_NAME_522510">공화국 건프리스티스 장갑</STR>
+<STR id="ZITEM_DESC_522510">종교단체와 관련된 비밀조직의 여성용 장갑. 가볍다.</STR>
+
+<STR id="ZITEM_NAME_522511">여성 그레이더스트 장갑</STR>
+<STR id="ZITEM_DESC_522511">제국군 엘리트 부대인 그레이더스트의 여성용 제식 장갑.</STR>
+
+<STR id="ZITEM_NAME_522512">여성 LOK 가죽 장갑</STR>
+<STR id="ZITEM_DESC_522512">활동성에 초점을 맞춘 스포티 룩의 LOK 여성용 가죽 장갑</STR>
+
+<STR id="ZITEM_NAME_522513">여성 건나이트 장갑</STR>
+<STR id="ZITEM_DESC_522513">액시움의 어느 전설적인 여성 건파이터가 입었다던 장갑</STR>
+
+<STR id="ZITEM_NAME_522514">여성 개량한복용 장갑</STR>
+<STR id="ZITEM_DESC_522514">새해 시즌 아이템. 여성용</STR>
+
+<STR id="ZITEM_NAME_522515">여성 데저트플레임 장갑</STR>
+<STR id="ZITEM_DESC_522515">사막에서 활동하는 데저트플레임 부대의 여성용 가죽장갑</STR>
+
+<STR id="ZITEM_NAME_522516">여성 배틀브루드 건틀렛</STR>
+<STR id="ZITEM_DESC_522516">강화재질로 만들어진 여성용 특수 갑옷의 일부. 손을 보호한다.</STR>
+
+<STR id="ZITEM_NAME_522517">여성 COS 장교복 장갑</STR>
+<STR id="ZITEM_DESC_522517">여성용. 밀리터리 매니아들로부터 애호되고 있는 국적불명의 장교용 장갑</STR>
+
+<STR id="ZITEM_NAME_522518">여성용 블루베인 장갑</STR>
+<STR id="ZITEM_DESC_522518">신축성이 강한 소재로 개발된 블루베인 장갑.</STR>
+
+<STR id="ZITEM_NAME_522519">여성 트레인가드 장갑</STR>
+<STR id="ZITEM_DESC_522519">제국과 공화국을 관통하는 기관차를 지키는 병사들의 여성용 장갑. 경량형의 잇점이 존재한다.</STR>
+
+<STR id="ZITEM_NAME_522520">여성 PA 면장갑</STR>
+<STR id="ZITEM_DESC_522520">제국 귀족들의 여성 개인비서들이 애용하는 장갑</STR>
+
+<STR id="ZITEM_NAME_523001">사병예복 하의</STR>
+<STR id="ZITEM_DESC_523001">제국의 일반사병들이 중요한 행사때 입고 나가는 예복 하의</STR>
+
+<STR id="ZITEM_NAME_523002">남성 거너즈헤븐 정장바지</STR>
+<STR id="ZITEM_DESC_523002">공화국의 사설 조직 거너즈헤븐의 멤버전용 바지.</STR>
+
+<STR id="ZITEM_NAME_523003">남성 이터널블루 바지</STR>
+<STR id="ZITEM_DESC_523003">바다의 무법자, 이터널블루의 남성용 제복 바지</STR>
+
+<STR id="ZITEM_NAME_523004">남성 모험가 바지</STR>
+<STR id="ZITEM_DESC_523004">초보 모험가부터 무거운 장비를 싫어하는 이들에게 권장되는 가벼운 남성용 바지</STR>
+
+<STR id="ZITEM_NAME_523005">남성 블루휘슬 바지</STR>
+<STR id="ZITEM_DESC_523005">제국의 골칫거리로 불리우는 갱단, 블루휘슬의 남성용 바지</STR>
+
+<STR id="ZITEM_NAME_523006">남성 아이팟 수영바지</STR>
+<STR id="ZITEM_DESC_523006">뜨거운 여름 해변을 달구는 쿨가이들의 수영바지</STR>
+
+<STR id="ZITEM_NAME_523007">남성 아이언크로우 바지</STR>
+<STR id="ZITEM_DESC_523007">무법자들의 도시 하바니를 주름잡던 아이언크로우 남성 멤버 바지</STR>
+
+<STR id="ZITEM_NAME_523008">남성 산타클로스 바지</STR>
+<STR id="ZITEM_DESC_523008">크리스마스 시즌 아이템. 남성용</STR>
+
+<STR id="ZITEM_NAME_523009">남성 팬텀브리드 바지</STR>
+<STR id="ZITEM_DESC_523009">고대부터 전승되어온 스파이 조직의 남성용 바지. 다소 무겁다.</STR>
+
+<STR id="ZITEM_NAME_523010">공화국 건프리스트 하의</STR>
+<STR id="ZITEM_DESC_523010">종교단체와 관련된 비밀조직의 남성용 바지. 가볍다.</STR>
+
+<STR id="ZITEM_NAME_523011">남성 그레이더스트 바지</STR>
+<STR id="ZITEM_DESC_523011">제국군 엘리트 부대인 그레이더스트의 남성용 제식 바지.</STR>
+
+<STR id="ZITEM_NAME_523012">남성 LOK 바지</STR>
+<STR id="ZITEM_DESC_523012">활동성에 초점을 맞춘 스포티 룩의 LOK 남성용 바지</STR>
+
+<STR id="ZITEM_NAME_523013">남성 건나이트 바지</STR>
+<STR id="ZITEM_DESC_523013">액시움의 어느 전설적인 남성 건파이터가 입었다던 바지.</STR>
+
+<STR id="ZITEM_NAME_523014">남성 개량한복 바지</STR>
+<STR id="ZITEM_DESC_523014">새해 시즌 아이템. 남성용</STR>
+
+<STR id="ZITEM_NAME_523015">남성 데저트플레임 하의</STR>
+<STR id="ZITEM_DESC_523015">사막에서 활동하는 데저트플레임 부대의 남성용 하의</STR>
+
+<STR id="ZITEM_NAME_523016">남성 배틀브루드 바지</STR>
+<STR id="ZITEM_DESC_523016">강화재질로 만들어진 남성용 특수 갑옷의 일부. 하반신을 보호한다.</STR>
+
+<STR id="ZITEM_NAME_523017">남성 액티브 스포츠 하의</STR>
+<STR id="ZITEM_DESC_523017">(한정기간판매) 어떤 스포츠에 적합하도록 만들어진듯한 남성용 스포츠 슈트. 입으면 강력한 힘을 발휘할 것 같다.</STR>
+
+<STR id="ZITEM_NAME_523020">남성 COS 장교복 하의</STR>
+<STR id="ZITEM_DESC_523020">남성용. 밀리터리 매니아들로부터 애호되고 있는 국적불명의 장교복 하의</STR>
+
+<STR id="ZITEM_NAME_523021">남성용 블루베인 하의</STR>
+<STR id="ZITEM_DESC_523021">신축성이 강한 소재로 출시된 블루베인 시리즈의 하의.</STR>
+
+<STR id="ZITEM_NAME_523022">남성 트레인가드 하의</STR>
+<STR id="ZITEM_DESC_523022">제국과 공화국을 관통하는 기관차를 지키는 병사들의 남성용 하의. 경량형의 잇점이 존재한다.</STR>
+
+<STR id="ZITEM_NAME_523023">남성 PA 바지</STR>
+<STR id="ZITEM_DESC_523023">제국 귀족들의 남성 개인비서들이 입고 있는 바지</STR>
+
+<STR id="ZITEM_NAME_523501">여군예복 하의</STR>
+<STR id="ZITEM_DESC_523501">제국의 일반 여군에게 지급되는 예복세트 하의</STR>
+
+<STR id="ZITEM_NAME_523502">여성 거너즈헤븐 하의</STR>
+<STR id="ZITEM_DESC_523502">공화국의 사설 조직 거너즈헤븐의 멤버전용 여성용 바지.</STR>
+
+<STR id="ZITEM_NAME_523503">여성 이터널블루 바지</STR>
+<STR id="ZITEM_DESC_523503">바다의 무법자, 이터널블루의 여성용 제복 바지</STR>
+
+<STR id="ZITEM_NAME_523504">여성 모험가 바지</STR>
+<STR id="ZITEM_DESC_523504">초보 모험가부터 무거운 장비를 싫어하는 이들에게 권장되는 가벼운 여성용 바지</STR>
+
+<STR id="ZITEM_NAME_523505">여성 블루휘슬 바지</STR>
+<STR id="ZITEM_DESC_523505">제국의 골칫거리로 불리우는 갱단, 블루휘슬의 여성용 바지</STR>
+
+<STR id="ZITEM_NAME_523506">여성 아이팟 비키니 하의</STR>
+<STR id="ZITEM_DESC_523506">뜨거운 여름 해변을 달구는 멋진 여성을 위한 비키니 하의</STR>
+
+<STR id="ZITEM_NAME_523507">여성 아이언크로우 바지</STR>
+<STR id="ZITEM_DESC_523507">무법자들의 도시 하바니를 주름잡던 아이언크로우 여성 멤버 바지</STR>
+
+<STR id="ZITEM_NAME_523508">여성 산타클로스 바지</STR>
+<STR id="ZITEM_DESC_523508">크리스마스 시즌 아이템. 여성용</STR>
+
+<STR id="ZITEM_NAME_523509">여성 팬텀브리드 바지</STR>
+<STR id="ZITEM_DESC_523509">고대부터 전승되어온 스파이 조직의 여성용 바지. 다소 무겁다.</STR>
+
+<STR id="ZITEM_NAME_523510">공화국 건프리스티스 하의</STR>
+<STR id="ZITEM_DESC_523510">종교단체와 관련된 비밀조직의 여성용 바지. 가볍다.</STR>
+
+<STR id="ZITEM_NAME_523511">여성 그레이더스트 바지</STR>
+<STR id="ZITEM_DESC_523511">제국군 엘리트 부대인 그레이더스트의 여성용 제식 바지.</STR>
+
+<STR id="ZITEM_NAME_523512">여성 LOK 바지</STR>
+<STR id="ZITEM_DESC_523512">활동성에 초점을 맞춘 스포티 룩의 LOK 여성용 바지</STR>
+
+<STR id="ZITEM_NAME_523513">여성 건나이트 바지</STR>
+<STR id="ZITEM_DESC_523513">액시움의 어느 전설적인 여성 건파이터가 입었다던 바지.</STR>
+
+<STR id="ZITEM_NAME_523514">여성 개량한복 바지</STR>
+<STR id="ZITEM_DESC_523514">새해 시즌 아이템. 여성용</STR>
+
+<STR id="ZITEM_NAME_523515">여성 데저트플레임 하의</STR>
+<STR id="ZITEM_DESC_523515">사막에서 활동하는 데저트플레임 부대의 여성용 하의</STR>
+
+<STR id="ZITEM_NAME_523516">여성 배틀브루드 바지</STR>
+<STR id="ZITEM_DESC_523516">강화재질로 만들어진 여성용 특수 갑옷의 일부. 하반신을 보호한다.</STR>
+
+<STR id="ZITEM_NAME_523517">여성 액티브 스포츠 하의</STR>
+<STR id="ZITEM_DESC_523517">(한정기간판매) 어떤 스포츠에 적합하도록 만들어진듯한 여성용 스포츠 슈트. 입으면 강력한 힘을 발휘할 것 같다.</STR>
+
+<STR id="ZITEM_NAME_523520">여성 COS 장교복 하의</STR>
+<STR id="ZITEM_DESC_523520">여성용. 밀리터리 매니아들로부터 애호되고 있는 국적불명의 장교복 하의</STR>
+
+<STR id="ZITEM_NAME_523521">여성용 블루베인 하의</STR>
+<STR id="ZITEM_DESC_523521">신축성이 강한 소재로 출시된 블루베인 시리즈의 하의.</STR>
+
+<STR id="ZITEM_NAME_523522">여성 트레인가드 하의</STR>
+<STR id="ZITEM_DESC_523522">제국과 공화국을 관통하는 기관차를 지키는 병사들의 여성용 하의. 경량형의 잇점이 존재한다.</STR>
+
+<STR id="ZITEM_NAME_523523">여성 PA 드레스(하의)</STR>
+<STR id="ZITEM_DESC_523523">제국 귀족들의 여성 개인비서들이 입고 있는 하의</STR>
+
+<STR id="ZITEM_NAME_524001">사병예복 신발</STR>
+<STR id="ZITEM_DESC_524001">제국 사병들이 중요한 행사때 입고 나가는 예복세트 신발</STR>
+
+<STR id="ZITEM_NAME_524002">남성 거너즈헤븐 가죽 구두</STR>
+<STR id="ZITEM_DESC_524002">공화국의 사설 조직 거너즈헤븐의 멤버전용 가죽 구두</STR>
+
+<STR id="ZITEM_NAME_524003">남성 이터널블루 부츠</STR>
+<STR id="ZITEM_DESC_524003">바다의 무법자, 이터널블루의 남성용 제복 부츠</STR>
+
+<STR id="ZITEM_NAME_524004">남성 모험가 부츠</STR>
+<STR id="ZITEM_DESC_524004">초보 모험가부터 무거운 장비를 싫어하는 이들에게 권장되는 가벼운 남성용 신발</STR>
+
+<STR id="ZITEM_NAME_524005">남성 블루휘슬 신발</STR>
+<STR id="ZITEM_DESC_524005">제국의 골칫거리로 불리우는 갱단, 블루휘슬의 남성용 신발</STR>
+
+<STR id="ZITEM_NAME_524006">남성 아이팟 아쿠아슈즈</STR>
+<STR id="ZITEM_DESC_524006">뜨거운 여름 해변을 달구는 쿨가이들의 아쿠아 슈즈</STR>
+
+<STR id="ZITEM_NAME_524007">남성 아이언크로우 신발</STR>
+<STR id="ZITEM_DESC_524007">무법자들의 도시 하바니를 주름잡던 아이언크로우 남성 멤버 신발</STR>
+
+<STR id="ZITEM_NAME_524008">남성 산타클로스 부츠</STR>
+<STR id="ZITEM_DESC_524008">크리스마스 시즌 아이템. 남성용</STR>
+
+<STR id="ZITEM_NAME_524009">남성 팬텀브리드 신발</STR>
+<STR id="ZITEM_DESC_524009">고대부터 전승되어온 스파이 조직의 남성용 신발. 다소 무겁다.</STR>
+
+<STR id="ZITEM_NAME_524010">공화국 건프리스트 부츠</STR>
+<STR id="ZITEM_DESC_524010">종교단체와 관련된 비밀조직의 남성용 신발. 가볍다.</STR>
+
+<STR id="ZITEM_NAME_524011">남성 그레이더스트 구두</STR>
+<STR id="ZITEM_DESC_524011">제국군 엘리트 부대인 그레이더스트의 남성용 제식 구두.</STR>
+
+<STR id="ZITEM_NAME_524012">남성 LOK 운동화</STR>
+<STR id="ZITEM_DESC_524012">활동성에 초점을 맞춘 스포티 룩의 LOK 남성용 운동화</STR>
+
+<STR id="ZITEM_NAME_524013">남성 건나이트 구두</STR>
+<STR id="ZITEM_DESC_524013">액시움의 어느 전설적인 남성 건파이터가 입었다던 구두.</STR>
+
+<STR id="ZITEM_NAME_524014">남성 개량 한복용 신발</STR>
+<STR id="ZITEM_DESC_524014">새해 시즌 아이템. 남성용</STR>
+
+<STR id="ZITEM_NAME_524015">남성 데저트플레임 부츠</STR>
+<STR id="ZITEM_DESC_524015">사막에서 활동하는 데저트플레임 부대의 남성용 가죽부츠</STR>
+
+<STR id="ZITEM_NAME_524016">남성 배틀브루드 부츠</STR>
+<STR id="ZITEM_DESC_524016">강화재질로 만들어진 남성용 특수 갑옷의 일부. 발을 보호한다.</STR>
+
+<STR id="ZITEM_NAME_524017">남성 액티브 스포츠 슈즈</STR>
+<STR id="ZITEM_DESC_524017">(한정기간판매) 어떤 스포츠에 적합하도록 만들어진듯한 남성용 스포츠 슈트. 입으면 강력한 힘을 발휘할 것 같다.</STR>
+
+<STR id="ZITEM_NAME_524020">남성 COS 장교복 전투화</STR>
+<STR id="ZITEM_DESC_524020">남성용. 밀리터리 매니아들로부터 애호되고 있는 국적불명의 장교용 전투화</STR>
+
+<STR id="ZITEM_NAME_524021">남성 블루베인 신발</STR>
+<STR id="ZITEM_DESC_524021">신축성이 강한 소재로 출시된 블루베인 시리즈에 어울리도록 만들어진 가벼운 무게의 신발.</STR>
+
+<STR id="ZITEM_NAME_524022">남성 트레인가드 부츠</STR>
+<STR id="ZITEM_DESC_524022">제국과 공화국을 관통하는 기관차를 지키는 병사들의 남성용 가죽 부츠. 경량형의 잇점이 존재한다.</STR>
+
+<STR id="ZITEM_NAME_524023">남성 PA 구두</STR>
+<STR id="ZITEM_DESC_524023">제국 귀족들의 남성 개인비서들이 신고 있는 구두</STR>
+
+<STR id="ZITEM_NAME_524501">여군예복 신발</STR>
+<STR id="ZITEM_DESC_524501">제국의 일반 여군에게 지급되는 예복세트 신발</STR>
+
+<STR id="ZITEM_NAME_524502">여성 거너즈헤븐 강화가죽구두</STR>
+<STR id="ZITEM_DESC_524502">공화국의 사설 조직 거너즈헤븐의 멤버전용 신발. 강화가죽으로 튼튼하게 만들어졌다.</STR>
+
+<STR id="ZITEM_NAME_524503">여성 이터널블루 부츠</STR>
+<STR id="ZITEM_DESC_524503">바다의 무법자, 이터널블루의 여성용 제복 부츠</STR>
+
+<STR id="ZITEM_NAME_524504">여성 모험가 부츠</STR>
+<STR id="ZITEM_DESC_524504">초보 모험가부터 무거운 장비를 싫어하는 이들에게 권장되는 가벼운 여성용 신발</STR>
+
+<STR id="ZITEM_NAME_524505">여성 블루휘슬 신발</STR>
+<STR id="ZITEM_DESC_524505">제국의 골칫거리로 불리우는 갱단, 블루휘슬의 여성용 신발</STR>
+
+<STR id="ZITEM_NAME_524506">여성 아이팟 샌들</STR>
+<STR id="ZITEM_DESC_524506">뜨거운 여름 해변을 달구는 멋진 여성을 위한 샌들</STR>
+
+<STR id="ZITEM_NAME_524507">여성 아이언크로우 신발</STR>
+<STR id="ZITEM_DESC_524507">무법자들의 도시 하바니를 주름잡던 아이언크로우 여성 멤버 신발</STR>
+
+<STR id="ZITEM_NAME_524508">여성 산타클로스 부츠</STR>
+<STR id="ZITEM_DESC_524508">크리스마스 시즌 아이템. 여성용</STR>
+
+<STR id="ZITEM_NAME_524509">여성 팬텀브리드 신발</STR>
+<STR id="ZITEM_DESC_524509">고대부터 전승되어온 스파이 조직의 여성용 신발. 다소 무겁다.</STR>
+
+<STR id="ZITEM_NAME_524510">공화국 건프리스티스 부츠</STR>
+<STR id="ZITEM_DESC_524510">종교단체와 관련된 비밀조직의 여성용 신발. 가볍다.</STR>
+
+<STR id="ZITEM_NAME_524511">여성 그레이더스트 구두</STR>
+<STR id="ZITEM_DESC_524511">제국군 엘리트 부대인 그레이더스트의 여성용 제식 구두.</STR>
+
+<STR id="ZITEM_NAME_524512">여성 LOK 운동화</STR>
+<STR id="ZITEM_DESC_524512">활동성에 초점을 맞춘 스포티 룩의 LOK 여성용 운동화</STR>
+
+<STR id="ZITEM_NAME_524513">여성 건나이트 구두</STR>
+<STR id="ZITEM_DESC_524513">액시움의 어느 전설적인 여성 건파이터가 입었다던 구두</STR>
+
+<STR id="ZITEM_NAME_524514">여성 개량한복용 신발</STR>
+<STR id="ZITEM_DESC_524514">새해 시즌 아이템. 여성용</STR>
+
+<STR id="ZITEM_NAME_524515">여성 데저트플레임 부츠</STR>
+<STR id="ZITEM_DESC_524515">사막에서 활동하는 데저트플레임 부대의 여성용 가죽부츠</STR>
+
+<STR id="ZITEM_NAME_524516">여성 배틀브루드 부츠</STR>
+<STR id="ZITEM_DESC_524516">강화재질로 만들어진 여성용 특수 갑옷의 일부. 발을 보호한다.</STR>
+
+<STR id="ZITEM_NAME_524517">여성 액티브 스포츠 슈즈</STR>
+<STR id="ZITEM_DESC_524517">(한정기간판매) 어떤 스포츠에 적합하도록 만들어진듯한 여성용 스포츠 슈트. 입으면 강력한 힘을 발휘할 것 같다.</STR>
+
+<STR id="ZITEM_NAME_524520">여성 COS 장교복 전투화</STR>
+<STR id="ZITEM_DESC_524520">여성용. 밀리터리 매니아들로부터 애호되고 있는 국적불명의 장교용 전투화</STR>
+
+<STR id="ZITEM_NAME_524521">여성 블루베인 신발</STR>
+<STR id="ZITEM_DESC_524521">신축성이 강한 소재로 출시된 블루베인 시리즈에 어울리도록 만들어진 가벼운 무게의 신발.</STR>
+
+<STR id="ZITEM_NAME_524522">여성 트레인가드 부츠</STR>
+<STR id="ZITEM_DESC_524522">제국과 공화국을 관통하는 기관차를 지키는 병사들의 여성용 부츠. 경량형의 잇점이 존재한다.</STR>
+
+<STR id="ZITEM_NAME_524523">여성 PA 구두</STR>
+<STR id="ZITEM_DESC_524523">제국 귀족들의 여성 개인비서들이 신고 있는 구두</STR>
+
+<STR id="ZITEM_NAME_525001">클로버 반지</STR>
+<STR id="ZITEM_DESC_525001">수정안에 행운의 상징인 클로버가 들어있는 반지. 착용자는 최대보유무게가 늘어난다.</STR>
+
+<STR id="ZITEM_NAME_525002">철기병 기념 반지</STR>
+<STR id="ZITEM_DESC_525002">철기병들에게 주어졌다는 반지. 그들의 무거운 장비들을 감안한다면 고대 마법사들이 이와 같이 강력한 힘을 가진 반지를 만들어낸 이유를 짐작할 수 있을것이다.</STR>
+
+<STR id="ZITEM_NAME_525003">대제의 반지</STR>
+<STR id="ZITEM_DESC_525003">대제 리시크를 위해 제작되었다는 반지. 불가사의한 힘이 흐르고 있는 이 반지의 착용자는 고대 마법의 강한 힘을 받는다.</STR>
+
+<STR id="ZITEM_NAME_525004">숙련의 반지</STR>
+<STR id="ZITEM_DESC_525004">획득 경험치와 바운티가 약 20% 증가한다. 한번에 2개 장착은 불가능하다.</STR>
+
+<STR id="ZITEM_NAME_525005">럭키 링</STR>
+<STR id="ZITEM_DESC_525005">많은 힘이 깃든 신비한 반지. 한 사람이 하나만 장착할 수 있다.</STR>
+
+<STR id="ZITEM_NAME_525101">럭키 쵸코바</STR>
+<STR id="ZITEM_DESC_525101">맛있게 보이는 초코렛. 먹으면 HP와 AP가 한꺼번에 소량 회복된다.</STR>
+
+<STR id="ZITEM_NAME_526001">탄창 포우치</STR>
+<STR id="ZITEM_DESC_526001">여분의 탄창을 넣어 다닐수 있는 주머니. 여분의 탄창 3개가 들어있다.</STR>
+
+<STR id="ZITEM_NAME_527001">의료킷 MX-S1</STR>
+<STR id="ZITEM_DESC_527001">초 경량화타입의 강력한 체력회복 키트. 체력회복이 MK시리즈의 2배에 달한다.(3개들이)</STR>
+
+<STR id="ZITEM_NAME_527002">의료킷 MX-S2</STR>
+<STR id="ZITEM_DESC_527002">초 경량화타입의 강력한 체력회복 키트. 체력회복이 MK시리즈의 2배에 달한다.(5개들이)</STR>
+
+<STR id="ZITEM_NAME_528001">수리킷 RX-S1</STR>
+<STR id="ZITEM_DESC_528001">초 경량화타입의 강력한 방어구 수리 키트. 회복력이 MK시리즈의 2배에 달한다.(3개들이)</STR>
+
+<STR id="ZITEM_NAME_528002">수리킷 RX-S2</STR>
+<STR id="ZITEM_DESC_528002">초 경량화타입의 강력한 방어구 수리 키트. 회복력이 MK시리즈의 2배에 달한다.(5개들이)</STR>
+
+<STR id="ZITEM_NAME_600001">카노푸스의 코인</STR>
+<STR id="ZITEM_DESC_600001">화염의 신, 카노푸스의 힘이 깃든 코인</STR>
+
+<STR id="ZITEM_NAME_600002">카노푸스의 인장</STR>
+<STR id="ZITEM_DESC_600002">화염의 신, 카노푸스의 힘이 깃든 인장</STR>
+
+<STR id="ZITEM_NAME_600003">카노푸스의 메달</STR>
+<STR id="ZITEM_DESC_600003">[인챈트 Lv.2] 카노푸스의 힘이 깃들어 있는 메달. 그 힘이 강하기 때문에 기를 모으지 않아도 검에 흐르는 불의 힘이 눈으로 관찰되어진다. (인챈트 공격 효과는 기를 모은후에만 가능하다.)</STR>
+
+<STR id="ZITEM_NAME_600004">카노푸스의 보석</STR>
+<STR id="ZITEM_DESC_600004">화염의 신, 카노푸스의 힘이 깃든 보석</STR>
+
+<STR id="ZITEM_NAME_600005">카노푸스의 눈</STR>
+<STR id="ZITEM_DESC_600005">화염의 신, 카노푸스의 눈</STR>
+
+<STR id="ZITEM_NAME_600006">카노푸스의 눈물</STR>
+<STR id="ZITEM_DESC_600006">[인챈트 Lv.0] 이 깨알같이 작은 보석에는 카노푸스의 힘이 깃들어 있다고 한다. 기를 모았을때 근접무기에 불의 힘이 생긴다. 인챈트 공격에 명중된 상대는 일정시간동안 매초 데미지를 입는다.</STR>
+
+<STR id="ZITEM_NAME_600101">에니아의 코인</STR>
+<STR id="ZITEM_DESC_600101">물과 얼음의 신, 에니아의 힘이 깃든 코인</STR>
+
+<STR id="ZITEM_NAME_600102">에니아의 인장</STR>
+<STR id="ZITEM_DESC_600102">물과 얼음의 신, 에니아의 힘이 깃든 인장</STR>
+
+<STR id="ZITEM_NAME_600103">에니아의 메달</STR>
+<STR id="ZITEM_DESC_600103">[인챈트 Lv.2] 에니아의 힘이 깃들어 있는 메달. 그 힘이 강하기 때문에 기를 모으지 않아도 검에 흐르는 얼음의 힘이 눈으로 관찰되어진다. (인챈트 공격 효과는 기를 모은후에만 가능하다.)</STR>
+
+<STR id="ZITEM_NAME_600104">에니아의 보석</STR>
+<STR id="ZITEM_DESC_600104">물과 얼음의 신, 에니아의 힘이 깃든 보석</STR>
+
+<STR id="ZITEM_NAME_600105">에니아의 눈</STR>
+<STR id="ZITEM_DESC_600105">물과 얼음의 신, 에니아의 눈</STR>
+
+<STR id="ZITEM_NAME_600106">에니아의 눈물</STR>
+<STR id="ZITEM_DESC_600106">[인챈트 Lv.0] 이 깨알같이 작은 보석에는 에니아의 힘이 깃들어 있다고 한다. 기를 모았을때 근접무기에 얼음이 힘이 생긴다. 인챈트 공격에 명중된 상대는 일정시간동안 매초 데미지를 입는다.</STR>
+
+<STR id="ZITEM_NAME_600201">윈즈카의 코인</STR>
+<STR id="ZITEM_DESC_600201">바람과 천공의 군주, 윈즈카의 힘이 깃든 코인</STR>
+
+<STR id="ZITEM_NAME_600202">윈즈카의 인장</STR>
+<STR id="ZITEM_DESC_600202">바람과 천공의 군주, 윈즈카의 힘이 깃든 인장</STR>
+
+<STR id="ZITEM_NAME_600203">윈즈카의 메달</STR>
+<STR id="ZITEM_DESC_600203">바람과 천공의 군주, 윈즈카의 힘이 깃든 메달</STR>
+
+<STR id="ZITEM_NAME_600204">윈즈카의 보석</STR>
+<STR id="ZITEM_DESC_600204">바람과 천공의 군주, 윈즈카의 힘이 깃든 보석</STR>
+
+<STR id="ZITEM_NAME_600205">윈즈카의 눈</STR>
+<STR id="ZITEM_DESC_600205">바람과 천공의 군주, 윈즈카의 눈</STR>
+
+<STR id="ZITEM_NAME_600301">지스톤의 코인</STR>
+<STR id="ZITEM_DESC_600301">대지의 신, 지스톤의 힘이 깃든 코인</STR>
+
+<STR id="ZITEM_NAME_600302">지스톤의 인장</STR>
+<STR id="ZITEM_DESC_600302">대지의 신, 지스톤의 힘이 깃든 인장</STR>
+
+<STR id="ZITEM_NAME_600303">지스톤의 메달</STR>
+<STR id="ZITEM_DESC_600303">대지의 신, 지스톤의 힘이 깃든 메달</STR>
+
+<STR id="ZITEM_NAME_600304">지스톤의 보석</STR>
+<STR id="ZITEM_DESC_600304">대지의 신, 지스톤의 힘이 깃든 보석</STR>
+
+<STR id="ZITEM_NAME_600305">지스톤의 눈</STR>
+<STR id="ZITEM_DESC_600305">대지의 신, 지스톤의 눈</STR>
+
+
+<!-- Premium Ticket -->
+<STR id="ZITEM_NAME_700001">입장 티켓</STR>
+<STR id="ZITEM_DESC_700001">유료 채널에 입장이 가능하게 해주는 티켓.</STR>
+
+
+<!-- channel.xml -->
+<STR id="CHANNEL_DEFAULT_NAME">자유 채널</STR>
+
+<STR id="CHANNEL_NOVICE_NAME_1">자유 채널 1</STR>
+<STR id="CHANNEL_NOVICE_NAME_2">자유 채널 2</STR>
+<STR id="CHANNEL_NOVICE_NAME_3">자유 채널 3</STR>
+
+<STR id="CHANNEL_NEWBIE_NAME_1">입문 채널 1 (레벨제한 1~5)</STR>
+<STR id="CHANNEL_NEWBIE_NAME_2">입문 채널 2 (레벨제한 1~5)</STR>
+
+<STR id="CHANNEL_NEWBIE2_NAME_1">초보 채널 1 (레벨제한 6~10)</STR>
+<STR id="CHANNEL_NEWBIE2_NAME_2">초보 채널 2 (레벨제한 6~10)</STR>
+
+<STR id="CHANNEL_ROOKIE_NAME_1">중수 채널 1 (레벨제한 11~20)</STR>
+<STR id="CHANNEL_ROOKIE_NAME_2">중수 채널 2 (레벨제한 11~20)</STR>
+
+<STR id="CHANNEL_MASTERY_NAME_1">고수 채널 1 (레벨제한 21 이상)</STR>
+<STR id="CHANNEL_MASTERY_NAME_2">고수 채널 2 (레벨제한 21 이상)</STR>
+
+<STR id="CHANNEL_ELITE_NAME_1">초고수 채널 1 (레벨제한 35 이상)</STR>
+<STR id="CHANNEL_ELITE_NAME_2">초고수 채널 2 (레벨제한 35 이상)</STR>
+
+<!-- chatcmds.xml -->
+<STR id="CMD_NAME_1">help</STR>
+<STR id="CMD_USAGE_1">/help or /help [명령어]</STR>
+<STR id="CMD_HELP_1">명령어들의 도움말을 보여줍니다.</STR>
+<STR id="CMD_ALIAS_1_1">도움</STR>
+<STR id="CMD_ALIAS_1_2">ㅗ</STR>
+
+<STR id="CMD_NAME_2">귓말</STR>
+<STR id="CMD_USAGE_2">/귓말 [아이디] [메시지]</STR>
+<STR id="CMD_HELP_2">귓속말을 보냅니다.</STR>
+<STR id="CMD_ALIAS_2_1">ㅈ</STR>
+<STR id="CMD_ALIAS_2_2"></STR>
+
+<STR id="CMD_NAME_3">112</STR>
+<STR id="CMD_USAGE_3">/112</STR>
+<STR id="CMD_HELP_3">채팅내용을 신고합니다.</STR>
+<STR id="CMD_ALIAS_3_1">신고</STR>
+<STR id="CMD_ALIAS_3_2"></STR>
+
+<STR id="CMD_NAME_4"></STR>
+<STR id="CMD_USAGE_4"></STR>
+<STR id="CMD_HELP_4"></STR>
+<STR id="CMD_ALIAS_4_1"></STR>
+<STR id="CMD_ALIAS_4_2"></STR>
+
+<STR id="CMD_NAME_5">클랜</STR>
+<STR id="CMD_USAGE_5">/클랜 [명령어] [세부항목]</STR>
+<STR id="CMD_HELP_5">클랜을 관리합니다</STR>
+<STR id="CMD_ALIAS_5_1"></STR>
+<STR id="CMD_ALIAS_5_2"></STR>
+
+<STR id="CMD_NAME_6">따라가기</STR>
+<STR id="CMD_USAGE_6">/따라가기 [이름]</STR>
+<STR id="CMD_HELP_6">지정한 상대가 위치한 게임에 참가합니다.</STR>
+<STR id="CMD_ALIAS_6_1"></STR>
+<STR id="CMD_ALIAS_6_2"></STR>
+
+
+<STR id="CMD_NAME_7">qj</STR>
+<STR id="CMD_USAGE_7">/qj</STR>
+<STR id="CMD_HELP_7">아무 방이나 바로 들어갑니다.</STR>
+<STR id="CMD_ALIAS_7_1">바로게임하기</STR>
+<STR id="CMD_ALIAS_7_2">바</STR>
+
+<STR id="CMD_NAME_8">도발</STR>
+<STR id="CMD_USAGE_8">/도발</STR>
+<STR id="CMD_HELP_8">도발합니다.</STR>
+<STR id="CMD_ALIAS_8_1"></STR>
+<STR id="CMD_ALIAS_8_2"></STR>
+
+<STR id="CMD_NAME_9">인사</STR>
+<STR id="CMD_USAGE_9">/인사</STR>
+<STR id="CMD_HELP_9">인사합니다.</STR>
+<STR id="CMD_ALIAS_9_1"></STR>
+<STR id="CMD_ALIAS_9_2"></STR>
+
+<STR id="CMD_NAME_10">손흔들기</STR>
+<STR id="CMD_USAGE_10">/손흔들기</STR>
+<STR id="CMD_HELP_10">손을 흔듭니다.</STR>
+<STR id="CMD_ALIAS_10_1"></STR>
+<STR id="CMD_ALIAS_10_2"></STR>
+
+<STR id="CMD_NAME_11">웃기</STR>
+<STR id="CMD_USAGE_11">/웃기</STR>
+<STR id="CMD_HELP_11">웃습니다.</STR>
+<STR id="CMD_ALIAS_11_1"></STR>
+<STR id="CMD_ALIAS_11_2"></STR>
+
+<STR id="CMD_NAME_12">울기</STR>
+<STR id="CMD_USAGE_12">/울기</STR>
+<STR id="CMD_HELP_12">웁니다.</STR>
+<STR id="CMD_ALIAS_12_1"></STR>
+<STR id="CMD_ALIAS_12_2"></STR>
+
+<STR id="CMD_NAME_13">춤</STR>
+<STR id="CMD_USAGE_13">/춤</STR>
+<STR id="CMD_HELP_13">춤을 춥니다.</STR>
+<STR id="CMD_ALIAS_13_1"></STR>
+<STR id="CMD_ALIAS_13_2"></STR>
+
+<STR id="CMD_NAME_14">매크로</STR>
+<STR id="CMD_USAGE_14">/매크로</STR>
+<STR id="CMD_HELP_14">매크로 등록</STR>
+<STR id="CMD_ALIAS_14_1"></STR>
+<STR id="CMD_ALIAS_14_2"></STR>
+
+<STR id="CMD_NAME_15">자살</STR>
+<STR id="CMD_USAGE_15">/자살</STR>
+<STR id="CMD_HELP_15">자살합니다.</STR>
+<STR id="CMD_ALIAS_15_1"></STR>
+<STR id="CMD_ALIAS_15_2"></STR>
+
+<STR id="CMD_NAME_16">투표</STR>
+<STR id="CMD_USAGE_16">/투표</STR>
+<STR id="CMD_HELP_16">투표를 제안합니다.</STR>
+<STR id="CMD_ALIAS_16_1"></STR>
+<STR id="CMD_ALIAS_16_2"></STR>
+
+<STR id="CMD_NAME_17">찬성</STR>
+<STR id="CMD_USAGE_17">/찬성</STR>
+<STR id="CMD_HELP_17">찬성합니다.</STR>
+<STR id="CMD_ALIAS_17_1"></STR>
+<STR id="CMD_ALIAS_17_2"></STR>
+
+<STR id="CMD_NAME_18">반대</STR>
+<STR id="CMD_USAGE_18">/반대</STR>
+<STR id="CMD_HELP_18">반대합니다.</STR>
+<STR id="CMD_ALIAS_18_1"></STR>
+<STR id="CMD_ALIAS_18_2"></STR>
+
+<STR id="CMD_NAME_19">추방</STR>
+<STR id="CMD_USAGE_19">/추방</STR>
+<STR id="CMD_HELP_19">플레이어 추방을 제안합니다.</STR>
+<STR id="CMD_ALIAS_19_1"></STR>
+<STR id="CMD_ALIAS_19_2"></STR>
+
+<STR id="CMD_NAME_20">채팅개설</STR>
+<STR id="CMD_USAGE_20">/채팅개설 [방이름]</STR>
+<STR id="CMD_HELP_20">채팅방을 개설합니다.</STR>
+<STR id="CMD_ALIAS_20_1"></STR>
+<STR id="CMD_ALIAS_20_2"></STR>
+
+<STR id="CMD_NAME_21">채팅참가</STR>
+<STR id="CMD_USAGE_21">/채팅참가 [방이름]</STR>
+<STR id="CMD_HELP_21">채팅방에 들어갑니다.</STR>
+<STR id="CMD_ALIAS_21_1"></STR>
+<STR id="CMD_ALIAS_21_2"></STR>
+
+<STR id="CMD_NAME_22">채팅탈퇴</STR>
+<STR id="CMD_USAGE_22">/채팅탈퇴 [방이름]</STR>
+<STR id="CMD_HELP_22">채팅방에 들어갑니다.</STR>
+<STR id="CMD_ALIAS_22_1"></STR>
+<STR id="CMD_ALIAS_22_2"></STR>
+
+<STR id="CMD_NAME_23">채팅선택</STR>
+<STR id="CMD_USAGE_23">/채팅선택 [방이름]</STR>
+<STR id="CMD_HELP_23">채팅방을 선택합니다.</STR>
+<STR id="CMD_ALIAS_23_1"></STR>
+<STR id="CMD_ALIAS_23_2"></STR>
+
+<STR id="CMD_NAME_24">채팅초대</STR>
+<STR id="CMD_USAGE_24">/채팅초대 [이름]</STR>
+<STR id="CMD_HELP_24">채팅방에 초대합니다.</STR>
+<STR id="CMD_ALIAS_24_1"></STR>
+<STR id="CMD_ALIAS_24_2"></STR>
+
+<STR id="CMD_NAME_25">채팅수락</STR>
+<STR id="CMD_USAGE_25">/채팅수락</STR>
+<STR id="CMD_HELP_25">채팅방 초대를 수락합니다.</STR>
+<STR id="CMD_ALIAS_25_1"></STR>
+<STR id="CMD_ALIAS_25_2"></STR>
+
+<STR id="CMD_NAME_26">채팅</STR>
+<STR id="CMD_USAGE_26">채팅 [메시지]</STR>
+<STR id="CMD_HELP_26">채팅을 합니다.</STR>
+<STR id="CMD_ALIAS_26_1"></STR>
+<STR id="CMD_ALIAS_26_2"></STR>
+
+<!-- notify.xml -->
+<STR id="NOTIFY_10">네트워크 초기화에 실패했습니다</STR>
+<STR id="NOTIFY_11">네트워크 포트가 이미 사용중입니다</STR>
+<STR id="NOTIFY_15">NAT 네트워크 연결설정</STR>
+<STR id="NOTIFY_51">사용자를 찾을 수 없습니다</STR>
+<STR id="NOTIFY_70">존재하지 않는 캐릭터입니다</STR>
+<STR id="NOTIFY_100">스테이지가 이미 존재합니다</STR>
+<STR id="NOTIFY_101">존재하지 않는 스테이지입니다</STR>
+<STR id="NOTIFY_110">팀의 인원이 모두 찼습니다</STR>
+<STR id="NOTIFY_150">채팅방이 생성되었습니다</STR>
+<STR id="NOTIFY_151">채팅방 생성에 실패하였습니다</STR>
+<STR id="NOTIFY_152">이미 존재하는 채팅방입니다</STR>
+<STR id="NOTIFY_153">존재하지 않는 채팅방입니다</STR>
+<STR id="NOTIFY_154">참여하고 있는 채팅방이 없습니다</STR>
+<STR id="NOTIFY_155">채팅방에 참여할수 없습니다</STR>
+<STR id="NOTIFY_156">참여인원이 너무 많습니다</STR>
+<STR id="NOTIFY_200">스피드핵 사용으로 판정되었습니다</STR>
+<STR id="NOTIFY_201">메모리핵 사용으로 판정되었습니다</STR>
+<STR id="NOTIFY_251">이미 친구로 등록되어 있습니다</STR>
+<STR id="NOTIFY_252">등록된 친구가 아닙니다</STR>
+<STR id="NOTIFY_253">친구목록이 가득 찼습니다</STR>
+<STR id="NOTIFY_255">친구로 등록되었습니다</STR>
+<STR id="NOTIFY_256">친구에서 해지되었습니다</STR>
+<STR id="NOTIFY_301">상대방이 귓말거부 상태입니다</STR>
+<STR id="NOTIFY_302">귓말 수신을 거절하였습니다</STR>
+<STR id="NOTIFY_311">상대방이 초대거부 상태입니다</STR>
+<STR id="NOTIFY_312">초대를 거절하였습니다</STR>
+
+
+
+
+<!-- npc.xml -->
+<STR id="NPC_NAME_11">병정 고블린</STR>
+<STR id="NPC_DESC_11">초록색의 흉칙하게 생긴 몬스터. 항상 떼거지로 몰려다니다 적을 발견하면 잔인하게 다구리한다. 맞으면 상당히 아프다.</STR>
+
+<STR id="NPC_NAME_12">고블린 거너</STR>
+<STR id="NPC_DESC_12"></STR>
+
+<STR id="NPC_NAME_13">고블린 위저드</STR>
+<STR id="NPC_DESC_13"></STR>
+
+<STR id="NPC_NAME_14">대장 고블린</STR>
+<STR id="NPC_DESC_14"></STR>
+
+<STR id="NPC_NAME_15">고블린 족장</STR>
+<STR id="NPC_DESC_15"></STR>
+
+<STR id="NPC_NAME_16">고블린 킹</STR>
+<STR id="NPC_DESC_16"></STR>
+
+<STR id="NPC_NAME_17">이벤트 고블린</STR>
+<STR id="NPC_DESC_17">이벤트용 고블린</STR>
+
+<STR id="NPC_NAME_21">팜포아</STR>
+<STR id="NPC_DESC_21"></STR>
+
+<STR id="NPC_NAME_22">대장 팜포아</STR>
+<STR id="NPC_DESC_22"></STR>
+
+<STR id="NPC_NAME_23">팜포우</STR>
+<STR id="NPC_DESC_23"></STR>
+
+<STR id="NPC_NAME_24">저주받은 팜포우</STR>
+<STR id="NPC_DESC_24"></STR>
+
+<STR id="NPC_NAME_25">팜포우 베이비</STR>
+<STR id="NPC_DESC_25"></STR>
+
+<STR id="NPC_NAME_31">스켈레톤</STR>
+<STR id="NPC_DESC_31"></STR>
+
+<STR id="NPC_NAME_32">스켈레톤 메이지</STR>
+<STR id="NPC_DESC_32"></STR>
+
+<STR id="NPC_NAME_33">대장 스켈레톤</STR>
+<STR id="NPC_DESC_33"></STR>
+
+<STR id="NPC_NAME_34">거대 스켈레톤</STR>
+<STR id="NPC_DESC_34"></STR>
+
+<STR id="NPC_NAME_35">저주받은 시신</STR>
+<STR id="NPC_DESC_35"></STR>
+
+<STR id="NPC_NAME_36">리치</STR>
+<STR id="NPC_DESC_36"></STR>
+
+<STR id="NPC_NAME_41">코볼드</STR>
+<STR id="NPC_DESC_41"></STR>
+
+<STR id="NPC_NAME_42">코볼드 샤만</STR>
+<STR id="NPC_DESC_42"></STR>
+
+<STR id="NPC_NAME_43">대장 코볼드</STR>
+<STR id="NPC_DESC_43"></STR>
+
+<STR id="NPC_NAME_44">코볼드 왕</STR>
+<STR id="NPC_DESC_44"></STR>
+
+<STR id="NPC_NAME_45">고장난 골렘</STR>
+<STR id="NPC_DESC_45"></STR>
+
+<STR id="NPC_NAME_46">스크라이더</STR>
+<STR id="NPC_DESC_46"></STR>
+
+
+
+
+<!-- scenario.xml -->
+<STR id="SCENARIO_TITLE_500">후비고 QL 0</STR>
+<STR id="SCENARIO_TITLE_501">후비고 QL 1</STR>
+<STR id="SCENARIO_TITLE_502">후비고 QL 2</STR>
+<STR id="SCENARIO_TITLE_503">후비고 QL 3</STR>
+
+
+
+<!-- shutdown.xml -->
+<STR id="SHUTDOWN_01">시스템 점검을 위하여 1분후 서버가 닫힙니다.</STR>
+<STR id="SHUTDOWN_02">이용자 여러분들께서는 지금 곧 로그아웃 해주시기 바랍니다.</STR>
+<STR id="SHUTDOWN_03">로그아웃하지 않을경우 최근 기록을 잃어버릴 수도 있습니다.</STR>
+<STR id="SHUTDOWN_04">30초 뒤 서버가 종료됩니다.</STR>
+<STR id="SHUTDOWN_05">20초 뒤 서버가 종료됩니다.</STR>
+<STR id="SHUTDOWN_06">10초 뒤 서버가 종료됩니다.</STR>
+<STR id="SHUTDOWN_07">5초 뒤 서버가 종료됩니다.</STR>
+<STR id="SHUTDOWN_08">4초 뒤 서버가 종료됩니다.</STR>
+<STR id="SHUTDOWN_09">3초 뒤 서버가 종료됩니다.</STR>
+<STR id="SHUTDOWN_10">2초 뒤 서버가 종료됩니다.</STR>
+<STR id="SHUTDOWN_11">1초 뒤 서버가 종료됩니다.</STR>
+<STR id="SHUTDOWN_12">서버를 종료합니다.</STR>
+
+
+
+<!-- zquestitem.xml -->
+<STR id="QITEM_NAME_200001">찢겨진 13페이지</STR>
+<STR id="QITEM_DESC_200001">무언가의 책으로부터 찢겨진 페이지. 희미하게 13이라고 표시되어 있다.</STR>
+
+<STR id="QITEM_NAME_200002">찢겨진 25페이지</STR>
+<STR id="QITEM_DESC_200002">무언가의 책으로부터 찢겨진 페이지. 희미하게 25이라고 표시되어 있다.</STR>
+
+<STR id="QITEM_NAME_200003">찢겨진 41페이지</STR>
+<STR id="QITEM_DESC_200003">무언가의 책으로부터 찢겨진 페이지. 희미하게 41이라고 표시되어 있다.</STR>
+
+<STR id="QITEM_NAME_200004">찢겨진 65페이지</STR>
+<STR id="QITEM_DESC_200004">무언가의 책으로부터 찢겨진 페이지. 희미하게 65이라고 표시되어 있다.</STR>
+
+<STR id="QITEM_NAME_200005">작은두골</STR>
+<STR id="QITEM_DESC_200005">수수께끼의 두골. 마치 조류의 두골같다는 느낌이다.</STR>
+
+<STR id="QITEM_NAME_200006">큰두골</STR>
+<STR id="QITEM_DESC_200006">수수께끼의 두골. 누군지 몰라도 아마도 머리가 컸던것 같다.</STR>
+
+<STR id="QITEM_NAME_200007">수수께기의 두골</STR>
+<STR id="QITEM_DESC_200007">도무지 용도를 알수 없는 수수께기의 두골.</STR>
+
+<STR id="QITEM_NAME_200008">고블린의 두골</STR>
+<STR id="QITEM_DESC_200008">고블린의 두골. 한쪽에 '새로운 세계를 부른다'라고 새겨져 있다.</STR>
+
+<STR id="QITEM_NAME_200009">고블린 킹의 두골</STR>
+<STR id="QITEM_DESC_200009">고블린 킹의 두골.</STR>
+
+<STR id="QITEM_NAME_200010">거대한 유골</STR>
+<STR id="QITEM_DESC_200010">생김새로 보아선 인간의 것. 그러나 그 크기는 공룡의 것과도 흡사하다.</STR>
+
+<STR id="QITEM_NAME_200011">날고기</STR>
+<STR id="QITEM_DESC_200011">알수없는 동물의 익히지 않은 고기. 식량으로 사용되었던것 같다.</STR>
+
+<STR id="QITEM_NAME_200012">불고기</STR>
+<STR id="QITEM_DESC_200012">굉장히 맛있어 보이는 익힌 양념 고기.</STR>
+
+<STR id="QITEM_NAME_200013">스테이크</STR>
+<STR id="QITEM_DESC_200013">굉장히 맛있어 보이는 스테이크. 몬스터가 즐겼던 것 같다.</STR>
+
+<STR id="QITEM_NAME_200014">철귀걸이</STR>
+<STR id="QITEM_DESC_200014">코볼드 족이 사용하는 철로 만들어진 귀걸이. 사람은 쓸수 없다.</STR>
+
+<STR id="QITEM_NAME_200015">은귀걸이</STR>
+<STR id="QITEM_DESC_200015">코볼드 족이 사용하는 은으로 만들어진 귀걸이. 사람은 쓸수 없다.</STR>
+
+<STR id="QITEM_NAME_200016">금귀걸이</STR>
+<STR id="QITEM_DESC_200016">코볼드 족이 사용하는 금으로 만들어진 귀걸이. 사람은 쓸수 없다.</STR>
+
+<STR id="QITEM_NAME_200017">플래티넘 귀걸이</STR>
+<STR id="QITEM_DESC_200017">코볼드 킹이 사용하는 특수 금속 재질의 귀걸이. 사람은 쓸수 없다.</STR>
+
+<STR id="QITEM_NAME_200018">그림스크의 목걸이</STR>
+<STR id="QITEM_DESC_200018">고블린 족장이 목에 걸고 있던 목걸이. 사람이 쓸수 있을거 같진 않다.</STR>
+
+<STR id="QITEM_NAME_200019">스켈레톤 인형</STR>
+<STR id="QITEM_DESC_200019">해골 병사의 모습과 똑같은 인형. 만든 사람의 취향이 의심스럽다.</STR>
+
+<STR id="QITEM_NAME_200020">코볼드 인형</STR>
+<STR id="QITEM_DESC_200020">이것은 코볼드의 모습과 똑같다! 이것을 아이들에게 주면 좋아할까?</STR>
+
+<STR id="QITEM_NAME_200021">고블린 인형</STR>
+<STR id="QITEM_DESC_200021">고블린의 모습과 똑같다! 그러나 쓸모는 없어보인다.</STR>
+
+<STR id="QITEM_NAME_200022">팜포우 인형</STR>
+<STR id="QITEM_DESC_200022">장난꾸러기 요정 팜포우를 꼭 닮은 인형.</STR>
+
+<STR id="QITEM_NAME_200023">토끼인형</STR>
+<STR id="QITEM_DESC_200023">귀여운 토끼 모양의 인형. 그런데 이것은 무슨 용도?!</STR>
+
+<STR id="QITEM_NAME_200024">곰인형</STR>
+<STR id="QITEM_DESC_200024">꼬마 아이들이 잠을 잘때 꼭 안고 자던 인형. 그런데 왜 이런 것이?!</STR>
+
+<STR id="QITEM_NAME_200025">저주 받은 곰인형</STR>
+<STR id="QITEM_DESC_200025">꼬마 아이들이 잠을 잘때 안고 있을수는 없을 것 같다. 왜 이런 것이?!</STR>
+
+<STR id="QITEM_NAME_200026">팜포우 아이돌</STR>
+<STR id="QITEM_DESC_200026">꿈속의 요정, 팜포우를 꼭 빼닮은 성상.</STR>
+
+<STR id="QITEM_NAME_200027">저주 받은 팜포우 아이돌</STR>
+<STR id="QITEM_DESC_200027">팜포우를 닮은듯한 성상. 한데 어딘지 모르게 무서워 보인다.</STR>
+
+<STR id="QITEM_NAME_200028">악마의 사전</STR>
+<STR id="QITEM_DESC_200028">이상한 내용들이 가득한 사전.</STR>
+
+<STR id="QITEM_NAME_200029">스크라이더의 명부 상편</STR>
+<STR id="QITEM_DESC_200029">사람들의 이름으로 가득찬 이상한 책 상권. 지옥으로부터 왔다고 한다.</STR>
+
+<STR id="QITEM_NAME_200030">스크라이더의 명부 하편</STR>
+<STR id="QITEM_DESC_200030">사람들의 이름으로 가득찬 이상한 책 하권. 지옥으로부터 왔다고 한다.</STR>
+
+<STR id="QITEM_NAME_200031">축복받은 십자가</STR>
+<STR id="QITEM_DESC_200031">건프리스트들이 지니고 다니던 그것과 모양이 흡사하다.</STR>
+
+<STR id="QITEM_NAME_200032">저주받은 십자가</STR>
+<STR id="QITEM_DESC_200032">건프리스트들이 지니고 다니던 그것과 모양이 흡사하다. 그러나...</STR>
+
+<STR id="QITEM_NAME_200033">곡괭이</STR>
+<STR id="QITEM_DESC_200033">채굴현장에서 사용하는 곡괭이다. 그러나 채굴을 어디에서?</STR>
+
+<STR id="QITEM_NAME_200034">말하는 돌맹이</STR>
+<STR id="QITEM_DESC_200034">가끔 이상한 소리를 해대는 돌맹이. 스스로 움직이기도 한다.</STR>
+
+<STR id="QITEM_NAME_200035">얼음의 결정</STR>
+<STR id="QITEM_DESC_200035">어지간한 열로는 녹일수 없어보이는 얼음의 결정.</STR>
+
+<STR id="QITEM_NAME_200036">부서진 기어</STR>
+<STR id="QITEM_DESC_200036">부서져버린 기어. 다시는 쓸수 없을 것 같다.</STR>
+
+<STR id="QITEM_NAME_200037">고급 기어</STR>
+<STR id="QITEM_DESC_200037">기계안에서 무언가의중요한 작업을 했던 것으로 보이는 기어.</STR>
+
+<STR id="QITEM_NAME_200038">고블린 킹의 도끼</STR>
+<STR id="QITEM_DESC_200038">고블린 킹이 쓰던 무시무시한 도끼. 사람이 쓸수 없다는 것이 아쉽다.</STR>
+
+<STR id="QITEM_NAME_210001">고블린의 도감</STR>
+<STR id="QITEM_DESC_210001">고블린의 정보를 가지고 있는 도감.</STR>
+
+
+<!-- Event -->
+<!--
+<STR id="EVENT_NAME_1">넷마블 딱지 이벤트</STR>
+<STR id="EVENT_DESC_1">게임중인 유저들중 일정 확률로 이벤트를 진행해서 당첨이 되면 GunzDB의 Event테이에 저장이 된다.</STR>
+<STR id="EVENT_ANNOUNCE_1">넷마블 딱지를 획득하였습니다.</STR>
+-->
+<STR id="EVENT_NAME_1">건즈 익스트림 이벤트</STR>
+<STR id="EVENT_DESC_1">익스트림 모드 게임중에 이벤트당첨시 경험치 보너스 아이템 지급</STR>
+<STR id="EVENT_ANNOUNCE_1">건즈 익스트림 이벤트에 당첨되었습니다.</STR>
+
+<STR id="EVENT_NAME_2">XP 보너스 이벤트.</STR>
+<STR id="EVENT_DESC_2">XP 보너스 획득.</STR>
+<STR id="EVENT_ANNOUNCE_2"></STR>
+
+<STR id="EVENT_NAME_3">BP 보너스 이벤트.</STR>
+<STR id="EVENT_DESC_3">BP 보너스 획득.</STR>
+<STR id="EVENT_ANNOUNCE_3"></STR>
+
+
+<!-- config_rel.xml -->
+<STR id="CONFIG_MACRO_F1">/h</STR>
+<STR id="CONFIG_MACRO_F2">/도발</STR>
+<STR id="CONFIG_MACRO_F3">/인사</STR>
+<STR id="CONFIG_MACRO_F4">/신고</STR>
+<STR id="CONFIG_MACRO_F5">안녕하세요~</STR>
+<STR id="CONFIG_MACRO_F6">즐겁고 매너있는 게임해요~</STR>
+<STR id="CONFIG_MACRO_F7">굿샷 !!</STR>
+<STR id="CONFIG_MACRO_F8">수고하셨습니다.</STR>
+
+
+<!-- 인터페이스 XML -->
+
+<!-- 공용 -->
+<STR id="UI_COMMON_OK">확인(&amp;O)</STR>
+<STR id="UI_COMMON_CANCEL">취소(&amp;C)</STR>
+
+<!-- Login.xml -->
+<STR id="UI_LOGIN_01">Gunz 로그인</STR>
+<STR id="UI_LOGIN_02">User ID</STR>
+<STR id="UI_LOGIN_03">Password</STR>
+<STR id="UI_LOGIN_04">로그인(&amp;G)</STR>
+<STR id="UI_LOGIN_05">정말로 게임을 종료하시겠습니까?</STR>
+
+
+<!-- Lobby.xml -->
+<STR id="UI_LOBBY_01">Lobby</STR>
+<STR id="UI_LOBBY_02">바로하기(&amp;G)</STR>
+<STR id="UI_LOBBY_03">상대 클랜팀 찾기</STR>
+<STR id="UI_LOBBY_04">상대팀 찾는 중...</STR>
+<STR id="UI_LOBBY_05">클랜전 취소</STR>
+<STR id="UI_LOBBY_06">이름</STR>
+<STR id="UI_LOBBY_07">Clan :</STR>
+<STR id="UI_LOBBY_08">레벨 : 0 lv.</STR>
+<STR id="UI_LOBBY_09">경험치 : 0%</STR>
+<STR id="UI_LOBBY_10">바운티 : 0</STR>
+<STR id="UI_LOBBY_11">체력 : 0</STR>
+<STR id="UI_LOBBY_12">방어 : 0</STR>
+<STR id="UI_LOBBY_13">무게 : 0</STR>
+<STR id="UI_LOBBY_14">팀 게임</STR>
+<STR id="UI_LOBBY_15">실력이 비슷한 클랜과만 대전</STR>
+<STR id="UI_LOBBY_16">팀 게임에 참여할 플레이어를 선택해주십시오</STR>
+<STR id="UI_LOBBY_17">확인(&amp;O)</STR>
+<STR id="UI_LOBBY_18">취소(&amp;C)</STR>
+<STR id="UI_LOBBY_19">클랜 탈퇴 확인</STR>
+<STR id="UI_LOBBY_20">클랜을 탈퇴하시겠습니까?</STR>
+<STR id="UI_LOBBY_21">탈퇴(&amp;O)</STR>
+<STR id="UI_LOBBY_A01">몬스터 도감</STR>
+<STR id="UI_LOBBY_A02">GUNZ를 종료하시겠습니까?</STR>
+
+
+<!-- StageCreateFrame.xml -->
+<STR id="UI_SCF_01">게임 생성</STR>
+<STR id="UI_SCF_02">게임 제목</STR>
+<STR id="UI_SCF_03">비밀번호</STR>
+<STR id="UI_SCF_04">신나는 건즈 한판 어때요??</STR>
+
+<!-- Replay.xml -->
+<STR id="UI_REPLAY_01">리플레이</STR>
+<STR id="UI_REPLAY_02">../내 문서/Gunz/Replay</STR>
+<STR id="UI_REPLAY_03">버젼이 낮은 경우에 재생시 일부 차이가 있을 수</STR>
+<STR id="UI_REPLAY_04">있습니다.</STR>
+<STR id="UI_REPLAY_05">보기(&amp;V)</STR>
+<STR id="UI_REPLAY_06">선택한 리플레이를 보시겠습니까?</STR>
+<STR id="UI_REPLAY_07">리플레이 다시 보기</STR>
+<STR id="UI_REPLAY_08">리플레이 동영상을 다시 보시겠습니까?</STR>
+<STR id="UI_REPLAY_09">다시 보기(&amp;R)</STR>
+<STR id="UI_REPLAY_10">종료(&amp;X)</STR>
+<STR id="UI_REPLAY_A01">닫기</STR>
+
+<!-- PrivateStageJoinFrame.xml -->
+<STR id="UI_PSJF_01">게임방 비밀번호 입력</STR>
+<STR id="UI_PSJF_02">게임 제목</STR>
+<STR id="UI_PSJF_03">비밀번호</STR>
+
+<!-- NetPortConfirm.xml -->
+<STR id="UI_NPC_01">네트워크 포트 변경</STR>
+<STR id="UI_NPC_02">네트워크 포트 변경을 적용하려면 건즈를 다시 실행해야합니다.\종료하시겠습니까?</STR>
+<STR id="UI_NPC_03">종 료</STR>
+<STR id="UI_NPC_04">나중에 적용</STR>
+
+<!-- Greter.xml -->
+<STR id="UI_GREETER_01">시작 (&amp;G)</STR>
+
+<!-- CombatInterface.xml -->
+<STR id="UI_CI_01">모두에게:</STR>
+<STR id="UI_CI_02">팀원에게:</STR>
+<STR id="UI_CI_03">게임 메뉴</STR>
+<STR id="UI_CI_04">옵션(&amp;O)</STR>
+<STR id="UI_CI_05">게임으로 돌아가기(&amp;X)</STR>
+<STR id="UI_CI_06">대기방으로 나가기(&amp;R)</STR>
+<STR id="UI_CI_07">게임에서 나가기(&amp;L)</STR>
+<STR id="UI_CI_08">게임에서 나가시겠습니까?</STR>
+<STR id="UI_CI_09">프로그램 종료(&amp;Q)</STR>
+<STR id="UI_CI_10">GUNZ를 종료하시겠습니까?</STR>
+
+<!-- ChannelListFrame.xml -->
+<STR id="UI_CLF_01">채널 리스트</STR>
+<STR id="UI_CLF_02">일반</STR>
+<STR id="UI_CLF_03">사설</STR>
+<STR id="UI_CLF_04">클랜</STR>
+<STR id="UI_CLF_05">입장</STR>
+<STR id="UI_CLF_06">내 클랜 채널로 이동</STR>
+
+
+<!-- BuyConfirm.xml -->
+<STR id="UI_BC_01">합 계</STR>
+<STR id="UI_BC_02">구입하시겠습니까?</STR>
+
+<!-- 112Confirm.xml -->
+<STR id="UI_112C_01">불량유저 신고</STR>
+<STR id="UI_112C_02">신고 사유를 10자이상 적어주세요</STR>
+<STR id="UI_112C_03">신고 대상 선택 :</STR>
+<STR id="UI_112C_04">신고 사유 선택 :</STR>
+<STR id="UI_112C_05">선택하세요</STR>
+<STR id="UI_112C_06">욕설</STR>
+<STR id="UI_112C_07">부모욕설</STR>
+<STR id="UI_112C_08">음란성 채팅</STR>
+<STR id="UI_112C_09">비방</STR>
+<STR id="UI_112C_10">사기행위</STR>
+<STR id="UI_112C_11">도배행위</STR>
+<STR id="UI_112C_12">운영자사칭</STR>
+<STR id="UI_112C_13">신고대상 및 사유를 정확하게 선택해주세요. 허위신고시 신고자가 제재조치 됩니다.</STR>
+
+<!-- CharCreation.xml -->
+<STR id="UI_CC_01">캐릭터 생성</STR>
+<STR id="UI_CC_02">이름</STR>
+<STR id="UI_CC_03">성별</STR>
+<STR id="UI_CC_04">헤어</STR>
+<STR id="UI_CC_05">얼굴</STR>
+<STR id="UI_CC_06">기본장비</STR>
+<STR id="UI_CC_07">데빌 슬레이어</STR>
+<STR id="UI_CC_08">월콤 XLx2</STR>
+<STR id="UI_CC_09">월콤 XLx2</STR>
+<STR id="UI_CC_10">수류탄 FG-2</STR>
+<STR id="UI_CC_11">의료킷 K-11</STR>
+
+<STR id="UI_CC_LIST_01_01">남자</STR>
+<STR id="UI_CC_LIST_01_02">여자</STR>
+
+<STR id="UI_CC_LIST_02_01">타입1</STR>
+<STR id="UI_CC_LIST_02_02">타입2</STR>
+<STR id="UI_CC_LIST_02_03">타입3</STR>
+<STR id="UI_CC_LIST_02_04">타입4</STR>
+
+<STR id="UI_CC_LIST_03_01">액시움 건나이트</STR>
+<STR id="UI_CC_LIST_03_02">트라비아 건파이터</STR>
+<STR id="UI_CC_LIST_03_03">액시움 애서신</STR>
+<STR id="UI_CC_LIST_03_04">트라비아 스카우트</STR>
+<STR id="UI_CC_LIST_03_05">액시움 건프리스트</STR>
+<STR id="UI_CC_LIST_03_06">트라비아 닥터</STR>
+
+
+<!-- CharSelection.xml -->
+<STR id="UI_CS_01">이름</STR>
+<STR id="UI_CS_02">0 Lv.</STR>
+<STR id="UI_CS_03">클랜</STR>
+<STR id="UI_CS_04">선택(&amp;G)</STR>
+<STR id="UI_CS_05">GUNZ를 종료하시겠습니까?</STR>
+<STR id="UI_CS_06">캐릭터 삭제</STR>
+<STR id="UI_CS_07">캐릭터를 삭제하려면 '예'를 입력하고,</STR>
+<STR id="UI_CS_08">확인버튼을 눌러주십시오.</STR>
+
+<!-- Clan.xml -->
+<STR id="UI_CLAN_01">클랜생성 동의</STR>
+<STR id="UI_CLAN_02">동의(&amp;O)</STR>
+<STR id="UI_CLAN_03">거부(&amp;C)</STR>
+<STR id="UI_CLAN_04">제한시간 :</STR>
+<STR id="UI_CLAN_05">클랜생성 동의</STR>
+<STR id="UI_CLAN_06">클랜생성멤버들이 동의할동안 기다려주십시오.</STR>
+<STR id="UI_CLAN_07">제한시간 :</STR>
+<STR id="UI_CLAN_08">클랜 가입자 동의</STR>
+<STR id="UI_CLAN_09">클랜 가입자가 동의할동안 기다려주십시오.</STR>
+<STR id="UI_CLAN_10">클랜 생성</STR>
+<STR id="UI_CLAN_11">클랜이름</STR>
+<STR id="UI_CLAN_12">클랜을 만들기 위해서는 10레벨 이상, 1000 BP가 필요하며 영문12자(한글 6자)이내의 고유한 이름과 추가로 4명의 클랜 창단 멤버가 있어야 합니다.</STR>
+<STR id="UI_CLAN_13">창단멤버</STR>
+<STR id="UI_CLAN_14">동의대기</STR>
+<STR id="UI_CLAN_15">동의 응답</STR>
+
+<!-- Equipment.xml -->
+<STR id="UI_EQUIPMENT_01">장비 종류 : </STR>
+<STR id="UI_EQUIPMENT_02">장착</STR>
+<STR id="UI_EQUIPMENT_03">중앙은행에 보냄</STR>
+<STR id="UI_EQUIPMENT_04">내 장비로 가져오기</STR>
+<STR id="UI_EQUIPMENT_05">아이템을 가져오시겠습니까?</STR>
+<STR id="UI_EQUIPMENT_06">[ 장비 무게 ]</STR>
+<STR id="UI_EQUIPMENT_07">0  /  0 Wt.</STR>
+<STR id="UI_EQUIPMENT_08">[ 레벨/체력/방어 ]</STR>
+<STR id="UI_EQUIPMENT_09">0Lv.  /  0  /  0</STR>
+
+<STR id="UI_EQUIPMENT_LIST_01_01">   모든 장비 보기</STR>
+<STR id="UI_EQUIPMENT_LIST_01_02">   방어구 : 머리</STR>
+<STR id="UI_EQUIPMENT_LIST_01_03">   방어구 : 상의</STR>
+<STR id="UI_EQUIPMENT_LIST_01_04">   방어구 : 장갑</STR>
+<STR id="UI_EQUIPMENT_LIST_01_05">   방어구 : 하의</STR>
+<STR id="UI_EQUIPMENT_LIST_01_06">   방어구 : 신발</STR>
+<STR id="UI_EQUIPMENT_LIST_01_07">   무기류 : 근거리 무기</STR>
+<STR id="UI_EQUIPMENT_LIST_01_08">   무기류 : 원거리 무기</STR>
+<STR id="UI_EQUIPMENT_LIST_01_09">   장비류 : 회복/수리 키트, 수류탄</STR>
+<STR id="UI_EQUIPMENT_LIST_01_10">   아이템 : 반지</STR>
+<STR id="UI_EQUIPMENT_LIST_01_11">   아이템 : 퀘스트 아이템</STR>
+
+
+<!-- MonsterBook.xml -->
+<STR id="UI_MB_01">몬스터 도감</STR>
+
+
+<!-- NetmarbleLogin.xml -->
+<STR id="UI_NL_01">로그인</STR>
+<STR id="UI_NL_02">넷마블에 연결중입니다.</STR>
+<STR id="UI_NL_03">GUNZ를 종료하시겠습니까?</STR>
+
+<!-- ResizeConfirm.xml -->
+<STR id="UI_RC_01">해상도 변경</STR>
+<STR id="UI_RC_02">새로운 해상도를 적용합니다.</STR>
+<STR id="UI_RC_03">새로운 해상도가 적용되지 않으면,</STR>
+<STR id="UI_RC_04">10초뒤에 이전의 해상도로 복구됩니다.</STR>
+<STR id="UI_RC_05">새로운 해상도를 적용하시겠습니까?</STR>
+<STR id="UI_RC_06">새로운 해상도를 적용하였습니다.</STR>
+<STR id="UI_RC_07">이 해상도로 변경하시겠습니까?</STR>
+<STR id="UI_RC_08">변경(&amp;O)</STR>
+
+<!-- StageSettingFrame.xml -->
+<STR id="UI_SSF_01">기타 게임 설정</STR>
+<STR id="UI_SSF_02">제한 시간</STR>
+<STR id="UI_SSF_03">난입 허용</STR>
+<STR id="UI_SSF_04">팀킬 여부</STR>
+<STR id="UI_SSF_05">레벨 제한</STR>
+<STR id="UI_SSF_06">관전 허용</STR>
+<STR id="UI_SSF_07">투표 가능</STR>
+<STR id="UI_SSF_08">팀 밸런스</STR>
+
+<!-- Option.xml -->
+<STR id="UI_OPTION_01">옵션</STR>
+<STR id="UI_OPTION_02">해상도</STR>
+<STR id="UI_OPTION_03">밝기</STR>
+<STR id="UI_OPTION_04">반사효과</STR>
+<STR id="UI_OPTION_05">라이트맵</STR>
+<STR id="UI_OPTION_06">쉐이더</STR>
+<STR id="UI_OPTION_07">동적라이트</STR>
+<STR id="UI_OPTION_08">캐릭터 이미지 품질</STR>
+<STR id="UI_OPTION_09">배경 이미지 품질</STR>
+<STR id="UI_OPTION_10">이펙트 품질</STR>
+<STR id="UI_OPTION_11">텍스쳐 품질</STR>
+<STR id="UI_OPTION_12">최적화하기</STR>
+<STR id="UI_OPTION_13">배경음악</STR>
+<STR id="UI_OPTION_14">배경음악 볼륨</STR>
+<STR id="UI_OPTION_15">효과음</STR>
+<STR id="UI_OPTION_16">효과음 볼륨</STR>
+<STR id="UI_OPTION_17">3D사운드 좌우반전</STR>
+<STR id="UI_OPTION_18">하드웨어 믹싱지원</STR>
+<STR id="UI_OPTION_19">적 명중시 표시음</STR>
+<STR id="UI_OPTION_20">마우스 감도</STR>
+<STR id="UI_OPTION_21">마우스 상하 반전</STR>
+<STR id="UI_OPTION_22">앞으로 가기</STR>
+<STR id="UI_OPTION_23">뒤로 가기</STR>
+<STR id="UI_OPTION_24">왼쪽으로 가기</STR>
+<STR id="UI_OPTION_25">오른쪽으로 가기</STR>
+<STR id="UI_OPTION_26">근접 무기 선택</STR>
+<STR id="UI_OPTION_27">주 무기 선택</STR>
+<STR id="UI_OPTION_28">보조 무기 선택</STR>
+<STR id="UI_OPTION_29">아이템1 선택</STR>
+<STR id="UI_OPTION_30">아이템2 선택</STR>
+<STR id="UI_OPTION_31">이전무기</STR>
+<STR id="UI_OPTION_32">다음무기</STR>
+<STR id="UI_OPTION_33">메뉴</STR>
+<STR id="UI_OPTION_34">재장전</STR>
+<STR id="UI_OPTION_35">점프</STR>
+<STR id="UI_OPTION_36">점수 보기</STR>
+<STR id="UI_OPTION_37">스크린샷</STR>
+<STR id="UI_OPTION_38">녹화/재생</STR>
+<STR id="UI_OPTION_39">방어</STR>
+<STR id="UI_OPTION_40">채팅창보기</STR>
+<STR id="UI_OPTION_59">무기 사용</STR>
+<STR id="UI_OPTION_41">기본설정으로</STR>
+<STR id="UI_OPTION_42">포트포워딩 포트설정</STR>
+<STR id="UI_OPTION_43">성능 최대화(일부시스템에서 마우스가 느려질수 있습니다)</STR>
+<STR id="UI_OPTION_44">채팅 필터 옵션</STR>
+<STR id="UI_OPTION_45">일반 채팅 말 무시</STR>
+<STR id="UI_OPTION_46">팀 채팅 말 무시</STR>
+<STR id="UI_OPTION_47">클랜 채팅 말 무시</STR>
+<STR id="UI_OPTION_48">귓말 거부</STR>
+<STR id="UI_OPTION_49">초대거부</STR>
+<STR id="UI_OPTION_50">조준점</STR>
+<STR id="UI_OPTION_51">F1 Key</STR>
+<STR id="UI_OPTION_52">F2 Key</STR>
+<STR id="UI_OPTION_53">F3 Key</STR>
+<STR id="UI_OPTION_54">F4 Key</STR>
+<STR id="UI_OPTION_55">F5 Key</STR>
+<STR id="UI_OPTION_56">F6 Key</STR>
+<STR id="UI_OPTION_57">F7 Key</STR>
+<STR id="UI_OPTION_58">F8 Key</STR>
+
+<STR id="UI_OPTION_LIST_01_01">좋음</STR>
+<STR id="UI_OPTION_LIST_01_02">보통</STR>
+<STR id="UI_OPTION_LIST_01_03">낮음</STR>
+
+<!-- Shop.xml -->
+<STR id="UI_SHOP_01">로비 > 상점</STR>
+<STR id="UI_SHOP_02">장비 종류 : </STR>
+<STR id="UI_SHOP_03">구매(&amp;B)</STR>
+<STR id="UI_SHOP_04">선택한 장비를 구입하시겠습니까?</STR>
+<STR id="UI_SHOP_05">구매(&amp;B)</STR>
+<STR id="UI_SHOP_06">캐쉬 아이템의 구매는 웹페이지에서만 가능합니다. '확인' 버튼을 누르면 웹페이지로 화면을 전환합니다.</STR>
+<STR id="UI_SHOP_07">판매(&amp;S)</STR>
+<STR id="UI_SHOP_08">선택한 장비를 판매하시겠습니까?</STR>
+<STR id="UI_SHOP_09">판매(&amp;S)</STR>
+<STR id="UI_SHOP_10">[ 바운티 ]</STR>
+<STR id="UI_SHOP_11">0 Bounty</STR>
+<STR id="UI_SHOP_12">[ 레벨 / 무게 ]</STR>
+<STR id="UI_SHOP_13">0Lv.  /  0 (0)</STR>
+<STR id="UI_SHOP_14">아이템 판매</STR>
+<STR id="UI_SHOP_15">판매할 수량을 입력해 주시기 바랍니다.</STR>
+<STR id="UI_SHOP_16">판매 수량</STR>
+<STR id="UI_SHOP_17">판매(&amp;S)</STR>
+
+<STR id="UI_SHOP_LIST_01_01">   모든 장비 보기</STR>
+<STR id="UI_SHOP_LIST_01_02">   방어구 : 머리</STR>
+<STR id="UI_SHOP_LIST_01_03">   방어구 : 상의</STR>
+<STR id="UI_SHOP_LIST_01_04">   방어구 : 장갑</STR>
+<STR id="UI_SHOP_LIST_01_05">   방어구 : 하의</STR>
+<STR id="UI_SHOP_LIST_01_06">   방어구 : 신발</STR>
+<STR id="UI_SHOP_LIST_01_07">   무기류 : 근거리 무기</STR>
+<STR id="UI_SHOP_LIST_01_08">   무기류 : 원거리 무기</STR>
+<STR id="UI_SHOP_LIST_01_09">   장비류 : 회복/수리 키트, 수류탄</STR>
+<STR id="UI_SHOP_LIST_01_10">   아이템 : 반지</STR>
+<STR id="UI_SHOP_LIST_01_11">   아이템 : 퀘스트 아이템</STR>
+
+<!-- Stage.xml -->
+<STR id="UI_STAGE_01">이름</STR>
+<STR id="UI_STAGE_02">클랜 :</STR>
+<STR id="UI_STAGE_03">레벨 : 0 lv.</STR>
+<STR id="UI_STAGE_04">경험치 : -</STR>
+<STR id="UI_STAGE_05">바운티 : -</STR>
+<STR id="UI_STAGE_06">체력 : -</STR>
+<STR id="UI_STAGE_07">방어 : -</STR>
+<STR id="UI_STAGE_08">무게 : -</STR>
+<STR id="UI_STAGE_09">청팀 </STR>
+<STR id="UI_STAGE_10">홍팀 </STR>
+<STR id="UI_STAGE_11">난입(&amp;G)</STR>
+<STR id="UI_STAGE_12">옵션</STR>
+<STR id="UI_STAGE_13">게임 방식</STR>
+<STR id="UI_STAGE_14">맵 선택</STR>
+<STR id="UI_STAGE_15">최대 인원</STR>
+<STR id="UI_STAGE_16">라운드</STR>
+<STR id="UI_STAGE_17">참가 인원 : 0명</STR>
+<STR id="UI_STAGE_18">퀘스트 레벨 : 0</STR>
+<STR id="UI_STAGE_19">게임에서 나가시겠습니까?</STR>
+<STR id="UI_STAGE_20">놓기</STR>
+<STR id="UI_STAGE_21">아이템이 없습니다.</STR>
+
+
+<!-- GameResult.xml -->
+<STR id="UI_ETC_01">Name</STR>
+<STR id="UI_ETC_02">XP</STR>
+<STR id="UI_ETC_03">Kill</STR>
+<STR id="UI_ETC_04">Death</STR>
+
+<STR id="UI_WARNING_TITLE">해킹 검출</STR>
+<STR id="UI_WARNING_01">해킹 시도가 검출되어 접속을 종료합니다.</STR>
+
+</XML>

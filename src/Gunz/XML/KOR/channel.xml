@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XML id="channel">
+	<DEFAULTCHANNELNAME name="STR:CHANNEL_DEFAULT_NAME"/>
+	<DEFAULTRULENAME name="novice"/>
+
+	<CHANNEL name="STR:CHANNEL_NOVICE_NAME_1" maxplayers="200" rule="novice"/>
+	<CHANNEL name="STR:CHANNEL_NOVICE_NAME_2" maxplayers="200" rule="novice"/>
+	<CHANNEL name="STR:CHANNEL_NOVICE_NAME_3" maxplayers="200" rule="novice"/>
+
+	<CHANNEL name="STR:CHANNEL_NEWBIE_NAME_1" maxplayers="200" rule="newbie" levelmin='1' levelmax='5'/>
+	<CHANNEL name="STR:CHANNEL_NEWBIE_NAME_2" maxplayers="200" rule="newbie" levelmin='1' levelmax='5'/>
+
+	<CHANNEL name="STR:CHANNEL_NEWBIE2_NAME_1" maxplayers="200" rule="newbie" levelmin='6' levelmax='10'/>
+	<CHANNEL name="STR:CHANNEL_NEWBIE2_NAME_2" maxplayers="200" rule="newbie" levelmin='6' levelmax='10'/>
+
+	<CHANNEL name="STR:CHANNEL_ROOKIE_NAME_1" maxplayers="200" rule="rookie" levelmin='11' levelmax='20'/>
+	<CHANNEL name="STR:CHANNEL_ROOKIE_NAME_2" maxplayers="200" rule="rookie" levelmin='11' levelmax='20'/>
+
+	<CHANNEL name="STR:CHANNEL_MASTERY_NAME_1" maxplayers="200" rule="mastery" levelmin='21'/>
+	<CHANNEL name="STR:CHANNEL_MASTERY_NAME_2" maxplayers="200" rule="mastery" levelmin='21'/>
+	
+	<CHANNEL name="STR:CHANNEL_ELITE_NAME_1" maxplayers="200" rule="elite" levelmin='35'/>
+	<CHANNEL name="STR:CHANNEL_ELITE_NAME_2" maxplayers="200" rule="elite" levelmin='35'/>
+</XML>

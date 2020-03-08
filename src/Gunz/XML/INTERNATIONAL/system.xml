@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML>
+	<XMLHEADER>version="1.0"</XMLHEADER>
+
+	<SKIN>Default</SKIN>
+
+	<DEFFONT>Arial</DEFFONT>
+
+	<IME>false</IME>
+
+	<BAREPORT>
+		<ADDR>www.battlearena.com</ADDR>
+		<DIR>incoming/gunz_global</DIR>
+	</BAREPORT>
+
+	<HOMEPAGE>
+	    <URL>http://www.gunzonline.com</URL>
+	    <TITLE>GunZ the Dual</TITLE>
+	</HOMEPAGE>
+
+	<LOCATORLIST>
+		<LOCATOR id="1" IP="218.145.160.134" />
+		<LOCATOR id="2" IP="218.145.160.135" />
+		<LOCATOR id="3" IP="218.145.160.136" />
+	</LOCATORLIST>
+</XML>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML xmlns="http://tempuri.org/Event.xsd" id="Event">
+
+<!--
+	사용할수 있는 이벤트 목록 정의.
+	
+-->
+
+<Event id="1" Description="EVENT_DESC_1" />
+<Event id="2" Description="EVENT_DESC_2" />
+<Event id="3" Description="EVENT_DESC_3" />
+
+</XML>

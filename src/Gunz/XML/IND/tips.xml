@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XML>
+    <!-- -  category
+            default = 0 
+            0 - 일반
+            1 - 개인전
+
+
+            2 - 팀전
+
+
+            3 - 클랜전
+
+
+            4 - 왕초보
+
+
+            5 - 초보
+            6 - 중수
+            7 - 고수
+    -->
+    <!-- MSG태그의 id는 특정한 조건에만 발동될 경우를 위해서 만들어놓음. -->
+    
+<TIPS category="0">
+	<!-- SEASON TIPS -->
+    <!-- <MSG>You can meet Gunz on Ongamenet every Friday ( 4:30 pm).</MSG> -->
+    <!-- <MSG>Every Thursday night at 10:30 during the period from December 9 to 30, GUNZ action league is on air.</MSG> -->
+
+  <!-- STATIC TIPS -->
+  <MSG>GunZ is an action game that you can play for free.</MSG>
+  <MSG>Please make an inquiry on the Discord Server of International GunZ when you have any complaints.</MSG>
+  <MSG>Press F11 key to start recording the game. To stop recording, press F11 key again.</MSG>
+  <MSG>Double click the recording file to see it on Windows.</MSG>
+  <MSG>The route of saving a recording file or screen shot is shown on the screen at the time of saving.</MSG>
+  <MSG>You can enjoy a Clan War with your clan mates on this server!</MSG>
+  <MSG>Press the F12 key to capture a screenshot in a game.</MSG>
+  <MSG>Type /Report on the game to report the details of the chatting. (Function to report the user with offensive users)</MSG>
+  <MSG>All the characters of the same purchase account can share the cash items.</MSG>
+  <MSG>Do you use a sharing device? Try the port forwarding function. You can experience an optimized network play.</MSG>
+  <!--    <MSG>Using the present function, you can give your friend an item in the homepage as a present.</MSG> -->
+  <MSG>Is GunZ running too slow? Use the optimization in the option.</MSG>
+  <MSG>"Play Now!" button searches for an empty room for you. You can conveniently participate in the game.</MSG>
+  <MSG>The administrator or developer team will never ask for your password.</MSG>
+  <MSG>You and your group of friends can come together to make a clan to represent your team.</MSG>
+  <MSG>The items bought at the item shop on the home page are deposited into the "Central Bank".</MSG>
+  <MSG>Bounty items cannot be shared with other characters through the Central Bank.</MSG>
+  <MSG>In the training mode, you cannot change the Win/Lose or Kill/Death values.</MSG>
+  <MSG>Use the chat command '/r' to send whispering response.</MSG>
+  <MSG>If you have a character which is level 21 or above, you cannot enter the Entry-level or Beginner Channel.</MSG>
+    
+    
+    <!-- GM Message -->
+    <MSG>Any ID that may offend others can be restricted.</MSG>
+    <MSG>Anyone who offends others inside a game can be subject to punishment by the operating team.</MSG>
+
+    <!-- 새로 추가 -->
+    <MSG>Once you defend yourself against the close combat attack, you have the Massive Strike chance right away!</MSG>
+    <MSG>Press the Ctrl+Number while observing a game to have the number assigned to see the relevant player. </MSG>
+ 
+    <!-- 클랜전 전용 -->
+<!--    <MSG>Have you played the breath-taking clan war? Now try it.</MSG> -->
+<!--    <MSG>In a Clan War you can have 1.5 times of the Exp. There is no loss of the Exp. resulting from the level difference.</MSG> -->
+</TIPS>    
+
+<!-- 왕초보 -->
+<TIPS category="4">
+	<MSG id="1">Press F1 key while the game is on to see the key description.</MSG>
+</TIPS>
+
+</XML>

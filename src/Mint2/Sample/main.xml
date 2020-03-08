@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<XML ID="Sample">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+	<INCLUDE>templates.xml</INCLUDE>
+	<INCLUDE>animations.xml</INCLUDE>
+	<INCLUDE>sample.xml</INCLUDE>
+<!--
+	<INCLUDE>sample2.xml</INCLUDE>
+	<INCLUDE>sample3.xml</INCLUDE>
+-->
+</XML>

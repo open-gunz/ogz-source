@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<XML>
+		<WORLDITEM id="01" name="hp01">
+			<TYPE>hp</TYPE>
+			<TIME>3000</TIME>
+			<AMOUNT>10</AMOUNT>
+			<MODELNAME>red</MODELNAME>
+		</WORLDITEM>
+		<WORLDITEM id="02" name="hp02">
+			<TYPE>hp</TYPE>
+			<TIME>5000</TIME>
+			<AMOUNT>25</AMOUNT>
+			<MODELNAME>red</MODELNAME>
+		</WORLDITEM>
+		<WORLDITEM id="03" name="hp03">
+			<TYPE>hp</TYPE>
+			<TIME>10000</TIME>
+			<AMOUNT>50</AMOUNT>
+			<MODELNAME>red</MODELNAME>
+		</WORLDITEM>
+
+		<WORLDITEM id="04" name="ap01">
+			<TYPE>ap</TYPE>
+			<TIME>3000</TIME>
+			<AMOUNT>10</AMOUNT>
+			<MODELNAME>green</MODELNAME>
+		</WORLDITEM>
+		<WORLDITEM id="05" name="ap02">
+			<TYPE>ap</TYPE>
+			<TIME>3000</TIME>
+			<AMOUNT>25</AMOUNT>
+			<MODELNAME>green</MODELNAME>
+		</WORLDITEM>
+		<WORLDITEM id="06" name="ap03">
+			<TYPE>ap</TYPE>
+			<TIME>10000</TIME>
+			<AMOUNT>50</AMOUNT>
+			<MODELNAME>green</MODELNAME>
+		</WORLDITEM>
+
+		<WORLDITEM id="07" name="bullet01">
+			<TYPE>bullet</TYPE>
+			<TIME>3000</TIME>
+			<AMOUNT>1</AMOUNT>
+			<MODELNAME>yellow</MODELNAME>
+		</WORLDITEM>
+		<WORLDITEM id="08" name="bullet02">
+			<TYPE>bullet</TYPE>
+			<TIME>3000</TIME>
+			<AMOUNT>2</AMOUNT>
+			<MODELNAME>yellow</MODELNAME>
+		</WORLDITEM>
+
+
+<!-- 서버 뿌려주는 아이템 id가 51이상이어야 한다. id 바뀌면 안됨 -->
+		<WORLDITEM id="51" name="itembox">
+			<TYPE>quest</TYPE>
+			<TIME>3000</TIME>
+			<AMOUNT>2</AMOUNT>
+			<MODELNAME>itembox</MODELNAME>
+		</WORLDITEM>
+
+
+<!-- 플레이어가 뿌려주는 아이템 id는 100 이상이어야함 -->
+		<WORLDITEM id="100" name="medikit">
+			<TYPE>hp</TYPE>
+			<AMOUNT>10</AMOUNT>
+			<MODELNAME>medikit</MODELNAME>
+		</WORLDITEM>
+
+		<WORLDITEM id="110" name="repairkit">
+			<TYPE>ap</TYPE>
+			<AMOUNT>10</AMOUNT>
+			<MODELNAME>repairkit</MODELNAME>
+		</WORLDITEM>
+
+		<WORLDITEM id="111" name="bulletkit">
+			<TYPE>bullet</TYPE>
+			<AMOUNT>1</AMOUNT>
+			<MODELNAME>bulletkit</MODELNAME>
+		</WORLDITEM>
+
+		<WORLDITEM id="120" name="samgak01">
+			<TYPE>hpap</TYPE>
+			<AMOUNT>7</AMOUNT>
+			<MODELNAME>samgak01</MODELNAME>
+		</WORLDITEM>
+
+		<WORLDITEM id="121" name="candy">
+			<TYPE>hpap</TYPE>
+			<AMOUNT>8</AMOUNT>
+			<MODELNAME>candy</MODELNAME>
+		</WORLDITEM>
+
+		<WORLDITEM id="122" name="chocobar">
+			<TYPE>hpap</TYPE>
+			<AMOUNT>8</AMOUNT>
+			<MODELNAME>chocobar</MODELNAME>
+		</WORLDITEM>
+		<WORLDITEM id="130" name="medickit_rx">
+			<TYPE>hp</TYPE>
+			<AMOUNT>20</AMOUNT>
+			<MODELNAME>medickit_rx</MODELNAME>
+		</WORLDITEM>
+		<WORLDITEM id="131" name="repairkit">
+			<TYPE>ap</TYPE>
+			<AMOUNT>20</AMOUNT>
+			<MODELNAME>repairkit_rx</MODELNAME>
+		</WORLDITEM>
+
+<!-- 서버와 통신하지 않는 아이템 -->
+		<WORLDITEM id="201" name="portal">   <!-- id를 바꾸면 소스도 바꿔야 한다. -->
+			<TYPE>client</TYPE>
+			<TIME>3000</TIME>
+			<MODELNAME>portal</MODELNAME>
+		</WORLDITEM>
+
+		
+		<MeshInfo>
+			<AddWorldItemElu name ="yellow">
+				<AddBaseModel name ="yellow" filename="model/worlditem/ef_yellow.elu"/>
+				<AddAnimation name="play" filename="model/worlditem/ef_yellow.elu.ani" motion_type="0" motion_loop_type="loop" />
+			</AddWorldItemElu>	
+			
+			<AddWorldItemElu name ="red">
+				<AddBaseModel name ="red" filename="model/worlditem/ef_red.elu"/>
+				<AddAnimation name="play" filename="model/worlditem/ef_red.elu.ani" motion_type="0" motion_loop_type="loop" />
+			</AddWorldItemElu>	
+			
+			<AddWorldItemElu name ="green">
+				<AddBaseModel name ="green" filename="model/worlditem/ef_green.elu"/>
+				<AddAnimation name="play" filename="model/worlditem/ef_green.elu.ani" motion_type="0" motion_loop_type="loop" />
+			</AddWorldItemElu>	
+
+			<!-- 메디킷 -->
+			<AddWorldItemElu name ="medikit">
+				<AddBaseModel name ="medikit" filename="model/weapon/item/medikit.elu"/>
+			</AddWorldItemElu>	
+
+			<!-- 리페어킷 -->
+			<AddWorldItemElu name ="repairkit">
+				<AddBaseModel name ="repairkit" filename="model/weapon/item/repairkit.elu"/>
+			</AddWorldItemElu>	
+
+			<!-- 탄창킷 -->
+			<AddWorldItemElu name ="bulletkit">
+				<AddBaseModel name ="bulletkit" filename="model/weapon/item/medickit_samgak01.elu"/>
+			</AddWorldItemElu>	
+
+			<!-- 삼각김밥 -->
+			<AddWorldItemElu name ="samgak01">
+				<AddBaseModel name ="samgak01" filename="model/weapon/item/medickit_samgak01.elu"/>
+			</AddWorldItemElu>	
+
+			<!-- 삼각김밥 -->
+			<AddWorldItemElu name ="chocobar">
+				<AddBaseModel name ="chocobar" filename="model/weapon/item/chocobar.elu"/>
+			</AddWorldItemElu>	
+
+      <!-- 포탈 -->
+			<AddWorldItemElu name ="portal">
+				<AddBaseModel name ="portal" filename="model/worlditem/ef_portal.elu"/>
+				<AddAnimation name="play" filename="model/worlditem/ef_portal.elu.ani" motion_type="0" motion_loop_type="loop" />
+			</AddWorldItemElu>	
+
+			<!-- 아이템박스 -->
+			<AddWorldItemElu name ="itembox">
+				<AddBaseModel name ="itembox" filename="model/worlditem/ef_box.elu"/>
+				<AddAnimation name="play" filename="model/worlditem/ef_box_open.elu.ani" motion_type="0" motion_loop_type="lastframe" />
+				<AddAnimation name="playloop" filename="model/worlditem/ef_box_opened.elu.ani" motion_type="0" motion_loop_type="loop" />
+			</AddWorldItemElu>	
+						
+			<AddWorldItemElu name ="baseEffect">
+				<AddBaseModel name ="baseEffect" filename="model/worlditem/ef_prop.elu"/>
+				<AddAnimation name="play" filename="model/worlditem/ef_prop.elu.ani" motion_type="0" motion_loop_type="loop" />
+			</AddWorldItemElu>	
+		</MeshInfo>
+</XML>
+

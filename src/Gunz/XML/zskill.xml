@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+    
+ * effecttype
+    0 - 일반적인 적
+    1 - 적 영역
+	2 - 캐스터 주변 영역
+	3 - 전체
+    4 - 칼 휘두르는 범위
+	5 - 아군
+	6 - 아군 영역
+
+ * effect_startpos_type
+    0 - 가운데
+    3 - 머리
+    4 - 이펙트 더미
+    5 - 등    6 - 머리    7 - 왼손    8 - 오른손    9 - 왼발    10 - 오른발
+
+ * effectareamin - 공격판정 최소 범위(Melee Skill만 쓴다.)
+ * effectangle - 공격판정 각도(Melee Skill만 쓴다.)
+ * camera.shock - 카메라 효과 여부(true, false) (기본값=true)
+ * camera.power - 카메라 효과 파워(float) (기본값=1)
+ * camera.duration - 카메라 효과 시간(float) (기본값=0.5(초))
+ * camera.range - 카메라 효과 범위(float) (기본값=1500(cm))
+ * repeatdelay - 반복 딜레이(기본값=1.0(초))
+ * hitcheck - 발사되는 스킬인지 여부
+   
+};
+
+-->
+
+<XML xmlns="http://tempuri.org/zskill.xsd">
+	<SKILL id="1" name="Slow" effecttype="0" hitcheck="false" guidable="false" delay="25000"
+		lifetime="0" effectstarttime="2000" effecttime="5000" effectarea="0" resisttype="4"
+		difficulty="20" castingeffect="ef_slow_dam"  castingeffectType="5" castingpreeffect="ef_slow"   castingpreeffectType="4"
+		mod.damage="0" mod.dot="0" mod.criticalrate="0" mod.speed="50" mod.antimotion="false"
+		mod.root="false" mod.heal="0" castinganimation="1" />
+	<SKILL id="2" name="Fire Missile" effecttype="1" hitcheck="true" guidable="false" velocity="2000" delay="2000"
+		lifetime="0" effectstarttime="100" effecttime="0" effectarea="2" resisttype="1" difficulty="15"
+		mod.damage="50" mod.criticalrate="80" mod.speed="100" mod.antimotion="false" mod.root="false"
+		mod.heal="0" castinganimation="2" traileffect="fireball" traileffecttype="1" traileffectscale="3.0" colradius="45" />
+	<SKILL id="3" name="Massive Swing" effecttype="4" hitcheck="false" guidable="false" delay="15000"
+		lifetime="0" effectstarttime="1500" effecttime="1000" effectarea="10" effectareamin="6" effectangle="30" resisttype="0"
+		mod.damage="80" mod.criticalrate="80" mod.speed="100" mod.antimotion="false" mod.root="true"
+		mod.heal="0" castingeffect="massive_swing" castingeffectType="1" castingeffectAddPos="780.0 0.0 0.0" 
+		camera.power="1.2" camera.duration="1.0" camera.range="1500"		/>
+	<SKILL id="4" name="Ice Ball" effecttype="1" hitcheck="true" guidable="true" velocity="1000" delay="1500"
+		lifetime="5000" effectstarttime="1000" effecttime="0" effectarea="2" resisttype="2" difficulty="30" mod.damage="25"
+		mod.criticalrate="50" mod.speed="100" mod.antimotion="false" mod.root="false" mod.heal="0"  traileffect="icemissile" traileffecttype="2" />
+	<SKILL id="5" name="Blizzard" effecttype="2" hitcheck="false" guidable="false" delay="5000"
+		lifetime="0" effectstarttime="1300" effecttime="3000" effectarea="5" resisttype="2" difficulty="30" mod.damage="30"
+		mod.dot="30" mod.criticalrate="0" mod.speed="100" mod.antimotion="false" mod.root="true"
+		mod.heal="50" castingeffectSp="BlizzardEffect" castingeffectSpCount="1" castingeffectType="2" 
+		castingpreeffect="ef_blizzard_cast"   castingpreeffectType="4"/>
+	<SKILL id="6" name="Blizzard Greater" effecttype="2" hitcheck="false" guidable="false"
+		delay="5000" lifetime="0" effectstarttime="1300" effecttime="3000" effectarea="8" resisttype="2" difficulty="50"
+		mod.damage="35" mod.dot="35" mod.criticalrate="0" mod.speed="100" mod.antimotion="false"
+		mod.root="true" mod.heal="80" castingeffectSp="BlizzardEffect" castingeffectSpCount="5" castingeffectType="2" 
+		castingpreeffect="ef_blizzard_cast"   castingpreeffectType="4" message="???@#@$%#@!!! !!"/>
+	<SKILL id="7" name="Lesser Healing" effecttype="6" hitcheck="false" guidable="false" delay="5000"
+		lifetime="0" effectstarttime="2000" effecttime="0" effectarea="2" resisttype="0" difficulty="0" mod.damage="0"
+		mod.dot="0" mod.criticalrate="0" mod.speed="100" mod.antimotion="false" mod.root="false"
+		mod.heal="50" castingpreeffect="ef_Lesser Healing"  castingpreeffectType="4" castingeffectType="2" />
+	<SKILL id="8" name="Healing" effecttype="6" hitcheck="false" guidable="false" delay="6000"
+		lifetime="0" effecttime="0" effectarea="3" resisttype="0" difficulty="0" mod.damage="0"
+		mod.dot="0" mod.criticalrate="0" mod.speed="100" mod.antimotion="false" mod.root="false"
+		mod.heal="100" castingpreeffect="ef_healing"  castingpreeffectType="4" castingeffectType="2" />
+	<SKILL id="9" name="Redemption" effecttype="3" hitcheck="false" guidable="false" delay="30000"
+		lifetime="0" effecttime="0" resisttype="0" difficulty="0" mod.damage="0" mod.dot="0"
+		mod.criticalrate="0" mod.speed="100" mod.antimotion="false" mod.root="false" mod.heal="500"
+		mod.repair="500" />
+	<SKILL id="10" name="Magic Missile" effecttype="1" hitcheck="true" guidable="false" velocity="2500" delay="1800"
+		lifetime="0" effectstarttime="0" effecttime="0" effectarea="1" resisttype="0" mod.damage="20"
+		mod.dot="0" mod.criticalrate="50" mod.speed="100" mod.antimotion="false" mod.root="false"
+		mod.heal="0" castinganimation="1"  traileffect="magicmissile" traileffecttype="3" />
+	<SKILL id="11" name="Stun" effecttype="0" hitcheck="false" guidable="false" delay="5000"
+		lifetime="0" effecttime="5000" resisttype="3" difficulty="20" mod.damage="0" mod.dot="0"
+		mod.criticalrate="0" mod.speed="100" mod.antimotion="false" mod.root="true" mod.heal="0"
+		castingpreeffect="ef_stun"  castingpreeffectType="3" />
+	<SKILL id="12" name="Lightning Storm" effecttype="1" hitcheck="false" guidable="false"
+		delay="10000" lifetime="0" effectstarttime="1300" effecttime="4000" effectarea="8" resisttype="3"
+		difficulty="40" mod.damage="15" mod.dot="15" mod.criticalrate="100" mod.speed="100"
+		mod.root="true" mod.heal="0" castingeffect="ef_lightening" castingeffectType="2" 
+		castingpreeffect="ef_lightening_cast"   castingpreeffectType="4" />
+	<SKILL id="13" name="Lightning Shower" effecttype="3" hitcheck="false" guidable="false"
+		delay="20000" lifetime="20000" effectstarttime="1300" effecttime="3000" resisttype="3"
+		difficulty="50" mod.damage="20" mod.dot="20" mod.criticalrate="100" mod.speed="100"
+		mod.antimotion="false" mod.root="true" mod.heal="0" castingeffect="ef_lightening" castingeffectType="2"
+		castingpreeffect="ef_lightening_cast"   castingpreeffectType="4" />
+	<SKILL id="14" name="Ice Missile" effecttype="1" hitcheck="true" guidable="false" velocity="2500" delay="1800"
+		lifetime="0" effectstarttime="0" effecttime="0" effectarea="2" resisttype="2" difficulty="15"
+		mod.damage="25" mod.dot="0" mod.criticalrate="0" mod.speed="100" mod.antimotion="false"
+		mod.root="false" mod.heal="0" castinganimation="1" traileffect="icemissile" traileffecttype="2" />
+	<SKILL id="15" name="Poison Storm" effecttype="1" hitcheck="false" guidable="false" delay="10000"
+		lifetime="0" effectstarttime="0" effecttime="4000" effectarea="8" resisttype="4" difficulty="40"
+		mod.damage="18" mod.dot="18" mod.criticalrate="50" mod.speed="100" mod.antimotion="false"
+		mod.root="true" />
+	<SKILL id="16" name="Stun Fist" effecttype="4" hitcheck="false" guidable="false" delay="3000"
+		lifetime="0" effectstarttime="0" effecttime="2000" effectarea="0" resisttype="0" mod.damage="30"
+		mod.dot="0" mod.criticalrate="20" mod.speed="100" mod.antimotion="false" mod.root="true"
+		castingpreeffect="ef_stun"  castingpreeffectType="3" />
+	<SKILL id="17" name="Call Death" effecttype="0" hitcheck="false" guidable="false" delay="300000"
+		lifetime="0" effectstarttime="0" effecttime="0" effectarea="0" resisttype="0" 
+		castingpreeffect="ef_death"  castingpreeffectType="3" castingeffectType="3" mod.damage="1000"
+		mod.dot="0" mod.criticalrate="100" mod.speed="100" mod.antimotion="false" mod.root="false"
+		effectsound="fx_magic_death"/>
+	<SKILL id="18" name="Methor" effecttype="3" hitcheck="false" guidable="false" delay="20000"
+		lifetime="0" effectstarttime="0" effecttime="3000" resisttype="1" difficulty="50" mod.damage="20"
+		mod.dot="20" mod.criticalrate="100" mod.speed="100" mod.antimotion="false" mod.root="true"
+		castingeffectSp="MethorEffect" castingeffectSpCount="1" castingeffectType="2" />
+
+	<SKILL id="51" name="GoblinKing's Fire Missile" effecttype="0" hitcheck="true" guidable="false" velocity="6000" delay="11000"
+		lifetime="0" effectstarttime="1200" effecttime="0" effectarea="2" resisttype="1" difficulty="15"
+		mod.damage="80" mod.criticalrate="80" mod.speed="100" mod.antimotion="false" mod.root="false"
+		mod.heal="0" castinganimation="2" castingeffectType="3" effect_startpos_type="6"
+		traileffect="fireball" traileffecttype="1" traileffectscale="8.0" colradius="100"
+		knockback="200">
+<!--		<REPEAT delay="0.2" angle="0.0 0.0 0.0" /> -->
+		<REPEAT delay="0.5" angle="0.0 0.0 0.2" />
+		<REPEAT delay="0.5" angle="0.0 0.0 -0.2" />
+
+		
+<!--		<REPEAT delay="0.5" angle="0.0 0.0 0.15" />
+		<REPEAT delay="0.5" angle="0.0 0.0 -0.15" /> -->
+
+	</SKILL>
+		
+<!-- test -->		
+	<SKILL id="101" name="Goblin Gunner Skills" effecttype="0" hitcheck="true" guidable="false" velocity="2500" delay="2000"
+		lifetime="0" effectstarttime="100" effecttime="0" effectarea="2" resisttype="1" difficulty="15"
+		mod.damage="15" mod.criticalrate="80" mod.speed="80" mod.antimotion="false" mod.root="false"
+		mod.heal="0" castinganimation="2" traileffect="ef_slugs" traileffecttype="1" traileffectscale="2.0" 
+		camera.shock="false"
+		draw.track="false"
+		sound.explosion="we_grenade_explosion"
+		/>
+
+	<SKILL id="102" name="Fire Missile" effecttype="1" hitcheck="true" guidable="false" velocity="8000" delay="10000"
+		lifetime="0" effectstarttime="100" effecttime="0" effectarea="2" resisttype="1" difficulty="15"
+		mod.damage="10" mod.criticalrate="80" mod.speed="60" mod.antimotion="false" mod.root="false"
+		mod.heal="0" castinganimation="2" traileffect="fireball" traileffecttype="1" traileffectscale="4.0"/>
+
+	<SKILL id="1032" name="Magic Missile" effecttype="0" hitcheck="true" guidable="false" velocity="4000" delay="3000"
+		lifetime="0" effectstarttime="400" effecttime="0" effectarea="2" resisttype="1" difficulty="15"
+		mod.damage="10" mod.criticalrate="80" mod.speed="100" mod.antimotion="false" mod.root="false"
+		mod.heal="0" castinganimation="2" castingeffectType="3" effect_startpos_type="8"
+		traileffect="magicmissile" traileffecttype="1" traileffectscale="3.0" colradius="100"
+		knockback="20">
+<!--		<REPEAT delay="0.2" angle="0.0 0.0 0.0" /> -->
+		<REPEAT delay="0.3" angle="0.0 0.0 0.0" />
+		<REPEAT delay="0.3" angle="0.0 0.0 0.0" />
+
+		
+<!--		<REPEAT delay="0.5" angle="0.0 0.0 0.15" />
+		<REPEAT delay="0.5" angle="0.0 0.0 -0.15" /> -->
+
+	</SKILL>
+
+	<SKILL id="1034" name="Massive StandShot" effecttype="4" hitcheck="false" guidable="false" delay="3000"
+		lifetime="0" effectstarttime="1000" effecttime="1000" effectarea="5" effectareamin="2" effectangle="45" resisttype="0"
+		mod.damage="60" mod.criticalrate="80" mod.speed="100" mod.antimotion="false" mod.root="false"
+		mod.heal="0" castingeffect="massive_swing" castingeffectType="1" castingeffectAddPos="300.0 0.0 0.0" 
+		camera.power="0.6" camera.duration="0.5" camera.range="600" knockback="200"
+		/>
+
+</XML>

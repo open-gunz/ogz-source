@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<XML ID="Sample">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+	<LABEL item="SampleLabel2">
+		<BOUNDS>
+			<X>300</X>
+			<Y>100</Y>
+			<W>140</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>2번째 샘플의 레이블</TEXT>
+		<TEXTCOLOR>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TEXTCOLOR>
+	</LABEL>
+	<BUTTON item="SampleButton2">
+		<BUTTONLOOK>SampleButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>300</X>
+			<Y>150</Y>
+			<W>120</W>
+			<H>24</H>
+		</BOUNDS>
+		<TEXT>LOOK 버튼 테스트</TEXT>
+		<COLOR>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+		</COLOR>
+		<TEXTCOLOR>
+			<R>255</R>
+			<G>0</G>
+			<B>255</B>
+		</TEXTCOLOR>
+	</BUTTON>
+</XML>

@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML>
+<!-- 에러 메시지. -->
+<STR id="100">Communicator does not have a UID. This Communicator must be initialized by the Master-Controller.</STR>
+<STR id="101">Communicator has no UID space to allocate your UID.</STR>
+<STR id="110">Communicator tries to connect to an invalid direct connection.</STR>
+<STR id="200">Command has an invalid receiver UID. If you did not connect to any server and set default receiver, you must do it first.</STR>
+<STR id="300">Zone-Server is not connected to the Master-Controller.</STR>
+<STR id="301">Zone-Server tries to invalidate the Master-Controller.</STR>
+<STR id="1000">Invalid object UID.</STR>
+<!--
+<STR id="1001"></STR>
+-->
+
+<STR id="2000">Map file open error.</STR>
+
+<!-- 접속, 로그인 관련 -->
+<STR id="10000">You entered an incorrect password. Check the capital and small letters.</STR>
+<STR id="10001">The same ID has already logged on.</STR>
+<STR id="10002">The version does not match the server.</STR>
+<STR id="10003">You cannot enter because there are too many users.</STR>
+<STR id="10004">This ID is not permitted to access Gunz online.</STR>
+<STR id="10005">Failed Authentication</STR>
+
+<!-- 캐릭터 관리 관련 -->
+<STR id="10100">The character name is already present.</STR>
+<STR id="10101">You have used characters that are not allowed.</STR>
+<STR id="10102">The name is too short.</STR>
+<STR id="10103">The name is too long.</STR>
+<STR id="10104">Enter the character name.</STR>
+<STR id="10110">The character name does not exist.</STR>
+<STR id="10111">Cannot delete the character if it belongs to a clan or has cash items.</STR>
+
+<!-- 아이템 관련 -->
+<STR id="20001">Insufficient Bounty!</STR>
+<STR id="20002">You are not allowed to purchase the equipment(or item).</STR>
+<STR id="20003">You are not allowed to arm with the equipment.</STR>
+<STR id="20004">You are not allowed to take this equipment off.</STR>	
+<STR id="20005">You are not allowed to sell this equipment(or item).</STR>
+<STR id="20006">You are not allowed to sell the equipment(or item) equipped.</STR>
+<STR id="20007">Such an equipment(or item) is not available.</STR>
+<STR id="20008">You have too many equipment(or item).</STR>
+<STR id="20009">The selected equipment(or item) does not exist.</STR>
+<STR id="20010">It is overweight.</STR>
+<STR id="20011">It is not allowed to be used at your level.</STR>
+<STR id="20012">Cannot equip the same equipment(or item) in a slot.</STR>
+<STR id="20013">Cannot take off because of there is too much weight.</STR>
+<STR id="20014">Cannot sell the cash equipment(or item) at a store.</STR>
+<STR id="20015">Cannot take the equipment(or item) as it does not match your gender. </STR>
+<STR id="20016">This item cannot be mounted as it does not fit your level. Do you still want to get the equipment(or item)?.</STR>
+<STR id="20017">Cannot deposit the equipment(or item) in the Central Bank.</STR>
+<STR id="20018">You can deposit only a cash equipment(or item) in the Central Bank.</STR>
+<STR id="20019">The equipment(or item) is taken off because of level-down.</STR>
+<STR id="20020">Cannot equip the equipment(or item).</STR>
+
+<STR id="30000">Cannot enter the room.</STR>
+<STR id="30001">Cannot handle any more users.</STR>
+<STR id="30002">Incorrect password!</STR>
+<STR id="30003">You cannot enter here at your level.</STR>
+<STR id="30004">Intrusion is not allowed.</STR>
+<STR id="30005">Your entrance is prohibited.</STR>
+<STR id="30006">The stage does not exist.</STR>
+<STR id="30007">The stage is already present.</STR>
+<STR id="30008">You cannot make the room.</STR>
+<STR id="30009">There is no room available for you to enter.</STR>
+
+<STR id="30020">Cannot enter the channel.</STR>
+<STR id="30021">Cannot handle any more users.</STR>
+<STR id="30022">You cannot enter here at your level.</STR>
+<STR id="30023">If you have a character that is in level 21 or above, you cannot enter the beginner's or entry-level channel.</STR>
+
+<STR id="30026">There is no one that can match you.</STR>
+
+<!-- 클랜 관련. -->
+<STR id="30030">Cannot form a clan.</STR>
+<STR id="30031">The clan cannot be closed.</STR>
+<STR id="30032">The clan is already present.</STR>
+<STR id="30033">The number of members is not sufficient for clan creation.</STR>
+<STR id="30034">This member already belongs to an another clan.</STR>
+<STR id="30035">There is no member for clan creation in the lobby.</STR>
+<STR id="30036">The clan name is incorrect.</STR>
+<STR id="30037">This is no clan master.</STR>
+<STR id="30038">It is no clan master or administrator.</STR>
+<STR id="30039">This member already belongs to an another clan.</STR>
+<STR id="30040">Subscription is not processed.</STR>
+<STR id="30041">This member is a member of another clan.</STR>
+<STR id="30042">The member is not in the lobby.</STR>
+<STR id="30043">You have not joined the clan.</STR>
+<STR id="30044">You cannot withdraw from the clan.</STR>
+<STR id="30045">Cannot add an additional clan member.</STR>
+<STR id="30046">Your mate has not logged on.</STR>
+<STR id="30047">Not in the same clan.</STR>
+<STR id="30048">You cannot change the authority.</STR>
+<STR id="30049">The relevant clan member is not available. </STR>
+<STR id="30050">Insufficient bounty (1000 BP) for clan creation.</STR>
+<STR id="30051">Only those in level 10 or above can create a clan.</STR>
+<STR id="30052">Clan will be closed on '%s'.</STR>
+
+<!-- 래더관련. -->
+<STR id="30070">You cannot apply for a clan war.</STR>
+<STR id="30071">Different team members.</STR>
+<STR id="30072">The team member is not available.</STR>
+<STR id="30073">There is a member who cannot apply for team game.</STR>
+
+<!-- 클랜전 관련. -->
+<STR id="30080">Not in the same clan.</STR>
+<STR id="30081">No member.</STR>
+<STR id="30082">There is a member that cannot apply for a clan war.</STR>
+
+<!-- 클라이언트 관련. -->
+<STR id="30103">Not yet supported.</STR>
+<STR id="30104">Please do not use vulgar or profane language.</STR>
+<STR id="30105">You cannot write the same contents three times in a row or more.</STR>
+<STR id="30106">Prohibited to join chatting for 1 minute.</STR>
+
+
+<STR id="90000">Cannot access server.</STR>
+<STR id="90002">Disconnected from the server.</STR>
+
+<!-- 메세지 관련. -->
+<STR id="100000">You have joined the clan.</STR>
+<STR id="100001">The clan has been created.</STR>
+
+
+<!-- 따라가기 관련. -->
+<STR id="110000">You cannot enter.</STR>
+
+<!-- 투표관련. -->
+<STR id="120000">Cannot apply for a vote.</STR>	
+
+
+<!-- Disconnect message -->
+<STR id="130001">A hacking attempt was detected. Connection to the game server will be terminated shortly. </STR>
+<STR id="130002">This account has been blocked due to a hacking attempt. Account block will continue approximately for an hour.</STR>
+<STR id="130003">Connection is denied due to user's misdemeanant status. Connection to the game server will be terminated shortly.</STR>
+<STR id="130004">An invalid file has been detected.</STR>
+
+
+
+<!-- 서버 관련 -->
+<STR id="200000">You cannot start the vote.</STR>	
+<STR id="200001">You cannot proceed the vote for the ladder game.</STR>	
+<STR id="200002">Voting already started.</STR>	
+<STR id="200003">The vote failed.</STR>	
+<STR id="200004">10 seconds remaining.</STR>	
+<STR id="200005">30 seconds remaining.</STR>	
+<STR id="200006">60 seconds remaining.</STR>	
+<STR id="200007">The personnel is many too much.</STR>	
+<STR id="200008"> '%s' isn't ready.</STR>	
+
+</XML>

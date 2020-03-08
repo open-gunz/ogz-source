@@ -1,0 +1,2263 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML>
+
+	<!-- zitem.xml -->
+	<STR id="ZITEM_NAME_1">古い短剣</STR>
+	<STR id="ZITEM_DESC_1">使い古された短剣、所々に錆びた跡がある。使った後、中古で売るには無理がありそうだ。</STR>
+
+	<STR id="ZITEM_NAME_2">古い長剣</STR>
+	<STR id="ZITEM_DESC_2">使い古された長剣、所々に錆びた跡がある。使った後、中古で売るには無理がありそうだ。</STR>
+
+	<STR id="ZITEM_NAME_3">ミリタリーダガー</STR>
+	<STR id="ZITEM_DESC_3">軍隊で使っている突撃型の短剣。</STR>
+
+	<STR id="ZITEM_NAME_4">軽量短剣</STR>
+	<STR id="ZITEM_DESC_4">非常に軽く使い勝手のいい短剣。</STR>
+
+	<STR id="ZITEM_NAME_5">高級短剣</STR>
+	<STR id="ZITEM_DESC_5">古代の短剣のため、素材については一切不明。匠人が刻んだ美しい模様が目を引く。重量は重め。</STR>
+
+	<STR id="ZITEM_NAME_6">ファントムスレイング</STR>
+	<STR id="ZITEM_DESC_6">悪霊を追い払うために作られたという神秘的な短剣。ただこの短剣で実際に悪霊が追い払われたのかは知る者はいない。</STR>
+
+	<STR id="ZITEM_NAME_7">ソウルイーター</STR>
+	<STR id="ZITEM_DESC_7">非常に少数のハンターが使用している短剣。限定数量で制作されたという。</STR>
+
+	<STR id="ZITEM_NAME_11">アイアンダガー</STR>
+	<STR id="ZITEM_DESC_11">一般的に簡単に手に入る短剣。工場で生産されたもののようだ。表面にうっすらと製造番号が見える。</STR>
+
+	<STR id="ZITEM_NAME_12">アイアンソード</STR>
+	<STR id="ZITEM_DESC_12">一般的に簡単に手に入る長剣。工場で生産されたもののようだ。表面にうっすらと製造番号が見える。</STR>
+
+	<STR id="ZITEM_NAME_13">ミリタリーソード</STR>
+	<STR id="ZITEM_DESC_13">軍隊で使用されている長剣。一般人には支給されないという。見た目は高級に見える。</STR>
+
+	<STR id="ZITEM_NAME_14">軽量長剣</STR>
+	<STR id="ZITEM_DESC_14">非常に軽く使い勝手のいい長剣。</STR>
+
+	<STR id="ZITEM_NAME_15">高級長剣</STR>
+	<STR id="ZITEM_DESC_15">特殊な金属で作られた特殊仕様の長剣。</STR>
+
+	<STR id="ZITEM_NAME_16">デビルスレイヤー</STR>
+	<STR id="ZITEM_DESC_16">悪霊を追い払うために作られたという神秘的な長剣。</STR>
+
+	<STR id="ZITEM_NAME_17">竜月郎</STR>
+	<STR id="ZITEM_DESC_17">金細工を施されている名刀。この刀は使うものを選ぶといわれている。</STR>
+
+	<STR id="ZITEM_NAME_31">小太刀</STR>
+	<STR id="ZITEM_DESC_31">両手に着用して使うようにした小刀。一般人が使えるように作られた。</STR>
+
+	<STR id="ZITEM_NAME_32">軽量小太刀</STR>
+	<STR id="ZITEM_DESC_32">特殊金属を使用した特殊仕様の小刀。</STR>
+
+	<STR id="ZITEM_NAME_33">高級小太刀</STR>
+	<STR id="ZITEM_DESC_33">高級素材を使用した特殊仕様の小刀。</STR>
+
+	<STR id="ZITEM_NAME_34">霧血煙</STR>
+	<STR id="ZITEM_DESC_34">恐ろしい名前を持つこの小帯刀は昔ある剣豪が使っていたと言い伝えられている。</STR>
+
+	<STR id="ZITEM_NAME_51">バスタードソード</STR>
+	<STR id="ZITEM_DESC_51">非常に大きい刀。</STR>
+
+	<STR id="ZITEM_NAME_4001">ラプター50</STR>
+	<STR id="ZITEM_DESC_4001">ウォルコム社製品。帝国で昔から生産され使われていた拳銃。現在は作られていない。</STR>
+
+	<STR id="ZITEM_NAME_4002">ラプター50x2</STR>
+	<STR id="ZITEM_DESC_4002">（両手装備）ウォルコム社製品。帝国で昔から生産され使われていた拳銃。現在は作られていない。</STR>
+
+	<STR id="ZITEM_NAME_4003">ラプター 120</STR>
+	<STR id="ZITEM_DESC_4003">ウォルコム社製品。軍使用を目的に開発された補給品。 ラプター 80に比べレベルアップした制御力を感じる。</STR>
+
+	<STR id="ZITEM_NAME_4004">ラプター 120 x2</STR>
+	<STR id="ZITEM_DESC_4004">(両手装備) ウォルコム社製品。軍使用を目的に開発された補給品。 ラプター 80に比べレベルアップした制御力を感じる。</STR>
+
+	<STR id="ZITEM_NAME_4005">ミニック 567</STR>
+	<STR id="ZITEM_DESC_4005">マクスウェル社製品。共和国の一般歩兵に支給された伝説的なリボルバー。現在は制作されていない。</STR>
+
+	<STR id="ZITEM_NAME_4006">ミニック 567 x2</STR>
+	<STR id="ZITEM_DESC_4006">(両手装備) マクスウェル社製品。共和国の一般歩兵に支給された伝説的なリボルバー。現在は制作されていない。</STR>
+
+	<STR id="ZITEM_NAME_4007">ザウルス A</STR>
+	<STR id="ZITEM_DESC_4007">ウォルコム社製品。軍納品のためウォルコム社が開発した補給品リボルバー。</STR>
+
+	<STR id="ZITEM_NAME_4008">ザウルス A x2</STR>
+	<STR id="ZITEM_DESC_4008">(両手装備) ウォルコム社製品。軍納品のためウォルコム社が開発した補給品リボルバー。</STR>
+
+	<STR id="ZITEM_NAME_4009">ラプター80</STR>
+	<STR id="ZITEM_DESC_4009">ウォルコム社製品。ラプター50の後続器。実際には多少性能アップされただけ。外見も同じ。ライバル社の新製品発表により早期制作中止を宣言した。</STR>
+
+	<STR id="ZITEM_NAME_4010">ラプター80 x2</STR>
+	<STR id="ZITEM_DESC_4010">(両手装備) ウォルコム社製品。ラプター50の後続器。実際には多少性能アップされただけ。外見も同じ。ライバル社の新製品発表により早期制作中止を宣言した。</STR>
+
+	<STR id="ZITEM_NAME_4011">レイブン5</STR>
+	<STR id="ZITEM_DESC_4011">マクスウェル社製品。共和国の戦線に供給するために製作された拳銃。</STR>
+
+	<STR id="ZITEM_NAME_4012">レイブン5 x2</STR>
+	<STR id="ZITEM_DESC_4012">（両手装備）マクスウェル社製品。共和国の戦線に供給するために製作された拳銃。</STR>
+
+	<STR id="ZITEM_NAME_4013">レイブン 6</STR>
+	<STR id="ZITEM_DESC_4013">マクスウェル社製品。レイブン 5の後続モデル。よりパワーアップした性能が目立つが、相変わらず軽量化には失敗している。</STR>
+
+	<STR id="ZITEM_NAME_4014">レイブン 6 x2</STR>
+	<STR id="ZITEM_DESC_4014">(両手装備) マクスウェル社製品。レイブン 5の後続モデル。よりパワーアップした性能が目立つが、相変わらず軽量化には失敗している。</STR>
+
+	<STR id="ZITEM_NAME_4015">ラプター 160</STR>
+	<STR id="ZITEM_DESC_4015">ウォルコム社製品。ラプター 120の後続モデル。パワーアップした性能と優れた連射力を誇る。</STR>
+
+	<STR id="ZITEM_NAME_4016">ラプター 160 x2</STR>
+	<STR id="ZITEM_DESC_4016">(両手装備) ウォルコム社製品。ラプター 120の後続モデル。パワーアップした性能と優れた連射力を誇る。</STR>
+
+	<STR id="ZITEM_NAME_4017">レイブン 7</STR>
+	<STR id="ZITEM_DESC_4017">マクスウェル社製品。より火力がレベルアップしたレイブン 7。 既存のモデルよりさらに強力な火力と連射力。しかし防御力と重量面では相変わらず短所がある。</STR>
+
+	<STR id="ZITEM_NAME_4018">レイブン 7 x2</STR>
+	<STR id="ZITEM_DESC_4018">(両手装備) マクスウェル社製品。より火力がレベルアップしたレイブン 7。 既存のモデルよりさらに強力な火力と連射力。しかし防御力と重量面では相変わらず短所がある。</STR>
+
+	<STR id="ZITEM_NAME_4019">ラプター 200</STR>
+	<STR id="ZITEM_DESC_4019">正確性が高く信頼できるラプターシリーズ。ウォルコムの発展した開発力に驚嘆することができる。</STR>
+
+	<STR id="ZITEM_NAME_4020">ラプター 200 x2</STR>
+	<STR id="ZITEM_DESC_4020">(両手装備) 正確性が高く信頼できるラプターシリーズ。ウォルコムの発展した開発力に驚嘆することができる。</STR>
+
+	<STR id="ZITEM_NAME_4501">ダイナックス7000</STR>
+	<STR id="ZITEM_DESC_4501">カノックス社製品。初期型軽量リボルバー。現在は制作されていないモデルだが中古品がよく裏で取引きされる。</STR>
+
+	<STR id="ZITEM_NAME_4502">ダイナックス7000 x2</STR>
+	<STR id="ZITEM_DESC_4502">(両手装備) カノックス社製品。初期型軽量リボルバー。現在は制作されていないモデルだが中古品がよく裏で取引きされる。</STR>
+
+	<STR id="ZITEM_NAME_4503">ミニック 567 Limited</STR>
+	<STR id="ZITEM_DESC_4503">マクスウェル社製品。マクスウェル社のミニック発売5周年記念モデル。オリジナルに比べより高い安定性とパワーを持っている。</STR>
+
+	<STR id="ZITEM_NAME_4504">ミニック 567 Limited x2</STR>
+	<STR id="ZITEM_DESC_4504">(両手装備) マクスウェル社製品。マクスウェル社のミニック発売5周年記念モデル。オリジナルに比べより高い安定性とパワーを持っている。</STR>
+
+	<STR id="ZITEM_NAME_4505">ファントムクルーズ</STR>
+	<STR id="ZITEM_DESC_4505">ニコー社製品。ニコー社が誇る高級リボルバー。既存のリボルバーとは違うデザインで人気がある。</STR>
+
+	<STR id="ZITEM_NAME_4506">ファントムクルーズ x2</STR>
+	<STR id="ZITEM_DESC_4506">(両手装備) ニコー社製品。ニコー社が誇る高級リボルバー。既存のリボルバーとは違うデザインで人気がある。</STR>
+
+	<STR id="ZITEM_NAME_4507">ファントムクルーズ N</STR>
+	<STR id="ZITEM_DESC_4507">ニコー社製品。ファントムクルーズのマイナーアップグレードタイプ。多少のレベルアップがある。</STR>
+
+	<STR id="ZITEM_NAME_4508">ファントムクルーズ N x2</STR>
+	<STR id="ZITEM_DESC_4508">(両手装備) ニコー社製品。ファントムクルーズのマイナーアップグレードタイプ。多少のレベルアップがある。</STR>
+
+	<STR id="ZITEM_NAME_4509">ダイナックス8000</STR>
+	<STR id="ZITEM_DESC_4509">カノックス社製品。軽量リボルバー。7000の後続機種だが性能がかなり改善された。</STR>
+
+	<STR id="ZITEM_NAME_4510">ダイナックス8000 x2</STR>
+	<STR id="ZITEM_DESC_4510">(両手装備) カノックス社製品。軽量リボルバー。7000の後続機種だが性能がかなり改善された。</STR>
+
+	<STR id="ZITEM_NAME_4511">ミニック 567 MK.II</STR>
+	<STR id="ZITEM_DESC_4511">マクスウェル社製品。マックスウェル社のミニック発売5周年記念モデル。オリジナルに比べより高い安定性とパワーを持つ。</STR>
+
+	<STR id="ZITEM_NAME_4512">ミニック 567 MK.II x2</STR>
+	<STR id="ZITEM_DESC_4512">(両手装備) マクスウェル社製品。マックスウェル社のミニック発売5周年記念モデル。オリジナルに比べより高い安定性とパワーを持つ。</STR>
+
+	<STR id="ZITEM_NAME_4513">ザウルス B</STR>
+	<STR id="ZITEM_DESC_4513">ウォルコム社製品。強力なパワーを誇るリボルバーザウルスB式。正確度がさらにアップした。</STR>
+
+	<STR id="ZITEM_NAME_4514">ザウルス B x2</STR>
+	<STR id="ZITEM_DESC_4514">(両手装備) ウォルコム社製品。強力なパワーを誇るリボルバーザウルスB式。正確度がさらにアップした。</STR>
+
+	<STR id="ZITEM_NAME_5001">レナード</STR>
+	<STR id="ZITEM_DESC_5001">カノックス社製品。昔から使われていた旧モデルサブマシンガン。現在は制作されていない。</STR>
+
+	<STR id="ZITEM_NAME_5002">レナード x2</STR>
+	<STR id="ZITEM_DESC_5002">(両手装備) カノックス社製品。昔から使われていた旧モデルサブマシンガン。現在は制作されていない。</STR>
+
+	<STR id="ZITEM_NAME_5003">ウォルコム S5</STR>
+	<STR id="ZITEM_DESC_5003">ウォルコム社製品。サブマシンガン。より高い火力と装弾数で多く愛用されている。</STR>
+
+	<STR id="ZITEM_NAME_5004">ウォルコム S5 x2</STR>
+	<STR id="ZITEM_DESC_5004">(両手装備) ウォルコム社製品。サブマシンガン。より高い火力と装弾数で多く愛用されている。</STR>
+
+	<STR id="ZITEM_NAME_5005">エラン</STR>
+	<STR id="ZITEM_DESC_5005">カノックス社製品。小型サブマシンガン。携帯性により重点を置き制作された。</STR>
+
+	<STR id="ZITEM_NAME_5006">エラン x2</STR>
+	<STR id="ZITEM_DESC_5006">(両手装備) カノックス社製品。小型サブマシンガン。携帯性により重点を置き制作された。</STR>
+
+	<STR id="ZITEM_NAME_5007">レナード V</STR>
+	<STR id="ZITEM_DESC_5007">カノックス社製品。幅広く愛用されていたレナードの後続機種。制御力と連射力が改善された。</STR>
+
+	<STR id="ZITEM_NAME_5008">レナード V x2</STR>
+	<STR id="ZITEM_DESC_5008">(両手装備) カノックス社製品。幅広く愛用されていたレナードの後続機種。制御力と連射力が改善された。</STR>
+
+	<STR id="ZITEM_NAME_5009">ウォルコム S6</STR>
+	<STR id="ZITEM_DESC_5009">ウォルコム社製品。ウォルコム社のS5 の後続モデル。前のモデルに比べさらにアップした火力と安定性を持つ。</STR>
+
+	<STR id="ZITEM_NAME_5010">ウォルコム S6 x2</STR>
+	<STR id="ZITEM_DESC_5010">(両手装備) ウォルコム社製品。ウォルコム社のS5 の後続モデル。前のモデルに比べさらにアップした火力と安定性を持つ。</STR>
+
+	<STR id="ZITEM_NAME_5011">ニューレナード V</STR>
+	<STR id="ZITEM_DESC_5011">カノックス社製品。レナードⅤの人気に乗って制作したNEWバージョン</STR>
+
+	<STR id="ZITEM_NAME_5012">ニューレナード V x2</STR>
+	<STR id="ZITEM_DESC_5012">(両手装備) カノックス社製品。レナードⅤの人気に乗って制作したNEWバージョン</STR>
+
+	<STR id="ZITEM_NAME_5013">ウォルコム XL</STR>
+	<STR id="ZITEM_DESC_5013">ウォルコム社製品。ウォルコム社の70周年記念 SMG。実際は S6のマイナーグレードバージョンと呼ばれる軽量化ボディ。</STR>
+
+	<STR id="ZITEM_NAME_5014">ウォルコム XL x2</STR>
+	<STR id="ZITEM_DESC_5014">(両手装備) ウォルコム社製品。ウォルコム社の70周年記念 SMG。実際は S6のマイナーグレードバージョンと呼ばれる軽量化ボディ。</STR>
+
+	<STR id="ZITEM_NAME_5015">レナード VI</STR>
+	<STR id="ZITEM_DESC_5015">カノックス社製品。カノックス社の新モデルだがウォルコム XLのため相対的に人気が落ちた。</STR>
+
+	<STR id="ZITEM_NAME_5016">レナード  VI x2</STR>
+	<STR id="ZITEM_DESC_5016">(両手装備) カノックス社製品。カノックス社の新モデルだがウォルコム XLのため相対的に人気が落ちた。</STR>
+
+	<STR id="ZITEM_NAME_5017">ウォルコム XLS</STR>
+	<STR id="ZITEM_DESC_5017">ウォルコム社製品。XLの人気により新しく制作されたウォルコム社の新モデル。実際は火力部分だけを改善させた。</STR>
+
+	<STR id="ZITEM_NAME_5018">ウォルコム XLS x2</STR>
+	<STR id="ZITEM_DESC_5018">(両手装備) ウォルコム社製品。XLの人気により新しく制作されたウォルコム社の新モデル。実際は火力部分だけを改善させた。</STR>
+
+	<STR id="ZITEM_NAME_6001">ブレーカー3</STR>
+	<STR id="ZITEM_DESC_6001">リオニックス社製品。昔からショットガンを専門的に生産しているリオニックス社のポンプアクションタイプのショットガン。現在は制作されていない。</STR>
+
+	<STR id="ZITEM_NAME_6002">ブレーカー5</STR>
+	<STR id="ZITEM_DESC_6002">リオニックス社製品。ポンプアクションタイプのショットガン。相当前から生産されているが相変わらず人気がある。</STR>
+
+	<STR id="ZITEM_NAME_6003">ブレーカー6</STR>
+	<STR id="ZITEM_DESC_6003">リオニックス社製品。比較的最近発表された新型ショットガン。</STR>
+
+	<STR id="ZITEM_NAME_6004">ブレーカー7</STR>
+	<STR id="ZITEM_DESC_6004">リオニックス社製品。既存のブレーカーシリーズとは違うデザインを見せる 7番目のモデル。</STR>
+
+	<STR id="ZITEM_NAME_6005">アベンジャー</STR>
+	<STR id="ZITEM_DESC_6005">ニコー社製品。恐ろしい破壊力を持つ。装弾数が少ないのが短所。</STR>
+
+	<STR id="ZITEM_NAME_6006">ブレーカー8</STR>
+	<STR id="ZITEM_DESC_6006">リオニックス社製品。ブレーカーシリーズのショットガンメーカーで有名なリオニックスの新型ショットガン。</STR>
+
+	<STR id="ZITEM_NAME_6007">アベンジャー MK.II</STR>
+	<STR id="ZITEM_DESC_6007">ニコー社製品。冒険家たちがあっと驚いたアベンジャーの後続モデル。</STR>
+
+	<STR id="ZITEM_NAME_7001">ニコー R2</STR>
+	<STR id="ZITEM_DESC_7001">ニコー社製品。初期型小型銃。</STR>
+
+	<STR id="ZITEM_NAME_7002">ニコー R5</STR>
+	<STR id="ZITEM_DESC_7002">ニコー社製品。現在帝国軍で一番人気のある小型銃の一つ。</STR>
+
+	<STR id="ZITEM_NAME_7003">ウォルコムウォーリアー 77</STR>
+	<STR id="ZITEM_DESC_7003">ウォルコム社製品。扱いが難しいという短所があるが、相対的に強力なパワーを持つ。</STR>
+
+	<STR id="ZITEM_NAME_7004">マックスウェル LX30</STR>
+	<STR id="ZITEM_DESC_7004">マックスウェル社製品。安定感あるグリップと操作性、早い連射で脚光を浴びている。</STR>
+
+	<STR id="ZITEM_NAME_7005">ニコー R6</STR>
+	<STR id="ZITEM_DESC_7005">ニコー社製品。R5の後続モデル。より火力が改善されR5マニアから愛されている。</STR>
+
+	<STR id="ZITEM_NAME_7006">マックスウェル LX44</STR>
+	<STR id="ZITEM_DESC_7006">マックスウェル社製品。LX30よりもパワーアップされた連射力と火力を持つライフル。 安定感あるグリップに相変わらず高い正確度を誇る。</STR>
+
+	<STR id="ZITEM_NAME_7007">ニコー R7</STR>
+	<STR id="ZITEM_DESC_7007">ニコー社製品。火力面でよりパワーアップされた。人気のある新型ライフル。</STR>
+
+	<STR id="ZITEM_NAME_7008">ウォルコム ウォーリアー 88</STR>
+	<STR id="ZITEM_DESC_7008">ウォルコム社製品。相変わらず使いやすいとは言えないが強力な火力に焦点を合わせた新製品。</STR>
+
+	<STR id="ZITEM_NAME_8001">ニコー MG-K8</STR>
+	<STR id="ZITEM_DESC_8001">ニコー社製品。手に持って移動するには厳しい重さだがＫ8の脅威的な連射速度に敵は畏怖する。</STR>
+
+	<STR id="ZITEM_NAME_8002">ニコー MG-K9</STR>
+	<STR id="ZITEM_DESC_8002">ニコー社製品。火力がグレードアップしたＫ９マシンガン。脅威的な連射速度と制御性は「恐怖の武器」と呼ばれている。</STR>
+
+	<STR id="ZITEM_NAME_8003">ニコー MG-KX</STR>
+	<STR id="ZITEM_DESC_8003">ニコー社製品。爆発的な火力の新型マシンガン。</STR>
+
+	<STR id="ZITEM_NAME_9001">ウォルコム L1</STR>
+	<STR id="ZITEM_DESC_9001">ウォルコム社製品。力強い威力のロケットランチャー。</STR>
+
+	<STR id="ZITEM_NAME_9002">マックスウェル RW-77</STR>
+	<STR id="ZITEM_DESC_9002">マックスウェル社製品。ウォルコムのLシリーズより装弾数を増やして連射速度をはやめた。ただ、そのため火力が弱くなってしまった。</STR>
+
+	<STR id="ZITEM_NAME_9003">ウォルコム L1 MK. II</STR>
+	<STR id="ZITEM_DESC_9003">ウォルコム社製品。L1のマイナーアップグレードバージョンで多少威力がつよくなっている。</STR>
+
+	<STR id="ZITEM_NAME_9004">マックスウェル RW-88</STR>
+	<STR id="ZITEM_DESC_9004">マックスウェル社製品。RW-77のアップグレード型。見掛けの変化はなかったが連射速度があがった。</STR>
+
+	<STR id="ZITEM_NAME_9005">ウォルコム L2</STR>
+	<STR id="ZITEM_DESC_9005">ウォルコム社製品。L1より装弾数を増やすことでより脅威的になった武器。同時に軽量化を実現したモデル。</STR>
+
+	<STR id="ZITEM_NAME_9006">マックスウェル RW-66</STR>
+	<STR id="ZITEM_DESC_9006">マックスウェル社製品。初期型のロケットランチャー。威力はあまり強くない。</STR>
+
+	<STR id="ZITEM_NAME_10001">SniferRifle1</STR>
+	<STR id="ZITEM_DESC_10001">バードが制作したスナイパーライフル。</STR>
+
+	<STR id="ZITEM_NAME_21001">アレスランニングシャツ A</STR>
+	<STR id="ZITEM_DESC_21001">アレス社製品。軍用衣類の納品企業であるアレスが販売する男性用ランニングシャツ。</STR>
+
+	<STR id="ZITEM_NAME_21002">ルノコットンシャツ A</STR>
+	<STR id="ZITEM_DESC_21002">ルノ社製品。活動性の高い男性用コットンシャツ。</STR>
+
+	<STR id="ZITEM_NAME_21003">ベニコーレザーコート A</STR>
+	<STR id="ZITEM_DESC_21003">ベニコー社製品。男性用レザーコート。</STR>
+
+	<STR id="ZITEM_NAME_21004">ビンツ 冬用 ジャケット A</STR>
+	<STR id="ZITEM_DESC_21004">ビンツ社製品。革のジャケットで保温効果に優れている。 男性用</STR>
+
+	<STR id="ZITEM_NAME_21005">ミズレザーコート A</STR>
+	<STR id="ZITEM_DESC_21005">ミズ社製品。正装メーカーミズの最新男性用トレンチコート。</STR>
+
+	<STR id="ZITEM_NAME_21006">アレス 軍用ジャケット A</STR>
+	<STR id="ZITEM_DESC_21006">アレス社製品。軍に納品する軍用ジャケット。</STR>
+
+	<STR id="ZITEM_NAME_21007">ビンツ毛織ロングコート A</STR>
+	<STR id="ZITEM_DESC_21007">ビンツ社製品。毛織のロングコート。</STR>
+
+	<STR id="ZITEM_NAME_21008">ルノアクア花柄シャツ</STR>
+	<STR id="ZITEM_DESC_21008">ルノ社製品。夏を狙って出した男性用花柄シャツ。</STR>
+
+	<STR id="ZITEM_NAME_21501">フレックスコットンＴシャツ A</STR>
+	<STR id="ZITEM_DESC_21501">フレックス社製品。活動量の多い女性のための女性専用 コットンＴシャツ。</STR>
+
+	<STR id="ZITEM_NAME_21502">ユライクレザージャケット A</STR>
+	<STR id="ZITEM_DESC_21502">ユライク社製品。伸縮性のある材質で人気のあるユライク女性用レザージャケット。</STR>
+
+	<STR id="ZITEM_NAME_21503">ラックス 軍用チョッキ A</STR>
+	<STR id="ZITEM_DESC_21503">ラックス社製品。活動性がよく戦闘での生存性を保障する女性用軍用チョッキ。</STR>
+
+	<STR id="ZITEM_NAME_21504">アロナレザージャケット A</STR>
+	<STR id="ZITEM_DESC_21504">アロナ社製品。流行のかわいいレザージャケット。 女性用。</STR>
+
+	<STR id="ZITEM_NAME_21505">L* レザーコート A</STR>
+	<STR id="ZITEM_DESC_21505">Ｌ*社製品。贅沢な感覚の女性用コート。</STR>
+
+	<STR id="ZITEM_NAME_21506">ラックス軍用ジャケット A</STR>
+	<STR id="ZITEM_DESC_21506">ラックスが納品している女軍用 ジャケット。</STR>
+
+	<STR id="ZITEM_NAME_21507">ユライク ロングコート A</STR>
+	<STR id="ZITEM_DESC_21507">ユライク社製品。かっこいい女性用 ロングコート。</STR>
+
+	<STR id="ZITEM_NAME_21508">ビッグスアクア花柄トップ</STR>
+	<STR id="ZITEM_DESC_21508">ビックス社製品。夏を狙って出した女性用花柄トップ。</STR>
+
+	<STR id="ZITEM_NAME_22001">アレス 戦闘手袋 A</STR>
+	<STR id="ZITEM_DESC_22001">アレス社製品。楽で無難なデザインで愛されている男性用レザー手袋。</STR>
+
+	<STR id="ZITEM_NAME_22002">ビンツ防寒手袋 A</STR>
+	<STR id="ZITEM_DESC_22002">ビンツ社製品。風を防ぐ暖かい防寒手袋。 男性用。</STR>
+
+	<STR id="ZITEM_NAME_22003">アレス鉄製手袋 A</STR>
+	<STR id="ZITEM_DESC_22003">アレス社製品。戦闘用に設計された男性用鉄製手袋。優れた防御力を誇る。</STR>
+
+	<STR id="ZITEM_NAME_22004">ミズ羊レザー手袋 A</STR>
+	<STR id="ZITEM_DESC_22004">ミズ社製品。強いレザーで作られた手袋。</STR>
+
+	<STR id="ZITEM_NAME_22005">ルノアクア手袋</STR>
+	<STR id="ZITEM_DESC_22005">ルノ社製品。夏を狙って出した男性用手袋。</STR>
+
+	<STR id="ZITEM_NAME_22501">ラックス 戦闘手袋 A</STR>
+	<STR id="ZITEM_DESC_22501">ラックス社製品。無難でありながらも伸縮性素材のレザー手袋。</STR>
+
+	<STR id="ZITEM_NAME_22502">アロナ防寒レザー手袋 A</STR>
+	<STR id="ZITEM_DESC_22502">アロナ社製品。寒さから手を保護するために作られたレザー手袋。</STR>
+
+	<STR id="ZITEM_NAME_22503">ラックス 鉄製手袋 A</STR>
+	<STR id="ZITEM_DESC_22503">ラックス社製品。戦闘用に設計された女性用 鉄製手袋。</STR>
+
+	<STR id="ZITEM_NAME_22504">ユライク羊レザー手袋 A</STR>
+	<STR id="ZITEM_DESC_22504">ユライク社製品。戦闘用に 設計された女性用 レザー手袋。</STR>
+
+	<STR id="ZITEM_NAME_22505">ビッグスアクア手袋</STR>
+	<STR id="ZITEM_DESC_22505">ビックス社製品。夏を狙って出した女性用 手袋。</STR>
+
+	<STR id="ZITEM_NAME_23001">ビンツ トレーニングパンツ A</STR>
+	<STR id="ZITEM_DESC_23001">ビンツ社製品。優れた伸縮性と着用感を強調させたビンツの男性用パンツ。</STR>
+
+	<STR id="ZITEM_NAME_23002">ルノ活動性パンツ A</STR>
+	<STR id="ZITEM_DESC_23002">ルノ社製品。スポーツマンのために自信を持って出したパンツ。</STR>
+
+	<STR id="ZITEM_NAME_23003">ミズレザーパンツ A</STR>
+	<STR id="ZITEM_DESC_23003">ミズ社製品。高級なデザインのレザーパンツ。天然レザーを使いさわやかに仕上げた。</STR>
+
+	<STR id="ZITEM_NAME_23004">ベニコーデニムパンツ A</STR>
+	<STR id="ZITEM_DESC_23004">ベニコー社製品。独特な感じの男性用デニムパンツ。</STR>
+
+	<STR id="ZITEM_NAME_23005">アレス軍用パンツ A</STR>
+	<STR id="ZITEM_DESC_23005">アレス社製品。アレス社から軍に納品する軍用パンツ。</STR>
+
+	<STR id="ZITEM_NAME_23006">ウェップス古着ジーパン A</STR>
+	<STR id="ZITEM_DESC_23006">ウェップス社製品。古着ジーパン。荒い冒険家にふさわしい。</STR>
+
+	<STR id="ZITEM_NAME_23007">ルノアクアパンツ</STR>
+	<STR id="ZITEM_DESC_23007">ルノ社製品。夏を狙って出した男性用 水泳パンツ。</STR>
+
+	<STR id="ZITEM_NAME_23501">フレックストレーニング パンツ A</STR>
+	<STR id="ZITEM_DESC_23501">フレックス社製品。優れた伸縮性と着用感を強調したフレックスの女性用パンツ。</STR>
+
+	<STR id="ZITEM_NAME_23502">アロナ女性用ジーパン A</STR>
+	<STR id="ZITEM_DESC_23502">アロナ社製品。男女老若を問わず一番よく穿かれているジーパン。女性用。</STR>
+
+	<STR id="ZITEM_NAME_23503">ラックス軍用パンツ A</STR>
+	<STR id="ZITEM_DESC_23503">女軍のために特別制作した楽な軍用パンツ。</STR>
+
+	<STR id="ZITEM_NAME_23504">L* ブラックコットンパンツ A</STR>
+	<STR id="ZITEM_DESC_23504">(作られていないアイテム) 特別な女性のために L*が自信を持って作った贅沢な感覚のコッ。トンパンツ。</STR>
+
+	<STR id="ZITEM_NAME_23505">アロナ女性用ジーパン A</STR>
+	<STR id="ZITEM_DESC_23505">老若男女を問わず一番よく穿かれているジーパン。女性用。</STR>
+
+	<STR id="ZITEM_NAME_23506">ビンツセームパンツ A</STR>
+	<STR id="ZITEM_DESC_23506">ビンツ社製品。着心地のいい女性用セームパンツ。</STR>
+
+	<STR id="ZITEM_NAME_23507">L* ブラック コットンパンツ A</STR>
+	<STR id="ZITEM_DESC_23507">Ｌ*社製品。特別な女性のために L*が自信を持って作った贅沢な感覚のコットンパンツ。</STR>
+
+	<STR id="ZITEM_NAME_23508">ラックス軍用パンツ A</STR>
+	<STR id="ZITEM_DESC_23508">ラックス社製品。軍に納品している女性用パンツ。</STR>
+
+	<STR id="ZITEM_NAME_23509">ユライク七部コットンパンツ A</STR>
+	<STR id="ZITEM_DESC_23509">ユライク社製品。洗練された感覚のコットンパンツ。硬い材質を使って戦場にあったスタイルを加えた。</STR>
+
+	<STR id="ZITEM_NAME_23510">ビッグス アクア パンツ</STR>
+	<STR id="ZITEM_DESC_23510">ビックス社製品。夏を狙って出した女性用水着。</STR>
+
+	<STR id="ZITEM_NAME_24001">アレス 戦闘ブーツ A</STR>
+	<STR id="ZITEM_DESC_24001">アレス社製品。動きやすく楽な感覚の高級ブーツ。</STR>
+
+	<STR id="ZITEM_NAME_24002">ベニコーカジュアルシューズ A</STR>
+	<STR id="ZITEM_DESC_24002">ベニコー社製品。個性あるデザインで人気のあるカジュアルシューズ。</STR>
+
+	<STR id="ZITEM_NAME_24003">ルノ登山用ブーツ A</STR>
+	<STR id="ZITEM_DESC_24003">ルノ社製品。硬いレザーで荒地を移動しても破れる心配のないブーツ。</STR>
+
+	<STR id="ZITEM_NAME_24004">アレス 鉄製ブーツ A</STR>
+	<STR id="ZITEM_DESC_24004">アレス社製品。多少重いこのブーツは防御力を重視する人のために作られた。</STR>
+
+	<STR id="ZITEM_NAME_24005">ビンツカジュアルシューズ A</STR>
+	<STR id="ZITEM_DESC_24005">ビンツ社製品。カジュアルな感覚のブーツ。</STR>
+
+	<STR id="ZITEM_NAME_24006">ルノアクアサンダル</STR>
+	<STR id="ZITEM_DESC_24006">ルノ社製品。夏を狙って出した男性用 サンダル。</STR>
+
+	<STR id="ZITEM_NAME_24501">ユライク 革靴</STR>
+	<STR id="ZITEM_DESC_24501">ユライク社製品。平凡な感じの合成革靴。</STR>
+
+	<STR id="ZITEM_NAME_24502">ラックス 戦闘ブーツ</STR>
+	<STR id="ZITEM_DESC_24502">ラックス社製品。女軍のために特殊制作した戦闘ブーツ。</STR>
+
+	<STR id="ZITEM_NAME_24503">L* レザーブーツ</STR>
+	<STR id="ZITEM_DESC_24503">Ｌ*社製品。自信を持って出した高級レザーブーツ。</STR>
+
+	<STR id="ZITEM_NAME_24504">ラックス 鉄製ブーツ A</STR>
+	<STR id="ZITEM_DESC_24504">ラックス社製品。多少重いがファッションよりは戦闘での防御力を重視する人のために作られた靴。</STR>
+
+	<STR id="ZITEM_NAME_24505">ユライク 革靴 A</STR>
+	<STR id="ZITEM_DESC_24505">ユライク社製品。独特な感じのファッション革靴。</STR>
+
+	<STR id="ZITEM_NAME_24506">ビッグス アクア サンダル</STR>
+	<STR id="ZITEM_DESC_24506">ビックス社製品。夏を狙って出した女性用サンダル。</STR>
+
+	<STR id="ZITEM_NAME_25001">市民の指輪</STR>
+	<STR id="ZITEM_DESC_25001">見かけはそう美しくもない指輪。記念に市長が発行した。</STR>
+
+	<STR id="ZITEM_NAME_25002">クライングホークの指輪</STR>
+	<STR id="ZITEM_DESC_25002">伝説の中から言い伝えられてきた、ある勇猛な特殊隊員たちに支給されたという。</STR>
+
+	<STR id="ZITEM_NAME_25003">戦士の喚声</STR>
+	<STR id="ZITEM_DESC_25003">この小さい指輪には、戦争から生きて帰ってきてほしいと願う多くの者達の願いが込められている。</STR>
+
+	<STR id="ZITEM_NAME_25004">ピエルの指輪</STR>
+	<STR id="ZITEM_DESC_25004">戦争で死んだある勇猛な指揮官を追悼するため作られた指輪。</STR>
+
+	<STR id="ZITEM_NAME_25005">FMT 記念の指輪</STR>
+	<STR id="ZITEM_DESC_25005">FMTというシステムを作り出した科学者たちを記念するために制作された指輪。宝石にうっすらとマックフィールドというサインが彫られている。</STR>
+
+	<STR id="ZITEM_NAME_25006">幸運の指輪</STR>
+	<STR id="ZITEM_DESC_25006">外見の華麗さはないが、幸運が込められた指輪。 指輪をはめた者は体が軽くなる。</STR>
+
+	<STR id="ZITEM_NAME_25007">アルテマの指輪</STR>
+	<STR id="ZITEM_DESC_25007">チームアイで作られたアルテマ皇帝の業績を讃えて制作された指輪。</STR>
+
+	<STR id="ZITEM_NAME_25008">バンド　オブ　ザ　ブラッド</STR>
+	<STR id="ZITEM_DESC_25008">美しい赤い宝石がはめ込まれたかわいい指輪。はめた者の生命力を向上させると言われている。</STR>
+
+	<STR id="ZITEM_NAME_25009">エリアの指輪</STR>
+	<STR id="ZITEM_DESC_25009">アルテマ皇帝の命令でエリア姫を追悼するために作られた指輪。指輪をはめた者は何かわからない自信にあふれるようになる。</STR>
+
+	<STR id="ZITEM_NAME_25010">羽毛の指輪</STR>
+	<STR id="ZITEM_DESC_25010">伝説の中の鳥から得た羽毛で作ったという指輪。指輪をつけると体が軽くなる。</STR>
+
+	<STR id="ZITEM_NAME_30001">医療キット MK-1</STR>
+	<STR id="ZITEM_DESC_30001">体力を回復させてくれる。2個。</STR>
+
+	<STR id="ZITEM_NAME_30002">医療キット MK-2</STR>
+	<STR id="ZITEM_DESC_30002">体力を回復させてくれる。3個。</STR>
+
+	<STR id="ZITEM_NAME_30003">医療キット MK-3</STR>
+	<STR id="ZITEM_DESC_30003">体力を回復させてくれる。4個。</STR>
+
+	<STR id="ZITEM_NAME_30101">修理キット RK-1</STR>
+	<STR id="ZITEM_DESC_30101">壊れた防御具を直してくれる。2個</STR>
+
+	<STR id="ZITEM_NAME_30102">修理キット RK-2</STR>
+	<STR id="ZITEM_DESC_30102">壊れた防御具を直してくれる。3個。</STR>
+
+	<STR id="ZITEM_NAME_30103">修理キット RK-3</STR>
+	<STR id="ZITEM_DESC_30103">壊れた防御具を直してくれる。4個。</STR>
+
+	<STR id="ZITEM_NAME_30201">カノックス FB1</STR>
+	<STR id="ZITEM_DESC_30201">カノックス社製品。視覚と聴覚を瞬間麻痺させる閃光弾。2個。</STR>
+
+	<STR id="ZITEM_NAME_30202">カノックス FB2</STR>
+	<STR id="ZITEM_DESC_30202">カノックス社製品。視覚と聴覚を瞬間麻痺させる閃光弾。3個。</STR>
+
+	<STR id="ZITEM_NAME_30203">カノックス FB3</STR>
+	<STR id="ZITEM_DESC_30203">カノックス社製品。視覚と聴覚を瞬間麻痺させる閃光弾。4個。</STR>
+
+	<STR id="ZITEM_NAME_30204">カノックス FB4</STR>
+	<STR id="ZITEM_DESC_30204">カノックス社製品。視覚と聴覚を瞬間麻痺させる閃光弾。5個。</STR>
+
+	<STR id="ZITEM_NAME_30205">カノックス FB5</STR>
+	<STR id="ZITEM_DESC_30205">カノックス社製品。視覚と聴覚を瞬間麻痺させる閃光弾。6個。</STR>
+
+	<STR id="ZITEM_NAME_30301">カノックス FG1</STR>
+	<STR id="ZITEM_DESC_30301">カノックス社製品。室内で使えるように制作された新型手榴弾。2個。</STR>
+
+	<STR id="ZITEM_NAME_30302">カノックス FG2</STR>
+	<STR id="ZITEM_DESC_30302">カノックス社製品。室内で使えるように制作された新型手榴弾。3個。</STR>
+
+	<STR id="ZITEM_NAME_30303">カノックス FG3</STR>
+	<STR id="ZITEM_DESC_30303">カノックス社製品。室内で使えるように制作された新型手榴弾。4個。</STR>
+
+	<STR id="ZITEM_NAME_30304">カノックス FG4</STR>
+	<STR id="ZITEM_DESC_30304">カノックス社製品。室内で使えるように制作された新型手榴弾。5個。</STR>
+
+	<STR id="ZITEM_NAME_30305">カノックス FG5</STR>
+	<STR id="ZITEM_DESC_30305">カノックス社製品。室内で使えるように制作された新型手榴弾。6個。</STR>
+
+	<STR id="ZITEM_NAME_30401">カノックス SG1</STR>
+	<STR id="ZITEM_DESC_30401">カノックス社製品。視野を撹乱させる煙幕弾。3個。</STR>
+
+	<STR id="ZITEM_NAME_30402">カノックス SG2</STR>
+	<STR id="ZITEM_DESC_30402">カノックス社製品。視野を撹乱させる煙幕弾。4個。</STR>
+
+	<STR id="ZITEM_NAME_30403">カノックス SG3</STR>
+	<STR id="ZITEM_DESC_30403">カノックス社製品。視野を撹乱させる煙幕弾。5個。</STR>
+
+	<STR id="ZITEM_NAME_30404">カノックス SG4</STR>
+	<STR id="ZITEM_DESC_30404">カノックス社製品。視野を撹乱させる煙幕弾。6個。</STR>
+
+	<STR id="ZITEM_NAME_30405">カノックス SG5</STR>
+	<STR id="ZITEM_DESC_30405">カノックス社製品。視野を撹乱させる煙幕弾。7個。</STR>
+
+	<STR id="ZITEM_NAME_300000">ゴブリン 短剣</STR>
+	<STR id="ZITEM_DESC_300000">ゴブリンが使う短剣だ。</STR>
+
+	<STR id="ZITEM_NAME_300001">ゴブリン ライフル</STR>
+	<STR id="ZITEM_DESC_300001">ゴブリンが使うライフルだ。</STR>
+
+	<STR id="ZITEM_NAME_300002">ゴブリンメイス</STR>
+	<STR id="ZITEM_DESC_300002">ゴブリン隊長が使うメイス。</STR>
+
+	<STR id="ZITEM_NAME_300003">ゴブリンワンド</STR>
+	<STR id="ZITEM_DESC_300003">ゴブリンチーフのワンド。</STR>
+
+	<STR id="ZITEM_NAME_300004">ゴブリングレイドハンマー</STR>
+	<STR id="ZITEM_DESC_300004">ゴブリンキングのグレイドハンマー。</STR>
+
+	<STR id="ZITEM_NAME_300031">Skeleton Sword</STR>
+	<STR id="ZITEM_DESC_300031">A sword used by skeletons.</STR>
+
+
+	<STR id="ZITEM_NAME_400001">お詫びの指輪</STR>
+	<STR id="ZITEM_DESC_400001">(イベントアイテム) 謝罪の心が込められた指輪。多少重いのがキズ。</STR>
+
+	<STR id="ZITEM_NAME_400002">バーグフリー男性用 ロングコート</STR>
+	<STR id="ZITEM_DESC_400002">(イベント アイテム) アストラ世界の異常現象退治を手伝う冒険家だけが着ることが出来る男性用コート。</STR>
+
+	<STR id="ZITEM_NAME_400003">バーグフリー 女性用ロングコート</STR>
+	<STR id="ZITEM_DESC_400003">(イベント アイテム) アストラ世界の異常現象退治を手伝う冒険家だけが着ることが出来る女性用 コート。</STR>
+
+	<STR id="ZITEM_NAME_400004">スタッフ男性用 ジャケット</STR>
+	<STR id="ZITEM_DESC_400004">(イベント アイテム) 運営チームが着るジャケット</STR>
+
+	<STR id="ZITEM_NAME_400005">スタッフ女性用 ジャケット</STR>
+	<STR id="ZITEM_DESC_400005">(イベント アイテム) 運営チームが着るジャケット</STR>
+
+	<STR id="ZITEM_NAME_400006">ゴルムの指輪</STR>
+	<STR id="ZITEM_DESC_400006">(イベント アイテム) 黄金色の指輪。内側にMy preciousと丹念に刻まれている。</STR>
+
+	<STR id="ZITEM_NAME_400007">三角おにぎり</STR>
+	<STR id="ZITEM_DESC_400007">(Event Item) Triagle shaped rice rolls wrapped by seaweed. They look yummy. It can help you recover HP and AP slightly at once.</STR>
+
+	<STR id="ZITEM_NAME_400008">男性用パンポアコンパニオンコート</STR>
+	<STR id="ZITEM_DESC_400008">キュートなパンポアがプリントされたトレンチコート。何かを記念してデザインされたようだ。</STR>
+
+	<STR id="ZITEM_NAME_400009">女性用パンポアコンパニオンコート</STR>
+	<STR id="ZITEM_DESC_400009">キュートなパンポアがプリントされたトレンチコート。何かを記念してデザインされたようだ。</STR>
+
+	<STR id="ZITEM_NAME_400010">スティックキャンディ</STR>
+	<STR id="ZITEM_DESC_400010">オマケで付いてくる甘いスティックキャンディ。虫歯に注意</STR>
+
+	<STR id="ZITEM_NAME_400011">男性用バーニングタイドヘルメット</STR>
+	<STR id="ZITEM_DESC_400011">ビンツの野心が満ちたブランド "バーニングタイド" 男性用ヘルメット。情熱的な姿が印象的。</STR>
+
+	<STR id="ZITEM_NAME_400012">女性用バーニングタイドヘルメット</STR>
+	<STR id="ZITEM_DESC_400012">ビンツの野心が満ちたブランド "バーニングタイド" 女性用ヘルメット。情熱的な姿が印象的。</STR>
+
+	<STR id="ZITEM_NAME_500001">冒険家の短剣</STR>
+	<STR id="ZITEM_DESC_500001">冒険家のために軽量化された実用的な短剣</STR>
+
+	<STR id="ZITEM_NAME_500002">コデンナイフ</STR>
+	<STR id="ZITEM_DESC_500002">伝説の剣士が考案した特異な模様の短剣。</STR>
+
+	<STR id="ZITEM_NAME_500003">黒無剣</STR>
+	<STR id="ZITEM_DESC_500003">古代から言い伝えられてきた奇怪な短剣。</STR>
+
+	<STR id="ZITEM_NAME_500004">リーディックハンターの短剣</STR>
+	<STR id="ZITEM_DESC_500004">(限定期間発売) リーディックの短剣。装着しただけでAPが上がる珍しい短剣。</STR>
+
+	<STR id="ZITEM_NAME_502001">冒険家の長剣</STR>
+	<STR id="ZITEM_DESC_502001">冒険家のために軽量化された実用的な長剣。</STR>
+
+	<STR id="ZITEM_NAME_502002">上華刀</STR>
+	<STR id="ZITEM_DESC_502002">伝説の剣士が考案した特異な模様の長剣。</STR>
+
+	<STR id="ZITEM_NAME_502003">鬼劉刀</STR>
+	<STR id="ZITEM_DESC_502003">古代から言い伝えられてきた奇怪な長剣。</STR>
+
+	<STR id="ZITEM_NAME_504001">冒険家の 拳銃 x2</STR>
+	<STR id="ZITEM_DESC_504001">初心者の冒険家が主に使う拳銃。</STR>
+
+	<STR id="ZITEM_NAME_504002">リディックハンター拳銃の x2</STR>
+	<STR id="ZITEM_DESC_504002">(限定期間発売) リディックハンターの拳銃。装着しただけでAPが上がる珍しい拳銃。</STR>
+
+	<STR id="ZITEM_NAME_504003">アイリスの拳銃 x2</STR>
+	<STR id="ZITEM_DESC_504003">共和国の兵士が使用していた拳銃。自分たちのアジトの名前をつけた。</STR>
+
+	<STR id="ZITEM_NAME_504004">アイアンクロウの拳銃 x2</STR>
+	<STR id="ZITEM_DESC_504004">無法者の都市ハバニを制圧したアイアンクロウで使用した拳銃。</STR>
+
+	<STR id="ZITEM_NAME_504501">アイリスリボルバー x2</STR>
+	<STR id="ZITEM_DESC_504501">共和国の兵士が使っていたリボルバー。自分たちのアジトの名前をつけた。</STR>
+
+	<STR id="ZITEM_NAME_504502">アイアンクロウ リボルバー x2</STR>
+	<STR id="ZITEM_DESC_504502">無法者の都市ハバニを制圧したアイアンクロウで使うリボルバー。</STR>
+
+	<STR id="ZITEM_NAME_504503">ゴールドハウンド x2</STR>
+	<STR id="ZITEM_DESC_504503">同クラスの中でも最強の破壊力を目指して開発されたリボルバー。破壊力増加による反動のため初心者には難しい。</STR>
+
+	<STR id="ZITEM_NAME_505001">冒険家 SMG x2</STR>
+	<STR id="ZITEM_DESC_505001">初心者の冒険家が主に使うSMG。商人達がレナードの弾倉を不法改造し販売している意味のようだ。</STR>
+
+	<STR id="ZITEM_NAME_505002">アイリス SMG x2</STR>
+	<STR id="ZITEM_DESC_505002">共和国の兵士が使っていたSMG。自分たちのアジトの名前をつけた。</STR>
+
+	<STR id="ZITEM_NAME_505003">アイアンクロウ SMG x2</STR>
+	<STR id="ZITEM_DESC_505003">無法者の都市ハバニを制圧したアイアンクロウで使用したSMG。</STR>
+
+	<STR id="ZITEM_NAME_506001">アイリス ショットガン</STR>
+	<STR id="ZITEM_DESC_506001">共和国の兵士が使っていたショットガン。自分たちのアジトの名前をつけた。</STR>
+
+	<STR id="ZITEM_NAME_506002">アイアンクロウ ショットガン</STR>
+	<STR id="ZITEM_DESC_506002">無法者の都市ハバニを制圧したアイアンクロウで使用したショットガン。</STR>
+
+	<STR id="ZITEM_NAME_506003">Bigi shotgun</STR>
+	<STR id="ZITEM_DESC_506003"></STR>
+
+	<STR id="ZITEM_NAME_506004">クルーエルリーズン</STR>
+	<STR id="ZITEM_DESC_506004">ブレイカーシリーズより破壊力をもったショットガン。だが連射力と制御性が低くなったため扱いにくい。</STR>
+
+	<STR id="ZITEM_NAME_507001">アイリス 小型銃</STR>
+	<STR id="ZITEM_DESC_507001">共和国の兵士が使っていた小型銃。自分たちのアジトの名前をつけた。</STR>
+
+	<STR id="ZITEM_NAME_507002">アイアンクロウ 小型銃</STR>
+	<STR id="ZITEM_DESC_507002">無法者の都市ハバニを制圧したアイアンクロウで使用した小型銃。</STR>
+
+	<STR id="ZITEM_NAME_507003">プライムTX</STR>
+	<STR id="ZITEM_DESC_507003">連射力と安全性にスポットをあてたライフル。安定感と制御性に優れている。</STR>
+
+	<STR id="ZITEM_NAME_508001">アイアンクロウ マシンガン</STR>
+	<STR id="ZITEM_DESC_508001">無法者の都市ハバニを制圧したアイアンクロウで使用したマシンガン。</STR>
+
+	<STR id="ZITEM_NAME_509001">アイリスロケット</STR>
+	<STR id="ZITEM_DESC_509001">共和国の兵士が使っていたロケットランチャー。自分たちのアジトの名前をつけた。</STR>
+
+	<STR id="ZITEM_NAME_509002">アイアンクロウロケット</STR>
+	<STR id="ZITEM_DESC_509002">無法者の都市ハバニを制圧したアイアンクロウで使用したロケットランチャー。</STR>
+
+	<STR id="ZITEM_NAME_509003">プレッシャー RX</STR>
+	<STR id="ZITEM_DESC_509003">バランスよく作成されたロケットランチャー。攻撃力をおさせ装弾数などを高めた。</STR>
+
+	<STR id="ZITEM_NAME_520001">アレスの軍用帽子</STR>
+	<STR id="ZITEM_DESC_520001">アレス社から軍に納めた帽子。アレス軍服セットのオーダーメイドだ。</STR>
+
+	<STR id="ZITEM_NAME_520002">兵士礼服用帽子</STR>
+	<STR id="ZITEM_DESC_520002">帝国の兵士が重要な行事のときに着て行く礼服セットの帽子。</STR>
+
+	<STR id="ZITEM_NAME_520003">男性用ガンナーズヘブン中折帽子</STR>
+	<STR id="ZITEM_DESC_520003">共和国の私設組織ガンナーズヘブンのメンバー専用の中折帽子。厚いコート類と似合いそうな帽子。</STR>
+
+	<STR id="ZITEM_NAME_520004">男性ミリタリールックのバンダナ</STR>
+	<STR id="ZITEM_DESC_520004">負担なく使える男性用バンダナ。戦場で変装するために使用したりもする。</STR>
+
+	<STR id="ZITEM_NAME_520005">男性無紋バンダナ</STR>
+	<STR id="ZITEM_DESC_520005">センスがあり簡単にかぶれる男性用バンダナ。ファッションアクセサリーとして使う。</STR>
+
+	<STR id="ZITEM_NAME_520006">男性水玉模様のバンダナ</STR>
+	<STR id="ZITEM_DESC_520006">軽くて簡単にできる男性用バンダナ。赤地にかわいい水玉模様がある。</STR>
+
+	<STR id="ZITEM_NAME_520007">男性星模様のバンダナ</STR>
+	<STR id="ZITEM_DESC_520007">独特なセンスの星模様の男性用バンダナ。</STR>
+
+	<STR id="ZITEM_NAME_520008">男性エターナルブルー帽子</STR>
+	<STR id="ZITEM_DESC_520008">海の無法者、エターナルブルーの男性用制服の帽子。</STR>
+
+	<STR id="ZITEM_NAME_520009">男性冒険家の帽子</STR>
+	<STR id="ZITEM_DESC_520009">初心者の冒険家から重い装備を嫌う者たちまでお勧めできる軽い男性用帽子。</STR>
+
+	<STR id="ZITEM_NAME_520010">男性ブルーホイッスル帽子</STR>
+	<STR id="ZITEM_DESC_520010">帝国の厄介者と呼ばれるギャング、ブルーホイッスルの男性用帽子。</STR>
+
+	<STR id="ZITEM_NAME_520011">男性アイポッド帽子</STR>
+	<STR id="ZITEM_DESC_520011">男性用アクアキャップ</STR>
+
+	<STR id="ZITEM_NAME_520012">男性アイアンクロウ帽子</STR>
+	<STR id="ZITEM_DESC_520012">無法者達の都市ハバニを制覇したアイアンクロウの男性メンバーの帽子。</STR>
+
+	<STR id="ZITEM_NAME_520013">男性サンタクロース帽子</STR>
+	<STR id="ZITEM_DESC_520013">クリスマスシーズンアイテム。男性用。</STR>
+
+	<STR id="ZITEM_NAME_520014">男性ファンタムブリードバンダナ</STR>
+	<STR id="ZITEM_DESC_520014">古代から伝承されてきたスパイ組織の男性用バンダナ。多少重い。</STR>
+
+	<STR id="ZITEM_NAME_520015">共和国ガンプリースト帽子</STR>
+	<STR id="ZITEM_DESC_520015">宗教団体と関連した秘密組織の男性用帽子。軽い。</STR>
+
+	<STR id="ZITEM_NAME_520016">男性グレイダスト帽子</STR>
+	<STR id="ZITEM_DESC_520016">帝国軍エリート部隊であるグレイダストの男性用制式帽子。</STR>
+
+	<STR id="ZITEM_NAME_520017">男性 LOK 帽子</STR>
+	<STR id="ZITEM_DESC_520017">活動性に焦点を合わせたスポーティールックのLOK 男性用帽子。</STR>
+
+	<STR id="ZITEM_NAME_520018">男性用 Bigi 帽子</STR>
+	<STR id="ZITEM_DESC_520018"></STR>
+
+	<STR id="ZITEM_NAME_520019">女性用 Bigi 帽子</STR>
+	<STR id="ZITEM_DESC_520019"></STR>
+
+	<STR id="ZITEM_NAME_520020">男性 デザートフレーム帽子</STR>
+	<STR id="ZITEM_DESC_520020">砂漠で活動するデザートフレーム部隊の男性用帽子。</STR>
+
+	<STR id="ZITEM_NAME_520021">男性 バトルブルードヘルメット</STR>
+	<STR id="ZITEM_DESC_520021">強化材質で作られた男性用バトルブルードの一部。頭を保護。</STR>
+
+	<STR id="ZITEM_NAME_520022">男性用 Active Sports バンダナ</STR>
+	<STR id="ZITEM_DESC_520022"></STR>
+
+	<STR id="ZITEM_NAME_520025">男性 COS将校用帽子</STR>
+	<STR id="ZITEM_DESC_520025">男性用。ミリタリーマニアに人気の国籍不明の将校用帽子。</STR>
+
+	<STR id="ZITEM_NAME_520026">オールドマン皮革帽子</STR>
+	<STR id="ZITEM_DESC_520026">クラシカルな雰囲気の皮革素材でできた男性用帽子。何か楽しいことが起こりそうな予感。</STR>
+
+	<STR id="ZITEM_NAME_520027">男性用 Zeus</STR>
+	<STR id="ZITEM_DESC_520027"></STR>
+
+	<STR id="ZITEM_NAME_520028">男性用　カボチャ　帽子</STR>
+	<STR id="ZITEM_DESC_520028">これでGunzのハロウィンを満喫♪　これで君もお化けカボチャ☆</STR>
+
+	<STR id="ZITEM_NAME_520029">男性用ブルーベインキャップ</STR>
+	<STR id="ZITEM_DESC_520029">ブルーベインシリーズの男性用キャップ。伸縮性が強い素材で作られている。</STR>
+
+	<STR id="ZITEM_NAME_520030">男性用トレインガードの帽子</STR>
+	<STR id="ZITEM_DESC_520030">帝国、共和国間を走る機関車を守るガードの男性用の軽量型帽子。</STR>
+
+	<STR id="ZITEM_NAME_520031">男性用 PA シルクハット</STR>
+	<STR id="ZITEM_DESC_520031">帝国貴族に仕える執事達が愛用しているシルクハット。</STR>
+
+	<STR id="ZITEM_NAME_520501">ラックス軍用帽子</STR>
+	<STR id="ZITEM_DESC_520501">女軍のためのラックスから出ている軍用帽子。ラックス軍服セットにうってつけ。</STR>
+
+	<STR id="ZITEM_NAME_520502">女軍制式ベレー帽</STR>
+	<STR id="ZITEM_DESC_520502">帝国の一般女軍に支給されるかわいいセットの帽子。</STR>
+
+	<STR id="ZITEM_NAME_520503">女性ガンナーズヘブン帽子</STR>
+	<STR id="ZITEM_DESC_520503">共和国の私設組織ガンナーズヘブンのメンバー専用帽子。</STR>
+
+	<STR id="ZITEM_NAME_520504">女性 ミリタリールック用バンダナ</STR>
+	<STR id="ZITEM_DESC_520504">負担なくできる女性用バンダナ。戦場で偽装するために使用したりもする。</STR>
+
+	<STR id="ZITEM_NAME_520505">女性用無紋バンダナ</STR>
+	<STR id="ZITEM_DESC_520505">センスある簡単に結べる女性用バンダナ。ファッション、アクセサリーとして使用。</STR>
+
+	<STR id="ZITEM_NAME_520506">女性水玉模様のバンダナ</STR>
+	<STR id="ZITEM_DESC_520506">軽くて簡単に結べるバンダナ。赤地にかわいい水玉模様。</STR>
+
+	<STR id="ZITEM_NAME_520507">女性星模様のバンダナ</STR>
+	<STR id="ZITEM_DESC_520507">独特なセンスの星模様の女性用バンダナ。</STR>
+
+	<STR id="ZITEM_NAME_520508">女性エターナルブルー帽子</STR>
+	<STR id="ZITEM_DESC_520508">海の無法者、エターナルブルーの女性用制服の帽子。</STR>
+
+	<STR id="ZITEM_NAME_520509">女性冒険家の帽子</STR>
+	<STR id="ZITEM_DESC_520509">初心者の冒険家から重い装備を嫌う人にお勧めの軽い女性用帽子。</STR>
+
+	<STR id="ZITEM_NAME_520510">女性ブルーホイッスル帽子</STR>
+	<STR id="ZITEM_DESC_520510">帝国の厄介者と呼ばれるギャング、ブルーホイッスルの女性用帽子。</STR>
+
+	<STR id="ZITEM_NAME_520511">女性用アイポッド帽子</STR>
+	<STR id="ZITEM_DESC_520511">女性用アクアハット</STR>
+
+	<STR id="ZITEM_NAME_520512">女性アイアンクロウ帽子</STR>
+	<STR id="ZITEM_DESC_520512">無法者達の都市ハバニを制覇したアイアンクロウ 女性 メンバー 帽子。</STR>
+
+	<STR id="ZITEM_NAME_520513">女性サンタクロースの帽子</STR>
+	<STR id="ZITEM_DESC_520513">クリスマスシーズンアイテム。女性用。</STR>
+
+	<STR id="ZITEM_NAME_520514">女性ファンタムブリードバンダナ</STR>
+	<STR id="ZITEM_DESC_520514">古代から伝承されてきたスパイ組織の女性用 バンダナ。多少 重い。</STR>
+
+	<STR id="ZITEM_NAME_520515">共和国ガンプリースト帽子</STR>
+	<STR id="ZITEM_DESC_520515">宗教団体と関連した秘密組織の女性用 帽子。軽い。</STR>
+
+	<STR id="ZITEM_NAME_520516">女性用グレイダスト帽子</STR>
+	<STR id="ZITEM_DESC_520516">帝国軍エリート部隊であるグレイダストの女性用 制式 帽子。</STR>
+
+	<STR id="ZITEM_NAME_520517">女性 LOK 帽子</STR>
+	<STR id="ZITEM_DESC_520517">活動性に焦点を合わせたスポーティールックのLOK 女性用 帽子。</STR>
+
+	<STR id="ZITEM_NAME_520518">女性用 Bigi Sports 帽子</STR>
+	<STR id="ZITEM_DESC_520518"></STR>
+
+	<STR id="ZITEM_NAME_520519">女性用 Korean 帽子</STR>
+	<STR id="ZITEM_DESC_520519"></STR>
+
+	<STR id="ZITEM_NAME_520520">女性 デザートフレーム帽子</STR>
+	<STR id="ZITEM_DESC_520520">砂漠で活動するデザートフレーム部隊の女性用帽子。</STR>
+
+	<STR id="ZITEM_NAME_520521">女性 バトルブルードヘルメット</STR>
+	<STR id="ZITEM_DESC_520521">強化材質で作られた女性用バトルブルードの一部。頭を保護。</STR>
+
+	<STR id="ZITEM_NAME_520522">女性用 Active Sports バンダナ</STR>
+	<STR id="ZITEM_DESC_520522"></STR>
+
+	<STR id="ZITEM_NAME_520525">女性 COS将校用帽子</STR>
+	<STR id="ZITEM_DESC_520525">女性用。ミリタリーマニアに人気の国籍不明の将校用帽子。</STR>
+
+	<STR id="ZITEM_NAME_520526">お出かけ用帽子</STR>
+	<STR id="ZITEM_DESC_520526">クラシカルな雰囲気の女性用外出用帽子。何か楽しいことが起こりそうな予感。</STR>
+
+	<STR id="ZITEM_NAME_520527">女性用 Zeus</STR>
+	<STR id="ZITEM_DESC_520527"></STR>
+
+	<STR id="ZITEM_NAME_520528">女性用　カボチャ　帽子</STR>
+	<STR id="ZITEM_DESC_520528">これでGunzのハロウィンを満喫♪　これで君もお化けカボチャ☆</STR>
+
+	<STR id="ZITEM_NAME_520529">女性用ブルーベインキャップ</STR>
+	<STR id="ZITEM_DESC_520529">ブルーベインシリーズの女性用キャップ。伸縮性が強い素材で作られている。</STR>
+
+	<STR id="ZITEM_NAME_520530">女性用トレインガードの帽子</STR>
+	<STR id="ZITEM_DESC_520530">帝国、共和国間を走る機関車を守るガードの女性用の軽量型帽子。</STR>
+
+	<STR id="ZITEM_NAME_520531">女性用 PA カチューシャ</STR>
+	<STR id="ZITEM_DESC_520531">帝国貴族に仕えるメイド達が愛用しているカチューシャ。</STR>
+
+	<STR id="ZITEM_NAME_521001">兵士礼服上下</STR>
+	<STR id="ZITEM_DESC_521001">帝国の兵士が重要な行事に着て行く礼服の上下。</STR>
+
+	<STR id="ZITEM_NAME_521002">男性用ガンナーズヘブンレザーロングコート</STR>
+	<STR id="ZITEM_DESC_521002">共和国の私設組織ガンナーズヘブンのメンバー専用レザーロングコートと上着。</STR>
+
+	<STR id="ZITEM_NAME_521003">男性用エターナルブルーコート</STR>
+	<STR id="ZITEM_DESC_521003">海の無法者、エターナルブルーの男性用制服の上着。</STR>
+
+	<STR id="ZITEM_NAME_521004">男性冒険家ジャケット</STR>
+	<STR id="ZITEM_DESC_521004">初心者冒険家から重い装備を嫌う人にお勧めの、軽い男性用ジャケット。</STR>
+
+	<STR id="ZITEM_NAME_521005">男性用ブルーホイッスルジャケット</STR>
+	<STR id="ZITEM_DESC_521005">帝国の厄介者と呼ばれるギャング、ブルーホイッスルの男性用ジャケット。</STR>
+
+	<STR id="ZITEM_NAME_521006">男性アイポッドシャツ</STR>
+	<STR id="ZITEM_DESC_521006">男性用アクアシャツ</STR>
+
+	<STR id="ZITEM_NAME_521007">男性用アイアンクロウコート</STR>
+	<STR id="ZITEM_DESC_521007">無法者の都市ハバニを制圧したアイアンクロウの男性メンバーコート。</STR>
+
+	<STR id="ZITEM_NAME_521008">男性用サンタクロース コート</STR>
+	<STR id="ZITEM_DESC_521008">クリスマスシーズンアイテム。男性用。</STR>
+
+	<STR id="ZITEM_NAME_521009">男性用ファンタムブリード ジャケット</STR>
+	<STR id="ZITEM_DESC_521009">古代から伝承されてきたスパイ組織の男性用鎧。多少重い。</STR>
+
+	<STR id="ZITEM_NAME_521010">共和国ガンプリーストの上着</STR>
+	<STR id="ZITEM_DESC_521010">宗教団体と関連した組織の男性用上着。軽い。</STR>
+
+	<STR id="ZITEM_NAME_521011">男性用グレイダストの ロングコート</STR>
+	<STR id="ZITEM_DESC_521011">帝国軍 エリート部隊のグレイダストの男性用制式コート。</STR>
+
+	<STR id="ZITEM_NAME_521012">男性用 LOK ジャンパー</STR>
+	<STR id="ZITEM_DESC_521012">活動性に焦点を合わせたスポーティルックの LOK 男性用 ジャンパー。</STR>
+
+	<STR id="ZITEM_NAME_521013">男性用 Bigi ロングコート</STR>
+	<STR id="ZITEM_DESC_521013"></STR>
+
+	<STR id="ZITEM_NAME_521014">男性用ガンナイトロングコート</STR>
+	<STR id="ZITEM_DESC_521014">アクシウムのある伝説の男性ガンファイターが着ていたと言われるロングコート。</STR>
+
+	<STR id="ZITEM_NAME_521015">男性用 Korean コート</STR>
+	<STR id="ZITEM_DESC_521015"></STR>
+
+	<STR id="ZITEM_NAME_521016">男性 デザートフレームジャケット</STR>
+	<STR id="ZITEM_DESC_521016">砂漠で活動するデザートフレーム部隊の男性用ジャケット。</STR>
+
+	<STR id="ZITEM_NAME_521017">男性 バトルブルードジャケット</STR>
+	<STR id="ZITEM_DESC_521017">強化材質で作られた男性用バトルブルードの一部。上半身を保護。</STR>
+
+	<STR id="ZITEM_NAME_521018">男性用 Active Sports ジャケット</STR>
+	<STR id="ZITEM_DESC_521018"></STR>
+
+	<STR id="ZITEM_NAME_521021">男性 COS 将校用ジャケット</STR>
+	<STR id="ZITEM_DESC_521021">男性用。ミリタリーマニアに人気の国籍不明の将校用ジャケット。</STR>
+
+	<STR id="ZITEM_NAME_521022">男性用 Zeus コート</STR>
+	<STR id="ZITEM_DESC_521022"></STR>
+
+	<STR id="ZITEM_NAME_521023">男性用ブルーベインジャケット</STR>
+	<STR id="ZITEM_DESC_521023">ブルーベインシリーズの男性用ジャケット。伸縮性が強い素材で作られている。</STR>
+
+	<STR id="ZITEM_NAME_521024">男性用トレインガードのジャケット</STR>
+	<STR id="ZITEM_DESC_521024">帝国、共和国間を走る機関車を守るガードの男性用の軽量型ジャケット。</STR>
+
+	<STR id="ZITEM_NAME_521025">男性用 PA 燕尾服</STR>
+	<STR id="ZITEM_DESC_521025">帝国貴族に仕える執事達が愛用しているジャケット。</STR>
+
+	<STR id="ZITEM_NAME_521501">女軍礼服ジャケット</STR>
+	<STR id="ZITEM_DESC_521501">帝国の一般女軍に支給された礼服セット上着。</STR>
+
+	<STR id="ZITEM_NAME_521502">女性用ガンナーズヘブン毛織ロングコート</STR>
+	<STR id="ZITEM_DESC_521502">共和国の私設組織ガンナーズヘブンのメンバー専用女性用毛織ロングコート及び上着。</STR>
+
+	<STR id="ZITEM_NAME_521503">女性用エターナルブルーコート</STR>
+	<STR id="ZITEM_DESC_521503">海の無法者、 エターナルブルーの女性用制服上着。</STR>
+
+	<STR id="ZITEM_NAME_521504">女性冒険家ジャケット</STR>
+	<STR id="ZITEM_DESC_521504">初心者冒険家から重い装備を嫌う人にお勧めの軽い女性用ジャケット。</STR>
+
+	<STR id="ZITEM_NAME_521505">女性用ブルーホイッスルジャケット</STR>
+	<STR id="ZITEM_DESC_521505">帝国の厄介者と呼ばれるギャング、ブルーホイッスルの女性用ジャケット。</STR>
+
+	<STR id="ZITEM_NAME_521506">女性用アイポッドビキニブラ</STR>
+	<STR id="ZITEM_DESC_521506">女性用アクアビキニ(上)。</STR>
+
+	<STR id="ZITEM_NAME_521507">女性用アイアンクロウ コート</STR>
+	<STR id="ZITEM_DESC_521507">無法者の都市ハバニを制覇したアイアンクロウ女性メンバーコート。</STR>
+
+	<STR id="ZITEM_NAME_521508">女性用サンタクロースコート</STR>
+	<STR id="ZITEM_DESC_521508">クリスマスシーズンアイテム。女性用。</STR>
+
+	<STR id="ZITEM_NAME_521509">女性用ファンタムブリード ジャケット</STR>
+	<STR id="ZITEM_DESC_521509">古代から伝承されてきたスパイ組織の 女性用鎧。多少 重い。</STR>
+
+	<STR id="ZITEM_NAME_521510">共和国ガンフリースティスの上着</STR>
+	<STR id="ZITEM_DESC_521510">宗教団体と関連した組織の女性用上着。軽い。</STR>
+
+	<STR id="ZITEM_NAME_521511">女性グレイダストロングコート</STR>
+	<STR id="ZITEM_DESC_521511">帝国軍 エリート部隊の グレイダストの女性用制式 コート。</STR>
+
+	<STR id="ZITEM_NAME_521512">女性用 LOK ジャンパー</STR>
+	<STR id="ZITEM_DESC_521512">活動性に焦点を合わせたスポーティルックの LOK 女性用 ジャンパー。</STR>
+
+	<STR id="ZITEM_NAME_521513">女性用 Bigi ロングコート</STR>
+	<STR id="ZITEM_DESC_521513"></STR>
+
+	<STR id="ZITEM_NAME_521514">女性用ガンナイトジャケット</STR>
+	<STR id="ZITEM_DESC_521514">アクシウムのある伝説の女性ガンファイターが着ていたと言われるジャケット。</STR>
+
+	<STR id="ZITEM_NAME_521515">女性用 Korean コート</STR>
+	<STR id="ZITEM_DESC_521515"></STR>
+
+	<STR id="ZITEM_NAME_521516">女性 デザートフレームジャケット</STR>
+	<STR id="ZITEM_DESC_521516">砂漠で活動するデザートフレーム部隊の女性用ジャケット。</STR>
+
+	<STR id="ZITEM_NAME_521517">女性 バトルブルードジャケット</STR>
+	<STR id="ZITEM_DESC_521517">強化材質で作られた女性用バトルブルードの一部。上半身を保護。</STR>
+
+	<STR id="ZITEM_NAME_521518">女性用 Active Sports ジャケット</STR>
+	<STR id="ZITEM_DESC_521518"></STR>
+
+	<STR id="ZITEM_NAME_521521">女性 COS 将校用ジャケット</STR>
+	<STR id="ZITEM_DESC_521521">女性用。ミリタリーマニアに人気の国籍不明の将校用ジャケット。</STR>
+
+	<STR id="ZITEM_NAME_521522">女性用 Zeus コート</STR>
+	<STR id="ZITEM_DESC_521522"></STR>
+
+	<STR id="ZITEM_NAME_521523">女性用ブルーベインジャケット</STR>
+	<STR id="ZITEM_DESC_521523">ブルーベインシリーズの女性用ジャケット。伸縮性が強い素材で作られている。</STR>
+
+	<STR id="ZITEM_NAME_521524">女性用トレインガードのジャケット</STR>
+	<STR id="ZITEM_DESC_521524">帝国、共和国間を走る機関車を守るガードの女性用の軽量型ジャケット。</STR>
+
+	<STR id="ZITEM_NAME_521525">女性用 PA メイド服</STR>
+	<STR id="ZITEM_DESC_521525">帝国貴族に仕えるメイド達が愛用しているメイド服。</STR>
+
+	<STR id="ZITEM_NAME_522001">兵士礼服 手袋</STR>
+	<STR id="ZITEM_DESC_522001">帝国の兵士が重要な行事があるとき着て行く礼服セット、手袋。</STR>
+
+	<STR id="ZITEM_NAME_522002">男性用ガンナーズヘブン手袋</STR>
+	<STR id="ZITEM_DESC_522002">共和国の私設組織 ガンナーズヘブンのメンバー専用 手袋。</STR>
+
+	<STR id="ZITEM_NAME_522003">男性用エターナルブルー 手袋</STR>
+	<STR id="ZITEM_DESC_522003">海の無法者、エターナルブルーの男性用制服の手袋。</STR>
+
+	<STR id="ZITEM_NAME_522004">男性冒険家の手袋</STR>
+	<STR id="ZITEM_DESC_522004">初心者の冒険家から重い装備を嫌う人にお勧めの軽い 男性用 手袋。</STR>
+
+	<STR id="ZITEM_NAME_522005">男性用ブルーホイッスル 手袋</STR>
+	<STR id="ZITEM_DESC_522005">帝国の厄介者と呼ばれるギャング、 ブルーホイッスルの男性用 手袋。</STR>
+
+	<STR id="ZITEM_NAME_522006">男性用アイポッド手袋</STR>
+	<STR id="ZITEM_DESC_522006">男性用アクアグローブ。</STR>
+
+	<STR id="ZITEM_NAME_522007">男性アイアンクロウの手袋</STR>
+	<STR id="ZITEM_DESC_522007">無法者の都市ハバニを制覇したアイアンクロウの男性 メンバー 手袋。</STR>
+
+	<STR id="ZITEM_NAME_522008">男性用サンタクロース 手袋</STR>
+	<STR id="ZITEM_DESC_522008">クリスマスシーズンアイテム。男性用。</STR>
+
+	<STR id="ZITEM_NAME_522009">男性用ファンタムブリード 手袋</STR>
+	<STR id="ZITEM_DESC_522009">古代から伝承されてきたスパイ組織の 男性用 手袋。多少 重い。</STR>
+
+	<STR id="ZITEM_NAME_522010">共和国ガンプリーストの 手袋</STR>
+	<STR id="ZITEM_DESC_522010">宗教団体と関連した組織の男性用 手袋。軽い。</STR>
+
+	<STR id="ZITEM_NAME_522011">男性用グレイダスト 手袋</STR>
+	<STR id="ZITEM_DESC_522011">帝国軍 エリート部隊の グレイダストの男性用 制式 手袋。</STR>
+
+	<STR id="ZITEM_NAME_522012">男性用 LOK レザー 手袋</STR>
+	<STR id="ZITEM_DESC_522012">活動性に焦点を合わせたスポーティルックの LOK 男性用 レザー 手袋。</STR>
+
+	<STR id="ZITEM_NAME_522013">男性用ガンナイト手袋</STR>
+	<STR id="ZITEM_DESC_522013">アクシウムのある伝説の男性ガンファイターがはめていたと言われる手袋</STR>
+
+	<STR id="ZITEM_NAME_522014">男性用 Korean 手袋</STR>
+	<STR id="ZITEM_DESC_522014"></STR>
+
+	<STR id="ZITEM_NAME_522015">男性 デザートフレーム手袋</STR>
+	<STR id="ZITEM_DESC_522015">砂漠で活動するデザートフレーム部隊の男性用革手袋。</STR>
+
+	<STR id="ZITEM_NAME_522016">男性 バトルブルードグローブ</STR>
+	<STR id="ZITEM_DESC_522016">強化材質で作られた男性用バトルブルードの一部。手を保護。</STR>
+
+	<STR id="ZITEM_NAME_522017">男性 COS将校用手袋</STR>
+	<STR id="ZITEM_DESC_522017">男性用。ミリタリーマニアに人気の国籍不明の将校用手袋。</STR>
+
+	<STR id="ZITEM_NAME_522018">男性用ブルーベイングローブ</STR>
+	<STR id="ZITEM_DESC_522018">ブルーベインシリーズの男性用グローブ。伸縮性が強い素材で作られている。</STR>
+
+	<STR id="ZITEM_NAME_522019">男性用トレインガードの手袋</STR>
+	<STR id="ZITEM_DESC_522019">帝国、共和国間を走る機関車を守るガードの男性用の軽量型手袋。</STR>
+
+	<STR id="ZITEM_NAME_522020">男性用 PA 皮手袋</STR>
+	<STR id="ZITEM_DESC_522020">帝国貴族に仕える執事達が愛用している皮手袋。</STR>
+
+	<STR id="ZITEM_NAME_522501">女軍礼服 手袋</STR>
+	<STR id="ZITEM_DESC_522501">帝国の一般女軍に支給された 礼服セット 手袋。</STR>
+
+	<STR id="ZITEM_NAME_522502">女性用ガンナーズヘブンウサギの毛皮の手袋</STR>
+	<STR id="ZITEM_DESC_522502">共和国の私設組織ガンナーズヘブンのメンバー専用毛皮の手袋。やわらかいウサギの毛皮で作られている。</STR>
+
+	<STR id="ZITEM_NAME_522503">女性エターナルブルーの手袋</STR>
+	<STR id="ZITEM_DESC_522503">海の無法者、エターナルブルーの女性用制服手袋。</STR>
+
+	<STR id="ZITEM_NAME_522504">女性冒険家の手袋</STR>
+	<STR id="ZITEM_DESC_522504">初心者の冒険家から重い装備を嫌う人にお勧めの軽い 女性用 手袋。</STR>
+
+	<STR id="ZITEM_NAME_522505">女性用ブルーホイッスル手袋</STR>
+	<STR id="ZITEM_DESC_522505">帝国の厄介者と呼ばれるギャング、ブルーホイッスルの女性用 手袋。</STR>
+
+	<STR id="ZITEM_NAME_522506">女性用アイポッド手袋</STR>
+	<STR id="ZITEM_DESC_522506">女性用アクアブローブ。</STR>
+
+	<STR id="ZITEM_NAME_522507">女性用アイアンクロウ 手袋</STR>
+	<STR id="ZITEM_DESC_522507">無法者の都市ハバニを制圧したアイアンクロウ女性メンバー 手袋。</STR>
+
+	<STR id="ZITEM_NAME_522508">女性用サンタクロース手袋</STR>
+	<STR id="ZITEM_DESC_522508">クリスマスシーズンアイテム。女性用。</STR>
+
+	<STR id="ZITEM_NAME_522509">女性 ファンタムブリード 手袋</STR>
+	<STR id="ZITEM_DESC_522509">古代から伝承されてきたスパイ組織の女性用手袋。多少 重い。</STR>
+
+	<STR id="ZITEM_NAME_522510">共和国ガンフリースティスの手袋</STR>
+	<STR id="ZITEM_DESC_522510">宗教団体と関連した組織の女性用手袋。軽い。</STR>
+
+	<STR id="ZITEM_NAME_522511">女性用グレイダスト手袋</STR>
+	<STR id="ZITEM_DESC_522511">帝国軍 エリート部隊の グレイダストの女性用 制式 手袋。</STR>
+
+	<STR id="ZITEM_NAME_522512">女性 LOK レザー 手袋</STR>
+	<STR id="ZITEM_DESC_522512">活動性に焦点を合わせたスポーティルックの LOK 女性用 レザー 手袋。</STR>
+
+	<STR id="ZITEM_NAME_522513">女性用ガンナイト手袋</STR>
+	<STR id="ZITEM_DESC_522513">アクシウムのある伝説の女性ガンファイターがはめていたと言われる手袋。</STR>
+
+	<STR id="ZITEM_NAME_522514">女性用 Korean 手袋</STR>
+	<STR id="ZITEM_DESC_522514"></STR>
+
+	<STR id="ZITEM_NAME_522515">女性 デザートフレーム手袋</STR>
+	<STR id="ZITEM_DESC_522515">砂漠で活動するデザートフレーム部隊の女性用レザー手袋。</STR>
+
+	<STR id="ZITEM_NAME_522516">女性 バトルブルードグローブ</STR>
+	<STR id="ZITEM_DESC_522516">強化材質で作られた女性用バトルブルードの一部。手を保護。</STR>
+
+	<STR id="ZITEM_NAME_522517">女性 COS将校用手袋</STR>
+	<STR id="ZITEM_DESC_522517">女性用。ミリタリーマニアに人気の国籍不明の将校用手袋。</STR>
+
+	<STR id="ZITEM_NAME_522518">女性用ブルーベイングローブ</STR>
+	<STR id="ZITEM_DESC_522518">ブルーベインシリーズの女性用グローブ。伸縮性が強い素材で作られている。</STR>
+
+	<STR id="ZITEM_NAME_522519">女性用トレインガードの手袋</STR>
+	<STR id="ZITEM_DESC_522519">帝国、共和国間を走る機関車を守るガードの女性用の軽量型手袋。</STR>
+
+	<STR id="ZITEM_NAME_522520">女性用 PA カフス</STR>
+	<STR id="ZITEM_DESC_522520">帝国貴族に仕えるメイド達が愛用しているカフス。</STR>
+
+	<STR id="ZITEM_NAME_523001">兵士礼服ズボン</STR>
+	<STR id="ZITEM_DESC_523001">帝国の一般兵士が重要な行事があるときに着て行く礼服 ズボン。</STR>
+
+	<STR id="ZITEM_NAME_523002">男性用ガンナーズヘブンの正装用パンツ</STR>
+	<STR id="ZITEM_DESC_523002">共和国の私設組織 ガンナーズヘブンのメンバー専用 パンツ。</STR>
+
+	<STR id="ZITEM_NAME_523003">男性用エターナルブルーのパンツ</STR>
+	<STR id="ZITEM_DESC_523003">海の無法者、エターナルブルーの男性用制服 パンツ。</STR>
+
+	<STR id="ZITEM_NAME_523004">男性冒険家 パンツ</STR>
+	<STR id="ZITEM_DESC_523004">初心者の冒険家から重い装備を嫌う人にお勧めの軽い 男性用 パンツ。</STR>
+
+	<STR id="ZITEM_NAME_523005">男性用ブルーホイッスル パンツ</STR>
+	<STR id="ZITEM_DESC_523005">帝国の厄介者と呼ばれるギャング、ブルーホイッスルの男性用 パンツ。</STR>
+
+	<STR id="ZITEM_NAME_523006">男性用アイポッド水泳パンツ</STR>
+	<STR id="ZITEM_DESC_523006">男性用アクアパンツ。</STR>
+
+	<STR id="ZITEM_NAME_523007">男性 アイアンクロウ パンツ</STR>
+	<STR id="ZITEM_DESC_523007">無法者の都市ハバニを制圧したアイアンクロウの男性メンバー パンツ。</STR>
+
+	<STR id="ZITEM_NAME_523008">男性用サンタクロース パンツ</STR>
+	<STR id="ZITEM_DESC_523008">クリスマスシーズンアイテム。男性用。</STR>
+
+	<STR id="ZITEM_NAME_523009">男性 ファンタムブリード パンツ</STR>
+	<STR id="ZITEM_DESC_523009">古代から伝承されてきたスパイ組織の 男性用 パンツ。多少 重い。</STR>
+
+	<STR id="ZITEM_NAME_523010">共和国ガンプリーストの ズボン</STR>
+	<STR id="ZITEM_DESC_523010">宗教団体と関連した組織の男性用 パンツ。軽い。</STR>
+
+	<STR id="ZITEM_NAME_523011">男性用グレイダスト パンツ</STR>
+	<STR id="ZITEM_DESC_523011">帝国軍 エリート部隊の グレイダストの男性用 制式 パンツ。</STR>
+
+	<STR id="ZITEM_NAME_523012">男性 LOK パンツ</STR>
+	<STR id="ZITEM_DESC_523012">活動性に焦点を合わせたスポーティルックの LOK 男性用 パンツ。</STR>
+
+	<STR id="ZITEM_NAME_523013">男性用ガンナイトパンツ</STR>
+	<STR id="ZITEM_DESC_523013">アクシウムのある伝説の男性ガンファイターが着ていたと言われるパンツ。</STR>
+
+	<STR id="ZITEM_NAME_523014">男性用 Korean パンツ</STR>
+	<STR id="ZITEM_DESC_523014"></STR>
+
+	<STR id="ZITEM_NAME_523015">男性 デザートフレームパンツ</STR>
+	<STR id="ZITEM_DESC_523015">砂漠で活動するデザートフレーム部隊の男性用パンツ。</STR>
+
+	<STR id="ZITEM_NAME_523016">男性バトルブルードパンツ</STR>
+	<STR id="ZITEM_DESC_523016">強化材質で作られた男性用バトルブルードの一部。下半身を保護。</STR>
+
+	<STR id="ZITEM_NAME_523017">男性用 Active Sports パンツ</STR>
+	<STR id="ZITEM_DESC_523017"></STR>
+
+	<STR id="ZITEM_NAME_523020">男性 COS将校用ズボン</STR>
+	<STR id="ZITEM_DESC_523020">男性用。ミリタリーマニアに人気の国籍不明の将校用ズボン。</STR>
+
+	<STR id="ZITEM_NAME_523021">男性用ブルーベインズボン</STR>
+	<STR id="ZITEM_DESC_523021">ブルーベインシリーズの男性用ズボン。伸縮性が強い素材で作られている。</STR>
+
+	<STR id="ZITEM_NAME_523022">男性用トレインガードのズボン</STR>
+	<STR id="ZITEM_DESC_523022">帝国、共和国間を走る機関車を守るガードの男性用の軽量型ズボン。</STR>
+
+	<STR id="ZITEM_NAME_523023">男性用 PA ズボン</STR>
+	<STR id="ZITEM_DESC_523023">帝国貴族に仕える執事達が愛用しているズボン。</STR>
+
+	<STR id="ZITEM_NAME_523501">女軍礼服ズボン</STR>
+	<STR id="ZITEM_DESC_523501">帝国の一般女軍に支給された 礼服セット ズボン。</STR>
+
+	<STR id="ZITEM_NAME_523502">女性用ガンナーズヘブン ズボン</STR>
+	<STR id="ZITEM_DESC_523502">共和国の私設組織 ガンナーズヘブンのメンバー専用 女性用 パンツ。</STR>
+
+	<STR id="ZITEM_NAME_523503">女性用エターナルブルー パンツ</STR>
+	<STR id="ZITEM_DESC_523503">海の無法者、エターナルブルーの女性用 制服 パンツ。</STR>
+
+	<STR id="ZITEM_NAME_523504">女性冒険家パンツ</STR>
+	<STR id="ZITEM_DESC_523504">初心者の冒険家から重い装備を嫌う人にお勧めの軽い 女性用 パンツ。</STR>
+
+	<STR id="ZITEM_NAME_523505">女性用ブルーホイッスルパンツ</STR>
+	<STR id="ZITEM_DESC_523505">帝国の厄介者と呼ばれるギャング、ブルーホイッスルの女性用パンツ。</STR>
+
+	<STR id="ZITEM_NAME_523506">女性用アイポッドビキニパンティ</STR>
+	<STR id="ZITEM_DESC_523506">女性用アクアビキニ(下)。</STR>
+
+	<STR id="ZITEM_NAME_523507">女性用アイアンクロウ パンツ</STR>
+	<STR id="ZITEM_DESC_523507">無法者の都市ハバニを制覇したアイアンクロウの女性メンバー パンツ。</STR>
+
+	<STR id="ZITEM_NAME_523508">女性用サンタクロース パンツ</STR>
+	<STR id="ZITEM_DESC_523508">クリスマスシーズンアイテム。女性用。</STR>
+
+	<STR id="ZITEM_NAME_523509">女性 ファンタムブリード パンツ</STR>
+	<STR id="ZITEM_DESC_523509">古代から伝承されてきたスパイ組織の 女性用 パンツ。多少 重い。</STR>
+
+	<STR id="ZITEM_NAME_523510">共和国ガンフリースティス ズボン</STR>
+	<STR id="ZITEM_DESC_523510">宗教団体と関連した組織の 女性用 パンツ。軽い。</STR>
+
+	<STR id="ZITEM_NAME_523511">女性用グレイダストパンツ</STR>
+	<STR id="ZITEM_DESC_523511">帝国軍エリート部隊のグレイダストの女性用 制式パンツ。</STR>
+
+	<STR id="ZITEM_NAME_523512">女性 LOK パンツ</STR>
+	<STR id="ZITEM_DESC_523512">活動性に焦点を合わせたスポーティルックの LOK 女性用パンツ。</STR>
+
+	<STR id="ZITEM_NAME_523513">女性用ガンナイトパンツ</STR>
+	<STR id="ZITEM_DESC_523513">アクシウムのある伝説の女性ガンファイターが着ていたと言われるパンツ。</STR>
+
+	<STR id="ZITEM_NAME_523514">女性用 Korean パンツ</STR>
+	<STR id="ZITEM_DESC_523514"></STR>
+
+	<STR id="ZITEM_NAME_523515">女性 デザートフレームパンツ</STR>
+	<STR id="ZITEM_DESC_523515">砂漠で活動するデザートフレーム部隊の女性用パンツ。</STR>
+
+	<STR id="ZITEM_NAME_523516">女性 バトルブルードパンツ</STR>
+	<STR id="ZITEM_DESC_523516">強化材質で作られた女性用バトルブルードの一部。下半身を保護。</STR>
+
+	<STR id="ZITEM_NAME_523517">女性用 Active Sports パンツ</STR>
+	<STR id="ZITEM_DESC_523517"></STR>
+
+	<STR id="ZITEM_NAME_523520">女性 COS将校用ズボン</STR>
+	<STR id="ZITEM_DESC_523520">女性用。ミリタリーマニアに人気の国籍不明の将校用ズボン。</STR>
+
+	<STR id="ZITEM_NAME_523521">女性用ブルーベインズボン</STR>
+	<STR id="ZITEM_DESC_523521">ブルーベインシリーズの女性用ズボン。伸縮性が強い素材で作られている。</STR>
+
+	<STR id="ZITEM_NAME_523522">女性用トレインガードのスカート</STR>
+	<STR id="ZITEM_DESC_523522">帝国、共和国間を走る機関車を守るガードの女性用の軽量型スカート。</STR>
+
+	<STR id="ZITEM_NAME_523523">女性用 PA メイドストッキング</STR>
+	<STR id="ZITEM_DESC_523523">帝国貴族に仕えるメイド達が愛用しているメイドストッキング。</STR>
+
+	<STR id="ZITEM_NAME_524001">兵士礼服 ブーツ</STR>
+	<STR id="ZITEM_DESC_524001">帝国の兵士が重要な行事があるとき着て行く礼服セットブーツ。</STR>
+
+	<STR id="ZITEM_NAME_524002">男性用ガンナーズヘブン レザー 靴</STR>
+	<STR id="ZITEM_DESC_524002">共和国の私設組織 ガンナーズヘブンのメンバー専用レザー靴。</STR>
+
+	<STR id="ZITEM_NAME_524003">男性用エターナルブルー ブーツ</STR>
+	<STR id="ZITEM_DESC_524003">海の無法者、エターナルブルーの男性用制服 ブーツ。</STR>
+
+	<STR id="ZITEM_NAME_524004">男性冒険家ブーツ</STR>
+	<STR id="ZITEM_DESC_524004">初心者の冒険家から重い装備を嫌う人にお勧めの軽い 男性用 ブーツ。</STR>
+
+	<STR id="ZITEM_NAME_524005">男性用ブルーホイッスル ブーツ</STR>
+	<STR id="ZITEM_DESC_524005">帝国の厄介者と呼ばれるギャング、ブルーホイッスルの男性用 ブーツ。</STR>
+
+	<STR id="ZITEM_NAME_524006">男性用アイポッドアクアシューズ</STR>
+	<STR id="ZITEM_DESC_524006">男性用アクアシューズ</STR>
+
+	<STR id="ZITEM_NAME_524007">男性 アイアンクロウ ブーツ</STR>
+	<STR id="ZITEM_DESC_524007">無法者の都市ハバニを制圧したアイアンクロウの男性メンバーのブーツ。</STR>
+
+	<STR id="ZITEM_NAME_524008">男性用サンタクロース ブーツ</STR>
+	<STR id="ZITEM_DESC_524008">クリスマスシーズンアイテム。男性用。</STR>
+
+	<STR id="ZITEM_NAME_524009">男性 ファンタムブリード ブーツ</STR>
+	<STR id="ZITEM_DESC_524009">古代から伝承されてきたスパイ組織の 男性用 ブーツ。多少 重い。</STR>
+
+	<STR id="ZITEM_NAME_524010">共和国ガンプリーストの ブーツ</STR>
+	<STR id="ZITEM_DESC_524010">宗教団体と関連した組織の男性用 ブーツ。軽い。</STR>
+
+	<STR id="ZITEM_NAME_524011">男性用グレイダストの靴</STR>
+	<STR id="ZITEM_DESC_524011">帝国軍エリート部隊のグレイダストの男性用制式 靴。</STR>
+
+	<STR id="ZITEM_NAME_524012">男性 LOKスニーカー</STR>
+	<STR id="ZITEM_DESC_524012">活動性に焦点を合わせたスポーティルックの LOK 男性用 スニーカー。</STR>
+
+	<STR id="ZITEM_NAME_524013">男性用ガンナイトシューズ</STR>
+	<STR id="ZITEM_DESC_524013">アクシウムのある伝説の男性ガンファイターが履いていたと言われるシューズ。</STR>
+
+	<STR id="ZITEM_NAME_524014">男性用 Korean シューズ</STR>
+	<STR id="ZITEM_DESC_524014"></STR>
+
+	<STR id="ZITEM_NAME_524015">男性 デザートフレームブーツ</STR>
+	<STR id="ZITEM_DESC_524015">砂漠で活動するデザートフレーム部隊の男性用レザーブーツ。</STR>
+
+	<STR id="ZITEM_NAME_524016">男性  バトルブルードブーツ</STR>
+	<STR id="ZITEM_DESC_524016">強化材質で作られた男性用バトルブルードの一部。足を保護。</STR>
+
+	<STR id="ZITEM_NAME_524017">男性用 Active Sports シューズ</STR>
+	<STR id="ZITEM_DESC_524017"></STR>
+
+	<STR id="ZITEM_NAME_524020">男性 COS将校用戦闘靴</STR>
+	<STR id="ZITEM_DESC_524020">男性用。ミリタリーマニアに人気の国籍不明の将校用戦闘靴。</STR>
+
+	<STR id="ZITEM_NAME_524021">男性用ブルーベインブーツ</STR>
+	<STR id="ZITEM_DESC_524021">ブルーベインシリーズの男性用ブーツ。伸縮性が強い素材で作られている。</STR>
+
+	<STR id="ZITEM_NAME_524022">男性用トレインガードのブーツ</STR>
+	<STR id="ZITEM_DESC_524022">帝国、共和国間を走る機関車を守るガードの男性用の軽量型ブーツ。</STR>
+
+	<STR id="ZITEM_NAME_524023">男性用 PA 皮靴</STR>
+	<STR id="ZITEM_DESC_524023">帝国貴族に仕える執事達が愛用している皮靴。</STR>
+
+	<STR id="ZITEM_NAME_524501">女軍礼服ブーツ</STR>
+	<STR id="ZITEM_DESC_524501">帝国の一般女軍に支給された礼服セットブーツ。</STR>
+
+	<STR id="ZITEM_NAME_524502">女性用ガンナーズヘブン強化革靴</STR>
+	<STR id="ZITEM_DESC_524502">共和国の私設組織ガンナーズヘブンの メンバー専用 ブーツ。強化レザーで丈夫に作られている。</STR>
+
+	<STR id="ZITEM_NAME_524503">女性用エターナルブルーのブーツ</STR>
+	<STR id="ZITEM_DESC_524503">海の無法者、エターナルブルーの女性用制服のブーツ。</STR>
+
+	<STR id="ZITEM_NAME_524504">女性冒険家ブーツ</STR>
+	<STR id="ZITEM_DESC_524504">初心者の冒険家から重い装備を嫌う人にお勧めの軽い女性用ブーツ。</STR>
+
+	<STR id="ZITEM_NAME_524505">女性用ブルーホイッスル ブーツ</STR>
+	<STR id="ZITEM_DESC_524505">帝国の厄介者と呼ばれるギャング、ブルーホイッスルの女性用ブーツ。</STR>
+
+	<STR id="ZITEM_NAME_524506">女性用アイポッドサンダル</STR>
+	<STR id="ZITEM_DESC_524506">女性用アクアサンダル。</STR>
+
+	<STR id="ZITEM_NAME_524507">女性用アイアンクロウ ブーツ</STR>
+	<STR id="ZITEM_DESC_524507">無法者の都市ハバニを制圧したアイアンクロウの女性メンバーブーツ。</STR>
+
+	<STR id="ZITEM_NAME_524508">女性用サンタクロース ブーツ</STR>
+	<STR id="ZITEM_DESC_524508">クリスマスシーズンアイテム。女性用。</STR>
+
+	<STR id="ZITEM_NAME_524509">女性 ファンタムブリード ブーツ</STR>
+	<STR id="ZITEM_DESC_524509">古代から伝承されてきたスパイ組織の女性用ブーツ。多少 重い。</STR>
+
+	<STR id="ZITEM_NAME_524510">共和国ガンフリースティス ブーツ</STR>
+	<STR id="ZITEM_DESC_524510">宗教団体と関連した組織の 女性用 ブーツ。軽い。</STR>
+
+	<STR id="ZITEM_NAME_524511">女性用グレイダストの靴</STR>
+	<STR id="ZITEM_DESC_524511">帝国軍エリート部隊のグレイダストの女性用制式 靴。</STR>
+
+	<STR id="ZITEM_NAME_524512">女性 LOK スニーカー</STR>
+	<STR id="ZITEM_DESC_524512">活動性に焦点を合わせたスポーティルックの LOK 女性用スニーカー。</STR>
+
+	<STR id="ZITEM_NAME_524513">女性用ガンナイトシューズ</STR>
+	<STR id="ZITEM_DESC_524513">アクシウムのある伝説の女性ガンファイターが履いていたと言われるシューズ。</STR>
+
+	<STR id="ZITEM_NAME_524514">女性用 Korean シューズ</STR>
+	<STR id="ZITEM_DESC_524514"></STR>
+
+	<STR id="ZITEM_NAME_524515">女性 デザートフレームブーツ</STR>
+	<STR id="ZITEM_DESC_524515">砂漠で活動するデザートフレーム部隊の女性用レザーブーツ。</STR>
+
+	<STR id="ZITEM_NAME_524516">女性 バトルブルードブーツ</STR>
+	<STR id="ZITEM_DESC_524516">強化材質で作られた女性用バトルブルードの一部。足を保護。</STR>
+
+	<STR id="ZITEM_NAME_524517">女性用 Active Sports シューズ</STR>
+	<STR id="ZITEM_DESC_524517"></STR>
+
+	<STR id="ZITEM_NAME_524520">女性 COS将校用戦闘靴</STR>
+	<STR id="ZITEM_DESC_524520">女性用。ミリタリーマニアに人気の国籍不明の将校用戦闘靴。</STR>
+
+	<STR id="ZITEM_NAME_524521">女性用ブルーベインブーツ</STR>
+	<STR id="ZITEM_DESC_524521">ブルーベインシリーズの女性用ブーツ。伸縮性が強い素材で作られている。</STR>
+
+	<STR id="ZITEM_NAME_524522">女性用トレインガードのブーツ</STR>
+	<STR id="ZITEM_DESC_524522">帝国、共和国間を走る機関車を守るガードの女性用の軽量型ブーツ。</STR>
+
+	<STR id="ZITEM_NAME_524523">女性用 PA ネックリボンブーツ</STR>
+	<STR id="ZITEM_DESC_524523">帝国貴族に仕えるメイド達が愛用しているブーツ。</STR>
+
+	<STR id="ZITEM_NAME_525001">クローバーの指輪</STR>
+	<STR id="ZITEM_DESC_525001">幸運のシンボルであるクローバーが入っている指輪。これをつけた者は最大保有重量が増える。</STR>
+
+	<STR id="ZITEM_NAME_525002">鉄器兵記念の指輪</STR>
+	<STR id="ZITEM_DESC_525002">鉄器兵に与えられたという指輪。彼らの重い装備を考えたら、古代の魔法使いたちがこんな強力な力を持つ指輪を作り出した理由がわかるだろう。</STR>
+
+	<STR id="ZITEM_NAME_525003">大帝の指輪</STR>
+	<STR id="ZITEM_DESC_525003">大帝リシクのために制作されたという指輪。不可思議な力が流れているこの指輪をつけた者は古代の魔法の強い力を与えられる。</STR>
+
+	<STR id="ZITEM_NAME_525004">熟練の指輪</STR>
+	<STR id="ZITEM_DESC_525004">獲得経験値＆バウンティが約20%アップ。同時に2個着用できません。</STR>
+
+	<STR id="ZITEM_NAME_525005">ラッキーリング</STR>
+	<STR id="ZITEM_DESC_525005">多くの力が込められた神秘的なリング。一人ひとつだけはめることができる。</STR>
+
+	<STR id="ZITEM_NAME_525101">ラッキーチョコバー</STR>
+	<STR id="ZITEM_DESC_525101">おいしそうなチョコレート。食べるとHPとAPが少量だが一度に回復する。</STR>
+
+	<STR id="ZITEM_NAME_526001">弾倉ポーチ</STR>
+	<STR id="ZITEM_DESC_526001">予備の弾倉を入れておくことができるポーチ。3つまで入る。</STR>
+
+	<STR id="ZITEM_NAME_527001">医療キット MX-S1</STR>
+	<STR id="ZITEM_DESC_527001">軽量化タイプの強化医療キット。回復量はMKシリーズの2倍の効果。(3個)</STR>
+
+	<STR id="ZITEM_NAME_527002">医療キット MX-S2</STR>
+	<STR id="ZITEM_DESC_527002">軽量化タイプの強化医療キット。回復量はMKシリーズの2倍の効果。(5個)</STR>
+
+	<STR id="ZITEM_NAME_528001">修理キット RX-S1</STR>
+	<STR id="ZITEM_DESC_528001">軽量化タイプの強化修理キット。回復量はMKシリーズの2倍の効果。(3個)</STR>
+
+	<STR id="ZITEM_NAME_528002">修理キット RX-S2</STR>
+	<STR id="ZITEM_DESC_528002">軽量化タイプの強化修理キット。回復量はMKシリーズの2倍の効果。(5個)</STR>
+
+	<STR id="ZITEM_NAME_600001">カノープスのコイン</STR>
+	<STR id="ZITEM_DESC_600001">火炎の神、カノープスの力が込められたコイン。</STR>
+
+	<STR id="ZITEM_NAME_600002">カノープスの印章</STR>
+	<STR id="ZITEM_DESC_600002">火炎の神、カノープスの力の力が込められた印章。</STR>
+
+	<STR id="ZITEM_NAME_600003">カノープスのメダル</STR>
+	<STR id="ZITEM_DESC_600003">火炎の神、カノープスの力が込められたメダル。</STR>
+
+	<STR id="ZITEM_NAME_600004">カノープスの宝石</STR>
+	<STR id="ZITEM_DESC_600004">火炎の神、カノープスの力が込められた宝石。</STR>
+
+	<STR id="ZITEM_NAME_600005">カノープスの目</STR>
+	<STR id="ZITEM_DESC_600005">火炎の神、カノープスの力が込められた目。</STR>
+
+	<STR id="ZITEM_NAME_600006">カノープスの涙</STR>
+	<STR id="ZITEM_DESC_600006">[エンチャント Lv.0] 一滴の涙が宝石の様に固体化カノープスの涙。(エンチャント:炎のエフェクト　攻撃効果はマッシブ時に発動)</STR>
+
+	<STR id="ZITEM_NAME_600101">アニヤのコイン</STR>
+	<STR id="ZITEM_DESC_600101">水と氷の神、アニヤの力が込められたコイン。</STR>
+
+	<STR id="ZITEM_NAME_600102">アニヤの印章</STR>
+	<STR id="ZITEM_DESC_600102">水と氷の神、アニヤの力が込められた 印章。</STR>
+
+	<STR id="ZITEM_NAME_600103">アニヤのメダル</STR>
+	<STR id="ZITEM_DESC_600103">水と氷の神、アニヤの力が込められたメダル。</STR>
+
+	<STR id="ZITEM_NAME_600104">アニヤの宝石</STR>
+	<STR id="ZITEM_DESC_600104">水と氷の神、アニヤの力が込められた宝石。</STR>
+
+	<STR id="ZITEM_NAME_600105">アニヤの目</STR>
+	<STR id="ZITEM_DESC_600105">水と氷の神、アニヤの目。</STR>
+
+	<STR id="ZITEM_NAME_600106">アニヤの涙</STR>
+	<STR id="ZITEM_DESC_600106">[エンチャント Lv.0] 一滴の涙が宝石の様に固体化アニヤの涙。(エンチャント:氷のエフェクト　攻撃効果はマッシブ時に発動)</STR>
+
+	<STR id="ZITEM_NAME_600201">ウィンズカのコイン</STR>
+	<STR id="ZITEM_DESC_600201">風と天空の軍主、ウィンズカの力が込められたコイン。</STR>
+
+	<STR id="ZITEM_NAME_600202">ウィンズカの 印章</STR>
+	<STR id="ZITEM_DESC_600202">風と天空の軍主、ウィンズカの力が込められた印章。</STR>
+
+	<STR id="ZITEM_NAME_600203">ウィンズカのメダル</STR>
+	<STR id="ZITEM_DESC_600203">風と天空の軍主、ウィンズカの力が込められたメダル。</STR>
+
+	<STR id="ZITEM_NAME_600204">ウィンズカの 宝石</STR>
+	<STR id="ZITEM_DESC_600204">風と天空の軍主、ウィンズカの力が込められた宝石。</STR>
+
+	<STR id="ZITEM_NAME_600205">ウィンズカの 目</STR>
+	<STR id="ZITEM_DESC_600205">風と天空の軍主、ウィンズカの目。</STR>
+
+	<STR id="ZITEM_NAME_600301">ジストンのコイン</STR>
+	<STR id="ZITEM_DESC_600301">大地の神、ジストンの力が込められたコイン。</STR>
+
+	<STR id="ZITEM_NAME_600302">ジストンの印章</STR>
+	<STR id="ZITEM_DESC_600302">大地の神、ジストンの力が込められた印章。</STR>
+
+	<STR id="ZITEM_NAME_600303">ジストンのメダル</STR>
+	<STR id="ZITEM_DESC_600303">大地の神、ジストンの力が込められたメダル。</STR>
+
+	<STR id="ZITEM_NAME_600304">ジストンの宝石</STR>
+	<STR id="ZITEM_DESC_600304">大地の神、ジストンの力が込められた宝石。</STR>
+
+	<STR id="ZITEM_NAME_600305">ジストンの目</STR>
+	<STR id="ZITEM_DESC_600305">大地の神、ジストンの目。</STR>
+
+
+
+	<!-- channel.xml -->
+	<STR id="CHANNEL_DEFAULT_NAME">フリーチャンネル</STR>
+
+	<STR id="CHANNEL_NOVICE_NAME_1">フリーチャンネル 1</STR>
+	<STR id="CHANNEL_NOVICE_NAME_2">フリーチャンネル 2</STR>
+	<STR id="CHANNEL_NOVICE_NAME_3">フリーチャンネル 3</STR>
+
+	<STR id="CHANNEL_NEWBIE_NAME_1">入門チャンネル 1 (レベル制限1～5)</STR>
+	<STR id="CHANNEL_NEWBIE_NAME_2">入門チャンネル 2 (レベル制限1～5)</STR>
+
+	<STR id="CHANNEL_NEWBIE2_NAME_1">初心者チャンネル 1 (レベル制限 6～10)</STR>
+	<STR id="CHANNEL_NEWBIE2_NAME_2">初心者チャンネル 2 (レベル制限 6～10)</STR>
+
+	<STR id="CHANNEL_ROOKIE_NAME_1">中級チャンネル 1 (レベル制限 11～20)</STR>
+	<STR id="CHANNEL_ROOKIE_NAME_2">中級チャンネル 2 (レベル制限 11～20)</STR>
+
+	<STR id="CHANNEL_MASTERY_NAME_1">プロチャンネル 1 (レベル制限 34 以上)</STR>
+	<STR id="CHANNEL_MASTERY_NAME_2">プロチャンネル 2 (レベル制限 34 以上)</STR>
+
+	<STR id="CHANNEL_ELITE_NAME_1">達人チャンネル 1 (レベル制限 50 以上)</STR>
+	<STR id="CHANNEL_ELITE_NAME_2">達人チャンネル 2 (レベル制限 50 以上)</STR>
+	
+	<!-- chatcmds.xml -->
+	<STR id="CMD_NAME_1">help</STR>
+	<STR id="CMD_USAGE_1">/help or /help [command]</STR>
+	<STR id="CMD_HELP_1">コマンドヘルプ</STR>
+	<STR id="CMD_ALIAS_1_1">h</STR>
+	<STR id="CMD_ALIAS_1_2"></STR>
+
+	<STR id="CMD_NAME_2">whisper</STR>
+	<STR id="CMD_USAGE_2">/whisper [ID] [msg]</STR>
+	<STR id="CMD_HELP_2">耳打ちを送ります。</STR>
+	<STR id="CMD_ALIAS_2_1">w</STR>
+	<STR id="CMD_ALIAS_2_2">say</STR>
+
+	<STR id="CMD_NAME_3">report</STR>
+	<STR id="CMD_USAGE_3">/report</STR>
+	<STR id="CMD_HELP_3">チャット内要を通報します。</STR>
+	<STR id="CMD_ALIAS_3_1"></STR>
+	<STR id="CMD_ALIAS_3_2"></STR>
+
+	<STR id="CMD_NAME_4">friend</STR>
+	<STR id="CMD_USAGE_4">/friend [cmd] [args]</STR>
+	<STR id="CMD_HELP_4">友達メニューを管理します。</STR>
+	<STR id="CMD_ALIAS_4_1"></STR>
+	<STR id="CMD_ALIAS_4_2"></STR>
+
+	<STR id="CMD_NAME_5">clan</STR>
+	<STR id="CMD_USAGE_5">/clan [cmd] [args]</STR>
+	<STR id="CMD_HELP_5">クランを管理します。</STR>
+	<STR id="CMD_ALIAS_5_1"></STR>
+	<STR id="CMD_ALIAS_5_2"></STR>
+
+	<STR id="CMD_NAME_6">follow</STR>
+	<STR id="CMD_USAGE_6">/follow [ID]</STR>
+	<STR id="CMD_HELP_6">指定したユーザーのいるゲームに参加します</STR>
+	<STR id="CMD_ALIAS_6_1"></STR>
+	<STR id="CMD_ALIAS_6_2"></STR>
+
+	<STR id="CMD_NAME_7">qj</STR>
+	<STR id="CMD_USAGE_7">/qj</STR>
+	<STR id="CMD_HELP_7">クイックジョイン</STR>
+	<STR id="CMD_ALIAS_7_1">go</STR>
+	<STR id="CMD_ALIAS_7_2"></STR>
+
+	<STR id="CMD_NAME_8">taunt</STR>
+	<STR id="CMD_USAGE_8">/taunt</STR>
+	<STR id="CMD_HELP_8">相手を挑発します</STR>
+	<STR id="CMD_ALIAS_8_1"></STR>
+	<STR id="CMD_ALIAS_8_2"></STR>
+
+	<STR id="CMD_NAME_9">salute</STR>
+	<STR id="CMD_USAGE_9">/salute</STR>
+	<STR id="CMD_HELP_9">あいさつします</STR>
+	<STR id="CMD_ALIAS_9_1">bow</STR>
+	<STR id="CMD_ALIAS_9_2"></STR>
+
+	<STR id="CMD_NAME_10">wave</STR>
+	<STR id="CMD_USAGE_10">/wave</STR>
+	<STR id="CMD_HELP_10">手を振ります</STR>
+	<STR id="CMD_ALIAS_10_1"></STR>
+	<STR id="CMD_ALIAS_10_2"></STR>
+
+	<STR id="CMD_NAME_11">laugh</STR>
+	<STR id="CMD_USAGE_11">/laugh</STR>
+	<STR id="CMD_HELP_11">笑います</STR>
+	<STR id="CMD_ALIAS_11_1"></STR>
+	<STR id="CMD_ALIAS_11_2"></STR>
+
+	<STR id="CMD_NAME_12">cry</STR>
+	<STR id="CMD_USAGE_12">/cry</STR>
+	<STR id="CMD_HELP_12">泣きます。</STR>
+	<STR id="CMD_ALIAS_12_1"></STR>
+	<STR id="CMD_ALIAS_12_2"></STR>
+
+	<STR id="CMD_NAME_13">dance</STR>
+	<STR id="CMD_USAGE_13">/dance</STR>
+	<STR id="CMD_HELP_13">踊ります。</STR>
+	<STR id="CMD_ALIAS_13_1"></STR>
+	<STR id="CMD_ALIAS_13_2"></STR>
+
+	<STR id="CMD_NAME_14">macro</STR>
+	<STR id="CMD_USAGE_14">/macro</STR>
+	<STR id="CMD_HELP_14">マクロ登録</STR>
+	<STR id="CMD_ALIAS_14_1"></STR>
+	<STR id="CMD_ALIAS_14_2"></STR>
+
+	<STR id="CMD_NAME_15">suicide</STR>
+	<STR id="CMD_USAGE_15">/suicide</STR>
+	<STR id="CMD_HELP_15">自殺します。</STR>
+	<STR id="CMD_ALIAS_15_1"></STR>
+	<STR id="CMD_ALIAS_15_2"></STR>
+
+	<STR id="CMD_NAME_16">vote</STR>
+	<STR id="CMD_USAGE_16">/vote</STR>
+	<STR id="CMD_HELP_16">投票を開始します。</STR>
+	<STR id="CMD_ALIAS_16_1">callvote</STR>
+	<STR id="CMD_ALIAS_16_2"></STR>
+
+	<STR id="CMD_NAME_17">yes</STR>
+	<STR id="CMD_USAGE_17">/yes</STR>
+	<STR id="CMD_HELP_17">賛成します。</STR>
+	<STR id="CMD_ALIAS_17_1"></STR>
+	<STR id="CMD_ALIAS_17_2"></STR>
+
+	<STR id="CMD_NAME_18">no</STR>
+	<STR id="CMD_USAGE_18">/no</STR>
+	<STR id="CMD_HELP_18">反対します。</STR>
+	<STR id="CMD_ALIAS_18_1"></STR>
+	<STR id="CMD_ALIAS_18_2"></STR>
+
+	<STR id="CMD_NAME_19">kick</STR>
+	<STR id="CMD_USAGE_19">/kick</STR>
+	<STR id="CMD_HELP_19">プレイヤーの追放を提案します。</STR>
+	<STR id="CMD_ALIAS_19_1"></STR>
+	<STR id="CMD_ALIAS_19_2"></STR>
+
+	<STR id="CMD_NAME_20">chatmake</STR>
+	<STR id="CMD_USAGE_20">/chatmake [roomname]</STR>
+	<STR id="CMD_HELP_20">make chatting room</STR>
+	<STR id="CMD_ALIAS_20_1"></STR>
+	<STR id="CMD_ALIAS_20_2"></STR>
+
+	<STR id="CMD_NAME_21">chatjoin</STR>
+	<STR id="CMD_USAGE_21">/chatjoin [roomname]</STR>
+	<STR id="CMD_HELP_21">join chatting room</STR>
+	<STR id="CMD_ALIAS_21_1"></STR>
+	<STR id="CMD_ALIAS_21_2"></STR>
+
+	<STR id="CMD_NAME_22">chatleave</STR>
+	<STR id="CMD_USAGE_22">/chatleave [roomname]</STR>
+	<STR id="CMD_HELP_22">leave chatting room</STR>
+	<STR id="CMD_ALIAS_22_1"></STR>
+	<STR id="CMD_ALIAS_22_2"></STR>
+
+	<STR id="CMD_NAME_23">chatselect</STR>
+	<STR id="CMD_USAGE_23">/chatselect [roomname]</STR>
+	<STR id="CMD_HELP_23">select chatting room</STR>
+	<STR id="CMD_ALIAS_23_1"></STR>
+	<STR id="CMD_ALIAS_23_2"></STR>
+
+	<STR id="CMD_NAME_24">chatinvite</STR>
+	<STR id="CMD_USAGE_24">/chatinvite [name]</STR>
+	<STR id="CMD_HELP_24">invite</STR>
+	<STR id="CMD_ALIAS_24_1"></STR>
+	<STR id="CMD_ALIAS_24_2"></STR>
+
+	<STR id="CMD_NAME_25">chataccept</STR>
+	<STR id="CMD_USAGE_25">/chataccept</STR>
+	<STR id="CMD_HELP_25">accept</STR>
+	<STR id="CMD_ALIAS_25_1"></STR>
+	<STR id="CMD_ALIAS_25_2"></STR>
+
+	<STR id="CMD_NAME_26">chat</STR>
+	<STR id="CMD_USAGE_26">chat [message]</STR>
+	<STR id="CMD_HELP_26">chat</STR>
+	<STR id="CMD_ALIAS_26_1"></STR>
+	<STR id="CMD_ALIAS_26_2"></STR>
+
+	<!-- notify.xml -->
+	<STR id="NOTIFY_10">ネットワークの初期化に失敗しました。</STR>
+	<STR id="NOTIFY_11">ネットワークポートがすでに使用されています。</STR>
+	<STR id="NOTIFY_15">NATネットワークの接続設定</STR>
+	<STR id="NOTIFY_51">ユーザーがみつかりません。</STR>
+	<STR id="NOTIFY_70">存在しないキャラクターです。</STR>
+	<STR id="NOTIFY_100">すでに存在するステージです。</STR>
+	<STR id="NOTIFY_101">存在しないステージです。</STR>
+	<STR id="NOTIFY_110">クランのメンバー全てを検索しました。</STR>
+	<STR id="NOTIFY_150">チャットルームが作成されました。</STR>
+	<STR id="NOTIFY_151">チャットルームの作成に失敗しました。</STR>
+	<STR id="NOTIFY_152">すでに存在するチャットルームです。</STR>
+	<STR id="NOTIFY_153">存在しないチャットルームです。</STR>
+	<STR id="NOTIFY_154">参加しているチャットルームはありません。</STR>
+	<STR id="NOTIFY_155">チャットルームに参加できません。</STR>
+	<STR id="NOTIFY_156">参加人数が多すぎます。</STR>
+	<STR id="NOTIFY_200">スピードハックの使用と判定されました。</STR>
+	<STR id="NOTIFY_201">メモリーハックの使用と判定されました。</STR>
+	<STR id="NOTIFY_251">すでに友達として登録されています。</STR>
+	<STR id="NOTIFY_252">登録された友達ではありません。</STR>
+	<STR id="NOTIFY_253">友達メニューが満杯です。</STR>
+	<STR id="NOTIFY_255">友達に登録されました。</STR>
+	<STR id="NOTIFY_256">友達から解除されました。</STR>
+	<STR id="NOTIFY_301">相手が耳打ち拒否の状態です。</STR>
+	<STR id="NOTIFY_302">耳打ちの受信を拒否しました。</STR>
+	<STR id="NOTIFY_311">相手が招待を拒否しました。</STR>
+	<STR id="NOTIFY_312">招待を拒否しました。</STR>
+
+
+
+
+	<!-- npc.xml -->
+	<STR id="NPC_NAME_11">兵隊ゴブリン</STR>
+	<STR id="NPC_DESC_11"></STR>
+
+	<STR id="NPC_NAME_12">ゴブリンカーナー</STR>
+	<STR id="NPC_DESC_12"></STR>
+
+	<STR id="NPC_NAME_13">ゴブリンウィザード</STR>
+	<STR id="NPC_DESC_13"></STR>
+
+	<STR id="NPC_NAME_14">ゴブリンキャプテン</STR>
+	<STR id="NPC_DESC_14"></STR>
+
+	<STR id="NPC_NAME_15">ゴブリン族長</STR>
+	<STR id="NPC_DESC_15"></STR>
+
+	<STR id="NPC_NAME_16">ゴブリンキング</STR>
+	<STR id="NPC_DESC_16"></STR>
+
+	<STR id="NPC_NAME_17">event ゴブリン</STR>
+	<STR id="NPC_DESC_17"></STR>
+	
+	<STR id="NPC_NAME_21">ファームポア</STR>
+	<STR id="NPC_DESC_21"></STR>
+
+	<STR id="NPC_NAME_22">ファームポアキャプテン</STR>
+	<STR id="NPC_DESC_22"></STR>
+
+	<STR id="NPC_NAME_23">ファームポウ</STR>
+	<STR id="NPC_DESC_23"></STR>
+
+	<STR id="NPC_NAME_24">カーズパムポウ</STR>
+	<STR id="NPC_DESC_24"></STR>
+
+	<STR id="NPC_NAME_25">ファームポウベイビー</STR>
+	<STR id="NPC_DESC_25"></STR>
+
+	<STR id="NPC_NAME_31">スケルトン</STR>
+	<STR id="NPC_DESC_31"></STR>
+
+	<STR id="NPC_NAME_32">スケルトンメイジ</STR>
+	<STR id="NPC_DESC_32"></STR>
+
+	<STR id="NPC_NAME_33">スケルトンキャプテン</STR>
+	<STR id="NPC_DESC_33"></STR>
+
+	<STR id="NPC_NAME_34">ヒュージスケルトン</STR>
+	<STR id="NPC_DESC_34"></STR>
+
+	<STR id="NPC_NAME_35">リビングデッド</STR>
+	<STR id="NPC_DESC_35"></STR>
+
+	<STR id="NPC_NAME_36">リッチ</STR>
+	<STR id="NPC_DESC_36"></STR>
+
+	<STR id="NPC_NAME_41">コボルド</STR>
+	<STR id="NPC_DESC_41"></STR>
+
+	<STR id="NPC_NAME_42">コボルドシャーマン</STR>
+	<STR id="NPC_DESC_42"></STR>
+
+	<STR id="NPC_NAME_43">コボルドキャプテン</STR>
+	<STR id="NPC_DESC_43"></STR>
+
+	<STR id="NPC_NAME_44">コボルドキング</STR>
+	<STR id="NPC_DESC_44"></STR>
+
+	<STR id="NPC_NAME_45">ゴーレムディフェクト</STR>
+	<STR id="NPC_DESC_45"></STR>
+
+	<STR id="NPC_NAME_46">スクライダー</STR>
+	<STR id="NPC_DESC_46"></STR>
+
+
+
+
+	<!-- scenario.xml -->
+
+
+
+
+	<!-- shutdown.xml -->
+	<STR id="SHUTDOWN_01">システム点検のため1分後サーバーをダウンします。</STR>
+	<STR id="SHUTDOWN_02">ユーザーの皆様は今すぐログアウトしてください。</STR>
+	<STR id="SHUTDOWN_03">ログアウトしない場合、ユーザーの情報が失われる可能性があります。</STR>
+	<STR id="SHUTDOWN_04">30秒後にサーバーがダウンします。</STR>
+	<STR id="SHUTDOWN_05">20秒後にサーバーがダウンします。</STR>
+	<STR id="SHUTDOWN_06">10秒後にサーバーがダウンします。</STR>
+	<STR id="SHUTDOWN_07">5秒後にサーバーがダウンします。</STR>
+	<STR id="SHUTDOWN_08">4秒後にサーバーがダウンします。</STR>
+	<STR id="SHUTDOWN_09">3秒後にサーバーがダウンします。</STR>
+	<STR id="SHUTDOWN_10">2秒後にサーバーがダウンします。</STR>
+	<STR id="SHUTDOWN_11">1秒後にサーバーがダウンします。</STR>
+	<STR id="SHUTDOWN_12">サーバーをダウンしました。</STR>
+
+
+
+	<!-- zquestitem.xml -->
+	<STR id="QITEM_NAME_200001">破られた13ページ</STR>
+	<STR id="QITEM_DESC_200001">何かの本から破られたページ。薄い文字で13と書かれている。</STR>
+
+	<STR id="QITEM_NAME_200002">破られた25ページ</STR>
+	<STR id="QITEM_DESC_200002">何かの本から破られたページ。薄い文字で25と書かれている。</STR>
+
+	<STR id="QITEM_NAME_200003">破られた41ページ</STR>
+	<STR id="QITEM_DESC_200003">何かの本から破られたページ。薄い文字で41と書かれている。</STR>
+
+	<STR id="QITEM_NAME_200004">破られた65ページ</STR>
+	<STR id="QITEM_DESC_200004">何かの本から破られたページ。薄い文字で65と書かれている。</STR>
+
+	<STR id="QITEM_NAME_200005">小さな頭蓋骨</STR>
+	<STR id="QITEM_DESC_200005">謎の頭蓋骨。鳥類の頭蓋骨を思わせる感じ。</STR>
+
+	<STR id="QITEM_NAME_200006">大きい頭蓋骨</STR>
+	<STR id="QITEM_DESC_200006">謎の頭蓋骨。誰のものかはわからないが、多分頭が大きかったのだろう。</STR>
+
+	<STR id="QITEM_NAME_200007">謎の頭蓋骨</STR>
+	<STR id="QITEM_DESC_200007">用途不明の謎の頭蓋骨。</STR>
+
+	<STR id="QITEM_NAME_200008">ゴブリンの頭蓋骨</STR>
+	<STR id="QITEM_DESC_200008">ゴブリンの頭蓋骨。片方に「新しい世界を呼ぶ」と刻まれている。</STR>
+
+	<STR id="QITEM_NAME_200009">ゴブリンキングの頭蓋骨</STR>
+	<STR id="QITEM_DESC_200009">ゴブリンキングの頭蓋骨。</STR>
+
+	<STR id="QITEM_NAME_200010">巨大な遺骨</STR>
+	<STR id="QITEM_DESC_200010">形から見ると人間のようだが、その大きさはまるで恐竜並み。</STR>
+
+	<STR id="QITEM_NAME_200011">生肉</STR>
+	<STR id="QITEM_DESC_200011">正体不明の動物の生肉。食料として利用されていたようだ。</STR>
+
+	<STR id="QITEM_NAME_200012">焼いた肉</STR>
+	<STR id="QITEM_DESC_200012">大変美味しいそうな味付け肉。</STR>
+
+	<STR id="QITEM_NAME_200013">ステーキ</STR>
+	<STR id="QITEM_DESC_200013">大変美味しそうなステーキ。モンスターが好みそう。</STR>
+
+	<STR id="QITEM_NAME_200014">鉄の耳飾り</STR>
+	<STR id="QITEM_DESC_200014">コボルト族が使用していた鉄でできた耳飾り。人間は使うことができない。</STR>
+
+	<STR id="QITEM_NAME_200015">銀の耳飾り</STR>
+	<STR id="QITEM_DESC_200015">コボルト族が使用した銀で作られた耳飾り。人間は使うことができない。</STR>
+
+	<STR id="QITEM_NAME_200016">金の耳飾り</STR>
+	<STR id="QITEM_DESC_200016">コボルト族が使用した金で作られた耳飾り。人間は使うことができない。</STR>
+
+	<STR id="QITEM_NAME_200017">プラチナの耳飾り</STR>
+	<STR id="QITEM_DESC_200017">コボルトキングが使用した特殊金属の耳飾り。人間は使うことができない。</STR>
+
+	<STR id="QITEM_NAME_200018">クリムスクの首飾り</STR>
+	<STR id="QITEM_DESC_200018">ゴブリン族長が首に掛けていた首飾り。人間は使えそうにもない。</STR>
+
+	<STR id="QITEM_NAME_200019">スケレトン人形</STR>
+	<STR id="QITEM_DESC_200019">骸骨兵士の姿をした人形。作った人の趣味が疑われる。</STR>
+
+	<STR id="QITEM_NAME_200020">コボルト人形</STR>
+	<STR id="QITEM_DESC_200020">コボルトと全く同じ姿! これを子供にプレゼントしたら喜んでもらえるだろうか?</STR>
+
+	<STR id="QITEM_NAME_200021">ゴブリン人形</STR>
+	<STR id="QITEM_DESC_200021">ゴブリンと全く同じ姿! でも何の使い道もなさそう。</STR>
+
+	<STR id="QITEM_NAME_200022">ファームポウ人形</STR>
+	<STR id="QITEM_DESC_200022">いたずら妖精・ファームポウにそっくりな人形。</STR>
+
+	<STR id="QITEM_NAME_200023">ウサギのぬいぐるみ</STR>
+	<STR id="QITEM_DESC_200023">可愛いウサギのぬいぐるみ。でも何に使うのかな?!</STR>
+
+	<STR id="QITEM_NAME_200024">テディベア</STR>
+	<STR id="QITEM_DESC_200024">子供たちが眠る時にいつも抱きしめながら寝ていたぬいぐるみ。どうしてここにあるのかな?!</STR>
+
+	<STR id="QITEM_NAME_200025">呪いのテディベア</STR>
+	<STR id="QITEM_DESC_200025">子供たちが眠る時、いつも抱きしめながら寝るはず…はなさそう。どうしてここにあるのかな?!</STR>
+
+	<STR id="QITEM_NAME_200026">ファームポウアイドル</STR>
+	<STR id="QITEM_DESC_200026">夢の中の妖精、ファームポウにそっくり。</STR>
+
+	<STR id="QITEM_NAME_200027">呪われたファームポウアイドル</STR>
+	<STR id="QITEM_DESC_200027">ファームポウにそっくり。でもどこか薄気味悪い感じが。</STR>
+
+	<STR id="QITEM_NAME_200028">悪魔の辞典</STR>
+	<STR id="QITEM_DESC_200028">変な内容だらけの辞典。</STR>
+
+	<STR id="QITEM_NAME_200029">スクライダーのリスト・上編</STR>
+	<STR id="QITEM_DESC_200029">人々の名前がぎっしりと書かれた変な本の上編。地獄から送られてきたものだという。</STR>
+
+	<STR id="QITEM_NAME_200030">スクライダーのリスト・下編</STR>
+	<STR id="QITEM_DESC_200030">人々の名前がぎっしりと書かれた変な本の下編。地獄から送られてきたものだという。</STR>
+
+	<STR id="QITEM_NAME_200031">祝福された十字架</STR>
+	<STR id="QITEM_DESC_200031">コンフリストが持ち歩いたといわれるものと形が似ている。</STR>
+
+	<STR id="QITEM_NAME_200032">呪いの十字架</STR>
+	<STR id="QITEM_DESC_200032">コンフリストが持ち歩いたといわれるものと形が似ている。しかし…</STR>
+
+	<STR id="QITEM_NAME_200033">ピッケル</STR>
+	<STR id="QITEM_DESC_200033">採掘現場で使う工事用ピッケル。しかし採掘現場はどこかな?</STR>
+
+	<STR id="QITEM_NAME_200034">人間の言葉を話す小石</STR>
+	<STR id="QITEM_DESC_200034">時々変な事を言い出す小石。時々動いたりもする。</STR>
+
+	<STR id="QITEM_NAME_200035">氷の結晶</STR>
+	<STR id="QITEM_DESC_200035">かなりの熱でも溶かすことのできない氷の結晶。</STR>
+
+	<STR id="QITEM_NAME_200036">壊れたギア</STR>
+	<STR id="QITEM_DESC_200036">壊れたギア。もう使えそうもない。</STR>
+
+	<STR id="QITEM_NAME_200037">高級ギア</STR>
+	<STR id="QITEM_DESC_200037">機械の中で何か大切な作業をした感じのするギア。</STR>
+
+	<STR id="QITEM_NAME_200038">ゴブリンキングの斧</STR>
+	<STR id="QITEM_DESC_200038">ゴブリンキングが使っていた恐ろしい斧。人間が使えないのが残念だ。</STR>
+
+	<STR id="QITEM_NAME_210001">ゴブリンの図鑑</STR>
+	<STR id="QITEM_DESC_210001">ゴブリンに関する情報が記録されている図鑑。</STR>
+
+
+	<!-- config_rel.xml -->
+	<STR id="CONFIG_MACRO_F1">/h</STR>
+	<STR id="CONFIG_MACRO_F2">/taunt</STR>
+	<STR id="CONFIG_MACRO_F3">/hi</STR>
+	<STR id="CONFIG_MACRO_F4">/report</STR>
+	<STR id="CONFIG_MACRO_F5">こんにちは～</STR>
+	<STR id="CONFIG_MACRO_F6">マナーを守って楽しくゲームしよう。</STR>
+	<STR id="CONFIG_MACRO_F7">グッドショット!!</STR>
+	<STR id="CONFIG_MACRO_F8">お疲れ様でした。</STR>
+	
+
+<!-- Interface XML -->
+
+<!-- Common -->
+<STR id="UI_COMMON_OK">確認(&amp;O)</STR>
+<STR id="UI_COMMON_CANCEL">取消し(&amp;C)</STR>
+
+<!-- Login.xml -->
+<STR id="UI_LOGIN_01">GunZ Login</STR>
+<STR id="UI_LOGIN_02">User ID</STR>
+<STR id="UI_LOGIN_03">Password</STR>
+<STR id="UI_LOGIN_04">Login(&amp;G)</STR>
+<STR id="UI_LOGIN_05">Do you want to quit the game?</STR>
+
+
+<!-- Lobby.xml -->
+<STR id="UI_LOBBY_01">ロビ</STR>
+<STR id="UI_LOBBY_02">スタート(&amp;G)</STR>
+<STR id="UI_LOBBY_03">クランを探す</STR>
+<STR id="UI_LOBBY_04">クランを検索中</STR>
+<STR id="UI_LOBBY_05">クラン戦の取消し</STR>
+<STR id="UI_LOBBY_06">名前</STR>
+<STR id="UI_LOBBY_07">クラン :</STR>
+<STR id="UI_LOBBY_08">レベル : 0 lv.</STR>
+<STR id="UI_LOBBY_09">経験値 : 0%</STR>
+<STR id="UI_LOBBY_10">Bounty : 0</STR>
+<STR id="UI_LOBBY_11">体力 : 0</STR>
+<STR id="UI_LOBBY_12">防御力 : 0</STR>
+<STR id="UI_LOBBY_13">重量 : 0</STR>
+<STR id="UI_LOBBY_14">クラン戦</STR>
+<STR id="UI_LOBBY_15">レベルが同じクランとのみ対戦</STR>
+<STR id="UI_LOBBY_16">クラン戦に参加するプレイヤーを選択してください。</STR>
+<STR id="UI_LOBBY_17">確認(&amp;O)</STR>
+<STR id="UI_LOBBY_18">取消し(&amp;C)</STR>
+<STR id="UI_LOBBY_19">クラン脱退確認</STR>
+<STR id="UI_LOBBY_20">クランを脱退しますか？</STR>
+<STR id="UI_LOBBY_21">はい(&amp;Y)</STR>
+<STR id="UI_LOBBY_A01">Monster Bible</STR>
+<STR id="UI_LOBBY_A02">GunZを終了しますか？</STR>
+
+
+<!-- StageCreateFrame.xml -->
+<STR id="UI_SCF_01">ゲーム作成</STR>
+<STR id="UI_SCF_02">ゲームタイトル</STR>
+<STR id="UI_SCF_03">パスワード</STR>
+<STR id="UI_SCF_04">スリル満点GunZで勝負しない？</STR>
+
+<!-- Replay.xml -->
+<STR id="UI_REPLAY_01">リプレイ</STR>
+<STR id="UI_REPLAY_02">../マイドキュメント/Gunz/Replay</STR>
+<STR id="UI_REPLAY_03">バージョンが低い場合、再生の時異なることが</STR>
+<STR id="UI_REPLAY_04">あります。</STR>
+<STR id="UI_REPLAY_05">検索(&amp;V)</STR>
+<STR id="UI_REPLAY_06">選択したリプレイを再生しますか？</STR>
+<STR id="UI_REPLAY_07">リプレイ</STR>
+<STR id="UI_REPLAY_08">選択したリプレイを再生しますか？</STR>
+<STR id="UI_REPLAY_09">再生(&amp;V)</STR>
+<STR id="UI_REPLAY_10">終了(&amp;X)</STR>
+<STR id="UI_REPLAY_A01">閉じる(&amp;C)</STR>
+
+<!-- PrivateStageJoinFrame.xml -->
+<STR id="UI_PSJF_01">パスワード入力</STR>
+<STR id="UI_PSJF_02">ゲームタイトル</STR>
+<STR id="UI_PSJF_03">パスワード</STR>
+
+<!-- NetPortConfirm.xml -->
+<STR id="UI_NPC_01">ネットワークポート変更</STR>
+<STR id="UI_NPC_02">ネットワークポートの変更をするときはGunZを再び実行しなければなりません。\終了しますか？</STR>
+<STR id="UI_NPC_03">終了(&amp;Y)</STR>
+<STR id="UI_NPC_04">後で変更(&amp;N)</STR>
+
+<!-- Greter.xml -->
+<STR id="UI_GREETER_01">スタート(&amp;S)</STR>
+
+<!-- CombatInterface.xml -->
+<STR id="UI_CI_01">オール:</STR>
+<STR id="UI_CI_02">メンバー:</STR>
+<STR id="UI_CI_03">ゲームメニュー</STR>
+<STR id="UI_CI_04">オプション(&amp;O)</STR>
+<STR id="UI_CI_05">ゲームに戻る(&amp;X)</STR>
+<STR id="UI_CI_06">ゲームからルームに戻る(&amp;R)</STR>
+<STR id="UI_CI_07">ゲームからロビーに戻る(&amp;L)</STR>
+<STR id="UI_CI_08">ゲームから退室しますか？</STR>
+<STR id="UI_CI_09">プログラム終了(&amp;Q)</STR>
+<STR id="UI_CI_10">GunZを終了しますか？</STR>
+
+<!-- ChannelListFrame.xml -->
+<STR id="UI_CLF_01">チャンネルリスト</STR>
+<STR id="UI_CLF_02">一般</STR>
+<STR id="UI_CLF_03">個人</STR>
+<STR id="UI_CLF_04">クラン</STR>
+<STR id="UI_CLF_05">入る</STR>
+<STR id="UI_CLF_06">マイクランチャンネルに移動</STR>
+
+
+<!-- BuyConfirm.xml -->
+<STR id="UI_BC_01">合計金額</STR>
+<STR id="UI_BC_02">購入しますか？</STR>
+	
+<!-- 112Confirm.xml -->
+<STR id="UI_112C_01">不良ユーザーの通報</STR>
+<STR id="UI_112C_02">通報の理由を10文字以上で記入してください。</STR>
+<STR id="UI_112C_03">通報対象選択</STR>
+<STR id="UI_112C_04">通報理由選択</STR>
+<STR id="UI_112C_05">選択してください</STR>
+<STR id="UI_112C_06">暴言・誹謗中傷</STR>
+<STR id="UI_112C_07">公序良俗に反する名前の使用　</STR>
+<STR id="UI_112C_08">卑猥な発言</STR>
+<STR id="UI_112C_09">ハッキング助長行為</STR>
+<STR id="UI_112C_10">詐欺行為</STR>
+<STR id="UI_112C_11">荒し行為</STR>
+<STR id="UI_112C_12">運営者詐称</STR>
+<STR id="UI_112C_13">通報対象および理由を選択してください。虚偽の通報時には通報者が処罰の対象となります。</STR>
+
+<!-- CharCreation.xml -->
+<STR id="UI_CC_01">キャラクター作成</STR>
+<STR id="UI_CC_02">名前</STR>
+<STR id="UI_CC_03">性別</STR>
+<STR id="UI_CC_04">ヘアー</STR>
+<STR id="UI_CC_05">顔</STR>
+<STR id="UI_CC_06">基本装備</STR>
+<STR id="UI_CC_07">デビルスレイヤー</STR>
+<STR id="UI_CC_08">ウォルコム XLx2</STR>
+<STR id="UI_CC_09">ウォルコム XLx2</STR>
+<STR id="UI_CC_10">手榴弾 FG-2</STR>
+<STR id="UI_CC_11">医療キット K-11</STR>
+
+<STR id="UI_CC_LIST_01_01">男性</STR>
+<STR id="UI_CC_LIST_01_02">女性</STR>
+
+<STR id="UI_CC_LIST_02_01">タイプ 1</STR>
+<STR id="UI_CC_LIST_02_02">タイプ 2</STR>
+<STR id="UI_CC_LIST_02_03">タイプ 3</STR>
+<STR id="UI_CC_LIST_02_04">タイプ 4</STR>
+
+<STR id="UI_CC_LIST_03_01">アクシアムガンナイト</STR>
+<STR id="UI_CC_LIST_03_02">トラビアガンファイター</STR>
+<STR id="UI_CC_LIST_03_03">アクシアム　アサシン</STR>
+<STR id="UI_CC_LIST_03_04">トラビアスカウト</STR>
+<STR id="UI_CC_LIST_03_05">アクシアムガンプリースト</STR>
+<STR id="UI_CC_LIST_03_06">トラビアドクター</STR>
+
+
+<!-- CharSelection.xml -->
+<STR id="UI_CS_01">名前</STR>
+<STR id="UI_CS_02">0 Lv.</STR>
+<STR id="UI_CS_03">クラン</STR>
+<STR id="UI_CS_04">選択(&amp;G)</STR>
+<STR id="UI_CS_05">GunZを終了しますか？</STR>
+<STR id="UI_CS_06">キャラクター削除</STR>
+<STR id="UI_CS_07">キャラクターを削除するときは 'はい'を入力し、確認ボタン</STR>
+<STR id="UI_CS_08">を押してください。</STR>
+
+<!-- Clan.xml -->
+<STR id="UI_CLAN_01">クランの結成を承認</STR>
+<STR id="UI_CLAN_02">はい(&amp;Y)</STR>
+<STR id="UI_CLAN_03">いいえ(&amp;N)</STR>
+<STR id="UI_CLAN_04">制限時間 :</STR>
+<STR id="UI_CLAN_05">クランの結成を承認</STR>
+<STR id="UI_CLAN_06">クラン結成メンバーが承認するまでお待ちください。</STR>
+<STR id="UI_CLAN_07">制限時間 :</STR>
+<STR id="UI_CLAN_08">クラン加入者の承認</STR>
+<STR id="UI_CLAN_09">クラン加入者が承認するまでお待ちください。</STR>
+<STR id="UI_CLAN_10">クラン結成</STR>
+<STR id="UI_CLAN_11">クラン名</STR>
+<STR id="UI_CLAN_12">クランを作るためには10レベル以上、1000BPが必要です。半角英数字12文字以内のクラン名と4名のクラン創立メンバーが必要です。</STR>
+<STR id="UI_CLAN_13">創立メンバー</STR>
+<STR id="UI_CLAN_14">承認待機中</STR>
+<STR id="UI_CLAN_15">応答中</STR>
+
+<!-- Equipment.xml -->
+<STR id="UI_EQUIPMENT_01">種類 : </STR>
+<STR id="UI_EQUIPMENT_02">装着</STR>
+<STR id="UI_EQUIPMENT_03">銀行に送る</STR>
+<STR id="UI_EQUIPMENT_04">装備を引き出す</STR>
+<STR id="UI_EQUIPMENT_05">アイテムを持ってゆきますか？</STR>
+<STR id="UI_EQUIPMENT_06">[ 重量 ]</STR>
+<STR id="UI_EQUIPMENT_07">0  /  0 Wt.</STR>
+<STR id="UI_EQUIPMENT_08">[ LV / HP / AP ]</STR>
+<STR id="UI_EQUIPMENT_09">0Lv.  /  0  /  0</STR>
+
+<STR id="UI_EQUIPMENT_LIST_01_01">   全ての装備を検索</STR>
+<STR id="UI_EQUIPMENT_LIST_01_02">   防御具：ヘッドギア</STR>
+<STR id="UI_EQUIPMENT_LIST_01_03">   防御具：ボディアーマー</STR>
+<STR id="UI_EQUIPMENT_LIST_01_04">   防御具：グローブ</STR>
+<STR id="UI_EQUIPMENT_LIST_01_05">   防御具：ズボン</STR>
+<STR id="UI_EQUIPMENT_LIST_01_06">   防御具：ブーツ</STR>
+<STR id="UI_EQUIPMENT_LIST_01_07">   武器類：近距離武器</STR>
+<STR id="UI_EQUIPMENT_LIST_01_08">   武器類：遠距離武器</STR>
+<STR id="UI_EQUIPMENT_LIST_01_09">   装備類：回復/修理キット、手榴弾</STR>
+<STR id="UI_EQUIPMENT_LIST_01_10">   アイテム：指輪</STR>
+<STR id="UI_EQUIPMENT_LIST_01_11">   アイテム：クエストアイテム</STR>
+
+
+<!-- MonsterBook.xml -->
+<STR id="UI_MB_01">モンスター図鑑</STR>
+
+
+<!-- NetmarbleLogin.xml -->
+<STR id="UI_NL_01">ログイン</STR>
+<STR id="UI_NL_02">ネットマーブルに接続中です。</STR>
+<STR id="UI_NL_03">GunZを終了しますか？</STR>
+
+<!-- ResizeConfirm.xml -->
+<STR id="UI_RC_01">解像度変更</STR>
+<STR id="UI_RC_02">新しい解像度を適用します。</STR>
+<STR id="UI_RC_03">新しい解像度が適用されなければ、10秒後に以前の</STR>
+<STR id="UI_RC_04">解像度に戻します。</STR>
+<STR id="UI_RC_05">新しい解像度を適用しますか？</STR>
+<STR id="UI_RC_06">新しい解像度を適用しました。</STR>
+<STR id="UI_RC_07">この解像度に変更しますか？</STR>
+<STR id="UI_RC_08">はい(&amp;Y)</STR>
+
+<!-- StageSettingFrame.xml -->
+<STR id="UI_SSF_01">その他のゲーム設定</STR>
+<STR id="UI_SSF_02">制限時間</STR>
+<STR id="UI_SSF_03">乱入可</STR>
+<STR id="UI_SSF_04">味方被害</STR>
+<STR id="UI_SSF_05">レベル制限</STR>
+<STR id="UI_SSF_06">観戦可</STR>
+<STR id="UI_SSF_07">投票可</STR>
+<STR id="UI_SSF_08">メンバーバランス</STR>
+
+<!-- Option.xml -->
+<STR id="UI_OPTION_01">オプション</STR>
+<STR id="UI_OPTION_02">解像度</STR>
+<STR id="UI_OPTION_03">明るさ</STR>
+<STR id="UI_OPTION_04">反射効果</STR>
+<STR id="UI_OPTION_05">ライトマップ</STR>
+<STR id="UI_OPTION_06">シェーダー</STR>
+<STR id="UI_OPTION_07">アクティブライト</STR>
+<STR id="UI_OPTION_08">キャラクターイメージクオリティ</STR>
+<STR id="UI_OPTION_09">背景イメージクオリティ</STR>
+<STR id="UI_OPTION_10">エフェクトクオリティ</STR>
+<STR id="UI_OPTION_11">テクスチャークオリティ</STR>
+<STR id="UI_OPTION_12">最適化にする</STR>
+<STR id="UI_OPTION_13">バックサウンド</STR>
+<STR id="UI_OPTION_14">バックサウンドボリューム</STR>
+<STR id="UI_OPTION_15">効果音</STR>
+<STR id="UI_OPTION_16">効果音ボリューム</STR>
+<STR id="UI_OPTION_17">3Ｄサウンド左右反転</STR>
+<STR id="UI_OPTION_18">ハードウェアミキシングサポート</STR>
+<STR id="UI_OPTION_19">敵命中時の表示音</STR>
+<STR id="UI_OPTION_20">マウス感度</STR>
+<STR id="UI_OPTION_21">マウス上下反転</STR>
+<STR id="UI_OPTION_22">前進</STR>
+<STR id="UI_OPTION_23">後退</STR>
+<STR id="UI_OPTION_24">左進</STR>
+<STR id="UI_OPTION_25">右進</STR>
+<STR id="UI_OPTION_26">近接武器選択</STR>
+<STR id="UI_OPTION_27">メイン武器選択</STR>
+<STR id="UI_OPTION_28">補助武器選択</STR>
+<STR id="UI_OPTION_29">アイテム1選択</STR>
+<STR id="UI_OPTION_30">アイテム2選択</STR>
+<STR id="UI_OPTION_31">前の武器</STR>
+<STR id="UI_OPTION_32">次の武器</STR>
+<STR id="UI_OPTION_33">メニュー</STR>
+<STR id="UI_OPTION_34">リロード</STR>
+<STR id="UI_OPTION_35">ジャンプ</STR>
+<STR id="UI_OPTION_36">ランキング検索</STR>
+<STR id="UI_OPTION_37">スクリーンショット</STR>
+<STR id="UI_OPTION_38">録画/再生</STR>
+<STR id="UI_OPTION_39">防御</STR>
+<STR id="UI_OPTION_40">チャットウィンドー表示</STR>
+<STR id="UI_OPTION_59">武器使用</STR>
+<STR id="UI_OPTION_41">基本設定</STR>
+<STR id="UI_OPTION_42">ポート設定</STR>
+<STR id="UI_OPTION_43">性能最大化（一部のシステムでマウスが遅くなることがあります。）</STR>
+<STR id="UI_OPTION_44">チャットフィルターオプション</STR>
+<STR id="UI_OPTION_45">一般チャット無視</STR>
+<STR id="UI_OPTION_46">チームチャット無視</STR>
+<STR id="UI_OPTION_47">クランチャット無視</STR>
+<STR id="UI_OPTION_48">耳打ち拒否</STR>
+<STR id="UI_OPTION_49">招待拒否</STR>
+<STR id="UI_OPTION_50">照準</STR>
+<STR id="UI_OPTION_51">F1 Key</STR>
+<STR id="UI_OPTION_52">F2 Key</STR>
+<STR id="UI_OPTION_53">F3 Key</STR>
+<STR id="UI_OPTION_54">F4 Key</STR>
+<STR id="UI_OPTION_55">F5 Key</STR>
+<STR id="UI_OPTION_56">F6 Key</STR>
+<STR id="UI_OPTION_57">F7 Key</STR>
+<STR id="UI_OPTION_58">F8 Key</STR>
+
+<STR id="UI_OPTION_LIST_01_01">高い</STR>
+<STR id="UI_OPTION_LIST_01_02">普通</STR>
+<STR id="UI_OPTION_LIST_01_03">低い</STR>
+
+<!-- Shop.xml -->
+<STR id="UI_SHOP_01">ロビー＞ショップ</STR>
+<STR id="UI_SHOP_02">種類 : </STR>
+<STR id="UI_SHOP_03">購入(&amp;B)</STR>
+<STR id="UI_SHOP_04">選択した装備を購入しますか？</STR>
+<STR id="UI_SHOP_05">購入(&amp;B)</STR>
+<STR id="UI_SHOP_06">キャッシュアイテムの購入はウェブページでのみ可能です。「確認」を押すとウェブページにジャンプします。</STR>
+<STR id="UI_SHOP_07">売却(&amp;S)</STR>
+<STR id="UI_SHOP_08">選択した装備を売却しますか？</STR>
+<STR id="UI_SHOP_09">売却(&amp;S)</STR>
+<STR id="UI_SHOP_10">[ BOUNTY ]</STR>
+<STR id="UI_SHOP_11">0 Bounty</STR>
+<STR id="UI_SHOP_12">[ レベル / 重量 ]</STR>
+<STR id="UI_SHOP_13">0Lv.  /  0 (0)</STR>
+<STR id="UI_SHOP_14">アイテム売却</STR>
+<STR id="UI_SHOP_15">売却する数量を入力してください。</STR>
+<STR id="UI_SHOP_16">売却数</STR>
+<STR id="UI_SHOP_17">売却(&amp;S)</STR>
+
+<STR id="UI_SHOP_LIST_01_01">   全ての装備を検索</STR>
+<STR id="UI_SHOP_LIST_01_02">   防御具：ヘッドギア</STR>
+<STR id="UI_SHOP_LIST_01_03">   防御具：ボディアーマー</STR>
+<STR id="UI_SHOP_LIST_01_04">   防御具：グローブ</STR>
+<STR id="UI_SHOP_LIST_01_05">   防御具：ズボン</STR>
+<STR id="UI_SHOP_LIST_01_06">   防御具：ブーツ</STR>
+<STR id="UI_SHOP_LIST_01_07">   武器類：近距離武器</STR>
+<STR id="UI_SHOP_LIST_01_08">   武器類：遠距離武器</STR>
+<STR id="UI_SHOP_LIST_01_09">   装備類：回復/修理キット、手榴弾</STR>
+<STR id="UI_SHOP_LIST_01_10">   アイテム：指輪</STR>
+<STR id="UI_SHOP_LIST_01_11">   アイテム：クエストアイテム</STR>
+
+<!-- Stage.xml -->
+<STR id="UI_STAGE_01">名前</STR>
+<STR id="UI_STAGE_02">クラン :</STR>
+<STR id="UI_STAGE_03">レベル : 0 lv.</STR>
+<STR id="UI_STAGE_04">経験値 : -</STR>
+<STR id="UI_STAGE_05">Bounty : -</STR>
+<STR id="UI_STAGE_06">体力 : -</STR>
+<STR id="UI_STAGE_07">防御力 : -</STR>
+<STR id="UI_STAGE_08">重量 : -</STR>
+<STR id="UI_STAGE_09">チャット</STR>
+<STR id="UI_STAGE_10">レッドチーム</STR>
+<STR id="UI_STAGE_11">乱入(&amp;G)</STR>
+<STR id="UI_STAGE_12">ルーム設定</STR>
+<STR id="UI_STAGE_13">対戦形式</STR>
+<STR id="UI_STAGE_14">マップ</STR>
+<STR id="UI_STAGE_15">最大人数</STR>
+<STR id="UI_STAGE_16">ラウンド</STR>
+<STR id="UI_STAGE_17">参加人数：0</STR>
+<STR id="UI_STAGE_18">クエストレベル : 0</STR>
+<STR id="UI_STAGE_19">ルームから退出しますか？</STR>
+<STR id="UI_STAGE_20">置く</STR>
+<STR id="UI_STAGE_21">アイテムがありません。</STR>
+
+
+<!-- GameResult.xml -->
+<STR id="UI_ETC_01">Name</STR>
+<STR id="UI_ETC_02">XP</STR>
+<STR id="UI_ETC_03">Kill</STR>
+<STR id="UI_ETC_04">Death</STR>
+
+<STR id="UI_WARNING_TITLE">ハッキング検出</STR>
+<STR id="UI_WARNING_01">ハッキングが検出されました。</STR>
+
+</XML>

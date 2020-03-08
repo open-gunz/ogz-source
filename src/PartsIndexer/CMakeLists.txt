@@ -1,0 +1,12 @@
+file(GLOB src
+    "PartsIndexer/*.h"
+    "PartsIndexer/*.cpp"
+)
+
+add_target(NAME PartsIndexer TYPE EXECUTABLE SOURCES "${src}")
+
+install(
+	TARGETS PartsIndexer RUNTIME 
+	DESTINATION "tools/"
+	PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE GROUP_READ GROUP_WRITE GROUP_EXECUTE WORLD_READ WORLD_EXECUTE
+)

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<XML ID="Sample">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+	<FRAME item="SampleFrame">
+		<FRAMELOOK>SampleFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>300</W>
+			<H>200</H>
+		</BOUNDS>
+		<TEXT>Sample Frame</TEXT>
+		<CLOSE_BUTTON>
+			<ANCHORS>
+				<LEFT>false</LEFT>
+				<TOP>true</TOP>
+				<RIGHT>true</RIGHT>
+				<BOTTOM>false</BOTTOM>
+			</ANCHORS>
+			<BOUNDS>
+				<X>285</X>
+				<Y>2</Y>
+				<W>11</W>
+				<H>11</H>
+			</BOUNDS>			
+		</CLOSE_BUTTON>
+		<MINIMIZE_BUTTON>
+			<ANCHORS>
+				<LEFT>false</LEFT>
+				<TOP>true</TOP>
+				<RIGHT>true</RIGHT>
+				<BOTTOM>false</BOTTOM>
+			</ANCHORS>
+			<BOUNDS>
+				<X>270</X>
+				<Y>2</Y>
+				<W>11</W>
+				<H>11</H>
+			</BOUNDS>			
+		</MINIMIZE_BUTTON>
+	</FRAME>
+	<BUTTON item="SampleButton" parent="SampleFrame">
+		<BUTTONLOOK>SampleButtonLook</BUTTONLOOK>
+		<ANCHORS>
+		   <LEFT>true</LEFT>
+			 <TOP>false</TOP>
+		   <RIGHT>true</RIGHT>
+		   <BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>10</X>
+			<Y>80</Y>
+			<W>92</W>
+			<H>22</H>
+		</BOUNDS>
+		<TEXT>버튼 테스트</TEXT>
+		<COLOR>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+		</COLOR>
+		<TEXTCOLOR>
+			<R>0</R>
+			<G>0</G>
+			<B>255</B>
+		</TEXTCOLOR>
+	</BUTTON>
+
+	<CURSOR item="SampleCursor">
+		<BITMAP>cursor.png</BITMAP>
+	</CURSOR>
+</XML>

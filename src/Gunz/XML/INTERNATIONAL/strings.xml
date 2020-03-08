@@ -1,0 +1,2528 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML>
+
+<!-- zitem.xml -->
+  <STR id="ZITEM_NAME_1">Rusty Dagger</STR>
+  <STR id="ZITEM_DESC_1">It has some rust here and there. Once used, it's sure to be difficult to sell.</STR>
+
+  <STR id="ZITEM_NAME_2">Rusty Sword</STR>
+  <STR id="ZITEM_DESC_2">It's a rusty sword. Once used, it's sure to be difficult to sell.</STR>
+
+  <STR id="ZITEM_NAME_3">Military Dagger</STR>
+  <STR id="ZITEM_DESC_3">Military assault dagger.</STR>
+
+  <STR id="ZITEM_NAME_4">Lightweight Dagger</STR>
+  <STR id="ZITEM_DESC_4">Easy to use lightweight dagger.</STR>
+
+  <STR id="ZITEM_NAME_5">High-Class Dagger</STR>
+  <STR id="ZITEM_DESC_5">Heavy unique high-class dagger. Beautiful pattern inscribed on the surface.</STR>
+
+  <STR id="ZITEM_NAME_6">Phantom Slaying Dagger</STR>
+  <STR id="ZITEM_DESC_6">Mysterious dagger, used to kill evil spirits. However, it could be an urban legend.</STR>
+
+  <STR id="ZITEM_NAME_7">Warlord's Gut Ripper</STR>
+  <STR id="ZITEM_DESC_7">Unique dagger, used by Warlord's during the Storm civil war.</STR>
+
+  <STR id="ZITEM_NAME_11">Iron Dagger</STR>
+  <STR id="ZITEM_DESC_11">Basic iron dagger, made in a factory. A serial number is barely visible on the surface.</STR>
+
+  <STR id="ZITEM_NAME_12">Iron Sword</STR>
+  <STR id="ZITEM_DESC_12">Low level iron sword. Faint serial number visible on the surface.</STR>
+
+  <STR id="ZITEM_NAME_13">Military Sword</STR>
+  <STR id="ZITEM_DESC_13">Great looking sword, used by ranked officers.</STR>
+
+  <STR id="ZITEM_NAME_14">Lightweight Sword</STR>
+  <STR id="ZITEM_DESC_14">Easy to use lightweight sword.</STR>
+
+  <STR id="ZITEM_NAME_15">High-class Sword</STR>
+  <STR id="ZITEM_DESC_15">High-Class sword, made of rare materials for combat.</STR>
+
+  <STR id="ZITEM_NAME_16">Devil Slayer</STR>
+  <STR id="ZITEM_DESC_16">Mysterious sword used to kill a haunted evil spirit.</STR>
+
+  <STR id="ZITEM_NAME_17">Golden Dragon Sword</STR>
+  <STR id="ZITEM_DESC_17">Gold plated attractive sword. Sword collectors desperately want to acquire this powerful katana.</STR>
+
+  <STR id="ZITEM_NAME_31">Iron Kodachi</STR>
+  <STR id="ZITEM_DESC_31">(Dual Wield) These Kodachi Iron swords are widely produced for the general public.</STR>
+
+  <STR id="ZITEM_NAME_32">Lightweight Kodachi</STR>
+  <STR id="ZITEM_DESC_32">(Dual Wield) Kodachi swords designed for two hands. Much lighter and smaller than regular swords.</STR>
+
+  <STR id="ZITEM_NAME_33">High-Class Kodachi</STR>
+  <STR id="ZITEM_DESC_33">(Dual Wield) This unique sword produced by Kodachi is made of high-end rare materials.</STR>
+
+  <STR id="ZITEM_NAME_34">Red Blood</STR>
+  <STR id="ZITEM_DESC_34">(Dual Wield) These powerful swords are a symbol of the Red Blood Dynasty, carried by a great swordsman in ancient times.</STR>
+
+  <STR id="ZITEM_NAME_51">Giant Sword</STR>
+  <STR id="ZITEM_DESC_51">Sword used by the Hiru tribe.</STR>
+
+  <STR id="ZITEM_NAME_52">Bright Giant Sword</STR>
+  <STR id="ZITEM_DESC_52">Sword used by the Hiru tribe and added steel.</STR>
+
+  <STR id="ZITEM_NAME_53">God Slayer Sword</STR>
+  <STR id="ZITEM_DESC_53">This sword made Gods.</STR>
+
+  <STR id="ZITEM_NAME_54">Fire-Blast Sword</STR>
+  <STR id="ZITEM_DESC_54">Sword used by dragon skin and fire ston.</STR>
+
+  <STR id="ZITEM_NAME_55">Skull Giant Sword</STR>
+  <STR id="ZITEM_DESC_55">Sword used by much steel and skeleton head.</STR>
+
+  <STR id="ZITEM_NAME_4001">Raptor 50</STR>
+  <STR id="ZITEM_DESC_4001">This pistol has been used since a long time ago in the empire. Its production has been discontinued. Manufactured by Walcom.</STR>
+
+  <STR id="ZITEM_NAME_4002">Raptor 50 x2</STR>
+  <STR id="ZITEM_DESC_4002">(Dual Wield) These pistols have been used since a long time ago in the empire. Their production has been discontinued. Manufactured by Walcom.</STR>
+
+  <STR id="ZITEM_NAME_4003">Raptor 120</STR>
+  <STR id="ZITEM_DESC_4003">It was developed to be supplied to the military. Its accuracy has been improved from the Raptor 80. Manufactured by Walcom.</STR>
+
+  <STR id="ZITEM_NAME_4004">Raptor 120 x2</STR>
+  <STR id="ZITEM_DESC_4004">(Dual Wield) It was developed to be supplied to the military. Its accuracy has been improved from the Raptor 80s. Manufactured by Walcom.</STR>
+
+  <STR id="ZITEM_NAME_4005">Minic 567</STR>
+  <STR id="ZITEM_DESC_4005">This legendary revolver was produced by Maxwell and supplied to the general infantry of the Republic. Its production is now discontinued.</STR>
+
+  <STR id="ZITEM_NAME_4006">Minic 567 x2</STR>
+  <STR id="ZITEM_DESC_4006">(Dual Wield) These legendary revolvers were produced by Maxwell and supplied to the general infantry of the Republic. Its production is now discontinued.</STR>
+
+  <STR id="ZITEM_NAME_4007">Zaurus A</STR>
+  <STR id="ZITEM_DESC_4007">This revolver was developed to supply the military. Manufactured by Walcom.</STR>
+
+  <STR id="ZITEM_NAME_4008">Zaurus A x2</STR>
+  <STR id="ZITEM_DESC_4008">(Dual Wield) These revolvers were developed to supply the military. Manufactured by Walcom.</STR>
+
+  <STR id="ZITEM_NAME_4009">Raptor 80</STR>
+  <STR id="ZITEM_DESC_4009">A revised model of the Raptor 50. Its performance slightly improved but the appearance has not changed from the old version. Its production was announced to be stopped quite early as its competition released a new product. Manufactured by Walcom.</STR>
+
+  <STR id="ZITEM_NAME_4010">Raptor 80 x2</STR>
+  <STR id="ZITEM_DESC_4010">(Dual Wield) Revised models of the Raptor 50. The performance improved slightly but the appearance has not changed from the old version. Manufactured by Walcom.</STR>
+
+  <STR id="ZITEM_NAME_4011">Raven 5</STR>
+  <STR id="ZITEM_DESC_4011">This pistol was produced to be supplied to the battlefront of the Republic. Manufactured by Maxwell.</STR>
+
+  <STR id="ZITEM_NAME_4012">Raven 5 x2</STR>
+  <STR id="ZITEM_DESC_4012">(Dual Wield) These pistols were produced to be supplied to the battle front of the Republic. Manufactured by Maxwell.</STR>
+
+  <STR id="ZITEM_NAME_4013">Raven 6</STR>
+  <STR id="ZITEM_DESC_4013">The follow-up model of the Raven 5. It's performance has been improved but its manufacturer failed to make it lighter. Manufactured by Maxwell.</STR>
+
+  <STR id="ZITEM_NAME_4014">Raven 6 x2</STR>
+  <STR id="ZITEM_DESC_4014">(Dual Wield) The follow-up models of the Raven 5. The performance has been improved but its manufacturer failed to make it lighter. Manufactured by Maxwell.</STR>
+
+  <STR id="ZITEM_NAME_4015">Raptor 160</STR>
+  <STR id="ZITEM_DESC_4015">The follow-up model to the Raptor 120. It has more firepower, better performance and an excellent rate of fire.</STR>
+
+  <STR id="ZITEM_NAME_4016">Raptor 160 x2</STR>
+  <STR id="ZITEM_DESC_4016">(Dual Wield) The follow-up model to the Raptor 120. They have more firepower, better performance and an excellent rate of fire.</STR>
+
+  <STR id="ZITEM_NAME_4017">Raven 7</STR>
+  <STR id="ZITEM_DESC_4017">The Raven 7 has more firepower and a better rate of fire but it still has some drawbacks in terms of accuracy and weight.</STR>
+
+  <STR id="ZITEM_NAME_4018">Raven 7 x2</STR>
+  <STR id="ZITEM_DESC_4018">(Dual Wield) The Raven 7s have more firepower and a better rate of fire but they still have some drawbacks in terms of accuracy and weight.</STR>
+
+  <STR id="ZITEM_NAME_4019">Raptor 200</STR>
+  <STR id="ZITEM_DESC_4019">The Raptor series won confidence with it's high rate of fire and accuracy. This weapon shows the advanced development capability of Walcom.</STR>
+
+  <STR id="ZITEM_NAME_4020">Raptor 200 x2</STR>
+  <STR id="ZITEM_DESC_4020">(Dual Wield) The Raptor series won confidence with it's high rate of fire and accuracy. These weapons show the advanced development capability of Walcom.</STR>
+
+  <STR id="ZITEM_NAME_4501">Dynax 7000</STR>
+  <STR id="ZITEM_DESC_4501">The first of the lightweight revolvers from Canox. Though it's production has been discontinued, the second-hand Dynax is still a popular gun.</STR>
+
+  <STR id="ZITEM_NAME_4502">Dynax 7000 x2</STR>
+  <STR id="ZITEM_DESC_4502">(Dual Wield) The first of the lightweight revolvers from Canox. Though their production has been discontinued, the second-hand Dynax is still a popular gun.</STR>
+
+  <STR id="ZITEM_NAME_4503">Minic 567 Limited</STR>
+  <STR id="ZITEM_DESC_4503">This model was produced in order to commemorate the fifth anniversary of Maxwell's Minic. It is more powerful than the original.</STR>
+
+  <STR id="ZITEM_NAME_4504">Minic 567 Limited x2</STR>
+  <STR id="ZITEM_DESC_4504">(Dual Wield) These were produced in order to commemorate the fifth aniversary of Maxwell's Minic. They have more firepower that the originals.</STR>
+
+  <STR id="ZITEM_NAME_4505">Phantom Cruise</STR>
+  <STR id="ZITEM_DESC_4505">High-end revolver made by Nico. Its upgraded design draws a lot of attention.</STR>
+
+  <STR id="ZITEM_NAME_4506">Phantom Cruise x2</STR>
+  <STR id="ZITEM_DESC_4506">(Dual Wield) High-end revolvers made by Nico. Its upgraded design draws a lot of attention.</STR>
+
+  <STR id="ZITEM_NAME_4507">Phantom Cruise N</STR>
+  <STR id="ZITEM_DESC_4507">Phantom Cruise's slightly upgraded model. Its performance has slightly improved.</STR>
+
+  <STR id="ZITEM_NAME_4508">Phantom Cruise N x2</STR>
+  <STR id="ZITEM_DESC_4508">(Dual Wield) Phantom Cruise's minor upgraded models. The performance has slightly improved.</STR>
+
+  <STR id="ZITEM_NAME_4509">Dynax 8000</STR>
+  <STR id="ZITEM_DESC_4509">Lightweight revolver made by Canox. This is the follow-up model of the Dynax 7000, its performance has remarkably improved.</STR>
+
+  <STR id="ZITEM_NAME_4510">Dynax 8000 x2</STR>
+  <STR id="ZITEM_DESC_4510">(Dual Wield) Lightweight revolvers made by Canox. These are the follow-up models of the Dynax 7000, their performance have remarkably improved.</STR>
+
+  <STR id="ZITEM_NAME_4511">Minic 567 MK.II</STR>
+  <STR id="ZITEM_DESC_4511">This is an upgraded model of the commemorative fifth anniversary Minic 567. It packs more power than the original one.</STR>
+
+  <STR id="ZITEM_NAME_4512">Minic 567 MK.II x2</STR>
+  <STR id="ZITEM_DESC_4512">(Dual Wield) This is the upgraded models of the commemorative fifth anniversary Minic 567. They pack more power than the original ones.</STR>
+
+  <STR id="ZITEM_NAME_4513">Zaurus B</STR>
+  <STR id="ZITEM_DESC_4513">The Zaurus Type B is the most powerful handgun money can buy. It also has better accuracy.</STR>
+
+  <STR id="ZITEM_NAME_4514">Zaurus B x2</STR>
+  <STR id="ZITEM_DESC_4514">(Duel Wield) The Zaurus Type Bs are the most powerful handgun money can buy. They also have better accuracy.</STR>
+
+  <STR id="ZITEM_NAME_5001">Renard</STR>
+  <STR id="ZITEM_DESC_5001">This old submachine gun was produced by Canox. Its production has been discontinued.</STR>
+
+  <STR id="ZITEM_NAME_5002">Renard x2</STR>
+  <STR id="ZITEM_DESC_5002">(Dual Wield) These old submachine guns were produced by Canox. Its production has been discontinued.</STR>
+
+  <STR id="ZITEM_NAME_5003">Walcom S5</STR>
+  <STR id="ZITEM_DESC_5003">This submachine gun produced by Walcom are quite popular. They have better firepower and a larger ammo capacity. </STR>
+
+  <STR id="ZITEM_NAME_5004">Walcom S5 x2</STR>
+  <STR id="ZITEM_DESC_5004">(Dual Wield) These submachine guns produced by Walcom are quite popular. They have better firepower and a larger ammo capacity.</STR>
+
+  <STR id="ZITEM_NAME_5005">Ellan</STR>
+  <STR id="ZITEM_DESC_5005">Canox's small submachine gun. This was manufactured with a focus on better mobility.</STR>
+
+  <STR id="ZITEM_NAME_5006">Ellan x2</STR>
+  <STR id="ZITEM_DESC_5006">(Dual Wield) Canox's small submachine guns. These were manufactured with focus on better mobility.</STR>
+
+  <STR id="ZITEM_NAME_5007">Renard V</STR>
+  <STR id="ZITEM_DESC_5007">Follow-up model of the once widely-popular Renard. It has better accuracy and a higher rate of fire.</STR>
+
+  <STR id="ZITEM_NAME_5008">Renard V x2</STR>
+  <STR id="ZITEM_DESC_5008">(Dual Wield) Follow-up model of the once widely popular Renards. They have better accuracy and a higher rate of fire.</STR>
+
+  <STR id="ZITEM_NAME_5009">Walcom S6</STR>
+  <STR id="ZITEM_DESC_5009">The follow-up model of the Walcom S5. It has more firepower and better stability compared with its previous model.</STR>
+
+  <STR id="ZITEM_NAME_5010">Walcom S6 x2</STR>
+  <STR id="ZITEM_DESC_5010">(Dual Wield) The follow-up models of Walcom's S5. They have more firepower and better stability compared with its previous models.</STR>
+
+  <STR id="ZITEM_NAME_5011">New Renard V</STR>
+  <STR id="ZITEM_DESC_5011">New version of the popular Renard V produced by Canox.</STR>
+
+  <STR id="ZITEM_NAME_5012">New Renard V x2</STR>
+  <STR id="ZITEM_DESC_5012">(Dual Wield) New versions of the popular Renard V produced by Canox.</STR>
+
+  <STR id="ZITEM_NAME_5013">Walcom XL</STR>
+  <STR id="ZITEM_DESC_5013">This model was produced in order to commemorate the 70th anniversary of Walcom. It has a lightweight body and it is called 'the Exterminator'.</STR>
+
+  <STR id="ZITEM_NAME_5014">Walcom XL x2</STR>
+  <STR id="ZITEM_DESC_5014">(Dual Wield) These models were produced in order to commemorate the 70th anniversary of Walcom. It has a lightweight body and it is called 'the Exterminator'.</STR>
+
+  <STR id="ZITEM_NAME_5015">Renard VI</STR>
+  <STR id="ZITEM_DESC_5015">This new model was produced by Canox whose popularity was dented by Walcom XL.</STR>
+
+  <STR id="ZITEM_NAME_5016">Renard VI x2</STR>
+  <STR id="ZITEM_DESC_5016">(Dual Wield) These new models were produced by Canox whose popularity was dented by Walcom XL.</STR>
+
+  <STR id="ZITEM_NAME_5017">Walcom XLS</STR>
+  <STR id="ZITEM_DESC_5017">Upgrade to the Walcom XL. The only difference from the old model is enhanced fire power.</STR>
+
+  <STR id="ZITEM_NAME_5018">Walcom XLS x2</STR>
+  <STR id="ZITEM_DESC_5018">(Dual Wield) Upgrades to the Walcom XL. The only difference from the old models are enhanced fire power.</STR>
+
+  <STR id="ZITEM_NAME_6001">Breaker 3</STR>
+  <STR id="ZITEM_DESC_6001">Pump action shotgun produced by Leonics, who has specialized in the production of shotguns for ages. Its production has been discontinued.</STR>
+
+  <STR id="ZITEM_NAME_6002">Breaker 5</STR>
+  <STR id="ZITEM_DESC_6002">Pump action type shotgun produced by Leonics. Though made a long time ago, it is still very popular.</STR>
+
+  <STR id="ZITEM_NAME_6003">Breaker 6</STR>
+  <STR id="ZITEM_DESC_6003">Leonics' new shotgun that was released quite recently.</STR>
+
+  <STR id="ZITEM_NAME_6004">Breaker 7</STR>
+  <STR id="ZITEM_DESC_6004">Leonics's 7th model adopted a new design different from the existing Breaker series.</STR>
+
+  <STR id="ZITEM_NAME_6005">Avenger</STR>
+  <STR id="ZITEM_DESC_6005">Shotgun introduced by Nico as a monumental product. This weapon has strong destructive power. It's only drawback, is it can only load a small number of bullets.</STR>
+
+  <STR id="ZITEM_NAME_6006">Breaker 8</STR>
+  <STR id="ZITEM_DESC_6006">New shotgun produced by Leonics, who is quite famous for the Breaker series of shotguns.</STR>
+
+  <STR id="ZITEM_NAME_6007">Avenger MK.II</STR>
+  <STR id="ZITEM_DESC_6007">Avenger's follow-up model that became the weapon of choice for adventurers.</STR>
+
+  <STR id="ZITEM_NAME_7001">Nico R2</STR>
+  <STR id="ZITEM_DESC_7001">Rifle produced by Nico in the early days.</STR>
+
+  <STR id="ZITEM_NAME_7002">Nico R5</STR>
+  <STR id="ZITEM_DESC_7002">One of the most popular rifles among the Republican army.</STR>
+
+  <STR id="ZITEM_NAME_7003">Walcom Warrior 77</STR>
+  <STR id="ZITEM_DESC_7003">Produced by Walcom, it has the drawback of being difficult to use but it has relatively strong power.</STR>
+
+  <STR id="ZITEM_NAME_7004">Maxwell LX30</STR>
+  <STR id="ZITEM_DESC_7004">Produced by Maxwell, this weapon has stable grip, good operability, and a high rate of fire.</STR>
+
+  <STR id="ZITEM_NAME_7005">Nico R6</STR>
+  <STR id="ZITEM_DESC_7005">Follow-up model of popular R5 of Nico. With its improved fire power, it is popular among R5 maniacs.</STR>
+
+  <STR id="ZITEM_NAME_7006">Maxwell LX44</STR>
+  <STR id="ZITEM_DESC_7006">(Discontinued Item) Rifle with a higher fire rate than LX30. It has a stable grip with high accuracy.</STR>
+
+  <STR id="ZITEM_NAME_7007">Nico R7</STR>
+  <STR id="ZITEM_DESC_7007">Nico's new rifle with better fire power.</STR>
+
+  <STR id="ZITEM_NAME_7008">Walcom Warrior 88</STR>
+  <STR id="ZITEM_DESC_7008">Still not easy to use but, this new product by Walcom is produced to focus on stronger fire power.</STR>
+
+  <STR id="ZITEM_NAME_8001">Nico MG-K8</STR>
+  <STR id="ZITEM_DESC_8001">It is so heavy that it is hard to carry but, its rate of fire makes the enemies shiver in fear.</STR>
+
+  <STR id="ZITEM_NAME_8002">Nico MG-K9</STR>
+  <STR id="ZITEM_DESC_8002">K9 machine gun with upgraded power. It's powerful rate of fire and damage will make swiss cheese of the opposition.</STR>
+
+  <STR id="ZITEM_NAME_8003">Nico MG-KX</STR>
+  <STR id="ZITEM_DESC_8003">Nico's new machine gun with explosive power. Even just looking at the MG-KX will make the enemies feel pain.</STR>
+
+  <STR id="ZITEM_NAME_9001">Walcom L1</STR>
+  <STR id="ZITEM_DESC_9001">Rocket launcher with strong fire power produced by Walcom.</STR>
+
+  <STR id="ZITEM_NAME_9002">Maxwell RW-77</STR>
+  <STR id="ZITEM_DESC_9002">Rocket launcher produced by Maxwell. It can hold more bullets than Walcom's L series and has a better fire rate capability. However, the fire power was reduced.</STR>
+
+  <STR id="ZITEM_NAME_9003">Walcom L1 mk. II</STR>
+  <STR id="ZITEM_DESC_9003">Walcom's Rocket Launcher. This slightly upgraded model of the L1 has slightly stronger fire power.</STR>
+
+  <STR id="ZITEM_NAME_9004">Maxwell RW-88</STR>
+  <STR id="ZITEM_DESC_9004">An upgraded version of RW-77. Though nothing major has changed, it has a better rate of fire than the previous models.</STR>
+
+  <STR id="ZITEM_NAME_9005">Walcom L2</STR>
+  <STR id="ZITEM_DESC_9005">Walcom's Rocket Launcher. Holds more bullets than L1, it has become a little lighter and more powerful.</STR>
+
+  <STR id="ZITEM_NAME_9006">Maxwell RW-66</STR>
+  <STR id="ZITEM_DESC_9006">Rocket launcher made in the early days by Maxwell. It lacks the strong power.</STR>
+
+  <STR id="ZITEM_NAME_10001">Bird's Sniper Rifle SN40</STR>
+  <STR id="ZITEM_DESC_10001">Used by the military during the storm civil war. This is a typical sniper rifle with optimal level of accuracy.</STR>
+
+  <STR id="ZITEM_NAME_21001">Ares Running Shirt</STR>
+  <STR id="ZITEM_DESC_21001">Men's running shirt designed by Ares, a supplier of military outfits.</STR>
+
+  <STR id="ZITEM_NAME_21002">Renaut Cotton Shirt</STR>
+  <STR id="ZITEM_DESC_21002">Very active men's cotton shirt designed by Renaut Sports.</STR>
+
+  <STR id="ZITEM_NAME_21003">Venico Leather Coat</STR>
+  <STR id="ZITEM_DESC_21003">Men's Leather Coat designed by Venico.</STR>
+
+  <STR id="ZITEM_NAME_21004">Vinz Winter Jacket</STR>
+  <STR id="ZITEM_DESC_21004">This winter jacket for men has good thermal insulation great for any cold environment.</STR>
+
+  <STR id="ZITEM_NAME_21005">Miz Leather Coat</STR>
+  <STR id="ZITEM_DESC_21005">Quite Fashionable and stylish men's trench coat produced by Miz.</STR>
+
+  <STR id="ZITEM_NAME_21006">Ares Military Jacket</STR>
+  <STR id="ZITEM_DESC_21006">Military jacket that Ares designed to supply the military.</STR>
+
+  <STR id="ZITEM_NAME_21007">Vinz Long Coat</STR>
+  <STR id="ZITEM_DESC_21007">Long wool coat designed by Vinz for men.</STR>
+
+  <STR id="ZITEM_NAME_21008">Renaut Summer Shirt</STR>
+  <STR id="ZITEM_DESC_21008">Men's shirt with flower patterns designed by Renaut for summer.</STR>
+
+  <STR id="ZITEM_NAME_21501">Flex Cotton T-Shirt</STR>
+  <STR id="ZITEM_DESC_21501">Cotton T-Shirt exclusively for women. This product is especially suitable for active women.</STR>
+
+  <STR id="ZITEM_NAME_21502">Urike Leather Jacket</STR>
+  <STR id="ZITEM_DESC_21502">Urike Women's Leather Jacket quite popular with the elastic fabric.</STR>
+
+  <STR id="ZITEM_NAME_21503">Rex Military Vest</STR>
+  <STR id="ZITEM_DESC_21503">Women's military vest, which ensures greater survival in combat.</STR>
+
+  <STR id="ZITEM_NAME_21504">Arona Leather Jacket</STR>
+  <STR id="ZITEM_DESC_21504">Fashionable leather jacket for women.</STR>
+
+  <STR id="ZITEM_NAME_21505">L-Star Leather Coat</STR>
+  <STR id="ZITEM_DESC_21505">Women's luxury coat designed by L-Star.</STR>
+
+  <STR id="ZITEM_NAME_21506">Rex Military Jacket</STR>
+  <STR id="ZITEM_DESC_21506">Women's military jacket supplied by Rex.</STR>
+
+  <STR id="ZITEM_NAME_21507">Urike Trench Coat</STR>
+  <STR id="ZITEM_DESC_21507">Women's stylish trench coat, a new design by Urike.</STR>
+
+  <STR id="ZITEM_NAME_21508">Bics Summer Top</STR>
+  <STR id="ZITEM_DESC_21508">Women's flower patterned top for summer wear, designed by Bics.</STR>
+
+  <STR id="ZITEM_NAME_22001">Ares Combat Gloves</STR>
+  <STR id="ZITEM_DESC_22001">Popular combat gloves, very comfortable simple design.</STR>
+
+  <STR id="ZITEM_NAME_22002">Vinz Winter Gloves</STR>
+  <STR id="ZITEM_DESC_22002">Winter gloves for men. designed by Vinz.</STR>
+
+  <STR id="ZITEM_NAME_22003">Ares Iron Gloves</STR>
+  <STR id="ZITEM_DESC_22003">During combat these iron gloves provide excellent defensive power.</STR>
+
+  <STR id="ZITEM_NAME_22004">Miz Sheep Leather Gloves</STR>
+  <STR id="ZITEM_DESC_22004">Gloves made of durable sheep leather.</STR>
+
+  <STR id="ZITEM_NAME_22005">Renaut Summer Gloves</STR>
+  <STR id="ZITEM_DESC_22005">Summer gloves for men, designed by Renaut.</STR>
+
+  <STR id="ZITEM_NAME_22501">Rex Combat Gloves</STR>
+  <STR id="ZITEM_DESC_22501">Traditional design combat gloves, made out of elastic materials.</STR>
+
+  <STR id="ZITEM_NAME_22502">Arona Winter Leather Gloves</STR>
+  <STR id="ZITEM_DESC_22502">Women's winter leather gloves.</STR>
+
+  <STR id="ZITEM_NAME_22503">Rex Iron Gloves</STR>
+  <STR id="ZITEM_DESC_22503">Women's iron gloves designed for aggressive combat.</STR>
+
+  <STR id="ZITEM_NAME_22504">Urike Sheepskin Leather Gloves</STR>
+  <STR id="ZITEM_DESC_22504">Women's sheepskin leather gloves designed for combat.</STR>
+
+  <STR id="ZITEM_NAME_22505">Bics Summer Gloves</STR>
+  <STR id="ZITEM_DESC_22505">Women's gloves for summer wear designed by Bics.</STR>
+
+  <STR id="ZITEM_NAME_23001">Vinz Training Pants</STR>
+  <STR id="ZITEM_DESC_23001">Men's trousers designed by Vinz, made out of elastic materials.</STR>
+
+  <STR id="ZITEM_NAME_23002">Renaut Sporty Pants</STR>
+  <STR id="ZITEM_DESC_23002">Sporty trousers designed by Renaut sportswear.</STR>
+
+  <STR id="ZITEM_NAME_23003">Miz Leather Trousers</STR>
+  <STR id="ZITEM_DESC_23003">Miz trousers in a sophisticated design to enhance greater defense. Sleek and clean sewing on pure leather.</STR>
+
+  <STR id="ZITEM_NAME_23004">Venico Denim Trousers</STR>
+  <STR id="ZITEM_DESC_23004">Venico trousers designed for men.</STR>
+
+  <STR id="ZITEM_NAME_23005">Ares Military Trousers</STR>
+  <STR id="ZITEM_DESC_23005">Trousers that Ares supplies to the military.</STR>
+
+  <STR id="ZITEM_NAME_23006">Webs Blue Jeans</STR>
+  <STR id="ZITEM_DESC_23006">Webs jeans for tough adventurers.</STR>
+
+  <STR id="ZITEM_NAME_23007">Renaut Summer Shorts</STR>
+  <STR id="ZITEM_DESC_23007">Men's swim trousers for summer designed by Renaut.</STR>
+
+  <STR id="ZITEM_NAME_23501">Flex Training Pants</STR>
+  <STR id="ZITEM_DESC_23501">Flex women's training pants with excellent elasticity, good touch and feel.</STR>
+
+  <STR id="ZITEM_NAME_23502">Arona Blue Jeans</STR>
+  <STR id="ZITEM_DESC_23502">(Discontinued Item) Women's Blue jeans widely worn by all, young and old.</STR>
+
+  <STR id="ZITEM_NAME_23503">Rex Military Trousers</STR>
+  <STR id="ZITEM_DESC_23503">Comfortable military trousers especially designed for female soldiers.</STR>
+
+  <STR id="ZITEM_NAME_23504">L-Star Black Cotton Slacks</STR>
+  <STR id="ZITEM_DESC_23504">(Discontinued Item) Cotton trousers with luxurious touch that L-Star presents for special females.</STR>
+
+  <STR id="ZITEM_NAME_23505">Arona Blue Jeans (Women)</STR>
+  <STR id="ZITEM_DESC_23505">Women's Blue jeans widely worn by all, young and old.</STR>
+
+  <STR id="ZITEM_NAME_23506">Vinz Chamois Trousers</STR>
+  <STR id="ZITEM_DESC_23506">Women's Chamois trousers with a good touch and feel, designed by Vinz.</STR>
+
+  <STR id="ZITEM_NAME_23507">L-Star Black Cotton Slacks</STR>
+  <STR id="ZITEM_DESC_23507">Cotton trousers (new) with luxurious touch that L-Star presents for special females.</STR>
+
+  <STR id="ZITEM_NAME_23508">Rex Military Trousers</STR>
+  <STR id="ZITEM_DESC_23508">Women's military trousers designed by Rex.</STR>
+
+  <STR id="ZITEM_NAME_23509">Urike Cotton Slacks</STR>
+  <STR id="ZITEM_DESC_23509">Stylish cotton trousers made by Urike. They have an added practical touch and stylish look, using coarse fabric.</STR>
+
+  <STR id="ZITEM_NAME_23510">Bics Summer Shorts</STR>
+  <STR id="ZITEM_DESC_23510">Women's swimming shorts for summer designed by Bics.</STR>
+
+  <STR id="ZITEM_NAME_24001">Ares Combat Shoes</STR>
+  <STR id="ZITEM_DESC_24001">High-end shoes with comfortable touch for dynamic activity.</STR>
+
+  <STR id="ZITEM_NAME_24002">Venico Casual Shoes</STR>
+  <STR id="ZITEM_DESC_24002">Uniquely designed casual shoes.</STR>
+
+  <STR id="ZITEM_NAME_24003">Renaut Climbing Shoes</STR>
+  <STR id="ZITEM_DESC_24003">Made with sturdy leather, these shoes do not tear no matter how tough the terrain is that they trod upon.</STR>
+
+  <STR id="ZITEM_NAME_24004">Ares Iron Boots</STR>
+  <STR id="ZITEM_DESC_24004">Heavy boots for greater defensive power during battle.</STR>
+
+  <STR id="ZITEM_NAME_24005">Vinz Casual Shoes</STR>
+  <STR id="ZITEM_DESC_24005">Very sturdy casual shoes designed by Vinz.</STR>
+
+  <STR id="ZITEM_NAME_24006">Renaut Summer Sandals</STR>
+  <STR id="ZITEM_DESC_24006">Men's sandals for summer designed by Renaut.</STR>
+
+  <STR id="ZITEM_NAME_24501">Urike Leather Shoes</STR>
+  <STR id="ZITEM_DESC_24501">Urike leather shoes designed for combat.</STR>
+
+  <STR id="ZITEM_NAME_24502">Rex Combat Shoes</STR>
+  <STR id="ZITEM_DESC_24502">Combat shoes specially made for female soldiers by Rex.</STR>
+
+  <STR id="ZITEM_NAME_24503">L-Star Leather Boots</STR>
+  <STR id="ZITEM_DESC_24503">Leather boots designed by L-Star.</STR>
+
+  <STR id="ZITEM_NAME_24504">Rex Iron Boots</STR>
+  <STR id="ZITEM_DESC_24504">Heavy looking, however these shoes are made for those who put great value to their defensive power.</STR>
+
+  <STR id="ZITEM_NAME_24505">Urike Leather Boots</STR>
+  <STR id="ZITEM_DESC_24505">Leather boots with a unique touch and feel, designed by Urike.</STR>
+
+  <STR id="ZITEM_NAME_24506">Bics Summer Sandals</STR>
+  <STR id="ZITEM_DESC_24506">Women's summer sandals, designed by Bics.</STR>
+
+  <STR id="ZITEM_NAME_25001">Ring of the Citizen</STR>
+  <STR id="ZITEM_DESC_25001">This ring was designed by the mayor in commemoration of his city and citizens.</STR>
+
+  <STR id="ZITEM_NAME_25002">Ring of the Crying Hawk</STR>
+  <STR id="ZITEM_DESC_25002">This legendary ring was used by the special combat forces in ancient times.</STR>
+
+  <STR id="ZITEM_NAME_25003">Warrior's Cry</STR>
+  <STR id="ZITEM_DESC_25003">This small ring preserves the wishes of many warriors who longed for a safe return home alive.</STR>
+
+  <STR id="ZITEM_NAME_25004">Pierre's Ring</STR>
+  <STR id="ZITEM_DESC_25004">This ring holds the spirit of a brave commander who was killed in battle.</STR>
+
+  <STR id="ZITEM_NAME_25005">FMT Ring</STR>
+  <STR id="ZITEM_DESC_25005">This unique ring was designed to commemorate the scientist who created a system named FMT. There is a faint McField signature inscribed inside of the band.</STR>
+
+  <STR id="ZITEM_NAME_25006">Ring of Good Fortune</STR>
+  <STR id="ZITEM_DESC_25006">Simple designed ring for good fortune.</STR>
+
+  <STR id="ZITEM_NAME_25007">Altema's Ring</STR>
+  <STR id="ZITEM_DESC_25007">This ring was designed by the TEAMI in commemoration of Altema's war achievements.</STR>
+
+  <STR id="ZITEM_NAME_25008">Band of the Blood</STR>
+  <STR id="ZITEM_DESC_25008">A beautiful red jewel is the center piece for this energy based ring.</STR>
+
+  <STR id="ZITEM_NAME_25009">Elia's Ring</STR>
+  <STR id="ZITEM_DESC_25009">Elia's troops heroically protected Menlo, during the battle of Sun and raised the overall morale of Emperor Altema's soldiers. This ring was created to commemorate the princess' call of immortal courage.</STR>
+
+  <STR id="ZITEM_NAME_25010">Ring of a Feather</STR>
+  <STR id="ZITEM_DESC_25010">This legendary ring enhances forces that help defy gravity.</STR>
+
+  <STR id="ZITEM_NAME_30001">Medical Kit MK-1</STR>
+  <STR id="ZITEM_DESC_30001">This enables you to recover physical strength. 2 units</STR>
+
+  <STR id="ZITEM_NAME_30002">Medical Kit MK-2</STR>
+  <STR id="ZITEM_DESC_30002">This enables you to recover physical strength. 3 units</STR>
+
+  <STR id="ZITEM_NAME_30003">Medical Kit MK-3</STR>
+  <STR id="ZITEM_DESC_30003">This enables you to recover physical strength. 4 units</STR>
+
+  <STR id="ZITEM_NAME_30101">Repair Kit RK-1</STR>
+  <STR id="ZITEM_DESC_30101">Enables you to repair armor. 2 units</STR>
+
+  <STR id="ZITEM_NAME_30102">Repair Kit RK-2</STR>
+  <STR id="ZITEM_DESC_30102">Enables you to repair armor. 3 units</STR>
+
+  <STR id="ZITEM_NAME_30103">Repair Kit RK-3</STR>
+  <STR id="ZITEM_DESC_30103">Enables you to repair armor. 4 units</STR>
+
+  <STR id="ZITEM_NAME_30201">Canox FB1</STR>
+  <STR id="ZITEM_DESC_30201">Flash bang. Temporarily disorients enemies with a bright flash and deafening sound. 2 units</STR>
+
+  <STR id="ZITEM_NAME_30202">Canox FB2</STR>
+  <STR id="ZITEM_DESC_30202">Flash bang. Temporarily disorients enemies with a bright flash and deafening sound. 3 units</STR>
+
+  <STR id="ZITEM_NAME_30203">Canox FB3</STR>
+  <STR id="ZITEM_DESC_30203">Flash bang. Temporarily disorients enemies with a bright flash and deafening sound. 4 units</STR>
+
+  <STR id="ZITEM_NAME_30204">Canox FB4</STR>
+  <STR id="ZITEM_DESC_30204">Flash bang. Temporarily disorients enemies with a bright flash and deafening sound. 5 units</STR>
+
+  <STR id="ZITEM_NAME_30205">Canox FB5</STR>
+  <STR id="ZITEM_DESC_30205">Flash bang. Temporarily disorients enemies with a bright flash and deafening sound. 6 units</STR>
+
+  <STR id="ZITEM_NAME_30301">Canox FG1</STR>
+  <STR id="ZITEM_DESC_30301">New grenade produced by Canox, this grenade can be easily used indoors. 2 units</STR>
+
+  <STR id="ZITEM_NAME_30302">Canox FG2</STR>
+  <STR id="ZITEM_DESC_30302">New grenade produced by Canox, this grenade can be easily used indoors. 3 units</STR>
+
+  <STR id="ZITEM_NAME_30303">Canox FG3</STR>
+  <STR id="ZITEM_DESC_30303">New grenade produced by Canox, this grenade can be easily used indoors. 4 units</STR>
+
+  <STR id="ZITEM_NAME_30304">Canox FG4</STR>
+  <STR id="ZITEM_DESC_30304">New grenade produced by Canox, this grenade can be easily used indoors. 5 units</STR>
+
+  <STR id="ZITEM_NAME_30305">Canox FG5</STR>
+  <STR id="ZITEM_DESC_30305">New grenade produced by Canox, this grenade can be easily used indoors. 6 units</STR>
+
+  <STR id="ZITEM_NAME_30401">Canox SG1</STR>
+  <STR id="ZITEM_DESC_30401">Smoke grenade. This is used to disrupt the sight of the enemy with smoke. 3 units</STR>
+
+  <STR id="ZITEM_NAME_30402">Canox SG2</STR>
+  <STR id="ZITEM_DESC_30402">Smoke grenade. This is used to disrupt the sight of the enemy with smoke. 4 units</STR>
+
+  <STR id="ZITEM_NAME_30403">Canox SG3</STR>
+  <STR id="ZITEM_DESC_30403">Smoke grenade. This is used to disrupt the sight of the enemy with smoke. 5 units</STR>
+
+  <STR id="ZITEM_NAME_30404">Canox SG4</STR>
+  <STR id="ZITEM_DESC_30404">Smoke grenade. This is used to disrupt the sight of the enemy with smoke. 6 units</STR>
+
+  <STR id="ZITEM_NAME_30405">Canox SG5</STR>
+  <STR id="ZITEM_DESC_30405">Smoke grenade. This is used to disrupt the sight of the enemy with smoke. 7 units</STR>
+
+  <STR id="ZITEM_NAME_300000">Goblin Dagger</STR>
+  <STR id="ZITEM_DESC_300000">Dagger used by the Goblin tribe.</STR>
+
+  <STR id="ZITEM_NAME_300001">Goblin Rifle</STR>
+  <STR id="ZITEM_DESC_300001">Unique rifle used by the Goblin tribe.</STR>
+
+  <STR id="ZITEM_NAME_300002">Goblin Mace</STR>
+  <STR id="ZITEM_DESC_300002">Mace used by the Chief Goblin.</STR>
+
+  <STR id="ZITEM_NAME_300003">Goblin Wand</STR>
+  <STR id="ZITEM_DESC_300003">Wand used by the Chief Goblin.</STR>
+
+  <STR id="ZITEM_NAME_300004">Goblin Great Hammer</STR>
+  <STR id="ZITEM_DESC_300004">Great Hammer used by the Goblin King.</STR>
+
+  <STR id="ZITEM_NAME_300031">Skeleton Sword</STR>
+  <STR id="ZITEM_DESC_300031">Precious sword used by the Skeleton soldiers.</STR>
+
+  <STR id="ZITEM_NAME_400001">Ring of Apology</STR>
+  <STR id="ZITEM_DESC_400001">(Event Item) This unique heavy ring enhances defensive strength during battle.</STR>
+
+  <STR id="ZITEM_NAME_400002">Bug Buster Trench Coat (Men)</STR>
+  <STR id="ZITEM_DESC_400002">(Event Item) Men's trench coat that only those adventurers who helped rid the abnormal noxious creatures away from the world of Astra, can wear it.</STR>
+
+  <STR id="ZITEM_NAME_400003">Bug Buster Trench Coat (Women)</STR>
+  <STR id="ZITEM_DESC_400003">(Event Item) Women's trench coat that only those adventurers who helped rid the abnormal noxious creatures away from the world of Astra, can wear it.</STR>
+
+  <STR id="ZITEM_NAME_400004">Main Event Jacket (Men)</STR>
+  <STR id="ZITEM_DESC_400004">(Event Item) Jackets for the crowd control staff members.</STR>
+
+  <STR id="ZITEM_NAME_400005">Main Event Jacket (Women)</STR>
+  <STR id="ZITEM_DESC_400005">(Event Item) Jackets for the crowd control staff members.</STR>
+
+  <STR id="ZITEM_NAME_400006">Decipher's Ring</STR>
+  <STR id="ZITEM_DESC_400006">(Event Item) Precious golden ring with ancient symbols inscribed on its surface.</STR>
+
+  <STR id="ZITEM_NAME_400007">Triangle Seaweed-Rolled Rice</STR>
+  <STR id="ZITEM_DESC_400007">(Event Item) Triangle shaped rice rolls wrapped in seaweed. It can help you recover health and armor in combat.</STR>
+
+  <STR id="ZITEM_NAME_400008">Pampoa Companion Coat (Men)</STR>
+  <STR id="ZITEM_DESC_400008">Mysterious legendary armor produced by King Roku for the Pampoa tribe. This coat enhances health and armor during battle.</STR>
+
+  <STR id="ZITEM_NAME_400009">Pampoa Companion Coat (Women)</STR>
+  <STR id="ZITEM_DESC_400009">Mysterious legendary armor produced by King Roku for the Pampoa's tribe. This coat enhances health and armor during battle.</STR>
+
+  <STR id="ZITEM_NAME_400010">Candy Bar</STR>
+  <STR id="ZITEM_DESC_400010">(Event Item) Sweet Candy.</STR>
+
+  <STR id="ZITEM_NAME_400011">Burning Tide Helmet (Men)</STR>
+  <STR id="ZITEM_DESC_400011">Designed by Vinz. The flames give it an intense look.</STR>
+
+  <STR id="ZITEM_NAME_400012">Burning Tide Helmet (Women)</STR>
+  <STR id="ZITEM_DESC_400012">Designed by Vinz. The fierce but passionate look is so impressive.</STR>
+
+  <STR id="ZITEM_NAME_400501">Goblin King's Rocket</STR>
+  <STR id="ZITEM_DESC_400501">A rocket which was discovered from a Goblin King's dead body. The design is very unique.</STR>
+
+  <STR id="ZITEM_NAME_400502">Demon Bringer</STR>
+  <STR id="ZITEM_DESC_400502">A sword which was taken from the Giant Skeleton. It is extremely strong, but also cursed.</STR>
+
+  <STR id="ZITEM_NAME_400503">Goblin Hat (Men)</STR>
+  <STR id="ZITEM_DESC_400503">A silly looking hat which resembles a goblin's face. It does not have great defensive attributes, but it is fun to wear.</STR>
+
+  <STR id="ZITEM_NAME_400504">Goblin Hat (Women)</STR>
+  <STR id="ZITEM_DESC_400504">A silly looking hat which resembles a goblin's face. It does not have great defensive attributes, but it is fun to wear.</STR>
+
+  <STR id="ZITEM_NAME_400505">Demon Hand (Men)</STR>
+  <STR id="ZITEM_DESC_400505">A glove with an unknown dark force. It feels a lot heavier than it looks.</STR>
+
+  <STR id="ZITEM_NAME_400506">Demon Hand (Women)</STR>
+  <STR id="ZITEM_DESC_400506">A glove with an unknown dark force. It feels a lot heavier than it looks.</STR>
+
+  <STR id="ZITEM_NAME_400507">Odd Gun x2</STR>
+  <STR id="ZITEM_DESC_400507">Odd Gun is a very strange gun which is made from various animals' bones and flesh. How the gun operates is still a mystery.</STR>
+
+  <STR id="ZITEM_NAME_400508">Wings of Catastrophe</STR>
+  <STR id="ZITEM_DESC_400508">Wings of Catastrophe is a Kodachi that was modeled on wings and tail of Lich. It has been said that a part of Lich's body was used to create the weapon.</STR>
+
+  <STR id="ZITEM_NAME_400509">Leather Wrap Shoes (Men)</STR>
+  <STR id="ZITEM_DESC_400509">Defense of Leather Wrap Shoes was highly improved by the leather which is firmly wrapped around.</STR>
+
+  <STR id="ZITEM_NAME_400510">Leather Wrap Shoes (Women)</STR>
+  <STR id="ZITEM_DESC_400510">Defense of Leather Wrap Shoes was highly improved by the leather which is firmly wrapped around.</STR>
+
+  <STR id="ZITEM_NAME_400511">Dark Lord Trousers (Men)</STR>
+  <STR id="ZITEM_DESC_400511">This unique item is Dark Lord's precious clothing which reveals his evil senses and identity.</STR>
+
+  <STR id="ZITEM_NAME_400512">Dark Lord Trousers (Women)</STR>
+  <STR id="ZITEM_DESC_400512">This unique item is Dark Lord's precious clothing which reveals her evil senses and identity.</STR>
+
+  <STR id="ZITEM_NAME_500001">Adventurer Dagger</STR>
+  <STR id="ZITEM_DESC_500001">Practical lightweight dagger.</STR>
+
+  <STR id="ZITEM_NAME_500002">Koden Knife</STR>
+  <STR id="ZITEM_DESC_500002">A dagger designed by a legendary swordsman.</STR>
+
+  <STR id="ZITEM_NAME_500003">Dark-Sun Martial Dagger</STR>
+  <STR id="ZITEM_DESC_500003">An obscure dagger handed down from the Moon dynasty.</STR>
+
+  <STR id="ZITEM_NAME_500004">Ridic Hunter Dagger</STR>
+  <STR id="ZITEM_DESC_500004">This strange dagger raises defensive strength.</STR>
+
+  <STR id="ZITEM_NAME_500005">Black Dagger</STR>
+  <STR id="ZITEM_DESC_500005">This dagger is taken from black lake.</STR>
+
+  <STR id="ZITEM_NAME_500006">Prince Dagger</STR>
+  <STR id="ZITEM_DESC_500006">This was Prince Dagger long time ago.</STR>
+
+  <STR id="ZITEM_NAME_500007">Multi Dagger</STR>
+  <STR id="ZITEM_DESC_500007">This dagger is smitted with many daggers.</STR>
+
+  <STR id="ZITEM_NAME_500008">Gold Phoenix Dagger</STR>
+  <STR id="ZITEM_DESC_500008">This dagger have Gold Phoenix feathers in dagger.</STR>
+
+  <STR id="ZITEM_NAME_502001">Adventurer Long Sword</STR>
+  <STR id="ZITEM_DESC_502001">Adventurer's Lightweight practical sword.</STR>
+
+  <STR id="ZITEM_NAME_502002">Salamanda</STR>
+  <STR id="ZITEM_DESC_502002">A unique sword designed by a legendary swordsman.</STR>
+
+  <STR id="ZITEM_NAME_502003">Dark Karma</STR>
+  <STR id="ZITEM_DESC_502003">An obscure sword handed down from the Moon dynasty.</STR>
+
+  <STR id="ZITEM_NAME_502004">Wooden Sword</STR>
+  <STR id="ZITEM_DESC_502004">A light wooden sword suitable for beginners practicing swordsmanship.</STR>
+
+  <STR id="ZITEM_NAME_502005">Mace</STR>
+  <STR id="ZITEM_DESC_502005">A gruesome looking iron hammer.  It is powerful, but slow, heavy and hard to handle.</STR>
+
+  <STR id="ZITEM_NAME_502006">Snake Sword</STR>
+  <STR id="ZITEM_DESC_502006">This sword uses snake model.</STR>
+
+  <STR id="ZITEM_NAME_502007">Knight Sword</STR>
+  <STR id="ZITEM_DESC_502007">This sword belongs to Destiny Knight.</STR>
+
+  <STR id="ZITEM_NAME_502008">Ritual Sword</STR>
+  <STR id="ZITEM_DESC_503008">Ritual man used this sword in great duel.</STR>
+
+  <STR id="ZITEM_NAME_502009">Blood Eye Sword</STR>
+  <STR id="ZITEM_DESC_503009">This sword used by bloody eye.</STR>
+
+  <STR id="ZITEM_NAME_503001">Apocalypse Kodachi</STR>
+  <STR id="ZITEM_DESC_503001">Apocalypse Kodachi is one of gang kodachi.</STR>
+
+  <STR id="ZITEM_NAME_503002">Snake Kodachi</STR>
+  <STR id="ZITEM_DESC_503002">This kodachi is stolen from Great Snake.</STR>
+
+  <STR id="ZITEM_NAME_503003">Black Pearl Kodachi</STR>
+  <STR id="ZITEM_DESC_503003">This kodachi is overpowered with black pearl.</STR>
+
+  <STR id="ZITEM_NAME_503004">Iron Arm Kodachi</STR>
+  <STR id="ZITEM_DESC_503004">This kodachi belongs to with Iron Arm Monster.</STR>
+
+  <STR id="ZITEM_NAME_504001">Adventurer Pistol x2</STR>
+  <STR id="ZITEM_DESC_504001">(Dual Wield) These pistols are mainly used by novice adventurers.</STR>
+
+  <STR id="ZITEM_NAME_504002">Ridic Hunter Pistol x2</STR>
+  <STR id="ZITEM_DESC_504002">(Dual Wield) These strange pistols raise AP for the person who wears it.</STR>
+
+  <STR id="ZITEM_NAME_504003">Iris Pistol x2</STR>
+  <STR id="ZITEM_DESC_504003">(Dual Wield) These are pistols that the Republic's soldiers used to use. It was named after their residence.</STR>
+
+  <STR id="ZITEM_NAME_504004">Iron Crow Pistol x2</STR>
+  <STR id="ZITEM_DESC_504004">(Dual Wield) Pistols used in Iron Crow, the center of the Havani.</STR>
+
+  <STR id="ZITEM_NAME_504005">Plasma Raven x2</STR>
+  <STR id="ZITEM_DESC_504005">(Dual Wield) Pistols shoots plasma bullets.</STR>
+
+  <STR id="ZITEM_NAME_504006">Desert Deagle x2</STR>
+  <STR id="ZITEM_DESC_504006">(Dual Wield) Pistols is most usage.</STR>
+
+  <STR id="ZITEM_NAME_504007">Golden Raven x2</STR>
+  <STR id="ZITEM_DESC_504007">(Dual Wield) Pistols blessed with golden barrier.</STR>
+
+  <STR id="ZITEM_NAME_504501">Iris Revolver x2</STR>
+  <STR id="ZITEM_DESC_504501">(Dual Wield) Revolvers that the Republic's soldiers used to use. It was named after their residence.</STR>
+
+  <STR id="ZITEM_NAME_504502">Iron Crow Revolver x2</STR>
+  <STR id="ZITEM_DESC_504502">(Dual Wield) Revolvers used in Iron Crow, the center of the Havani.</STR>
+
+  <STR id="ZITEM_NAME_504503">Gold Hound x2</STR>
+  <STR id="ZITEM_DESC_504503">(Dual Wield) The most powerful revolvers of their class. Developed mainly focusing on firepower. It is difficult for beginners to use it due to it's slow firing rate and strong recoil.</STR>
+
+  <STR id="ZITEM_NAME_504504">Double Zaurus x2</STR>
+  <STR id="ZITEM_DESC_504504">(Dual Wield) revolver is double shoot.</STR>
+
+  <STR id="ZITEM_NAME_504505">Silver Revolver x2</STR>
+  <STR id="ZITEM_DESC_504505">(Dual Wield) revolver has silver bless.</STR>
+
+  <STR id="ZITEM_NAME_505001">Adventurer SMG x2</STR>
+  <STR id="ZITEM_DESC_505001">(Dual Wield) SMGs mainly used by novice adventurers. It seems that merchants remodel the Renard's Magazine illegally and then sell them on the black market.</STR>
+
+  <STR id="ZITEM_NAME_505002">Iris SMG x2</STR>
+  <STR id="ZITEM_DESC_505002">(Dual Wield) SMGs that the Republic's soldiers used to use.</STR>
+
+  <STR id="ZITEM_NAME_505003">Iron Crow SMG x2</STR>
+  <STR id="ZITEM_DESC_505003">(Dual Wield) SMGs used in Iron Crow, the center of the Havani.</STR>
+
+  <STR id="ZITEM_NAME_505004">Ellan V5 x2</STR>
+  <STR id="ZITEM_DESC_505004">(Dual Wield) SMGs are copy of Ellan but new and better.</STR>
+
+  <STR id="ZITEM_NAME_505005">Iron Renard x2</STR>
+  <STR id="ZITEM_DESC_505005">(Dual Wield) SMGs are made with iron.</STR>
+
+  <STR id="ZITEM_NAME_505006">Iron Renard V x2</STR>
+  <STR id="ZITEM_DESC_505006">(Dual Wield) SMGs are made with iron + extra bless.</STR>
+
+  <STR id="ZITEM_NAME_505007">Plasma SMG x2</STR>
+  <STR id="ZITEM_DESC_505007">(Dual Wield) SMGs shoots plasma bullets.</STR>
+
+  <STR id="ZITEM_NAME_506001">Iris Shotgun</STR>
+  <STR id="ZITEM_DESC_506001">Shotgun that the Republic's soldiers used to use. It was named after their residence.</STR>
+
+  <STR id="ZITEM_NAME_506002">Iron Crow Shotgun</STR>
+  <STR id="ZITEM_DESC_506002">Shotgun used in Iron Crow, the center of the Havani.</STR>
+
+  <STR id="ZITEM_NAME_506003">Biggie Shotgun</STR>
+  <STR id="ZITEM_DESC_506003">A unknown foreign country developed this shotgun. It looks a little too light as a weapon, but the gun has great capability which comes from its light weight.</STR>
+
+  <STR id="ZITEM_NAME_506004">Cruelizon</STR>
+  <STR id="ZITEM_DESC_506004">A shotgun with enhanced power from the Breaker series. Fire rate and stability are relatively decreased, thus making it hard to control this gun.</STR>
+
+  <STR id="ZITEM_NAME_506005">Health Breaker</STR>
+  <STR id="ZITEM_DESC_506005">A shotgun what increases your health by 2.</STR>
+
+  <STR id="ZITEM_NAME_506006">Speed Breaker</STR>
+  <STR id="ZITEM_DESC_506006">A shotgun what have big speed.</STR>
+
+  <STR id="ZITEM_NAME_506007">Elite Breaker</STR>
+  <STR id="ZITEM_DESC_506007">A shotgun what weight is low.</STR>
+
+  <STR id="ZITEM_NAME_506008">Blade Breaker</STR>
+  <STR id="ZITEM_DESC_506008">A shotgun what have great speed and damage.</STR>
+
+  <STR id="ZITEM_NAME_507001">Iris Rifle</STR>
+  <STR id="ZITEM_DESC_507001">Rifle that the Republic's soldiers used to use. It was named after their residence.</STR>
+
+  <STR id="ZITEM_NAME_507002">Iron Crow Rifle</STR>
+  <STR id="ZITEM_DESC_507002">Rifle used in Iron Crow, the center of the Havani.</STR>
+
+  <STR id="ZITEM_NAME_507003">Prime TX</STR>
+  <STR id="ZITEM_DESC_507003">A rifle focused on fire rate and stability. Its stable and controllable recoil makes it an excellent choice to use.</STR>
+
+  <STR id="ZITEM_NAME_507004">Mini Rifle</STR>
+  <STR id="ZITEM_DESC_507004">A rifle what have good weight and speed.</STR>
+
+  <STR id="ZITEM_NAME_507005">Wooden Rifle</STR>
+  <STR id="ZITEM_DESC_507005">A rifle what have low weight.</STR>
+
+  <STR id="ZITEM_NAME_507006">Rocket Rifle</STR>
+  <STR id="ZITEM_DESC_507006">A rifle what model is like rocket.</STR>
+
+  <STR id="ZITEM_NAME_507007">Wooden V Rifle</STR>
+  <STR id="ZITEM_DESC_507007">A rifle what have low weight.</STR>
+
+  <STR id="ZITEM_NAME_507008">Rocket V Rifle</STR>
+  <STR id="ZITEM_DESC_507008">A rifle what model is like rocket.</STR>
+
+  <STR id="ZITEM_NAME_507009">Laser Rifle</STR>
+  <STR id="ZITEM_DESC_507009">A rifle what have very hurtable bullets.</STR>
+
+  <STR id="ZITEM_NAME_507010">Golden Rifle</STR>
+  <STR id="ZITEM_DESC_507010">A rifle what is blessed with gold.</STR>
+
+  <STR id="ZITEM_NAME_508001">Iron Crow Machine Gun</STR>
+  <STR id="ZITEM_DESC_508001">Machine Gun used in Iron Crow, the center of the Havani, main city for outlaws.</STR>
+
+  <STR id="ZITEM_NAME_508002">Wooden Machine Gun</STR>
+  <STR id="ZITEM_DESC_508002">Machine Gun what have low weight.</STR>
+
+  <STR id="ZITEM_NAME_508003">Speed Machine Gun</STR>
+  <STR id="ZITEM_DESC_508003">Machine Gun what have great speed.</STR>
+
+  <STR id="ZITEM_NAME_508004">Plasma Machine Gun</STR>
+  <STR id="ZITEM_DESC_508004">Machine Gun what have great speed and damage.</STR>
+
+  <STR id="ZITEM_NAME_509001">Iris Rocket</STR>
+  <STR id="ZITEM_DESC_509001">A rocket the Republic soldiers used to use. It was named after their residence.</STR>
+
+  <STR id="ZITEM_NAME_509002">Iron Crow Rocket</STR>
+  <STR id="ZITEM_DESC_509002">A rocket produced for the Iron Crow. Used to dominate Havani, city of outlaws.</STR>
+
+  <STR id="ZITEM_NAME_509003">Pressure RX</STR>
+  <STR id="ZITEM_DESC_509003">A more balanced rocket launcher. Its damage is somewhat sacrificed but the clip capacity and the reload speed have been improved.</STR>
+
+  <STR id="ZITEM_NAME_520001">Ares Military Hat</STR>
+  <STR id="ZITEM_DESC_520001">Military combat hat designed by Ares.</STR>
+
+  <STR id="ZITEM_NAME_520002">Ceremonial Dress Hat (Men)</STR>
+  <STR id="ZITEM_DESC_520002">Ceremonial dress hat designed by Icon for the Ranks of the Empire to wear at political ceremonies.</STR>
+
+  <STR id="ZITEM_NAME_520003">Gunners Heaven Soft Hat (Men)</STR>
+  <STR id="ZITEM_DESC_520003">Exclusive soft hat for the Gunners Heaven crew, it matches a dark colored coat.</STR>
+
+  <STR id="ZITEM_NAME_520004">Military Head Bandana (Men)</STR>
+  <STR id="ZITEM_DESC_520004">Basic military head bandana for combat.</STR>
+
+  <STR id="ZITEM_NAME_520005">Basic Head Bandana (Men)</STR>
+  <STR id="ZITEM_DESC_520005">Men's Bandana used for fashion.</STR>
+
+  <STR id="ZITEM_NAME_520006">Water-Drop Head Bandana (Men)</STR>
+  <STR id="ZITEM_DESC_520006">Practical lightweight bandana with a water drop pattern.</STR>
+
+  <STR id="ZITEM_NAME_520007">Star Glaze Bandana (Men)</STR>
+  <STR id="ZITEM_DESC_520007">Soft star glazed pattern bandana for men.</STR>
+
+  <STR id="ZITEM_NAME_520008">Eternal Blue Hat (Men)</STR>
+  <STR id="ZITEM_DESC_520008">This unique hat was designed for the Eternal Blue outlaw crew.</STR>
+
+  <STR id="ZITEM_NAME_520009">Adventurer's Hat (Men)</STR>
+  <STR id="ZITEM_DESC_520009">Lightweight hat recommended for novice adventurers who hate outfits with heavy equipment.</STR>
+
+  <STR id="ZITEM_NAME_520010">Blue Whistle Hat (Men)</STR>
+  <STR id="ZITEM_DESC_520010">Hat designed for Blue Whistle.</STR>
+
+  <STR id="ZITEM_NAME_520011">Ipot Summer Hat (Men)</STR>
+  <STR id="ZITEM_DESC_520011">Hat for cool guys on a hot summer beach.</STR>
+
+  <STR id="ZITEM_NAME_520012">Iron Crow Hat (Men)</STR>
+  <STR id="ZITEM_DESC_520012">Iron Crow warriors wear these protective hats around the city of Havani, the city of outlaws.</STR>
+
+  <STR id="ZITEM_NAME_520013">Santa Claus Cap (Men)</STR>
+  <STR id="ZITEM_DESC_520013">A Christmas season Santa Cap for men.</STR>
+
+  <STR id="ZITEM_NAME_520014">Phantom Breed Bandana (Men)</STR>
+  <STR id="ZITEM_DESC_520014">Heavy bandana designed for the Phantom Breed spy crew.</STR>
+
+  <STR id="ZITEM_NAME_520015">Republic Gun Priest Hat (Men)</STR>
+  <STR id="ZITEM_DESC_520015">Mens hat for a secret organization associated with religious groups.</STR>
+
+  <STR id="ZITEM_NAME_520016">Gray Dust Hat (Men)</STR>
+  <STR id="ZITEM_DESC_520016">Men's hat for the Empire's elite troops.</STR>
+
+  <STR id="ZITEM_NAME_520017">Sir Protector Hat (Men)</STR>
+  <STR id="ZITEM_DESC_520017">This hat enhances defensive strength in combat.</STR>
+
+  <STR id="ZITEM_NAME_520018">Bigi Sports Hat (Men)</STR>
+  <STR id="ZITEM_DESC_520018">This loud and stylish hat was designed for the Bigi crew members.</STR>
+
+  <STR id="ZITEM_NAME_520019">Warrior Hat (Men)</STR>
+  <STR id="ZITEM_DESC_520019">Men's Warrior Hat used in combat, enhances defensive strength.</STR>
+
+  <STR id="ZITEM_NAME_520020">Desert Flame Hat (Men)</STR>
+  <STR id="ZITEM_DESC_520020">Desert Flame hat originally designed for troops that were stationed in desert areas.</STR>
+
+  <STR id="ZITEM_NAME_520021">Battle Brood Helmet (Men)</STR>
+  <STR id="ZITEM_DESC_520021">Specially designed men's helmet made from all reinforced material. This headgear protects against all types of damage.</STR>
+
+  <STR id="ZITEM_NAME_520022">Active Sports Rasta Locks (Men)</STR>
+  <STR id="ZITEM_DESC_520022">Limited Periodic sale. Men's sport suit made to be used in a certain sport. It seems to generate great power when worn.</STR>
+
+  <STR id="ZITEM_NAME_520025">Military Officer Hat (Men)</STR>
+  <STR id="ZITEM_DESC_520025">Military officer hat used by war fanatics.</STR>
+
+  <STR id="ZITEM_NAME_520026">Classic Leather Hat (Men)</STR>
+  <STR id="ZITEM_DESC_520026">A classic leather hat for men.</STR>
+
+  <STR id="ZITEM_NAME_520027">Zeus Hair Band (Men)</STR>
+  <STR id="ZITEM_DESC_520027">Stylishly designed lightweight hair band for men. Poor defensive enhancement, but good health bonus.</STR>
+
+  <STR id="ZITEM_NAME_520028">Pumpkin Head (Men)</STR>
+  <STR id="ZITEM_DESC_520028">Happy Halloween!</STR>
+
+  <STR id="ZITEM_NAME_520029">Blue Vane Hat (Men)</STR>
+  <STR id="ZITEM_DESC_520029">Men's Blue Vane series hat made of a highly flexible material.</STR>
+
+  <STR id="ZITEM_NAME_520030">Train Guard Hat (Men)</STR>
+  <STR id="ZITEM_DESC_520030">Men's hat worn by soldiers guarding the trains going through the empire and the republic.  It has the advantage of being lightweight.</STR>
+
+  <STR id="ZITEM_NAME_520031">PA Hat (Men)</STR>
+  <STR id="ZITEM_DESC_520031">Men's hat worn by the personal assistants of the empire's nobles.</STR>
+
+  <STR id="ZITEM_NAME_520032">Divine Hands Hat (Men)</STR>
+  <STR id="ZITEM_DESC_520032">Men's hat worn by those in the Republic support forces, Healing Hands.</STR>
+
+  <STR id="ZITEM_NAME_520033">Bunny Ears Head Band (Men)</STR>
+  <STR id="ZITEM_DESC_520033">Men's bunny ears head band that can be used as an extra accessory.</STR>
+
+  <STR id="ZITEM_NAME_520034">Cat Ears Head Band (Men)</STR>
+  <STR id="ZITEM_DESC_520034">Men's cat ears head band that can be used as an extra accessory.</STR>
+
+  <STR id="ZITEM_NAME_520035">Slider Sports Hat (Men)</STR>
+  <STR id="ZITEM_DESC_520035">Men's sports hat that is comfortable enough to wear everyday while still maintaining sports functionality.</STR>
+
+  <STR id="ZITEM_NAME_520052">Tuxedo Wig (Men)</STR>
+  <STR id="ZITEM_DESC_520052">A tuxedo wig for a wedding that has a sharp and elegant touch.</STR>
+
+  <STR id="ZITEM_NAME_520501">Rex Military Hat (Women)</STR>
+  <STR id="ZITEM_DESC_520501">Military hat for female soldiers. Designed by Rex.</STR>
+
+  <STR id="ZITEM_NAME_520502">Ceremonial Dress Beret (Women)</STR>
+  <STR id="ZITEM_DESC_520502">A ceremonial dress hat supplied to the female soldiers of the Empire.</STR>
+
+  <STR id="ZITEM_NAME_520503">Gunners Heaven Hat (Women)</STR>
+  <STR id="ZITEM_DESC_520503">A hat exclusively for the Gunners Heaven, a private organization of the Republic.</STR>
+
+  <STR id="ZITEM_NAME_520504">Military Bandana (Women)</STR>
+  <STR id="ZITEM_DESC_520504">An easy-to-wear women's bandana. It can also be used to disguise yourself at battlefield.</STR>
+
+  <STR id="ZITEM_NAME_520505">Basic Head Bandana (Women)</STR>
+  <STR id="ZITEM_DESC_520505">Women's Bandana used for fashion.</STR>
+
+  <STR id="ZITEM_NAME_520506">Water-Drop Head Bandana (Women)</STR>
+  <STR id="ZITEM_DESC_520506">Practical lightweight bandana with a water drop pattern.</STR>
+
+  <STR id="ZITEM_NAME_520507">Star Glaze Bandana (Women)</STR>
+  <STR id="ZITEM_DESC_520507">Soft star glazed pattern bandana for women.</STR>
+
+  <STR id="ZITEM_NAME_520508">Eternal Blue Hat (Women)</STR>
+  <STR id="ZITEM_DESC_520508">For outlaws of the sea, Eternal Blue women's pirate hat.</STR>
+
+  <STR id="ZITEM_NAME_520509">Adventurer Hat (Women)</STR>
+  <STR id="ZITEM_DESC_520509">A stylish baseball hat recommended for the novice adventurers. This item is made for those who hate to wear heavy gear.</STR>
+
+  <STR id="ZITEM_NAME_520510">Blue Whistle Hat (Women)</STR>
+  <STR id="ZITEM_DESC_520510">The Blue Whistle women's hat.</STR>
+
+  <STR id="ZITEM_NAME_520511">Ipot Hat (Women)</STR>
+  <STR id="ZITEM_DESC_520511">A cool hat for women on a hot summer beach.</STR>
+
+  <STR id="ZITEM_NAME_520512">Iron Crow Hat (Women)</STR>
+  <STR id="ZITEM_DESC_520512">Women's hat worn in Havani, the city of outlaws</STR>
+
+  <STR id="ZITEM_NAME_520513">Mrs. Claus Cap (Women)</STR>
+  <STR id="ZITEM_DESC_520513">Christmas season item for women.</STR>
+
+  <STR id="ZITEM_NAME_520514">Phantom Breed Bandana (Women)</STR>
+  <STR id="ZITEM_DESC_520514">Heavy bandana designed for the Phantom Breed spy crew.</STR>
+
+  <STR id="ZITEM_NAME_520515">Gun Priestess Hat (Women)</STR>
+  <STR id="ZITEM_DESC_520515">Women's lightweight hat for a secret organization related with religious groups.</STR>
+
+  <STR id="ZITEM_NAME_520516">Gray Dust Hat (Women)</STR>
+  <STR id="ZITEM_DESC_520516">A women's hat used by Gray Dust, the elite troops of the empire.</STR>
+
+  <STR id="ZITEM_NAME_520517">Sir Protector Hat (Women)</STR>
+  <STR id="ZITEM_DESC_520517">Women's Sir Protector Hat, designed for protection.</STR>
+
+  <STR id="ZITEM_NAME_520518">Bigi Sports Hat (Women)</STR>
+  <STR id="ZITEM_DESC_520518">This loud and stylish hat was designed for the Bigi crew members.</STR>
+
+  <STR id="ZITEM_NAME_520519">Princess Warrior Hat (Women)</STR>
+  <STR id="ZITEM_DESC_520519">The crown hat of a princess warrior in battle.</STR>
+
+  <STR id="ZITEM_NAME_520520">Desert Flame Hat (Women)</STR>
+  <STR id="ZITEM_DESC_520520">The Desert Flame's helmet is made for the female troops who are deployed in the tough terrain of the desert.</STR>
+
+  <STR id="ZITEM_NAME_520521">Battle Brood Helmet (Women)</STR>
+  <STR id="ZITEM_DESC_520521">Specially designed women's helmet made from all reinforced material. This headgear protects against all types of damage.</STR>
+
+  <STR id="ZITEM_NAME_520522">Active Sports Rasta Locks (Women)</STR>
+  <STR id="ZITEM_DESC_520522">(Limited Periodic Sale) A Rastafarian dreadlock look for that active person. It seems to generate great power when worn.</STR>
+
+  <STR id="ZITEM_NAME_520525">Military Officer Hat (Women)</STR>
+  <STR id="ZITEM_DESC_520525">A female military officer hat favored by military fanatics.</STR>
+
+  <STR id="ZITEM_NAME_520526">Picnic Hat (Women)</STR>
+  <STR id="ZITEM_DESC_520526">A gorgeous female Picnic Hat with classical look. It does not seem to have much value as an armor, but it seems that something joyful will happen.</STR>
+
+  <STR id="ZITEM_NAME_520527">Zeus Hair Band (Women)</STR>
+  <STR id="ZITEM_DESC_520527">A light weighted female hair band. It does not have much defense bonus but is an item with strong health bonus benefit.</STR>
+
+  <STR id="ZITEM_NAME_520528">Pumpkin Head (Women)</STR>
+  <STR id="ZITEM_DESC_520528">Happy Halloween!</STR>
+
+  <STR id="ZITEM_NAME_520529">Blue Vane Hat (Women)</STR>
+  <STR id="ZITEM_DESC_520529">Women's Blue Vane series hat made of a highly flexible material.</STR>
+
+  <STR id="ZITEM_NAME_520530">Train Guard Hat (Women)</STR>
+  <STR id="ZITEM_DESC_520530">Women's hat worn by soldiers guarding the trains going through the empire and the republic.  It has the advantage of being lightweight.</STR>
+
+  <STR id="ZITEM_NAME_520531">PA Headdress (Women)</STR>
+  <STR id="ZITEM_DESC_520531">Women's hat worn by the personal assistants of the empire's nobles.</STR>
+
+  <STR id="ZITEM_NAME_520532">Divine Hands Hat (Women)</STR>
+  <STR id="ZITEM_DESC_520532">Women's nurse hat worn by those in the Republic support forces, Healing Hands.</STR>
+
+  <STR id="ZITEM_NAME_520533">Bunny Ears Head Band (Women)</STR>
+  <STR id="ZITEM_DESC_520533">Women's bunny ears head band that can be used as an extra accessory.</STR>
+
+  <STR id="ZITEM_NAME_520534">Cat Ears Head Band (Women)</STR>
+  <STR id="ZITEM_DESC_520534">Women's cat ears head band that can be used as an extra accessory.</STR>
+
+  <STR id="ZITEM_NAME_520535">Slider Sports Hat (Women)</STR>
+  <STR id="ZITEM_DESC_520535">Women's sport hat that is comfortable enough to wear everyday while still maintaining sports functionality.</STR>
+
+  <STR id="ZITEM_NAME_520552">Wedding Veil (Women)</STR>
+  <STR id="ZITEM_DESC_520552">Pure white wedding veil of every girl's dream, in cheerful minimal style.</STR>
+
+  <STR id="ZITEM_NAME_521001">Ceremonial Dress Garment (Men)</STR>
+  <STR id="ZITEM_DESC_521001">A ceremonial dress garment that the Empire ranks wear at important ceremonies.</STR>
+
+  <STR id="ZITEM_NAME_521002">Gunners Heaven Coat (Men)</STR>
+  <STR id="ZITEM_DESC_521002">Long leather coat and garment design for the Gunners Heaven crew, a private organization of the Republic.</STR>
+
+  <STR id="ZITEM_NAME_521003">Eternal Blue Coat (Men)</STR>
+  <STR id="ZITEM_DESC_521003">Men's Coat worn by the Eternal Blue, outcast pirates from the Costa Islands.</STR>
+
+  <STR id="ZITEM_NAME_521004">Adventurer Jacket (Men)</STR>
+  <STR id="ZITEM_DESC_521004">This jacket is great for novice adventurers who hate heavy outfits and equipment.</STR>
+
+  <STR id="ZITEM_NAME_521005">Blue Whistle Jacket (Men)</STR>
+  <STR id="ZITEM_DESC_521005">Men's jacket worn by Blue Whistle, the headache of the empire.</STR>
+
+  <STR id="ZITEM_NAME_521006">Ipot Beach Shirt (Men)</STR>
+  <STR id="ZITEM_DESC_521006">Hawaiian shirt for cool guys on a hot summer beach.</STR>
+
+  <STR id="ZITEM_NAME_521007">Iron Crow Coat (Men)</STR>
+  <STR id="ZITEM_DESC_521007">The Iron Crow men wear this coat around the city of Havani.</STR>
+
+  <STR id="ZITEM_NAME_521008">Santa Claus Coat (Men)</STR>
+  <STR id="ZITEM_DESC_521008">Christmas gift for men.</STR>
+
+  <STR id="ZITEM_NAME_521009">Phantom Breed Jacket (Men)</STR>
+  <STR id="ZITEM_DESC_521009">Heavy armor designed for the Phantom Breed spy crew.</STR>
+
+  <STR id="ZITEM_NAME_521010">Republic Gun Priest Garment (Men)</STR>
+  <STR id="ZITEM_DESC_521010">Men's lightweight garment developed for a secret organization associated with religious groups.</STR>
+
+  <STR id="ZITEM_NAME_521011">Gray Dust Long Coat (Men)</STR>
+  <STR id="ZITEM_DESC_521011">Men's long coat worn by the elite troops, Gray Dust.</STR>
+
+  <STR id="ZITEM_NAME_521012">Sir Protector Garment (Men)</STR>
+  <STR id="ZITEM_DESC_521012">Sleek men's jacket designed for defense.</STR>
+
+  <STR id="ZITEM_NAME_521013">Bigi Trench Coat (Men)</STR>
+  <STR id="ZITEM_DESC_521013">Trench coat armor designed by Bigi.</STR>
+
+  <STR id="ZITEM_NAME_521014">Gun Knight Trench Coat (Men)</STR>
+  <STR id="ZITEM_DESC_521014">This trench coat was once worn by a legendary male gun knight of Axium</STR>
+
+  <STR id="ZITEM_NAME_521015">Warrior Coat (Men)</STR>
+  <STR id="ZITEM_DESC_521015">Legendary coat designed for elite warriors.</STR>
+
+  <STR id="ZITEM_NAME_521016">Desert Flame Top (Men)</STR>
+  <STR id="ZITEM_DESC_521016">Desert Flame men's top for desert terrain.</STR>
+
+  <STR id="ZITEM_NAME_521017">Battle Brood Armor (Men)</STR>
+  <STR id="ZITEM_DESC_521017">This special armor enhances protection against heavy damage attacks.</STR>
+
+  <STR id="ZITEM_NAME_521018">Active Sports Top (Men)</STR>
+  <STR id="ZITEM_DESC_521018">(Limited Periodic Sale) A men's sports suit made to be used in a certain sport. It seems to generate great power when worn.</STR>
+
+  <STR id="ZITEM_NAME_521021">Military Officer Jacket (Men)</STR>
+  <STR id="ZITEM_DESC_521021">Military officer jacket used by war fanatics.</STR>
+
+  <STR id="ZITEM_NAME_521022">Zeus Coat (Men)</STR>
+  <STR id="ZITEM_DESC_521022">Radiant lightweight coat design by Zeus. It enhances health bonuses during combat.</STR>
+
+  <STR id="ZITEM_NAME_521023">Blue Vane Coat (Men)</STR>
+  <STR id="ZITEM_DESC_521023">Men's Blue Vane series coat made of a highly flexible material.</STR>
+
+  <STR id="ZITEM_NAME_521024">Train Guard Coat (Men)</STR>
+  <STR id="ZITEM_DESC_521024">Men's coat worn by soldiers guarding the trains going through the empire and the republic.  It has the advantage of being lightweight.</STR>
+
+  <STR id="ZITEM_NAME_521025">PA Jacket (Men)</STR>
+  <STR id="ZITEM_DESC_521025">Men's Jacket worn by the personal assistants of the empire's nobles.</STR>
+
+  <STR id="ZITEM_NAME_521026">Divine Hands Robe (Men)</STR>
+  <STR id="ZITEM_DESC_521026">Men's robe worn by those in the Republic support forces, Healing Hands.</STR>
+
+  <STR id="ZITEM_NAME_521027">Slider Sports Jacket (Men)</STR>
+  <STR id="ZITEM_DESC_521027">Men's sport jacket that is comfortable enough to wear everyday while still maintaining sports functionality.</STR>
+
+  <STR id="ZITEM_NAME_521043">Tuxedo Jacket (Men)</STR>
+  <STR id="ZITEM_DESC_521043">A tuxedo jacket for a wedding that has a sharp and elegant touch.</STR>
+
+  <STR id="ZITEM_NAME_521501">Ceremonial Dress Jacket (Women)</STR>
+  <STR id="ZITEM_DESC_521501">A ceremonial dress jacket supplied to the female soldiers of the Empire.</STR>
+
+  <STR id="ZITEM_NAME_521502">Gunners Heaven Long Wool Coat (Women)</STR>
+  <STR id="ZITEM_DESC_521502">A women's long wool coat and garment exclusively for the Gunners Heaven, a private organization of the Republic.</STR>
+
+  <STR id="ZITEM_NAME_521503">Eternal Blue Coat (Women)</STR>
+  <STR id="ZITEM_DESC_521503">For outlaws of the sea, Eternal Blue women's pirate garment.</STR>
+
+  <STR id="ZITEM_NAME_521504">Adventurer Jacket (Women)</STR>
+  <STR id="ZITEM_DESC_521504">Women's jacket recommended for novice adventurers. This item is made for those who hate to wear heavy gear.</STR>
+
+  <STR id="ZITEM_NAME_521505">Blue Whistle Jacket (Women)</STR>
+  <STR id="ZITEM_DESC_521505">Women's Blue Whistle jacket, Blue Whistle is known as the headache of the Empire. </STR>
+
+  <STR id="ZITEM_NAME_521506">Ipot Bikini Upper Garment (Women)</STR>
+  <STR id="ZITEM_DESC_521506">A bikini garment for cool women on a hot summer beach.</STR>
+
+  <STR id="ZITEM_NAME_521507">Iron Crow Coat (Women)</STR>
+  <STR id="ZITEM_DESC_521507">Iron Crow women's coat worn in Havani, the main city for outlaws.</STR>
+
+  <STR id="ZITEM_NAME_521508">Mrs. Claus Coat (Women)</STR>
+  <STR id="ZITEM_DESC_521508">Christmas season item for women.</STR>
+
+  <STR id="ZITEM_NAME_521509">Phantom Breed Jacket (Women)</STR>
+  <STR id="ZITEM_DESC_521509">Women's Jacket handed down from ancient times. It is pretty heavy.</STR>
+
+  <STR id="ZITEM_NAME_521510">Republic Gun Priestess Upper Garment (Women)</STR>
+  <STR id="ZITEM_DESC_521510">Women's lightweight garment for a secret organization associated with religious groups.</STR>
+
+  <STR id="ZITEM_NAME_521511">Gray Dust Trench Coat (Women)</STR>
+  <STR id="ZITEM_DESC_521511">A women's Gray Dust Trench Coat for the elite troops of the Empire.</STR>
+
+  <STR id="ZITEM_NAME_521512">Sir Protector Garment (Women)</STR>
+  <STR id="ZITEM_DESC_521512">Women's Sir Protector Garment, designed for protection.</STR>
+
+  <STR id="ZITEM_NAME_521513">Bigi Trench Coat (Women)</STR>
+  <STR id="ZITEM_DESC_521513">A women's trench coat designed by Bigi. An exotic and sophisticated emblem is marked on the back of the coat.</STR>
+
+  <STR id="ZITEM_NAME_521514">Gun Knight Jacket (Women)</STR>
+  <STR id="ZITEM_DESC_521514">This jacket was once worn by a legendary female gun knight of Axium.</STR>
+
+  <STR id="ZITEM_NAME_521515">Princess Warrior Coat (Women)</STR>
+  <STR id="ZITEM_DESC_521515">Coat made suitable for a princess to wear in combat.</STR>
+
+  <STR id="ZITEM_NAME_521516">Desert Flame Top (Women)</STR>
+  <STR id="ZITEM_DESC_521516">The Desert Flame's women's top designed for troops who operate in desert.</STR>
+
+  <STR id="ZITEM_NAME_521517">Battle Brood Armor (Women)</STR>
+  <STR id="ZITEM_DESC_521517">A part of women's special armor made of reinforced material. It protects the chest from all types of damage.</STR>
+
+  <STR id="ZITEM_NAME_521518">Active Sports Top (Women)</STR>
+  <STR id="ZITEM_DESC_521518">(Limited Periodic Sale) A women's sports suit made to be used in a certain sport. It seems to generate great power when worn.</STR>
+
+  <STR id="ZITEM_NAME_521521">Military Officer Jacket (Women)</STR>
+  <STR id="ZITEM_DESC_521521">A female military officer Jacket favored by military fanatics.</STR>
+
+  <STR id="ZITEM_NAME_521522">Zeus Coat (Women)</STR>
+  <STR id="ZITEM_DESC_521522">A light weight female coat. The harmony of orange and dark blue color attracts people's eyes.</STR>
+
+  <STR id="ZITEM_NAME_521523">Blue Vane Coat (Women)</STR>
+  <STR id="ZITEM_DESC_521523">Women's Blue Vane series coat made of a highly flexible material.</STR>
+
+  <STR id="ZITEM_NAME_521524">Train Guard Coat (Women)</STR>
+  <STR id="ZITEM_DESC_521524">Women's coat worn by soldiers guarding the trains going through the empire and the republic.  It has the advantage of being lightweight.</STR>
+
+  <STR id="ZITEM_NAME_521525">PA Dress Coat (Women)</STR>
+  <STR id="ZITEM_DESC_521525">Women's coat worn by the personal assistants of the empire's nobles.</STR>
+
+  <STR id="ZITEM_NAME_521526">Divine Hands Jacket (Women)</STR>
+  <STR id="ZITEM_DESC_521526">Women's jacket worn by those in the Republic support forces, Healing Hands.</STR>
+
+  <STR id="ZITEM_NAME_521527">Slider Sports Jacket (Women)</STR>
+  <STR id="ZITEM_DESC_521527">Women's sport jacket that is comfortable enough to wear everyday while still maintaining sports functionality.</STR>
+
+  <STR id="ZITEM_NAME_521543">Wedding Upper Garment (Women)</STR>
+  <STR id="ZITEM_DESC_521543">Pure white wedding upper garment of every girl's dream, in cheerful minimal style.</STR>
+
+  <STR id="ZITEM_NAME_522001">Ceremonial Dress Gloves (Men)</STR>
+  <STR id="ZITEM_DESC_522001">Ceremonial dress gloves that the ranks of the empire wear to important ceremonies.</STR>
+
+  <STR id="ZITEM_NAME_522002">Gunners Heaven Gloves (Men)</STR>
+  <STR id="ZITEM_DESC_522002">Gloves for the elite Gunners Heaven crew.</STR>
+
+  <STR id="ZITEM_NAME_522003">Eternal Blue Gloves (Men)</STR>
+  <STR id="ZITEM_DESC_522003">Gloves worn by the outllaws of Eternal Blue.</STR>
+
+  <STR id="ZITEM_NAME_522004">Adventurer Gloves (Men)</STR>
+  <STR id="ZITEM_DESC_522004">Gloves recommended for novice adventurers who hate outfits with heavy equipment.</STR>
+
+  <STR id="ZITEM_NAME_522005">Blue Whistle Gloves (Men)</STR>
+  <STR id="ZITEM_DESC_522005">Gloves designed for Blue Whistle, the headache of the empire.</STR>
+
+  <STR id="ZITEM_NAME_522006">Ipot Beach Gloves (Men)</STR>
+  <STR id="ZITEM_DESC_522006">Gloves for cool guys on a hot summer beach.</STR>
+
+  <STR id="ZITEM_NAME_522007">Iron Crow Gloves (Men)</STR>
+  <STR id="ZITEM_DESC_522007">Iron Crow warriors wear these protective gloves around Havani, the city of outlaws.</STR>
+
+  <STR id="ZITEM_NAME_522008">Santa Claus Gloves (Men)</STR>
+  <STR id="ZITEM_DESC_522008">Great gift for the Christmas season.</STR>
+
+  <STR id="ZITEM_NAME_522009">Phantom Breed Gloves (Men)</STR>
+  <STR id="ZITEM_DESC_522009">Gloves for the mighty men of the Phantom Breed, a spy organization.</STR>
+
+  <STR id="ZITEM_NAME_522010">Gun Priest Gloves (Men)</STR>
+  <STR id="ZITEM_DESC_522010">Men's lightweight gloves for a secret organization associated with religious groups.</STR>
+
+  <STR id="ZITEM_NAME_522011">Gray Dust Gloves (Men)</STR>
+  <STR id="ZITEM_DESC_522011">Gloves worn by the Gray Dust elite troops.</STR>
+
+  <STR id="ZITEM_NAME_522012">Sir Protector  Leather Gloves (Men)</STR>
+  <STR id="ZITEM_DESC_522012">Defensive gloves designed for protection.</STR>
+
+  <STR id="ZITEM_NAME_522013">Gun Knight Gloves (Men)</STR>
+  <STR id="ZITEM_DESC_522013">These gloves were once worn by a legendary male gun knight of Axium.</STR>
+
+  <STR id="ZITEM_NAME_522014">Warrior Gloves (Men)</STR>
+  <STR id="ZITEM_DESC_522014">Legendary gloves designed for elite warriors.</STR>
+
+  <STR id="ZITEM_NAME_522015">Desert Flame Gloves (Men)</STR>
+  <STR id="ZITEM_DESC_522015">Desert Flame gloves originally designed for troops that were deployed to tough desert areas.</STR>
+
+  <STR id="ZITEM_NAME_522016">Battle Brood Gauntlets (Men)</STR>
+  <STR id="ZITEM_DESC_522016">Special gauntlets made of reinforced material to enhance hand protection.</STR>
+
+  <STR id="ZITEM_NAME_522017">Military Officer Gloves (Men)</STR>
+  <STR id="ZITEM_DESC_522017">Gloves for military officers favored by war fanatics.</STR>
+
+  <STR id="ZITEM_NAME_522018">Blue Vane Gloves (Men)</STR>
+  <STR id="ZITEM_DESC_522018">Men's Blue Vane series gloves made of a highly flexible material.</STR>
+
+  <STR id="ZITEM_NAME_522019">Train Guard Gloves (Men)</STR>
+  <STR id="ZITEM_DESC_522019">Men's gloves worn by soldiers who guard the trains going through the empire and the republic.  It has the advantage of being lightweight.</STR>
+
+  <STR id="ZITEM_NAME_522020">PA Leather Gloves (Men)</STR>
+  <STR id="ZITEM_DESC_522020">Men's gloves worn by the personal assistants of the empire's nobles.</STR>
+
+  <STR id="ZITEM_NAME_522021">Divine Hands Gloves (Men)</STR>
+  <STR id="ZITEM_DESC_522021">Men's gloves worn by those in the Republic support forces, Healing Hands.</STR>
+
+  <STR id="ZITEM_NAME_522022">Slider Sports Gloves (Men)</STR>
+  <STR id="ZITEM_DESC_522022">Men's sport gloves that are comfortable enough to wear everyday while still maintaining sports functionality.</STR>
+
+  <STR id="ZITEM_NAME_522035">Tuxedo Gloves (Men)</STR>
+  <STR id="ZITEM_DESC_522035">Tuxedo gloves for a wedding that has a sharp and elegant touch.</STR>
+
+  <STR id="ZITEM_NAME_522501">Ceremonial Dress Gloves (Women)</STR>
+  <STR id="ZITEM_DESC_522501">Ceremonial dress gloves supplied to the female soldiers of the Empire.</STR>
+
+  <STR id="ZITEM_NAME_522502">Gunners Heaven Gloves (Women)</STR>
+  <STR id="ZITEM_DESC_522502">Fur gloves exclusively for the Gunners Heaven, a private organization of the Republic. Gloves are made with soft rabbit fur.</STR>
+
+  <STR id="ZITEM_NAME_522503">Eternal Blue Gloves (Women)</STR>
+  <STR id="ZITEM_DESC_522503">The outlaw at the sea, women's pirate Eternal Blue gloves.</STR>
+
+  <STR id="ZITEM_NAME_522504">Adventurer Gloves (Women)</STR>
+  <STR id="ZITEM_DESC_522504">Women's gloves recommended for the novice adventurers. This item is made for those who hate to wear heavy gear.</STR>
+
+  <STR id="ZITEM_NAME_522505">Blue Whistle Gloves (Women)</STR>
+  <STR id="ZITEM_DESC_522505">Women's Blue Whistle gloves, Blue Whistle is known as the headache of the Empire.</STR>
+
+  <STR id="ZITEM_NAME_522506">Ipot Gloves (Women)</STR>
+  <STR id="ZITEM_DESC_522506">Gloves for cool females on a hot summer beach.</STR>
+
+  <STR id="ZITEM_NAME_522507">Iron Crow Gloves (Women)</STR>
+  <STR id="ZITEM_DESC_522507">Women's gloves worn in Havani, the main city for outlaws. </STR>
+
+  <STR id="ZITEM_NAME_522508">Mrs. Claus Gloves (Women)</STR>
+  <STR id="ZITEM_DESC_522508">Christmas season item for women.</STR>
+
+  <STR id="ZITEM_NAME_522509">Phantom Breed Gloves (Women)</STR>
+  <STR id="ZITEM_DESC_522509">Women's gloves for a spy organization handed down from the ancient times. They are somewhat heavy.</STR>
+
+  <STR id="ZITEM_NAME_522510">Republic Gun Priestess Gloves (Women)</STR>
+  <STR id="ZITEM_DESC_522510">Women's lightweight gloves for a secret organization related with religious groups.</STR>
+
+  <STR id="ZITEM_NAME_522511">Gray Dust Gloves (Women)</STR>
+  <STR id="ZITEM_DESC_522511">Women's gloves worn by the Gray Dust elite troops.</STR>
+
+  <STR id="ZITEM_NAME_522512">Sir Protector Gloves (Women)</STR>
+  <STR id="ZITEM_DESC_522512">Women's Sir Protector Gloves, designed for protection.</STR>
+
+  <STR id="ZITEM_NAME_522513">Gun Knight Gloves (Women)</STR>
+  <STR id="ZITEM_DESC_522513">These gloves were once worn by a legendary female gun knight of Axium. </STR>
+
+  <STR id="ZITEM_NAME_522514">Princess Warrior Gloves (Women)</STR>
+  <STR id="ZITEM_DESC_522514">Gloves made suitable for a princess to wear in combat.</STR>
+
+  <STR id="ZITEM_NAME_522515">Desert Flame Gloves (Women)</STR>
+  <STR id="ZITEM_DESC_522515">The Desert Flame women's leather gloves, made for troops who operate in the desert.</STR>
+
+  <STR id="ZITEM_NAME_522516">Battle Brood Gauntlets (Women)</STR>
+  <STR id="ZITEM_DESC_522516">A part of women's special armor made of reinforced material. It protects hands from all types of damage.</STR>
+
+  <STR id="ZITEM_NAME_522517">Military Officer Gloves (Women)</STR>
+  <STR id="ZITEM_DESC_522517">Female military officer gloves favored by military fanatics.</STR>
+
+  <STR id="ZITEM_NAME_522518">Blue Vane Gloves (Women)</STR>
+  <STR id="ZITEM_DESC_522518">Women's Blue Vane series gloves made of a highly flexible material.</STR>
+
+  <STR id="ZITEM_NAME_522519">Train Guard Gloves (Women)</STR>
+  <STR id="ZITEM_DESC_522519">Women's gloves worn by soldiers guarding the trains going through the empire and the republic.  It has the advantage of being lightweight.</STR>
+
+  <STR id="ZITEM_NAME_522520">PA cotton Gloves (Women)</STR>
+  <STR id="ZITEM_DESC_522520">Women's gloves worn by the personal assistants of the empire's nobles.</STR>
+
+  <STR id="ZITEM_NAME_522521">Divine Hands Gloves (Women)</STR>
+  <STR id="ZITEM_DESC_522521">Women's gloves worn by those in the Republic support forces, Healing Hands.</STR>
+
+  <STR id="ZITEM_NAME_522522">Slider Sports Gloves (Women)</STR>
+  <STR id="ZITEM_DESC_522522">Women's sport gloves that are comfortable enough to wear everyday while still maintaining sports functionality.</STR>
+
+  <STR id="ZITEM_NAME_522535">Wedding Gloves (Women)</STR>
+  <STR id="ZITEM_DESC_522535">Pure white wedding gloves of every girl's dream, in cheerful minimal style.</STR>
+
+  <STR id="ZITEM_NAME_523001">Ceremonial Dress Trousers (Men)</STR>
+  <STR id="ZITEM_DESC_523001">Ceremonial dress trousers that the general ranks of the Empire wear at important ceremonies.</STR>
+
+  <STR id="ZITEM_NAME_523002">Gunners Heaven Trousers (Men)</STR>
+  <STR id="ZITEM_DESC_523002">Trousers designed exclusively for the Gunners Heaven, private organization of the Republic.</STR>
+
+  <STR id="ZITEM_NAME_523003">Eternal Blue Trousers (Men)</STR>
+  <STR id="ZITEM_DESC_523003">Men's uniform trousers for Eternal Blue, a crew of outlaws in the sea.</STR>
+
+  <STR id="ZITEM_NAME_523004">Adventurer Trousers (Men)</STR>
+  <STR id="ZITEM_DESC_523004">Men's Trousers recommended for novice adventurers who hate outfits with heavy equipment.</STR>
+
+  <STR id="ZITEM_NAME_523005">Blue Whistle Trousers (Men)</STR>
+  <STR id="ZITEM_DESC_523005">Men's trousers for Blue Whistle, Blue Whistle is known as the headache of the Empire.</STR>
+
+  <STR id="ZITEM_NAME_523006">Ipot Beach Shorts (Men)</STR>
+  <STR id="ZITEM_DESC_523006">Summer shorts for downtime at a hot beach in Sin City.</STR>
+
+  <STR id="ZITEM_NAME_523007">Iron Crow Trousers (Men)</STR>
+  <STR id="ZITEM_DESC_523007">Trousers worn by the Iron Crow warriors.</STR>
+
+  <STR id="ZITEM_NAME_523008">Santa Claus Trousers (Men)</STR>
+  <STR id="ZITEM_DESC_523008">Christmas season item for men.</STR>
+
+  <STR id="ZITEM_NAME_523009">Phantom Breed Trousers (Men)</STR>
+  <STR id="ZITEM_DESC_523009">Trousers designed for the Phantom Breed spy crew.</STR>
+
+  <STR id="ZITEM_NAME_523010">Republic Gun Priest Trousers (Men)</STR>
+  <STR id="ZITEM_DESC_523010">Lightweight trousers for men, worn by Republic Gun Priests related with religious groups.</STR>
+
+  <STR id="ZITEM_NAME_523011">Gray Dust Trousers (Men)</STR>
+  <STR id="ZITEM_DESC_523011">Men's trousers designed for the Gray Dust elite troops.</STR>
+
+  <STR id="ZITEM_NAME_523012">Sir Protector Trousers (Men)</STR>
+  <STR id="ZITEM_DESC_523012">Sleek men's trousers designed for defense.</STR>
+
+  <STR id="ZITEM_NAME_523013">Gun Knight Trousers (Men)</STR>
+  <STR id="ZITEM_DESC_523013">This trousers was once worn by a legendary male gun knight of Axium.</STR>
+
+  <STR id="ZITEM_NAME_523014">Warrior Trousers (Men)</STR>
+  <STR id="ZITEM_DESC_523014">Legendary pants designed for elite warriors.</STR>
+
+  <STR id="ZITEM_NAME_523015">Desert Flame Trousers (Men)</STR>
+  <STR id="ZITEM_DESC_523015">Desert Flame pants for Men.</STR>
+
+  <STR id="ZITEM_NAME_523016">Battle Brood Pants (Men)</STR>
+  <STR id="ZITEM_DESC_523016">Special pants made of reinforced material to enhance leg protection.</STR>
+
+  <STR id="ZITEM_NAME_523017">Active Sports Pants (Men)</STR>
+  <STR id="ZITEM_DESC_523017">(Limited Periodic Sale) Powerful men's sport suit.</STR>
+
+  <STR id="ZITEM_NAME_523020">Military Officer Trousers (Men)</STR>
+  <STR id="ZITEM_DESC_523020">Trousers worn by military officers. Favored by war fanatics.</STR>
+
+  <STR id="ZITEM_NAME_523021">Blue Vane Trousers (Men)</STR>
+  <STR id="ZITEM_DESC_523021">Men's Blue Vane series trousers made of a highly flexible material.</STR>
+
+  <STR id="ZITEM_NAME_523022">Train Guard Trousers (Men)</STR>
+  <STR id="ZITEM_DESC_523022">Men's trousers worn by soldiers guarding the trains going through the empire and the republic.  It has the advantage of being lightweight.</STR>
+
+  <STR id="ZITEM_NAME_523023">PA Pants (Men)</STR>
+  <STR id="ZITEM_DESC_523023">Men's pants worn by the personal assistants of the empire's nobles.</STR>
+
+  <STR id="ZITEM_NAME_523024">Divine Hands Pants (Men)</STR>
+  <STR id="ZITEM_DESC_523024">Men's pants worn by those in the Republic support forces, Healing Hands.</STR>
+
+  <STR id="ZITEM_NAME_523025">Slider Sports Pants (Men)</STR>
+  <STR id="ZITEM_DESC_523025">Men's sport pants that are comfortable enough to wear everyday while still maintaining sports functionality.</STR>
+
+  <STR id="ZITEM_NAME_523038">Tuxedo Pants (Men)</STR>
+  <STR id="ZITEM_DESC_523038">Tuxedo pants for a wedding that has a sharp and elegant touch.</STR>
+
+  <STR id="ZITEM_NAME_523501">Ceremonial Dress Trousers (Women)</STR>
+  <STR id="ZITEM_DESC_523501">Ceremonial dress trousers supplied to the female soldiers of the Empire.</STR>
+
+  <STR id="ZITEM_NAME_523502">Gunners Heaven Trousers (Women)</STR>
+  <STR id="ZITEM_DESC_523502">Women's trousers exclusively for the Gunners Heaven, a private organization of the Republic.</STR>
+
+  <STR id="ZITEM_NAME_523503">Eternal Blue Trousers (Women)</STR>
+  <STR id="ZITEM_DESC_523503">Women's uniform trousers for Eternal Blue, outlaws at the sea.</STR>
+
+  <STR id="ZITEM_NAME_523504">Adventurer Trousers (Women)</STR>
+  <STR id="ZITEM_DESC_523504">Women's trousers recommended for novice adventurers who hate outfits with heavy equipment.</STR>
+
+  <STR id="ZITEM_NAME_523505">Blue Whistle Trousers (Women)</STR>
+  <STR id="ZITEM_DESC_523505">Women's Trousers for Blue Whistle, Blue Whistle is known as the headache of the Empire.</STR>
+
+  <STR id="ZITEM_NAME_523506">Ipot Bikini (Women)</STR>
+  <STR id="ZITEM_DESC_523506">Bikini garment for cool women on a hot summer beach.</STR>
+
+  <STR id="ZITEM_NAME_523507">Iron Crow Trousers (Women)</STR>
+  <STR id="ZITEM_DESC_523507">Iron Crow women's trousers worn in Iron Crow, the center of the Havani, main city for outlaws.</STR>
+
+  <STR id="ZITEM_NAME_523508">Mrs. Claus Skirt (Women)</STR>
+  <STR id="ZITEM_DESC_523508">Christmas season item for women.</STR>
+
+  <STR id="ZITEM_NAME_523509">Phantom Breed Trousers (Women)</STR>
+  <STR id="ZITEM_DESC_523509">Women's trousers handed down from the ancient times. They are somewhat heavy.</STR>
+
+  <STR id="ZITEM_NAME_523510">Republic Gun Priestess Trousers (Women)</STR>
+  <STR id="ZITEM_DESC_523510">Women's lightweight trousers for a secret organization related with religious groups.</STR>
+
+  <STR id="ZITEM_NAME_523511">Gray Dust Trousers (Women)</STR>
+  <STR id="ZITEM_DESC_523511">Women's trousers worn by the Gray Dust elite troops.</STR>
+
+  <STR id="ZITEM_NAME_523512">Sir Protector Trousers (Women)</STR>
+  <STR id="ZITEM_DESC_523512">Women's Sir Protector Trousers, designed for protection.</STR>
+
+  <STR id="ZITEM_NAME_523513">Gun Knight Trousers (Women)</STR>
+  <STR id="ZITEM_DESC_523513">This trousers was once worn by a legendary female gun knight of Axium.</STR>
+
+  <STR id="ZITEM_NAME_523514">Princess Warrior Trousers (Women)</STR>
+  <STR id="ZITEM_DESC_523514">Designed for a princess, built to endure combat for a warrior.</STR>
+
+  <STR id="ZITEM_NAME_523515">Desert Flame Pants (Women)</STR>
+  <STR id="ZITEM_DESC_523515">The troop which operates in deserts, the Desert Flame women's pants.</STR>
+
+  <STR id="ZITEM_NAME_523516">Battle Brood Bottom (Women)</STR>
+  <STR id="ZITEM_DESC_523516">A part of women's special armor made of reinforced material. It offers major leg protection.</STR>
+
+  <STR id="ZITEM_NAME_523517">Active Sports Pants (Women)</STR>
+  <STR id="ZITEM_DESC_523517">(Limited Periodic Sale) A women's sports suit made to be used in a certain sport. It seems to generate great power when worn.</STR>
+
+  <STR id="ZITEM_NAME_523520">Military Officer Trousers (Women)</STR>
+  <STR id="ZITEM_DESC_523520">Female military officer trousers favored by military fanatics.</STR>
+
+  <STR id="ZITEM_NAME_523521">Blue Vane Trousers (Women)</STR>
+  <STR id="ZITEM_DESC_523521">Women's Blue Vane series trousers made of a highly flexible material.</STR>
+
+  <STR id="ZITEM_NAME_523522">Train Guard Trousers (Women)</STR>
+  <STR id="ZITEM_DESC_523522">Women's trousers worn by soldiers guarding the trains going through the empire and the republic.  It has the advantage of being lightweight.</STR>
+
+  <STR id="ZITEM_NAME_523523">PA Dress Pants (Women)</STR>
+  <STR id="ZITEM_DESC_523523">Women's pants worn by the personal assistants of the empire's nobles.</STR>
+
+  <STR id="ZITEM_NAME_523524">Divine Hands Skirt (Women)</STR>
+  <STR id="ZITEM_DESC_523524">Women's skirt worn by those in the Republic support forces, Healing Hands.</STR>
+
+  <STR id="ZITEM_NAME_523525">Slider Sports Pants (Women)</STR>
+  <STR id="ZITEM_DESC_523525">Women's sport pants that are comfortable enough to wear everyday while still maintaining sports functionality.</STR>
+
+  <STR id="ZITEM_NAME_523538">Wedding Lower Garment (Women)</STR>
+  <STR id="ZITEM_DESC_523538">Pure white wedding lower garment of every girl's dream, in cheerful minimal style.</STR>
+
+  <STR id="ZITEM_NAME_524001">Ceremonial Dress Shoes (Men)</STR>
+  <STR id="ZITEM_DESC_524001">Iron Crow warriors wear these protective shoes around the city of Havani, the city of outlaws.</STR>
+
+  <STR id="ZITEM_NAME_524002">Gunners Heaven Leather Shoes (Men)</STR>
+  <STR id="ZITEM_DESC_524002">Exclusive leather shoes for the Republic's Gunners Heaven.</STR>
+
+  <STR id="ZITEM_NAME_524003">Eternal Blue Boots (Men)</STR>
+  <STR id="ZITEM_DESC_524003">Uniform boots for the Eternal Blue outlaws.</STR>
+
+  <STR id="ZITEM_NAME_524004">Adventurer Boots (Men)</STR>
+  <STR id="ZITEM_DESC_524004">Boots recommended for novice adventurers who hate outfits with heavy equipment.</STR>
+
+  <STR id="ZITEM_NAME_524005">Blue Whistle Shoes (Men)</STR>
+  <STR id="ZITEM_DESC_524005">Shoes designed for Blue Whistle.</STR>
+
+  <STR id="ZITEM_NAME_524006">Summer Beach Aqua Shoes (Men)</STR>
+  <STR id="ZITEM_DESC_524006">Aqua shoes for cool guys on a hot summer beach.</STR>
+
+  <STR id="ZITEM_NAME_524007">Iron Crow Shoes (Men)</STR>
+  <STR id="ZITEM_DESC_524007">Iron Crow warriors wear these protective shoes around the city of Havani, the city of outlaws.</STR>
+
+  <STR id="ZITEM_NAME_524008">Santa Claus Boots (Men)</STR>
+  <STR id="ZITEM_DESC_524008">Christmas season item for men.</STR>
+
+  <STR id="ZITEM_NAME_524009">Phantom Breed Shoes (Men)</STR>
+  <STR id="ZITEM_DESC_524009">Heavy shoes for the Phantom Breed.</STR>
+
+  <STR id="ZITEM_NAME_524010">Gun Priest Boots (Men)</STR>
+  <STR id="ZITEM_DESC_524010">Men's lightweight shoes for a secret organization associated with religious groups.</STR>
+
+  <STR id="ZITEM_NAME_524011">Gray Dust Shoes (Men)</STR>
+  <STR id="ZITEM_DESC_524011">Uniform shoes for the elite Gray Dust troops.</STR>
+
+  <STR id="ZITEM_NAME_524012">Sir Protector Shoes (Men)</STR>
+  <STR id="ZITEM_DESC_524012">These shoes enhance defensive strength.</STR>
+
+  <STR id="ZITEM_NAME_524013">Gun Knight Shoes (Men)</STR>
+  <STR id="ZITEM_DESC_524013">These shoes were once worn by a legendary male gun knight of Axium.</STR>
+
+  <STR id="ZITEM_NAME_524014">Warrior Shoes (Men)</STR>
+  <STR id="ZITEM_DESC_524014">Legendary shoes designed for elite warriors.</STR>
+
+  <STR id="ZITEM_NAME_524015">Desert Flame Boots (Men)</STR>
+  <STR id="ZITEM_DESC_524015">Desert Flame's leather boots for men.</STR>
+
+  <STR id="ZITEM_NAME_524016">Battle Brood Boots (Men)</STR>
+  <STR id="ZITEM_DESC_524016">Special men's boots made of reinforced material to enhance foot protection.</STR>
+
+  <STR id="ZITEM_NAME_524017">Active Sports Shoes (Men)</STR>
+  <STR id="ZITEM_DESC_524017">Men's sport suit that seems to generate great power when worn.</STR>
+
+  <STR id="ZITEM_NAME_524020">Military Officer Battle Shoes (Men)</STR>
+  <STR id="ZITEM_DESC_524020">Battle shoes worn by military officers favored by war fanatics.</STR>
+
+  <STR id="ZITEM_NAME_524021">Blue Vane Shoes (Men)</STR>
+  <STR id="ZITEM_DESC_524021">Men's Blue Vane series shoes made from a highly flexible material.</STR>
+
+  <STR id="ZITEM_NAME_524022">Train Guard Boots (Men)</STR>
+  <STR id="ZITEM_DESC_524022">Men's leather boots worn by soldiers guarding the trains going through the empire and the republic.  It has the advantage of being lightweight.</STR>
+
+  <STR id="ZITEM_NAME_524023">PA Dress Shoes (Men)</STR>
+  <STR id="ZITEM_DESC_524023">Men's dress shoes worn by the personal assistants of the empire's nobles.</STR>
+
+  <STR id="ZITEM_NAME_524024">Divine Hands Shoes (Men)</STR>
+  <STR id="ZITEM_DESC_524024">Men's shoes worn by those in the Republic support forces, Healing Hands.</STR>
+
+  <STR id="ZITEM_NAME_524025">Slider Sports Shoes (Men)</STR>
+  <STR id="ZITEM_DESC_524025">Men's sport shoes that are comfortable enough to wear everyday while still maintaining sports functionality.</STR>
+
+  <STR id="ZITEM_NAME_524038">Tuxedo Shoes (Men)</STR>
+  <STR id="ZITEM_DESC_524038">Tuxedo shoes for a wedding that has a sharp and elegant touch.</STR>
+
+  <STR id="ZITEM_NAME_524501">Ceremonial Dress Shoes (Women)</STR>
+  <STR id="ZITEM_DESC_524501">Ceremonial dress shoes supplied to the female soldiers of the Empire. </STR>
+
+  <STR id="ZITEM_NAME_524502">Gunners Heaven Reinforced Leather Shoes (Women)</STR>
+  <STR id="ZITEM_DESC_524502">Exclusive reinforced leather shoes for the Gunners Heaven, a private organization of the Republic.</STR>
+
+  <STR id="ZITEM_NAME_524503">Eternal Blue Boots (Women)</STR>
+  <STR id="ZITEM_DESC_524503">The outlaw at the sea, women's Eternal Blue boots.</STR>
+
+  <STR id="ZITEM_NAME_524504">Adventurer Boots (Women)</STR>
+  <STR id="ZITEM_DESC_524504">Women's boots recommended for the novice adventurers. This item is made for those who hate to wear heavy gear.</STR>
+
+  <STR id="ZITEM_NAME_524505">Blue Whistle Shoes (Women)</STR>
+  <STR id="ZITEM_DESC_524505">Women's Blue Whistle shoes, Blue Whistle is known as the headache of the Empire.</STR>
+
+  <STR id="ZITEM_NAME_524506">Ipot Sandals (Women)</STR>
+  <STR id="ZITEM_DESC_524506">Sandals for cool women on a hot summer beach.</STR>
+
+  <STR id="ZITEM_NAME_524507">Iron Crow Shoes (Women)</STR>
+  <STR id="ZITEM_DESC_524507">Women's shoes worn in Havani, the city of outlaws.</STR>
+
+  <STR id="ZITEM_NAME_524508">Mrs. Claus Boots (Women)</STR>
+  <STR id="ZITEM_DESC_524508">Christmas season item for women.</STR>
+
+  <STR id="ZITEM_NAME_524509">Phantom Breed Shoes (Women)</STR>
+  <STR id="ZITEM_DESC_524509">Women's shoes handed down from ancient times. They are somewhat heavy.</STR>
+
+  <STR id="ZITEM_NAME_524510">Republic Gun Priestess Boots (Women)</STR>
+  <STR id="ZITEM_DESC_524510">Women's lightweight shoes for a secret organization related with religious groups.</STR>
+
+  <STR id="ZITEM_NAME_524511">Gray Dust Shoes (Women)</STR>
+  <STR id="ZITEM_DESC_524511">Women's shoes worn by the Gray Dust elite troops.</STR>
+
+  <STR id="ZITEM_NAME_524512">Sir Protector Shoes (Women)</STR>
+  <STR id="ZITEM_DESC_524512">Women's Sir Protector Shoes, designed for protection.</STR>
+
+  <STR id="ZITEM_NAME_524513">Gun Knight Shoes (Women)</STR>
+  <STR id="ZITEM_DESC_524513">These shoes were once worn by a legendary female gun knight of Axium.</STR>
+
+  <STR id="ZITEM_NAME_524514">Princess Warrior Shoes (Women)</STR>
+  <STR id="ZITEM_DESC_524514">Shoes made suitable for a princess to wear in combat.</STR>
+
+  <STR id="ZITEM_NAME_524515">Desert Flame Boots (Women)</STR>
+  <STR id="ZITEM_DESC_524515">Desert Flame's boots for women.</STR>
+
+  <STR id="ZITEM_NAME_524516">Battle Brood Boots (Women)</STR>
+  <STR id="ZITEM_DESC_524516">Special women's boots made of reinforced material to enhance foot protection.</STR>
+
+  <STR id="ZITEM_NAME_524517">Active Sports Shoes (Women)</STR>
+  <STR id="ZITEM_DESC_524517">A women's sports suit made to be used in a certain sport. It seems to generate great power when worn.</STR>
+
+  <STR id="ZITEM_NAME_524520">Military Officer Battle Shoes (Women)</STR>
+  <STR id="ZITEM_DESC_524520">Female military officer battle shoes favored by military fanatics.</STR>
+
+  <STR id="ZITEM_NAME_524521">Blue Vane Shoes (Women)</STR>
+  <STR id="ZITEM_DESC_524521">Women's Blue Vane series shoes made from a highly flexible material.</STR>
+
+  <STR id="ZITEM_NAME_524522">Train Guard Boots (Women)</STR>
+  <STR id="ZITEM_DESC_524522">Women's leather boots worn by soldiers guarding the trains going through the empire and the republic.  It has the advantage of being lightweight.</STR>
+
+  <STR id="ZITEM_NAME_524523">PA Dress Shoes (Women)</STR>
+  <STR id="ZITEM_DESC_524523">Women's dress shoes worn by the personal assistants of the empire's nobles.</STR>
+
+  <STR id="ZITEM_NAME_524524">Divine Hands Shoes (Women)</STR>
+  <STR id="ZITEM_DESC_524524">Women's shoes worn by those in the Republic support forces, Healing Hands.</STR>
+
+  <STR id="ZITEM_NAME_524525">Slider Sports Shoes (Women)</STR>
+  <STR id="ZITEM_DESC_524525">Women's sport shoes that are comfortable enough to wear everyday while still maintaining sports functionality.</STR>
+
+  <STR id="ZITEM_NAME_524538">Wedding Shoes (Women)</STR>
+  <STR id="ZITEM_DESC_524538">Pure white wedding shoes of every girl's dream, in cheerful minimal style.</STR>
+
+  <STR id="ZITEM_NAME_525001">Clover Ring</STR>
+  <STR id="ZITEM_DESC_525001">This ring brings luck and makes you lighter.</STR>
+
+  <STR id="ZITEM_NAME_525002">Iron Calvary Ring</STR>
+  <STR id="ZITEM_DESC_525002">Powerful magicians designed this ring for the Iron Calvary. Its mighty force makes you feel lighter.</STR>
+
+  <STR id="ZITEM_NAME_525003">Ring of the Great Emperor</STR>
+  <STR id="ZITEM_DESC_525003">This enchanted ring was designed for the Great Emperor of Ryswick. A mysterious power affects anyone that wears this ring.</STR>
+
+  <STR id="ZITEM_NAME_525004">Skill Ring</STR>
+  <STR id="ZITEM_DESC_525004">Increases experience and bounty by 20%.</STR>
+
+  <STR id="ZITEM_NAME_525005">Lucky Ring</STR>
+  <STR id="ZITEM_DESC_525005">A ring that possesses many different mysterious powers.  Only one can be equiped at a time.</STR>
+
+  <STR id="ZITEM_NAME_525101">Lucky Chocolate Bar</STR>
+  <STR id="ZITEM_DESC_525101">A delicious looking chocolate. A small amount of both HP and AP are healed at once when eaten.</STR>
+
+  <STR id="ZITEM_NAME_526001">Magazine Pouch</STR>
+  <STR id="ZITEM_DESC_526001">This Pouch holds three extra magazine clips.</STR>
+
+  <STR id="ZITEM_NAME_527001">Medical Kit MX-S1</STR>
+  <STR id="ZITEM_DESC_527001">A powerful super lightweight medical kit. Medical Kit MX-S1 heals almost twice more than MK series. (3 bundle pack)</STR>
+
+  <STR id="ZITEM_NAME_527002">Medical Kit MX-S2</STR>
+  <STR id="ZITEM_DESC_527002">A powerful super lightweight medical kit. Medical Kit MX-S2 heals almost twice more than MK series. (5 bundle pack)</STR>
+
+  <STR id="ZITEM_NAME_528001">Repair Kit RX-S1</STR>
+  <STR id="ZITEM_DESC_528001">A powerful super lightweight repair kit. Repair Kit RX-S1 heals almost twice more than RK series. (3 bundle pack)</STR>
+
+  <STR id="ZITEM_NAME_528002">Repair Kit RX-S2</STR>
+  <STR id="ZITEM_DESC_528002">A powerful super lightweight repair kit. Repair Kit RX-S2 heals almost twice more than RK series. (5 bundle pack)</STR>
+
+  <STR id="ZITEM_NAME_600001">Canopus' Coin</STR>
+  <STR id="ZITEM_DESC_600001">A coin empowered by Canopus the God of Flame.</STR>
+
+  <STR id="ZITEM_NAME_600002">Canopus' Hand Stamp</STR>
+  <STR id="ZITEM_DESC_600002">A hand stamp empowered by Canopus the God of Flame.</STR>
+
+  <STR id="ZITEM_NAME_600003">Canopus' Medal</STR>
+  <STR id="ZITEM_DESC_600003">A medal empowered by Canopus the God of Flame.</STR>
+
+  <STR id="ZITEM_NAME_600004">Canopus' Jewel</STR>
+  <STR id="ZITEM_DESC_600004">A jewel empowered by Canopus the God of Flame.</STR>
+
+  <STR id="ZITEM_NAME_600005">Canopus' Eye</STR>
+  <STR id="ZITEM_DESC_600005">An eye empowered by Canopus the God of Flame.</STR>
+
+  <STR id="ZITEM_NAME_600006">Canopus' Eye</STR>
+  <STR id="ZITEM_DESC_600006">[Enchant Lv.0] Enchanted on this tiny jewel is the power of Canopus. Melee weapon fires up when charged. Any opponent hit by enchant attack will get damaged at every second for a certain amount of time.</STR>
+
+  <STR id="ZITEM_NAME_600101">Enia's Coin</STR>
+  <STR id="ZITEM_DESC_600101">A coin empowered by Enia the God of Water and Ice.</STR>
+
+  <STR id="ZITEM_NAME_600102">Enia's Hand Stamp</STR>
+  <STR id="ZITEM_DESC_600102">A hand stamp empowered by Enia the God of Water and Ice.</STR>
+
+  <STR id="ZITEM_NAME_600103">Enia's Medal</STR>
+  <STR id="ZITEM_DESC_600103">A medal empowered by Enia the God of Water and Ice.</STR>
+
+  <STR id="ZITEM_NAME_600104">Enia's Jewel</STR>
+  <STR id="ZITEM_DESC_600104">A jewel empowered by Enia the God of Water and Ice.</STR>
+
+  <STR id="ZITEM_NAME_600105">Enia's Eye</STR>
+  <STR id="ZITEM_DESC_600105">Eye of Enia the God of Water and Ice.</STR>
+
+  <STR id="ZITEM_NAME_600106">Enia's Eye</STR>
+  <STR id="ZITEM_DESC_600106">[Enchant Lv.1] Enchanted on this tiny jewel is the power of Enia. Melee weapon fires up when charged. Any opponent hit by enchant attack will get damaged at every second for a certain amount of time.</STR>
+
+  <STR id="ZITEM_NAME_600201">Winscar's Coin</STR>
+  <STR id="ZITEM_DESC_600201">A coin empowered by Winscar the Lord of Wind and Sky.</STR>
+
+  <STR id="ZITEM_NAME_600202">Winscar's Hand Stamp</STR>
+  <STR id="ZITEM_DESC_600202">A hand stamp empowered by Winscar the Lord of Wind and Sky.</STR>
+
+  <STR id="ZITEM_NAME_600203">Winscar's Medal</STR>
+  <STR id="ZITEM_DESC_600203">A medal empowered by Winscar the Lord of Wind and Sky.</STR>
+
+  <STR id="ZITEM_NAME_600204">Winscar's Jewel</STR>
+  <STR id="ZITEM_DESC_600204">A jewel empowered by Winscar the Lord of Wind and Sky.</STR>
+
+  <STR id="ZITEM_NAME_600205">Winscar's Eye</STR>
+  <STR id="ZITEM_DESC_600205">Eye of Winscar the God of Wind and Sky.</STR>
+
+  <STR id="ZITEM_NAME_600301">Giston's Coin</STR>
+  <STR id="ZITEM_DESC_600301">A coin empowered by Giston the God of Earth.</STR>
+
+  <STR id="ZITEM_NAME_600302">Giston's Hand Stamp</STR>
+  <STR id="ZITEM_DESC_600302">A hand stamp empowered by Giston the God of Earth.</STR>
+
+  <STR id="ZITEM_NAME_600303">Giston's Medal</STR>
+  <STR id="ZITEM_DESC_600303">A medal empowered by Giston the God of Earth.</STR>
+
+  <STR id="ZITEM_NAME_600304">Giston's Jewel</STR>
+  <STR id="ZITEM_DESC_600304">A jewel empowered by Giston the God of Earth.</STR>
+
+  <STR id="ZITEM_NAME_600305">Giston's Eye</STR>
+  <STR id="ZITEM_DESC_600305">Eye of Giston the God of Earth</STR>
+
+
+  <!-- Premium Ticket -->
+  <STR id="ZITEM_NAME_700001">Admission Ticket</STR>
+  <STR id="ZITEM_DESC_700001">Ticket that allows you admission into a pay channel.</STR>
+
+
+
+  <!-- channel.xml -->
+<STR id="CHANNEL_DEFAULT_NAME">Free Channel</STR>
+
+<STR id="CHANNEL_NOVICE_NAME_1">Free Channel 1</STR>
+<STR id="CHANNEL_NOVICE_NAME_2">Free Channel 2</STR>
+<STR id="CHANNEL_NOVICE_NAME_3">Free Channel 3</STR>
+
+<STR id="CHANNEL_NEWBIE_NAME_1">Entry-level Channel 1 (Level 1~5)</STR>
+<STR id="CHANNEL_NEWBIE_NAME_2">Entry-level Channel 2 (Level 1~5)</STR>
+
+<STR id="CHANNEL_NEWBIE2_NAME_1">Beginner Channel 1 (Level 6~10)</STR>
+<STR id="CHANNEL_NEWBIE2_NAME_2">Beginner Channel 2 (Level 6~10)</STR>
+
+<STR id="CHANNEL_ROOKIE_NAME_1">Veteran Channel 1 (Level 11~20)</STR>
+<STR id="CHANNEL_ROOKIE_NAME_2">Veteran Channel 2 (Level 11~20)</STR>
+
+<STR id="CHANNEL_MASTERY_NAME_1">Expert Channel 1 (Level 21 over)</STR>
+<STR id="CHANNEL_MASTERY_NAME_2">Expert Channel 2 (Level 21 over)</STR>
+
+<STR id="CHANNEL_ELITE_NAME_1">Elite Channel 1 (Level 35 over)</STR>
+<STR id="CHANNEL_ELITE_NAME_2">Elite Channel 2 (Level 35 over)</STR>
+
+<!-- chatcmds.xml -->
+<STR id="CMD_NAME_1">help</STR>
+<STR id="CMD_USAGE_1">/help or /help [command]</STR>
+<STR id="CMD_HELP_1">Show the list of chatting commands.</STR>
+<STR id="CMD_ALIAS_1_1">h</STR>
+<STR id="CMD_ALIAS_1_2"></STR>
+
+<STR id="CMD_NAME_2">whisper</STR>
+<STR id="CMD_USAGE_2">/whisper [ID] [msg]</STR>
+<STR id="CMD_HELP_2">Whisper to the party designated with ID</STR>
+<STR id="CMD_ALIAS_2_1">w</STR>
+<STR id="CMD_ALIAS_2_2">say</STR>
+
+<STR id="CMD_NAME_3">report</STR>
+<STR id="CMD_USAGE_3">/report</STR>
+<STR id="CMD_HELP_3">Report the details of the chatting</STR>
+<STR id="CMD_ALIAS_3_1">112</STR>
+<STR id="CMD_ALIAS_3_2"></STR>
+
+<STR id="CMD_NAME_4">friend</STR>
+<STR id="CMD_USAGE_4">/friend [cmd] [args]</STR>
+<STR id="CMD_HELP_4">friend commands</STR>
+<STR id="CMD_ALIAS_4_1"></STR>
+<STR id="CMD_ALIAS_4_2"></STR>
+
+<STR id="CMD_NAME_5">clan</STR>
+<STR id="CMD_USAGE_5">/clan [cmd] [args]</STR>
+<STR id="CMD_HELP_5">clan commands</STR>
+<STR id="CMD_ALIAS_5_1"></STR>
+<STR id="CMD_ALIAS_5_2"></STR>
+
+<STR id="CMD_NAME_6">follow</STR>
+<STR id="CMD_USAGE_6">/follow [ID]</STR>
+<STR id="CMD_HELP_6">Follow friend's game stage</STR>
+<STR id="CMD_ALIAS_6_1"></STR>
+<STR id="CMD_ALIAS_6_2"></STR>
+
+
+<STR id="CMD_NAME_7">qj</STR>
+<STR id="CMD_USAGE_7">/qj</STR>
+<STR id="CMD_HELP_7">Start a game right away in any room</STR>
+<STR id="CMD_ALIAS_7_1">go</STR>
+<STR id="CMD_ALIAS_7_2"></STR>
+
+<STR id="CMD_NAME_8">taunt</STR>
+<STR id="CMD_USAGE_8">/taunt</STR>
+<STR id="CMD_HELP_8">Make a fool of others in a game. (Supported in games only)</STR>
+<STR id="CMD_ALIAS_8_1"></STR>
+<STR id="CMD_ALIAS_8_2"></STR>
+
+<STR id="CMD_NAME_9">salute</STR>
+<STR id="CMD_USAGE_9">/salute</STR>
+<STR id="CMD_HELP_9">Character bows to salute. (Supported in games only)</STR>
+<STR id="CMD_ALIAS_9_1">bow</STR>
+<STR id="CMD_ALIAS_9_2"></STR>
+
+<STR id="CMD_NAME_10">wave</STR>
+<STR id="CMD_USAGE_10">/wave</STR>
+<STR id="CMD_HELP_10">Character waves hands. (Supported in games only)</STR>
+<STR id="CMD_ALIAS_10_1"></STR>
+<STR id="CMD_ALIAS_10_2"></STR>
+
+<STR id="CMD_NAME_11">laugh</STR>
+<STR id="CMD_USAGE_11">/laugh</STR>
+<STR id="CMD_HELP_11">Character laughs. (Supported in games only)</STR>
+<STR id="CMD_ALIAS_11_1"></STR>
+<STR id="CMD_ALIAS_11_2"></STR>
+
+<STR id="CMD_NAME_12">cry</STR>
+<STR id="CMD_USAGE_12">/cry</STR>
+<STR id="CMD_HELP_12">Character cries. (Supported in games only)</STR>
+<STR id="CMD_ALIAS_12_1"></STR>
+<STR id="CMD_ALIAS_12_2"></STR>
+
+<STR id="CMD_NAME_13">dance</STR>
+<STR id="CMD_USAGE_13">/dance</STR>
+<STR id="CMD_HELP_13">Character dances. (Supported in games only)</STR>
+<STR id="CMD_ALIAS_13_1"></STR>
+<STR id="CMD_ALIAS_13_2"></STR>
+
+<STR id="CMD_NAME_14">macro</STR>
+<STR id="CMD_USAGE_14">/macro</STR>
+<STR id="CMD_HELP_14">Register macros</STR>
+<STR id="CMD_ALIAS_14_1"></STR>
+<STR id="CMD_ALIAS_14_2"></STR>
+
+<STR id="CMD_NAME_15">suicide</STR>
+<STR id="CMD_USAGE_15">/suicide</STR>
+<STR id="CMD_HELP_15">The character currently in the play gets immediately defeated.</STR>
+<STR id="CMD_ALIAS_15_1"></STR>
+<STR id="CMD_ALIAS_15_2"></STR>
+
+<STR id="CMD_NAME_16">vote</STR>
+<STR id="CMD_USAGE_16">/vote</STR>
+<STR id="CMD_HELP_16">voting</STR>
+<STR id="CMD_ALIAS_16_1">callvote</STR>
+<STR id="CMD_ALIAS_16_2"></STR>
+
+<STR id="CMD_NAME_17">yes</STR>
+<STR id="CMD_USAGE_17">/yes</STR>
+<STR id="CMD_HELP_17">call yes</STR>
+<STR id="CMD_ALIAS_17_1"></STR>
+<STR id="CMD_ALIAS_17_2"></STR>
+
+<STR id="CMD_NAME_18">no</STR>
+<STR id="CMD_USAGE_18">/no</STR>
+<STR id="CMD_HELP_18">call no</STR>
+<STR id="CMD_ALIAS_18_1"></STR>
+<STR id="CMD_ALIAS_18_2"></STR>
+
+<STR id="CMD_NAME_19">kick</STR>
+<STR id="CMD_USAGE_19">/kick</STR>
+<STR id="CMD_HELP_19">Propose kicking player</STR>
+<STR id="CMD_ALIAS_19_1"></STR>
+<STR id="CMD_ALIAS_19_2"></STR>
+
+<STR id="CMD_NAME_20">chatmake</STR>
+<STR id="CMD_USAGE_20">/chatmake [roomname]</STR>
+<STR id="CMD_HELP_20">make chatting room</STR>
+<STR id="CMD_ALIAS_20_1"></STR>
+<STR id="CMD_ALIAS_20_2"></STR>
+
+<STR id="CMD_NAME_21">chatjoin</STR>
+<STR id="CMD_USAGE_21">/chatjoin [roomname]</STR>
+<STR id="CMD_HELP_21">join chatting room</STR>
+<STR id="CMD_ALIAS_21_1"></STR>
+<STR id="CMD_ALIAS_21_2"></STR>
+
+<STR id="CMD_NAME_22">chatleave</STR>
+<STR id="CMD_USAGE_22">/chatleave [roomname]</STR>
+<STR id="CMD_HELP_22">leave chatting room</STR>
+<STR id="CMD_ALIAS_22_1"></STR>
+<STR id="CMD_ALIAS_22_2"></STR>
+
+<STR id="CMD_NAME_23">chatselect</STR>
+<STR id="CMD_USAGE_23">/chatselect [roomname]</STR>
+<STR id="CMD_HELP_23">select chatting room</STR>
+<STR id="CMD_ALIAS_23_1"></STR>
+<STR id="CMD_ALIAS_23_2"></STR>
+
+<STR id="CMD_NAME_24">chatinvite</STR>
+<STR id="CMD_USAGE_24">/chatinvite [name]</STR>
+<STR id="CMD_HELP_24">invite</STR>
+<STR id="CMD_ALIAS_24_1"></STR>
+<STR id="CMD_ALIAS_24_2"></STR>
+
+<STR id="CMD_NAME_25">chataccept</STR>
+<STR id="CMD_USAGE_25">/chataccept</STR>
+<STR id="CMD_HELP_25">accept</STR>
+<STR id="CMD_ALIAS_25_1"></STR>
+<STR id="CMD_ALIAS_25_2"></STR>
+
+<STR id="CMD_NAME_26">chat</STR>
+<STR id="CMD_USAGE_26">chat [message]</STR>
+<STR id="CMD_HELP_26">chat</STR>
+<STR id="CMD_ALIAS_26_1"></STR>
+<STR id="CMD_ALIAS_26_2"></STR>
+
+<!-- notify.xml -->
+<STR id="NOTIFY_10">Network initialization has failed.</STR>
+<STR id="NOTIFY_11">Network port is in use.</STR>
+<STR id="NOTIFY_15">NAT network connection configuration set.</STR>
+<STR id="NOTIFY_51">The user is not found.</STR>
+<STR id="NOTIFY_70">The character does not exist.</STR>
+<STR id="NOTIFY_100">The stage already exists.</STR>
+<STR id="NOTIFY_101">The stage does not exist.</STR>
+<STR id="NOTIFY_110">The capacity for members has reached its limit.</STR>
+<STR id="NOTIFY_150">The Chat Room has been created.</STR>
+<STR id="NOTIFY_151">The Chat Room creation has failed.</STR>
+<STR id="NOTIFY_152">The Chat Room already exists.</STR>
+<STR id="NOTIFY_153">The Chat Room does not exist.</STR>
+<STR id="NOTIFY_154">There is no Chat Room to participate in.</STR>
+<STR id="NOTIFY_155">You cannot participate in the Chat Room.</STR>
+<STR id="NOTIFY_156">Too many participants.</STR>
+<STR id="NOTIFY_200">Speed hacking has been declared as having been used.</STR>
+<STR id="NOTIFY_201">Use of memory hack has been declared.</STR>
+<STR id="NOTIFY_251">Already registered as a friend</STR>
+<STR id="NOTIFY_252">Not registered as a friend.</STR>
+<STR id="NOTIFY_253">The list of friends is full.</STR>
+<STR id="NOTIFY_255">Registered as friend.</STR>
+<STR id="NOTIFY_256">Released from a friend's status.</STR>
+<STR id="NOTIFY_301">Your counterpart has rejected whispering.</STR>
+<STR id="NOTIFY_302">Whispering has been rejected.</STR>
+<STR id="NOTIFY_311">Your counterpart has rejected the invitation.</STR>
+<STR id="NOTIFY_312">The invitation has been rejected.</STR>
+
+
+
+
+<!-- npc.xml -->
+<STR id="NPC_NAME_11">Soldier Goblin</STR>
+<STR id="NPC_DESC_11"></STR>
+
+<STR id="NPC_NAME_12">Goblin Gunner</STR>
+<STR id="NPC_DESC_12"></STR>
+
+<STR id="NPC_NAME_13">Goblin Wizard</STR>
+<STR id="NPC_DESC_13"></STR>
+
+<STR id="NPC_NAME_14">General Goblin</STR>
+<STR id="NPC_DESC_14"></STR>
+
+<STR id="NPC_NAME_15">Elder Goblin</STR>
+<STR id="NPC_DESC_15"></STR>
+
+<STR id="NPC_NAME_16">Goblin King</STR>
+<STR id="NPC_DESC_16"></STR>
+
+<STR id="NPC_NAME_17">Event Goblin</STR>
+<STR id="NPC_DESC_17"></STR>
+
+<STR id="NPC_NAME_21">Pampoa</STR>
+<STR id="NPC_DESC_21"></STR>
+
+<STR id="NPC_NAME_22">General Pampoa</STR>
+<STR id="NPC_DESC_22"></STR>
+
+<STR id="NPC_NAME_23">Pampow</STR>
+<STR id="NPC_DESC_23"></STR>
+
+<STR id="NPC_NAME_24">Cursed Pampow</STR>
+<STR id="NPC_DESC_24"></STR>
+
+<STR id="NPC_NAME_25">Pampow Baby</STR>
+<STR id="NPC_DESC_25"></STR>
+
+<STR id="NPC_NAME_31">Skeleton</STR>
+<STR id="NPC_DESC_31"></STR>
+
+<STR id="NPC_NAME_32">Skeleton Mage</STR>
+<STR id="NPC_DESC_32"></STR>
+
+<STR id="NPC_NAME_33">General Skeleton</STR>
+<STR id="NPC_DESC_33"></STR>
+
+<STR id="NPC_NAME_34">Giant Skeleton</STR>
+<STR id="NPC_DESC_34"></STR>
+
+<STR id="NPC_NAME_35">Cursed Corpse</STR>
+<STR id="NPC_DESC_35"></STR>
+
+<STR id="NPC_NAME_36">Richie</STR>
+<STR id="NPC_DESC_36"></STR>
+
+<STR id="NPC_NAME_41">Kobold</STR>
+<STR id="NPC_DESC_41"></STR>
+
+<STR id="NPC_NAME_42">Kobold Shaman</STR>
+<STR id="NPC_DESC_42"></STR>
+
+<STR id="NPC_NAME_43">General Kobold</STR>
+<STR id="NPC_DESC_43"></STR>
+
+<STR id="NPC_NAME_44">Kobold King</STR>
+<STR id="NPC_DESC_44"></STR>
+
+<STR id="NPC_NAME_45">Broken Golem</STR>
+<STR id="NPC_DESC_45"></STR>
+
+<STR id="NPC_NAME_46">Scrider</STR>
+<STR id="NPC_DESC_46"></STR>
+
+
+
+
+<!-- scenario.xml -->
+<STR id="SCENARIO_TITLE_500">Hubigo QL 0</STR>
+<STR id="SCENARIO_TITLE_501">Hubigo QL 1</STR>
+<STR id="SCENARIO_TITLE_502">Hubigo QL 2</STR>
+<STR id="SCENARIO_TITLE_503">Hubigo QL 3</STR>
+
+
+
+<!-- shutdown.xml -->
+<STR id="SHUTDOWN_01">SERVER EMEGENCY SHUTDOWN IN 1 MINUTE FOR PATCH</STR>
+<STR id="SHUTDOWN_02">Please log out right now for data safety.</STR>
+<STR id="SHUTDOWN_03">Sorry for your inconvenience.</STR>
+<STR id="SHUTDOWN_04">Server Shutdown after 30 seconds.</STR>
+<STR id="SHUTDOWN_05">Server Shutdown after 20 seconds.</STR>
+<STR id="SHUTDOWN_06">Server Shutdown after 10 seconds.</STR>
+<STR id="SHUTDOWN_07">Server Shutdown after 5 seconds.</STR>
+<STR id="SHUTDOWN_08">Server Shutdown after 4 seconds.</STR>
+<STR id="SHUTDOWN_09">Server Shutdown after 3 seconds.</STR>
+<STR id="SHUTDOWN_10">Server Shutdown after 2 seconds.</STR>
+<STR id="SHUTDOWN_11">Server Shutdown after 1 second.</STR>
+<STR id="SHUTDOWN_12">SHUTTING DOWN</STR>
+
+
+
+<!-- zquestitem.xml -->
+<STR id="QITEM_NAME_200001">Torn Page 13</STR>
+<STR id="QITEM_DESC_200001">A page torn out of a book. The faint print says page 13.</STR>
+
+<STR id="QITEM_NAME_200002">Torn Page 25</STR>
+<STR id="QITEM_DESC_200002">A page torn out of a book. The faint print says page 25.</STR>
+
+<STR id="QITEM_NAME_200003">Torn Page 41</STR>
+<STR id="QITEM_DESC_200003">A page torn out of a book. The faint print says page 41.</STR>
+
+<STR id="QITEM_NAME_200004">Torn Page 65</STR>
+<STR id="QITEM_DESC_200004">A page torn out of a book. The faint print says page 65.</STR>
+
+<STR id="QITEM_NAME_200005">Small Skull</STR>
+<STR id="QITEM_DESC_200005">Mysterious Skull. It looks like it is a skull of a bird.</STR>
+
+<STR id="QITEM_NAME_200006">Large Skull</STR>
+<STR id="QITEM_DESC_200006">Mysterious Skull. Not identified, the owner of the skull seems to have had a big head.</STR>
+
+<STR id="QITEM_NAME_200007">Mysterious Skull</STR>
+<STR id="QITEM_DESC_200007">Mysterious skull whose usage not identified.</STR>
+
+<STR id="QITEM_NAME_200008">Goblin's Skull</STR>
+<STR id="QITEM_DESC_200008">Skull of Goblin. An inscription on one side says, 'Call for a new world.'</STR>
+
+<STR id="QITEM_NAME_200009">King Goblin's Skull</STR>
+<STR id="QITEM_DESC_200009">Skull of the King, Goblin.</STR>
+
+<STR id="QITEM_NAME_200010">Enormously huge bone</STR>
+<STR id="QITEM_DESC_200010">It looks like bones of a man. However, the size is equivalent to that of a dinosaur.</STR>
+
+<STR id="QITEM_NAME_200011">Raw Meat</STR>
+<STR id="QITEM_DESC_200011">Raw meat of unknown animal. It seemed to have been used as food.</STR>
+
+<STR id="QITEM_NAME_200012">Seasoned Meat (Bulgogi)</STR>
+<STR id="QITEM_DESC_200012">Cooked seasoned meat. Looks very delicious.</STR>
+
+<STR id="QITEM_NAME_200013">Steak</STR>
+<STR id="QITEM_DESC_200013">Very delicious looking steak. It must have been Monster's favorite.</STR>
+
+<STR id="QITEM_NAME_200014">Iron Earring</STR>
+<STR id="QITEM_DESC_200014">Iron-made earrings for the tribe, Kobold. Humans cannot wear them.</STR>
+
+<STR id="QITEM_NAME_200015">Silver Earring</STR>
+<STR id="QITEM_DESC_200015">Silver earrings for the tribe, Kobold. Humans cannot wear them.</STR>
+
+<STR id="QITEM_NAME_200016">Gold Earring</STR>
+<STR id="QITEM_DESC_200016">Gold earrings for the tribe, Kobold. Humans cannot wear them.</STR>
+
+<STR id="QITEM_NAME_200017">Platinum Earring</STR>
+<STR id="QITEM_DESC_200017">Earrings made of special metal used by the King, Kobold. Humans cannot wear them.</STR>
+
+<STR id="QITEM_NAME_200018">Crimson's Necklace</STR>
+<STR id="QITEM_DESC_200018">A necklace worn by the trial chief of Goblin. It is highly doubtful whether humans can wear it.</STR>
+
+<STR id="QITEM_NAME_200019">Skeleton Doll</STR>
+<STR id="QITEM_DESC_200019">Doll made in the shape of the skeleton of a soldier. The taste of the maker is highly doubtful.</STR>
+
+<STR id="QITEM_NAME_200020">Kobold Doll</STR>
+<STR id="QITEM_DESC_200020">This doll looks exactly like Kobold! Will children be happy to get this doll?</STR>
+
+<STR id="QITEM_NAME_200021">Goblin Doll</STR>
+<STR id="QITEM_DESC_200021">Just looks like Goblin! But it seems that it could be used for nothing.</STR>
+
+<STR id="QITEM_NAME_200022">Pampow Doll</STR>
+<STR id="QITEM_DESC_200022">Doll that just looks like the mischievous fairy, Pampow.</STR>
+
+<STR id="QITEM_NAME_200023">Rabbit Doll</STR>
+<STR id="QITEM_DESC_200023">Cute doll shaped like rabbit. What is it for then?!</STR>
+
+<STR id="QITEM_NAME_200024">Stuffed Bear</STR>
+<STR id="QITEM_DESC_200024">Stuffed animal that kids used to have on their bed. How come it is in this...?!</STR>
+
+<STR id="QITEM_NAME_200025">Cursed Bear</STR>
+<STR id="QITEM_DESC_200025">Kids may not want to have it on their bed. How come it is here... ?!</STR>
+
+<STR id="QITEM_NAME_200026">Pampow Idol</STR>
+<STR id="QITEM_DESC_200026">Fairy shown in dreams. It just looks like Pampow.</STR>
+
+<STR id="QITEM_NAME_200027">Cursed Pampow Idol</STR>
+<STR id="QITEM_DESC_200027">It just looks like Pampow. However, it looks dreary somehow.</STR>
+
+<STR id="QITEM_NAME_200028">Devil's Dictionary</STR>
+<STR id="QITEM_DESC_200028">Dictionary that is full of strange contents.</STR>
+
+<STR id="QITEM_NAME_200029">Scrider's Register Volume I</STR>
+<STR id="QITEM_DESC_200029">A strange book full of people's names, volume I. It is said to have come from hell.</STR>
+
+<STR id="QITEM_NAME_200030">Scrider's Register Volume II</STR>
+<STR id="QITEM_DESC_200030">A strange book full of people's names, volume II. It is said to have come from hell.</STR>
+
+<STR id="QITEM_NAME_200031">Blessed Cross</STR>
+<STR id="QITEM_DESC_200031">It is similar to one that the gun priests had.</STR>
+
+<STR id="QITEM_NAME_200032">Cursed Cross</STR>
+<STR id="QITEM_DESC_200032">It is similar to one that the gun priests had. But...</STR>
+
+<STR id="QITEM_NAME_200033">Pickax</STR>
+<STR id="QITEM_DESC_200033">This is a pickax that is used in a stope. But where to mine with it?</STR>
+
+<STR id="QITEM_NAME_200034">Speaking Stone </STR>
+<STR id="QITEM_DESC_200034">This stone utters weird things from time to time. It can move, too. </STR>
+
+<STR id="QITEM_NAME_200035">Ice Crystal</STR>
+<STR id="QITEM_DESC_200035">Ice crystal that seems not to be melted by usual heat.</STR>
+
+<STR id="QITEM_NAME_200036">Broken Gear</STR>
+<STR id="QITEM_DESC_200036">Gear that has been broken. It seems no one can use it again.</STR>
+
+<STR id="QITEM_NAME_200037">High-class Gear</STR>
+<STR id="QITEM_DESC_200037">Gear that seems to have had some important function in a machine.</STR>
+
+<STR id="QITEM_NAME_200038">Ax of Goblin King</STR>
+<STR id="QITEM_DESC_200038">Scary ax that is used by the King, Goblin King. It is regretful that humans cannot use it.</STR>
+
+<STR id="QITEM_NAME_210001">Goblin's Picture Book</STR>
+<STR id="QITEM_DESC_210001">A picture book containing the information about Goblin.</STR>
+
+<!-- config_rel.xml -->
+<STR id="CONFIG_MACRO_F1">/h</STR>
+<STR id="CONFIG_MACRO_F2">/Provoke</STR>
+<STR id="CONFIG_MACRO_F3">/hi</STR>
+<STR id="CONFIG_MACRO_F4">/112</STR>
+<STR id="CONFIG_MACRO_F5">Hi~</STR>
+<STR id="CONFIG_MACRO_F6">Let's have a good time playing fairly.</STR>
+<STR id="CONFIG_MACRO_F7">Good Shot !!</STR>
+<STR id="CONFIG_MACRO_F8">Thank you very much.</STR>
+
+<!-- 공용 -->
+<STR id="UI_COMMON_OK">OK(&amp;O)</STR>
+<STR id="UI_COMMON_CANCEL">Cancel(&amp;C)</STR>
+
+<!-- Login.xml -->
+<STR id="UI_LOGIN_01">GunZ Login</STR>
+<STR id="UI_LOGIN_02">User ID</STR>
+<STR id="UI_LOGIN_03">Password</STR>
+<STR id="UI_LOGIN_04">Login(&amp;G)</STR>
+<STR id="UI_LOGIN_05">Do you want to quit the game?</STR>
+
+
+<!-- Lobby.xml -->
+<STR id="UI_LOBBY_01">Lobby</STR>
+<STR id="UI_LOBBY_02">Start Now(&amp;G)</STR>
+<STR id="UI_LOBBY_03">Find the counter clan team</STR>
+<STR id="UI_LOBBY_04">In search of the counter team...</STR>
+<STR id="UI_LOBBY_05">Cancel</STR>
+<STR id="UI_LOBBY_06">Name</STR>
+<STR id="UI_LOBBY_07">Clan :</STR>
+<STR id="UI_LOBBY_08">Level : 0 lv.</STR>
+<STR id="UI_LOBBY_09">XP : 0%</STR>
+<STR id="UI_LOBBY_10">Bounty : 0</STR>
+<STR id="UI_LOBBY_11">HP : 0</STR>
+<STR id="UI_LOBBY_12">AP : 0</STR>
+<STR id="UI_LOBBY_13">WT : 0</STR>
+<STR id="UI_LOBBY_14">Team Game</STR>
+<STR id="UI_LOBBY_15">Fight with the clan with similar capability only.</STR>
+<STR id="UI_LOBBY_16">Select the player to join the team game.</STR>
+<STR id="UI_LOBBY_17">OK(&amp;O)</STR>
+<STR id="UI_LOBBY_18">Cancel(&amp;C)</STR>
+<STR id="UI_LOBBY_19">Withdraw from the clan</STR>
+<STR id="UI_LOBBY_20">Would you withdraw from the clan?</STR>
+<STR id="UI_LOBBY_21">Yes(&amp;Y)</STR>
+<STR id="UI_LOBBY_A01">Monster Bible</STR>
+<STR id="UI_LOBBY_A02">Do you want to quit the game?</STR>
+
+
+<!-- StageCreateFrame.xml -->
+<STR id="UI_SCF_01">Game Creation</STR>
+<STR id="UI_SCF_02">Game Title</STR>
+<STR id="UI_SCF_03">Password</STR>
+<STR id="UI_SCF_04">How about playing a GUNZ game?</STR>
+
+<!-- Replay.xml -->
+<STR id="UI_REPLAY_01">Replays</STR>
+<STR id="UI_REPLAY_02">../My Documents/Gunz/Replay</STR>
+<STR id="UI_REPLAY_03">You may experience problems with viewing</STR>
+<STR id="UI_REPLAY_04">replays from older versions.</STR>
+<STR id="UI_REPLAY_05">View(&amp;V)</STR>
+<STR id="UI_REPLAY_06">Do you want to see the replay?</STR>
+<STR id="UI_REPLAY_07">Replay</STR>
+<STR id="UI_REPLAY_08">Do you want to see the video again?</STR>
+<STR id="UI_REPLAY_09">View(&amp;V)</STR>
+<STR id="UI_REPLAY_10">Exit(&amp;X)</STR>
+<STR id="UI_REPLAY_A01">Close(&amp;C)</STR>
+
+<!-- PrivateStageJoinFrame.xml -->
+<STR id="UI_PSJF_01">Enter the Password </STR>
+<STR id="UI_PSJF_02">Game Title</STR>
+<STR id="UI_PSJF_03">Password</STR>
+
+<!-- NetPortConfirm.xml -->
+<STR id="UI_NPC_01">Modify the Network Port </STR>
+<STR id="UI_NPC_02">Restart the Gunz program in order to apply the modified network port. Will you finish the program now?</STR>
+<STR id="UI_NPC_03">OK(&amp;O)</STR>
+<STR id="UI_NPC_04">Cancel(&amp;C)</STR>
+
+<!-- Greter.xml -->
+<STR id="UI_GREETER_01">Start(&amp;G)</STR>
+
+<!-- CombatInterface.xml -->
+<STR id="UI_CI_01">To All:</STR>
+<STR id="UI_CI_02">To Team:</STR>
+<STR id="UI_CI_03">Game Menu</STR>
+<STR id="UI_CI_04">Option(&amp;O)</STR>
+<STR id="UI_CI_05">Return to Game(&amp;X)</STR>
+<STR id="UI_CI_06">Exit to the Waiting Room(&amp;R)</STR>
+<STR id="UI_CI_07">Exit from the Game(&amp;L)</STR>
+<STR id="UI_CI_08">Are you sure that you want to finish GunZ?</STR>
+<STR id="UI_CI_09">Quit the Game(&amp;Q)</STR>
+<STR id="UI_CI_10">Do you want to quit the game?</STR>
+
+<!-- ChannelListFrame.xml -->
+<STR id="UI_CLF_01">Channel List</STR>
+<STR id="UI_CLF_02">General</STR>
+<STR id="UI_CLF_03">Private</STR>
+<STR id="UI_CLF_04">Clan</STR>
+<STR id="UI_CLF_05">Enter</STR>
+<STR id="UI_CLF_06">Go to my clan channel</STR>
+
+
+<!-- BuyConfirm.xml -->
+<STR id="UI_BC_01">Total</STR>
+<STR id="UI_BC_02">Would you like to purchase it?</STR>
+
+<!-- 112Confirm.xml -->
+<STR id="UI_112C_01">Report</STR>
+<STR id="UI_112C_02">Please select the character and the reason for filing the report.</STR>
+<STR id="UI_112C_03">Select character :</STR>
+<STR id="UI_112C_04">Select reason :</STR>
+<STR id="UI_112C_05">Please select</STR>
+<STR id="UI_112C_06">Abuse</STR>
+<STR id="UI_112C_07">Abuse on parent</STR>
+<STR id="UI_112C_08">Sexual chating</STR>
+<STR id="UI_112C_09">Imposture</STR>
+<STR id="UI_112C_10">Scamming</STR>
+<STR id="UI_112C_11">Spamming</STR>
+<STR id="UI_112C_12">GM Imposture</STR>
+<STR id="UI_112C_13">Please describe the person you are making the report about and the reason carefully. False report will result in user restriction to the reporter.</STR>
+
+<!-- CharCreation.xml -->
+<STR id="UI_CC_01">Create a character </STR>
+<STR id="UI_CC_02">Name</STR>
+<STR id="UI_CC_03">Sex</STR>
+<STR id="UI_CC_04">Hair</STR>
+<STR id="UI_CC_05">Face</STR>
+<STR id="UI_CC_06">Weapons</STR>
+<STR id="UI_CC_07">Devil Slayer</STR>
+<STR id="UI_CC_08">Walcom XLx2</STR>
+<STR id="UI_CC_09">Walcom XLx2</STR>
+<STR id="UI_CC_10">Grenade FG-2</STR>
+<STR id="UI_CC_11">Medical K-11</STR>
+
+<STR id="UI_CC_LIST_01_01">Male</STR>
+<STR id="UI_CC_LIST_01_02">Female</STR>
+
+<STR id="UI_CC_LIST_02_01">Type1</STR>
+<STR id="UI_CC_LIST_02_02">Type2</STR>
+<STR id="UI_CC_LIST_02_03">Type3</STR>
+<STR id="UI_CC_LIST_02_04">Type4</STR>
+
+<STR id="UI_CC_LIST_03_01">Axium Gun Knight</STR>
+<STR id="UI_CC_LIST_03_02">Travia Gun Fighter</STR>
+<STR id="UI_CC_LIST_03_03">Axium Assassin</STR>
+<STR id="UI_CC_LIST_03_04">Travia Scout</STR>
+<STR id="UI_CC_LIST_03_05">Axium Gun Priest</STR>
+<STR id="UI_CC_LIST_03_06">Travia Doctor</STR>
+
+
+<!-- CharSelection.xml -->
+<STR id="UI_CS_01">Name</STR>
+<STR id="UI_CS_02">0 Lv.</STR>
+<STR id="UI_CS_03">Clan</STR>
+<STR id="UI_CS_04">Select(&amp;G)</STR>
+<STR id="UI_CS_05">Are you sure that you want to finish GunZ?</STR>
+<STR id="UI_CS_06">Delete a character</STR>
+<STR id="UI_CS_07">To delete a character, please type 'YES' in the box and</STR>
+<STR id="UI_CS_08">press the OK button.</STR>
+
+<!-- Clan.xml -->
+<STR id="UI_CLAN_01">Create a clan</STR>
+<STR id="UI_CLAN_02">Agree(&amp;A)</STR>
+<STR id="UI_CLAN_03">Deny(&amp;D)</STR>
+<STR id="UI_CLAN_04">Time Limit :</STR>
+<STR id="UI_CLAN_05">Agree to create a clan</STR>
+<STR id="UI_CLAN_06">Please wait until the members agree to clan creation.</STR>
+<STR id="UI_CLAN_07">Time Limit :</STR>
+<STR id="UI_CLAN_08">Agreement from the clan members</STR>
+<STR id="UI_CLAN_09">Please wait for the clan members to agree.</STR>
+<STR id="UI_CLAN_10">Clan creation</STR>
+<STR id="UI_CLAN_11">Clan Name</STR>
+<STR id="UI_CLAN_12">Clan creation requires 10 levels or more and 1000 BP along with additional four founding members of a clan. Please create a unique name up to 12 letters.</STR>
+<STR id="UI_CLAN_13">Founding</STR>
+<STR id="UI_CLAN_14">Wait for consent</STR>
+<STR id="UI_CLAN_15">Consented</STR>
+
+<!-- Equipment.xml -->
+<STR id="UI_EQUIPMENT_01">Filter : </STR>
+<STR id="UI_EQUIPMENT_02">Equip</STR>
+<STR id="UI_EQUIPMENT_03">Sent to the C.Bank</STR>
+<STR id="UI_EQUIPMENT_04">Bring my equipment</STR>
+<STR id="UI_EQUIPMENT_05">Will you bring in the item?</STR>
+<STR id="UI_EQUIPMENT_06">[ WEIGHT ]</STR>
+<STR id="UI_EQUIPMENT_07">0  /  0 Wt.</STR>
+<STR id="UI_EQUIPMENT_08">[ LV / HP / AP ]</STR>
+<STR id="UI_EQUIPMENT_09">0Lv.  /  0  /  0</STR>
+
+<STR id="UI_EQUIPMENT_LIST_01_01">        Show all Equipment</STR>
+<STR id="UI_EQUIPMENT_LIST_01_02">        Armor : Head</STR>
+<STR id="UI_EQUIPMENT_LIST_01_03">        Armor : Body</STR>
+<STR id="UI_EQUIPMENT_LIST_01_04">        Armor : Hands</STR>
+<STR id="UI_EQUIPMENT_LIST_01_05">        Armor : Legs</STR>
+<STR id="UI_EQUIPMENT_LIST_01_06">        Armor : Feet</STR>
+<STR id="UI_EQUIPMENT_LIST_01_07">        Weapon : Melee Weapons</STR>
+<STR id="UI_EQUIPMENT_LIST_01_08">        Weapon : Ranged Weapons</STR>
+<STR id="UI_EQUIPMENT_LIST_01_09">        Item : M-R Kit / Grenade</STR>
+<STR id="UI_EQUIPMENT_LIST_01_10">        Item : Rings</STR>
+<STR id="UI_EQUIPMENT_LIST_01_11">        Item : Quest Item</STR>
+
+
+<!-- MonsterBook.xml -->
+<STR id="UI_MB_01">Monster Bible</STR>
+
+
+<!-- NetmarbleLogin.xml -->
+<STR id="UI_NL_01">Login</STR>
+<STR id="UI_NL_02">Being connected to Netmarble.</STR>
+<STR id="UI_NL_03">Do you want to quit the game?</STR>
+
+<!-- ResizeConfirm.xml -->
+<STR id="UI_RC_01">Change Resolution</STR>
+<STR id="UI_RC_02">Apply New Resolution.</STR>
+<STR id="UI_RC_03">If a new resolution is not applied for 10 seconds,</STR>
+<STR id="UI_RC_04">it returns to the previous resolution.</STR>
+<STR id="UI_RC_05">Do you want to apply the new resolution?</STR>
+<STR id="UI_RC_06">New resolution has been applied.</STR>
+<STR id="UI_RC_07">Would you like to apply this resolution?</STR>
+<STR id="UI_RC_08">Yes(&amp;Y)</STR>
+
+<!-- StageSettingFrame.xml -->
+<STR id="UI_SSF_01">Misc. Game Setting</STR>
+<STR id="UI_SSF_02">Time Limit</STR>
+<STR id="UI_SSF_03">Intrusion</STR>
+<STR id="UI_SSF_04">Friendly Damage</STR>
+<STR id="UI_SSF_05">Level Restriction</STR>
+<STR id="UI_SSF_06">Observation</STR>
+<STR id="UI_SSF_07">Voting</STR>
+<STR id="UI_SSF_08">Team Balance</STR>
+
+<!-- Option.xml -->
+<STR id="UI_OPTION_01">Options</STR>
+<STR id="UI_OPTION_02">Resolution</STR>
+<STR id="UI_OPTION_03">Brightness</STR>
+<STR id="UI_OPTION_04">Reflection Effect</STR>
+<STR id="UI_OPTION_05">Light Map</STR>
+<STR id="UI_OPTION_06">Shader</STR>
+<STR id="UI_OPTION_07">Dynamic Light</STR>
+<STR id="UI_OPTION_08">Character Image Quality</STR>
+<STR id="UI_OPTION_09">Background Image Quality</STR>
+<STR id="UI_OPTION_10">Effect Quality</STR>
+<STR id="UI_OPTION_11">Texture Quality</STR>
+<STR id="UI_OPTION_12">Optimize</STR>
+<STR id="UI_OPTION_13">Background Music</STR>
+<STR id="UI_OPTION_14">Volume of Background Music</STR>
+<STR id="UI_OPTION_15">Sound Effect</STR>
+<STR id="UI_OPTION_16">Sound Volume</STR>
+<STR id="UI_OPTION_17">3D sound left-right retroflexion</STR>
+<STR id="UI_OPTION_18">Hardware Mixing Support</STR>
+<STR id="UI_OPTION_19">Sound indicating that the enemy has been hit</STR>
+<STR id="UI_OPTION_20">Mouse Sensitivity</STR>
+<STR id="UI_OPTION_21">Inverted Mouse</STR>
+<STR id="UI_OPTION_22">Go forward</STR>
+<STR id="UI_OPTION_23">Go backward</STR>
+<STR id="UI_OPTION_24">Go to the left</STR>
+<STR id="UI_OPTION_25">Go to the right</STR>
+<STR id="UI_OPTION_26">Sword/Dagger</STR>
+<STR id="UI_OPTION_27">Weapon 1</STR>
+<STR id="UI_OPTION_28">Weapon 2</STR>
+<STR id="UI_OPTION_29">Select Item1</STR>
+<STR id="UI_OPTION_30">Select Item2</STR>
+<STR id="UI_OPTION_31">Previous Weapon</STR>
+<STR id="UI_OPTION_32">Next Weapon</STR>
+<STR id="UI_OPTION_33">Menu</STR>
+<STR id="UI_OPTION_34">Reloading</STR>
+<STR id="UI_OPTION_35">Jump</STR>
+<STR id="UI_OPTION_36">See Record</STR>
+<STR id="UI_OPTION_37">Screenshot</STR>
+<STR id="UI_OPTION_38">Record/Playback</STR>
+<STR id="UI_OPTION_39">Defense</STR>
+<STR id="UI_OPTION_40">Chatting Visible</STR>
+<STR id="UI_OPTION_59">Fire</STR>
+<STR id="UI_OPTION_41">Defaults</STR>
+<STR id="UI_OPTION_42">Port Setting</STR>
+<STR id="UI_OPTION_43">Maximize Performance(Response of the mouse can be slowed down in some systems)</STR>
+<STR id="UI_OPTION_44">Chat Filtering Options</STR>
+<STR id="UI_OPTION_45">General chat</STR>
+<STR id="UI_OPTION_46">Team chat</STR>
+<STR id="UI_OPTION_47">Clan chat</STR>
+<STR id="UI_OPTION_48">Whispers</STR>
+<STR id="UI_OPTION_49">Refuse Clan Invitations</STR>
+<STR id="UI_OPTION_50">Crosshair type</STR>
+<STR id="UI_OPTION_51">F1 Key</STR>
+<STR id="UI_OPTION_52">F2 Key</STR>
+<STR id="UI_OPTION_53">F3 Key</STR>
+<STR id="UI_OPTION_54">F4 Key</STR>
+<STR id="UI_OPTION_55">F5 Key</STR>
+<STR id="UI_OPTION_56">F6 Key</STR>
+<STR id="UI_OPTION_57">F7 Key</STR>
+<STR id="UI_OPTION_58">F8 Key</STR>
+
+<STR id="UI_OPTION_LIST_01_01">High</STR>
+<STR id="UI_OPTION_LIST_01_02">Normal</STR>
+<STR id="UI_OPTION_LIST_01_03">Low</STR>
+
+<!-- Shop.xml -->
+<STR id="UI_SHOP_01">Lobby > Shop</STR>
+<STR id="UI_SHOP_02">Filter : </STR>
+<STR id="UI_SHOP_03">Buy(&amp;B)</STR>
+<STR id="UI_SHOP_04">Do you want to buy the equipment selected?</STR>
+<STR id="UI_SHOP_05">Buy(&amp;B)</STR>
+<STR id="UI_SHOP_06">Change to webbrowser.</STR>
+<STR id="UI_SHOP_07">Sell(&amp;S)</STR>
+<STR id="UI_SHOP_08">Do you want to sell the equipment selected?</STR>
+<STR id="UI_SHOP_09">Sell(&amp;S)</STR>
+<STR id="UI_SHOP_10">[ BOUNTY ]</STR>
+<STR id="UI_SHOP_11">0 Bounty</STR>
+<STR id="UI_SHOP_12">[ LEVEL / WEIGHT ]</STR>
+<STR id="UI_SHOP_13">0Lv.  /  0 (0)</STR>
+<STR id="UI_SHOP_14">Sell item</STR>
+<STR id="UI_SHOP_15">Please enter the quantity to sell.</STR>
+<STR id="UI_SHOP_16">quantity</STR>
+<STR id="UI_SHOP_17">Sell(&amp;S)</STR>
+
+<STR id="UI_SHOP_LIST_01_01">        Show all Equipment</STR>
+<STR id="UI_SHOP_LIST_01_02">        Armor : Head</STR>
+<STR id="UI_SHOP_LIST_01_03">        Armor : Body</STR>
+<STR id="UI_SHOP_LIST_01_04">        Armor : Hands</STR>
+<STR id="UI_SHOP_LIST_01_05">        Armor : Legs</STR>
+<STR id="UI_SHOP_LIST_01_06">        Armor : Feet</STR>
+<STR id="UI_SHOP_LIST_01_07">        Weapon : Melee Weapons</STR>
+<STR id="UI_SHOP_LIST_01_08">        Weapon : Ranged Weapons</STR>
+<STR id="UI_SHOP_LIST_01_09">        Item : M-R Kit / Grenade</STR>
+<STR id="UI_SHOP_LIST_01_10">        Item : Rings</STR>
+<STR id="UI_SHOP_LIST_01_11">        Item : Quest Item</STR>
+
+<!-- Stage.xml -->
+<STR id="UI_STAGE_01">Name</STR>
+<STR id="UI_STAGE_02">Clan :</STR>
+<STR id="UI_STAGE_03">Level : 0 lv.</STR>
+<STR id="UI_STAGE_04">XP : -</STR>
+<STR id="UI_STAGE_05">Bounty : -</STR>
+<STR id="UI_STAGE_06">HP : -</STR>
+<STR id="UI_STAGE_07">AP : -</STR>
+<STR id="UI_STAGE_08">WT : -</STR>
+<STR id="UI_STAGE_09">Blue Team</STR>
+<STR id="UI_STAGE_10">Red Team</STR>
+<STR id="UI_STAGE_11">Intrusion(&amp;G)</STR>
+<STR id="UI_STAGE_12">Option</STR>
+<STR id="UI_STAGE_13">Match</STR>
+<STR id="UI_STAGE_14">Map</STR>
+<STR id="UI_STAGE_15">Players</STR>
+<STR id="UI_STAGE_16">Round</STR>
+<STR id="UI_STAGE_17">Members : 0</STR>
+<STR id="UI_STAGE_18">Quest Level : 0</STR>
+<STR id="UI_STAGE_19">Are you sure that you want to finish GunZ?</STR>
+<STR id="UI_STAGE_20">Place upward</STR>
+<STR id="UI_STAGE_21">There is not an item.</STR>
+
+
+<!-- GameResult.xml -->
+<STR id="UI_ETC_01">Name</STR>
+<STR id="UI_ETC_02">XP</STR>
+<STR id="UI_ETC_03">Kill</STR>
+<STR id="UI_ETC_04">Death</STR>
+
+<STR id="UI_WARNING_TITLE">Hacking Attempt</STR>
+<STR id="UI_WARNING_01">A hacking attempt was detected. Connection to the server will be terminated.</STR>
+
+</XML>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<XML ID="Sample">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+	<FRAME item="SampleFrame">
+		<FRAMELOOK>SampleFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>10</X>
+			<Y>40</Y>
+			<W>200</W>
+			<H>200</H>
+		</BOUNDS>
+		<TEXT>Sample Frame</TEXT>
+	</FRAME>
+	<LABEL item="SampleLabel" parent="SampleFrame">
+		<BOUNDS>
+			<X>10</X>
+			<Y>50</Y>
+			<W>100</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>레이블 테스트</TEXT>
+		<TEXTCOLOR>
+			<R>255</R>
+			<G>0</G>
+			<B>0</B>
+		</TEXTCOLOR>
+	</LABEL>
+	<BUTTON item="SampleButton" parent="SampleFrame">
+		<BUTTONLOOK>SampleButtonLook</BUTTONLOOK>
+		<ANCHORS>
+		   <LEFT>true</LEFT>
+			 <TOP>true</TOP>
+		   <RIGHT>false</RIGHT>
+		   <BOTTOM>false</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>10</X>
+			<Y>80</Y>
+			<W>92</W>
+			<H>22</H>
+		</BOUNDS>
+		<TEXT>버튼 테스트</TEXT>
+		<COLOR>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+		</COLOR>
+		<TEXTCOLOR>
+			<R>0</R>
+			<G>0</G>
+			<B>255</B>
+		</TEXTCOLOR>
+	</BUTTON>
+	<EDIT item="SampleEdit">
+		<BOUNDS>
+			<X>300</X>
+			<Y>180</Y>
+			<W>120</W>
+			<H>24</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+		<TEXTCOLOR>
+			<R>255</R>
+			<G>0</G>
+			<B>255</B>
+		</TEXTCOLOR>
+	</EDIT>
+	<LISTBOX item="SampleListBox">
+		<BOUNDS>
+			<X>300</X>
+			<Y>220</Y>
+			<W>120</W>
+			<H>100</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+		<TEXTCOLOR>
+			<R>255</R>
+			<G>0</G>
+			<B>255</B>
+		</TEXTCOLOR>
+	</LISTBOX>
+	<PICTURE item="SampleListPicture">
+		<BITMAP>logo.png</BITMAP>
+		<BOUNDS>
+			<X>10</X>
+			<Y>260</Y>
+			<W>300</W>
+			<H>100</H>
+		</BOUNDS>
+	</PICTURE>
+	<SCROLLBAR item="SampleScrollBarv" type="v">
+		<SCROLLBARLOOK>SampleScrollBarLook</SCROLLBARLOOK>
+		<BOUNDS>
+			<X>500</X>
+			<Y>50</Y>
+			<W>15</W>
+			<H>100</H>
+		</BOUNDS>
+		<MIN>0</MIN>
+		<MAX>100</MAX>
+		<VALUE>0</VALUE>
+	</SCROLLBAR>
+	<SLIDER item="SampleSlider" type="h">
+		<BOUNDS>
+			<X>400</X>
+			<Y>350</Y>
+			<W>100</W>
+			<H>15</H>
+		</BOUNDS>
+		<MIN>0</MIN>
+		<MAX>100</MAX>
+		<VALUE>50</VALUE>
+	</SLIDER>
+	<GROUP item="SampleGroup">
+		<BOUNDS>
+			<X>400</X>
+			<Y>400</Y>
+			<W>100</W>
+			<H>50</H>
+		</BOUNDS>
+	</GROUP>
+	<COMBOBOX item="SampleComboBox">
+		<LISTITEM>test1</LISTITEM>
+		<LISTITEM>test2</LISTITEM>
+		<LISTITEM>test3</LISTITEM>
+		<BOUNDS>
+			<X>500</X>
+			<Y>200</Y>
+			<W>100</W>
+			<H>20</H>
+		</BOUNDS>
+	</COMBOBOX>
+	<POPUPMENU item="SamplePopup" type="h">
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>300</W>
+			<H>50</H>
+		</BOUNDS>
+		<MENUITEM>
+			<TEXT>File</TEXT>
+			<SUBMENU>
+				<MENUITEM>
+					<TEXT>New</TEXT>
+					<SUBMENU>
+						<MENUITEM>
+							<TEXT>Project</TEXT>
+						</MENUITEM>
+						<MENUITEM>
+							<TEXT>File</TEXT>
+						</MENUITEM>
+					</SUBMENU>
+				</MENUITEM>
+				<MENUITEM>
+					<TEXT>Quit</TEXT>
+				</MENUITEM>
+			</SUBMENU>
+		</MENUITEM>
+		<MENUITEM>
+			<TEXT>Edit</TEXT>
+			<SUBMENU>
+				<MENUITEM>
+					<TEXT>Copy</TEXT>
+				</MENUITEM>
+				<MENUITEM>
+					<TEXT>Paste</TEXT>
+				</MENUITEM>
+			</SUBMENU>
+		</MENUITEM>
+		<MENUITEM>
+			<TEXT>Go!</TEXT>
+		</MENUITEM>
+		<MENUITEM>
+			<TEXT>Help</TEXT>
+			<SUBMENU>
+				<MENUITEM>
+					<TEXT>About</TEXT>
+				</MENUITEM>
+			</SUBMENU>
+		</MENUITEM>
+	</POPUPMENU>
+	<ANIMATION item="SampleAnimWidget">
+		<PLAYMODE>repetition</PLAYMODE>
+		<ANIMTEMPLATE>SampleAnimTemplate</ANIMTEMPLATE>
+		<BOUNDS>
+			<X>210</X>
+			<Y>100</Y>
+			<W>64</W>
+			<H>128</H>
+		</BOUNDS>
+	</ANIMATION>
+	<CURSOR item="SampleCursor">
+		<BITMAP>cursor.png</BITMAP>
+	</CURSOR>
+</XML>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML id="channel">
+	<DEFAULTCHANNELNAME name="フリーチャンネル"/>
+	<DEFAULTRULENAME name="novice"/>
+
+	<CHANNEL name="フリーチャンネル 1" maxplayers="200" rule="novice"/>
+	<CHANNEL name="フリーチャンネル 2" maxplayers="200" rule="novice"/>
+	<CHANNEL name="フリーチャンネル 3" maxplayers="200" rule="novice"/>
+
+	<CHANNEL name="入門チャンネル 1 (レベル制限1～5)" maxplayers="200" rule="newbie" levelmin='1' levelmax='5'/>
+	<CHANNEL name="入門チャンネル 2 (レベル制限1～5)" maxplayers="200" rule="newbie" levelmin='1' levelmax='5'/>
+
+	<CHANNEL name="初心者チャンネル 1 (レベル制限 6～10)" maxplayers="200" rule="newbie" levelmin='6' levelmax='10'/>
+	<CHANNEL name="初心者チャンネル 2 (レベル制限 6～10)" maxplayers="200" rule="newbie" levelmin='6' levelmax='10'/>
+
+	<CHANNEL name="中級チャンネル 1 (レベル制限 11～20)" maxplayers="200" rule="rookie" levelmin='11' levelmax='20'/>
+	<CHANNEL name="中級チャンネル 2 (レベル制限 11～20)" maxplayers="200" rule="rookie" levelmin='11' levelmax='20'/>
+
+	<CHANNEL name="プロチャンネル 1 (レベル制限　21～34)" maxplayers="200" rule="mastery" levelmin='21' levelmax='34'/>
+	<CHANNEL name="プロチャンネル 2 (レベル制限　21～34)" maxplayers="200" rule="mastery" levelmin='21' levelmax='34'/>
+	
+	<CHANNEL name="達人チャンネル 1 (レベル制限　35以上)" maxplayers="200" rule="elite" levelmin='35'/>
+	<CHANNEL name="達人チャンネル 2 (レベル制限　35以上)" maxplayers="200" rule="elite" levelmin='35'/>
+</XML>

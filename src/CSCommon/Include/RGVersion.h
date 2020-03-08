@@ -1,0 +1,6 @@
+#pragma once
+
+#define RGUNZ_VERSION_MAJOR 1
+#define RGUNZ_VERSION_MINOR 0
+#define RGUNZ_VERSION_PATCH 0
+#define RGUNZ_VERSION_REVISION 0

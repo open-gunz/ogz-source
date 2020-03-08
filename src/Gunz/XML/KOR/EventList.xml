@@ -1,0 +1,1303 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML xmlns="http://tempurl.org/EventTable.xsd" id="EventTable">
+
+<!--
+	이벤트가 등록되는 정보.
+	
+	* Attribute 이름은 최대 127바이트.	*
+	* Attribute 값은 최대 255바이트.	*
+	
+	event_type
+		0	: 스테이지 게임을 시작할때.
+		1	: 스테이지 방을 만들어 게임을 시작을 해야 활성화되는 이벤트.
+		2	: 스테이지 게임이 끝나후에.
+		100 : Custom check event.
+		
+	game_type
+		MMATCH_GAMETYPE_DEATHMATCH_SOLO		= 0,			///< 개인 데쓰매치
+		MMATCH_GAMETYPE_DEATHMATCH_TEAM		= 1,			///< 팀 데쓰매치
+		MMATCH_GAMETYPE_GLADIATOR_SOLO		= 2,			///< 개인 글래디에이터
+		MMATCH_GAMETYPE_GLADIATOR_TEAM		= 3,			///< 팀 글래디에이터
+		MMATCH_GAMETYPE_ASSASSINATE			= 4,			///< 보스전
+		MMATCH_GAMETYPE_TRAINING			= 5,			///< 연습
+		#ifdef _QUEST
+			MMATCH_GAMETYPE_SURVIVAL			= 6,			///< 서바이벌
+			MMATCH_GAMETYPE_QUEST				= 7,			///< 퀘스트
+		#endif
+		MMATCH_GAMETYPE_BERSERKER			= 8,
+		MMATCH_GAMETYPE_ALL					= 100,			///< 게임타입에 상관없음.
+		
+	server_type		
+		MSM_NORMAL		= 0,		// 일반
+		MSM_CLAN		= 1,		// 클랜전 전용 서버
+		MSM_LADDER		= 2,		// 래더 전용 서버
+		MSM_EVENT		= 3,		// 이벤트 서버
+		MSM_TEST		= 4,		// 테스트 서버
+		MSM_ALL			= 100,		// 모든 서버에 적용.
+
+	ex)
+		<Locale country="kor">
+			<Event EventID="" name="" event_type="" elapsed_time="" percent="" rate="" announce="" xp_bonus_ratio="" bp_bonus_ratio="" >
+				<ServerType order="" type="" />
+				<GameType order="" type="" />
+				<StartTime year="" month="" day="" hour="" />
+				<EndTime year="" month="" day="" hour="" />
+			</Event>
+		</Locale>
+		
+	* 모든 시간은 24로 기술 함.
+	
+	country			: 3자리 국가 코드.
+	id				: event list에 등록되어있는 event 고유 id.
+	EventID			: event.xml에 기술되있는 event의 id.
+	name			: string.xml에 기술되어 있는 event id에 해당하는 이름 id.
+	event_type		: 위에 기술되어 있음.
+	elapsed_time	: 실행 간격 기술(1/1000초)
+	percent			: rate와 같이 확률 계산에 사용. (rate/percent)
+	rate			: percent와 같이 확률 계산에 사용. (rate/percent)
+	announce		: string.xml에 기술되어있는 공지 사항 id.
+	xp_bonus_ratio	: 경험치 보너스 비율(xp_bonus_ratio/100)
+	bp_bonus_ratio	: 바운티 보너스 비율(bp_bonus_ratio/100)
+	order			: 순서를 나타냄.
+	ServerType		: 이벤트가 실핼될 서버 종류. 위에 기술.
+	GameType		: 이벤트가 실핼될 게임 종류. 위에 기술.
+	type			: 종류.
+	StartTime		: 이벤트가 시작되는 날짜.
+	EndTime			: 이벤트가 종료되는 날짜.
+	year			: 4자리 표기.
+	month			: 자리수 상관 없음.
+	day				: 자리수 상관 없음.
+	hour			: 자리수 상관 없음.
+	PartTime		: 특정 시간에 이벤트 발동이 필요할때 사용.
+	start_hour		: 시작 시간.
+	end_hour		: 끝나는 시간.
+	
+-->
+
+<Locale country="kor">
+	<Event id="1" EventID="1" name="EVENT_NAME_1" event_type="1" elapsed_time="1000" percent="1800" rate="1" announce="EVENT_ANNOUNCE_1" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2005" month="12" day="21" hour="12" />
+		<EndTime year="2006" month="1" day="16" hour="23" />
+	</Event>
+</Locale>
+
+<!-- -->
+
+<Locale country="kor">
+	<Event id="4" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="6" day="29" hour="0" />
+		<EndTime year="2006" month="6" day="30" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="5" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="6" day="29" hour="0" />
+		<EndTime year="2006" month="6" day="30" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+<Locale country="kor">
+	<Event id="6" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="7" day="01" hour="0" />
+		<EndTime year="2006" month="7" day="01" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="7" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="7" day="01" hour="0" />
+		<EndTime year="2006" month="7" day="01" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+<Locale country="kor">
+	<Event id="8" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="7" day="03" hour="0" />
+		<EndTime year="2006" month="7" day="07" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="9" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="7" day="03" hour="0" />
+		<EndTime year="2006" month="7" day="07" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+<!-- -->
+
+<Locale country="kor">
+	<Event id="10" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="7" day="8" hour="0" />
+		<EndTime year="2006" month="7" day="8" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="11" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="7" day="8" hour="0" />
+		<EndTime year="2006" month="7" day="8" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+<Locale country="kor">
+	<Event id="12" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="7" day="10" hour="0" />
+		<EndTime year="2006" month="7" day="14" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="13" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="7" day="10" hour="0" />
+		<EndTime year="2006" month="7" day="14" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+<!-- -->
+
+<Locale country="kor">
+	<Event id="14" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="7" day="15" hour="0" />
+		<EndTime year="2006" month="7" day="15" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="15" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="7" day="15" hour="0" />
+		<EndTime year="2006" month="7" day="15" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+<Locale country="kor">
+	<Event id="16" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="7" day="17" hour="0" />
+		<EndTime year="2006" month="7" day="21" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="17" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="7" day="17" hour="0" />
+		<EndTime year="2006" month="7" day="21" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+<!-- -->
+
+<Locale country="kor">
+	<Event id="18" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="7" day="22" hour="0" />
+		<EndTime year="2006" month="7" day="22" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="19" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="7" day="22" hour="0" />
+		<EndTime year="2006" month="7" day="22" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+<Locale country="kor">
+	<Event id="20" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="7" day="24" hour="0" />
+		<EndTime year="2006" month="7" day="28" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="21" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="7" day="24" hour="0" />
+		<EndTime year="2006" month="7" day="28" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="16" />
+	</Event>
+</Locale>
+
+
+<!-- -->
+
+<Locale country="kor">
+	<Event id="22" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="7" day="29" hour="0" />
+		<EndTime year="2006" month="7" day="29" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="23" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="7" day="29" hour="0" />
+		<EndTime year="2006" month="7" day="29" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+<Locale country="kor">
+	<Event id="24" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="7" day="31" hour="0" />
+		<EndTime year="2006" month="8" day="04" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="16" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="25" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="7" day="31" hour="0" />
+		<EndTime year="2006" month="8" day="04" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="16" />
+	</Event>
+</Locale>
+
+<!-- -->
+
+<Locale country="kor">
+	<Event id="26" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="8" day="05" hour="0" />
+		<EndTime year="2006" month="8" day="05" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="27" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="8" day="05" hour="0" />
+		<EndTime year="2006" month="8" day="05" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<!-- -->
+
+<Locale country="kor">
+	<Event id="28" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="8" day="07" hour="0" />
+		<EndTime year="2006" month="8" day="11" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="16" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="29" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="8" day="07" hour="0" />
+		<EndTime year="2006" month="8" day="11" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="16" />
+	</Event>
+</Locale>
+
+
+<!-- -->
+
+<Locale country="kor">
+	<Event id="30" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="8" day="12" hour="0" />
+		<EndTime year="2006" month="8" day="12" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="31" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="8" day="12" hour="0" />
+		<EndTime year="2006" month="8" day="12" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<!-- -->
+
+<Locale country="kor">
+	<Event id="32" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="8" day="14" hour="0" />
+		<EndTime year="2006" month="8" day="18" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="16" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="33" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="8" day="14" hour="0" />
+		<EndTime year="2006" month="8" day="18" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="16" />
+	</Event>
+</Locale>
+
+
+<!-- -->
+
+<Locale country="kor">
+	<Event id="34" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="8" day="19" hour="0" />
+		<EndTime year="2006" month="8" day="19" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="35" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="8" day="19" hour="0" />
+		<EndTime year="2006" month="8" day="19" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<!-- -->
+
+<Locale country="kor">
+	<Event id="36" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="8" day="21" hour="0" />
+		<EndTime year="2006" month="8" day="25" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="16" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="37" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="8" day="21" hour="0" />
+		<EndTime year="2006" month="8" day="25" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="16" />
+	</Event>
+</Locale>
+
+
+<!-- -->
+
+<Locale country="kor">
+	<Event id="38" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="8" day="26" hour="0" />
+		<EndTime year="2006" month="8" day="26" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="39" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="8" day="26" hour="0" />
+		<EndTime year="2006" month="8" day="26" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<!-- -->
+
+<Locale country="kor">
+	<Event id="40" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="8" day="28" hour="0" />
+		<EndTime year="2006" month="8" day="31" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="16" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="41" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="8" day="28" hour="0" />
+		<EndTime year="2006" month="8" day="31" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="16" />
+	</Event>
+</Locale>
+
+<Locale country="kor">
+	<Event id="42" EventID="1" name="EVENT_NAME_1" event_type="1" announce="EVENT_ANNOUNCE_1" elapsed_time="60000" percent="6000" rate="15">
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="9" />
+		<StartTime year="2006" month="7" day="11" hour="11" />
+		<EndTime year="2006" month="8" day="8" hour="23" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="43" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="09" day="01" hour="0" />
+		<EndTime year="2100" month="09" day="01" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="44" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="09" day="01" hour="0" />
+		<EndTime year="2100" month="09" day="01" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+<Locale country="kor">
+	<Event id="45" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="09" day="02" hour="0" />
+		<EndTime year="2100" month="09" day="03" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="46" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="09" day="02" hour="0" />
+		<EndTime year="2100" month="09" day="03" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+<!-- -->
+<Locale country="kor">
+	<Event id="47" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="09" day="04" hour="0" />
+		<EndTime year="2100" month="09" day="08" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="48" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="09" day="04" hour="0" />
+		<EndTime year="2100" month="09" day="08" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+<Locale country="kor">
+	<Event id="49" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="09" day="09" hour="0" />
+		<EndTime year="2100" month="09" day="10" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="50" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="09" day="09" hour="0" />
+		<EndTime year="2100" month="09" day="10" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+<!-- -->
+<Locale country="kor">
+	<Event id="51" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="09" day="11" hour="0" />
+		<EndTime year="2100" month="09" day="15" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="52" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="09" day="11" hour="0" />
+		<EndTime year="2100" month="09" day="15" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+<Locale country="kor">
+	<Event id="53" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="09" day="16" hour="0" />
+		<EndTime year="2100" month="09" day="17" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="54" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="09" day="16" hour="0" />
+		<EndTime year="2100" month="09" day="17" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+<!-- -->
+<Locale country="kor">
+	<Event id="55" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="09" day="18" hour="0" />
+		<EndTime year="2100" month="09" day="22" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="56" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="09" day="18" hour="0" />
+		<EndTime year="2100" month="09" day="22" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+<Locale country="kor">
+	<Event id="57" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="09" day="23" hour="0" />
+		<EndTime year="2100" month="09" day="24" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="58" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="09" day="23" hour="0" />
+		<EndTime year="2100" month="09" day="24" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+<!-- -->
+<Locale country="kor">
+	<Event id="59" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="09" day="25" hour="0" />
+		<EndTime year="2100" month="09" day="22" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="60" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="09" day="29" hour="0" />
+		<EndTime year="2100" month="09" day="22" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+<Locale country="kor">
+	<Event id="61" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="09" day="30" hour="0" />
+		<EndTime year="2100" month="10" day="01" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="62" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="09" day="30" hour="0" />
+		<EndTime year="2100" month="10" day="01" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+<!-- -->
+<Locale country="kor">
+	<Event id="63" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="10" day="02" hour="0" />
+		<EndTime year="2100" month="10" day="06" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="64" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="10" day="02" hour="0" />
+		<EndTime year="2100" month="10" day="06" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+<Locale country="kor">
+	<Event id="65" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="10" day="07" hour="0" />
+		<EndTime year="2100" month="10" day="08" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="66" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="10" day="07" hour="0" />
+		<EndTime year="2100" month="10" day="08" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+<!-- -->
+<Locale country="kor">
+	<Event id="67" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="10" day="09" hour="0" />
+		<EndTime year="2100" month="10" day="13" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="68" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="10" day="09" hour="0" />
+		<EndTime year="2100" month="10" day="13" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+<Locale country="kor">
+	<Event id="69" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="10" day="14" hour="0" />
+		<EndTime year="2100" month="10" day="15" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="70" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="10" day="14" hour="0" />
+		<EndTime year="2100" month="10" day="15" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+<!-- -->
+<Locale country="kor">
+	<Event id="71" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="10" day="16" hour="0" />
+		<EndTime year="2100" month="10" day="20" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="72" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="10" day="16" hour="0" />
+		<EndTime year="2100" month="10" day="20" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+<Locale country="kor">
+	<Event id="73" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="10" day="21" hour="0" />
+		<EndTime year="2100" month="10" day="22" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="74" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="10" day="21" hour="0" />
+		<EndTime year="2100" month="10" day="22" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+<!-- -->
+<Locale country="kor">
+	<Event id="75" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="10" day="23" hour="0" />
+		<EndTime year="2100" month="10" day="27" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="76" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="10" day="23" hour="0" />
+		<EndTime year="2100" month="10" day="27" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+<Locale country="kor">
+	<Event id="77" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="10" day="28" hour="0" />
+		<EndTime year="2100" month="10" day="29" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="78" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="10" day="28" hour="0" />
+		<EndTime year="2100" month="10" day="29" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+<!-- -->
+<Locale country="kor">
+	<Event id="79" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="10" day="30" hour="0" />
+		<EndTime year="2100" month="11" day="03" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="80" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="10" day="30" hour="0" />
+		<EndTime year="2100" month="11" day="03" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+<Locale country="kor">
+	<Event id="81" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="11" day="04" hour="0" />
+		<EndTime year="2100" month="11" day="05" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="82" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="11" day="04" hour="0" />
+		<EndTime year="2100" month="11" day="05" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+<!-- -->
+<Locale country="kor">
+	<Event id="83" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="11" day="06" hour="0" />
+		<EndTime year="2100" month="11" day="10" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="84" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="11" day="06" hour="0" />
+		<EndTime year="2100" month="11" day="10" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+<Locale country="kor">
+	<Event id="85" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="11" day="11" hour="0" />
+		<EndTime year="2100" month="11" day="12" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="86" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="11" day="11" hour="0" />
+		<EndTime year="2100" month="11" day="12" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+<!-- -->
+<Locale country="kor">
+	<Event id="87" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="11" day="13" hour="0" />
+		<EndTime year="2100" month="11" day="17" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="88" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="11" day="13" hour="0" />
+		<EndTime year="2100" month="11" day="17" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+<Locale country="kor">
+	<Event id="89" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="11" day="18" hour="0" />
+		<EndTime year="2100" month="11" day="19" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="90" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="11" day="18" hour="0" />
+		<EndTime year="2100" month="11" day="19" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+<!-- -->
+<Locale country="kor">
+	<Event id="91" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="11" day="20" hour="0" />
+		<EndTime year="2100" month="11" day="24" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="92" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="11" day="20" hour="0" />
+		<EndTime year="2100" month="11" day="24" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+<Locale country="kor">
+	<Event id="93" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="11" day="25" hour="0" />
+		<EndTime year="2100" month="11" day="26" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="94" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="11" day="25" hour="0" />
+		<EndTime year="2100" month="11" day="26" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+<!-- -->
+<Locale country="kor">
+	<Event id="95" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="11" day="27" hour="0" />
+		<EndTime year="2100" month="12" day="01" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="96" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="11" day="27" hour="0" />
+		<EndTime year="2100" month="12" day="01" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+<Locale country="kor">
+	<Event id="97" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="12" day="02" hour="0" />
+		<EndTime year="2100" month="12" day="03" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="98" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="12" day="02" hour="0" />
+		<EndTime year="2100" month="12" day="03" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+<!-- -->
+<Locale country="kor">
+	<Event id="99" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="12" day="04" hour="0" />
+		<EndTime year="2100" month="12" day="08" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="100" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="12" day="04" hour="0" />
+		<EndTime year="2100" month="12" day="08" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+<Locale country="kor">
+	<Event id="101" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="12" day="09" hour="0" />
+		<EndTime year="2100" month="12" day="10" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="102" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="12" day="09" hour="0" />
+		<EndTime year="2100" month="12" day="10" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+<!-- -->
+<Locale country="kor">
+	<Event id="103" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="12" day="11" hour="0" />
+		<EndTime year="2100" month="12" day="15" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="104" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="12" day="11" hour="0" />
+		<EndTime year="2100" month="12" day="15" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+<Locale country="kor">
+	<Event id="105" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="12" day="16" hour="0" />
+		<EndTime year="2100" month="12" day="17" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="106" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="12" day="16" hour="0" />
+		<EndTime year="2100" month="12" day="17" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+<!-- -->
+<Locale country="kor">
+	<Event id="107" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="12" day="18" hour="0" />
+		<EndTime year="2100" month="12" day="22" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="108" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="12" day="18" hour="0" />
+		<EndTime year="2100" month="12" day="22" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+<Locale country="kor">
+	<Event id="109" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="12" day="23" hour="0" />
+		<EndTime year="2100" month="12" day="24" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="110" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="12" day="23" hour="0" />
+		<EndTime year="2100" month="12" day="24" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+<!-- -->
+<Locale country="kor">
+	<Event id="111" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="12" day="25" hour="0" />
+		<EndTime year="2100" month="12" day="29" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="112" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="12" day="25" hour="0" />
+		<EndTime year="2100" month="12" day="29" hour="23" />
+		<PartTime order="1" start_hour="16" end_hour="19" />
+	</Event>
+</Locale>
+
+<Locale country="kor">
+	<Event id="113" EventID="2" name="EVENT_NAME_2" event_type="100" announce="EVENT_ANNOUNCE_2" xp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="12" day="30" hour="0" />
+		<EndTime year="2100" month="12" day="31" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+<Locale country="kor">
+	<Event id="114" EventID="3" name="EVENT_NAME_3" event_type="100" announce="EVENT_ANNOUNCE_3" bp_bonus_ratio="50" >
+		<ServerType order="1" type="100" />
+		<GameType order="1" type="100" />
+		<StartTime year="2006" month="12" day="30" hour="0" />
+		<EndTime year="2100" month="12" day="31" hour="23" />
+		<PartTime order="1" start_hour="13" end_hour="19" />
+	</Event>
+</Locale>
+
+
+</XML>

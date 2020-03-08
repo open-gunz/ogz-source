@@ -1,0 +1,2241 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML xmlns="http://tempuri.org/zitem.xsd" id="zitem">
+	<!--
+		[ 추가사항 ]
+
+		우선은 선택한 무기에만 적용됨...( 스피드 반지등은 만들수없음..필요하면 추가 )
+
+			무기에 따른 속도 제어	: limitspeed="70"	수치는 비율.. 기본은 100%
+			무기에 따른 점프 제한	: limitjump = "1"	수치는 0 , 1 (기본은 0 점프가능)
+			무기에 따른 가속 제한	: limittumble = "1" 수치는 0 , 1 (기본은 0 점프가능)
+			무기에 따른 벽타기 제한 : limitwall = "1"	수치는 0 , 1 (기본은 0 점프가능)
+
+		근접 공격용 무기들은 기본이 되는 공격의 에니메이션길이를 포함하는 delay 를 갖는것으로 한다..
+		
+			단검류		: 266 ms 를 더해준다..   attackS ( 상체모션이 기본 ) man_dagger_standshot.elu.ani
+			양손단검류	: 299 ms 를 더해준다..   attack1 ( 하체모션이 기본 ) man_2hdagger_standshot_1.elu.ani
+			카타나류	: 299 ms 를 더해준다..   attack1 ( 하체모션이 기본 ) man_knife_standshot_1.elu.ani
+			이도류		: 299 ms 를 더해준다..   attack1 ( 하체모션이 기본 ) man_blade_standshot_1.elu.ani
+			대검류		: 399 ms 를 더해준다..   attack1 ( 하체모션이 기본 ) man_sword_standshot_1.elu.ani
+		
+	-->
+	<!-- 일반아이템 ////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	<!-- 무기 /////////////////////////////////////////////////////////////////////////////////////// -->
+	<!-- 단검 /////////////////////////////////////////////////////////////////////////////////////// -->
+	<ITEM id="1" name="STR:ZITEM_NAME_1" mesh_name="dagger01" totalpoint="0" type="melee"
+		res_sex="a" res_level="0" slot="melee" weapon="dagger" weight="5" bt_price="20" delay="366"
+		damage="8" range="160" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_1" />
+	<ITEM id="11" name="STR:ZITEM_NAME_11" mesh_name="dagger01" totalpoint="0" type="melee"
+		res_sex="a" res_level="5" slot="melee" weapon="dagger" weight="5" bt_price="200" delay="356"
+		damage="9" range="160" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_11" />
+	<ITEM id="3" name="STR:ZITEM_NAME_3" mesh_name="dagger01" totalpoint="0" type="melee"
+		res_sex="a" res_level="9" slot="melee" weapon="dagger" weight="6" bt_price="400" delay="356"
+		damage="11" range="160" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_3" />
+	<ITEM id="4" name="STR:ZITEM_NAME_4" mesh_name="dagger01" totalpoint="0" type="melee"
+		res_sex="a" res_level="18" slot="melee" weapon="dagger" weight="5" bt_price="1000"
+		delay="346" damage="10" range="160" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_4" />
+	<ITEM id="5" name="STR:ZITEM_NAME_5" mesh_name="dagger01" totalpoint="0" type="melee"
+		res_sex="a" res_level="27" slot="melee" weapon="dagger" weight="6" bt_price="2500"
+		delay="351" damage="12" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" snd_reload="we_revolver_reload"
+		snd_fire="357magrevolver_dryfire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_5"
+		range="160" />
+	<ITEM id="6" name="STR:ZITEM_NAME_6" mesh_name="dagger02" totalpoint="0" type="melee"
+		res_sex="a" res_level="36" slot="melee" weapon="dagger" weight="4" bt_price="5000"
+		delay="356" damage="13" range="160" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFF80"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_6" />
+	<ITEM id="7" name="STR:ZITEM_NAME_7" mesh_name="dagger03" totalpoint="0" type="melee"
+		res_sex="a" res_level="45" slot="melee" weapon="dagger" weight="6" bt_price="10000"
+		delay="346" damage="14" range="160" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_7" />
+	<!-- 장검 //////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	<ITEM id="2" name="STR:ZITEM_NAME_2" mesh_name="katana01" totalpoint="0" type="melee"
+		res_sex="a" res_level="0" slot="melee" weapon="katana" weight="10" bt_price="20" delay="359"
+		damage="15" range="220" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_2" />
+	<ITEM id="12" name="STR:ZITEM_NAME_12" mesh_name="katana02" totalpoint="0" type="melee"
+		res_sex="a" res_level="5" slot="melee" weapon="katana" weight="10" bt_price="300"
+		delay="359" damage="16" range="220" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_12" />
+	<ITEM id="13" name="STR:ZITEM_NAME_13" mesh_name="katana02" totalpoint="0" type="melee"
+		res_sex="a" res_level="10" slot="melee" weapon="katana" weight="12" bt_price="600"
+		delay="349" damage="18" range="220" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_13" />
+	<ITEM id="14" name="STR:ZITEM_NAME_14" mesh_name="katana01" totalpoint="0" type="melee"
+		res_sex="a" res_level="20" slot="melee" weapon="katana" weight="9" bt_price="1500"
+		delay="339" damage="15" range="220" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_14" />
+	<ITEM id="15" name="STR:ZITEM_NAME_15" mesh_name="katana04" totalpoint="0" type="melee"
+		res_sex="a" res_level="30" slot="melee" weapon="katana" weight="13" bt_price="3600"
+		delay="339" damage="20" range="220" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_15" />
+	<ITEM id="16" name="STR:ZITEM_NAME_16" mesh_name="katana06" totalpoint="0" type="melee"
+		res_sex="a" res_level="40" slot="melee" weapon="katana" weight="11" bt_price="7200"
+		delay="339" damage="22" range="220" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_16" />
+	<ITEM id="17" name="STR:ZITEM_NAME_17" mesh_name="katana03" totalpoint="0" type="melee"
+		res_sex="a" res_level="50" slot="melee" weapon="katana" weight="12" bt_price="15000"
+		delay="329" damage="24" range="220" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_17" />
+	<!-- 이도류 //////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	<!-- Dual Wield : Katana - Weapon Type is 'dualkatana -->
+	<!-- 무게는 통상 1.5배, 데미지는 통상 0.8배, 딜레이는 통상 0.7배 * 0.9배, 가격은 1.4배 -->
+	<!-- 철제 소태도의 실제적 비교모델은 군용 장검 -->
+	<ITEM id="31" name="STR:ZITEM_NAME_31" mesh_name="blade02" totalpoint="0" type="melee"
+		res_sex="a" res_level="10" slot="melee" weapon="doublekatana" weight="18" bt_price="850"
+		delay="290" damage="14" range="220" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_31" />
+	<ITEM id="32" name="STR:ZITEM_NAME_32" mesh_name="blade01" totalpoint="0" type="melee"
+		res_sex="a" res_level="21" slot="melee" weapon="doublekatana" weight="14" bt_price="2000"
+		delay="280" damage="15" range="220" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_32" />
+	<ITEM id="33" name="STR:ZITEM_NAME_33" mesh_name="blade06" totalpoint="0" type="melee"
+		res_sex="a" res_level="32" slot="melee" weapon="doublekatana" weight="20" bt_price="5000"
+		delay="280" damage="16" range="220" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_33" />
+	<ITEM id="34" name="STR:ZITEM_NAME_34" mesh_name="blade05" totalpoint="0" type="melee"
+		res_sex="a" res_level="43" slot="melee" weapon="doublekatana" weight="18" bt_price="12000"
+		delay="260" damage="18" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_34" />
+	<!-- 테스트용 대검입니다. 나중에 삭제요망 -->
+	<ITEM id="51" name="STR:ZITEM_NAME_51" mesh_name="sword01" totalpoint="0" type="melee"
+		res_sex="a" res_level="43" slot="melee" weapon="greatsword" weight="18" bt_price="12000"
+		delay="260" damage="18" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_51" />
+	<!-- Pistol : Magazine = 6 ea ///////////////////////////////////////////////////////////////////////// -->
+	<ITEM id="4001" name="STR:ZITEM_NAME_4001" mesh_name="pistol01" totalpoint="0" type="range"
+		res_sex="a" res_level="0" slot="range" weapon="pistol" weight="7" bt_price="20" delay="250"
+		damage="8" ctrl_ability="30" magazine="10" maxbullet="60" reloadtime="4" slug_output="true"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_pistol_reload"
+		snd_fire="we_pistol_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4001"
+		effect_id="3" />
+	<ITEM id="4002" name="STR:ZITEM_NAME_4002" mesh_name="pistol01x2" totalpoint="0" type="range"
+		res_sex="a" res_level="0" slot="range" weapon="pistolx2" weight="14" bt_price="40"
+		delay="250" damage="16" ctrl_ability="36" magazine="10" maxbullet="60" reloadtime="4"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_pistol_reload"
+		snd_fire="we_pistol_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4002"
+		effect_id="4" />
+	<ITEM id="4009" name="STR:ZITEM_NAME_4009" mesh_name="pistol01" totalpoint="0" type="range"
+		res_sex="a" res_level="5" slot="range" weapon="pistol" weight="7" bt_price="200" delay="200"
+		damage="8" ctrl_ability="30" magazine="12" maxbullet="72" reloadtime="4" slug_output="true"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_pistol_reload"
+		snd_fire="we_pistol_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4009"
+		effect_id="3" />
+	<ITEM id="4010" name="STR:ZITEM_NAME_4010" mesh_name="pistol01x2" totalpoint="0" type="range"
+		res_sex="a" res_level="7" slot="range" weapon="pistolx2" weight="14" bt_price="360"
+		delay="200" damage="16" ctrl_ability="36" magazine="12" maxbullet="72" reloadtime="4"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_pistol_reload"
+		snd_fire="we_pistol_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4010"
+		effect_id="4" />
+	<ITEM id="4011" name="STR:ZITEM_NAME_4011" mesh_name="pistol05" totalpoint="0" type="range"
+		res_sex="a" res_level="6" slot="range" weapon="pistol" weight="8" bt_price="300" delay="250"
+		damage="10" ctrl_ability="40" magazine="10" maxbullet="60" reloadtime="4" slug_output="true"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_pistol_reload"
+		snd_fire="we_pistol_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4011"
+		effect_id="3" />
+	<ITEM id="4012" name="STR:ZITEM_NAME_4012" mesh_name="pistol05x2" totalpoint="0" type="range"
+		res_sex="a" res_level="8" slot="range" weapon="pistolx2" weight="16" bt_price="540"
+		delay="250" damage="20" ctrl_ability="48" magazine="10" maxbullet="60" reloadtime="4"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_pistol_reload"
+		snd_fire="we_pistol_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4012"
+		effect_id="4" />
+	<ITEM id="4003" name="STR:ZITEM_NAME_4003" mesh_name="pistol02" totalpoint="0" type="range"
+		res_sex="a" res_level="10" slot="range" weapon="pistol" weight="7" bt_price="500"
+		delay="200" damage="9" ctrl_ability="25" magazine="12" maxbullet="72" reloadtime="4"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_pistol_reload"
+		snd_fire="we_pistol_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4003"
+		effect_id="3" />
+	<ITEM id="4004" name="STR:ZITEM_NAME_4004" mesh_name="pistol02x2" totalpoint="0" type="range"
+		res_sex="a" res_level="12" slot="range" weapon="pistolx2" weight="14" bt_price="900"
+		delay="200" damage="18" ctrl_ability="30" magazine="12" maxbullet="72" reloadtime="4"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_pistol_reload"
+		snd_fire="we_pistol_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4004"
+		effect_id="4" />
+	<ITEM id="4013" name="STR:ZITEM_NAME_4013" mesh_name="pistol05" totalpoint="0" type="range"
+		res_sex="a" res_level="14" slot="range" weapon="pistol" weight="8" bt_price="800"
+		delay="220" damage="12" ctrl_ability="40" magazine="14" maxbullet="84" reloadtime="4"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_pistol_reload"
+		snd_fire="we_pistol_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4013"
+		effect_id="3" />
+	<ITEM id="4014" name="STR:ZITEM_NAME_4014" mesh_name="pistol05x2" totalpoint="0" type="range"
+		res_sex="a" res_level="16" slot="range" weapon="pistolx2" weight="16" bt_price="1440"
+		delay="220" damage="24" ctrl_ability="48" magazine="14" maxbullet="84" reloadtime="4"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_pistol_reload"
+		snd_fire="we_pistol_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4014"
+		effect_id="4" />
+	<ITEM id="4015" name="STR:ZITEM_NAME_4015" mesh_name="pistol02" totalpoint="0" type="range"
+		res_sex="a" res_level="24" slot="range" weapon="pistol" weight="8" bt_price="2500"
+		delay="180" damage="11" ctrl_ability="25" magazine="13" maxbullet="78" reloadtime="4"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_pistol_reload"
+		snd_fire="we_pistol_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4015"
+		effect_id="3" />
+	<ITEM id="4016" name="STR:ZITEM_NAME_4016" mesh_name="pistol02x2" totalpoint="0" type="range"
+		res_sex="a" res_level="26" slot="range" weapon="pistolx2" weight="16" bt_price="4500"
+		delay="180" damage="22" ctrl_ability="30" magazine="13" maxbullet="78" reloadtime="4"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_pistol_reload"
+		snd_fire="we_pistol_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4016"
+		effect_id="4" />
+	<ITEM id="4017" name="STR:ZITEM_NAME_4017" mesh_name="pistol05" totalpoint="0" type="range"
+		res_sex="a" res_level="32" slot="range" weapon="pistol" weight="9" bt_price="5000"
+		delay="210" damage="13" ctrl_ability="40" magazine="15" maxbullet="90" reloadtime="4"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_pistol_reload"
+		snd_fire="we_pistol_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4017"
+		effect_id="3" />
+	<ITEM id="4018" name="STR:ZITEM_NAME_4018" mesh_name="pistol05x2" totalpoint="0" type="range"
+		res_sex="a" res_level="34" slot="range" weapon="pistolx2" weight="18" bt_price="9000"
+		delay="210" damage="26" ctrl_ability="48" magazine="15" maxbullet="90" reloadtime="4"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_pistol_reload"
+		snd_fire="we_pistol_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4018"
+		effect_id="4" />
+	<ITEM id="4019" name="STR:ZITEM_NAME_4019" mesh_name="pistol02" totalpoint="0" type="range"
+		res_sex="a" res_level="40" slot="range" weapon="pistol" weight="8" bt_price="8000"
+		delay="160" damage="11" ctrl_ability="25" magazine="14" maxbullet="84" reloadtime="4"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_pistol_reload"
+		snd_fire="we_pistol_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4019"
+		effect_id="3" />
+	<ITEM id="4020" name="STR:ZITEM_NAME_4020" mesh_name="pistol02x2" totalpoint="0" type="range"
+		res_sex="a" res_level="42" slot="range" weapon="pistolx2" weight="16" bt_price="14400"
+		delay="160" damage="22" ctrl_ability="30" magazine="14" maxbullet="84" reloadtime="4"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_pistol_reload"
+		snd_fire="we_pistol_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4020"
+		effect_id="4" />
+	<!-- Revolver : Magazine = 8 ea ///////////////////////////////////////////////////////////////////////// -->
+	<ITEM id="4005" name="STR:ZITEM_NAME_4005" mesh_name="pistol07" totalpoint="0" type="range"
+		res_sex="a" res_level="0" slot="range" weapon="revolver" weight="8" bt_price="20"
+		delay="400" damage="16" ctrl_ability="60" magazine="6" maxbullet="48" reloadtime="8"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_revolver_reload"
+		snd_fire="we_revolver_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4005"
+		effect_id="3" />
+	<ITEM id="4006" name="STR:ZITEM_NAME_4006" mesh_name="pistol07x2" totalpoint="0" type="range"
+		res_sex="a" res_level="0" slot="range" weapon="revolverx2" weight="16" bt_price="40"
+		delay="400" damage="32" ctrl_ability="72" magazine="6" maxbullet="48" reloadtime="8"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_revolver_reload"
+		snd_fire="we_revolver_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4006"
+		effect_id="4" />
+	<ITEM id="4501" name="STR:ZITEM_NAME_4501" mesh_name="pistol12" totalpoint="0" type="range"
+		res_sex="a" res_level="5" slot="range" weapon="revolver" weight="7" bt_price="220"
+		delay="300" damage="14" ctrl_ability="60" magazine="8" maxbullet="64" reloadtime="8"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_revolver_reload"
+		snd_fire="we_revolver_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4501"
+		effect_id="3" />
+	<ITEM id="4502" name="STR:ZITEM_NAME_4502" mesh_name="pistol12x2" totalpoint="0" type="range"
+		res_sex="a" res_level="7" slot="range" weapon="revolverx2" weight="14" bt_price="396"
+		delay="300" damage="28" ctrl_ability="72" magazine="8" maxbullet="64" reloadtime="8"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_revolver_reload"
+		snd_fire="we_revolver_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4502"
+		effect_id="4" />
+	<ITEM id="4503" name="STR:ZITEM_NAME_4503" mesh_name="pistol07" totalpoint="0" type="range"
+		res_sex="a" res_level="7" slot="range" weapon="revolver" weight="8" bt_price="340"
+		delay="400" damage="18" ctrl_ability="50" magazine="6" maxbullet="48" reloadtime="8"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_revolver_reload"
+		snd_fire="we_revolver_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4503"
+		effect_id="3" />
+	<ITEM id="4504" name="STR:ZITEM_NAME_4504" mesh_name="pistol07x2" totalpoint="0" type="range"
+		res_sex="a" res_level="9" slot="range" weapon="revolverx2" weight="16" bt_price="612"
+		delay="400" damage="36" ctrl_ability="60" magazine="6" maxbullet="48" reloadtime="8"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_revolver_reload"
+		snd_fire="we_revolver_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4504"
+		effect_id="4" />
+	<ITEM id="4007" name="STR:ZITEM_NAME_4007" mesh_name="pistol08" totalpoint="0" type="range"
+		res_sex="a" res_level="10" slot="range" weapon="revolver" weight="7" bt_price="550"
+		delay="400" damage="20" ctrl_ability="60" magazine="6" maxbullet="48" reloadtime="8"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_revolver_reload"
+		snd_fire="we_revolver_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4007"
+		effect_id="3" />
+	<ITEM id="4008" name="STR:ZITEM_NAME_4008" mesh_name="pistol08x2" totalpoint="0" type="range"
+		res_sex="a" res_level="12" slot="range" weapon="revolverx2" weight="14" bt_price="990"
+		delay="400" damage="40" ctrl_ability="72" magazine="6" maxbullet="48" reloadtime="8"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_revolver_reload"
+		snd_fire="we_revolver_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4008"
+		effect_id="4" />
+	<ITEM id="4505" name="STR:ZITEM_NAME_4505" mesh_name="pistol10" totalpoint="0" type="range"
+		res_sex="a" res_level="16" slot="range" weapon="revolver" weight="9" bt_price="1200"
+		delay="400" damage="22" ctrl_ability="70" magazine="6" maxbullet="48" reloadtime="8"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_revolver_reload"
+		snd_fire="we_revolver_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4505"
+		effect_id="3" />
+	<ITEM id="4506" name="STR:ZITEM_NAME_4506" mesh_name="pistol10x2" totalpoint="0" type="range"
+		res_sex="a" res_level="18" slot="range" weapon="revolverx2" weight="18" bt_price="2160"
+		delay="400" damage="44" ctrl_ability="84" magazine="6" maxbullet="48" reloadtime="8"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_revolver_reload"
+		snd_fire="we_revolver_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4506"
+		effect_id="4" />
+	<ITEM id="4507" name="STR:ZITEM_NAME_4507" mesh_name="pistol10" totalpoint="0" type="range"
+		res_sex="a" res_level="21" slot="range" weapon="revolver" weight="8" bt_price="2500"
+		delay="400" damage="23" ctrl_ability="65" magazine="6" maxbullet="48" reloadtime="8"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_revolver_reload"
+		snd_fire="we_revolver_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4507"
+		effect_id="3" />
+	<ITEM id="4508" name="STR:ZITEM_NAME_4508" mesh_name="pistol10x2" totalpoint="0" type="range"
+		res_sex="a" res_level="23" slot="range" weapon="revolverx2" weight="16" bt_price="4500"
+		delay="400" damage="46" ctrl_ability="78" magazine="6" maxbullet="48" reloadtime="8"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_revolver_reload"
+		snd_fire="we_revolver_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4508"
+		effect_id="4" />
+	<ITEM id="4509" name="STR:ZITEM_NAME_4509" mesh_name="pistol12" totalpoint="0" type="range"
+		res_sex="a" res_level="26" slot="range" weapon="revolver" weight="7" bt_price="4000"
+		delay="300" damage="18" ctrl_ability="60" magazine="8" maxbullet="64" reloadtime="8"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_revolver_reload"
+		snd_fire="we_revolver_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4509"
+		effect_id="3" />
+	<ITEM id="4510" name="STR:ZITEM_NAME_4510" mesh_name="pistol12x2" totalpoint="0" type="range"
+		res_sex="a" res_level="28" slot="range" weapon="revolverx2" weight="14" bt_price="7200"
+		delay="300" damage="36" ctrl_ability="72" magazine="8" maxbullet="64" reloadtime="8"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_revolver_reload"
+		snd_fire="we_revolver_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4510"
+		effect_id="4" />
+	<ITEM id="4511" name="STR:ZITEM_NAME_4511" mesh_name="pistol07" totalpoint="0" type="range"
+		res_sex="a" res_level="34" slot="range" weapon="revolver" weight="8" bt_price="7000"
+		delay="400" damage="25" ctrl_ability="50" magazine="6" maxbullet="48" reloadtime="8"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_revolver_reload"
+		snd_fire="we_revolver_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4511"
+		effect_id="3" />
+	<ITEM id="4512" name="STR:ZITEM_NAME_4512" mesh_name="pistol07x2" totalpoint="0" type="range"
+		res_sex="a" res_level="36" slot="range" weapon="revolverx2" weight="16" bt_price="12600"
+		delay="400" damage="50" ctrl_ability="60" magazine="6" maxbullet="48" reloadtime="8"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_revolver_reload"
+		snd_fire="we_revolver_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4512"
+		effect_id="4" />
+	<ITEM id="4513" name="STR:ZITEM_NAME_4513" mesh_name="pistol08" totalpoint="0" type="range"
+		res_sex="a" res_level="42" slot="range" weapon="revolver" weight="8" bt_price="12000"
+		delay="360" damage="25" ctrl_ability="50" magazine="6" maxbullet="48" reloadtime="8"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_revolver_reload"
+		snd_fire="we_revolver_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4513"
+		effect_id="3" />
+	<ITEM id="4514" name="STR:ZITEM_NAME_4514" mesh_name="pistol08x2" totalpoint="0" type="range"
+		res_sex="a" res_level="46" slot="range" weapon="revolverx2" weight="16" bt_price="21600"
+		delay="360" damage="50" ctrl_ability="60" magazine="6" maxbullet="48" reloadtime="8"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_revolver_reload"
+		snd_fire="we_revolver_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_4514"
+		effect_id="4" />
+	<!-- SMG : Magazine = 5 ea//Controllability Point = 1.8 //////////////////////////////////////////////////////// -->
+	<ITEM id="5001" name="STR:ZITEM_NAME_5001" mesh_name="smg01" totalpoint="0" type="range"
+		res_sex="a" res_level="0" slot="range" weapon="smg" weight="15" bt_price="30" delay="90"
+		damage="7" ctrl_ability="50" magazine="32" maxbullet="160" reloadtime="5" slug_output="true"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_smg_reload"
+		snd_fire="we_smg_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_5001"
+		effect_id="5" />
+	<ITEM id="5002" name="STR:ZITEM_NAME_5002" mesh_name="smg01x2" totalpoint="0" type="range"
+		res_sex="a" res_level="0" slot="range" weapon="smgx2" weight="30" bt_price="60" delay="90"
+		damage="14" ctrl_ability="90" magazine="32" maxbullet="160" reloadtime="5" slug_output="true"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_smg_reload"
+		snd_fire="we_smg_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_5002"
+		effect_id="6" />
+	<ITEM id="5003" name="STR:ZITEM_NAME_5003" mesh_name="smg02" totalpoint="0" type="range"
+		res_sex="a" res_level="10" slot="range" weapon="smg" weight="15" bt_price="750" delay="90"
+		damage="8" ctrl_ability="50" magazine="36" maxbullet="180" reloadtime="5" slug_output="true"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_smg_reload"
+		snd_fire="we_smg_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_5003"
+		effect_id="5" />
+	<ITEM id="5004" name="STR:ZITEM_NAME_5004" mesh_name="smg02x2" totalpoint="0" type="range"
+		res_sex="a" res_level="13" slot="range" weapon="smgx2" weight="30" bt_price="1350"
+		delay="90" damage="16" ctrl_ability="90" magazine="36" maxbullet="180" reloadtime="5"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_smg_reload"
+		snd_fire="we_smg_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_5004"
+		effect_id="6" />
+	<ITEM id="5005" name="STR:ZITEM_NAME_5005" mesh_name="smg05" totalpoint="0" type="range"
+		res_sex="a" res_level="10" slot="range" weapon="smg" weight="12" bt_price="700" delay="90"
+		damage="5" ctrl_ability="70" magazine="60" maxbullet="300" reloadtime="2" slug_output="true"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_smg_reload"
+		snd_fire="we_smg_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_5005"
+		effect_id="5" />
+	<ITEM id="5006" name="STR:ZITEM_NAME_5006" mesh_name="smg05x2" totalpoint="0" type="range"
+		res_sex="a" res_level="12" slot="range" weapon="smgx2" weight="24" bt_price="1260"
+		delay="90" damage="10" ctrl_ability="126" magazine="60" maxbullet="300" reloadtime="2"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_smg_reload"
+		snd_fire="we_smg_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_5006"
+		effect_id="6" />
+	<ITEM id="5007" name="STR:ZITEM_NAME_5007" mesh_name="smg01" totalpoint="0" type="range"
+		res_sex="a" res_level="24" slot="range" weapon="smg" weight="15" bt_price="2800" delay="85"
+		damage="7" ctrl_ability="35" magazine="32" maxbullet="160" reloadtime="3" slug_output="true"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_smg_reload"
+		snd_fire="we_smg_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_5007"
+		effect_id="5" />
+	<ITEM id="5008" name="STR:ZITEM_NAME_5008" mesh_name="smg01x2" totalpoint="0" type="range"
+		res_sex="a" res_level="27" slot="range" weapon="smgx2" weight="30" bt_price="5040"
+		delay="85" damage="14" ctrl_ability="63" magazine="32" maxbullet="160" reloadtime="3"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_smg_reload"
+		snd_fire="we_smg_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_5008"
+		effect_id="6" />
+	<ITEM id="5009" name="STR:ZITEM_NAME_5009" mesh_name="smg02" totalpoint="0" type="range"
+		res_sex="a" res_level="24" slot="range" weapon="smg" weight="16" bt_price="2800" delay="95"
+		damage="9" ctrl_ability="55" magazine="36" maxbullet="180" reloadtime="5" slug_output="true"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_smg_reload"
+		snd_fire="we_smg_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_5009"
+		effect_id="5" />
+	<ITEM id="5010" name="STR:ZITEM_NAME_5010" mesh_name="smg02x2" totalpoint="0" type="range"
+		res_sex="a" res_level="27" slot="range" weapon="smgx2" weight="32" bt_price="5040"
+		delay="95" damage="18" ctrl_ability="99" magazine="36" maxbullet="180" reloadtime="5"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_smg_reload"
+		snd_fire="we_smg_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_5010"
+		effect_id="6" />
+	<ITEM id="5011" name="STR:ZITEM_NAME_5011" mesh_name="smg01" totalpoint="0" type="range"
+		res_sex="a" res_level="36" slot="range" weapon="smg" weight="15" bt_price="5600" delay="80"
+		damage="8" ctrl_ability="35" magazine="40" maxbullet="200" reloadtime="3" slug_output="true"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_smg_reload"
+		snd_fire="we_smg_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_5011"
+		effect_id="5" />
+	<ITEM id="5012" name="STR:ZITEM_NAME_5012" mesh_name="smg01x2" totalpoint="0" type="range"
+		res_sex="a" res_level="39" slot="range" weapon="smgx2" weight="30" bt_price="10080"
+		delay="80" damage="16" ctrl_ability="63" magazine="40" maxbullet="200" reloadtime="3"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_smg_reload"
+		snd_fire="we_smg_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_5012"
+		effect_id="6" />
+	<ITEM id="5013" name="STR:ZITEM_NAME_5013" mesh_name="smg03" totalpoint="0" type="range"
+		res_sex="a" res_level="36" slot="range" weapon="smg" weight="14" bt_price="5800" delay="95"
+		damage="9" ctrl_ability="50" magazine="32" maxbullet="160" reloadtime="5" slug_output="true"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_smg_reload"
+		snd_fire="we_smg_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_5013"
+		effect_id="5" />
+	<ITEM id="5014" name="STR:ZITEM_NAME_5014" mesh_name="smg03x2" totalpoint="0" type="range"
+		res_sex="a" res_level="39" slot="range" weapon="smgx2" weight="28" bt_price="10440"
+		delay="95" damage="18" ctrl_ability="90" magazine="32" maxbullet="160" reloadtime="5"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_smg_reload"
+		snd_fire="we_smg_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_5014"
+		effect_id="6" />
+	<ITEM id="5015" name="STR:ZITEM_NAME_5015" mesh_name="smg01" totalpoint="0" type="range"
+		res_sex="a" res_level="45" slot="range" weapon="smg" weight="14" bt_price="12000"
+		delay="80" damage="8" ctrl_ability="35" magazine="40" maxbullet="200" reloadtime="3"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_smg_reload"
+		snd_fire="we_smg_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_5015"
+		effect_id="5" />
+	<ITEM id="5016" name="STR:ZITEM_NAME_5016" mesh_name="smg01x2" totalpoint="0" type="range"
+		res_sex="a" res_level="48" slot="range" weapon="smgx2" weight="28" bt_price="21600"
+		delay="80" damage="16" ctrl_ability="63" magazine="40" maxbullet="200" reloadtime="3"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_smg_reload"
+		snd_fire="we_smg_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_5016"
+		effect_id="6" />
+	<ITEM id="5017" name="STR:ZITEM_NAME_5017" mesh_name="smg03" totalpoint="0" type="range"
+		res_sex="a" res_level="45" slot="range" weapon="smg" weight="14" bt_price="12000"
+		delay="95" damage="11" ctrl_ability="50" magazine="32" maxbullet="160" reloadtime="5"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_smg_reload"
+		snd_fire="we_smg_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_5017"
+		effect_id="5" />
+	<ITEM id="5018" name="STR:ZITEM_NAME_5018" mesh_name="smg03x2" totalpoint="0" type="range"
+		res_sex="a" res_level="48" slot="range" weapon="smgx2" weight="28" bt_price="21600"
+		delay="95" damage="22" ctrl_ability="90" magazine="32" maxbullet="160" reloadtime="5"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_smg_reload"
+		snd_fire="we_smg_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_5018"
+		effect_id="6" />
+	<!-- SHOTGUN : Magazine = 5 ea ////////////////////////////////////////////////////////////////// -->
+	<ITEM id="6001" name="STR:ZITEM_NAME_6001" mesh_name="shotgun01" totalpoint="0" type="range"
+		res_sex="a" res_level="5" slot="range" weapon="shotgun" weight="15" bt_price="200"
+		delay="1100" damage="6" ctrl_ability="60" magazine="3" maxbullet="15" reloadtime="5"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_shotgunpa_reload"
+		snd_fire="we_shotgunpa_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_6001"
+		effect_id="7" />
+	<ITEM id="6002" name="STR:ZITEM_NAME_6002" mesh_name="shotgun01" totalpoint="0" type="range"
+		res_sex="a" res_level="10" slot="range" weapon="shotgun" weight="18" bt_price="800"
+		delay="1000" damage="6" ctrl_ability="60" magazine="5" maxbullet="25" reloadtime="5"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_shotgunpa_reload"
+		snd_fire="we_shotgunpa_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_6002"
+		effect_id="7" />
+	<ITEM id="6003" name="STR:ZITEM_NAME_6003" mesh_name="shotgun01" totalpoint="0" type="range"
+		res_sex="a" res_level="15" slot="range" weapon="shotgun" weight="20" bt_price="1600"
+		delay="1000" damage="7" ctrl_ability="60" magazine="5" maxbullet="25" reloadtime="5"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_shotgunpa_reload"
+		snd_fire="we_shotgunpa_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_6003"
+		effect_id="7" />
+	<ITEM id="6004" name="STR:ZITEM_NAME_6004" mesh_name="shotgun03" totalpoint="0" type="range"
+		res_sex="a" res_level="30" slot="range" weapon="shotgun" weight="20" bt_price="8000"
+		delay="1000" damage="8" ctrl_ability="60" magazine="5" maxbullet="25" reloadtime="5"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_shotgunpa_reload"
+		snd_fire="we_shotgunpa_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_6004"
+		effect_id="7" />
+	<ITEM id="6005" name="STR:ZITEM_NAME_6005" mesh_name="shotgun07" totalpoint="0" type="range"
+		res_sex="a" res_level="30" slot="range" weapon="shotgun" weight="15" bt_price="9000"
+		delay="1200" damage="10" ctrl_ability="100" magazine="2" maxbullet="10" reloadtime="5"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_shotgunpa_reload"
+		snd_fire="we_shotgunpa_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_6005"
+		effect_id="7" />
+	<ITEM id="6006" name="STR:ZITEM_NAME_6006" mesh_name="shotgun03" totalpoint="0" type="range"
+		res_sex="a" res_level="45" slot="range" weapon="shotgun" weight="20" bt_price="20000"
+		delay="1000" damage="9" ctrl_ability="60" magazine="5" maxbullet="25" reloadtime="5"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_shotgunpa_reload"
+		snd_fire="we_shotgunpa_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_6006"
+		effect_id="7" />
+	<ITEM id="6007" name="STR:ZITEM_NAME_6007" mesh_name="shotgun07" totalpoint="0" type="range"
+		res_sex="a" res_level="45" slot="range" weapon="shotgun" weight="16" bt_price="24000"
+		delay="1200" damage="11" ctrl_ability="100" magazine="2" maxbullet="10" reloadtime="5"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_shotgunpa_reload"
+		snd_fire="we_shotgunpa_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_6007"
+		effect_id="7" />
+	<!-- RIFLE : Magazine = 5 ea //////////////////////////////////////////////////////////////////////////-->
+	<ITEM id="7001" name="STR:ZITEM_NAME_7001" mesh_name="rifle03" totalpoint="0" type="range"
+		res_sex="a" res_level="5" slot="range" weapon="rifle" weight="15" bt_price="400" delay="120"
+		damage="11" ctrl_ability="30" magazine="32" maxbullet="160" reloadtime="6" slug_output="true"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_rifle_reload"
+		snd_fire="we_rifle_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_7001"
+		effect_id="8" />
+	<ITEM id="7002" name="STR:ZITEM_NAME_7002" mesh_name="rifle01" totalpoint="0" type="range"
+		res_sex="a" res_level="10" slot="range" weapon="rifle" weight="18" bt_price="1500"
+		delay="110" damage="12" ctrl_ability="30" magazine="32" maxbullet="160" reloadtime="6"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_rifle_reload"
+		snd_fire="we_rifle_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_7002"
+		effect_id="8" />
+	<ITEM id="7003" name="STR:ZITEM_NAME_7003" mesh_name="rifle02" totalpoint="0" type="range"
+		res_sex="a" res_level="15" slot="range" weapon="rifle" weight="20" bt_price="2800"
+		delay="100" damage="15" ctrl_ability="50" magazine="24" maxbullet="120" reloadtime="6"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_rifle_reload"
+		snd_fire="we_rifle_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_7003"
+		effect_id="8" />
+	<ITEM id="7004" name="STR:ZITEM_NAME_7004" mesh_name="rifle04" totalpoint="0" type="range"
+		res_sex="a" res_level="18" slot="range" weapon="rifle" weight="20" bt_price="3000"
+		delay="80" damage="13" ctrl_ability="20" magazine="40" maxbullet="200" reloadtime="6"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_rifle_reload"
+		snd_fire="we_rifle_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_7004"
+		effect_id="8" />
+	<ITEM id="7005" name="STR:ZITEM_NAME_7005" mesh_name="rifle03" totalpoint="0" type="range"
+		res_sex="a" res_level="26" slot="range" weapon="rifle" weight="18" bt_price="6000"
+		delay="90" damage="15" ctrl_ability="30" magazine="36" maxbullet="160" reloadtime="6"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_rifle_reload"
+		snd_fire="we_rifle_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_7005"
+		effect_id="8" />
+	<ITEM id="7006" name="STR:ZITEM_NAME_7006" mesh_name="rifle04" totalpoint="0" type="range"
+		res_sex="a" res_level="34" slot="range" weapon="rifle" weight="20" bt_price="12000"
+		delay="80" damage="14" ctrl_ability="20" magazine="40" maxbullet="200" reloadtime="6"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_rifle_reload"
+		snd_fire="we_rifle_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_7006"
+		effect_id="8" />
+	<ITEM id="7007" name="STR:ZITEM_NAME_7007" mesh_name="rifle01" totalpoint="0" type="range"
+		res_sex="a" res_level="42" slot="range" weapon="rifle" weight="18" bt_price="24000"
+		delay="90" damage="16" ctrl_ability="30" magazine="40" maxbullet="200" reloadtime="6"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_rifle_reload"
+		snd_fire="we_rifle_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_7007"
+		effect_id="8" />
+	<ITEM id="7008" name="STR:ZITEM_NAME_7008" mesh_name="rifle02" totalpoint="0" type="range"
+		res_sex="a" res_level="50" slot="range" weapon="rifle" weight="20" bt_price="48000"
+		delay="100" damage="19" ctrl_ability="50" magazine="32" maxbullet="160" reloadtime="6"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_rifle_reload"
+		snd_fire="we_rifle_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_7008"
+		effect_id="8" />
+	<!-- MACHINEGUN /////////////////////////////////////////////////////////////////////////////////////////// -->
+	<ITEM id="8001" name="STR:ZITEM_NAME_8001" mesh_name="machinegun01" totalpoint="0" type="range"
+		res_sex="a" res_level="25" slot="range" weapon="machinegun" weight="28" bt_price="8000"
+		delay="100" damage="16" ctrl_ability="70" magazine="120" maxbullet="240" reloadtime="10"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" limitspeed="90" limitwall="1" color="#FFFFFFFF" image_id="2" bullet_image_id="0"
+		magazine_image_id="0" snd_reload="we_machinegun_reload" snd_fire="we_machinegun_fire"
+		snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_8001" effect_id="9" />
+	<ITEM id="8002" name="STR:ZITEM_NAME_8002" mesh_name="machinegun01" totalpoint="0" type="range"
+		res_sex="a" res_level="35" slot="range" weapon="machinegun" weight="28" bt_price="16000"
+		delay="100" damage="17" ctrl_ability="70" magazine="120" maxbullet="240" reloadtime="10"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" limitspeed="90" limitwall="1" color="#FFFFFFFF" image_id="2" bullet_image_id="0"
+		magazine_image_id="0" snd_reload="we_machinegun_reload" snd_fire="we_machinegun_fire"
+		snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_8002" effect_id="9" />
+	<ITEM id="8003" name="STR:ZITEM_NAME_8003" mesh_name="machinegun02" totalpoint="0" type="range"
+		res_sex="a" res_level="45" slot="range" weapon="machinegun" weight="28" bt_price="32000"
+		delay="100" damage="18" ctrl_ability="70" magazine="120" maxbullet="240" reloadtime="10"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" limitspeed="90" limitwall="1" color="#FFFFFFFF" image_id="2" bullet_image_id="0"
+		magazine_image_id="0" snd_reload="we_machinegun_reload" snd_fire="we_machinegun_fire"
+		snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_8003" effect_id="9" />
+	<!-- ROCKET LAUNCHER : Magazine = 4 ea ///////////////////////////////////////////////////////////////////// -->
+	<ITEM id="9006" name="STR:ZITEM_NAME_9006" mesh_name="rocketlauncher02" totalpoint="0"
+		type="range" res_sex="a" res_level="10" slot="range" weapon="rocket" weight="30" bt_price="2000"
+		delay="1000" damage="30" ctrl_ability="50" magazine="4" maxbullet="16" reloadtime="3"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" limitspeed="90" limitwall="1" color="#FFFFFFFF" image_id="2" bullet_image_id="0"
+		magazine_image_id="0" snd_reload="we_rocket_reload" snd_fire="we_rocket_fire" snd_dryfire="762arifle_dryfire"
+		desc="STR:ZITEM_DESC_9006" />
+	<ITEM id="9001" name="STR:ZITEM_NAME_9001" mesh_name="rocketlauncher" totalpoint="0" type="range"
+		res_sex="a" res_level="15" slot="range" weapon="rocket" weight="30" bt_price="3200"
+		delay="1200" damage="50" ctrl_ability="50" magazine="3" maxbullet="12" reloadtime="3"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" limitspeed="90" limitwall="1" color="#FFFFFFFF" image_id="2" bullet_image_id="0"
+		magazine_image_id="0" snd_reload="we_rocket_reload" snd_fire="we_rocket_fire" snd_dryfire="762arifle_dryfire"
+		desc="STR:ZITEM_DESC_9001" />
+	<ITEM id="9002" name="STR:ZITEM_NAME_9002" mesh_name="rocketlauncher02" totalpoint="0"
+		type="range" res_sex="a" res_level="20" slot="range" weapon="rocket" weight="28" bt_price="5200"
+		delay="900" damage="35" ctrl_ability="50" magazine="5" maxbullet="20" reloadtime="3"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" limitwall="1" limitspeed="90" color="#FFFFFFFF" image_id="2" bullet_image_id="0"
+		magazine_image_id="0" snd_reload="we_rocket_reload" snd_fire="we_rocket_fire" snd_dryfire="762arifle_dryfire"
+		desc="STR:ZITEM_DESC_9002" />
+	<ITEM id="9003" name="STR:ZITEM_NAME_9003" mesh_name="rocketlauncher" totalpoint="0" type="range"
+		res_sex="a" res_level="30" slot="range" weapon="rocket" weight="30" bt_price="12000"
+		delay="1200" damage="55" ctrl_ability="50" magazine="3" maxbullet="12" reloadtime="3"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" limitspeed="90" limitwall="1" color="#FFFFFFFF" image_id="2" bullet_image_id="0"
+		magazine_image_id="0" snd_reload="we_rocket_reload" snd_fire="we_rocket_fire" snd_dryfire="762arifle_dryfire"
+		desc="STR:ZITEM_DESC_9003" />
+	<ITEM id="9004" name="STR:ZITEM_NAME_9004" mesh_name="rocketlauncher02" totalpoint="0"
+		type="range" res_sex="a" res_level="40" slot="range" weapon="rocket" weight="28" bt_price="24000"
+		delay="800" damage="36" ctrl_ability="50" magazine="5" maxbullet="20" reloadtime="3"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" limitspeed="90" limitwall="1" color="#FFFFFFFF" image_id="2" bullet_image_id="0"
+		magazine_image_id="0" snd_reload="we_rocket_reload" snd_fire="we_rocket_fire" snd_dryfire="762arifle_dryfire"
+		desc="STR:ZITEM_DESC_9004" />
+	<ITEM id="9005" name="STR:ZITEM_NAME_9005" mesh_name="rocketlauncher03" totalpoint="0"
+		type="range" res_sex="a" res_level="50" slot="range" weapon="rocket" weight="25" bt_price="50000"
+		delay="1200" damage="55" ctrl_ability="50" magazine="4" maxbullet="16" reloadtime="3"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" limitspeed="90" limitwall="1" color="#FFFFFFFF" image_id="2" bullet_image_id="0"
+		magazine_image_id="0" snd_reload="we_rocket_reload" snd_fire="we_rocket_fire" snd_dryfire="762arifle_dryfire"
+		desc="STR:ZITEM_DESC_9005" />
+	<!-- Snifer Rifle /////////////////////////////////////////////////////////////////////////////////////////// -->
+	<ITEM id="10001" name="STR:ZITEM_NAME_10001" mesh_name="rifle03" totalpoint="0" type="range"
+		res_sex="a" res_level="0" slot="range" weapon="snifer" weight="25" bt_price="50000"
+		delay="1200" damage="80" ctrl_ability="0" magazine="2" maxbullet="16" reloadtime="7"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" limitwall="1" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0"
+		snd_reload="we_rifle_reload" snd_fire="we_rifle_fire" snd_dryfire="762arifle_dryfire"
+		desc="STR:ZITEM_DESC_10001" />
+	<!-- 임시 테스트용 아이템 /////////////////////////////////////////////////////////////////////////////////////////// -->
+	<!--
+	<ITEM id="20001" name="test sword" mesh_name="sword01" totalpoint="0" type="melee" res_sex="a"
+		res_level="0" slot="melee" weapon="dagger" weight="5" bt_price="20" delay="100" damage="8" ctrl_ability="0"
+		magazine="0" reloadtime="0" slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" image_id="0" bullet_image_id="0"
+		magazine_image_id="0" desc=" Liphunter의 sword." />
+
+	<ITEM id="20003" name="test daggerx2" mesh_name="dagger01" totalpoint="0" type="melee" res_sex="a"
+		res_level="0" slot="melee" weapon="dagger" weight="5" bt_price="20" delay="100" damage="8" ctrl_ability="0"
+		magazine="0" reloadtime="0" slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" image_id="0" bullet_image_id="0"
+		magazine_image_id="0" desc=" Liphunter의 daggerx2." />
+
+-->
+	<!-- HANDHELD ITEMS ///////////////////////////////////////////////////////////////////////////////////////////// -->
+	<ITEM id="30301" name="STR:ZITEM_NAME_30301" mesh_name="grenade01" totalpoint="0" type="custom"
+		res_sex="a" res_level="0" slot="custom" weapon="frag" weight="2" bt_price="200" delay="1500"
+		damage="100" ctrl_ability="20" magazine="2" maxbullet="2" reloadtime="10" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="3" bullet_image_id="0" magazine_image_id="0" snd_fire="we_grenade_fire"
+		desc="STR:ZITEM_DESC_30301" />
+	<ITEM id="30302" name="STR:ZITEM_NAME_30302" mesh_name="grenade01" totalpoint="0" type="custom"
+		res_sex="a" res_level="11" slot="custom" weapon="frag" weight="3" bt_price="500" delay="1500"
+		damage="100" ctrl_ability="20" magazine="3" maxbullet="3" reloadtime="10" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="3" bullet_image_id="0" magazine_image_id="0" snd_fire="we_grenade_fire"
+		desc="STR:ZITEM_DESC_30302" />
+	<ITEM id="30303" name="STR:ZITEM_NAME_30303" mesh_name="grenade01" totalpoint="0" type="custom"
+		res_sex="a" res_level="22" slot="custom" weapon="frag" weight="4" bt_price="1000"
+		delay="1500" damage="100" ctrl_ability="20" magazine="4" maxbullet="4" reloadtime="10"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="3" bullet_image_id="0" magazine_image_id="0" snd_fire="we_grenade_fire"
+		desc="STR:ZITEM_DESC_30303" />
+	<ITEM id="30304" name="STR:ZITEM_NAME_30304" mesh_name="grenade01" totalpoint="0" type="custom"
+		res_sex="a" res_level="33" slot="custom" weapon="frag" weight="5" bt_price="2000"
+		delay="1500" damage="100" ctrl_ability="20" magazine="5" maxbullet="5" reloadtime="10"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="3" bullet_image_id="0" magazine_image_id="0" snd_fire="we_grenade_fire"
+		desc="STR:ZITEM_DESC_30304" />
+	<ITEM id="30305" name="STR:ZITEM_NAME_30305" mesh_name="grenade01" totalpoint="0" type="custom"
+		res_sex="a" res_level="44" slot="custom" weapon="frag" weight="6" bt_price="4000"
+		delay="1500" damage="100" ctrl_ability="20" magazine="6" maxbullet="6" reloadtime="10"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="3" bullet_image_id="0" magazine_image_id="0" snd_fire="we_grenade_fire"
+		desc="STR:ZITEM_DESC_30305" />
+	<ITEM id="30201" name="STR:ZITEM_NAME_30201" mesh_name="flashbang01" totalpoint="0" type="custom"
+		res_sex="a" res_level="0" slot="custom" weapon="flashbang" weight="2" bt_price="200"
+		delay="1500" damage="0" ctrl_ability="20" magazine="2" maxbullet="2" reloadtime="10"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="3" bullet_image_id="0" magazine_image_id="0" snd_fire="we_grenade_fire"
+		desc="STR:ZITEM_DESC_30201" />
+	<ITEM id="30202" name="STR:ZITEM_NAME_30202" mesh_name="flashbang01" totalpoint="0" type="custom"
+		res_sex="a" res_level="10" slot="custom" weapon="flashbang" weight="3" bt_price="500"
+		delay="1500" damage="0" ctrl_ability="20" magazine="3" maxbullet="3" reloadtime="10"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="3" bullet_image_id="0" magazine_image_id="0" snd_fire="we_grenade_fire"
+		desc="STR:ZITEM_DESC_30202" />
+	<ITEM id="30203" name="STR:ZITEM_NAME_30203" mesh_name="flashbang01" totalpoint="0" type="custom"
+		res_sex="a" res_level="20" slot="custom" weapon="flashbang" weight="4" bt_price="1000"
+		delay="1500" damage="0" ctrl_ability="20" magazine="4" maxbullet="4" reloadtime="10"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="3" bullet_image_id="0" magazine_image_id="0" snd_fire="we_grenade_fire"
+		desc="STR:ZITEM_DESC_30203" />
+	<ITEM id="30204" name="STR:ZITEM_NAME_30204" mesh_name="flashbang01" totalpoint="0" type="custom"
+		res_sex="a" res_level="30" slot="custom" weapon="flashbang" weight="5" bt_price="2000"
+		delay="1500" damage="0" ctrl_ability="20" magazine="5" maxbullet="5" reloadtime="10"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="3" bullet_image_id="0" magazine_image_id="0" snd_fire="we_grenade_fire"
+		desc="STR:ZITEM_DESC_30204" />
+	<ITEM id="30205" name="STR:ZITEM_NAME_30205" mesh_name="flashbang01" totalpoint="0" type="custom"
+		res_sex="a" res_level="40" slot="custom" weapon="flashbang" weight="6" bt_price="4000"
+		delay="1500" damage="0" ctrl_ability="20" magazine="6" maxbullet="6" reloadtime="10"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="3" bullet_image_id="0" magazine_image_id="0" snd_fire="we_grenade_fire"
+		desc="STR:ZITEM_DESC_30205" />
+	<ITEM id="30401" name="STR:ZITEM_NAME_30401" mesh_name="smoke01" totalpoint="0" type="custom"
+		res_sex="a" res_level="0" slot="custom" weapon="smoke" weight="2" bt_price="200" delay="1500"
+		damage="0" ctrl_ability="20" magazine="3" maxbullet="3" reloadtime="10" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="3" bullet_image_id="0" magazine_image_id="0" snd_fire="we_grenade_fire"
+		desc="STR:ZITEM_DESC_30401" />
+	<ITEM id="30402" name="STR:ZITEM_NAME_30402" mesh_name="smoke01" totalpoint="0" type="custom"
+		res_sex="a" res_level="12" slot="custom" weapon="smoke" weight="3" bt_price="500"
+		delay="1500" damage="0" ctrl_ability="20" magazine="4" maxbullet="4" reloadtime="10"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="3" bullet_image_id="0" magazine_image_id="0" snd_fire="we_grenade_fire"
+		desc="STR:ZITEM_DESC_30402" />
+	<ITEM id="30403" name="STR:ZITEM_NAME_30403" mesh_name="smoke01" totalpoint="0" type="custom"
+		res_sex="a" res_level="24" slot="custom" weapon="smoke" weight="4" bt_price="1000"
+		delay="1500" damage="0" ctrl_ability="20" magazine="5" maxbullet="5" reloadtime="10"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="3" bullet_image_id="0" magazine_image_id="0" snd_fire="we_grenade_fire"
+		desc="STR:ZITEM_DESC_30403" />
+	<ITEM id="30404" name="STR:ZITEM_NAME_30404" mesh_name="smoke01" totalpoint="0" type="custom"
+		res_sex="a" res_level="36" slot="custom" weapon="smoke" weight="5" bt_price="2000"
+		delay="1500" damage="0" ctrl_ability="20" magazine="6" maxbullet="6" reloadtime="10"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="3" bullet_image_id="0" magazine_image_id="0" snd_fire="we_grenade_fire"
+		desc="STR:ZITEM_DESC_30404" />
+	<ITEM id="30405" name="STR:ZITEM_NAME_30405" mesh_name="smoke01" totalpoint="0" type="custom"
+		res_sex="a" res_level="48" slot="custom" weapon="smoke" weight="6" bt_price="4000"
+		delay="1500" damage="0" ctrl_ability="20" magazine="7" maxbullet="7" reloadtime="10"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="3" bullet_image_id="0" magazine_image_id="0" snd_fire="we_grenade_fire"
+		desc="STR:ZITEM_DESC_30405" />
+	<ITEM id="30001" name="STR:ZITEM_NAME_30001" mesh_name="medikit" totalpoint="0" type="custom"
+		res_sex="a" res_level="0" slot="custom" weapon="medkit" weight="5" bt_price="400"
+		delay="1000" damage="0" ctrl_ability="0" magazine="2" maxbullet="2" reloadtime="10"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="3" bullet_image_id="0" magazine_image_id="0" snd_fire="we_grenade_fire"
+		desc="STR:ZITEM_DESC_30001" />
+	<ITEM id="30002" name="STR:ZITEM_NAME_30002" mesh_name="medikit" totalpoint="0" type="custom"
+		res_sex="a" res_level="20" slot="custom" weapon="medkit" weight="6" bt_price="5000"
+		delay="1000" damage="0" ctrl_ability="0" magazine="3" maxbullet="3" reloadtime="10"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="3" bullet_image_id="0" magazine_image_id="0" snd_fire="we_grenade_fire"
+		desc="STR:ZITEM_DESC_30002" />
+	<ITEM id="30003" name="STR:ZITEM_NAME_30003" mesh_name="medikit" totalpoint="0" type="custom"
+		res_sex="a" res_level="40" slot="custom" weapon="medkit" weight="7" bt_price="20000"
+		delay="1000" damage="0" ctrl_ability="0" magazine="4" maxbullet="4" reloadtime="10"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="3" bullet_image_id="0" magazine_image_id="0" snd_fire="we_grenade_fire"
+		desc="STR:ZITEM_DESC_30003" />
+	<ITEM id="30101" name="STR:ZITEM_NAME_30101" mesh_name="repairkit" totalpoint="0" type="custom"
+		res_sex="a" res_level="0" slot="custom" weapon="repairkit" weight="5" bt_price="400"
+		delay="1000" damage="0" ctrl_ability="0" magazine="2" maxbullet="2" reloadtime="10"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="3" bullet_image_id="0" magazine_image_id="0" snd_fire="we_grenade_fire"
+		desc="STR:ZITEM_DESC_30101" />
+	<ITEM id="30102" name="STR:ZITEM_NAME_30102" mesh_name="repairkit" totalpoint="0" type="custom"
+		res_sex="a" res_level="20" slot="custom" weapon="repairkit" weight="6" bt_price="5000"
+		delay="1000" damage="0" ctrl_ability="0" magazine="3" maxbullet="3" reloadtime="10"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="3" bullet_image_id="0" magazine_image_id="0" snd_fire="we_grenade_fire"
+		desc="STR:ZITEM_DESC_30102" />
+	<ITEM id="30103" name="STR:ZITEM_NAME_30103" mesh_name="repairkit" totalpoint="0" type="custom"
+		res_sex="a" res_level="40" slot="custom" weapon="repairkit" weight="7" bt_price="20000"
+		delay="1000" damage="0" ctrl_ability="0" magazine="4" maxbullet="4" reloadtime="10"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="3" bullet_image_id="0" magazine_image_id="0" snd_fire="we_grenade_fire"
+		desc="STR:ZITEM_DESC_30103" />
+	<!-- 반지 /////////////////////////////////////////////////////////////////////////////////////////////-->
+	<ITEM id="25001" name="STR:ZITEM_NAME_25001" totalpoint="0" type="equip" res_sex="a" res_level="0"
+		slot="finger" weight="2" bt_price="400" hp="5" ap="0" maxwt="0" sf="0" fr="0" cr="0"
+		pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_25001" />
+	<ITEM id="25002" name="STR:ZITEM_NAME_25002" totalpoint="0" type="equip" res_sex="a" res_level="0"
+		slot="finger" weight="2" bt_price="400" hp="0" ap="5" maxwt="0" sf="0" fr="0" cr="0"
+		pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_25002" />
+	<ITEM id="25003" name="STR:ZITEM_NAME_25003" totalpoint="0" type="equip" res_sex="a" res_level="10"
+		slot="finger" weight="2" bt_price="1000" hp="8" ap="0" maxwt="0" sf="0" fr="0" cr="0"
+		pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_25003" />
+	<ITEM id="25004" name="STR:ZITEM_NAME_25004" totalpoint="0" type="equip" res_sex="a" res_level="10"
+		slot="finger" weight="2" bt_price="1000" hp="0" ap="8" maxwt="0" sf="0" fr="0" cr="0"
+		pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_25004" />
+	<ITEM id="25005" name="STR:ZITEM_NAME_25005" totalpoint="0" type="equip" res_sex="a" res_level="20"
+		slot="finger" weight="2" bt_price="10000" hp="5" ap="5" maxwt="0" sf="0" fr="0" cr="0"
+		pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_25005" />
+	<ITEM id="25006" name="STR:ZITEM_NAME_25006" totalpoint="0" type="equip" res_sex="a" res_level="20"
+		slot="finger" weight="0" bt_price="10000" hp="0" ap="0" maxwt="2" sf="0" fr="0" cr="0"
+		pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_25006" />
+	<ITEM id="25007" name="STR:ZITEM_NAME_25007" totalpoint="0" type="equip" res_sex="a" res_level="30"
+		slot="finger" weight="2" bt_price="20000" hp="0" ap="10" maxwt="0" sf="0" fr="0" cr="0"
+		pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_25007" />
+	<ITEM id="25008" name="STR:ZITEM_NAME_25008" totalpoint="0" type="equip" res_sex="a" res_level="30"
+		slot="finger" weight="4" bt_price="20000" hp="10" ap="0" maxwt="0" sf="0" fr="0" cr="0"
+		pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_25008" />
+	<ITEM id="25009" name="STR:ZITEM_NAME_25009" totalpoint="0" type="equip" res_sex="a" res_level="40"
+		slot="finger" weight="2" bt_price="40000" hp="0" ap="15" maxwt="0" sf="0" fr="0" cr="0"
+		pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_25009" />
+	<ITEM id="25010" name="STR:ZITEM_NAME_25010" totalpoint="0" type="equip" res_sex="a" res_level="40"
+		slot="finger" weight="0" bt_price="40000" hp="0" ap="0" maxwt="3" sf="0" fr="0" cr="0"
+		pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_25010" />
+	<!-- 장비 ///////////////////////////////////////////////////////////////////////////////////////////// -->
+	<!-- chest /////////////////////////////////////////////////////////////////////////////////////////// -->
+	<!-- 남자 //////////////////////////////////////////////// -->
+	<ITEM id="21001" name="STR:ZITEM_NAME_21001" mesh_name="eq_chest_12" totalpoint="0" type="equip"
+		res_sex="m" res_level="0" slot="chest" weight="5" bt_price="50" hp="0" ap="5" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_21001" />
+	<ITEM id="21002" name="STR:ZITEM_NAME_21002" mesh_name="eq_chest_06" totalpoint="0" type="equip"
+		res_sex="m" res_level="0" slot="chest" weight="10" bt_price="200" hp="0" ap="10" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_21002" />
+	<ITEM id="21003" name="STR:ZITEM_NAME_21003" mesh_name="eq_chest_13" totalpoint="0" type="equip"
+		res_sex="m" res_level="10" slot="chest" weight="15" bt_price="800" hp="0" ap="20"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_21003" />
+	<ITEM id="21004" name="STR:ZITEM_NAME_21004" mesh_name="eq_chest_01" totalpoint="0" type="equip"
+		res_sex="m" res_level="20" slot="chest" weight="18" bt_price="1600" hp="0" ap="25"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_21004" />
+	<ITEM id="21005" name="STR:ZITEM_NAME_21005" mesh_name="eq_chest_03" totalpoint="0" type="equip"
+		res_sex="m" res_level="30" slot="chest" weight="20" bt_price="3200" hp="0" ap="28"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_21005" />
+	<ITEM id="21006" name="STR:ZITEM_NAME_21006" mesh_name="eq_chest_a001" totalpoint="0"
+		type="equip" res_sex="m" res_level="0" slot="chest" weight="12" bt_price="200" hp="2"
+		ap="8" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_21006" />
+	<ITEM id="21007" name="STR:ZITEM_NAME_21007" mesh_name="eq_chest_07_1" totalpoint="0"
+		type="equip" res_sex="m" res_level="20" slot="chest" weight="16" bt_price="1600" hp="0"
+		ap="22" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_21007" />
+	<ITEM id="21008" name="STR:ZITEM_NAME_21008" mesh_name="eq_chest_21" totalpoint="0" type="equip"
+		res_sex="m" res_level="0" slot="chest" weight="10" bt_price="500" hp="0" ap="10" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_21008" />
+	<!-- 여자 //////////////////////////////////////////////////-->
+	<ITEM id="21501" name="STR:ZITEM_NAME_21501" mesh_name="eq_chest_05" totalpoint="0" type="equip"
+		res_sex="f" res_level="0" slot="chest" weight="5" bt_price="50" hp="0" ap="5" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_21501" />
+	<ITEM id="21502" name="STR:ZITEM_NAME_21502" mesh_name="eq_chest_n013" totalpoint="0"
+		type="equip" res_sex="f" res_level="0" slot="chest" weight="10" bt_price="200" hp="0"
+		ap="10" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_21502" />
+	<ITEM id="21504" name="STR:ZITEM_NAME_21504" mesh_name="eq_chest_c001" totalpoint="0"
+		type="equip" res_sex="f" res_level="10" slot="chest" weight="15" bt_price="800" hp="0"
+		ap="20" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_21504" />
+	<ITEM id="21503" name="STR:ZITEM_NAME_21503" mesh_name="eq_chest_p001" totalpoint="0"
+		type="equip" res_sex="f" res_level="20" slot="chest" weight="18" bt_price="1600" hp="0"
+		ap="25" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_21503" />
+	<ITEM id="21505" name="STR:ZITEM_NAME_21505" mesh_name="eq_chest_long001" totalpoint="0"
+		type="equip" res_sex="f" res_level="30" slot="chest" weight="20" bt_price="3200" hp="0"
+		ap="28" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_21505" />
+	<ITEM id="21506" name="STR:ZITEM_NAME_21506" mesh_name="eq_chest_07" totalpoint="0" type="equip"
+		res_sex="f" res_level="0" slot="chest" weight="12" bt_price="200" hp="2" ap="8" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_21506" />
+	<ITEM id="21507" name="STR:ZITEM_NAME_21507" mesh_name="eq_chest_long004" totalpoint="0"
+		type="equip" res_sex="f" res_level="20" slot="chest" weight="16" bt_price="1600" hp="0"
+		ap="22" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_21507" />
+	<ITEM id="21508" name="STR:ZITEM_NAME_21508" mesh_name="eq_chest_21" totalpoint="0" type="equip"
+		res_sex="f" res_level="0" slot="chest" weight="10" bt_price="500" hp="0" ap="10" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_21508" />
+	<!-- hands /////////////////////////////////////////////////////////////////////////////////////// -->
+	<!-- 남자 //////////////////////////////////////////////////// -->
+	<ITEM id="22001" name="STR:ZITEM_NAME_22001" mesh_name="eq_hands_a001" totalpoint="0"
+		type="equip" res_sex="m" res_level="0" slot="hands" weight="5" bt_price="50" hp="0"
+		ap="5" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_22001" />
+	<ITEM id="22002" name="STR:ZITEM_NAME_22002" mesh_name="eq_hands_01" totalpoint="0" type="equip"
+		res_sex="m" res_level="10" slot="hands" weight="5" bt_price="500" hp="0" ap="10" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_22002" />
+	<ITEM id="22003" name="STR:ZITEM_NAME_22003" mesh_name="eq_hands_02" totalpoint="0" type="equip"
+		res_sex="m" res_level="20" slot="hands" weight="8" bt_price="1000" hp="0" ap="15"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_22003" />
+	<ITEM id="22004" name="STR:ZITEM_NAME_22004" mesh_name="eq_hands_04" totalpoint="0" type="equip"
+		res_sex="m" res_level="20" slot="hands" weight="6" bt_price="1500" hp="0" ap="12"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_22004" />
+	<ITEM id="22005" name="STR:ZITEM_NAME_22005" mesh_name="eq_hands_21" totalpoint="0" type="equip"
+		res_sex="m" res_level="0" slot="hands" weight="4" bt_price="250" hp="0" ap="4" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_22005" />
+	<!-- 여자 ///////////////////////////////////////////////////// -->
+	<ITEM id="22501" name="STR:ZITEM_NAME_22501" mesh_name="eq_hands_07" totalpoint="0" type="equip"
+		res_sex="f" res_level="0" slot="hands" weight="5" bt_price="50" hp="0" ap="5" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_22501" />
+	<ITEM id="22502" name="STR:ZITEM_NAME_22502" mesh_name="eq_hands_leather04" totalpoint="0"
+		type="equip" res_sex="f" res_level="10" slot="hands" weight="5" bt_price="500" hp="0"
+		ap="10" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_22502" />
+	<ITEM id="22503" name="STR:ZITEM_NAME_22503" mesh_name="eq_hands_02" totalpoint="0" type="equip"
+		res_sex="f" res_level="20" slot="hands" weight="8" bt_price="1000" hp="0" ap="15"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_22503" />
+	<ITEM id="22504" name="STR:ZITEM_NAME_22504" mesh_name="eq_hands_leather02" totalpoint="0"
+		type="equip" res_sex="f" res_level="20" slot="hands" weight="6" bt_price="1500" hp="0"
+		ap="12" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_22504" />
+	<ITEM id="22505" name="STR:ZITEM_NAME_22505" mesh_name="eq_hands_21" totalpoint="0" type="equip"
+		res_sex="f" res_level="0" slot="hands" weight="4" bt_price="250" hp="0" ap="4" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_22505" />
+	<!-- legs ////////////////////////////////////////////////////////////////////////////////////// -->
+	<!-- 남자 ///////////////////////////////////////////////// -->
+	<ITEM id="23001" name="STR:ZITEM_NAME_23001" mesh_name="eq_legs_01" totalpoint="0" type="equip"
+		res_sex="m" res_level="0" slot="legs" weight="10" bt_price="50" hp="0" ap="10" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_23001" />
+	<ITEM id="23005" name="STR:ZITEM_NAME_23005" mesh_name="eq_legs_a001" totalpoint="0" type="equip"
+		res_sex="m" res_level="0" slot="legs" weight="10" bt_price="200" hp="1" ap="8" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_23005" />
+	<ITEM id="23002" name="STR:ZITEM_NAME_23002" mesh_name="eq_legs_02" totalpoint="0" type="equip"
+		res_sex="m" res_level="0" slot="legs" weight="10" bt_price="200" hp="0" ap="15" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_23002" />
+	<ITEM id="23004" name="STR:ZITEM_NAME_23004" mesh_name="eq_legs_13" totalpoint="0" type="equip"
+		res_sex="m" res_level="10" slot="legs" weight="15" bt_price="1200" hp="0" ap="22"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_23004" />
+	<ITEM id="23003" name="STR:ZITEM_NAME_23003" mesh_name="eq_legs_04" totalpoint="0" type="equip"
+		res_sex="m" res_level="20" slot="legs" weight="15" bt_price="2400" hp="0" ap="25"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_23003" />
+	<ITEM id="23006" name="STR:ZITEM_NAME_23006" mesh_name="eq_legs_12" totalpoint="0" type="equip"
+		res_sex="m" res_level="20" slot="legs" weight="14" bt_price="3000" hp="0" ap="23"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_23006" />
+	<ITEM id="23007" name="STR:ZITEM_NAME_23007" mesh_name="eq_legs_21" totalpoint="0" type="equip"
+		res_sex="m" res_level="0" slot="legs" weight="10" bt_price="500" hp="0" ap="12" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_23007" />
+	<!-- 여자 ////////////////////////////////////////////////// -->
+	<ITEM id="23501" name="STR:ZITEM_NAME_23501" mesh_name="eq_legs_g002" totalpoint="0" type="equip"
+		res_sex="f" res_level="0" slot="legs" weight="10" bt_price="50" hp="0" ap="10" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_23501" />
+	<ITEM id="23508" name="STR:ZITEM_NAME_23508" mesh_name="eq_legs_007" totalpoint="0" type="equip"
+		res_sex="f" res_level="0" slot="legs" weight="10" bt_price="200" hp="1" ap="8" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_23508" />
+	<ITEM id="23502" name="STR:ZITEM_NAME_23502" mesh_name="eq_legs_j001" totalpoint="0" type="equip"
+		res_sex="f" res_level="0" slot="legs" weight="10" bt_price="200" hp="0" ap="15" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_23502" />
+	<ITEM id="23503" name="STR:ZITEM_NAME_23503" mesh_name="eq_legs_c001" totalpoint="0" type="equip"
+		res_sex="f" res_level="0" slot="legs" weight="15" bt_price="1200" hp="0" ap="22" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_23503" />
+	<ITEM id="23504" name="STR:ZITEM_NAME_23504" mesh_name="eq_legs_ge001" totalpoint="0"
+		type="equip" res_sex="f" res_level="0" slot="legs" weight="15" bt_price="2400" hp="0"
+		ap="25" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_23504" />
+	<ITEM id="23505" name="STR:ZITEM_NAME_23505" mesh_name="eq_legs_j001" totalpoint="0" type="equip"
+		res_sex="f" res_level="0" slot="legs" weight="10" bt_price="200" hp="0" ap="15" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_23505" />
+	<ITEM id="23506" name="STR:ZITEM_NAME_23506" mesh_name="eq_legs_c001" totalpoint="0" type="equip"
+		res_sex="f" res_level="10" slot="legs" weight="15" bt_price="1200" hp="0" ap="22"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_23506" />
+	<ITEM id="23507" name="STR:ZITEM_NAME_23507" mesh_name="eq_legs_ge001" totalpoint="0"
+		type="equip" res_sex="f" res_level="20" slot="legs" weight="15" bt_price="2400" hp="0"
+		ap="25" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_23507" />
+	<ITEM id="23509" name="STR:ZITEM_NAME_23509" mesh_name="eq_legs_c002" totalpoint="0" type="equip"
+		res_sex="f" res_level="20" slot="legs" weight="14" bt_price="3000" hp="0" ap="23"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_23509" />
+	<ITEM id="23510" name="STR:ZITEM_NAME_23510" mesh_name="eq_legs_21" totalpoint="0" type="equip"
+		res_sex="f" res_level="0" slot="legs" weight="10" bt_price="500" hp="0" ap="12" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_23510" />
+	<!-- feet //////////////////////////////////////////////////////////////////////////////////////// -->
+	<!-- 남자 //////////////////////////////////////////////// -->
+	<ITEM id="24001" name="STR:ZITEM_NAME_24001" mesh_name="eq_feet_a001" totalpoint="0" type="equip"
+		res_sex="m" res_level="0" slot="feet" weight="5" bt_price="50" hp="0" ap="5" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_24001" />
+	<ITEM id="24002" name="STR:ZITEM_NAME_24002" mesh_name="eq_feet_05" totalpoint="0" type="equip"
+		res_sex="m" res_level="0" slot="feet" weight="5" bt_price="100" hp="0" ap="10" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_24002" />
+	<ITEM id="24003" name="STR:ZITEM_NAME_24003" mesh_name="eq_feet_04" totalpoint="0" type="equip"
+		res_sex="m" res_level="10" slot="feet" weight="5" bt_price="500" hp="0" ap="15" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_24003" />
+	<ITEM id="24004" name="STR:ZITEM_NAME_24004" mesh_name="eq_feet_02" totalpoint="0" type="equip"
+		res_sex="m" res_level="20" slot="feet" weight="8" bt_price="1000" hp="0" ap="20" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_24004" />
+	<ITEM id="24005" name="STR:ZITEM_NAME_24005" mesh_name="eq_feet_09" totalpoint="0" type="equip"
+		res_sex="m" res_level="20" slot="feet" weight="6" bt_price="1500" hp="0" ap="18" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_24005" />
+	<ITEM id="24006" name="STR:ZITEM_NAME_24006" mesh_name="eq_feet_21" totalpoint="0" type="equip"
+		res_sex="m" res_level="0" slot="feet" weight="4" bt_price="250" hp="0" ap="4" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_24006" />
+	<!-- 여성 //////////////////////////////////////////////// -->
+	<ITEM id="24501" name="STR:ZITEM_NAME_24501" mesh_name="eq_feets_leather003" totalpoint="0"
+		type="equip" res_sex="f" res_level="0" slot="feet" weight="5" bt_price="50" hp="0"
+		ap="5" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_24501" />
+	<ITEM id="24502" name="STR:ZITEM_NAME_24502" mesh_name="eq_feets_07" totalpoint="0" type="equip"
+		res_sex="f" res_level="0" slot="feet" weight="5" bt_price="100" hp="0" ap="10" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_24502" />
+	<ITEM id="24503" name="STR:ZITEM_NAME_24503" mesh_name="eq_feets_leather007" totalpoint="0"
+		type="equip" res_sex="f" res_level="10" slot="feet" weight="5" bt_price="500" hp="0"
+		ap="15" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_24503" />
+	<ITEM id="24504" name="STR:ZITEM_NAME_24504" mesh_name="eq_feets_p002" totalpoint="0"
+		type="equip" res_sex="f" res_level="20" slot="feet" weight="8" bt_price="1000" hp="0"
+		ap="20" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_24504" />
+	<ITEM id="24505" name="STR:ZITEM_NAME_24505" mesh_name="eq_feets_leather008" totalpoint="0"
+		type="equip" res_sex="f" res_level="20" slot="feet" weight="6" bt_price="1500" hp="0"
+		ap="18" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_24505" />
+	<ITEM id="24506" name="STR:ZITEM_NAME_24506" mesh_name="eq_feet_21" totalpoint="0" type="equip"
+		res_sex="f" res_level="0" slot="feet" weight="4" bt_price="250" hp="0" ap="4" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_24506" />
+	<!--
+      /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+      NPC 아이템 //////////////////////////////////////////////////////////////////////////////////////////////////
+	-->
+	<ITEM id="300000" name="STR:ZITEM_NAME_300000" mesh_name="" totalpoint="0" type="melee"
+		res_sex="a" res_level="0" slot="melee" weapon="dagger" weight="5" bt_price="20" delay="366"
+		damage="12" range="160" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_300000" />
+	<ITEM id="300001" name="STR:ZITEM_NAME_300001" mesh_name="" totalpoint="0" type="range"
+		res_sex="a" res_level="0" slot="range" weapon="skill" weight="20" bt_price="12000"
+		delay="80" damage="10" ctrl_ability="20" magazine="40" maxbullet="200" reloadtime="6"
+		slug_output="true" gadget_id="101" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_rifle_reload"
+		snd_fire="we_rifle_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_300001"
+		effect_id="8" />
+	<ITEM id="300002" name="STR:ZITEM_NAME_300002" mesh_name="" totalpoint="0" type="melee"
+		res_sex="a" res_level="0" slot="melee" weapon="katana" weight="5" bt_price="20" delay="366"
+		damage="20" range="160" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_300002" />
+	<ITEM id="300003" name="STR:ZITEM_NAME_300003" mesh_name="" totalpoint="0" type="melee"
+		res_sex="a" res_level="0" slot="melee" weapon="katana" weight="5" bt_price="20" delay="800"
+		damage="30" range="160" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_300003" />
+	<ITEM id="300004" name="STR:ZITEM_NAME_300004" mesh_name="" totalpoint="0" type="melee"
+		res_sex="a" res_level="0" slot="melee" weapon="katana" weight="5" bt_price="20" delay="600"
+		damage="40" range="500" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_300004" />
+	<ITEM id="300031" name="STR:ZITEM_NAME_300031" mesh_name="" totalpoint="0" type="melee"
+		res_sex="a" res_level="0" slot="melee" weapon="katana" weight="5" bt_price="20" delay="100"
+		damage="42" range="180" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_300000" />
+	<ITEM id="300034" name="STR:ZITEM_NAME_300031" mesh_name="" totalpoint="0" type="melee"
+		res_sex="a" res_level="0" slot="melee" weapon="katana" weight="5" bt_price="20" delay="100"
+		damage="42" range="380" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_300000" />
+	<!--
+      /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+      이벤트 아이템 ///////////////////////////////////////////////////////////////////////////////////////////////
+
+	-->
+	<ITEM id="400001" name="STR:ZITEM_NAME_400001" totalpoint="0" type="equip" res_sex="a"
+		res_level="0" slot="finger" weight="5" bt_price="800" hp="2" ap="2" maxwt="0" sf="0"
+		fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_400001" />
+	<ITEM id="400002" name="STR:ZITEM_NAME_400002" mesh_name="eq_chest_07" totalpoint="0"
+		type="equip" res_sex="m" res_level="0" slot="chest" weight="5" bt_price="0" hp="0"
+		ap="5" maxwt="2" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_400002" />
+	<ITEM id="400003" name="STR:ZITEM_NAME_400003" mesh_name="eq_chest_long003" totalpoint="0"
+		type="equip" res_sex="f" res_level="0" slot="chest" weight="5" bt_price="0" hp="0"
+		ap="5" maxwt="2" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_400003" />
+	<ITEM id="400004" name="STR:ZITEM_NAME_400004" mesh_name="eq_chest_staff" totalpoint="0"
+		type="equip" res_sex="m" res_level="0" slot="chest" weight="2" bt_price="0" hp="15"
+		ap="15" maxwt="2" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_400004" />
+	<ITEM id="400005" name="STR:ZITEM_NAME_400005" mesh_name="eq_chest_staff" totalpoint="0"
+		type="equip" res_sex="f" res_level="0" slot="chest" weight="2" bt_price="0" hp="15"
+		ap="15" maxwt="2" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_400005" />
+	<ITEM id="400006" name="STR:ZITEM_NAME_400006" totalpoint="0" type="equip" res_sex="a"
+		res_level="0" slot="finger" weight="1" bt_price="40000" hp="20" ap="20" maxwt="5"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_400006" />
+	<ITEM id="400007" name="STR:ZITEM_NAME_400007" mesh_name="samgak01" totalpoint="0" type="custom"
+		res_sex="a" res_level="5" slot="custom" weapon="food" weight="5" bt_price="2000" delay="1000"
+		damage="0" ctrl_ability="0" magazine="4" maxbullet="4" reloadtime="10" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="3" bullet_image_id="0" magazine_image_id="0" snd_fire="we_grenade_fire"
+		desc="STR:ZITEM_DESC_400007" />
+	<ITEM id="400008" name="STR:ZITEM_NAME_400008" mesh_name="eq_chest_ce" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="0" slot="chest" weight="5" bt_price="2000"
+		hp="2" ap="2" maxwt="2" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_400008" />
+	<ITEM id="400009" name="STR:ZITEM_NAME_400009" mesh_name="eq_chest_ce" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="0" slot="chest" weight="5" bt_price="2000"
+		hp="2" ap="2" maxwt="2" sf="0" fr="0" cr="0" pr="0" lr="0" desc="STR:ZITEM_DESC_400009" />
+	<ITEM id="400010" name="STR:ZITEM_NAME_400010" mesh_name="candy" totalpoint="0" type="custom"
+		res_sex="a" res_level="10" slot="custom" weapon="food" weight="5" bt_price="3000" delay="1000"
+		damage="0" ctrl_ability="0" magazine="5" maxbullet="5" reloadtime="10" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="3" bullet_image_id="0" magazine_image_id="0" snd_fire="we_grenade_fire"
+		desc="STR:ZITEM_DESC_400010" />
+	<ITEM id="400011" name="STR:ZITEM_NAME_400011" mesh_name="eq_head_helmet2" totalpoint="0"
+		type="equip" iscashitem="false" res_sex="m" res_level="0" slot="head" weight="5" bt_price="100"
+		hp="0" ap="3" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_400011" />
+	<ITEM id="400012" name="STR:ZITEM_NAME_400012" mesh_name="eq_head_helmet" totalpoint="0"
+		type="equip" iscashitem="false" res_sex="f" res_level="0" slot="head" weight="5" bt_price="100"
+		hp="0" ap="3" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_400012" />
+	<!--
+      /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+      캐쉬아이템 //////////////////////////////////////////////////////////////////////////////////////////////////
+	-->
+	<!-- 무기 /////////////////////////////////////////////////////////////////////////////////////// -->
+	<!-- 단검 /////////////////////////////////////////////////////////////////////////////////////// -->
+	<ITEM id="500001" name="STR:ZITEM_NAME_500001" mesh_name="dagger06" totalpoint="0" type="melee"
+		res_sex="a" res_level="0" slot="melee" weapon="dagger" weight="4" bt_price="500000"
+		delay="356" damage="9" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_500001" />
+	<ITEM id="500002" name="STR:ZITEM_NAME_500002" mesh_name="dagger05" totalpoint="0" type="melee"
+		res_sex="a" res_level="7" slot="melee" weapon="dagger" weight="4" bt_price="500000"
+		delay="346" damage="10" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_500002" />
+	<ITEM id="500003" name="STR:ZITEM_NAME_500003" mesh_name="dagger04" totalpoint="0" type="melee"
+		res_sex="a" res_level="15" slot="melee" weapon="dagger" weight="6" bt_price="500000"
+		delay="346" damage="11" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_500003" />
+	<ITEM id="500004" name="STR:ZITEM_NAME_500004" mesh_name="dagger11" totalpoint="0" type="melee"
+		res_sex="a" res_level="0" slot="melee" weapon="dagger" weight="4" bt_price="500000"
+		delay="356" damage="8" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="3" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_500004" />
+	<!-- 장검 //////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	<ITEM id="502001" name="STR:ZITEM_NAME_502001" mesh_name="katana05" totalpoint="0" type="melee"
+		res_sex="a" res_level="0" slot="melee" weapon="katana" weight="9" bt_price="500000"
+		delay="359" damage="16" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_502001" />
+	<ITEM id="502002" name="STR:ZITEM_NAME_502002" mesh_name="katana07" totalpoint="0" type="melee"
+		res_sex="a" res_level="7" slot="melee" weapon="katana" weight="8" bt_price="500000"
+		delay="349" damage="17" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_502002" />
+	<ITEM id="502003" name="STR:ZITEM_NAME_502003" mesh_name="katana08" totalpoint="0" type="melee"
+		res_sex="a" res_level="15" slot="melee" weapon="katana" weight="10" bt_price="500000"
+		delay="349" damage="19" ctrl_ability="0" magazine="0" reloadtime="0" slug_output="false"
+		gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		image_id="0" bullet_image_id="0" magazine_image_id="0" desc="STR:ZITEM_DESC_502003" />
+	<!-- Pistol : Magazine = 6 ea ///////////////////////////////////////////////////////////////////////// -->
+	<ITEM id="504001" name="STR:ZITEM_NAME_504001" mesh_name="pistol18x2" totalpoint="0" type="range"
+		res_sex="a" res_level="0" slot="range" weapon="pistolx2" weight="12" bt_price="500000"
+		delay="250" damage="18" ctrl_ability="36" magazine="12" maxbullet="72" reloadtime="4"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_pistol_reload"
+		snd_fire="we_pistol_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_504001"
+		effect_id="4" />
+	<ITEM id="504002" name="STR:ZITEM_NAME_504002" mesh_name="pistol20x2" totalpoint="0" type="range"
+		res_sex="a" res_level="0" slot="range" weapon="pistolx2" weight="12" bt_price="500000"
+		delay="240" damage="16" ctrl_ability="36" magazine="13" maxbullet="78" reloadtime="4"
+		slug_output="true" gadget_id="0" hp="0" ap="2" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_pistol_reload"
+		snd_fire="we_pistol_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_504002"
+		effect_id="4" />
+	<ITEM id="504003" name="STR:ZITEM_NAME_504003" mesh_name="pistol04x2" totalpoint="0" type="range"
+		res_sex="a" res_level="7" slot="range" weapon="pistolx2" weight="12" bt_price="500000"
+		delay="220" damage="20" ctrl_ability="36" magazine="12" maxbullet="72" reloadtime="4"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_pistol_reload"
+		snd_fire="we_pistol_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_504003"
+		effect_id="4" />
+	<ITEM id="504004" name="STR:ZITEM_NAME_504004" mesh_name="pistol13x2" totalpoint="0" type="range"
+		res_sex="a" res_level="15" slot="range" weapon="pistolx2" weight="14" bt_price="500000"
+		delay="200" damage="24" ctrl_ability="36" magazine="13" maxbullet="78" reloadtime="4"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_pistol_reload"
+		snd_fire="we_pistol_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_504004"
+		effect_id="4" />
+	<!-- Revolver : Magazine = 7 ea ///////////////////////////////////////////////////////////////////////// -->
+	<ITEM id="504501" name="STR:ZITEM_NAME_504501" mesh_name="pistol09x2" totalpoint="0" type="range"
+		res_sex="a" res_level="7" slot="range" weapon="revolverx2" weight="12" bt_price="500000"
+		delay="360" damage="38" ctrl_ability="36" magazine="6" maxbullet="48" reloadtime="4"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_revolver_reload"
+		snd_fire="we_revolver_fire" snd_dryfire="3357magrevolver_dryfire" desc="STR:ZITEM_DESC_504501"
+		effect_id="4" />
+	<ITEM id="504502" name="STR:ZITEM_NAME_504502" mesh_name="pistol17x2" totalpoint="0" type="range"
+		res_sex="a" res_level="15" slot="range" weapon="revolverx2" weight="14" bt_price="500000"
+		delay="360" damage="42" ctrl_ability="36" magazine="8" maxbullet="64" reloadtime="4"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_revolver_reload"
+		snd_fire="we_revolver_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_504502"
+		effect_id="4" />
+	<ITEM id="504503" name="STR:ZITEM_NAME_504503" mesh_name="pistol15x2" totalpoint="0" type="range"
+		res_sex="a" res_level="24" slot="range" weapon="revolverx2" weight="16" bt_price="500000"
+		delay="450" damage="48" ctrl_ability="80" magazine="6" maxbullet="48" reloadtime="4"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="1" bullet_image_id="0" magazine_image_id="0" snd_reload="we_revolver_reload"
+		snd_fire="we_revolver_fire" snd_dryfire="357magrevolver_dryfire" desc="STR:ZITEM_DESC_504503"
+		effect_id="4" />
+	<!-- SMG : Magazine = 5 ea//Controllability Point = 1.8 //////////////////////////////////////////////////////// -->
+	<ITEM id="505001" name="STR:ZITEM_NAME_505001" mesh_name="smg06x2" totalpoint="0" type="range"
+		res_sex="a" res_level="0" slot="range" weapon="smgx2" weight="28" bt_price="500000"
+		delay="85" damage="14" ctrl_ability="90" magazine="40" maxbullet="200" reloadtime="5"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_smg_reload"
+		snd_fire="we_smg_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_505001"
+		effect_id="5" />
+	<ITEM id="505002" name="STR:ZITEM_NAME_505002" mesh_name="smg08x2" totalpoint="0" type="range"
+		res_sex="a" res_level="7" slot="range" weapon="smgx2" weight="28" bt_price="500000"
+		delay="95" damage="16" ctrl_ability="90" magazine="40" maxbullet="200" reloadtime="5"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_smg_reload"
+		snd_fire="we_smg_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_505002"
+		effect_id="5" />
+	<ITEM id="505003" name="STR:ZITEM_NAME_505003" mesh_name="smg07x2" totalpoint="0" type="range"
+		res_sex="a" res_level="15" slot="range" weapon="smgx2" weight="28" bt_price="500000"
+		delay="90" damage="16" ctrl_ability="80" magazine="40" maxbullet="200" reloadtime="5"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_smg_reload"
+		snd_fire="we_smg_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_505003"
+		effect_id="5" />
+	<!-- SHOTGUN : Magazine = 5 ea ////////////////////////////////////////////////////////////////// -->
+	<ITEM id="506001" name="STR:ZITEM_NAME_506001" mesh_name="shotgun08" totalpoint="0" type="range"
+		res_sex="a" res_level="7" slot="range" weapon="shotgun" weight="18" bt_price="500000"
+		delay="1100" damage="7" ctrl_ability="60" magazine="5" maxbullet="25" reloadtime="5"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_shotgunpa_reload"
+		snd_fire="we_shotgunpa_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_506001"
+		effect_id="7" />
+	<ITEM id="506002" name="STR:ZITEM_NAME_506002" mesh_name="shotgun09" totalpoint="0" type="range"
+		res_sex="a" res_level="15" slot="range" weapon="shotgun" weight="18" bt_price="500000"
+		delay="900" damage="7" ctrl_ability="60" magazine="5" maxbullet="25" reloadtime="5"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_shotgunpa_reload"
+		snd_fire="we_shotgunpa_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_506002"
+		effect_id="7" />
+	<ITEM id="506003" name="STR:ZITEM_NAME_506003" mesh_name="shotgun10_1" totalpoint="0"
+		type="range" res_sex="a" res_level="7" slot="range" weapon="shotgun" weight="16" bt_price="500000"
+		delay="1200" damage="7" ctr_ability="80" magazine="5" maxbullet="25" reloadtime="5"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_shotgunpa_reload"
+		snd_fire="we_shotgunpa_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_506003"
+		effect_id="7" />
+	<ITEM id="506004" name="STR:ZITEM_NAME_506004" mesh_name="shotgun06" totalpoint="0" type="range"
+		res_sex="a" res_level="24" slot="range" weapon="shotgun" weight="18" bt_price="500000"
+		delay="1100" damage="9" ctr_ability="90" magazine="5" maxbullet="25" reloadtime="5"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_shotgunpa_reload"
+		snd_fire="we_shotgunpa_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_506004"
+		effect_id="7" />
+	<!-- RIFLE : Magazine = 5 ea //////////////////////////////////////////////////////////////////////////-->
+	<ITEM id="507001" name="STR:ZITEM_NAME_507001" mesh_name="rifle10" totalpoint="0" type="range"
+		res_sex="a" res_level="7" slot="range" weapon="rifle" weight="18" bt_price="500000"
+		delay="110" damage="15" ctrl_ability="30" magazine="36" maxbullet="180" reloadtime="6"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_rifle_reload"
+		snd_fire="we_rifle_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_507001"
+		effect_id="8" />
+	<ITEM id="507002" name="STR:ZITEM_NAME_507002" mesh_name="rifle15" totalpoint="0" type="range"
+		res_sex="a" res_level="15" slot="range" weapon="rifle" weight="18" bt_price="500000"
+		delay="100" damage="16" ctrl_ability="30" magazine="36" maxbullet="180" reloadtime="6"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_rifle_reload"
+		snd_fire="we_rifle_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_507002"
+		effect_id="8" />
+	<ITEM id="507003" name="STR:ZITEM_NAME_507003" mesh_name="rifle09" totalpoint="0" type="range"
+		res_sex="a" res_level="24" slot="range" weapon="rifle" weight="18" bt_price="500000"
+		delay="100" damage="17" ctrl_ability="30" magazine="36" maxbullet="180" reloadtime="6"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="2" bullet_image_id="0" magazine_image_id="0" snd_reload="we_rifle_reload"
+		snd_fire="we_rifle_fire" snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_507003"
+		effect_id="8" />
+	<!-- MACHINEGUN /////////////////////////////////////////////////////////////////////////////////////////// -->
+	<ITEM id="508001" name="STR:ZITEM_NAME_508001" mesh_name="machinegun03" totalpoint="0"
+		type="range" res_sex="a" res_level="15" slot="range" weapon="machinegun" weight="26"
+		bt_price="500000" delay="100" damage="15" ctrl_ability="70" magazine="120" maxbullet="240"
+		reloadtime="10" slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0"
+		cr="0" pr="0" lr="0" limitspeed="90" limitwall="1" color="#FFFFFFFF" image_id="2"
+		bullet_image_id="0" magazine_image_id="0" snd_reload="we_machinegun_reload" snd_fire="we_machinegun_fire"
+		snd_dryfire="762arifle_dryfire" desc="STR:ZITEM_DESC_508001" effect_id="9" />
+	<!-- ROCKET LAUNCHER : Magazine = 4 ea ///////////////////////////////////////////////////////////////////// -->
+	<ITEM id="509001" name="STR:ZITEM_NAME_509001" mesh_name="rocketlauncher04" totalpoint="0"
+		type="range" res_sex="a" res_level="7" slot="range" weapon="rocket" weight="28" bt_price="500000"
+		delay="1000" damage="35" ctrl_ability="50" magazine="4" maxbullet="16" reloadtime="3"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" limitspeed="90" limitwall="1" color="#FFFFFFFF" image_id="2" bullet_image_id="0"
+		magazine_image_id="0" snd_reload="we_rocket_reload" snd_fire="we_rocket_fire" snd_dryfire="762arifle_dryfire"
+		desc="STR:ZITEM_DESC_509001" />
+	<ITEM id="509002" name="STR:ZITEM_NAME_509002" mesh_name="rocketlauncher06" totalpoint="0"
+		type="range" res_sex="a" res_level="15" slot="range" weapon="rocket" weight="26" bt_price="500000"
+		delay="1400" damage="55" ctrl_ability="50" magazine="4" maxbullet="16" reloadtime="3"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" limitspeed="90" limitwall="1" color="#FFFFFFFF" image_id="2" bullet_image_id="0"
+		magazine_image_id="0" snd_reload="we_rocket_reload" snd_fire="we_rocket_fire" snd_dryfire="762arifle_dryfire"
+		desc="STR:ZITEM_DESC_509002" />
+	<ITEM id="509003" name="STR:ZITEM_NAME_509003" mesh_name="rocketlauncher05" totalpoint="0"
+		type="range" res_sex="a" res_level="24" slot="range" weapon="rocket" weight="28" bt_price="500000"
+		delay="1000" damage="50" ctrl_ability="50" magazine="5" maxbullet="20" reloadtime="3"
+		slug_output="true" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" limitspeed="90" limitwall="1" color="#FFFFFFFF" image_id="2" bullet_image_id="0"
+		magazine_image_id="0" snd_reload="we_rocket_reload" snd_fire="we_rocket_fire" snd_dryfire="762arifle_dryfire"
+		desc="STR:ZITEM_DESC_509003" />
+	<!-- HANDHELD ITEMS ///////////////////////////////////////////////////////////////////////////////////////////// -->
+	<!-- 반지 /////////////////////////////////////////////////////////////////////////////////////////////-->
+	<ITEM id="525001" name="STR:ZITEM_NAME_525001" totalpoint="0" type="equip" res_sex="a"
+		res_level="10" slot="finger" weight="0" bt_price="200000" hp="0" ap="0" maxwt="4"
+		sf="0" iscashitem="true" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_525001" />
+	<ITEM id="525002" name="STR:ZITEM_NAME_525002" totalpoint="0" type="equip" res_sex="a"
+		res_level="30" slot="finger" weight="0" bt_price="200000" hp="0" ap="0" maxwt="6"
+		sf="0" iscashitem="true" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_525002" />
+	<ITEM id="525003" name="STR:ZITEM_NAME_525003" totalpoint="0" type="equip" res_sex="a"
+		res_level="40" slot="finger" weight="0" bt_price="200000" hp="0" ap="5" maxwt="5"
+		sf="0" iscashitem="true" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_525003" />
+	<ITEM id="525004" name="STR:ZITEM_NAME_525004" totalpoint="0" type="equip" res_sex="a"
+		res_level="0" slot="finger" weight="3" bt_price="200000" hp="0" ap="0" maxwt="0" sf="0"
+		iscashitem="true" fr="0" cr="0" pr="0" lr="0" xp_solo_bonus="20" xp_team_bonus="20"
+		xp_quest_bonus="20" bp_solo_bonus="20" bp_team_bonus="20" bp_quest_bonus="20" duplicate="false"
+		color="#FFFFFFFF" desc="STR:ZITEM_DESC_525004" />
+	<!-- 럭키 링 -->
+	<ITEM id="525005" name="STR:ZITEM_NAME_525005" totalpoint="0" type="equip" res_sex="a"
+		res_level="0" slot="finger" weight="0" bt_price="20000" hp="0" ap="2" maxwt="2"
+		sf="0" iscashitem="true" fr="0" cr="0" pr="0" lr="0" 
+		duplicate="false" xp_solo_bonus="10" xp_team_bonus="10"
+		xp_quest_bonus="10" bp_solo_bonus="10" bp_team_bonus="10" bp_quest_bonus="10" 
+		color="#FFFFFFFF" desc="STR:ZITEM_DESC_525005" />
+
+	<!-- 음식 ///////////////////////////////////////////////////////////////////////////////////////////// -->
+	<!-- 럭키 쵸코바 -->
+	<ITEM id="525101" name="STR:ZITEM_NAME_525101" mesh_name="chocobar" totalpoint="0" type="custom"
+		res_sex="a" res_level="0" slot="custom" weapon="food" weight="4" bt_price="2000"
+		delay="1000" damage="0" ctrl_ability="0" magazine="4" maxbullet="4" reloadtime="10"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="3" bullet_image_id="0" magazine_image_id="0" snd_fire="we_grenade_fire"
+		desc="STR:ZITEM_DESC_525101" />
+
+
+	<!-- 추가 탄창 -->
+	<ITEM id="526001" name="STR:ZITEM_NAME_526001" mesh_name="bulletkit" totalpoint="0" type="custom"
+		res_sex="a" res_level="0" slot="custom" weapon="bulletkit" weight="3" bt_price="400"
+		delay="1000" damage="0" ctrl_ability="0" magazine="3" maxbullet="3" reloadtime="10" iscashitem="true"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="3" bullet_image_id="0" magazine_image_id="0" snd_fire="we_grenade_fire"
+		desc="STR:ZITEM_DESC_526001" />
+
+	<!-- 의료킷 -->
+	<ITEM id="527001" name="STR:ZITEM_NAME_527001" mesh_name="medickit_rx" totalpoint="0" type="custom"
+		res_sex="a" res_level="0" slot="custom" weapon="medkit" weight="3" bt_price="400" iscashitem="true"
+		delay="1000" damage="0" ctrl_ability="0" magazine="3" maxbullet="3" reloadtime="10"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="3" bullet_image_id="0" magazine_image_id="0" snd_fire="we_grenade_fire"
+		desc="STR:ZITEM_DESC_527001" />
+	<ITEM id="527002" name="STR:ZITEM_NAME_527002" mesh_name="medickit_rx" totalpoint="0" type="custom"
+		res_sex="a" res_level="15" slot="custom" weapon="medkit" weight="5" bt_price="400" iscashitem="true"
+		delay="1000" damage="0" ctrl_ability="0" magazine="5" maxbullet="5" reloadtime="10"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="3" bullet_image_id="0" magazine_image_id="0" snd_fire="we_grenade_fire"
+		desc="STR:ZITEM_DESC_527002" />
+
+	<!-- 수리킷 -->
+	<ITEM id="528001" name="STR:ZITEM_NAME_528001" mesh_name="repairkit_rx" totalpoint="0" type="custom"
+		res_sex="a" res_level="0" slot="custom" weapon="repairkit" weight="3" bt_price="400" iscashitem="true"
+		delay="1000" damage="0" ctrl_ability="0" magazine="3" maxbullet="3" reloadtime="10"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="3" bullet_image_id="0" magazine_image_id="0" snd_fire="we_grenade_fire"
+		desc="STR:ZITEM_DESC_528001" />
+
+	<ITEM id="528002" name="STR:ZITEM_NAME_528002" mesh_name="repairkit_rx" totalpoint="0" type="custom"
+		res_sex="a" res_level="15" slot="custom" weapon="repairkit" weight="5" bt_price="400" iscashitem="true"
+		delay="1000" damage="0" ctrl_ability="0" magazine="5" maxbullet="5" reloadtime="10"
+		slug_output="false" gadget_id="0" hp="0" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0"
+		lr="0" color="#FFFFFFFF" image_id="3" bullet_image_id="0" magazine_image_id="0" snd_fire="we_grenade_fire"
+		desc="STR:ZITEM_DESC_528002" />
+
+	<!-- ?λ퉬 //////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	<!-- head /////////////////////////////////////////////////////////////////////////////////////////// -->
+	<!-- 남자 //////////////////////////////////////////////// -->
+	<ITEM id="520001" name="STR:ZITEM_NAME_520001" mesh_name="eq_head_a001" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="0" slot="head" weight="4" bt_price="50000"
+		hp="1" ap="2" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520001" />
+	<ITEM id="520002" name="STR:ZITEM_NAME_520002" mesh_name="eq_head_12" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="m" res_level="7" slot="head" weight="4" bt_price="500000"
+		hp="2" ap="3" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520002" />
+	<ITEM id="520003" name="STR:ZITEM_NAME_520003" mesh_name="eq_head_07" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="m" res_level="15" slot="head" weight="4" bt_price="500000"
+		hp="3" ap="6" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520003" />
+	<ITEM id="520004" name="STR:ZITEM_NAME_520004" mesh_name="eq_head_04" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="m" res_level="0" slot="head" weight="4" bt_price="500000"
+		hp="1" ap="2" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520004" />
+	<ITEM id="520005" name="STR:ZITEM_NAME_520005" mesh_name="eq_head_13" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="m" res_level="0" slot="head" weight="4" bt_price="500000"
+		hp="1" ap="2" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520005" />
+	<ITEM id="520006" name="STR:ZITEM_NAME_520006" mesh_name="eq_head_15" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="m" res_level="0" slot="head" weight="4" bt_price="500000"
+		hp="1" ap="2" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520006" />
+	<ITEM id="520007" name="STR:ZITEM_NAME_520007" mesh_name="eq_head_14" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="m" res_level="0" slot="head" weight="4" bt_price="500000"
+		hp="1" ap="2" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520007" />
+	<ITEM id="520008" name="STR:ZITEM_NAME_520008" mesh_name="eq_head_10" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="m" res_level="15" slot="head" weight="4" bt_price="500000"
+		hp="2" ap="8" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520008" />
+	<ITEM id="520009" name="STR:ZITEM_NAME_520009" mesh_name="eq_head_16" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="m" res_level="0" slot="head" weight="3" bt_price="500000"
+		hp="0" ap="3" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520009" />
+	<ITEM id="520010" name="STR:ZITEM_NAME_520010" mesh_name="eq_head_20" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="m" res_level="7" slot="head" weight="4" bt_price="500000"
+		hp="1" ap="5" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520010" />
+	<ITEM id="520011" name="STR:ZITEM_NAME_520011" mesh_name="eq_head_21" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="m" res_level="0" slot="head" weight="3" bt_price="500000"
+		hp="0" ap="3" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520011" />
+	<ITEM id="520012" name="STR:ZITEM_NAME_520012" mesh_name="eq_head_23" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="m" res_level="15" slot="head" weight="4" bt_price="500000"
+		hp="3" ap="6" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520012" />
+	<ITEM id="520013" name="STR:ZITEM_NAME_520013" mesh_name="eq_head_santa" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="0" slot="head" weight="3" bt_price="500000"
+		hp="0" ap="4" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520013" />
+	<ITEM id="520014" name="STR:ZITEM_NAME_520014" mesh_name="eq_head_24" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="m" res_level="7" slot="head" weight="5" bt_price="500000"
+		hp="3" ap="3" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520014" />
+	<ITEM id="520015" name="STR:ZITEM_NAME_520015" mesh_name="eq_head_22" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="m" res_level="15" slot="head" weight="3" bt_price="500000"
+		hp="2" ap="6" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520015" />
+	<ITEM id="520016" name="STR:ZITEM_NAME_520016" mesh_name="eq_head_19" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="m" res_level="15" slot="head" weight="4" bt_price="500000"
+		hp="2" ap="8" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520016" />
+	<ITEM id="520017" name="STR:ZITEM_NAME_520017" mesh_name="eq_head_11" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="m" res_level="15" slot="head" weight="4" bt_price="500000"
+		hp="1" ap="10" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520017" />
+	<ITEM id="520018" name="STR:ZITEM_NAME_520018" mesh_name="eq_head_bigi" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="7" slot="head" weight="4" bt_price="500000"
+		hp="2" ap="3" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520018" />
+	<ITEM id="520019" name="STR:ZITEM_NAME_520019" mesh_name="eq_head_hanbok" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="0" slot="head" weight="3" bt_price="500000"
+		hp="0" ap="4" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520019" />
+	<ITEM id="520020" name="STR:ZITEM_NAME_520020" mesh_name="eq_head_26" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="15" slot="head" weight="3" bt_price="500000"
+		hp="0" ap="10" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520020" />
+	<ITEM id="520021" name="STR:ZITEM_NAME_520021" mesh_name="eq_head_25" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="15" slot="head" weight="5" bt_price="500000"
+		hp="0" ap="12" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520021" />
+	<ITEM id="520022" name="STR:ZITEM_NAME_520022" mesh_name="eq_head_korea" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="0" slot="head" weight="3" bt_price="500000"
+		hp="0" ap="5" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520022" />
+	<ITEM id="520023" name="STR:ZITEM_NAME_520022" mesh_name="eq_head_brazil" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="0" slot="head" weight="3" bt_price="500000"
+		hp="0" ap="5" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520022" />
+	<ITEM id="520024" name="STR:ZITEM_NAME_520022" mesh_name="eq_head_japan" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="0" slot="head" weight="3" bt_price="500000"
+		hp="0" ap="5" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520022" />
+	<ITEM id="520025" name="STR:ZITEM_NAME_520025" mesh_name="eq_head_visor" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="0" slot="head" weight="3" bt_price="500000"
+		hp="0" ap="3" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520025" />
+	<ITEM id="520026" name="STR:ZITEM_NAME_520026" mesh_name="eq_head_musketeer3" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="0" slot="head" weight="5" bt_price="500000" bp_solo_bonus="50"
+		hp="1" ap="1" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520026" />
+	<ITEM id="520027" name="STR:ZITEM_NAME_520027" mesh_name="eq_head_zeus" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="0" slot="head" weight="2" bt_price="500000" 
+		hp="3" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520027" />
+	<ITEM id="520028" name="STR:ZITEM_NAME_520028" mesh_name="eq_head_pumpkin" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="0" slot="head" weight="5" bt_price="500000"
+		hp="2" ap="2" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520028" />
+	<ITEM id="520029" name="STR:ZITEM_NAME_520029" mesh_name="eq_head_29" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="0" slot="head" weight="4" bt_price="500000"
+		hp="1" ap="2" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520029" />
+	<ITEM id="520030" name="STR:ZITEM_NAME_520030" mesh_name="eq_head_33" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="15" slot="head" weight="5" bt_price="500000"
+		hp="1" ap="10" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520030" />
+	<ITEM id="520031" name="STR:ZITEM_NAME_520031" mesh_name="eq_head_34" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="15" slot="head" weight="3" bt_price="500000"
+		hp="3" ap="4" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520031" />
+	
+	<!-- 여자 //////////////////////////////////////////////////-->
+	<ITEM id="520501" name="STR:ZITEM_NAME_520501" mesh_name="eq_head_04" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="f" res_level="0" slot="head" weight="4" bt_price="500000"
+		hp="1" ap="2" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520501" />
+	<ITEM id="520502" name="STR:ZITEM_NAME_520502" mesh_name="eq_head_05" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="f" res_level="7" slot="head" weight="4" bt_price="500000"
+		hp="2" ap="3" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520502" />
+	<ITEM id="520503" name="STR:ZITEM_NAME_520503" mesh_name="eq_head_06" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="f" res_level="15" slot="head" weight="4" bt_price="500000"
+		hp="3" ap="6" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520503" />
+	<ITEM id="520504" name="STR:ZITEM_NAME_520504" mesh_name="eq_head_07" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="f" res_level="0" slot="head" weight="4" bt_price="500000"
+		hp="1" ap="2" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520504" />
+	<ITEM id="520505" name="STR:ZITEM_NAME_520505" mesh_name="eq_head_10" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="f" res_level="0" slot="head" weight="4" bt_price="500000"
+		hp="1" ap="2" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520505" />
+	<ITEM id="520506" name="STR:ZITEM_NAME_520506" mesh_name="eq_head_11" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="f" res_level="0" slot="head" weight="4" bt_price="500000"
+		hp="1" ap="2" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520506" />
+	<ITEM id="520507" name="STR:ZITEM_NAME_520507" mesh_name="eq_head_12" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="f" res_level="0" slot="head" weight="4" bt_price="500000"
+		hp="1" ap="2" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520507" />
+	<ITEM id="520508" name="STR:ZITEM_NAME_520508" mesh_name="eq_head_08" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="f" res_level="15" slot="head" weight="4" bt_price="500000"
+		hp="2" ap="8" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520508" />
+	<ITEM id="520509" name="STR:ZITEM_NAME_520509" mesh_name="eq_head_13" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="f" res_level="0" slot="head" weight="3" bt_price="500000"
+		hp="0" ap="3" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520509" />
+	<ITEM id="520510" name="STR:ZITEM_NAME_520510" mesh_name="eq_head_01" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="f" res_level="7" slot="head" weight="4" bt_price="500000"
+		hp="1" ap="5" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520510" />
+	<ITEM id="520511" name="STR:ZITEM_NAME_520511" mesh_name="eq_head_20" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="f" res_level="0" slot="head" weight="3" bt_price="500000"
+		hp="0" ap="3" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520511" />
+	<ITEM id="520512" name="STR:ZITEM_NAME_520512" mesh_name="eq_head_23" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="f" res_level="15" slot="head" weight="4" bt_price="500000"
+		hp="3" ap="6" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520512" />
+	<ITEM id="520513" name="STR:ZITEM_NAME_520513" mesh_name="eq_head_santa" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="0" slot="head" weight="3" bt_price="500000"
+		hp="0" ap="4" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520513" />
+	<ITEM id="520514" name="STR:ZITEM_NAME_520514" mesh_name="eq_head_24" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="f" res_level="7" slot="head" weight="5" bt_price="500000"
+		hp="3" ap="3" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520514" />
+	<ITEM id="520515" name="STR:ZITEM_NAME_520515" mesh_name="eq_head_22" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="f" res_level="15" slot="head" weight="3" bt_price="500000"
+		hp="2" ap="6" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520515" />
+	<ITEM id="520516" name="STR:ZITEM_NAME_520516" mesh_name="eq_head_18" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="f" res_level="15" slot="head" weight="4" bt_price="500000"
+		hp="2" ap="8" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520516" />
+	<ITEM id="520517" name="STR:ZITEM_NAME_520517" mesh_name="eq_head_26" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="f" res_level="15" slot="head" weight="4" bt_price="500000"
+		hp="1" ap="10" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520517" />
+	<ITEM id="520518" name="STR:ZITEM_NAME_520518" mesh_name="eq_head_bigi" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="7" slot="head" weight="4" bt_price="500000"
+		hp="2" ap="3" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520518" />
+	<ITEM id="520519" name="STR:ZITEM_NAME_520519" mesh_name="eq_head_30" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="0" slot="head" weight="3" bt_price="500000"
+		hp="0" ap="4" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520519" />
+	<ITEM id="520520" name="STR:ZITEM_NAME_520520" mesh_name="eq_head_27" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="15" slot="head" weight="3" bt_price="500000"
+		hp="0" ap="10" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520520" />
+	<ITEM id="520521" name="STR:ZITEM_NAME_520521" mesh_name="eq_head_25" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="15" slot="head" weight="5" bt_price="500000"
+		hp="0" ap="12" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520521" />
+	<ITEM id="520522" name="STR:ZITEM_NAME_520522" mesh_name="eq_head_korea" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="0" slot="head" weight="3" bt_price="500000"
+		hp="0" ap="5" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520522" />
+	<ITEM id="520523" name="STR:ZITEM_NAME_520522" mesh_name="eq_head_brazil" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="0" slot="head" weight="3" bt_price="500000"
+		hp="0" ap="5" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520522" />
+	<ITEM id="520524" name="STR:ZITEM_NAME_520522" mesh_name="eq_head_japan" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="0" slot="head" weight="3" bt_price="500000"
+		hp="0" ap="5" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520522" />
+	<ITEM id="520525" name="STR:ZITEM_NAME_520525" mesh_name="eq_head_visor" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="0" slot="head" weight="3" bt_price="500000"
+		hp="0" ap="3" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520525" />
+	<ITEM id="520526" name="STR:ZITEM_NAME_520526" mesh_name="eq_head_hat" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="0" slot="head" weight="5" bt_price="500000" bp_solo_bonus="50"
+		hp="1" ap="1" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520526" />
+	<ITEM id="520527" name="STR:ZITEM_NAME_520527" mesh_name="eq_head_zeus" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="0" slot="head" weight="2" bt_price="500000" 
+		hp="3" ap="0" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520527" />
+	<ITEM id="520528" name="STR:ZITEM_NAME_520528" mesh_name="eq_head_pumpkin" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="0" slot="head" weight="5" bt_price="500000"
+		hp="2" ap="2" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520528" />
+	<ITEM id="520529" name="STR:ZITEM_NAME_520529" mesh_name="eq_head_30" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="0" slot="head" weight="4" bt_price="500000"
+		hp="1" ap="2" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520529" />
+	<ITEM id="520530" name="STR:ZITEM_NAME_520530" mesh_name="eq_head_33" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="15" slot="head" weight="5" bt_price="500000"
+		hp="1" ap="10" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520530" />
+	<ITEM id="520531" name="STR:ZITEM_NAME_520531" mesh_name="eq_head_34" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="15" slot="head" weight="3" bt_price="500000"
+		hp="3" ap="4" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_520531" />
+
+	<!-- chest /////////////////////////////////////////////////////////////////////////////////////////// -->
+	<!-- 남자 //////////////////////////////////////////////// -->
+	<ITEM id="521001" name="STR:ZITEM_NAME_521001" mesh_name="eq_chest_16" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="7" slot="chest" weight="14"
+		bt_price="50000" hp="4" ap="16" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_521001" />
+	<ITEM id="521002" name="STR:ZITEM_NAME_521002" mesh_name="eq_chest_04" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="15" slot="chest" weight="15"
+		bt_price="500000" hp="4" ap="22" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_521002" />
+	<ITEM id="521003" name="STR:ZITEM_NAME_521003" mesh_name="eq_chest_17" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="15" slot="chest" weight="15"
+		bt_price="500000" hp="3" ap="24" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_521003" />
+	<ITEM id="521004" name="STR:ZITEM_NAME_521004" mesh_name="eq_chest_10" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="0" slot="chest" weight="10"
+		bt_price="500000" hp="2" ap="10" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_521004" />
+	<ITEM id="521005" name="STR:ZITEM_NAME_521005" mesh_name="eq_chest_09" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="7" slot="chest" weight="14"
+		bt_price="50000" hp="3" ap="18" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_521005" />
+	<ITEM id="521006" name="STR:ZITEM_NAME_521006" mesh_name="eq_chest_20" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="0" slot="chest" weight="9" bt_price="50000"
+		hp="3" ap="6" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_521006" />
+	<ITEM id="521007" name="STR:ZITEM_NAME_521007" mesh_name="eq_chest_23" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="15" slot="chest" weight="14"
+		bt_price="500000" hp="3" ap="22" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_521007" />
+	<ITEM id="521008" name="STR:ZITEM_NAME_521008" mesh_name="eq_chest_santa" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="0" slot="chest" weight="10"
+		bt_price="500000" hp="1" ap="13" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_521008" />
+	<ITEM id="521009" name="STR:ZITEM_NAME_521009" mesh_name="eq_chest_24" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="7" slot="chest" weight="15"
+		bt_price="50000" hp="5" ap="16" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_521009" />
+	<ITEM id="521010" name="STR:ZITEM_NAME_521010" mesh_name="eq_chest_22" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="15" slot="chest" weight="14"
+		bt_price="50000" hp="3" ap="22" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_521010" />
+	<ITEM id="521011" name="STR:ZITEM_NAME_521011" mesh_name="eq_chest_19" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="15" slot="chest" weight="15"
+		bt_price="50000" hp="3" ap="24" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_521011" />
+	<ITEM id="521012" name="STR:ZITEM_NAME_521012" mesh_name="eq_chest_18" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="15" slot="chest" weight="15"
+		bt_price="50000" hp="4" ap="22" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_521012" />
+	<ITEM id="521013" name="STR:ZITEM_NAME_521013" mesh_name="eq_chest_bigi" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="7" slot="chest" weight="14"
+		bt_price="50000" hp="3" ap="18" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_521013" />
+	<ITEM id="521014" name="STR:ZITEM_NAME_521014" mesh_name="eq_chest_27" totalpoint="0"
+		type="equip" res_sex="m" res_level="25" slot="chest" weight="14" bt_price="500000"
+		hp="4" ap="22" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_521014" />
+	<ITEM id="521015" name="STR:ZITEM_NAME_521015" mesh_name="eq_chest_hanbok" totalpoint="0"
+		type="equip" res_sex="m" res_level="0" slot="chest" weight="10" bt_price="500000"
+		hp="1" ap="13" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_521015" />
+	<ITEM id="521016" name="STR:ZITEM_NAME_521016" mesh_name="eq_chest_26" totalpoint="0"
+		type="equip" res_sex="m" res_level="15" slot="chest" weight="15" bt_price="500000"
+		hp="4" ap="22" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_521016" />
+	<ITEM id="521017" name="STR:ZITEM_NAME_521017" mesh_name="eq_chest_25" totalpoint="0"
+		type="equip" res_sex="m" res_level="15" slot="chest" weight="17" bt_price="500000"
+		hp="4" ap="25" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_521017" />
+	<ITEM id="521018" name="STR:ZITEM_NAME_521018" mesh_name="eq_chest_korea" totalpoint="0"
+		type="equip" res_sex="m" res_level="0" slot="chest" weight="10" bt_price="500000"
+		hp="2" ap="14" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_521018" />
+	<ITEM id="521019" name="STR:ZITEM_NAME_521018" mesh_name="eq_chest_brazil" totalpoint="0"
+		type="equip" res_sex="m" res_level="0" slot="chest" weight="10" bt_price="500000"
+		hp="2" ap="14" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_521018" />
+	<ITEM id="521020" name="STR:ZITEM_NAME_521018" mesh_name="eq_chest_japan" totalpoint="0"
+		type="equip" res_sex="m" res_level="0" slot="chest" weight="10" bt_price="500000"
+		hp="2" ap="14" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_521018" />
+	<ITEM id="521021" name="STR:ZITEM_NAME_521021" mesh_name="eq_chest_14" totalpoint="0"
+		type="equip" res_sex="m" res_level="0" slot="chest" weight="10" bt_price="500000"
+		hp="1" ap="12" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_521021" />
+	<ITEM id="521022" name="STR:ZITEM_NAME_521022" mesh_name="eq_chest_zeus" totalpoint="0"
+		type="equip" res_sex="m" res_level="0" slot="chest" weight="10" bt_price="500000"
+		hp="2" ap="12" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_521022" />
+	<ITEM id="521023" name="STR:ZITEM_NAME_521023" mesh_name="eq_chest_29" totalpoint="0"
+		type="equip" res_sex="m" res_level="0" slot="chest" weight="9" bt_price="500000"
+		hp="0" ap="14" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_521023" />
+	<ITEM id="521024" name="STR:ZITEM_NAME_521024" mesh_name="eq_chest_33" totalpoint="0"
+		type="equip" res_sex="m" res_level="15" slot="chest" weight="14" bt_price="500000"
+		hp="2" ap="24" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_521024" />
+	<ITEM id="521025" name="STR:ZITEM_NAME_521025" mesh_name="eq_chest_34" totalpoint="0"
+		type="equip" res_sex="m" res_level="15" slot="chest" weight="13" bt_price="500000"
+		hp="2" ap="24" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_521025" />
+	<!-- 여자 //////////////////////////////////////////////////-->
+	<ITEM id="521501" name="STR:ZITEM_NAME_521501" mesh_name="eq_chest_long002" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="7" slot="chest" weight="14"
+		bt_price="500000" hp="3" ap="16" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_521501" />
+	<ITEM id="521502" name="STR:ZITEM_NAME_521502" mesh_name="eq_chest_17" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="15" slot="chest" weight="15"
+		bt_price="500000" hp="4" ap="22" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_521502" />
+	<ITEM id="521503" name="STR:ZITEM_NAME_521503" mesh_name="eq_chest_19" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="15" slot="chest" weight="15"
+		bt_price="500000" hp="3" ap="24" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_521503" />
+	<ITEM id="521504" name="STR:ZITEM_NAME_521504" mesh_name="eq_chest_14" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="0" slot="chest" weight="10"
+		bt_price="500000" hp="2" ap="10" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_521504" />
+	<ITEM id="521505" name="STR:ZITEM_NAME_521505" mesh_name="eq_chest_08" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="7" slot="chest" weight="14"
+		bt_price="50000" hp="3" ap="18" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_521505" />
+	<ITEM id="521506" name="STR:ZITEM_NAME_521506" mesh_name="eq_chest_20" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="0" slot="chest" weight="9" bt_price="50000"
+		hp="3" ap="6" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_521506" />
+	<ITEM id="521507" name="STR:ZITEM_NAME_521507" mesh_name="eq_chest_023" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="15" slot="chest" weight="14"
+		bt_price="500000" hp="3" ap="22" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_521507" />
+	<ITEM id="521508" name="STR:ZITEM_NAME_521508" mesh_name="eq_chest_santa" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="0" slot="chest" weight="10"
+		bt_price="500000" hp="1" ap="13" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_521508" />
+	<ITEM id="521509" name="STR:ZITEM_NAME_521509" mesh_name="eq_chest_024" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="7" slot="chest" weight="15"
+		bt_price="50000" hp="5" ap="16" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_521509" />
+	<ITEM id="521510" name="STR:ZITEM_NAME_521510" mesh_name="eq_chest_22" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="15" slot="chest" weight="14"
+		bt_price="50000" hp="3" ap="22" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_521510" />
+	<ITEM id="521511" name="STR:ZITEM_NAME_521511" mesh_name="eq_chest_18" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="15" slot="chest" weight="15"
+		bt_price="50000" hp="3" ap="24" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_521511" />
+	<ITEM id="521512" name="STR:ZITEM_NAME_521512" mesh_name="eq_chest_026" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="15" slot="chest" weight="15"
+		bt_price="50000" hp="4" ap="22" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_521512" />
+	<ITEM id="521513" name="STR:ZITEM_NAME_521513" mesh_name="eq_chest_bigi" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="7" slot="chest" weight="14"
+		bt_price="50000" hp="3" ap="18" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_521513" />
+	<ITEM id="521514" name="STR:ZITEM_NAME_521514" mesh_name="eq_chest_28" totalpoint="0"
+		type="equip" res_sex="f" res_level="25" slot="chest" weight="14" bt_price="500000"
+		hp="4" ap="22" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_521514" />
+	<ITEM id="521515" name="STR:ZITEM_NAME_521515" mesh_name="eq_chest_30" totalpoint="0"
+		type="equip" res_sex="f" res_level="0" slot="chest" weight="10" bt_price="500000"
+		hp="1" ap="13" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_521515" />
+	<ITEM id="521516" name="STR:ZITEM_NAME_521516" mesh_name="eq_chest_027" totalpoint="0"
+		type="equip" res_sex="f" res_level="15" slot="chest" weight="15" bt_price="500000"
+		hp="4" ap="22" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_521516" />
+	<ITEM id="521517" name="STR:ZITEM_NAME_521517" mesh_name="eq_chest_025" totalpoint="0"
+		type="equip" res_sex="f" res_level="15" slot="chest" weight="17" bt_price="500000"
+		hp="4" ap="25" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_521517" />
+	<ITEM id="521518" name="STR:ZITEM_NAME_521518" mesh_name="eq_chest_korea" totalpoint="0"
+		type="equip" res_sex="f" res_level="0" slot="chest" weight="10" bt_price="500000"
+		hp="2" ap="14" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_521518" />
+	<ITEM id="521519" name="STR:ZITEM_NAME_521518" mesh_name="eq_chest_brazil" totalpoint="0"
+		type="equip" res_sex="f" res_level="0" slot="chest" weight="10" bt_price="500000"
+		hp="2" ap="14" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_521518" />
+	<ITEM id="521520" name="STR:ZITEM_NAME_521518" mesh_name="eq_chest_japan" totalpoint="0"
+		type="equip" res_sex="f" res_level="0" slot="chest" weight="10" bt_price="500000"
+		hp="2" ap="14" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_521518" />	
+	<ITEM id="521521" name="STR:ZITEM_NAME_521521" mesh_name="eq_chest_15" totalpoint="0"
+		type="equip" res_sex="f" res_level="0" slot="chest" weight="10" bt_price="500000"
+		hp="1" ap="12" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_521521" />	
+	<ITEM id="521522" name="STR:ZITEM_NAME_521522" mesh_name="eq_chest_zeus" totalpoint="0"
+		type="equip" res_sex="f" res_level="0" slot="chest" weight="10" bt_price="500000"
+		hp="2" ap="12" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_521522" />	
+	<ITEM id="521523" name="STR:ZITEM_NAME_521523" mesh_name="eq_chest_30" totalpoint="0"
+		type="equip" res_sex="f" res_level="0" slot="chest" weight="9" bt_price="500000"
+		hp="0" ap="14" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_521523" />	
+	<ITEM id="521524" name="STR:ZITEM_NAME_521524" mesh_name="eq_chest_33" totalpoint="0"
+		type="equip" res_sex="f" res_level="15" slot="chest" weight="14" bt_price="500000"
+		hp="2" ap="24" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_521524" />	
+	<ITEM id="521525" name="STR:ZITEM_NAME_521525" mesh_name="eq_chest_34" totalpoint="0"
+		type="equip" res_sex="f" res_level="15" slot="chest" weight="13" bt_price="500000"
+		hp="2" ap="24" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_521525" />	
+	<!-- hands /////////////////////////////////////////////////////////////////////////////////////// -->
+	<!-- 남자 //////////////////////////////////////////////////// -->
+	<ITEM id="522001" name="STR:ZITEM_NAME_522001" mesh_name="eq_hands_17" totalpoint="0"
+		type="equip" res_sex="m" res_level="7" slot="hands" weight="3" bt_price="50000" hp="2"
+		ap="8" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522001" />
+	<ITEM id="522002" name="STR:ZITEM_NAME_522002" mesh_name="eq_hands_07" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="15" slot="hands" weight="4"
+		bt_price="500000" hp="3" ap="12" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_522002" />
+	<ITEM id="522003" name="STR:ZITEM_NAME_522003" mesh_name="eq_hands_15" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="15" slot="hands" weight="4"
+		bt_price="500000" hp="2" ap="14" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_522003" />
+	<ITEM id="522004" name="STR:ZITEM_NAME_522004" mesh_name="eq_hands_09" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="0" slot="hands" weight="2" bt_price="500000"
+		hp="1" ap="6" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522004" />
+	<ITEM id="522005" name="STR:ZITEM_NAME_522005" mesh_name="eq_hands_08" totalpoint="0"
+		type="equip" res_sex="m" res_level="7" slot="hands" weight="3" bt_price="50000" hp="1"
+		ap="10" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522005" />
+	<ITEM id="522006" name="STR:ZITEM_NAME_522006" mesh_name="eq_hands_20" totalpoint="0"
+		type="equip" res_sex="m" res_level="0" slot="hands" weight="2" bt_price="50000" hp="1"
+		ap="6" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522006" />
+	<ITEM id="522007" name="STR:ZITEM_NAME_522007" mesh_name="eq_hands_23" totalpoint="0"
+		type="equip" res_sex="m" res_level="15" slot="hands" weight="4" bt_price="50000" hp="3"
+		ap="12" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522007" />
+	<ITEM id="522008" name="STR:ZITEM_NAME_522008" mesh_name="eq_hands_santa" totalpoint="0"
+		type="equip" res_sex="m" res_level="0" slot="hands" weight="2" bt_price="50000" hp="0"
+		ap="9" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522008" />
+	<ITEM id="522009" name="STR:ZITEM_NAME_522009" mesh_name="eq_hands_24" totalpoint="0"
+		type="equip" res_sex="m" res_level="7" slot="hands" weight="4" bt_price="50000" hp="3"
+		ap="8" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522009" />
+	<ITEM id="522010" name="STR:ZITEM_NAME_522010" mesh_name="eq_hands_22" totalpoint="0"
+		type="equip" res_sex="m" res_level="15" slot="hands" weight="3" bt_price="50000" hp="2"
+		ap="12" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522010" />
+	<ITEM id="522011" name="STR:ZITEM_NAME_522011" mesh_name="eq_hands_19" totalpoint="0"
+		type="equip" res_sex="m" res_level="15" slot="hands" weight="4" bt_price="50000" hp="2"
+		ap="14" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522011" />
+	<ITEM id="522012" name="STR:ZITEM_NAME_522012" mesh_name="eq_hands_18" totalpoint="0"
+		type="equip" res_sex="m" res_level="15" slot="hands" weight="4" bt_price="50000" hp="1"
+		ap="16" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522012" />
+	<ITEM id="522013" name="STR:ZITEM_NAME_522013" mesh_name="eq_hands_27" totalpoint="0"
+		type="equip" res_sex="m" res_level="25" slot="hands" weight="4" bt_price="500000"
+		hp="3" ap="13" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522013" />
+	<ITEM id="522014" name="STR:ZITEM_NAME_522014" mesh_name="eq_hands_hanbok" totalpoint="0"
+		type="equip" res_sex="m" res_level="0" slot="hands" weight="2" bt_price="500000"
+		hp="0" ap="9" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522014" />
+	<ITEM id="522015" name="STR:ZITEM_NAME_522015" mesh_name="eq_hands_26" totalpoint="0"
+		type="equip" res_sex="m" res_level="15" slot="hands" weight="4" bt_price="500000"
+		hp="1" ap="16" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522015" />
+	<ITEM id="522016" name="STR:ZITEM_NAME_522016" mesh_name="eq_hands_25" totalpoint="0"
+		type="equip" res_sex="m" res_level="15" slot="hands" weight="4" bt_price="500000"
+		hp="1" ap="16" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522016" />
+	<ITEM id="522017" name="STR:ZITEM_NAME_522017" mesh_name="eq_hands_14" totalpoint="0"
+		type="equip" res_sex="m" res_level="0" slot="hands" weight="2" bt_price="500000"
+		hp="1" ap="6" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522017" />
+	<ITEM id="522018" name="STR:ZITEM_NAME_522018" mesh_name="eq_hands_29" totalpoint="0"
+		type="equip" res_sex="m" res_level="0" slot="hands" weight="2" bt_price="500000"
+		hp="2" ap="4" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522018" />
+	<ITEM id="522019" name="STR:ZITEM_NAME_522019" mesh_name="eq_hands_33" totalpoint="0"
+		type="equip" res_sex="m" res_level="15" slot="hands" weight="3" bt_price="500000"
+		hp="1" ap="14" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522019" />
+	<ITEM id="522020" name="STR:ZITEM_NAME_522020" mesh_name="eq_hands_34" totalpoint="0"
+		type="equip" res_sex="m" res_level="15" slot="hands" weight="3" bt_price="500000"
+		hp="1" ap="13" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522020" />
+
+	<!-- 여자 ///////////////////////////////////////////////////// -->
+	<ITEM id="522501" name="STR:ZITEM_NAME_522501" mesh_name="eq_hands_leather001" totalpoint="0"
+		type="equip" res_sex="f" res_level="7" slot="hands" weight="3" bt_price="50000" hp="2"
+		ap="8" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522501" />
+	<ITEM id="522502" name="STR:ZITEM_NAME_522502" mesh_name="eq_hands_17" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="15" slot="hands" weight="4"
+		bt_price="500000" hp="3" ap="12" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_522502" />
+	<ITEM id="522503" name="STR:ZITEM_NAME_522503" mesh_name="eq_hands_19" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="15" slot="hands" weight="4"
+		bt_price="500000" hp="2" ap="14" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_522503" />
+	<ITEM id="522504" name="STR:ZITEM_NAME_522504" mesh_name="eq_hands_05" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="0" slot="hands" weight="2" bt_price="500000"
+		hp="1" ap="6" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522504" />
+	<ITEM id="522505" name="STR:ZITEM_NAME_522505" mesh_name="eq_hands_08" totalpoint="0"
+		type="equip" res_sex="f" res_level="7" slot="hands" weight="3" bt_price="50000" hp="1"
+		ap="10" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522505" />
+	<ITEM id="522506" name="STR:ZITEM_NAME_522506" mesh_name="eq_hands_20" totalpoint="0"
+		type="equip" res_sex="f" res_level="0" slot="hands" weight="2" bt_price="50000" hp="1"
+		ap="6" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522506" />
+	<ITEM id="522507" name="STR:ZITEM_NAME_522507" mesh_name="eq_hands_23" totalpoint="0"
+		type="equip" res_sex="f" res_level="15" slot="hands" weight="4" bt_price="50000" hp="3"
+		ap="12" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522507" />
+	<ITEM id="522508" name="STR:ZITEM_NAME_522508" mesh_name="eq_hands_santa" totalpoint="0"
+		type="equip" res_sex="f" res_level="0" slot="hands" weight="2" bt_price="50000" hp="0"
+		ap="9" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522508" />
+	<ITEM id="522509" name="STR:ZITEM_NAME_522509" mesh_name="eq_hands_24" totalpoint="0"
+		type="equip" res_sex="f" res_level="7" slot="hands" weight="4" bt_price="50000" hp="3"
+		ap="8" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522509" />
+	<ITEM id="522510" name="STR:ZITEM_NAME_522510" mesh_name="eq_hands_22" totalpoint="0"
+		type="equip" res_sex="f" res_level="15" slot="hands" weight="3" bt_price="50000" hp="2"
+		ap="12" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522510" />
+	<ITEM id="522511" name="STR:ZITEM_NAME_522511" mesh_name="eq_hands_18" totalpoint="0"
+		type="equip" res_sex="f" res_level="15" slot="hands" weight="4" bt_price="50000" hp="2"
+		ap="14" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522511" />
+	<ITEM id="522512" name="STR:ZITEM_NAME_522512" mesh_name="eq_hands_26" totalpoint="0"
+		type="equip" res_sex="f" res_level="15" slot="hands" weight="4" bt_price="50000" hp="1"
+		ap="16" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522512" />
+	<ITEM id="522513" name="STR:ZITEM_NAME_522513" mesh_name="eq_hands_28" totalpoint="0"
+		type="equip" res_sex="f" res_level="25" slot="hands" weight="4" bt_price="500000"
+		hp="3" ap="13" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522513" />
+	<ITEM id="522514" name="STR:ZITEM_NAME_522514" mesh_name="eq_hands_30" totalpoint="0"
+		type="equip" res_sex="f" res_level="0" slot="hands" weight="2" bt_price="500000"
+		hp="0" ap="9" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522514" />
+	<ITEM id="522515" name="STR:ZITEM_NAME_522515" mesh_name="eq_hands_27" totalpoint="0"
+		type="equip" res_sex="f" res_level="15" slot="hands" weight="4" bt_price="500000"
+		hp="1" ap="16" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522515" />
+	<ITEM id="522516" name="STR:ZITEM_NAME_522516" mesh_name="eq_hands_25" totalpoint="0"
+		type="equip" res_sex="f" res_level="15" slot="hands" weight="4" bt_price="500000"
+		hp="1" ap="16" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522516" />
+	<ITEM id="522517" name="STR:ZITEM_NAME_522517" mesh_name="eq_hands_15" totalpoint="0"
+		type="equip" res_sex="f" res_level="0" slot="hands" weight="2" bt_price="500000"
+		hp="1" ap="6" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522517" />
+	<ITEM id="522518" name="STR:ZITEM_NAME_522518" mesh_name="eq_hands_30" totalpoint="0"
+		type="equip" res_sex="f" res_level="0" slot="hands" weight="2" bt_price="500000"
+		hp="2" ap="4" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522518" />
+	<ITEM id="522519" name="STR:ZITEM_NAME_522519" mesh_name="eq_hands_33" totalpoint="0"
+		type="equip" res_sex="f" res_level="15" slot="hands" weight="3" bt_price="500000"
+		hp="1" ap="14" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522519" />
+	<ITEM id="522520" name="STR:ZITEM_NAME_522520" mesh_name="eq_hands_34" totalpoint="0"
+		type="equip" res_sex="f" res_level="15" slot="hands" weight="3" bt_price="500000"
+		hp="1" ap="13" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_522520" />
+	<!-- legs ////////////////////////////////////////////////////////////////////////////////////// -->
+	<!-- 남자 ///////////////////////////////////////////////// -->
+	<ITEM id="523001" name="STR:ZITEM_NAME_523001" mesh_name="eq_legs_16" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="m" res_level="7" slot="legs" weight="13" bt_price="50000"
+		hp="4" ap="15" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523001" />
+	<ITEM id="523002" name="STR:ZITEM_NAME_523002" mesh_name="eq_legs_05" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="m" res_level="15" slot="legs" weight="14" bt_price="500000"
+		hp="3" ap="24" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523002" />
+	<ITEM id="523003" name="STR:ZITEM_NAME_523003" mesh_name="eq_legs_17" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="m" res_level="15" slot="legs" weight="14" bt_price="500000"
+		hp="2" ap="26" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523003" />
+	<ITEM id="523004" name="STR:ZITEM_NAME_523004" mesh_name="eq_legs_07" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="m" res_level="0" slot="legs" weight="10" bt_price="500000"
+		hp="1" ap="12" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523004" />
+	<ITEM id="523005" name="STR:ZITEM_NAME_523005" mesh_name="eq_legs_09" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="m" res_level="7" slot="legs" weight="13" bt_price="50000"
+		hp="3" ap="17" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523005" />
+	<ITEM id="523006" name="STR:ZITEM_NAME_523006" mesh_name="eq_legs_20" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="m" res_level="0" slot="legs" weight="9" bt_price="50000"
+		hp="3" ap="8" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523006" />
+	<ITEM id="523007" name="STR:ZITEM_NAME_523007" mesh_name="eq_legs_23" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="m" res_level="15" slot="legs" weight="13" bt_price="50000"
+		hp="2" ap="24" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523007" />
+	<ITEM id="523008" name="STR:ZITEM_NAME_523008" mesh_name="eq_legs_santa" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="0" slot="legs" weight="10" bt_price="50000"
+		hp="1" ap="15" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523008" />
+	<ITEM id="523009" name="STR:ZITEM_NAME_523009" mesh_name="eq_legs_24" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="m" res_level="7" slot="legs" weight="15" bt_price="50000"
+		hp="5" ap="15" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523009" />
+	<ITEM id="523010" name="STR:ZITEM_NAME_523010" mesh_name="eq_legs_22" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="m" res_level="15" slot="legs" weight="13" bt_price="50000"
+		hp="2" ap="24" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523010" />
+	<ITEM id="523011" name="STR:ZITEM_NAME_523011" mesh_name="eq_legs_19" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="m" res_level="15" slot="legs" weight="14" bt_price="50000"
+		hp="2" ap="26" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523011" />
+	<ITEM id="523012" name="STR:ZITEM_NAME_523012" mesh_name="eq_legs_18" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="m" res_level="15" slot="legs" weight="14" bt_price="50000"
+		hp="3" ap="24" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523012" />
+	<ITEM id="523013" name="STR:ZITEM_NAME_523013" mesh_name="eq_legs_27" totalpoint="0" type="equip"
+		res_sex="m" res_level="25" slot="legs" weight="13" bt_price="500000" hp="3" ap="24"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523013" />
+	<ITEM id="523014" name="STR:ZITEM_NAME_523014" mesh_name="eq_legs_hanbok" totalpoint="0" type="equip"
+		res_sex="m" res_level="0" slot="legs" weight="10" bt_price="500000" hp="1" ap="15"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523014" />
+	<ITEM id="523015" name="STR:ZITEM_NAME_523015" mesh_name="eq_legs_26" totalpoint="0" type="equip"
+		res_sex="m" res_level="15" slot="legs" weight="14" bt_price="500000" hp="3" ap="24"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523015" />
+	<ITEM id="523016" name="STR:ZITEM_NAME_523016" mesh_name="eq_legs_25" totalpoint="0" type="equip"
+		res_sex="m" res_level="15" slot="legs" weight="16" bt_price="500000" hp="3" ap="27"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523016" />
+	<ITEM id="523017" name="STR:ZITEM_NAME_523017" mesh_name="eq_legs_korea" totalpoint="0" type="equip"
+		res_sex="m" res_level="0" slot="legs" weight="10" bt_price="500000" hp="2" ap="16"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523017" />
+	<ITEM id="523018" name="STR:ZITEM_NAME_523017" mesh_name="eq_legs_brazil" totalpoint="0" type="equip"
+		res_sex="m" res_level="0" slot="legs" weight="10" bt_price="500000" hp="2" ap="16"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523017" />
+	<ITEM id="523019" name="STR:ZITEM_NAME_523017" mesh_name="eq_legs_japan" totalpoint="0" type="equip"
+		res_sex="m" res_level="0" slot="legs" weight="10" bt_price="500000" hp="2" ap="16"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523017" />
+	<ITEM id="523020" name="STR:ZITEM_NAME_523020" mesh_name="eq_legs_14" totalpoint="0" type="equip"
+		res_sex="m" res_level="0" slot="legs" weight="10" bt_price="500000" hp="1" ap="14"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523020" />
+	<ITEM id="523021" name="STR:ZITEM_NAME_523021" mesh_name="eq_legs_29" totalpoint="0" type="equip"
+		res_sex="m" res_level="0" slot="legs" weight="9" bt_price="500000" hp="0" ap="16"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523021" />
+	<ITEM id="523022" name="STR:ZITEM_NAME_523022" mesh_name="eq_legs_33" totalpoint="0" type="equip"
+		res_sex="m" res_level="15" slot="legs" weight="13" bt_price="500000" hp="1" ap="26"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523022" />
+	<ITEM id="523023" name="STR:ZITEM_NAME_523023" mesh_name="eq_legs_34" totalpoint="0" type="equip"
+		res_sex="m" res_level="15" slot="legs" weight="13" bt_price="500000" hp="3" ap="23"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523023" />
+	<!-- 여자 ////////////////////////////////////////////////// -->
+	<ITEM id="523501" name="STR:ZITEM_NAME_523501" mesh_name="eq_legs_014" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="7" slot="legs" weight="13" bt_price="50000"
+		hp="2" ap="18" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523501" />
+	<ITEM id="523502" name="STR:ZITEM_NAME_523502" mesh_name="eq_legs_017" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="15" slot="legs" weight="14"
+		bt_price="500000" hp="3" ap="24" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_523502" />
+	<ITEM id="523503" name="STR:ZITEM_NAME_523503" mesh_name="eq_legs_019" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="15" slot="legs" weight="14"
+		bt_price="500000" hp="2" ap="26" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_523503" />
+	<ITEM id="523504" name="STR:ZITEM_NAME_523504" mesh_name="eq_legs_006" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="0" slot="legs" weight="10" bt_price="500000"
+		hp="1" ap="12" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523504" />
+	<ITEM id="523505" name="STR:ZITEM_NAME_523505" mesh_name="eq_legs_008" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="7" slot="legs" weight="13" bt_price="50000"
+		hp="3" ap="17" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523505" />
+	<ITEM id="523506" name="STR:ZITEM_NAME_523506" mesh_name="eq_legs_20" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="f" res_level="0" slot="legs" weight="9" bt_price="50000"
+		hp="3" ap="8" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523506" />
+	<ITEM id="523507" name="STR:ZITEM_NAME_523507" mesh_name="eq_legs_23" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="f" res_level="15" slot="legs" weight="13" bt_price="50000"
+		hp="2" ap="24" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523507" />
+	<ITEM id="523508" name="STR:ZITEM_NAME_523508" mesh_name="eq_legs_santa" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="0" slot="legs" weight="10" bt_price="50000"
+		hp="1" ap="15" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523508" />
+	<ITEM id="523509" name="STR:ZITEM_NAME_523509" mesh_name="eq_legs_24" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="f" res_level="7" slot="legs" weight="15" bt_price="50000"
+		hp="5" ap="15" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523509" />
+	<ITEM id="523510" name="STR:ZITEM_NAME_523510" mesh_name="eq_legs_22" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="f" res_level="15" slot="legs" weight="13" bt_price="50000"
+		hp="2" ap="24" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523510" />
+	<ITEM id="523511" name="STR:ZITEM_NAME_523511" mesh_name="eq_legs_018" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="15" slot="legs" weight="14"
+		bt_price="50000" hp="2" ap="26" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF"
+		desc="STR:ZITEM_DESC_523511" />
+	<ITEM id="523512" name="STR:ZITEM_NAME_523512" mesh_name="eq_legs_26" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="f" res_level="15" slot="legs" weight="14" bt_price="50000"
+		hp="3" ap="24" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523512" />
+	<ITEM id="523513" name="STR:ZITEM_NAME_523513" mesh_name="eq_legs_28" totalpoint="0" type="equip"
+		res_sex="f" res_level="25" slot="legs" weight="13" bt_price="500000" hp="3" ap="24"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523513" />
+	<ITEM id="523514" name="STR:ZITEM_NAME_523514" mesh_name="eq_legs_30" totalpoint="0" type="equip"
+		res_sex="f" res_level="0" slot="legs" weight="10" bt_price="500000" hp="1" ap="15"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523514" />
+	<ITEM id="523515" name="STR:ZITEM_NAME_523515" mesh_name="eq_legs_27" totalpoint="0" type="equip"
+		res_sex="f" res_level="15" slot="legs" weight="14" bt_price="500000" hp="3" ap="24"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523515" />
+	<ITEM id="523516" name="STR:ZITEM_NAME_523516" mesh_name="eq_legs_25" totalpoint="0" type="equip"
+		res_sex="f" res_level="15" slot="legs" weight="16" bt_price="500000" hp="3" ap="27"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523516" />
+	<ITEM id="523517" name="STR:ZITEM_NAME_523517" mesh_name="eq_legs_korea" totalpoint="0" type="equip"
+		res_sex="f" res_level="0" slot="legs" weight="10" bt_price="500000" hp="2" ap="16"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523517" />
+	<ITEM id="523518" name="STR:ZITEM_NAME_523517" mesh_name="eq_legs_brazil" totalpoint="0" type="equip"
+		res_sex="f" res_level="0" slot="legs" weight="10" bt_price="500000" hp="2" ap="16"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523517" />
+	<ITEM id="523519" name="STR:ZITEM_NAME_523517" mesh_name="eq_legs_japan" totalpoint="0" type="equip"
+		res_sex="f" res_level="0" slot="legs" weight="10" bt_price="500000" hp="2" ap="16"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523517" />
+	<ITEM id="523520" name="STR:ZITEM_NAME_523520" mesh_name="eq_legs_015" totalpoint="0" type="equip"
+		res_sex="f" res_level="0" slot="legs" weight="10" bt_price="500000" hp="1" ap="14"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523520" />
+	<ITEM id="523521" name="STR:ZITEM_NAME_523521" mesh_name="eq_legs_30" totalpoint="0" type="equip"
+		res_sex="f" res_level="0" slot="legs" weight="9" bt_price="500000" hp="0" ap="16"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523521" />
+	<ITEM id="523522" name="STR:ZITEM_NAME_523522" mesh_name="eq_legs_33" totalpoint="0" type="equip"
+		res_sex="f" res_level="15" slot="legs" weight="13" bt_price="500000" hp="1" ap="26"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523522" />
+	<ITEM id="523523" name="STR:ZITEM_NAME_523523" mesh_name="eq_legs_34" totalpoint="0" type="equip"
+		res_sex="f" res_level="15" slot="legs" weight="13" bt_price="500000" hp="3" ap="22"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_523523" />
+	<!-- feet //////////////////////////////////////////////////////////////////////////////////////// -->
+	<!-- 남자 //////////////////////////////////////////////// -->
+	<ITEM id="524001" name="STR:ZITEM_NAME_524001" mesh_name="eq_feet_16" totalpoint="0" type="equip"
+		res_sex="m" res_level="7" slot="feet" weight="3" bt_price="50000" hp="2" ap="10" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524001" />
+	<ITEM id="524002" name="STR:ZITEM_NAME_524002" mesh_name="eq_feet_06" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="m" res_level="15" slot="feet" weight="4" bt_price="500000"
+		hp="3" ap="15" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524002" />
+	<ITEM id="524003" name="STR:ZITEM_NAME_524003" mesh_name="eq_feet_17" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="m" res_level="15" slot="feet" weight="4" bt_price="500000"
+		hp="2" ap="17" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524003" />
+	<ITEM id="524004" name="STR:ZITEM_NAME_524004" mesh_name="eq_feet_08" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="m" res_level="0" slot="feet" weight="2" bt_price="500000"
+		hp="1" ap="8" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524004" />
+	<ITEM id="524005" name="STR:ZITEM_NAME_524005" mesh_name="eq_feet_11" totalpoint="0" type="equip"
+		res_sex="m" res_level="7" slot="feet" weight="3" bt_price="50000" hp="1" ap="12" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524005" />
+	<ITEM id="524006" name="STR:ZITEM_NAME_524006" mesh_name="eq_feet_20" totalpoint="0" type="equip"
+		res_sex="m" res_level="0" slot="feet" weight="2" bt_price="50000" hp="1" ap="8" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524006" />
+	<ITEM id="524007" name="STR:ZITEM_NAME_524007" mesh_name="eq_feet_23" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="m" res_level="15" slot="feet" weight="4" bt_price="500000"
+		hp="3" ap="15" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524007" />
+	<ITEM id="524008" name="STR:ZITEM_NAME_524008" mesh_name="eq_feet_santa" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="m" res_level="0" slot="feet" weight="2" bt_price="500000"
+		hp="0" ap="11" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524008" />
+	<ITEM id="524009" name="STR:ZITEM_NAME_524009" mesh_name="eq_feet_24" totalpoint="0" type="equip"
+		res_sex="m" res_level="7" slot="feet" weight="4" bt_price="50000" hp="3" ap="10" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524009" />
+	<ITEM id="524010" name="STR:ZITEM_NAME_524010" mesh_name="eq_feet_22" totalpoint="0" type="equip"
+		res_sex="m" res_level="15" slot="feet" weight="3" bt_price="50000" hp="2" ap="15"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524010" />
+	<ITEM id="524011" name="STR:ZITEM_NAME_524011" mesh_name="eq_feet_19" totalpoint="0" type="equip"
+		res_sex="m" res_level="15" slot="feet" weight="4" bt_price="50000" hp="2" ap="17"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524011" />
+	<ITEM id="524012" name="STR:ZITEM_NAME_524012" mesh_name="eq_feet_18" totalpoint="0" type="equip"
+		res_sex="m" res_level="15" slot="feet" weight="4" bt_price="50000" hp="2" ap="17"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524012" />
+	<ITEM id="524013" name="STR:ZITEM_NAME_524013" mesh_name="eq_feet_27" totalpoint="0" type="equip"
+		res_sex="m" res_level="25" slot="feet" weight="4" bt_price="500000" hp="3" ap="16"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524013" />
+	<ITEM id="524014" name="STR:ZITEM_NAME_524014" mesh_name="eq_feet_hanbok" totalpoint="0" type="equip"
+		res_sex="m" res_level="0" slot="feet" weight="2" bt_price="500000" hp="0" ap="11"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524014" />
+	<ITEM id="524015" name="STR:ZITEM_NAME_524015" mesh_name="eq_feet_26" totalpoint="0" type="equip"
+		res_sex="m" res_level="15" slot="feet" weight="4" bt_price="500000" hp="2" ap="17"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524015" />
+	<ITEM id="524016" name="STR:ZITEM_NAME_524016" mesh_name="eq_feet_25" totalpoint="0" type="equip"
+		res_sex="m" res_level="15" slot="feet" weight="4" bt_price="500000" hp="2" ap="17"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524016" />
+	<ITEM id="524017" name="STR:ZITEM_NAME_524017" mesh_name="eq_feet_korea" totalpoint="0" type="equip"
+		res_sex="m" res_level="0" slot="feet" weight="2" bt_price="500000" hp="0" ap="13"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524017" />
+	<ITEM id="524018" name="STR:ZITEM_NAME_524017" mesh_name="eq_feet_brazil" totalpoint="0" type="equip"
+		res_sex="m" res_level="0" slot="feet" weight="2" bt_price="500000" hp="0" ap="13"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524017" />
+	<ITEM id="524019" name="STR:ZITEM_NAME_524017" mesh_name="eq_feet_japan" totalpoint="0" type="equip"
+		res_sex="m" res_level="0" slot="feet" weight="2" bt_price="500000" hp="0" ap="13"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524017" />
+	<ITEM id="524020" name="STR:ZITEM_NAME_524020" mesh_name="eq_feet_14" totalpoint="0" type="equip"
+		res_sex="m" res_level="0" slot="feet" weight="2" bt_price="500000" hp="1" ap="8"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524020" />
+	<ITEM id="524021" name="STR:ZITEM_NAME_524021" mesh_name="eq_feet_29" totalpoint="0" type="equip"
+		res_sex="m" res_level="0" slot="feet" weight="2" bt_price="500000" hp="2" ap="6"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524021" />
+	<ITEM id="524022" name="STR:ZITEM_NAME_524022" mesh_name="eq_feet_33" totalpoint="0" type="equip"
+		res_sex="m" res_level="15" slot="feet" weight="3" bt_price="500000" hp="1" ap="17"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524022" />
+	<ITEM id="524023" name="STR:ZITEM_NAME_524023" mesh_name="eq_feet_34" totalpoint="0" type="equip"
+		res_sex="m" res_level="15" slot="feet" weight="3" bt_price="500000" hp="1" ap="17"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524023" />
+	<!-- 여성 //////////////////////////////////////////////// -->
+	<ITEM id="524501" name="STR:ZITEM_NAME_524501" mesh_name="eq_feets_014" totalpoint="0"
+		type="equip" res_sex="f" res_level="7" slot="feet" weight="3" bt_price="50000" hp="2"
+		ap="10" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524501" />
+	<ITEM id="524502" name="STR:ZITEM_NAME_524502" mesh_name="eq_feet_017" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="15" slot="feet" weight="4" bt_price="500000"
+		hp="3" ap="15" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524502" />
+	<ITEM id="524503" name="STR:ZITEM_NAME_524503" mesh_name="eq_feet_019" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="15" slot="feet" weight="4" bt_price="500000"
+		hp="2" ap="17" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524503" />
+	<ITEM id="524504" name="STR:ZITEM_NAME_524504" mesh_name="eq_feets_006" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="0" slot="feet" weight="2" bt_price="500000"
+		hp="1" ap="8" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524504" />
+	<ITEM id="524505" name="STR:ZITEM_NAME_524505" mesh_name="eq_feet_005" totalpoint="0"
+		type="equip" res_sex="f" res_level="7" slot="feet" weight="3" bt_price="50000" hp="1"
+		ap="12" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524505" />
+	<ITEM id="524506" name="STR:ZITEM_NAME_524506" mesh_name="eq_feet_20" totalpoint="0" type="equip"
+		res_sex="f" res_level="0" slot="feet" weight="2" bt_price="50000" hp="1" ap="8" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524506" />
+	<ITEM id="524507" name="STR:ZITEM_NAME_524507" mesh_name="eq_feet_23" totalpoint="0" type="equip"
+		iscashitem="true" res_sex="f" res_level="15" slot="feet" weight="4" bt_price="500000"
+		hp="3" ap="15" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524507" />
+	<ITEM id="524508" name="STR:ZITEM_NAME_524508" mesh_name="eq_feet_santa" totalpoint="0"
+		type="equip" iscashitem="true" res_sex="f" res_level="0" slot="feet" weight="2" bt_price="500000"
+		hp="0" ap="11" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524508" />
+	<ITEM id="524509" name="STR:ZITEM_NAME_524509" mesh_name="eq_feet_24" totalpoint="0" type="equip"
+		res_sex="f" res_level="7" slot="feet" weight="4" bt_price="50000" hp="3" ap="10" maxwt="0"
+		sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524509" />
+	<ITEM id="524510" name="STR:ZITEM_NAME_524510" mesh_name="eq_feet_22" totalpoint="0" type="equip"
+		res_sex="f" res_level="15" slot="feet" weight="3" bt_price="50000" hp="2" ap="15"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524510" />
+	<ITEM id="524511" name="STR:ZITEM_NAME_524511" mesh_name="eq_feet_018" totalpoint="0"
+		type="equip" res_sex="f" res_level="15" slot="feet" weight="4" bt_price="50000" hp="2"
+		ap="17" maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524511" />
+	<ITEM id="524512" name="STR:ZITEM_NAME_524512" mesh_name="eq_feet_26" totalpoint="0" type="equip"
+		res_sex="f" res_level="15" slot="feet" weight="4" bt_price="50000" hp="2" ap="17"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524512" />
+	<ITEM id="524513" name="STR:ZITEM_NAME_524513" mesh_name="eq_feet_28" totalpoint="0" type="equip"
+		res_sex="f" res_level="25" slot="feet" weight="4" bt_price="500000" hp="3" ap="16"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524513" />
+	<ITEM id="524514" name="STR:ZITEM_NAME_524514" mesh_name="eq_feets_30" totalpoint="0" type="equip"
+		res_sex="f" res_level="0" slot="feet" weight="2" bt_price="500000" hp="0" ap="11"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524514" />
+	<ITEM id="524515" name="STR:ZITEM_NAME_524515" mesh_name="eq_feet_27" totalpoint="0" type="equip"
+		res_sex="f" res_level="15" slot="feet" weight="4" bt_price="500000" hp="2" ap="17"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524515" />
+	<ITEM id="524516" name="STR:ZITEM_NAME_524516" mesh_name="eq_feet_25" totalpoint="0" type="equip"
+		res_sex="f" res_level="15" slot="feet" weight="4" bt_price="500000" hp="2" ap="17"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524516" />
+	<ITEM id="524517" name="STR:ZITEM_NAME_524517" mesh_name="eq_feets_korea" totalpoint="0" type="equip"
+		res_sex="f" res_level="0" slot="feet" weight="2" bt_price="500000" hp="0" ap="13"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524517" />
+	<ITEM id="524518" name="STR:ZITEM_NAME_524517" mesh_name="eq_feets_brazil" totalpoint="0" type="equip"
+		res_sex="f" res_level="0" slot="feet" weight="2" bt_price="500000" hp="0" ap="13"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524517" />
+	<ITEM id="524519" name="STR:ZITEM_NAME_524517" mesh_name="eq_feets_japan" totalpoint="0" type="equip"
+		res_sex="f" res_level="0" slot="feet" weight="2" bt_price="500000" hp="0" ap="13"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524517" />
+	<ITEM id="524520" name="STR:ZITEM_NAME_524520" mesh_name="eq_feet_015" totalpoint="0" type="equip"
+		res_sex="f" res_level="0" slot="feet" weight="2" bt_price="500000" hp="1" ap="8"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524520" />
+	<ITEM id="524521" name="STR:ZITEM_NAME_524521" mesh_name="eq_feets_30" totalpoint="0" type="equip"
+		res_sex="f" res_level="0" slot="feet" weight="2" bt_price="500000" hp="2" ap="6"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524521" />
+	<ITEM id="524522" name="STR:ZITEM_NAME_524522" mesh_name="eq_feet_33" totalpoint="0" type="equip"
+		res_sex="f" res_level="15" slot="feet" weight="3" bt_price="500000" hp="1" ap="17"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524522" />
+	<ITEM id="524523" name="STR:ZITEM_NAME_524523" mesh_name="eq_feet_34" totalpoint="0" type="equip"
+		res_sex="f" res_level="15" slot="feet" weight="3" bt_price="500000" hp="1" ap="17"
+		maxwt="0" sf="0" fr="0" cr="0" pr="0" lr="0" color="#FFFFFFFF" desc="STR:ZITEM_DESC_524523" />
+	<!--
+      /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+      인챈트 아이템 ///////////////////////////////////////////////////////////////////////////////////////////////
+	-->
+	<!-- FIRE 속성 -->
+	<ITEM id="600001" name="STR:ZITEM_NAME_600001" type="custom" weapon="enchant_fire" res_sex="a"
+		res_level="15" slot="custom" bt_price="500" image_id="3" effect_level="2" damage="1"
+		delay="5000" weight="3" desc="STR:ZITEM_DESC_600001" />
+	<ITEM id="600002" name="STR:ZITEM_NAME_600002" type="custom" weapon="enchant_fire" res_sex="a"
+		res_level="30" slot="custom" bt_price="500" image_id="3" effect_level="2" damage="1"
+		delay="5000" weight="3" desc="STR:ZITEM_DESC_600002" />
+	<ITEM id="600003" name="STR:ZITEM_NAME_600003" type="custom" weapon="enchant_fire" res_sex="a"
+		res_level="25" slot="custom" bt_price="500" image_id="3" effect_level="3" damage="2"
+		delay="5000" weight="3" desc="STR:ZITEM_DESC_600003" />
+	<ITEM id="600004" name="STR:ZITEM_NAME_600004" type="custom" weapon="enchant_fire" res_sex="a"
+		res_level="50" slot="custom" bt_price="500" image_id="3" effect_level="2" damage="4"
+		delay="5000" weight="3" desc="STR:ZITEM_DESC_600004" />
+	<ITEM id="600005" name="STR:ZITEM_NAME_600005" type="custom" weapon="enchant_fire" res_sex="a"
+		res_level="55" slot="custom" bt_price="500" image_id="3" effect_level="3" damage="5"
+		delay="5000" weight="3" desc="STR:ZITEM_DESC_600005" />
+	<ITEM id="600006" name="STR:ZITEM_NAME_600006" type="custom" weapon="enchant_fire" res_sex="a"
+		res_level="0" slot="custom" bt_price="500" image_id="3" effect_level="1" damage="1"
+		delay="3000" weight="3" desc="STR:ZITEM_DESC_600006" />
+	<!-- COLD 속성 -->
+	<ITEM id="600101" name="STR:ZITEM_NAME_600101" type="custom" weapon="enchant_cold" res_sex="a"
+		res_level="15" slot="custom" bt_price="500" image_id="3" effect_level="2" delay="4000"
+		weight="3" limitspeed="90" desc="STR:ZITEM_DESC_600101" />
+	<ITEM id="600102" name="STR:ZITEM_NAME_600102" type="custom" weapon="enchant_cold" res_sex="a"
+		res_level="30" slot="custom" bt_price="500" image_id="3" effect_level="1" delay="5000"
+		weight="3" limitspeed="80" desc="STR:ZITEM_DESC_600102" />
+	<ITEM id="600103" name="STR:ZITEM_NAME_600103" type="custom" weapon="enchant_cold" res_sex="a"
+		res_level="25" slot="custom" bt_price="500" image_id="3" effect_level="3" delay="4000"
+		weight="3" limitspeed="85" desc="STR:ZITEM_DESC_600103" />
+	<ITEM id="600104" name="STR:ZITEM_NAME_600104" type="custom" weapon="enchant_cold" res_sex="a"
+		res_level="50" slot="custom" bt_price="500" image_id="3" effect_level="2" delay="7000"
+		weight="3" limitspeed="60" desc="STR:ZITEM_DESC_600104" />
+	<ITEM id="600105" name="STR:ZITEM_NAME_600105" type="custom" weapon="enchant_cold" res_sex="a"
+		res_level="55" slot="custom" bt_price="500" image_id="3" effect_level="3" delay="8000"
+		weight="3" limitspeed="50" desc="STR:ZITEM_DESC_600105" />
+	<ITEM id="600106" name="STR:ZITEM_NAME_600106" type="custom" weapon="enchant_cold" res_sex="a"
+		res_level="0" slot="custom" bt_price="500" image_id="3" effect_level="1" delay="4000"
+		weight="3" limitspeed="95" desc="STR:ZITEM_DESC_600106" />
+	<!-- LIGHTNING 속성 -->
+	<ITEM id="600201" name="STR:ZITEM_NAME_600201" type="custom" weapon="enchant_lightning"
+		res_sex="a" res_level="15" slot="custom" bt_price="500" image_id="3" effect_level="2"
+		weight="3" delay="1000" damage="5" desc="STR:ZITEM_DESC_600201" />
+	<ITEM id="600202" name="STR:ZITEM_NAME_600202" type="custom" weapon="enchant_lightning"
+		res_sex="a" res_level="25" slot="custom" bt_price="500" image_id="3" effect_level="1"
+		weight="3" delay="1000" damage="5" desc="STR:ZITEM_DESC_600202" />
+	<ITEM id="600203" name="STR:ZITEM_NAME_600203" type="custom" weapon="enchant_lightning"
+		res_sex="a" res_level="35" slot="custom" bt_price="500" image_id="3" effect_level="2"
+		weight="3" delay="2000" damage="5" desc="STR:ZITEM_DESC_600203" />
+	<ITEM id="600204" name="STR:ZITEM_NAME_600204" type="custom" weapon="enchant_lightning"
+		res_sex="a" res_level="45" slot="custom" bt_price="500" image_id="3" effect_level="2"
+		weight="3" delay="2000" damage="5" desc="STR:ZITEM_DESC_600204" />
+	<ITEM id="600205" name="STR:ZITEM_NAME_600205" type="custom" weapon="enchant_lightning"
+		res_sex="a" res_level="50" slot="custom" bt_price="500" image_id="3" effect_level="3"
+		delay="3000" weight="3" damage="5" desc="STR:ZITEM_DESC_600205" />
+	<!-- POISON 속성 -->
+	<ITEM id="600301" name="STR:ZITEM_NAME_600301" type="custom" weapon="enchant_poison" res_sex="a"
+		res_level="15" slot="custom" bt_price="500" image_id="3" effect_level="2" delay="3000"
+		weight="3" damage="1" desc="STR:ZITEM_DESC_600301" />
+	<ITEM id="600302" name="STR:ZITEM_NAME_600302" type="custom" weapon="enchant_poison" res_sex="a"
+		res_level="25" slot="custom" bt_price="500" image_id="3" effect_level="1" delay="4000"
+		weight="3" damage="2" desc="STR:ZITEM_DESC_600302" />
+	<ITEM id="600303" name="STR:ZITEM_NAME_600303" type="custom" weapon="enchant_poison" res_sex="a"
+		res_level="35" slot="custom" bt_price="500" image_id="3" effect_level="2" delay="5000"
+		weight="3" damage="3" desc="STR:ZITEM_DESC_600303" />
+	<ITEM id="600304" name="STR:ZITEM_NAME_600304" type="custom" weapon="enchant_poison" res_sex="a"
+		res_level="45" slot="custom" bt_price="500" image_id="3" effect_level="2" delay="6000"
+		weight="3" damage="4" desc="STR:ZITEM_DESC_600304" />
+	<ITEM id="600305" name="STR:ZITEM_NAME_600305" type="custom" weapon="enchant_poison" res_sex="a"
+		res_level="50" slot="custom" bt_price="500" image_id="3" effect_level="3" delay="7000"
+		weight="3" damage="5" desc="STR:ZITEM_DESC_600305" />
+
+	<!-- Premium Ticket -->
+	<ITEM id="700001" name="STR:ZITEM_NAME_700001" slot="none" type="ticket" ticket_type="admission" 
+		weapon="" res_sex="a" res_level="0" iscash="true" weight="0" desc="STR:ZITEM_DESC_700001" />
+</XML>
