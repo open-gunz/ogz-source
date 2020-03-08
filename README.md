@@ -20,6 +20,16 @@ Requisites:
 To build, run `build-win32.bat` in source folder. Wait until it says "Build succeeded" with possibly some warnings in yellow.
 Go to `\source\build\win32\bin\Release` to find final build files.
 
+### Optional: Removing warning MSB8051 during build process
+warning MSB8051: Support for targeting Windows XP is deprecated and will not be present
+in future releases of Visual Studio.
+
+to disable the warning open  
+`C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Platforms\Win32\PlatformToolsets\v141_xp\Toolset.targets`
+
+replace:  `<VCMessage Code="MSB8051" Type="Warning" Condition="'$(XPDeprecationWarning)' != 'false'" />`  
+with:     `<VCMessage Code="MSB8051" Type="Warning" Condition="'$(XPDeprecationWarning)' == 'false'" />`  
+
 ## Linux:
 Requisites:
 
