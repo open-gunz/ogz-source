@@ -70,7 +70,7 @@ You can also reach us on our discord via [this](https://discord.gg/CWjzsu5) link
 # Credits
 Crawly (https://github.com/Asunaya/RefinedGunz)
 
-SuhBruh (https://igunz.net)
+[SuhBruh](https://github.com/suhbruh) (SuhBruh) (https://igunz.net)
 
 [Michael Steshenko](https://github.com/Michael-Steshenko) (Oblivic) (http://igunz.net)
 
