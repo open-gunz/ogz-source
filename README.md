@@ -72,6 +72,6 @@ Crawly (https://github.com/Asunaya/RefinedGunz)
 
 SuhBruh (https://igunz.net)
 
-Oblivic (http://igunz.net)
+[Michael Steshenko](https://github.com/Michael-Steshenko) (Oblivic) (http://igunz.net)
 
 ThievingSix (http://igunz.net)
