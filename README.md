@@ -52,8 +52,8 @@ If you are using Windows Subsystem for Linux, and the source is somwhere in `/mn
 Requisites:
 
 * Download the server and client files.
-	- Client: https://github.com/open-gunz/client
-	- Server: https://github.com/open-gunz/server
+	- [Client download](https://github.com/open-gunz/client)
+	- [Server download](https://github.com/open-gunz/server)
 * Retrieve updated files from `\source\build\win32\bin\Release` and replace GunZ.exe, Launcher.exe, and MatchServer.exe in their respective client/server folders.
 * Change IP to `server2.igunz.net` (default for 127.0.0.1) in config file --> `C:\Users\[username]\Documents\International GunZ\config.xml`.
 * In the server folder, open `server.ini` file in notepad:
@@ -62,6 +62,10 @@ Requisites:
 * Run GunZ.exe from client folder (DO NOT USE launcher.exe as it will downgrade to what is placed on the website for patching).
 * You can also run GunZ.exe on Linux using Wine. Currently everything seems to work but text rendering is broken and text is unreadable.
 * Register a test account within the client and login.
+
+# Contact
+Feel free to post any issue in the issues section.  
+You can also reach us on our discord via [this](https://discord.gg/CWjzsu5) link.
 
 # Credits
 Crawly (https://github.com/Asunaya/RefinedGunz)
