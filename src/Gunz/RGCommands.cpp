@@ -124,8 +124,6 @@ static int ParseTexLevelArg(const StringView& String)
 	return NewTexLevel;
 }
 
-extern int g_currFPS;
-
 void LoadRGCommands(ZChatCmdManager& CmdManager)
 {
 	auto VisualFPSLimit = [](const char *line, int argc, char ** const argv) {

@@ -343,7 +343,6 @@ auto LogicalFPSLimiter = MakeFPSLimiter<&ZConfiguration::GetLogicalFPSLimit>(
 	return true;
 });
 
-
 RRESULT OnUpdate(void* pParam)
 {
 	auto prof = MBeginProfile("main::OnUpdate");

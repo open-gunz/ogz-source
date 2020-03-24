@@ -14,7 +14,6 @@
 #include "optional.h"
 #include <DxErr.h>
 
-
 inline bool DXErr(HRESULT hr, const char* CallingFunction, const char* DXFunction)
 {
 	if (SUCCEEDED(hr))
