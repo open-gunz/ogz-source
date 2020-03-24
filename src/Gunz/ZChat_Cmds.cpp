@@ -93,6 +93,9 @@ void ChatCmd_AdminHide(const char* line, const int argc, char **const argv);			/
 void ChatCmd_RequestJjang(const char* line, const int argc, char **const argv);
 void ChatCmd_RemoveJjang(const char* line, const int argc, char **const argv);
 
+// Player Announcement Commands
+void ChatCmd_FPS(const char* line, const int argc, char **const argv);					// Announce Current FPS
+
 ///////////////////////////////////////////////////////////////////////////////////////////////
 
 void _AddCmdFromXml(ZChatCmdManager* pCmdManager, ZCmdXmlParser* pParser, 
@@ -153,7 +156,10 @@ void ZChat::InitCmds()
 	_CC_ACX(CCMD_ID_SELECT_CHATROOM,	&ChatCmd_SelectChatRoom,	CCF_ALL, ARGVNoMin, 1,true);
 	_CC_ACX(CCMD_ID_INVITE_CHATROOM,	&ChatCmd_InviteChatRoom,	CCF_ALL, ARGVNoMin, 1,true);
 	_CC_ACX(CCMD_ID_VISIT_CHATROOM,		&ChatCmd_VisitChatRoom ,	CCF_ALL, ARGVNoMin, 1,true);
-	_CC_ACX(CCMD_ID_CHAT_CHATROOM,		&ChatCmd_ChatRoomChat  ,	CCF_ALL, ARGVNoMin, 1,false);
+	_CC_ACX(CCMD_ID_CHAT_CHATROOM,		&ChatCmd_ChatRoomChat  ,	CCF_ALL, ARGVNoMin, ARGVNoMax,false);
+
+	// Player Announce Commands
+	_CC_ACX(CCMD_ANNOUNCE_FPS,			&ChatCmd_FPS,				CCF_GAME, ARGVNoMin, 1, false);
 
 
 ////////////////////////////////////////////////////////////////////
@@ -1091,7 +1097,7 @@ void ChatCmd_RequestPlayerInfo(const char* line, const int argc, char **const ar
 
 void ChatCmd_AdminAnnounce(const char* line, const int argc, char **const argv)
 {
-	if (argc < 2) 
+	if (argc < 2)
 	{
 		OutputCmdWrongArgument(argv[0]);
 		return;
@@ -1100,6 +1106,16 @@ void ChatCmd_AdminAnnounce(const char* line, const int argc, char **const argv)
 	char szMsg[256];
 	strcpy_safe(szMsg, argv[1]);
 	ZPostAdminAnnounce(ZGetGameClient()->GetPlayerUID(), szMsg, ZAAT_CHAT);
+}
+
+void ChatCmd_FPS(const char* line, const int argc, char **const argv)
+{
+	// Truncate and round to nearest one hundredth place
+	std::string FPS(16, '\0');
+	auto format = std::snprintf(&FPS[0], FPS.size(), "%.2f", g_fFPS);
+	FPS.resize(format);
+	std::string FPSOut = "My FPS is " + FPS;
+	ZPostPeerChat(FPSOut.c_str());
 }
 
 void ChatCmd_AdminServerHalt(const char* line, const int argc, char **const argv)

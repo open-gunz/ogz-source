@@ -340,9 +340,9 @@ auto LogicalFPSLimiter = MakeFPSLimiter<&ZConfiguration::GetLogicalFPSLimit>(
 		MLog("Large sleep %d!\n", nSleep);
 	else
 		Sleep(nSleep);
-
 	return true;
 });
+
 
 RRESULT OnUpdate(void* pParam)
 {

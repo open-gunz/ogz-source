@@ -124,6 +124,8 @@ static int ParseTexLevelArg(const StringView& String)
 	return NewTexLevel;
 }
 
+extern int g_currFPS;
+
 void LoadRGCommands(ZChatCmdManager& CmdManager)
 {
 	auto VisualFPSLimit = [](const char *line, int argc, char ** const argv) {
@@ -305,7 +307,7 @@ void LoadRGCommands(ZChatCmdManager& CmdManager)
 
 	CmdManager.AddCommand(0, "hello", [](const char *line, int argc, char ** const argv) {
 		ZChatOutput("Hi! ^__^", ZChat::CMT_SYSTEM, ZChat::CL_CURRENT);
-	},
+		},
 		CCF_ALL, 0, 0, true, "/hello", "");
 
 	CmdManager.AddCommand(0, "clear", [](const char *line, int argc, char ** const argv) {

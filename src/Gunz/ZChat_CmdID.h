@@ -26,3 +26,6 @@
 #define CCMD_ID_INVITE_CHATROOM		24
 #define CCMD_ID_VISIT_CHATROOM		25
 #define CCMD_ID_CHAT_CHATROOM		26
+
+// Player Announce Commands
+#define CCMD_ANNOUNCE_FPS			50

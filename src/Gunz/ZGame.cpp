@@ -1430,8 +1430,11 @@ bool ZGame::OnCommand_Immediate(MCommand* pCommand)
 			pCommand->GetParameter(&nTeam, 0, MPT_INT);
 			pCommand->GetParameter(szMsg, 1, MPT_STR, sizeof(szMsg));
 
+			
+
 			MUID uid = pCommand->GetSenderUID();
 
+			mlog(szMsg);
 			OnPeerChat(uid, MMatchTeam(nTeam), szMsg);
 		}
 		break;
