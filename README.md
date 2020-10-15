@@ -72,6 +72,6 @@ You can also reach us on our discord via [this](https://discord.gg/CWjzsu5) link
 
 [SuhBruh](https://github.com/suhbruh) (https://igunz.net)
 
-[Michael Steshenko](https://github.com/Michael-Steshenko) (Oblivic) (http://igunz.net)
+[Michael Steshenko](https://github.com/Michael-Steshenko) (https://igunz.net)
 
-ThievingSix (http://igunz.net)
+ThievingSix (https://igunz.net)
