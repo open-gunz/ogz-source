@@ -34,7 +34,7 @@ With:     `<VCMessage Code="MSB8051" Type="Warning" Condition="'$(XPDeprecationW
 Requisites:
 
 * Install the following dependencies on Debian based distribution: 
-    - sudo apt install cmake build-essential ninja-build checkinstall zlib1g-dev   libsodium-dev   libssl-dev  libasio-dev libsqlite3-dev libcurl4-openssl-dev  libsystemd-dev
+    - ```sudo apt install cmake build-essential ninja-build checkinstall zlib1g-dev   libsodium-dev   libssl-dev  libasio-dev libsqlite3-dev libcurl4-openssl-dev  libsystemd-dev```
 
 To build, run `build-linux.sh` in source folder.
 
