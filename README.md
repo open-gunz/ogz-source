@@ -33,16 +33,8 @@ With:     `<VCMessage Code="MSB8051" Type="Warning" Condition="'$(XPDeprecationW
 ## Linux:
 Requisites:
 
-* Install the following packages: 
-    - sudo apt install cmake
-    - sudo apt install zlib1g-dev
-    - sudo apt install build-essential checkinstall zlib1g-dev -y
-    - sudo apt-get install -y libsodium-dev
-    - apt-get install libssl-dev
-    - sudo apt-get install libsqlite3-dev
-    - sudo apt-get install libasio-dev
-    - sudo apt-get install libcurl4-openssl-dev
-    - sudo apt-get install libsystemd-dev
+* Install the following dependencies on Debian based distribution: 
+    - sudo apt install cmake build-essential ninja-build checkinstall zlib1g-dev   libsodium-dev   libssl-dev  libasio-dev libsqlite3-dev libcurl4-openssl-dev  libsystemd-dev
 
 To build, run `build-linux.sh` in source folder.
 
