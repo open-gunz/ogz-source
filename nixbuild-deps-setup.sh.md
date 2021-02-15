@@ -1,6 +1,8 @@
 Setup microsoft vscode, powershell and others windows dependencies on your debian box/host.
+*This .sh/.md is not ready yet, I'm adding stuff when i have freetime*
+#MAKE SURE YOU DID READ THOSE LINKS --- 
 #https://docs.microsoft.com/en-us/dotnet/core/introduction#deployment-models 
-
+#https://docs.microsoft.com/en-us/dotnet/core/install/linux-scripted-manual#scripted-install 
 sudo apt install software-properties-common apt-transport-https curl
 # get the asc key
 curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
