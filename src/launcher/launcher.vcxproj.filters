@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\launcher\$(Configuration)\cotire\launcher_ORIGINAL_CXX_unity.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\unknown\source\repos\interlunar\source\src\CMakeFiles\1ac6adb915e78687bc834901b94f0d5a\launcher_ORIGINAL_CXX_unity.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{893E32C1-968A-3C61-BDF3-DCB5EA867E2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C0EF28A1-DDBC-3A41-B1B9-C3DED58692F5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

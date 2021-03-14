@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\AnimationStuff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\BasicInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\BasicInfoHistory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\HitRegistration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MAgentObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MBaseChannelRule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MBaseGameType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MBaseLocale.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MBaseQuest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MBaseStringResManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MChattingFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MCommandBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MCommandCommunicator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MCommandManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MCommandParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MCommandProfiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MCustomClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MLadderStatistics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MMatchGameType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MMatchItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MMatchNotify.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MMatchStageSetting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MMatchTransDataType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MMatchUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MMatchWorldItemDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MPacket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MPacketCrypter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MQuestDropTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MQuestFormula.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MQuestItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MQuestMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MQuestNPC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MSharedCommandTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MSurvivalMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MTCPSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MUID.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\MXmlParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\NetIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\Physics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\RealCPNet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Source\stuff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\AnimationStuff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\BasicInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\BasicInfoHistory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\HitRegistration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\IndexPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MAgentObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MBaseChannelRule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MBaseGameType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MBaseItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MBaseLocale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MBaseQuest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MBaseStringResManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MChattingFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MCommandBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MCommandCommunicator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MCommandManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MCommandParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MCommandProfiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MCommandRegistration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MCustomClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MErrorTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MGridMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MLadderGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MLadderStatistics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MMatchGameType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MMatchGlobal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MMatchItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MMatchMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MMatchNotify.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MMatchObjCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MMatchStageSetting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MMatchStringResManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MMatchTransDataType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MMatchUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MMatchWorldItemDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MObjectTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MPacket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MPacketCrypter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MPickInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MPreHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MQuestConst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MQuestDropTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MQuestFormula.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MQuestItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MQuestMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MQuestNPC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MSharedCommandTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MSkillDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MSkillTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MStringRes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MSurvivalMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MTCPSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MUID.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\MXmlParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\NetIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\Physics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\RGVersion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\RealCPNet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include\stuff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{338F6DEC-C651-36F5-B56C-6888F38DCAA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C0EF28A1-DDBC-3A41-B1B9-C3DED58692F5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

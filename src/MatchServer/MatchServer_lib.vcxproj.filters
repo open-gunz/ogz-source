@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\$(Configuration)\cotire\MatchServer_lib_ORIGINAL_CXX_unity.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\CPSSOLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\ChildFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\CommandLogView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\ConsoleBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\DBQuestCachingData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\GunGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\IDatabase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\LagCompensation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MAsyncDBJob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MAsyncDBJob_BringAccountItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MAsyncDBJob_CharFinalize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MAsyncDBJob_Event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MAsyncDBJob_FriendList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MAsyncDBJob_GetLoginInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MAsyncDBJob_InsertConnLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MAsyncDBJob_UpdateCharInfoData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MAsyncDBJob_WinTheClanGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MAsyncProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MBMatchServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MBMatchServerConfigReloader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MLadderMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MLadderPicker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMaster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchAdmin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchAgent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchAntiHack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchAuth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchChannel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchChannelRule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchChatRoom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchClan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchDBFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchEventFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchEventManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchFormula.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchFriendInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchLocale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchMission.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchNPCObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchObjectCacheBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchPremiumIPCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchQuest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchQuestGameLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchQuestMonsterGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchQuestRound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchRule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchRuleAssassinate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchRuleBaseQuest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchRuleBerserker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchRuleDeathMatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchRuleDuel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchRuleGladiator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchRuleGunGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchRuleQuest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchRuleSkillmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchRuleSurvival.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchRuleTraining.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchSchedule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchShop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchShutdown.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchStage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchStatus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchWorldItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MNJ_DBAgentClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MQuestLevel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MQuestLevelGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MQuestNPCSpawnTrigger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MQuestPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MQuestScenario.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MSacrificeQItemTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MSmartRefreshImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MTeamGameStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MVoteDiscussImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MVoteMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MatchServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MatchServerDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MatchServerView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MovingWeaponManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\OutputView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\SQLiteDatabase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\TrayIcon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\VersionNo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\unknown\source\repos\interlunar\source\src\CMakeFiles\296d95cb80a471572021f388b43eda24\MatchServer_lib_ORIGINAL_CXX_unity.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{893E32C1-968A-3C61-BDF3-DCB5EA867E2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{338F6DEC-C651-36F5-B56C-6888F38DCAA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C0EF28A1-DDBC-3A41-B1B9-C3DED58692F5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

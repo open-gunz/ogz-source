@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{352A1A4E-3A91-3394-B72E-5EE61CE5059C}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>launcher</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">launcher.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">launcher</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">launcher.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">launcher</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">launcher.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">launcher</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">launcher.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">launcher</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\launcher\src;C:\Users\unknown\source\repos\interlunar\source\src\launcher\..\cml\Include\*.h;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\imgui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;CURL_STATICLIB;SODIUM_STATIC;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;CURL_STATICLIB;SODIUM_STATIC;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\launcher\src;C:\Users\unknown\source\repos\interlunar\source\src\launcher\..\cml\Include\*.h;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\imgui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\launcher\src;C:\Users\unknown\source\repos\interlunar\source\src\launcher\..\cml\Include\*.h;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\imgui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib\Debug\launcher_lib.lib;..\lib\Debug\imgui.lib;msvcrt.lib;msvcmrt.lib;..\lib\Debug\cml.lib;rpcrt4.lib;..\sdk\curl\lib\static\libcurl.lib;..\lib\Debug\sodium.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 /ignore:4099 /ignore:4221</AdditionalOptions>
+      <EnableUAC>true</EnableUAC>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/unknown/source/repos/interlunar/source/src/lib/Debug/launcher.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/unknown/source/repos/interlunar/source/src/bin/Debug/launcher.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <UACUIAccess>false</UACUIAccess>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\launcher\src;C:\Users\unknown\source\repos\interlunar\source\src\launcher\..\cml\Include\*.h;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\imgui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;_PUBLISH;CURL_STATICLIB;SODIUM_STATIC;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;_PUBLISH;CURL_STATICLIB;SODIUM_STATIC;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\launcher\src;C:\Users\unknown\source\repos\interlunar\source\src\launcher\..\cml\Include\*.h;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\imgui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\launcher\src;C:\Users\unknown\source\repos\interlunar\source\src\launcher\..\cml\Include\*.h;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\imgui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib\Release\launcher_lib.lib;..\lib\Release\imgui.lib;msvcrt.lib;msvcmrt.lib;..\lib\Release\cml.lib;rpcrt4.lib;..\sdk\curl\lib\static\libcurl.lib;..\lib\Release\sodium.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 /ignore:4099 /ignore:4221</AdditionalOptions>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <EnableUAC>true</EnableUAC>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/unknown/source/repos/interlunar/source/src/lib/Release/launcher.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>C:/Users/unknown/source/repos/interlunar/source/src/bin/Release/launcher.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <UACUIAccess>false</UACUIAccess>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\launcher\src;C:\Users\unknown\source\repos\interlunar\source\src\launcher\..\cml\Include\*.h;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\imgui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;_PUBLISH;CURL_STATICLIB;SODIUM_STATIC;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;_PUBLISH;CURL_STATICLIB;SODIUM_STATIC;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\launcher\src;C:\Users\unknown\source\repos\interlunar\source\src\launcher\..\cml\Include\*.h;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\imgui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\launcher\src;C:\Users\unknown\source\repos\interlunar\source\src\launcher\..\cml\Include\*.h;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\imgui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib\MinSizeRel\launcher_lib.lib;..\lib\MinSizeRel\imgui.lib;msvcrt.lib;msvcmrt.lib;..\lib\MinSizeRel\cml.lib;rpcrt4.lib;..\sdk\curl\lib\static\libcurl.lib;..\lib\MinSizeRel\sodium.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 /ignore:4099 /ignore:4221</AdditionalOptions>
+      <EnableUAC>true</EnableUAC>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/unknown/source/repos/interlunar/source/src/lib/MinSizeRel/launcher.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/unknown/source/repos/interlunar/source/src/bin/MinSizeRel/launcher.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <UACUIAccess>false</UACUIAccess>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\launcher\src;C:\Users\unknown\source\repos\interlunar\source\src\launcher\..\cml\Include\*.h;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\imgui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;_PUBLISH;CURL_STATICLIB;SODIUM_STATIC;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;_PUBLISH;CURL_STATICLIB;SODIUM_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\launcher\src;C:\Users\unknown\source\repos\interlunar\source\src\launcher\..\cml\Include\*.h;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\imgui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\launcher\src;C:\Users\unknown\source\repos\interlunar\source\src\launcher\..\cml\Include\*.h;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\imgui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib\RelWithDebInfo\launcher_lib.lib;..\lib\RelWithDebInfo\imgui.lib;msvcrt.lib;msvcmrt.lib;..\lib\RelWithDebInfo\cml.lib;rpcrt4.lib;..\sdk\curl\lib\static\libcurl.lib;..\lib\RelWithDebInfo\sodium.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 /ignore:4099 /ignore:4221</AdditionalOptions>
+      <EnableUAC>true</EnableUAC>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/unknown/source/repos/interlunar/source/src/lib/RelWithDebInfo/launcher.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/unknown/source/repos/interlunar/source/src/bin/RelWithDebInfo/launcher.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <UACUIAccess>false</UACUIAccess>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\unknown\source\repos\interlunar\source\src\CMakeFiles\1ac6adb915e78687bc834901b94f0d5a\launcher_ORIGINAL_CXX_unity.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating CXX unity source C:\Users\unknown\source\repos\interlunar\source\src\launcher\$(Configuration)\cotire\launcher_ORIGINAL_CXX_unity.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd C:\Users\unknown\source\repos\interlunar\source\src\launcher
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCOTIRE_BUILD_TYPE:STRING=Debug -P C:/Users/unknown/source/repos/interlunar/source/src/cmake/cotire.cmake unity C:/Users/unknown/source/repos/interlunar/source/src/launcher/launcher_ORIGINAL_CXX_cotire.cmake C:/Users/unknown/source/repos/interlunar/source/src/launcher/$(Configuration)/cotire/launcher_ORIGINAL_CXX_unity.cxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/CMakeFiles/1ac6adb915e78687bc834901b94f0d5a/launcher_ORIGINAL_CXX_unity.cxx.rule;C:\Users\unknown\source\repos\interlunar\source\src\launcher\launcher_ORIGINAL_CXX_cotire.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\launcher\$(Configuration)\cotire\launcher_ORIGINAL_CXX_unity.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating CXX unity source C:\Users\unknown\source\repos\interlunar\source\src\launcher\$(Configuration)\cotire\launcher_ORIGINAL_CXX_unity.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd C:\Users\unknown\source\repos\interlunar\source\src\launcher
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCOTIRE_BUILD_TYPE:STRING=Release -P C:/Users/unknown/source/repos/interlunar/source/src/cmake/cotire.cmake unity C:/Users/unknown/source/repos/interlunar/source/src/launcher/launcher_ORIGINAL_CXX_cotire.cmake C:/Users/unknown/source/repos/interlunar/source/src/launcher/$(Configuration)/cotire/launcher_ORIGINAL_CXX_unity.cxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/CMakeFiles/1ac6adb915e78687bc834901b94f0d5a/launcher_ORIGINAL_CXX_unity.cxx.rule;C:\Users\unknown\source\repos\interlunar\source\src\launcher\launcher_ORIGINAL_CXX_cotire.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\launcher\$(Configuration)\cotire\launcher_ORIGINAL_CXX_unity.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating CXX unity source C:\Users\unknown\source\repos\interlunar\source\src\launcher\$(Configuration)\cotire\launcher_ORIGINAL_CXX_unity.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd C:\Users\unknown\source\repos\interlunar\source\src\launcher
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCOTIRE_BUILD_TYPE:STRING=MinSizeRel -P C:/Users/unknown/source/repos/interlunar/source/src/cmake/cotire.cmake unity C:/Users/unknown/source/repos/interlunar/source/src/launcher/launcher_ORIGINAL_CXX_cotire.cmake C:/Users/unknown/source/repos/interlunar/source/src/launcher/$(Configuration)/cotire/launcher_ORIGINAL_CXX_unity.cxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/CMakeFiles/1ac6adb915e78687bc834901b94f0d5a/launcher_ORIGINAL_CXX_unity.cxx.rule;C:\Users\unknown\source\repos\interlunar\source\src\launcher\launcher_ORIGINAL_CXX_cotire.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\launcher\$(Configuration)\cotire\launcher_ORIGINAL_CXX_unity.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating CXX unity source C:\Users\unknown\source\repos\interlunar\source\src\launcher\$(Configuration)\cotire\launcher_ORIGINAL_CXX_unity.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd C:\Users\unknown\source\repos\interlunar\source\src\launcher
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCOTIRE_BUILD_TYPE:STRING=RelWithDebInfo -P C:/Users/unknown/source/repos/interlunar/source/src/cmake/cotire.cmake unity C:/Users/unknown/source/repos/interlunar/source/src/launcher/launcher_ORIGINAL_CXX_cotire.cmake C:/Users/unknown/source/repos/interlunar/source/src/launcher/$(Configuration)/cotire/launcher_ORIGINAL_CXX_unity.cxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/CMakeFiles/1ac6adb915e78687bc834901b94f0d5a/launcher_ORIGINAL_CXX_unity.cxx.rule;C:\Users\unknown\source\repos\interlunar\source\src\launcher\launcher_ORIGINAL_CXX_cotire.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\launcher\$(Configuration)\cotire\launcher_ORIGINAL_CXX_unity.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\launcher\$(Configuration)\cotire\launcher_ORIGINAL_CXX_unity.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\unknown\source\repos\interlunar\source\src\ZERO_CHECK.vcxproj">
+      <Project>{DB7EA69A-0B20-370B-A1BB-8639D899E6A3}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\unknown\source\repos\interlunar\source\src\cml\cml.vcxproj">
+      <Project>{C53B0C69-CD91-316D-9242-6BE5061210C3}</Project>
+      <Name>cml</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\imgui\imgui.vcxproj">
+      <Project>{FF0035DC-5B54-31E4-BD61-5F7D313911F9}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\unknown\source\repos\interlunar\source\src\launcher\launcher_lib.vcxproj">
+      <Project>{71B9DB38-0CAB-3285-8882-7386384223BE}</Project>
+      <Name>launcher_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\sodium.vcxproj">
+      <Project>{01DBB137-5A7E-3217-9D36-B17D971AFB2D}</Project>
+      <Name>sodium</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSound\$(Configuration)\cotire\RealSound_ORIGINAL_CXX_unity.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSound\Include\MMTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSound\Include\RealSound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSound\Include\RealSoundBgm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSound\Include\RealSoundDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSound\Include\RealSoundEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSound\Include\RealSoundEffectPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSound\Include\RealSoundOgg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSound\Include\RealSoundWaveFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\unknown\source\repos\interlunar\source\src\CMakeFiles\52f493aed774b685a66acd3e9db7f073\RealSound_ORIGINAL_CXX_unity.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSound\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{893E32C1-968A-3C61-BDF3-DCB5EA867E2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{338F6DEC-C651-36F5-B56C-6888F38DCAA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C0EF28A1-DDBC-3A41-B1B9-C3DED58692F5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

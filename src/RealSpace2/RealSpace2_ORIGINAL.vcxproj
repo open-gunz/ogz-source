@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{96308DBE-55EE-322B-A425-E1E0CC83B5DC}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>RealSpace2_ORIGINAL</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">RealSpace2_ORIGINAL.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">RealSpace2_ORIGINAL</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">RealSpace2_ORIGINAL.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">RealSpace2_ORIGINAL</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">RealSpace2_ORIGINAL.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">RealSpace2_ORIGINAL</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">RealSpace2_ORIGINAL.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">RealSpace2_ORIGINAL</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_USE_GDIPLUS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_USE_GDIPLUS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 /ignore:4099 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_USE_GDIPLUS;NDEBUG;_PUBLISH;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_USE_GDIPLUS;NDEBUG;_PUBLISH;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 /ignore:4099 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_USE_GDIPLUS;NDEBUG;_PUBLISH;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_USE_GDIPLUS;NDEBUG;_PUBLISH;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 /ignore:4099 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_USE_GDIPLUS;NDEBUG;_PUBLISH;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_USE_GDIPLUS;NDEBUG;_PUBLISH;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 /ignore:4099 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/unknown/source/repos/interlunar/source/src/RealSpace2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -HC:/Users/unknown/source/repos/interlunar/source/src -BC:/Users/unknown/source/repos/interlunar/source/src --check-stamp-file C:/Users/unknown/source/repos/interlunar/source/src/RealSpace2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/RealSpace2/CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/unknown/source/repos/interlunar/source/src/RealSpace2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -HC:/Users/unknown/source/repos/interlunar/source/src -BC:/Users/unknown/source/repos/interlunar/source/src --check-stamp-file C:/Users/unknown/source/repos/interlunar/source/src/RealSpace2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/RealSpace2/CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/unknown/source/repos/interlunar/source/src/RealSpace2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -HC:/Users/unknown/source/repos/interlunar/source/src -BC:/Users/unknown/source/repos/interlunar/source/src --check-stamp-file C:/Users/unknown/source/repos/interlunar/source/src/RealSpace2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/RealSpace2/CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/unknown/source/repos/interlunar/source/src/RealSpace2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -HC:/Users/unknown/source/repos/interlunar/source/src -BC:/Users/unknown/source/repos/interlunar/source/src --check-stamp-file C:/Users/unknown/source/repos/interlunar/source/src/RealSpace2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/RealSpace2/CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\AlphaTestingFS.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\AmbientPS.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\AmbientVS.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\BasicRenderFS.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\BasicRenderVS.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\BulletCollision.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\BulletCollisionLibs.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\ColorInvert.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\ColorTypes.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\DeferredPS.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\DeferredVS.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\DepthCopyPS.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\DepthCopyVS.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\EluLoader.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\LightmapGenerator.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\LogMatrix.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\MergeShadowMapsPS.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\MergeShadowMapsVS.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\MeshManager.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\Monochrome.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\PointLightPS.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\PointLightVS.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\PostProcess.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RAStar.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RAniEventInfo.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RAnimation.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RAnimationDef.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RAnimationFile.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RAnimationMgr.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RAnimationNode.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RBaseTexture.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RBoundary.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RBspObject.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RBspObjectDraw.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RBspObjectDrawD3D9.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RBspObjectDrawVulkan.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RCharCloth.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RCloth.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RCollisionDetection.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RCylinder.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RDummyList.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RDynamicLight.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RError.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RFont.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RFrameWork.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RHalfEdgeMesh.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RLenzFlare.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RLightList.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RLine.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RMaterialList.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RMath.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RMesh.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RMeshMgr.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RMeshNode.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RMeshNodeData.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RMeshNodeStringTable.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RMeshUtil.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RMtrl.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RNameSpace.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RNavigationMesh.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RNavigationNode.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\ROcclusionList.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RParticleSystem.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RRoam.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RS2.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RS2D3D9.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RS2Vulkan.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RShaderMgr.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RSolidBsp.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RSphere.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RToken.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RTypes.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RUtil.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RVersions.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RVisualMesh.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RVisualMeshMgr.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RVisualMeshUtil.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\RealSpace2.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\Renderer.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\ShaderGlobals.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\ShaderUtil.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\ShadowPS.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\ShadowVS.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\SimpleMesh.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\Sphere.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\TextureLoader.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\VertexTypes.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\VisualizeLinearDepth.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\VulkanMaterial.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\VulkanTextureLoader.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\XMLFileStructs.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\XMLParser.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\rmatrix.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\rplane.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\rquaternion.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\rvector.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\skin.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\vulkan_function_list.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\vulkan_functions.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\vulkandebug.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\vulkandevice.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\vulkanswapchain.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include\vulkantools.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\BulletCollision.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\ColorTypes.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\EluLoader.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\LightmapGenerator.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\MeshManager.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\PostProcess.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RAStar.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RAniEventInfo.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RAnimation.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RAnimationFile.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RAnimationMgr.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RAnimationNode.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RBaseTexture.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RBoundary.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RBspObject.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RBspObjectDrawD3D9.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RBspObjectDrawVulkan.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RCamera.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RCharCloth.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RCloth.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RCollisionDetection.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RCylinder.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RDummyList.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RDynamicLight.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RError.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RFont.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RFrameWork.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RHalfEdgeMesh.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RLenzFlare.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RLightList.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RMaterialList.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RMath.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RMesh.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RMeshMgr.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RMeshNode.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RMeshNodeData.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RMeshNodeStringTable.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RMeshUtil.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RMesh_Frame.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RMesh_Load.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RMesh_Mtrl.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RMesh_Render.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RMtrl.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RNavigationMesh.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RNavigationNode.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\ROcclusionList.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RParticleSystem.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RRoam.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RS2Vulkan.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RShaderMgr.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RSolidBsp.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RSphere.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RToken.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RVisualMesh.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RVisualMeshMgr.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RVisualMeshUtil.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\RealSpace2.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\Renderer.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\ShaderUtil.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\TextureLoader.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\VulkanMaterial.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\XMLParser.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\rmatrix.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\rquaternion.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\rvector.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\stdafx.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\vulkan_functions.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\vulkandebug.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Source\vulkantools.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\unknown\source\repos\interlunar\source\src\ZERO_CHECK.vcxproj">
+      <Project>{DB7EA69A-0B20-370B-A1BB-8639D899E6A3}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\$(Configuration)\cotire\Mint2_ORIGINAL_CXX_unity.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MAniBmButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MBButtonLook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MBEditLook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MBFrameLook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MBGroupLook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MBLabelLook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MBListBoxLook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MBPopupMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MBScrollBarLook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MBSliderLook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MBTabCtrlLook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MBTextAreaLook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MBitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MBitmapDrawer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MBmButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MBmLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MButtonGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MColorTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MComboBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MConsoleFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MCursor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MDragObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MDrawContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MFileBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MFileDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MFont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MFrameDrawer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MHotKey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MHyperText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MIDLResource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MLayoutManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MListBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MLookNFeel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MMsgBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MPicture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MPopupMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MResource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MResourceManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MScalableLook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MScrollBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MSkin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MSlider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MStringTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MTabCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MTextArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MToolTip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\Mint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\unknown\source\repos\interlunar\source\src\CMakeFiles\e450460d921878cc451de48ebd6ec63a\Mint2_ORIGINAL_CXX_unity.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{893E32C1-968A-3C61-BDF3-DCB5EA867E2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{338F6DEC-C651-36F5-B56C-6888F38DCAA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C0EF28A1-DDBC-3A41-B1B9-C3DED58692F5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

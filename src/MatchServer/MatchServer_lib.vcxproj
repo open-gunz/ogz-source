@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{88FC049E-E17C-3B37-9D04-670E836C35E1}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>MatchServer_lib</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MatchServer_lib.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MatchServer_lib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MatchServer_lib.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MatchServer_lib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MatchServer_lib.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MatchServer_lib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">MatchServer_lib.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">MatchServer_lib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\.;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\rapidxml\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\Locator;C:\Users\unknown\source\repos\interlunar\source\src\sdk\sqlite\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\ini\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\.;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\.;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\..\cml\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;SODIUM_STATIC;CURL_STATICLIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;SODIUM_STATIC;CURL_STATICLIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\.;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\rapidxml\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\Locator;C:\Users\unknown\source\repos\interlunar\source\src\sdk\sqlite\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\ini\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\.;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\.;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\..\cml\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\.;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\rapidxml\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\Locator;C:\Users\unknown\source\repos\interlunar\source\src\sdk\sqlite\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\ini\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\.;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\.;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\..\cml\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 /ignore:4099 /ignore:4221</AdditionalOptions>
+      <SubSystem>Console</SubSystem>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\.;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\rapidxml\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\Locator;C:\Users\unknown\source\repos\interlunar\source\src\sdk\sqlite\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\ini\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\.;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\.;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\..\cml\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;_PUBLISH;SODIUM_STATIC;CURL_STATICLIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;_PUBLISH;SODIUM_STATIC;CURL_STATICLIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\.;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\rapidxml\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\Locator;C:\Users\unknown\source\repos\interlunar\source\src\sdk\sqlite\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\ini\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\.;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\.;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\..\cml\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\.;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\rapidxml\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\Locator;C:\Users\unknown\source\repos\interlunar\source\src\sdk\sqlite\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\ini\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\.;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\.;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\..\cml\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 /ignore:4099 /ignore:4221</AdditionalOptions>
+      <SubSystem>Console</SubSystem>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\.;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\rapidxml\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\Locator;C:\Users\unknown\source\repos\interlunar\source\src\sdk\sqlite\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\ini\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\.;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\.;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\..\cml\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;_PUBLISH;SODIUM_STATIC;CURL_STATICLIB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;_PUBLISH;SODIUM_STATIC;CURL_STATICLIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\.;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\rapidxml\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\Locator;C:\Users\unknown\source\repos\interlunar\source\src\sdk\sqlite\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\ini\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\.;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\.;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\..\cml\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\.;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\rapidxml\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\Locator;C:\Users\unknown\source\repos\interlunar\source\src\sdk\sqlite\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\ini\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\.;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\.;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\..\cml\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 /ignore:4099 /ignore:4221</AdditionalOptions>
+      <SubSystem>Console</SubSystem>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\.;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\rapidxml\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\Locator;C:\Users\unknown\source\repos\interlunar\source\src\sdk\sqlite\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\ini\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\.;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\.;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\..\cml\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;_PUBLISH;SODIUM_STATIC;CURL_STATICLIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;_PUBLISH;SODIUM_STATIC;CURL_STATICLIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\.;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\rapidxml\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\Locator;C:\Users\unknown\source\repos\interlunar\source\src\sdk\sqlite\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\ini\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\.;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\.;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\..\cml\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\.;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\rapidxml\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\..\Locator;C:\Users\unknown\source\repos\interlunar\source\src\sdk\sqlite\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\ini\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\.;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\.;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\..\cml\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 /ignore:4099 /ignore:4221</AdditionalOptions>
+      <SubSystem>Console</SubSystem>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\unknown\source\repos\interlunar\source\src\CMakeFiles\296d95cb80a471572021f388b43eda24\MatchServer_lib_ORIGINAL_CXX_unity.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating CXX unity source C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\$(Configuration)\cotire\MatchServer_lib_ORIGINAL_CXX_unity.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd C:\Users\unknown\source\repos\interlunar\source\src\MatchServer
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCOTIRE_BUILD_TYPE:STRING=Debug -P C:/Users/unknown/source/repos/interlunar/source/src/cmake/cotire.cmake unity C:/Users/unknown/source/repos/interlunar/source/src/MatchServer/MatchServer_lib_ORIGINAL_CXX_cotire.cmake C:/Users/unknown/source/repos/interlunar/source/src/MatchServer/$(Configuration)/cotire/MatchServer_lib_ORIGINAL_CXX_unity.cxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/CMakeFiles/296d95cb80a471572021f388b43eda24/MatchServer_lib_ORIGINAL_CXX_unity.cxx.rule;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MatchServer_lib_ORIGINAL_CXX_cotire.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\$(Configuration)\cotire\MatchServer_lib_ORIGINAL_CXX_unity.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating CXX unity source C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\$(Configuration)\cotire\MatchServer_lib_ORIGINAL_CXX_unity.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd C:\Users\unknown\source\repos\interlunar\source\src\MatchServer
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCOTIRE_BUILD_TYPE:STRING=Release -P C:/Users/unknown/source/repos/interlunar/source/src/cmake/cotire.cmake unity C:/Users/unknown/source/repos/interlunar/source/src/MatchServer/MatchServer_lib_ORIGINAL_CXX_cotire.cmake C:/Users/unknown/source/repos/interlunar/source/src/MatchServer/$(Configuration)/cotire/MatchServer_lib_ORIGINAL_CXX_unity.cxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/CMakeFiles/296d95cb80a471572021f388b43eda24/MatchServer_lib_ORIGINAL_CXX_unity.cxx.rule;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MatchServer_lib_ORIGINAL_CXX_cotire.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\$(Configuration)\cotire\MatchServer_lib_ORIGINAL_CXX_unity.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating CXX unity source C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\$(Configuration)\cotire\MatchServer_lib_ORIGINAL_CXX_unity.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd C:\Users\unknown\source\repos\interlunar\source\src\MatchServer
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCOTIRE_BUILD_TYPE:STRING=MinSizeRel -P C:/Users/unknown/source/repos/interlunar/source/src/cmake/cotire.cmake unity C:/Users/unknown/source/repos/interlunar/source/src/MatchServer/MatchServer_lib_ORIGINAL_CXX_cotire.cmake C:/Users/unknown/source/repos/interlunar/source/src/MatchServer/$(Configuration)/cotire/MatchServer_lib_ORIGINAL_CXX_unity.cxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/CMakeFiles/296d95cb80a471572021f388b43eda24/MatchServer_lib_ORIGINAL_CXX_unity.cxx.rule;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MatchServer_lib_ORIGINAL_CXX_cotire.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\$(Configuration)\cotire\MatchServer_lib_ORIGINAL_CXX_unity.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating CXX unity source C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\$(Configuration)\cotire\MatchServer_lib_ORIGINAL_CXX_unity.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd C:\Users\unknown\source\repos\interlunar\source\src\MatchServer
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCOTIRE_BUILD_TYPE:STRING=RelWithDebInfo -P C:/Users/unknown/source/repos/interlunar/source/src/cmake/cotire.cmake unity C:/Users/unknown/source/repos/interlunar/source/src/MatchServer/MatchServer_lib_ORIGINAL_CXX_cotire.cmake C:/Users/unknown/source/repos/interlunar/source/src/MatchServer/$(Configuration)/cotire/MatchServer_lib_ORIGINAL_CXX_unity.cxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/CMakeFiles/296d95cb80a471572021f388b43eda24/MatchServer_lib_ORIGINAL_CXX_unity.cxx.rule;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MatchServer_lib_ORIGINAL_CXX_cotire.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\$(Configuration)\cotire\MatchServer_lib_ORIGINAL_CXX_unity.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/unknown/source/repos/interlunar/source/src/MatchServer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -HC:/Users/unknown/source/repos/interlunar/source/src -BC:/Users/unknown/source/repos/interlunar/source/src --check-stamp-file C:/Users/unknown/source/repos/interlunar/source/src/MatchServer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/MatchServer/CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/unknown/source/repos/interlunar/source/src/MatchServer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -HC:/Users/unknown/source/repos/interlunar/source/src -BC:/Users/unknown/source/repos/interlunar/source/src --check-stamp-file C:/Users/unknown/source/repos/interlunar/source/src/MatchServer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/MatchServer/CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/unknown/source/repos/interlunar/source/src/MatchServer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -HC:/Users/unknown/source/repos/interlunar/source/src -BC:/Users/unknown/source/repos/interlunar/source/src --check-stamp-file C:/Users/unknown/source/repos/interlunar/source/src/MatchServer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/MatchServer/CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/unknown/source/repos/interlunar/source/src/MatchServer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -HC:/Users/unknown/source/repos/interlunar/source/src -BC:/Users/unknown/source/repos/interlunar/source/src --check-stamp-file C:/Users/unknown/source/repos/interlunar/source/src/MatchServer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/MatchServer/CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\CPSSOLib.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\ChildFrm.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\CommandLogView.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\ConsoleBar.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\DBQuestCachingData.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\GunGame.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\IDatabase.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\LagCompensation.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MAsyncDBJob.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MAsyncDBJob_BringAccountItem.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MAsyncDBJob_CharFinalize.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MAsyncDBJob_Event.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MAsyncDBJob_FriendList.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MAsyncDBJob_GetLoginInfo.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MAsyncDBJob_InsertConnLog.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MAsyncDBJob_UpdateCharInfoData.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MAsyncDBJob_WinTheClanGame.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MAsyncProxy.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MBMatchServer.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MBMatchServerConfigReloader.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MLadderMgr.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MLadderPicker.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMaster.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchAdmin.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchAgent.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchAntiHack.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchAuth.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchChannel.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchChannelRule.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchChatRoom.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchClan.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchConfig.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchDBFilter.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchEvent.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchEventFactory.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchEventManager.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchFormula.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchFriendInfo.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchLocale.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchMission.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchNPCObject.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchObject.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchObjectCacheBuilder.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchPremiumIPCache.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchQuest.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchQuestGameLog.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchQuestMonsterGroup.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchQuestRound.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchRule.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchRuleAssassinate.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchRuleBaseQuest.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchRuleBerserker.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchRuleDeathMatch.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchRuleDuel.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchRuleGladiator.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchRuleGunGame.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchRuleQuest.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchRuleSkillmap.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchRuleSurvival.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchRuleTraining.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchSchedule.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchServer.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchShop.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchShutdown.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchStage.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchStatus.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MMatchWorldItem.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MNJ_DBAgentClient.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MQuestLevel.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MQuestLevelGenerator.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MQuestNPCSpawnTrigger.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MQuestPlayer.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MQuestScenario.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MSacrificeQItemTable.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MSmartRefreshImpl.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MTeamGameStrategy.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MVoteDiscussImpl.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MVoteMgr.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MainFrm.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MatchServer.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MatchServerDoc.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MatchServerView.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\MovingWeaponManager.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\OutputView.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\SQLiteDatabase.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\TrayIcon.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\VersionNo.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\resource.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\stdafx.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\MatchServer\$(Configuration)\cotire\MatchServer_lib_ORIGINAL_CXX_unity.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\unknown\source\repos\interlunar\source\src\ZERO_CHECK.vcxproj">
+      <Project>{DB7EA69A-0B20-370B-A1BB-8639D899E6A3}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\CSCommon.vcxproj">
+      <Project>{FE24F566-C8AE-3815-B00C-E0B3C63128C6}</Project>
+      <Name>CSCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\unknown\source\repos\interlunar\source\src\Locator\Locator.vcxproj">
+      <Project>{13042F94-DC2E-3D5E-BCC6-279D7C1D41D6}</Project>
+      <Name>Locator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\RealSpace2.vcxproj">
+      <Project>{1F03ADBA-7F21-332B-A00C-DE9AF4AB89F1}</Project>
+      <Name>RealSpace2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\SafeUDP.vcxproj">
+      <Project>{676FB115-414F-3F2A-B682-8CF5C47D0777}</Project>
+      <Name>SafeUDP</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\unknown\source\repos\interlunar\source\src\cml\cml.vcxproj">
+      <Project>{C53B0C69-CD91-316D-9242-6BE5061210C3}</Project>
+      <Name>cml</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\ini\ini.vcxproj">
+      <Project>{C6AEB12A-52F4-317A-8AEA-2A75C4379A92}</Project>
+      <Name>ini</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\sodium.vcxproj">
+      <Project>{01DBB137-5A7E-3217-9D36-B17D971AFB2D}</Project>
+      <Name>sodium</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\sqlite\sqlite3.vcxproj">
+      <Project>{6D09A33F-8231-3132-BFB0-9E7432F296F8}</Project>
+      <Name>sqlite3</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

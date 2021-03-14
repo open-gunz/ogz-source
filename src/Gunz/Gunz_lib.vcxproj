@@ -1,0 +1,608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{171A2373-96E0-3E40-AC0B-74A083AE1EDA}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Gunz_lib</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Gunz_lib.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Gunz_lib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Gunz_lib.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Gunz_lib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Gunz_lib.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Gunz_lib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Gunz_lib.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Gunz_lib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\CML\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\MAI\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\Mint2\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSound\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\opus\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\portaudio\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\opus\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\portaudio\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\.;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\.;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\CML\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\libzip\lib;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\.;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\..\cml\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4305</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_LOCATOR;LIB_COMPILE;SODIUM_STATIC;CURL_STATICLIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_LOCATOR;LIB_COMPILE;SODIUM_STATIC;CURL_STATICLIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\CML\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\MAI\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\Mint2\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSound\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\opus\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\portaudio\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\opus\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\portaudio\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\.;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\.;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\CML\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\libzip\lib;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\.;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\..\cml\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\CML\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\MAI\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\Mint2\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSound\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\opus\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\portaudio\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\opus\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\portaudio\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\.;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\.;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\CML\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\libzip\lib;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\.;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\..\cml\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 /ignore:4099 /ignore:4221</AdditionalOptions>
+      <SubSystem>Windows</SubSystem>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\CML\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\MAI\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\Mint2\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSound\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\opus\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\portaudio\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\opus\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\portaudio\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\.;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\.;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\CML\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\libzip\lib;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\.;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\..\cml\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4305</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;_PUBLISH;_LOCATOR;LIB_COMPILE;SODIUM_STATIC;CURL_STATICLIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;_PUBLISH;_LOCATOR;LIB_COMPILE;SODIUM_STATIC;CURL_STATICLIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\CML\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\MAI\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\Mint2\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSound\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\opus\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\portaudio\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\opus\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\portaudio\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\.;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\.;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\CML\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\libzip\lib;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\.;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\..\cml\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\CML\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\MAI\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\Mint2\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSound\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\opus\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\portaudio\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\opus\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\portaudio\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\.;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\.;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\CML\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\libzip\lib;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\.;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\..\cml\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 /ignore:4099 /ignore:4221</AdditionalOptions>
+      <SubSystem>Windows</SubSystem>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\CML\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\MAI\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\Mint2\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSound\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\opus\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\portaudio\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\opus\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\portaudio\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\.;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\.;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\CML\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\libzip\lib;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\.;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\..\cml\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4305</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;_PUBLISH;_LOCATOR;LIB_COMPILE;SODIUM_STATIC;CURL_STATICLIB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;_PUBLISH;_LOCATOR;LIB_COMPILE;SODIUM_STATIC;CURL_STATICLIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\CML\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\MAI\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\Mint2\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSound\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\opus\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\portaudio\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\opus\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\portaudio\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\.;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\.;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\CML\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\libzip\lib;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\.;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\..\cml\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\CML\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\MAI\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\Mint2\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSound\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\opus\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\portaudio\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\opus\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\portaudio\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\.;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\.;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\CML\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\libzip\lib;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\.;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\..\cml\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 /ignore:4099 /ignore:4221</AdditionalOptions>
+      <SubSystem>Windows</SubSystem>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\CML\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\MAI\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\Mint2\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSound\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\opus\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\portaudio\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\opus\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\portaudio\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\.;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\.;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\CML\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\libzip\lib;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\.;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\..\cml\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4305</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;_PUBLISH;_LOCATOR;LIB_COMPILE;SODIUM_STATIC;CURL_STATICLIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;_PUBLISH;_LOCATOR;LIB_COMPILE;SODIUM_STATIC;CURL_STATICLIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\CML\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\MAI\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\Mint2\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSound\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\opus\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\portaudio\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\opus\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\portaudio\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\.;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\.;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\CML\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\libzip\lib;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\.;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\..\cml\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\CML\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\MAI\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\Mint2\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\RealSound\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\opus\include;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\..\sdk\portaudio\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\opus\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\portaudio\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\.;C:\Users\unknown\source\repos\interlunar\source\src\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\cml\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\RealSpace\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\.;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\dx9\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\MCountryFilter\Include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\..\cml\Include;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\.;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\.;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\CML\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\RealSpace2\Include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\dx9\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\rapidxml\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\rapidjson\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\curl\include;C:\Users\unknown\source\repos\interlunar\source\src\RealSound\..\sdk\libzip\lib;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\.;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\Include;C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\..\cml\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 /ignore:4099 /ignore:4221</AdditionalOptions>
+      <SubSystem>Windows</SubSystem>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\unknown\source\repos\interlunar\source\src\CMakeFiles\e4aaa792d184dd90651d234a96ac5179\Gunz_lib_ORIGINAL_CXX_unity.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating CXX unity source C:\Users\unknown\source\repos\interlunar\source\src\Gunz\$(Configuration)\cotire\Gunz_lib_ORIGINAL_CXX_unity.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd C:\Users\unknown\source\repos\interlunar\source\src\Gunz
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCOTIRE_BUILD_TYPE:STRING=Debug -P C:/Users/unknown/source/repos/interlunar/source/src/cmake/cotire.cmake unity C:/Users/unknown/source/repos/interlunar/source/src/Gunz/Gunz_lib_ORIGINAL_CXX_cotire.cmake C:/Users/unknown/source/repos/interlunar/source/src/Gunz/$(Configuration)/cotire/Gunz_lib_ORIGINAL_CXX_unity.cxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/CMakeFiles/e4aaa792d184dd90651d234a96ac5179/Gunz_lib_ORIGINAL_CXX_unity.cxx.rule;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\Gunz_lib_ORIGINAL_CXX_cotire.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\Gunz\$(Configuration)\cotire\Gunz_lib_ORIGINAL_CXX_unity.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating CXX unity source C:\Users\unknown\source\repos\interlunar\source\src\Gunz\$(Configuration)\cotire\Gunz_lib_ORIGINAL_CXX_unity.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd C:\Users\unknown\source\repos\interlunar\source\src\Gunz
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCOTIRE_BUILD_TYPE:STRING=Release -P C:/Users/unknown/source/repos/interlunar/source/src/cmake/cotire.cmake unity C:/Users/unknown/source/repos/interlunar/source/src/Gunz/Gunz_lib_ORIGINAL_CXX_cotire.cmake C:/Users/unknown/source/repos/interlunar/source/src/Gunz/$(Configuration)/cotire/Gunz_lib_ORIGINAL_CXX_unity.cxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/CMakeFiles/e4aaa792d184dd90651d234a96ac5179/Gunz_lib_ORIGINAL_CXX_unity.cxx.rule;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\Gunz_lib_ORIGINAL_CXX_cotire.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\Gunz\$(Configuration)\cotire\Gunz_lib_ORIGINAL_CXX_unity.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating CXX unity source C:\Users\unknown\source\repos\interlunar\source\src\Gunz\$(Configuration)\cotire\Gunz_lib_ORIGINAL_CXX_unity.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd C:\Users\unknown\source\repos\interlunar\source\src\Gunz
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCOTIRE_BUILD_TYPE:STRING=MinSizeRel -P C:/Users/unknown/source/repos/interlunar/source/src/cmake/cotire.cmake unity C:/Users/unknown/source/repos/interlunar/source/src/Gunz/Gunz_lib_ORIGINAL_CXX_cotire.cmake C:/Users/unknown/source/repos/interlunar/source/src/Gunz/$(Configuration)/cotire/Gunz_lib_ORIGINAL_CXX_unity.cxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/CMakeFiles/e4aaa792d184dd90651d234a96ac5179/Gunz_lib_ORIGINAL_CXX_unity.cxx.rule;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\Gunz_lib_ORIGINAL_CXX_cotire.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\Gunz\$(Configuration)\cotire\Gunz_lib_ORIGINAL_CXX_unity.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating CXX unity source C:\Users\unknown\source\repos\interlunar\source\src\Gunz\$(Configuration)\cotire\Gunz_lib_ORIGINAL_CXX_unity.cxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd C:\Users\unknown\source\repos\interlunar\source\src\Gunz
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCOTIRE_BUILD_TYPE:STRING=RelWithDebInfo -P C:/Users/unknown/source/repos/interlunar/source/src/cmake/cotire.cmake unity C:/Users/unknown/source/repos/interlunar/source/src/Gunz/Gunz_lib_ORIGINAL_CXX_cotire.cmake C:/Users/unknown/source/repos/interlunar/source/src/Gunz/$(Configuration)/cotire/Gunz_lib_ORIGINAL_CXX_unity.cxx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/CMakeFiles/e4aaa792d184dd90651d234a96ac5179/Gunz_lib_ORIGINAL_CXX_unity.cxx.rule;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\Gunz_lib_ORIGINAL_CXX_cotire.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\Gunz\$(Configuration)\cotire\Gunz_lib_ORIGINAL_CXX_unity.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/unknown/source/repos/interlunar/source/src/Gunz/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -HC:/Users/unknown/source/repos/interlunar/source/src -BC:/Users/unknown/source/repos/interlunar/source/src --check-stamp-file C:/Users/unknown/source/repos/interlunar/source/src/Gunz/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/Gunz/CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\Gunz\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/unknown/source/repos/interlunar/source/src/Gunz/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -HC:/Users/unknown/source/repos/interlunar/source/src -BC:/Users/unknown/source/repos/interlunar/source/src --check-stamp-file C:/Users/unknown/source/repos/interlunar/source/src/Gunz/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/Gunz/CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\Gunz\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/unknown/source/repos/interlunar/source/src/Gunz/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -HC:/Users/unknown/source/repos/interlunar/source/src -BC:/Users/unknown/source/repos/interlunar/source/src --check-stamp-file C:/Users/unknown/source/repos/interlunar/source/src/Gunz/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/Gunz/CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\Gunz\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/unknown/source/repos/interlunar/source/src/Gunz/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -HC:/Users/unknown/source/repos/interlunar/source/src -BC:/Users/unknown/source/repos/interlunar/source/src --check-stamp-file C:/Users/unknown/source/repos/interlunar/source/src/Gunz/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/Gunz/CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\Gunz\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\Gunz\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\FunctionalListener.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\Hitboxes.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\MClient.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\MCommandLogFrame.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\MEmblemMgr.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\MMatchClient.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\MPartialBitmap.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\MSysInfo.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\Mint4Gunz.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\Mint4R2.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\NATUPnP.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\NMCrypt.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\NewChat.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\Portal.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\RGGlobal.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\RGMain.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ReplayControl.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\Tasks.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\VersionNo.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\VoiceChat.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZAI_Base.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZActionDef.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZActionKey.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZActor.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZActorAnimation.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZActorController.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZActorSound.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZApplication.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZBehavior.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZBehavior_Attack.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZBehavior_Idle.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZBehavior_Patrol.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZBehavior_Script.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZBirdDummyAI.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZBirdDummyClient.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZBmNumLabel.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZBrain.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZButton.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZCamera.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZCanvas.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZChannelListItem.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZChannelRule.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZCharacter.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZCharacterItem.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZCharacterManager.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZCharacterObject.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZCharacterSelectView.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZCharacterStructs.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZCharacterView.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZCharacterViewList.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZChat.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZChatCmd.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZChat_CmdID.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZClan.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZClanListBox.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZClothEmblem.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZColorTable.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZCombatChat.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZCombatInterface.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZCombatMenu.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZCombatQuestScreen.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZCommandTable.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZConfiguration.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZConsole.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZCountDown.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZCrossHair.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZDirectInput.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZEffectAniMesh.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZEffectBase.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZEffectBillboard.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZEffectBillboardList.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZEffectBulletMark.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZEffectBulletMarkList.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZEffectFlashBang.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZEffectLightFragment.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZEffectLightFragmentList.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZEffectLightTracer.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZEffectManager.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZEffectSmoke.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZEffectStaticMesh.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZEmblemInterface.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZEnemy.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZEnvObject.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZEquipmentListBox.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZFile.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZFilePath.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZFrame.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZGame.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZGameAction.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZGameClient.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZGameConst.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZGameDraw.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZGameDrawD3D9.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZGameDrawVulkan.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZGameInput.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZGameInterface.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZGameTimer.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZGameType.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZGameTypeList.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZGlobal.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZHelpScreen.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZIDLResource.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZInitialLoading.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZInput.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZInterface.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZInterfaceBackground.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZInterfaceItem.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZInterfaceListener.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZItem.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZItemDesc.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZItemMenu.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZItemSlotView.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZLoading.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZLocatorList.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZMap.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZMapDesc.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZMapListBox.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZMatch.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZMeshView.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZMeshViewList.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZMessageManager.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZMessages.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZMiniMap.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZModule.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZModuleID.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZModule_ElementalDamage.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZModule_HPAP.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZModule_Movable.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZModule_QuestStatus.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZModule_Resistance.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZModule_Skills.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZMonsterBookInterface.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZMsgBox.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZMyBotCharacter.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZMyCharacter.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZMyInfo.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZMyItemList.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZNetAgreementBuilder.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZNetCharacter.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZNetRepository.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZObject.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZObjectManager.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZObserver.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZOptionInterface.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZPickInfo.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZPlayerList.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZPlayerListBox.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZPlayerMenu.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZPlayerSelectListBox.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZPost.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZPostLocal.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZPrerequisites.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZProfiler.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZQuest.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZQuestGameInfo.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZQuestMap.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZRadar.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZRangeWeaponHitDice.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZReplay.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZReplayStructs.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZReplayWrite.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZReportAbuse.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZRoomListBox.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZRule.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZRuleAssassinate.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZRuleBaseQuest.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZRuleBerserker.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZRuleDeathMatch.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZRuleDuel.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZRuleGladiator.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZRuleGunGame.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZRuleQuest.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZRuleSkillmap.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZRuleSurvival.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZRuleTraining.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZScoreListBox.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZScreenDebugger.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZScreenEffectManager.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZSecurity.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZServerView.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZShadow.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZShop.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZSkill.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZSkyBox.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZSoundEngine.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZSoundFMod.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZStageInfoBox.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZStageInterface.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZStageSetting.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZStateMachine.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZStencilLight.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZStringResManager.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZTask.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZTaskBase_Attack.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZTaskID.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZTaskManager.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZTask_AttackMelee.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZTask_AttackRange.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZTask_Delay.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZTask_MoveToPos.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZTask_RotateToDir.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZTask_Skill.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZTestGame.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZTimer.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZTips.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZToolTip.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZUtil.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZVoteInterface.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZWater.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZWeapon.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZWeaponMgr.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZWeaponScreenEffect.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZWorld.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZWorldItem.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\ZWorldManager.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\fmod.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\fmod_errors.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\resource.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\resource1.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\resource2.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\stdafx.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\upnp.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Gunz\$(Configuration)\cotire\Gunz_lib_ORIGINAL_CXX_unity.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalOptions) /bigobj</AdditionalOptions>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\unknown\source\repos\interlunar\source\src\ZERO_CHECK.vcxproj">
+      <Project>{DB7EA69A-0B20-370B-A1BB-8639D899E6A3}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\unknown\source\repos\interlunar\source\src\CSCommon\CSCommon.vcxproj">
+      <Project>{FE24F566-C8AE-3815-B00C-E0B3C63128C6}</Project>
+      <Name>CSCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Mint2.vcxproj">
+      <Project>{0DD1B2AE-C50B-390E-929E-DD63A7FDE382}</Project>
+      <Name>Mint2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSound\RealSound.vcxproj">
+      <Project>{809EC23C-E0EE-30B8-AFF0-08BC864F053B}</Project>
+      <Name>RealSound</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\unknown\source\repos\interlunar\source\src\RealSpace2\RealSpace2.vcxproj">
+      <Project>{1F03ADBA-7F21-332B-A00C-DE9AF4AB89F1}</Project>
+      <Name>RealSpace2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\unknown\source\repos\interlunar\source\src\SafeUDP\SafeUDP.vcxproj">
+      <Project>{676FB115-414F-3F2A-B682-8CF5C47D0777}</Project>
+      <Name>SafeUDP</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\unknown\source\repos\interlunar\source\src\cml\cml.vcxproj">
+      <Project>{C53B0C69-CD91-316D-9242-6BE5061210C3}</Project>
+      <Name>cml</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\sodium.vcxproj">
+      <Project>{01DBB137-5A7E-3217-9D36-B17D971AFB2D}</Project>
+      <Name>sodium</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

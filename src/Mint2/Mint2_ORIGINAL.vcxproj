@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{94B38F3F-B8ED-32EF-B5BD-3808D3FE588E}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Mint2_ORIGINAL</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Mint2_ORIGINAL.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Mint2_ORIGINAL</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Mint2_ORIGINAL.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Mint2_ORIGINAL</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Mint2_ORIGINAL.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Mint2_ORIGINAL</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Mint2_ORIGINAL.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Mint2_ORIGINAL</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\Mint2\.;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\Mint2\.;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\Mint2\.;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 /ignore:4099 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\Mint2\.;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;_PUBLISH;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;_PUBLISH;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\Mint2\.;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\Mint2\.;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 /ignore:4099 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\Mint2\.;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;_PUBLISH;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;_PUBLISH;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\Mint2\.;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\Mint2\.;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 /ignore:4099 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\Mint2\.;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;_PUBLISH;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;_PUBLISH;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\Mint2\.;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\Mint2\.;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 /ignore:4099 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/unknown/source/repos/interlunar/source/src/Mint2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -HC:/Users/unknown/source/repos/interlunar/source/src -BC:/Users/unknown/source/repos/interlunar/source/src --check-stamp-file C:/Users/unknown/source/repos/interlunar/source/src/Mint2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/Mint2/CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\Mint2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/unknown/source/repos/interlunar/source/src/Mint2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -HC:/Users/unknown/source/repos/interlunar/source/src -BC:/Users/unknown/source/repos/interlunar/source/src --check-stamp-file C:/Users/unknown/source/repos/interlunar/source/src/Mint2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/Mint2/CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\Mint2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/unknown/source/repos/interlunar/source/src/Mint2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -HC:/Users/unknown/source/repos/interlunar/source/src -BC:/Users/unknown/source/repos/interlunar/source/src --check-stamp-file C:/Users/unknown/source/repos/interlunar/source/src/Mint2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/Mint2/CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\Mint2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/unknown/source/repos/interlunar/source/src/Mint2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -HC:/Users/unknown/source/repos/interlunar/source/src -BC:/Users/unknown/source/repos/interlunar/source/src --check-stamp-file C:/Users/unknown/source/repos/interlunar/source/src/Mint2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/Mint2/CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\Mint2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\Mint2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MAniBmButton.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MAnimation.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MBButtonLook.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MBEditLook.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MBFrameLook.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MBGroupLook.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MBLabelLook.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MBListBoxLook.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MBPopupMenu.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MBScrollBarLook.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MBSliderLook.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MBTabCtrlLook.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MBTextAreaLook.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MBitmap.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MBitmapDrawer.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MBmButton.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MBmLabel.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MButton.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MButtonGroup.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MColorTable.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MComboBox.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MConsoleFrame.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MCursor.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MDragObject.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MDrawContext.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MEdit.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MEvent.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MFileBox.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MFileDialog.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MFont.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MFrame.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MFrameDrawer.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MGroup.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MHotKey.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MHyperText.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MIDLResource.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MLabel.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MLayoutManager.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MListBox.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MLookNFeel.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MMsgBox.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MPanel.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MPicture.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MPopupMenu.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MResource.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MResourceManager.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MScalableLook.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MScrollBar.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MSkin.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MSlider.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MStringTable.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MTabCtrl.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MTextArea.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MToolTip.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MTypes.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\MWidget.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Include\Mint.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MAniBmButton.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MAnimation.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MBButtonLook.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MBEditLook.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MBFrameLook.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MBGroupLook.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MBLabelLook.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MBListBoxLook.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MBPopupMenu.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MBScrollBarLook.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MBSliderLook.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MBTabCtrlLook.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MBTextAreaLook.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MBitmap.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MBitmapDrawer.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MBmButton.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MBmLabel.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MButton.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MButtonGroup.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MComboBox.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MConsoleFrame.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MCursor.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MDragObject.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MDrawContext.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MEdit.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MEvent.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MFileBox.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MFileDialog.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MFont.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MFrame.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MFrameDrawer.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MGroup.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MHotKey.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MHyperText.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MIDLResource.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MLabel.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MListBox.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MMsgBox.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MPanel.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MPicture.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MPopupMenu.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MResourceManager.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MScrollBar.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MSkin.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MSlider.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MStringTable.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MTabCtrl.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MTextArea.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MToolTip.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MTypes.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\MWidget.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\Mint.cpp" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\Mint2\Source\stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\unknown\source\repos\interlunar\source\src\ZERO_CHECK.vcxproj">
+      <Project>{DB7EA69A-0B20-370B-A1BB-8639D899E6A3}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

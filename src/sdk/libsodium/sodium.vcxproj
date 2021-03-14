@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{01DBB137-5A7E-3217-9D36-B17D971AFB2D}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>sodium</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">sodium.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">sodium</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">sodium.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">sodium</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">sodium.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">sodium</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">sodium.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">sodium</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include\sodium;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4146;4197;4244;4715</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;SODIUM_STATIC;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;SODIUM_STATIC;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include\sodium;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include\sodium;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 /ignore:4099 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include\sodium;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4146;4197;4244;4715</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;SODIUM_STATIC;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;SODIUM_STATIC;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include\sodium;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include\sodium;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 /ignore:4099 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include\sodium;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4146;4197;4244;4715</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;SODIUM_STATIC;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;SODIUM_STATIC;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include\sodium;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include\sodium;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 /ignore:4099 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include\sodium;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4146;4197;4244;4715</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;SODIUM_STATIC;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;SODIUM_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include\sodium;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\include\sodium;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 /ignore:4099 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/unknown/source/repos/interlunar/source/src/sdk/libsodium/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -HC:/Users/unknown/source/repos/interlunar/source/src -BC:/Users/unknown/source/repos/interlunar/source/src --check-stamp-file C:/Users/unknown/source/repos/interlunar/source/src/sdk/libsodium/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/sdk/libsodium/CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/unknown/source/repos/interlunar/source/src/sdk/libsodium/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -HC:/Users/unknown/source/repos/interlunar/source/src -BC:/Users/unknown/source/repos/interlunar/source/src --check-stamp-file C:/Users/unknown/source/repos/interlunar/source/src/sdk/libsodium/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/sdk/libsodium/CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/unknown/source/repos/interlunar/source/src/sdk/libsodium/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -HC:/Users/unknown/source/repos/interlunar/source/src -BC:/Users/unknown/source/repos/interlunar/source/src --check-stamp-file C:/Users/unknown/source/repos/interlunar/source/src/sdk/libsodium/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/sdk/libsodium/CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/unknown/source/repos/interlunar/source/src/sdk/libsodium/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -HC:/Users/unknown/source/repos/interlunar/source/src -BC:/Users/unknown/source/repos/interlunar/source/src --check-stamp-file C:/Users/unknown/source/repos/interlunar/source/src/sdk/libsodium/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/unknown/source/repos/interlunar/source/src/sdk/libsodium/CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\CMakeLists.txt;C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_aead\aes256gcm\aesni\aead_aes256gcm_aesni.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_aead\chacha20poly1305\sodium\aead_chacha20poly1305.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_aead\xchacha20poly1305\sodium\aead_xchacha20poly1305.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_auth\crypto_auth.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_auth\hmacsha256\auth_hmacsha256.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_auth\hmacsha512\auth_hmacsha512.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_auth\hmacsha512256\auth_hmacsha512256.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_box\crypto_box.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_box\crypto_box_easy.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_box\crypto_box_seal.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_box\curve25519xchacha20poly1305\box_curve25519xchacha20poly1305.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_box\curve25519xchacha20poly1305\box_seal_curve25519xchacha20poly1305.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_box\curve25519xsalsa20poly1305\box_curve25519xsalsa20poly1305.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_core\curve25519\ref10\base.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_core\curve25519\ref10\base2.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_core\curve25519\ref10\curve25519_ref10.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_core\hchacha20\core_hchacha20.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_core\hsalsa20\core_hsalsa20.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_core\hsalsa20\ref2\core_hsalsa20_ref2.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_core\salsa\ref\core_salsa_ref.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_generichash\blake2b\generichash_blake2.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_generichash\blake2b\ref\blake2.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_generichash\blake2b\ref\blake2b-compress-avx2.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_generichash\blake2b\ref\blake2b-compress-avx2.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_generichash\blake2b\ref\blake2b-compress-ref.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_generichash\blake2b\ref\blake2b-compress-sse41.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_generichash\blake2b\ref\blake2b-compress-sse41.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_generichash\blake2b\ref\blake2b-compress-ssse3.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_generichash\blake2b\ref\blake2b-compress-ssse3.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_generichash\blake2b\ref\blake2b-load-avx2.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_generichash\blake2b\ref\blake2b-load-sse2.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_generichash\blake2b\ref\blake2b-load-sse41.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_generichash\blake2b\ref\blake2b-ref.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_generichash\blake2b\ref\generichash_blake2b.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_generichash\crypto_generichash.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_hash\crypto_hash.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_hash\sha256\cp\hash_sha256_cp.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_hash\sha256\hash_sha256.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_hash\sha512\cp\hash_sha512_cp.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_hash\sha512\hash_sha512.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_kdf\blake2b\kdf_blake2b.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_kdf\crypto_kdf.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_kx\crypto_kx.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_onetimeauth\crypto_onetimeauth.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_onetimeauth\poly1305\donna\poly1305_donna.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_onetimeauth\poly1305\donna\poly1305_donna.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_onetimeauth\poly1305\donna\poly1305_donna32.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_onetimeauth\poly1305\donna\poly1305_donna64.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_onetimeauth\poly1305\onetimeauth_poly1305.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_onetimeauth\poly1305\onetimeauth_poly1305.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_onetimeauth\poly1305\sse2\poly1305_sse2.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_onetimeauth\poly1305\sse2\poly1305_sse2.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_pwhash\argon2\argon2-core.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_pwhash\argon2\argon2-core.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_pwhash\argon2\argon2-encoding.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_pwhash\argon2\argon2-encoding.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_pwhash\argon2\argon2-fill-block-avx2.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_pwhash\argon2\argon2-fill-block-avx512f.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_pwhash\argon2\argon2-fill-block-ref.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_pwhash\argon2\argon2-fill-block-ssse3.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_pwhash\argon2\argon2.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_pwhash\argon2\argon2.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_pwhash\argon2\blake2b-long.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_pwhash\argon2\blake2b-long.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_pwhash\argon2\blamka-round-avx2.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_pwhash\argon2\blamka-round-avx512f.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_pwhash\argon2\blamka-round-ref.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_pwhash\argon2\blamka-round-ssse3.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_pwhash\argon2\pwhash_argon2i.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_pwhash\argon2\pwhash_argon2id.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_pwhash\crypto_pwhash.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_pwhash\scryptsalsa208sha256\crypto_scrypt-common.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_pwhash\scryptsalsa208sha256\crypto_scrypt.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_pwhash\scryptsalsa208sha256\nosse\pwhash_scryptsalsa208sha256_nosse.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_pwhash\scryptsalsa208sha256\pbkdf2-sha256.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_pwhash\scryptsalsa208sha256\pbkdf2-sha256.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_pwhash\scryptsalsa208sha256\pwhash_scryptsalsa208sha256.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_pwhash\scryptsalsa208sha256\scrypt_platform.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_pwhash\scryptsalsa208sha256\sse\pwhash_scryptsalsa208sha256_sse.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_scalarmult\crypto_scalarmult.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_scalarmult\curve25519\donna_c64\curve25519_donna_c64.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_scalarmult\curve25519\donna_c64\curve25519_donna_c64.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_scalarmult\curve25519\ref10\x25519_ref10.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_scalarmult\curve25519\ref10\x25519_ref10.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_scalarmult\curve25519\sandy2x\consts_namespace.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_scalarmult\curve25519\sandy2x\curve25519_sandy2x.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_scalarmult\curve25519\sandy2x\curve25519_sandy2x.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_scalarmult\curve25519\sandy2x\fe.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_scalarmult\curve25519\sandy2x\fe51.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_scalarmult\curve25519\sandy2x\fe51_invert.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_scalarmult\curve25519\sandy2x\fe51_namespace.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_scalarmult\curve25519\sandy2x\fe_frombytes_sandy2x.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_scalarmult\curve25519\sandy2x\ladder.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_scalarmult\curve25519\sandy2x\ladder_base.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_scalarmult\curve25519\sandy2x\ladder_base_namespace.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_scalarmult\curve25519\sandy2x\ladder_namespace.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_scalarmult\curve25519\scalarmult_curve25519.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_scalarmult\curve25519\scalarmult_curve25519.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_secretbox\crypto_secretbox.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_secretbox\crypto_secretbox_easy.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_secretbox\xchacha20poly1305\secretbox_xchacha20poly1305.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_secretbox\xsalsa20poly1305\secretbox_xsalsa20poly1305.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_secretstream\xchacha20poly1305\secretstream_xchacha20poly1305.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_shorthash\crypto_shorthash.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_shorthash\siphash24\ref\shorthash_siphash24_ref.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_shorthash\siphash24\ref\shorthash_siphash_ref.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_shorthash\siphash24\ref\shorthash_siphashx24_ref.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_shorthash\siphash24\shorthash_siphash24.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_shorthash\siphash24\shorthash_siphashx24.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_sign\crypto_sign.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_sign\ed25519\ref10\ed25519_ref10.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_sign\ed25519\ref10\keypair.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_sign\ed25519\ref10\obsolete.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_sign\ed25519\ref10\open.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_sign\ed25519\ref10\sign.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_sign\ed25519\sign_ed25519.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\chacha20\dolbeau\chacha20_dolbeau-avx2.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\chacha20\dolbeau\chacha20_dolbeau-avx2.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\chacha20\dolbeau\chacha20_dolbeau-ssse3.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\chacha20\dolbeau\chacha20_dolbeau-ssse3.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\chacha20\dolbeau\u0.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\chacha20\dolbeau\u1.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\chacha20\dolbeau\u4.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\chacha20\dolbeau\u8.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\chacha20\ref\chacha20_ref.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\chacha20\ref\chacha20_ref.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\chacha20\stream_chacha20.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\chacha20\stream_chacha20.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\crypto_stream.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\salsa20\ref\salsa20_ref.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\salsa20\ref\salsa20_ref.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\salsa20\stream_salsa20.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\salsa20\stream_salsa20.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\salsa20\xmm6\salsa20_xmm6.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\salsa20\xmm6\salsa20_xmm6.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\salsa20\xmm6int\salsa20_xmm6int-avx2.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\salsa20\xmm6int\salsa20_xmm6int-avx2.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\salsa20\xmm6int\salsa20_xmm6int-sse2.c" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\salsa20\xmm6int\salsa20_xmm6int-sse2.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\salsa20\xmm6int\u0.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\salsa20\xmm6int\u1.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\salsa20\xmm6int\u4.h" />
+    <ClInclude Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\salsa20\xmm6int\u8.h" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\salsa2012\ref\stream_salsa2012_ref.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\salsa2012\stream_salsa2012.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\salsa208\ref\stream_salsa208_ref.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\salsa208\stream_salsa208.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\xchacha20\stream_xchacha20.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_stream\xsalsa20\stream_xsalsa20.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\crypto_verify\sodium\verify.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\randombytes\nativeclient\randombytes_nativeclient.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\randombytes\randombytes.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\randombytes\salsa20\randombytes_salsa20_random.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\randombytes\sysrandom\randombytes_sysrandom.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\sodium\codecs.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\sodium\core.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\sodium\runtime.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\sodium\utils.c" />
+    <ClCompile Include="C:\Users\unknown\source\repos\interlunar\source\src\sdk\libsodium\src\sodium\version.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\unknown\source\repos\interlunar\source\src\ZERO_CHECK.vcxproj">
+      <Project>{DB7EA69A-0B20-370B-A1BB-8639D899E6A3}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
