@@ -1,0 +1,23 @@
+---
+application:
+  name: "source"
+  project: "gunz2"
+  organization: "QoveryCommunity"
+  storage:
+  - name: "gunz"
+    size: "10"
+    type: "ssd"
+    mount_point: "/mnt/gunz"
+databases:
+- type: "MYSQL"
+  name: "g"
+  version: "8.0"
+- type: "POSTGRESQL"
+  name: "gg"
+  version: "12"
+routers:
+- name: "main-source"
+  routes:
+  - application_name: "source"
+    paths:
+    - "/*"
