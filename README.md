@@ -6,7 +6,7 @@ This is the Open GunZ source repo for GunZ.exe, MatchServer.exe, and associated 
 ## Windows:
 Requisites:
 
-* GCC x64 Windows: http://tdm-gcc.tdragon.net/download
+* GCC x64 Windows: https://jmeubank.github.io/tdm-gcc/ or https://sourceforge.net/projects/tdm-gcc/
 * CMake 3.7 or later: Download the latest release from https://cmake.org/download/ under "Binary distributions." In the installer, select "Add CMake to the system PATH for all users". [Picture here](https://i.imgur.com/rQHLXX8.png).
 * Visual Studio 2017 with Windows XP support and ATL/MFC support free Community edition: https://www.visualstudio.com/downloads/.
   - In the installer, select the `Desktop development with C++,` and on the right under `Summary,` select `Windows XP support for C++` and `MFC and ATL support (x86 and x64)`. [Picture here](https://i.imgur.com/BqXoiXu.png).
