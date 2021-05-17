@@ -562,29 +562,6 @@ LONG_PTR FAR PASCAL WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lPara
 	return DefWindowProc(hWnd, message, wParam, lParam);
 }
 
-void CheckFileAssociation()
-{
-#define GUNZ_REPLAY_CLASS_NAME	"GunzReplay"
-
-#ifdef WIN32
-	char szValue[256];
-	if (!MRegistry::Read(HKEY_CLASSES_ROOT, "." GUNZ_REC_FILE_EXT, NULL, szValue))
-	{
-		MRegistry::Write(HKEY_CLASSES_ROOT, "." GUNZ_REC_FILE_EXT, NULL, GUNZ_REPLAY_CLASS_NAME);
-
-		char szModuleFileName[_MAX_PATH] = { 0, };
-		GetModuleFileName(NULL, szModuleFileName, _MAX_DIR);
-
-		char szCommand[_MAX_PATH];
-		sprintf_safe(szCommand, "\"%s\" \"%%1\"", szModuleFileName);
-
-		MRegistry::Write(HKEY_CLASSES_ROOT, GUNZ_REPLAY_CLASS_NAME "\\shell\\open\\command", NULL, szCommand);
-
-		SHChangeNotify(SHCNE_ASSOCCHANGED, SHCNF_FLUSH, NULL, NULL);
-	}
-#endif
-}
-
 void UpgradeMrsFile()
 {
 	char temp_path[1024];
@@ -677,8 +654,6 @@ int PASCAL GunzMain(HINSTANCE this_inst, HINSTANCE prev_inst, LPSTR cmdline, int
 #endif
 
 	MSysInfoLog();
-
-	CheckFileAssociation();
 
 	// Initialize MZFileSystem - MUpdate
 	MRegistry::szApplicationName = APPLICATION_NAME;
