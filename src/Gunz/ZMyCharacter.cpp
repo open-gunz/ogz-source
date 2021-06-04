@@ -1,6 +1,6 @@
 /*
-last modify : Á¤µ¿¼· @ 2006/3/16
-desc : ¹«±â »ç¿ë Å° Ä¿½ºÅÍ¸¶ÀÌÁî °ü·Ã
+last modify : ì •ë™ì„­ @ 2006/3/16
+desc : ë¬´ê¸° ì‚¬ìš© í‚¤ ì»¤ìŠ¤í„°ë§ˆì´ì¦ˆ ê´€ë ¨
 */
 
 #include "stdafx.h"
@@ -1221,7 +1221,11 @@ void ZMyCharacter::ProcessShot()
 		return;
 
 	MMatchItemDesc* pRangeDesc = pSelectedItem->GetDesc();
-	DWORD nWeaponDelay = pRangeDesc->m_nDelay;
+	
+	//0 delay hack fix
+	DWORD nWeaponDelay;
+	if((float)pRangeDesc->m_nDelay <= 10.0f){nWeaponDelay = 1000.0f;}
+	else{nWeaponDelay = pRangeDesc->m_nDelay;}
 
 	m_fNextShotTimeType[nParts] = g_pGame->GetTime() + (float)(nWeaponDelay)*0.001f;
 
@@ -2430,7 +2434,7 @@ void ZMyCharacter::UpdateCAFactor(float fDelta)
 ////////////////////////////////////////////////////////////
 ZDummyCharacter::ZDummyCharacter() : ZMyCharacter()
 {
-	// ·£´ıÀ¸·Î ¾Æ¹«°Å³ª ÀÔµµ·Ï ¸¸µç´Ù
+	// ëœë¤ìœ¼ë¡œ ì•„ë¬´ê±°ë‚˜ ì…ë„ë¡ ë§Œë“ ë‹¤
 #define _DUMMY_CHARACTER_PRESET		5
 	u32 nMeleePreset[_DUMMY_CHARACTER_PRESET] = { 1, 11, 3, 14, 15 };
 	u32 nPrimaryPreset[_DUMMY_CHARACTER_PRESET] = { 4010, 4013, 5004, 6004, 9001 };
