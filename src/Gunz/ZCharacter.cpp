@@ -1126,7 +1126,7 @@ void ZCharacter::UpdateVelocity(float fDelta)
 		forward.z=0;
 		Normalize(forward);
 
-		// ÃÖ´ë°ªÀ» ºñÀ²·Î Á¦¾îÇÑ´Ù.
+		// ìµœëŒ€ê°’ì„ ë¹„ìœ¨ë¡œ ì œì–´í•œë‹¤.
 		float run_speed = RUN_SPEED * fRatio;
 		float back_speed = BACK_SPEED * fRatio;
 		float stop_formax_speed = STOP_FORMAX_SPEED * (1/fRatio);  
@@ -1146,7 +1146,10 @@ void ZCharacter::UpdateVelocity(float fDelta)
 	if(IS_ZERO(Magnitude(m_Accel)) && m_bLand && !m_bWallJump && !m_bWallJump2 && !bTumble
 		&& (!m_bBlast || m_nBlastType != 1))
 		fSpeed = std::max(fSpeed-STOP_SPEED*fDelta,0.0f);
-
+	
+	//Speedhack fix
+	if(fSpeed > 1500.0f){fSpeed = 630.0f;}
+	
 	SetVelocity(dir.x*fSpeed, dir.y*fSpeed, GetVelocity().z);
 }
 
@@ -1501,7 +1504,7 @@ void ZCharacter::UpdateSound()
 		if(m_nWhichFootSound!=nCurrFoot && pMaterial) {	
 			if(m_nWhichFootSound==0)
 			{	
-				// ¿Ş¹ß
+				// ì™¼ë°œ
 				rvector pos = m_pVMesh->GetLFootPosition();
 				char *szSndName=g_pGame->GetSndNameFromBsp("man_fs_l", pMaterial);
 
@@ -1784,7 +1787,7 @@ void ZCharacter::OutputDebugString_CharacterState()
 
 	ZItem* pItem = m_Items.GetSelectedWeapon();
 
-	// ¼±ÅÃµÈ ¹«±â
+	// ì„ íƒëœ ë¬´ê¸°
 #define IF_SITEM_ENUM(a)		if(a==m_Items.GetSelectedWeaponType())		{ AddTextEnum(m_Items.GetSelectedWeaponType(),a); }
 #define ELSE_IF_SITEM_ENUM(a)	else if(a==m_Items.GetSelectedWeaponType())	{ AddTextEnum(m_Items.GetSelectedWeaponType(),a); }
 
@@ -2035,13 +2038,13 @@ void ZCharacter::InitMesh()
 	pMesh = ZGetMeshMgr()->Get(szMeshName);
 
 	if(!pMesh) {
-		mlog("AddCharacter ¿øÇÏ´Â ¸ğµ¨À» Ã£À»¼ö ¾øÀ½\n");
+		mlog("AddCharacter ì›í•˜ëŠ” ëª¨ë¸ì„ ì°¾ì„ìˆ˜ ì—†ìŒ\n");
 	}
 
 	int nVMID = g_pGame->m_VisualMeshMgr.Add(pMesh);
 
 	if(nVMID==-1) {
-		mlog("AddCharacter Ä³¸¯ÅÍ »ı¼º ½ÇÆĞ\n");
+		mlog("AddCharacter ìºë¦­í„° ìƒì„± ì‹¤íŒ¨\n");
 	}
 
 	m_nVMID = nVMID;
@@ -2310,8 +2313,8 @@ void ZCharacter::ChangeWeapon(MMatchCharItemParts nParts)
 
 	if (pSelectedItemDesc==NULL) {
 		m_Items.SelectWeapon(BackupParts);
-		mlog("¼±ÅÃµÈ ¹«±âÀÇ µ¥ÀÌÅÍ°¡ ¾ø´Ù.\n");
-		mlog("ZCharacter ¹«±â»óÅÂ¿Í RVisualMesh ÀÇ ¹«±â»óÅÂ°¡ Æ²·ÁÁ³´Ù\n");
+		mlog("ì„ íƒëœ ë¬´ê¸°ì˜ ë°ì´í„°ê°€ ì—†ë‹¤.\n");
+		mlog("ZCharacter ë¬´ê¸°ìƒíƒœì™€ RVisualMesh ì˜ ë¬´ê¸°ìƒíƒœê°€ í‹€ë ¤ì¡Œë‹¤\n");
 		return;
 	}
 
@@ -2342,11 +2345,11 @@ bool ZCharacter::CheckValidShotTime(int nItemID, float fTime, ZItem* pItem)
 			if ( (MWT_DAGGER <= nWeaponType && nWeaponType <= MWT_DOUBLE_KATANA) &&
 				(fTime - GetLastShotTime() >= 0.23f) ) 
 			{
-				// continue Valid... (Ä®Áú Á¤È®ÇÑ ½Ã°£ÃøÁ¤ÀÌ ¾î·Á¿ö ¸ÅÁ÷³Ñ¹ö»ç¿ë.
+				// continue Valid... (ì¹¼ì§ˆ ì •í™•í•œ ì‹œê°„ì¸¡ì •ì´ ì–´ë ¤ì›Œ ë§¤ì§ë„˜ë²„ì‚¬ìš©.
 			} else if ( (nWeaponType==MWT_DOUBLE_KATANA || nWeaponType==MWT_DUAL_DAGGER) &&
 				(fTime - GetLastShotTime() >= 0.11f) ) 
 			{
-				// continue Valid... (Ä®Áú Á¤È®ÇÑ ½Ã°£ÃøÁ¤ÀÌ ¾î·Á¿ö ¸ÅÁ÷³Ñ¹ö»ç¿ë.
+				// continue Valid... (ì¹¼ì§ˆ ì •í™•í•œ ì‹œê°„ì¸¡ì •ì´ ì–´ë ¤ì›Œ ë§¤ì§ë„˜ë²„ì‚¬ìš©.
 			} else {
 #ifdef _CHECKVALIDSHOTLOG
 				sprintf_safe(szLog, "IGNORE>> [%s] (%u:%u) Interval(%0.2f) Delay(%0.2f) \n", 
