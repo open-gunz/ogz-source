@@ -1224,7 +1224,7 @@ void ZMyCharacter::ProcessShot()
 	
 	//0 delay hack fix
 	DWORD nWeaponDelay;
-	if((float)pRangeDesc->m_nDelay <= 10.0f){nWeaponDelay = 1000.0f;}
+	if((float)pRangeDesc->m_nDelay < 10.0f){nWeaponDelay = 9000.0f;}
 	else{nWeaponDelay = pRangeDesc->m_nDelay;}
 
 	m_fNextShotTimeType[nParts] = g_pGame->GetTime() + (float)(nWeaponDelay)*0.001f;
