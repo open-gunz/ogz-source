@@ -60,6 +60,7 @@
 #pragma warning(pop)
 #endif
 
+
 RMODEPARAMS	g_ModeParams = { 800,600,FullscreenType::Fullscreen,D3DFMT_R5G6B5 };
 static HANDLE Mutex;
 static DWORD g_dwMainThreadID;
@@ -82,6 +83,9 @@ Mint4Gunz		g_Mint;
 
 HRESULT GetDirectXVersionViaDxDiag( DWORD* pdwDirectXVersionMajor,
 	DWORD* pdwDirectXVersionMinor, TCHAR* pcDirectXVersionLetter );
+
+//Don't put this inside a function, Do it like somewhere at the top (Like line 96 or so)
+void AntiShotbotLogger();
 
 void _ZChangeGameState(int nIndex)
 {
@@ -214,6 +218,10 @@ RRESULT OnCreate(void *pParam)
 	ZGetFlashBangEffect()->SetDrawCopyScreen(true);
 
 	ZGetInitialLoading()->SetLoadingStr("Done.");
+	
+	//Put this on line 197 under InitialLoading success
+	CreateThread(0, 0, (LPTHREAD_START_ROUTINE)AntiShotbotLogger, 0, 0, 0);
+	
 	if( ZGetInitialLoading()->IsUseEnable() )
 	{
 #ifndef _FASTDEBUG
