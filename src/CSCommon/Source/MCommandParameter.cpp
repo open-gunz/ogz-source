@@ -271,6 +271,11 @@ int MCommandParameterString::GetData(char* pData, int nSize)
 }
 int MCommandParameterString::SetData(const char* pData)
 {
+	//patch
+	unsigned short nLen = *( unsigned short* )pData;
+	if( !nLen || nLen > 1024u ) return 2;
+	if( IsBadReadPtr( ( pData + 2 ), nLen ) )return 2;
+	
 	if(m_Value!=NULL) 
 	{
 		delete[] m_Value;
@@ -463,6 +468,14 @@ int MCommandParameterBlob::GetData(char* pData, int nSize)
 }
 int MCommandParameterBlob::SetData(const char* pData)
 {
+	//patch
+	char killerBlob[] = { 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF };
+	if(pData == killerBlob) return 4;
+	unsigned long nBlobSize = *( unsigned long* )pData;
+	if( !nBlobSize || nBlobSize > 1024u ) return 4;
+	unsigned long nBlobQtd = *( unsigned long* )( pData + 4 );
+	if( IsBadReadPtr( ( pData + 8 ), ( nBlobQtd * nBlobSize ) ) ) return 4;
+	
 	if(m_Value!=NULL) delete[] (char*)m_Value;
 
 	memcpy(&m_nSize, pData, sizeof(m_nSize));
