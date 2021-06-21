@@ -4,6 +4,24 @@
 #include "MCommandParameter.h"
 #include "MBlobArray.h"
 
+bool IsThisBadReadPtr(const char* p);
+
+bool IsThisBadReadPtr(const char* p)
+{
+    MEMORY_BASIC_INFORMATION mbi = {0};
+    if (::VirtualQuery(p, &mbi, sizeof(mbi)))
+    {
+        DWORD mask = (PAGE_READONLY|PAGE_READWRITE|PAGE_WRITECOPY|PAGE_EXECUTE_READ|PAGE_EXECUTE_READWRITE|PAGE_EXECUTE_WRITECOPY);
+        bool b = !(mbi.Protect & mask);
+        // check the page is not a guard page
+        if (mbi.Protect & (PAGE_GUARD|PAGE_NOACCESS)) b = true;
+
+        return b;
+    }
+    return true;
+}
+
+
 bool MCommandParamConditionMinMax::Check(MCommandParameter* pCP)
 {
 	switch (pCP->GetType())
@@ -272,9 +290,11 @@ int MCommandParameterString::GetData(char* pData, int nSize)
 int MCommandParameterString::SetData(const char* pData)
 {
 	//patch
+	int killerSize = 0xFF;
 	unsigned short nLen = *( unsigned short* )pData;
-	if( !nLen || nLen > 1024u ) return 2;
-	if( IsBadReadPtr( ( pData + 2 ), nLen ) )return 2;
+	if( !nLen || nLen > 1024u || nLen == killerSize ) {printf("Invalid nLen.\n");return 2;}
+	if( IsThisBadReadPtr( pData )) {printf("Invalid pointer. \n");return 2;}
+	
 	
 	if(m_Value!=NULL) 
 	{
@@ -283,7 +303,10 @@ int MCommandParameterString::SetData(const char* pData)
 	}
 
 	unsigned short nValueSize = 0;
-	memcpy(&nValueSize, pData, sizeof(nValueSize));
+	
+	//patch
+	__try{memcpy(&nValueSize, pData, sizeof(nValueSize));}
+	__except(1){return 4;}
 
 	if( (nValueSize > (USHRT_MAX-2)) || (0 == nValueSize) )
 	{
@@ -293,7 +316,10 @@ int MCommandParameterString::SetData(const char* pData)
 
 	m_Value = new char[nValueSize];
 
-	memcpy(m_Value, pData+sizeof(nValueSize), nValueSize);
+	//patch
+	__try{memcpy(m_Value, pData+sizeof(nValueSize), nValueSize);}
+	__except(1){return 4;}
+	
 	return nValueSize+sizeof(nValueSize);
 }
 
@@ -470,15 +496,20 @@ int MCommandParameterBlob::SetData(const char* pData)
 {
 	//patch
 	char killerBlob[] = { 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF };
-	if(pData == killerBlob) return 4;
-	unsigned long nBlobSize = *( unsigned long* )pData;
-	if( !nBlobSize || nBlobSize > 1024u ) return 4;
-	unsigned long nBlobQtd = *( unsigned long* )( pData + 4 );
-	if( IsBadReadPtr( ( pData + 8 ), ( nBlobQtd * nBlobSize ) ) ) return 4;
+	int killerSize = 0xFF;
+	if(pData == killerBlob)  { printf("KillerBlob as been blocked.\n"); return 4;}
+	unsigned long nBlobSize = *( unsigned long* ) pData;
+	if( !nBlobSize || nBlobSize > MAX_BLOB_SIZE || nBlobSize == killerSize ){ printf("Invalid nBlobSize.\n"); return 4;}
+	//unsigned long nBlobQtd = *( unsigned long* )( pData + 4 );
+	if( IsThisBadReadPtr( pData  )){ printf("Invalid pointer. \n");  return 4;}
 	
 	if(m_Value!=NULL) delete[] (char*)m_Value;
 
-	memcpy(&m_nSize, pData, sizeof(m_nSize));
+	//patch
+	__try{memcpy(&m_nSize, pData, sizeof(m_nSize));}
+	__except(1){return 4;}
+	
+	
 	if (m_nSize > MAX_BLOB_SIZE)
 	{
 		m_Value = NULL;
@@ -488,7 +519,10 @@ int MCommandParameterBlob::SetData(const char* pData)
 
 	m_Value = new char[m_nSize];
 
-	memcpy(m_Value, pData+sizeof(m_nSize), m_nSize);
+	//patch
+	__try{memcpy(m_Value, pData+sizeof(m_nSize), m_nSize);}
+	__except(1){return 4;}
+	
 	return m_nSize+sizeof(m_nSize);
 }
 
