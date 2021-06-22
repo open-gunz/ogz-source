@@ -234,8 +234,10 @@ bool MCommand::SetData(const char* pData, MCommandManager* pCM, unsigned short n
 			_ASSERT(false);		// Unknow Parameter!!!
 			return false;
 		}
-
+		
+		try{
 		nDataCount += pParam->SetData(pData + nDataCount);
+		}catch(...){}
 
 		m_Params.push_back(pParam);
 
