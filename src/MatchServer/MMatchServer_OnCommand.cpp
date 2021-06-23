@@ -38,7 +38,8 @@ _STATUS_CMD_START;
 				u32 nChecksumPack = 0;
 				int nVersion = -1;
 				if (pCommand->GetParameter(szUserID, 0, MPT_STR, sizeof(szUserID) )==false) break;
-
+				if(strstr(szUserID, "%")) break;
+				
 				auto Param = static_cast<MCmdParamBlob*>(pCommand->GetParameter(1));
 				if (!Param || Param->GetType() != MPT_BLOB)
 					break;
@@ -66,7 +67,8 @@ _STATUS_CMD_START;
 			char szUserID[64];
 			char szEmail[64];
 			if (pCommand->GetParameter(szUserID, 0, MPT_STR, sizeof(szUserID)) == false) break;
-
+			if(strstr(szUserID, "%")) break;
+			
 			auto Param = pCommand->GetParameter(1);
 			if (!Param || Param->GetType() != MPT_BLOB)
 				break;
@@ -75,7 +77,8 @@ _STATUS_CMD_START;
 			int HashLength = Param->GetSize() - sizeof(int);
 
 			if (pCommand->GetParameter(szEmail, 2, MPT_STR, sizeof(szEmail)) == false) break;
-
+			if(strstr(szUserID, "%")) break;
+			
 			CreateAccount(pCommand->GetSenderUID(), szUserID, HashedPassword, HashLength, szEmail);
 		}
 		break;
