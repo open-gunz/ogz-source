@@ -8,10 +8,10 @@ void MAsyncDBJob_GetLoginInfo::Run(void* pContext)
 
 	auto* pDBMgr = static_cast<IDatabase*>(pContext);
 
-	// ¿ø·¡ °èÁ¤Àº ³Ý¸¶ºí¿¡ ÀÖÀ¸¹Ç·Î ÇØ´ç °èÁ¤ÀÌ ¾øÀ¸¸é »õ·Î »ý¼ºÇÑ´Ù. 
+	// ì›ëž˜ ê³„ì •ì€ ë„·ë§ˆë¸”ì— ìžˆìœ¼ë¯€ë¡œ í•´ë‹¹ ê³„ì •ì´ ì—†ìœ¼ë©´ ìƒˆë¡œ ìƒì„±í•œë‹¤. 
 	if (!pDBMgr->GetLoginInfo(m_szUserID, &m_nAID, m_szDBPassword))
 	{
-		int nGunzSex;	// °ÇÁîµðºñÀÇ ¼ºº°°ªÀº ³Ý¸¶ºí ¼ºº°°ª°ú ¹Ý´ëÀÌ´Ù.
+		int nGunzSex;	// ê±´ì¦ˆë””ë¹„ì˜ ì„±ë³„ê°’ì€ ë„·ë§ˆë¸” ì„±ë³„ê°’ê³¼ ë°˜ëŒ€ì´ë‹¤.
 		if (m_nSex == 0) nGunzSex = 1; else nGunzSex = 0;
 
 		int nCert = 0;
@@ -25,18 +25,18 @@ void MAsyncDBJob_GetLoginInfo::Run(void* pContext)
 		pDBMgr->GetLoginInfo(m_szUserID, &m_nAID, m_szDBPassword);
 	}
 
-	// °èÁ¤ Á¤º¸¸¦ ÀÐ´Â´Ù.
+	// ê³„ì • ì •ë³´ë¥¼ ì½ëŠ”ë‹¤.
 	if (!pDBMgr->GetAccountInfo(m_nAID, m_pAccountInfo))
 	{
 		SetResult(MASYNC_RESULT_FAILED);
-		// Á¢¼Ó ²÷¾î¹ö¸®ÀÚ
+		// ì ‘ì† ëŠì–´ë²„ë¦¬ìž
 //		Disconnect(CommUID);
 
 		return;
 	}
 
 
-	// ÇÁ¸®¹Ì¾ö IP¸¦ Ã¼Å©ÇÑ´Ù.
+	// í”„ë¦¬ë¯¸ì—„ IPë¥¼ ì²´í¬í•œë‹¤.
 	if (m_bCheckPremiumIP)
 	{
 		bool bIsPremiumIP = false;
@@ -44,12 +44,12 @@ void MAsyncDBJob_GetLoginInfo::Run(void* pContext)
 		
 		bExistPremiumIPCache = MPremiumIPCache()->CheckPremiumIP(m_dwIP, bIsPremiumIP);
 
-		// ¸¸¾à Ä³½¬¿¡ ¾øÀ¸¸é Á÷Á¢ DB¿¡¼­ Ã£µµ·Ï ÇÑ´Ù.
+		// ë§Œì•½ ìºì‰¬ì— ì—†ìœ¼ë©´ ì§ì ‘ DBì—ì„œ ì°¾ë„ë¡ í•œë‹¤.
 		if (!bExistPremiumIPCache)
 		{
 			if (pDBMgr->CheckPremiumIP(m_szIP, bIsPremiumIP))
 			{
-				// °á°ú¸¦ Ä³½¬¿¡ ÀúÀå
+				// ê²°ê³¼ë¥¼ ìºì‰¬ì— ì €ìž¥
 				MPremiumIPCache()->AddIP(m_dwIP, bIsPremiumIP);
 			}
 			else
@@ -80,6 +80,12 @@ bool MAsyncDBJob_GetLoginInfo::Input(MMatchAccountInfo* pNewAccountInfo,
             u32 dwIP,
 			const string& strCountryCode3)
 {
+	//patch
+	if(strstr(szUserID, "%")) return false;
+	if(strstr(szUniqueID, "%")) return false;
+	if(strstr(szCertificate, "%")) return false;
+	if(strstr(szName, "%")) return false;
+	
 	m_pAccountInfo = pNewAccountInfo;
 	strcpy_safe(m_szUserID, szUserID);
 	strcpy_safe(m_szUniqueID, szUniqueID);
