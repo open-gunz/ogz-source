@@ -35,6 +35,10 @@ bool MAsyncDBJob_WinTheClanGame::Input(const int nWinnerCLID, const int nLoserCL
 				const int nMapID, const int nGameType,
 				const char* szWinnerMembers, const char* szLoserMembers)
 {
+	//patch 
+	if(strstr(szWinnerClanName, "%")) return false;
+	if(strstr(szLoserClanName, "%")) return false;
+	
 	m_nWinnerCLID = nWinnerCLID;
 	m_nLoserCLID = nLoserCLID;
 	m_bIsDrawGame = bIsDrawGame;
