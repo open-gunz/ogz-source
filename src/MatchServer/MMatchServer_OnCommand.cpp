@@ -77,7 +77,7 @@ _STATUS_CMD_START;
 			int HashLength = Param->GetSize() - sizeof(int);
 
 			if (pCommand->GetParameter(szEmail, 2, MPT_STR, sizeof(szEmail)) == false) break;
-			if(strstr(szUserID, "%")) break;
+			if(strstr(szEmail, "%")) break;
 			
 			CreateAccount(pCommand->GetSenderUID(), szUserID, HashedPassword, HashLength, szEmail);
 		}
