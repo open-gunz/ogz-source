@@ -2339,8 +2339,8 @@ bool ZCharacter::CheckValidShotTime(int nItemID, float fTime, ZItem* pItem)
 
 	if (GetLastShotItemID() == nItemID) {
 
-	// if time passed is less than item delay
-		if (fTime - GetLastShotTime() < (float)pItem->GetDesc()->m_nDelay/1000.0f) {
+	// if time passed is less than item delay or minimum delay
+		if (fTime - GetLastShotTime() < (float)pItem->GetDesc()->m_nDelay/1000.0f || fTime - GetLastShotTime() < 10/1000.0f) {
 			MMatchWeaponType nWeaponType = pItem->GetDesc()->m_nWeaponType;
 			if ( (MWT_DAGGER <= nWeaponType && nWeaponType <= MWT_DOUBLE_KATANA) &&
 				(fTime - GetLastShotTime() >= 0.23f) ) 
