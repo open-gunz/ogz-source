@@ -149,10 +149,21 @@ ZMapSpawnData* ZMapSpawnManager::GetTeamData(int nTeamIndex, int nDataIndex)
 		nDataIndex -= nTeamPositionsCount;
 	}
 
-	ZMapSpawnType nSpawnType = ZMST_TEAM1;
-	if (nTeamIndex == 1) nSpawnType = ZMST_TEAM2;
+    if (lastZeroSpawn == 0)
+    {
+        /// 0 Was last, so now we switch it around.
+        ZMapSpawnType nSpawnType = ZMST_TEAM1;
+        if (nTeamIndex == 1) nSpawnType = ZMST_TEAM2;
 
-	return (m_SpawnArray[nSpawnType][nDataIndex]);
+        return (m_SpawnArray[nSpawnType][nDataIndex]);
+    }
+    else
+    {
+        ZMapSpawnType nSpawnType = ZMST_TEAM1;
+        if (nTeamIndex == 0) nSpawnType = ZMST_TEAM2;
+
+        return (m_SpawnArray[nSpawnType][nDataIndex]);
+    }
 }
 
 int ZMapSpawnManager::GetTeamCount(int nTeamIndex)
@@ -270,6 +281,8 @@ ZMapSpawnData* ZMapSpawnManager::GetSpawnData(ZMapSpawnType nSpawnType, int nInd
 		nIndex -= nPositionsCount;
 	}
 	if (nIndex < 0) nIndex=0;
+
+
 
 	return (m_SpawnArray[nSpawnType][nIndex]);
 }

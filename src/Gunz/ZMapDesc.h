@@ -8,6 +8,8 @@
 #include "RTypes.h"
 #include "MZFileSystem.h"
 
+extern int lastZeroSpawn = 0;
+
 enum ZMapSpawnType
 {
 	ZMST_SOLO		= 0,
