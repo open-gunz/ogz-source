@@ -3,3 +3,7 @@
 /Release - Shortcut.lnk
 /z linux bin Shortcut.lnk
 /z win32 bin Shortcut.lnk
+/src/out/build/x64-Debug/.cmake/api/v1/query/client-MicrosoftVS/query.json
+/src/out/build/x64-Debug/.cmake/api/v1/reply
+/src/out/build/x64-Debug/CMakeFiles
+/src/out/build/x64-Debug
