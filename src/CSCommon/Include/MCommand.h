@@ -115,14 +115,6 @@ public:
 	int GetSize() const;
 };
 
-template <typename ParamT, typename AllocT, typename... ArgsT>
-auto MakeParam(AllocT& Alloc, ArgsT&&... Args)
-{
-	auto p = (ParamT*)Alloc.allocate(sizeof(ParamT));
-	std::allocator_traits<AllocT>::construct(Alloc, p, Args...);
-	return p;
-}
-
 template <typename T>
 bool MCommand::SetData(const char* pData, MCommandManager* pCM, unsigned short nDataLen,
 	bool ReadSerial, T& Alloc)
@@ -170,69 +162,80 @@ bool MCommand::SetData(const char* pData, MCommandManager* pCM, unsigned short n
 		MCommandParameter* pParam = NULL;
 		switch (nParamType) {
 		case MPT_INT:
-			pParam = MakeParam<MCommandParameterInt>(Alloc);
+			pParam = new MCommandParameterInt;
 			break;
 		case MPT_UINT:
-			pParam = MakeParam<MCommandParameterUInt>(Alloc);
+			pParam = new MCommandParameterUInt;
 			break;
 		case MPT_FLOAT:
-			pParam = MakeParam<MCommandParameterFloat>(Alloc);
+			pParam = new MCommandParameterFloat;
 			break;
 		case MPT_STR:
-			if (std::is_same<T, std::allocator<uint8_t>>::value)
-				pParam = MakeParam<MCommandParameterString>(Alloc);
-			else
-				pParam = MakeParam<MCommandParameterStringCustomAlloc<T>>(Alloc, Alloc);
+			pParam = new MCommandParameterString;
+			{
+				unsigned short checkSize = 0;
+				memcpy(&checkSize, pData + nDataCount, sizeof(checkSize));
+				if (checkSize > nDataLen || checkSize == 0)
+				{
+					return false;
+				}
+			}
 			break;
 		case MPT_VECTOR:
-			pParam = MakeParam<MCommandParameterVector>(Alloc);
+			pParam = new MCommandParameterVector;
 			break;
 		case MPT_POS:
-			pParam = MakeParam<MCommandParameterPos>(Alloc);
+			pParam = new MCommandParameterPos;
 			break;
 		case MPT_DIR:
-			pParam = MakeParam<MCommandParameterDir>(Alloc);
+			pParam = new MCommandParameterDir;
 			break;
 		case MPT_BOOL:
-			pParam = MakeParam<MCommandParameterBool>(Alloc);
+			pParam = new MCommandParameterBool;
 			break;
 		case MPT_COLOR:
-			pParam = MakeParam<MCommandParameterColor>(Alloc);
+			pParam = new MCommandParameterColor;
 			break;
 		case MPT_UID:
-			pParam = MakeParam<MCommandParameterUID>(Alloc);
+			pParam = new MCommandParameterUID;
 			break;
 		case MPT_BLOB:
-			if (std::is_same<T, std::allocator<uint8_t>>::value)
-				pParam = MakeParam<MCommandParameterBlob>(Alloc);
-			else
-				pParam = MakeParam<MCommandParameterBlobCustomAlloc<T>>(Alloc, Alloc);
+			pParam = new MCommandParameterBlob;
+			{
+				unsigned int checkSize = 0;
+				memcpy(&checkSize, pData + nDataCount, sizeof(checkSize));
+				if (checkSize > nDataLen || checkSize == 0)
+				{
+					return false;
+				}
+			}
 			break;
 		case MPT_CHAR:
-			pParam = MakeParam<MCommandParameterChar>(Alloc);
+			pParam = new MCommandParameterChar;
 			break;
 		case MPT_UCHAR:
-			pParam = MakeParam<MCommandParameterUChar>(Alloc);
+			pParam = new MCommandParameterUChar;
 			break;
 		case MPT_SHORT:
-			pParam = MakeParam<MCommandParameterShort>(Alloc);
+			pParam = new MCommandParameterShort;
 			break;
 		case MPT_USHORT:
-			pParam = MakeParam<MCommandParameterUShort>(Alloc);
+			pParam = new MCommandParameterUShort;
 			break;
 		case MPT_INT64:
-			pParam = MakeParam<MCommandParameterInt64>(Alloc);
+			pParam = new MCommandParameterInt64;
 			break;
 		case MPT_UINT64:
-			pParam = MakeParam<MCommandParameterUInt64>(Alloc);
+			pParam = new MCommandParameterUInt64;
 			break;
 		case MPT_SVECTOR:
-			pParam = MakeParam<MCommandParameterShortVector>(Alloc);
+			pParam = new MCommandParameterShortVector;
 			break;
 		default:
 			//mlog("Error(MCommand::SetData): Wrong Param Type\n");
 			_ASSERT(false);		// Unknow Parameter!!!
 			return false;
+			break;
 		}
 
 		nDataCount += pParam->SetData(pData + nDataCount);
