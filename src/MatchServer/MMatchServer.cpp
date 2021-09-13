@@ -1120,39 +1120,50 @@ void MMatchServer::OnTunnelledP2PCommand(const MUID & Sender, const MUID & Recei
 		{
 			auto Cmd = MakeCmdFromSaneTunnelingBlob(Sender, MUID(0, 0), Blob, BlobSize);
 
-			v3 Pos, Dir;
-			ZC_SHOT_SP_TYPE Type;
-			int SelectedSlot;
-			if (!Cmd->GetParameter(&Pos, 1, MPT_POS))
-				return;
-			if (!Cmd->GetParameter(&Dir, 2, MPT_VECTOR))
-				return;
-			if (!Cmd->GetParameter(&Type, 3, MPT_INT))
-				return;
-			if (!Cmd->GetParameter(&SelectedSlot, 4, MPT_INT))
-				return;
-
-			auto Item = SenderObj->GetCharInfo()->m_EquipedItem.GetItem(MMatchCharItemParts(SelectedSlot));
-			if (!Item)
-				return;
-			auto ItemDesc = Item->GetDesc();
-			if (!ItemDesc)
-				return;
-
-			switch (Type)
+			if (Cmd)
 			{
-			case ZC_WEAPON_SP_ROCKET:
-				Stage->MovingWeaponMgr.AddRocket(SenderObj, ItemDesc, Pos, Dir);
-				break;
-			case ZC_WEAPON_SP_ITEMKIT:
-				Stage->MovingWeaponMgr.AddItemKit(SenderObj, ItemDesc, Pos, Dir);
-				break;
-			case ZC_WEAPON_SP_GRENADE:
-				auto GrenadeSpeed = 1200.f;
-				Stage->MovingWeaponMgr.AddGrenade(SenderObj, ItemDesc, Pos, Dir,
-					Dir * GrenadeSpeed + SenderObj->GetVelocity() + v3{ 0, 0, 300 });
-				break;
-			};
+				v3 Pos, Dir;
+				ZC_SHOT_SP_TYPE Type;
+				int SelectedSlot;
+				if (!Cmd->GetParameter(&Pos, 1, MPT_POS) ||
+					!Cmd->GetParameter(&Dir, 2, MPT_VECTOR) ||
+					!Cmd->GetParameter(&Type, 3, MPT_INT) ||
+					!Cmd->GetParameter(&SelectedSlot, 4, MPT_INT))
+				{
+					delete Cmd;
+					return;
+				}
+
+				auto Item = SenderObj->GetCharInfo()->m_EquipedItem.GetItem(MMatchCharItemParts(SelectedSlot));
+				if (!Item)
+				{
+					delete Cmd;
+					return;
+				}
+				auto ItemDesc = Item->GetDesc();
+				if (!ItemDesc)
+				{
+					delete Cmd;
+					return;
+				}
+
+				switch (Type)
+				{
+				case ZC_WEAPON_SP_ROCKET:
+					Stage->MovingWeaponMgr.AddRocket(SenderObj, ItemDesc, Pos, Dir);
+					break;
+				case ZC_WEAPON_SP_ITEMKIT:
+					Stage->MovingWeaponMgr.AddItemKit(SenderObj, ItemDesc, Pos, Dir);
+					break;
+				case ZC_WEAPON_SP_GRENADE:
+					auto GrenadeSpeed = 1200.f;
+					Stage->MovingWeaponMgr.AddGrenade(SenderObj, ItemDesc, Pos, Dir,
+						Dir * GrenadeSpeed + SenderObj->GetVelocity() + v3{ 0, 0, 300 });
+					break;
+				};
+
+				delete Cmd;
+			}
 		}
 		break;
 		case MC_PEER_DIE:
