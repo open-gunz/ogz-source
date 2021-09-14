@@ -171,7 +171,6 @@ bool MCommand::SetData(const char* pData, MCommandManager* pCM, unsigned short n
 			pParam = new MCommandParameterFloat;
 			break;
 		case MPT_STR:
-			pParam = new MCommandParameterString;
 			{
 				unsigned short checkSize = 0;
 				memcpy(&checkSize, pData + nDataCount, sizeof(checkSize));
@@ -180,6 +179,7 @@ bool MCommand::SetData(const char* pData, MCommandManager* pCM, unsigned short n
 					return false;
 				}
 			}
+			pParam = new MCommandParameterString;
 			break;
 		case MPT_VECTOR:
 			pParam = new MCommandParameterVector;
@@ -200,7 +200,6 @@ bool MCommand::SetData(const char* pData, MCommandManager* pCM, unsigned short n
 			pParam = new MCommandParameterUID;
 			break;
 		case MPT_BLOB:
-			pParam = new MCommandParameterBlob;
 			{
 				unsigned int checkSize = 0;
 				memcpy(&checkSize, pData + nDataCount, sizeof(checkSize));
@@ -209,6 +208,7 @@ bool MCommand::SetData(const char* pData, MCommandManager* pCM, unsigned short n
 					return false;
 				}
 			}
+			pParam = new MCommandParameterBlob;
 			break;
 		case MPT_CHAR:
 			pParam = new MCommandParameterChar;
@@ -235,7 +235,6 @@ bool MCommand::SetData(const char* pData, MCommandManager* pCM, unsigned short n
 			//mlog("Error(MCommand::SetData): Wrong Param Type\n");
 			_ASSERT(false);		// Unknow Parameter!!!
 			return false;
-			break;
 		}
 
 		nDataCount += pParam->SetData(pData + nDataCount);
