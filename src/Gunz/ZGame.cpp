@@ -3402,7 +3402,7 @@ void ZGame::OnPeerDieMessage(ZCharacter* pVictim, ZCharacter* pAttacker)
 				MMatchObjCache* pCache = ZGetGameClient()->FindObjCache(ZGetMyUID());
 				if (pCache && pCache->CheckFlag(MTD_PlayerFlags_AdminHide))
 				{
-					sprintf_safe( szMsg, "^%d%s^9 ½º½º·Î ÆÐ¹è",
+					sprintf_safe( szMsg, "^%d%s^9 Â½ÂºÂ½ÂºÂ·ÃŽ Ã†ÃÂ¹Ã¨",
 									(pAttacker->GetTeamID() == MMT_BLUE) ? 3 : 1,
 									pAttacker->GetProperty()->szName);
 					ZGetGameInterface()->GetCombatInterface()->m_AdminMsg.OutputChatMsg( szMsg);
@@ -3431,7 +3431,7 @@ void ZGame::OnPeerDieMessage(ZCharacter* pVictim, ZCharacter* pAttacker)
 			MMatchObjCache* pCache = ZGetGameClient()->FindObjCache(ZGetMyUID());
 			if (pCache && pCache->CheckFlag(MTD_PlayerFlags_AdminHide))
 			{
-				sprintf_safe( szMsg, "^%d%s^9 ½Â¸®,  ^%d%s^9 ÆÐ¹è",
+				sprintf_safe( szMsg, "^%d%s^9 Â½Ã‚Â¸Â®,  ^%d%s^9 Ã†ÃÂ¹Ã¨",
 							(pAttacker->GetTeamID() == MMT_BLUE) ? 3 : 1, pAttacker->GetProperty()->szName,
 							(pVictim->GetTeamID() == MMT_BLUE) ? 3 : 1,   pVictim->GetProperty()->szName);
 				ZGetGameInterface()->GetCombatInterface()->m_AdminMsg.OutputChatMsg( szMsg);
