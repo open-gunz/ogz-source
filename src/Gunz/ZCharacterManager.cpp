@@ -107,7 +107,7 @@ int ZCharacterManager::GetLiveCount()
 	int nLiveCount = 0;
 	for(iterator i = begin(); i!=end(); i++){
 		ZCharacter* pCharacter = (*i).second;
-		if(pCharacter->IsDie()==false) nLiveCount++;
+		if(pCharacter->IsDead()==false) nLiveCount++;
 	}
 
 	return nLiveCount;

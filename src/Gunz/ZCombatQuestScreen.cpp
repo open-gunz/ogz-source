@@ -95,7 +95,7 @@ void ZCombatQuestScreen::DrawPlayer(MDrawContext* pDC, int index, ZCharacter* pC
 	MFont *pFont = MFontManager::Get("FONTa10b");
 	pDC->SetFont( pFont );
 	MCOLOR color = MCOLOR(0xFFFFFFFF);
-	if (pCharacter->IsDie()) color = MCOLOR(0xFF999999);
+	if (pCharacter->IsDead()) color = MCOLOR(0xFF999999);
 	else if (pCharacter == ZApplication::GetGame()->m_pMyCharacter) color = MCOLOR(0xFFEEEE00);
 	pDC->SetColor(color);
 

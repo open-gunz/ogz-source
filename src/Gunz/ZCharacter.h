@@ -138,8 +138,8 @@ public:
 	}
 
 	bool isInvincible();
-
-	bool IsMan();
+	
+	bool IsMan() const;
 
 	virtual void OnUpdate(float fDelta) override;
 	void UpdateSpeed();
@@ -198,8 +198,7 @@ public:
 		m_fLastShotTime = fTime;
 	}
 
-
-	bool IsDie() override { return m_bDie; }
+	bool IsDead() override { return m_bDie; } const
 	auto IsAlive() const { return !m_bDie; }
 	void ForceDie() { SetHP(0); m_bDie = true; }
 

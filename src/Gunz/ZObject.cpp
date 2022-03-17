@@ -72,9 +72,9 @@ bool ZObject::GetHistory(rvector *pos, rvector *direction, float fTime, rvector*
 		return false;
 	
 	if (pos)
-		*pos=m_Position;
+		*pos = GetPosition();
 	if (direction)
-		*direction=m_Direction;
+		*direction = m_Direction;
 	if (cameradir)
 		*cameradir = m_Direction;
 

@@ -352,7 +352,7 @@ void ZCombatInterface::DrawNPCName(MDrawContext* pDC)
 		rvector pos, screen_pos;
 		ZObject* pObject= (*itor).second;
 		if (!pObject->IsVisible()) continue;
-		if (pObject->IsDie()) continue;
+		if (pObject->IsDead()) continue;
 		if(!pObject->IsNPC()) continue;
 
 		ZActor *pActor = (ZActor*)pObject;
@@ -594,7 +594,7 @@ void ZCombatInterface::OnDraw(MDrawContext* pDC)
 							sprintf_safe( charName[ 0], "%s%d  %s", ZMsg( MSG_CHARINFO_LEVELMARKER),
 								pCharacter->GetProperty()->nLevel, pCharacter->GetUserName());
 
-						bIsChallengerDie = pCharacter->IsDie();
+						bIsChallengerDie = pCharacter->IsDead();
 					}
 
 					// Waiting 1
@@ -913,7 +913,7 @@ void ZCombatInterface::DrawSoloSpawnTimeMessage(MDrawContext* pDC)
 	{
 		if (!pMatch->IsWaitForRoundEnd())
 		{
-			if (Me->IsDie())
+			if (Me->IsDead())
 			{
 				char szMsg[128] = "";
 				int nRemainTime = pMatch->GetRemainedSpawnTime();
@@ -1162,7 +1162,7 @@ void ZCombatInterface::SetPickTarget(bool bPick, ZCharacter* pCharacter)
 		if(pCharacter->IsAdmin())
 			m_pTargetLabel->SetTextColor(ZCOLOR_ADMIN_NAME);
 
-		if (!bFriend == true && !pCharacter->IsDie()) 
+		if (!bFriend == true && !pCharacter->IsDead()) 
 		{
 			
 			strcpy_safe(m_szTargetName, pCharacter->GetUserName());
@@ -1270,7 +1270,7 @@ static void DrawNames(MDrawContext* pDC, ZCharacter* pTargetCharacter, bool Targ
 	{
 		if (!pCharacter) continue;
 		if (!pCharacter->IsVisible()) continue;
-		if (pCharacter->IsDie()) continue;
+		if (pCharacter->IsDead()) continue;
 		if (!pCharacter->IsRendered()) continue;
 		if (TargetTeamOnly)
 		{
@@ -1316,7 +1316,7 @@ void ZCombatInterface::DrawEnemyName(MDrawContext* pDC)
 
 	if (!pickinfo.pObject) return;
 	if (!IsPlayerObject(pickinfo.pObject)) return;
-	if (pickinfo.pObject->IsDie()) return;
+	if (pickinfo.pObject->IsDead()) return;
 
 	ZCharacter* pPickedCharacter = (ZCharacter*)pickinfo.pObject;
 
@@ -1650,7 +1650,7 @@ void ZCombatInterface::DrawScoreBoard(MDrawContext* pDC)
 		
 		pItem->nClanID = pCharacter->GetClanID();
 		pItem->nTeam = ZApplication::GetGame()->GetMatch()->IsTeamPlay() ? pCharacter->GetTeamID() : MMT_END;
-		pItem->bDeath = pCharacter->IsDie();
+		pItem->bDeath = pCharacter->IsDead();
 		if ( ZGetGameTypeManager()->IsQuestDerived( g_pGame->GetMatch()->GetMatchType()))
 			pItem->nExp = pCharacter->GetStatus()->nKills * 100;
 		else

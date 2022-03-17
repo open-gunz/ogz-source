@@ -103,7 +103,7 @@ public:
 	virtual float ColTest(const rvector& pos, const rvector& vec, float radius, rplane* out=0) { return 1.0f; }
 	virtual bool ColTest(const rvector& p1, const rvector& p2, float radius, float fTime);
 	virtual bool IsAttackable()	 { return true; }
-	virtual bool IsDie() { return false; }
+	virtual bool IsDead() { return false; }
 	virtual void SetDirection(const rvector& dir);
 	virtual bool IsGuardNonrecoilable() const { return false; }
 	virtual bool IsGuardRecoilable() const { return false; }

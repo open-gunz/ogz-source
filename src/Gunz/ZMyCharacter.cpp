@@ -138,7 +138,7 @@ void ZMyCharacter::ProcessInput(float fDelta)
 	Normalize(forward);
 	CrossProduct(&right, rvector(0, 0, 1), forward);
 
-	if (!IsDie() && !m_bStun && !m_bBlastDrop && !m_bBlastStand)
+	if (!IsDead() && !m_bStun && !m_bBlastDrop && !m_bBlastStand)
 	{
 		bool ButtonPressed = false;
 
@@ -879,7 +879,7 @@ void ZMyCharacter::OnGadget_Hanging()
 		return;
 	};
 
-	if (IsDie() || m_bWallJump || m_bGuard || m_bDrop || m_bTumble || m_bSkill ||
+	if (IsDead() || m_bWallJump || m_bGuard || m_bDrop || m_bTumble || m_bSkill ||
 		m_bBlast || m_bBlastFall || m_bBlastDrop || m_bBlastStand || m_bBlastAirmove) return;
 	if (GetStateLower() == ZC_STATE_LOWER_JUMPATTACK) return;
 	if (m_bWallJump2 && (g_pGame->GetTime() - m_fJump2Time) < .40f) return;
@@ -949,7 +949,7 @@ void ZMyCharacter::ProcessGadget()
 
 	if (GetItems()->GetSelectedWeapon() == NULL) return;
 
-	if (IsDie() || m_bDrop || m_bBlast || m_bBlastDrop || m_bBlastStand)
+	if (IsDead() || m_bDrop || m_bBlast || m_bBlastDrop || m_bBlastStand)
 		return;
 
 	if (GetStateUpper() == ZC_STATE_UPPER_RELOAD || GetStateUpper() == ZC_STATE_UPPER_LOAD)
@@ -1027,7 +1027,7 @@ void ZMyCharacter::ProcessGadget()
 
 void ZMyCharacter::ProcessGuard()
 {
-	if (IsDie() || m_bWallJump || m_bDrop || m_bWallJump2 || m_bTumble ||
+	if (IsDead() || m_bWallJump || m_bDrop || m_bWallJump2 || m_bTumble ||
 		m_bBlast || m_bBlastFall || m_bBlastDrop || m_bBlastStand || m_bBlastAirmove ||
 		m_bSlash || m_bJumpSlash || m_bJumpSlashLanding) return;
 
@@ -1201,7 +1201,7 @@ void ZMyCharacter::ProcessShot()
 
 	if (m_bWallHang || m_bStun) return;
 
-	if (IsDie() || m_bDrop || m_bBlast || m_bBlastFall || m_bBlastDrop || m_bBlastStand || m_bSpMotion)
+	if (IsDead() || m_bDrop || m_bBlast || m_bBlastFall || m_bBlastDrop || m_bBlastStand || m_bSpMotion)
 		return;
 
 	if (GetStateUpper() == ZC_STATE_UPPER_RELOAD || GetStateUpper() == ZC_STATE_UPPER_LOAD)
@@ -1600,7 +1600,7 @@ void ZMyCharacter::OnUpdate(float fDelta)
 
 	fDelta = min(fDelta, 1.f);
 
-	if (IsDie() && ((m_bLand && m_bPlayDone))) {
+	if (IsDead() && ((m_bLand && m_bPlayDone))) {
 		SetVelocity(0, 0, 0);
 	}
 
@@ -1660,7 +1660,7 @@ void ZMyCharacter::OnUpdate(float fDelta)
 
 	UpdateCAFactor(fDelta);
 
-	if (GetDistToFloor() < 0 && !IsDie())
+	if (GetDistToFloor() < 0 && !IsDead())
 	{
 		float fAdjust = 400.f*fDelta;
 		rvector diff = rvector(0, 0, min(-GetDistToFloor(), fAdjust));
@@ -2133,7 +2133,7 @@ void ZMyCharacter::OnTumble(int nDir)
 {
 #define SWORD_DASH		1000.f
 #define GUN_DASH        900.f
-	if (IsDie() || m_bWallJump || m_bGuard || m_bDrop || m_bWallJump2 || m_bTumble || m_bWallHang ||
+	if (IsDead() || m_bWallJump || m_bGuard || m_bDrop || m_bWallJump2 || m_bTumble || m_bWallHang ||
 		m_bBlast || m_bBlastFall || m_bBlastDrop || m_bBlastStand || m_bBlastAirmove ||
 		m_bCharging || m_bSlash || m_bJumpSlash || m_bJumpSlashLanding ||
 		m_bStun || GetStateLower() == ZC_STATE_LOWER_UPPERCUT) return;
@@ -2566,7 +2566,7 @@ void ZMyCharacter::OnDelayedWork(ZDELAYEDWORKITEM& Item)
 		itor != ZGetCharacterManager()->end(); ++itor)
 		{
 			ZCharacter* pTar = (*itor).second;
-			if (this == pTar || pTar->IsDie()) continue;
+			if (this == pTar || pTar->IsDead()) continue;
 
 			rvector diff = GetPosition() + m_Direction*10.f - pTar->GetPosition();
 			diff.z *= .5f;

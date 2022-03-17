@@ -473,7 +473,7 @@ public:
 	bool GetEnterBattle() const		{ return m_bEnterBattle; }
 	void SetEnterBattle(bool bEnter){ m_bEnterBattle = bEnter; }
 	bool CheckAlive() const			{ return m_bAlive; }
-	bool IsDie() const				{ return !m_bAlive; }
+	bool IsDead() const				{ return !m_bAlive; }
 	bool IsAlive() const			{ return m_bAlive; }
 	void SetAlive(bool bVal)		{ m_bAlive = bVal; }
 	void SetKillCount(unsigned int nKillCount) { m_nKillCount = nKillCount; }

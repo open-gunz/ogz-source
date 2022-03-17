@@ -20,6 +20,8 @@ enum ZObserverType
 
 #define ZFREEOBSERVER_RADIUS	30.f
 #define OBSERVER_QUICK_TAGGER_TARGET_KEY			'0'
+#define ZOBSERVER_DEFAULT_DELAY_TIME		0.2f
+
 
 class ZObserverQuickTarget {
 protected:

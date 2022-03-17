@@ -40,7 +40,7 @@ ZSkillDesc::ZSkillDesc()
 
 bool ZSkillDesc::IsEffectiveTo(ZObject *pTarget)
 {
-	if(pTarget->IsDie()) return false;
+	if(pTarget->IsDead()) return false;
 
 	ZModule_HPAP *pModule = (ZModule_HPAP*)pTarget->GetModule(ZMID_HPAP);
 
@@ -379,7 +379,7 @@ bool ZSkill::Update(float fElapsed)
 
 		for(ZObjectManager::iterator i = ZGetObjectManager()->begin();i!=ZGetObjectManager()->end();i++) {
 			ZObject *pTarget = i->second;
-			if(pTarget->IsDie()) continue;
+			if(pTarget->IsDead()) continue;
 			float fDamage = m_pDesc->nModDoT;
 			if(CheckRange(pTarget->GetPosition(),pTarget) && m_pDesc->CheckResist(pTarget,&fDamage)) {
 				if(g_pGame->IsAttackable(m_pOwner,pTarget)) {
@@ -474,7 +474,7 @@ void ZSkill::LastExecute(const MUID& uidTarget, const rvector& targetPos )
 {
 	for(ZObjectManager::iterator i = ZGetObjectManager()->begin();i!=ZGetObjectManager()->end();i++) {
 		ZObject *pTarget = i->second;
-		if(pTarget->IsDie()) continue;
+		if(pTarget->IsDead()) continue;
 		float fDamage = m_pDesc->nModLastDamage;
 		if(CheckRange(pTarget->GetPosition(),pTarget) && m_pDesc->CheckResist(pTarget,&fDamage)) {
 			if(g_pGame->IsAttackable(m_pOwner,pTarget)) {
@@ -545,7 +545,7 @@ void ZSkill::Use(const MUID& uidTarget, const rvector& targetPos)
 		{
 			ZObject *pObject = i->second;
 
-			if(pObject->IsDie())
+			if(pObject->IsDead())
 				continue;
 
 			float fDamage = m_pDesc->nModDamage;

@@ -149,7 +149,7 @@ public:
 	virtual ZOBJECTHITTEST HitTest(const rvector& origin, const rvector& to,
 		float fTime, rvector *pOutPos = NULL) override;
 
-	virtual bool IsDie() override;
+	virtual bool IsDead() override;
 
 	virtual MMatchTeam GetTeamID() const override { return MMT_BLUE; }
 

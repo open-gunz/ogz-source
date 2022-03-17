@@ -302,7 +302,7 @@ void ZClothEmblem::satisfyConstraints()
 				continue;
 			}
 
-			if (pCharacter->IsDie() && pCharacter->m_bBlastDrop && !pCharacter->IsVisible())
+			if (pCharacter->IsDead() && pCharacter->m_bBlastDrop && !pCharacter->IsVisible())
 			{
 				continue;
 			}

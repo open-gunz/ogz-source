@@ -434,7 +434,7 @@ ZObject* ZBrain::GetTarget()
 MQUEST_NPC_ATTACK ZBrain::CheckAttackable()
 {
 	ZObject* pTarget = GetTarget();
-	if ((pTarget == NULL) || (pTarget->IsDie())) return NPC_ATTACK_NONE;
+	if ((pTarget == NULL) || (pTarget->IsDead())) return NPC_ATTACK_NONE;
 
 	// 일단 근접 공격이 가능하면 근접 공격
 	if (m_pBody->GetNPCInfo()->nNPCAttackTypes & NPC_ATTACK_MELEE)
@@ -474,7 +474,7 @@ bool ZBrain::CheckSkillUsable(int *pnSkill, MUID *puidTarget, rvector *pTargetPo
 					itor != ZGetObjectManager()->end(); ++itor)
 				{
 					ZObject *pObject = itor->second;
-					if(pObject->IsDie()) continue;
+					if(pObject->IsDead()) continue;
 					if(ZGetGame()->IsAttackable(m_pBody,pObject)) continue;	// 적이면 넘어간다
 					if (pObject == m_pBody) continue;	// 자기자신이면 넘어간다.
 
@@ -545,7 +545,8 @@ bool ZBrain::FindTarget()
 		itor != ZGetCharacterManager()->end(); ++itor)
 	{
 		ZCharacter* pCharacter = (*itor).second;
-		if (pCharacter->IsDie()) continue;
+
+		if (pCharacter->IsDead()) continue;
 		
 		if (pCharacter->LostConnection())
 			continue;

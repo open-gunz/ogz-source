@@ -252,7 +252,7 @@ void ZWorldItemManager::update()
 {
 	ZCharacter* pCharacter = g_pGame->m_pMyCharacter;
 	
-	if( pCharacter==NULL||pCharacter->IsDie() ) return; 
+	if( pCharacter==NULL||pCharacter->IsDead() ) return; 
 	
 	for(auto* pItem : MakePairValueAdapter(mItemList))
 	{

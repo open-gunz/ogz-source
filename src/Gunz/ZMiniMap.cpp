@@ -186,7 +186,7 @@ void ZMiniMap::OnDraw(MDrawContext* pDC)
 		itor != ZGetCharacterManager()->end(); ++itor)
 	{
 		ZCharacter* pCharacter = (*itor).second;
-		if(pCharacter->IsDie()) continue;
+		if(pCharacter->IsDead()) continue;
 
 		DWORD color = 0xfffff696;
 		if(ZApplication::GetGame()->GetMatch()->IsTeamPlay())
@@ -244,7 +244,7 @@ void ZMiniMap::OnDraw(MDrawContext* pDC)
 		ZCharacter* pCharacter = (*itor).second;
 
 		if (!pCharacter->IsVisible()) continue;
-		if (pCharacter->IsDie()) continue;
+		if (pCharacter->IsDead()) continue;
 		
 		rvector pos, screen_pos;
 		pos = pCharacter->GetPosition();

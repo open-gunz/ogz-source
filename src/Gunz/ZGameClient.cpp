@@ -1649,7 +1649,7 @@ void ZGameClient::RequestGameSuicide()
 	ZMyCharacter* pMyCharacter = pGame->m_pMyCharacter;
 	if (!pMyCharacter) return;
 
-	if ((!pMyCharacter->IsDie()) && (pGame->GetMatch()->GetRoundState() == MMATCH_ROUNDSTATE_PLAY))
+	if ((!pMyCharacter->IsDead()) && (pGame->GetMatch()->GetRoundState() == MMATCH_ROUNDSTATE_PLAY))
 	{
 		pMyCharacter->SetLastDamageType(ZD_NONE);
 

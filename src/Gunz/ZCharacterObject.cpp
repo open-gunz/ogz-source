@@ -476,7 +476,7 @@ void ZCharacterObject::DrawShadow()
 
 	if(!Shadow.has_value()) return;
 
-	if(!IsDie())
+	if(!IsDead())
 	{
 		float fSize = ZShadow::DefaultSize;
 		

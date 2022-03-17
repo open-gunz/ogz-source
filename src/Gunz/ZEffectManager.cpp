@@ -2602,7 +2602,7 @@ void ZEffectManager::AddLostConIcon(ZObject* pObj)
 				ZCharacter* pChar = MDynamicCast(ZCharacter, pObj);
 
 				if( pChar ) {
-					if(pChar->IsDie()) return false;
+					if(pChar->IsDead()) return false;
 					if(!pChar->m_bLostConEffect) return false;
 					if(!pChar->m_bRendered)
 						return true;

@@ -624,8 +624,8 @@ bool ZQuest::OnRefreshPlayerStatus(MCommand* pCommand)
 		// 옵저버이거나 옵저버 예약상태를 푼다.
 		ZGetGame()->ReleaseObserver();
 
-		// 죽어있으면 리스폰
-		if (ZGetGame()->m_pMyCharacter->IsDie())
+		// If you're dead, respawn.
+		if (ZGetGame()->m_pMyCharacter->IsDead())
 		{
 			ZGetGame()->GetMatch()->RespawnSolo();
 		}

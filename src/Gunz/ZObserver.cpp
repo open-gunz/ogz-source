@@ -13,7 +13,6 @@
 #include "ZGameClient.h"
 #include "ZRuleDuel.h"
 
-#define ZOBSERVER_DEFAULT_DELAY_TIME		0.2f
 
 bool ZObserverQuickTarget::ConvertKeyToIndex(char nKey, int* nIndex) 
 {
@@ -53,7 +52,7 @@ bool ZObserver::OnKeyEvent(bool bCtrl, char nKey)
 		}
 		
 		ZCharacter* pCharacter = g_pGame->m_CharacterManager.Find(uidTarget);
-		if (pCharacter && pCharacter->IsDie() == false)
+		if (pCharacter && pCharacter->IsDead() == false)
 		{
 			SetTarget(uidTarget);
 		}
@@ -109,7 +108,7 @@ void ZObserver::Show(bool bVisible)
 
 		if(SetFirstTarget())
 		{
-			m_fDelay=ZOBSERVER_DEFAULT_DELAY_TIME;
+			m_fDelay = ZOBSERVER_DEFAULT_DELAY_TIME;
 			ShowInfo(true);
 			m_bVisible = true;
 //			ZApplication::GetGameInterface()->SetCursorEnable(true);
@@ -205,7 +204,7 @@ bool ZObserver::SetFirstTarget()
 
 bool ZObserver::IsVisibleSetTarget(ZCharacter* pCharacter)
 {
-	if(pCharacter->IsDie()) return false;
+	if(pCharacter->IsDead()) return false;
 	if (pCharacter->IsAdminHide()) return false;
 	if (pCharacter->GetTeamID() == MMT_SPECTATOR) return false;
 
@@ -295,7 +294,7 @@ void ZObserver::OnDraw(MDrawContext* pDC)
 				strcpy_safe(charName[0], pCharacter->GetUserName());
 				fMaxHP[ 0] = pCharacter->GetProperty()->fMaxHP;
 				fMaxAP[ 0] = pCharacter->GetProperty()->fMaxAP;
-				if ( pCharacter->IsDie())
+				if ( pCharacter->IsDead())
 				{
 					nHP[ 0] = 0;
 					nAP[ 0] = 0;
@@ -319,7 +318,7 @@ void ZObserver::OnDraw(MDrawContext* pDC)
 				strcpy_safe(charName[1], pCharacter->GetUserName());
 				fMaxHP[ 1] = pCharacter->GetProperty()->fMaxHP;
 				fMaxAP[ 1] = pCharacter->GetProperty()->fMaxAP;
-				if ( pCharacter->IsDie())
+				if ( pCharacter->IsDead())
 				{
 					nHP[ 1] = 0;
 					nAP[ 1] = 0;
@@ -479,11 +478,11 @@ void ZObserver::OnDraw(MDrawContext* pDC)
 
 			if(pCharacter->IsAdminHide()) continue;
 		
-			if ( (pCharacter->GetTeamID()==4) && ( !pCharacter->IsDie()))
+			if ( (pCharacter->GetTeamID()==4) && ( !pCharacter->IsDead()))
 				nNumOfTotal++;
-			else if ( (pCharacter->GetTeamID()==MMT_RED) && ( !pCharacter->IsDie()))
+			else if ( (pCharacter->GetTeamID()==MMT_RED) && ( !pCharacter->IsDead()))
 				nNumOfRedTeam++;
-			else if ( (pCharacter->GetTeamID()==MMT_BLUE) && ( !pCharacter->IsDie()))
+			else if ( (pCharacter->GetTeamID()==MMT_BLUE) && ( !pCharacter->IsDead()))
 				nNumOfBlueTeam++;
 		}
 
@@ -534,7 +533,7 @@ void ZObserver::CheckDeadTarget()
 		return;
 	}
 
-	if (m_pTargetCharacter->IsDie())
+	if (m_pTargetCharacter->IsDead())
 	{
 		st_nDeadTime += nNowTime - nLastTime;
 	}
