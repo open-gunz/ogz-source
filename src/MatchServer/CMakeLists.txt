@@ -14,6 +14,7 @@ target_include_directories(MatchServer_lib PUBLIC
 	../cml/Include
 	../rapidxml/Include
 	../CSCommon/Include
+	../MDatabase/Include
 	../RealSpace2/Include
 	../sdk
 	../SafeUDP/Include
@@ -32,6 +33,7 @@ target_link_libraries(MatchServer_lib PUBLIC
 	ini
 	cml
 	CSCommon
+	MDatabase
 	RealSpace2
 	SafeUDP
 	Locator

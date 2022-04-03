@@ -25,6 +25,7 @@ inline const char* ToString(DatabaseType DBType)
 {
 	switch (DBType)
 	{
+	case DatabaseType::MSSQL: return "MSSQL";
 	case DatabaseType::SQLite: return "SQLite";
 	}
 	assert(false);
@@ -74,7 +75,8 @@ public:
 
 	template <size_t size>
 	bool GetLoginInfo(const char* szUserID, unsigned int* poutnAID, char(&poutPassword)[size]) {
-		return GetLoginInfo(szUserID, poutnAID, poutPassword, size); }
+		return GetLoginInfo(szUserID, poutnAID, poutPassword, size);
+	}
 	virtual bool GetLoginInfo(const char* szUserID, unsigned int* poutnAID, char* poutPassword, size_t maxlen) = 0;
 	virtual bool UpdateCharLevel(int nCID, int nLevel) = 0;
 	virtual bool InsertLevelUpLog(int nCID, int nLevel, int nBP,
@@ -89,10 +91,10 @@ public:
 		int nAge,
 		int nSex) = 0;
 
-	virtual AccountCreationResult CreateAccountNew(const char *Username,
-		const char *PasswordData, size_t PasswordSize, const char *Email) = 0;
+	virtual AccountCreationResult CreateAccountNew(const char* Username,
+		const char* PasswordData, size_t PasswordSize, const char* Email) = 0;
 
-	virtual bool BanPlayer(int nAID, const char *szReason, const time_t &UnbanTime) = 0;
+	virtual bool BanPlayer(int nAID, const char* szReason, const time_t& UnbanTime) = 0;
 
 	virtual int CreateCharacter(int nAID,
 		const char* szNewName,
@@ -143,9 +145,8 @@ public:
 	virtual bool SellBountyItem(unsigned int nCID, unsigned int nItemID, unsigned int nCIID,
 		int nPrice, int nCharBP) = 0;
 
-
 	virtual bool UpdateQuestItem(int nCID, class MQuestItemMap& rfQuestIteMap,
-	class MQuestMonsterBible& rfQuestMonster) = 0;
+		class MQuestMonsterBible& rfQuestMonster) = 0;
 	virtual bool GetCharQuestItemInfo(MMatchCharInfo* pCharInfo) = 0;
 
 	virtual bool InsertQuestGameLog(const char* pszStageName,
@@ -156,7 +157,6 @@ public:
 		int& outQGLID) = 0;
 
 	virtual bool InsertQUniqueGameLog(int nQGLID, int nCID, int nQIID) = 0;
-
 
 	virtual bool InsertConnLog(int nAID, const char* szIP, const std::string& strCountryCode3) = 0;
 	virtual bool InsertGameLog(const char* szGameName, const char* szMap, const char* GameType,
@@ -186,17 +186,16 @@ public:
 
 	virtual bool BringBackAccountItem(int nAID, int nCID, int nCIID) = 0;
 
-
 	//// Friends ////
 	virtual bool FriendAdd(int nCID, int nFriendCID, int nFavorite) = 0;
 	virtual bool FriendRemove(int nCID, int nFriendCID) = 0;
 	virtual bool FriendGetList(int nCID, class MMatchFriendInfo* pFriendInfo) = 0;
 
-
 	//// Clan ////
 	template<size_t size>
 	bool GetCharClan(int nCID, int* poutClanID, char(&poutClanName)[size]) {
-		return GetCharClan(nCID, poutClanID, poutClanName, size); }
+		return GetCharClan(nCID, poutClanID, poutClanName, size);
+	}
 	virtual bool GetCharClan(int nCID, int* poutClanID, char* poutClanName, int maxlen) = 0;
 	virtual bool GetClanIDFromName(const char* szClanName, int* poutCLID) = 0;
 	virtual bool CreateClan(const char* szClanName, int nMasterCID, int nMember1CID, int nMember2CID,
@@ -215,24 +214,22 @@ public:
 	virtual bool UpdateCharClanContPoint(int nCID, int nCLID, int nAddedContPoint) = 0;
 	virtual bool CloseClan(int nCLID, const char* szClanName, int nMasterCID) = 0;
 
-
 	//// Ladder ////
 	virtual bool GetLadderTeamID(const int nTeamTableIndex, const int* pnMemberCIDArray, int nMemberCount,
 		int* pnoutTID) = 0;
 	virtual bool LadderTeamWinTheGame(int nTeamTableIndex, int nWinnerTID, int nLoserTID,
 		bool bIsDrawGame, int nWinnerPoint, int nLoserPoint, int nDrawPoint) = 0;
 	template <size_t size>
-	bool GetLadderTeamMemberByCID(const int nCID, int* poutTeamID, char *(&ppoutCharArray)[size], int nCount) {
-		return GetLadderTeamMemberByCID(nCID, poutTeamID, ppoutCharArray, size, nCount) = 0; }
+	bool GetLadderTeamMemberByCID(const int nCID, int* poutTeamID, char* (&ppoutCharArray)[size], int nCount) {
+		return GetLadderTeamMemberByCID(nCID, poutTeamID, ppoutCharArray, size, nCount) = 0;
+	}
 	virtual bool GetLadderTeamMemberByCID(const int nCID, int* poutTeamID, char** ppoutCharArray, int maxlen, int nCount) = 0;
-
 
 	virtual bool WinTheClanGame(int nWinnerCLID, int nLoserCLID, bool bIsDrawGame,
 		int nWinnerPoint, int nLoserPoint, const char* szWinnerClanName,
 		const char* szLoserClanName, int nRoundWins, int nRoundLosses,
 		int nMapID, int nGameType,
 		const char* szWinnerMembers, const char* szLoserMembers) = 0;
-
 
 	virtual bool UpdateCharLevel(int nCID, int nNewLevel, int nBP, int nKillCount,
 		int nDeathCount, int nPlayTime, bool bIsLevelUp) = 0;

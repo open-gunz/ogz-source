@@ -25,6 +25,7 @@
 #include <unordered_map>
 #include "LagCompensation.h"
 #include "SQLiteDatabase.h"
+#include "MSSQLDatabase.h"
 
 class MMatchAuthBuilder;
 class MMatchScheduleMgr;
@@ -75,13 +76,13 @@ public:
 
 	void CustomCheckEventObj(const u32 dwEventID, MMatchObject* pObj, void* pContext);
 
-	MLadderMgr*	GetLadderMgr() { return &m_LadderMgr; }
-	MMatchObjectList*	GetObjects() { return &m_Objects; }
-	MMatchStageMap*		GetStageMap() { return &m_StageMap; }
-	MMatchChannelMap*	GetChannelMap() { return &m_ChannelMap; }
-	MMatchClanMap*		GetClanMap() { return &m_ClanMap; }
-	IDatabase*			GetDBMgr() { return Database; }
-	MMatchQuest*		GetQuest() { return &m_Quest; }
+	MLadderMgr* GetLadderMgr() { return &m_LadderMgr; }
+	MMatchObjectList* GetObjects() { return &m_Objects; }
+	MMatchStageMap* GetStageMap() { return &m_StageMap; }
+	MMatchChannelMap* GetChannelMap() { return &m_ChannelMap; }
+	MMatchClanMap* GetClanMap() { return &m_ClanMap; }
+	IDatabase* GetDBMgr() { return Database; }
+	MMatchQuest* GetQuest() { return &m_Quest; }
 	int GetClientCount() const { return (int)m_Objects.size(); }
 	int GetAgentCount() const { return (int)m_AgentMap.size(); }
 
@@ -119,7 +120,7 @@ public:
 
 	void OnAdminServerHalt();
 	void AdminTerminalOutput(const MUID& uidAdmin, const char* szText);
-	template<size_t size> bool OnAdminExecute(MAdminArgvInfo *pAI, char(&szOut)[size]) {
+	template<size_t size> bool OnAdminExecute(MAdminArgvInfo* pAI, char(&szOut)[size]) {
 		return OnAdminExecute(pAI, szOut, size);
 	}
 	bool OnAdminExecute(MAdminArgvInfo* pAI, char* szOut, int maxlen);
@@ -183,6 +184,7 @@ public:
 	void StandbyClanList(const MUID& uidPlayer, int nClanListStartIndex, bool bCacheUpdate);
 
 	u32 GetChannelListChecksum() const { return m_ChannelMap.GetChannelListChecksum(); }
+
 	void ChannelList(const MUID& uidPlayer, MCHANNEL_TYPE nChannelType);
 
 	u64 GetGlobalClockCount();
@@ -208,6 +210,7 @@ public:
 
 		Announce(CommUID, buf);
 	}
+
 	void AnnounceErrorMsg(const MUID& CommUID, const int nErrorCode);
 	void AnnounceErrorMsg(MObject* pObj, const int nErrorCode);
 
@@ -233,7 +236,7 @@ protected:
 
 	bool CheckOnLoginPre(const MUID& CommUID, int nCmdVersion, bool& outbFreeIP,
 		std::string& strCountryCode3);
-	void OnMatchLogin(const MUID& CommUID, const char* UserID, const unsigned char *HashedPassword,
+	void OnMatchLogin(const MUID& CommUID, const char* UserID, const unsigned char* HashedPassword,
 		int HashLength, int CommandVersion, u32 ChecksumPack,
 		u32 Major, u32 Minor, u32 Patch, u32 Revision);
 	void OnMatchLoginFromDBAgent(const MUID& CommUID, const char* szLoginID,
@@ -246,10 +249,10 @@ protected:
 		std::string strCountryCode3,
 		u32 nChecksumPack);
 
-	void NotifyFailedLogin(const MUID &uidComm, const char *szReason);
-	void CreateAccount(const MUID &uidComm, const char *szUsername,
-		const unsigned char *HashedPassword, int HashLength, const char *szEmail);
-	void CreateAccountResponse(const MUID &uidComm, const char *szMessage);
+	void NotifyFailedLogin(const MUID& uidComm, const char* szReason);
+	void CreateAccount(const MUID& uidComm, const char* szUsername,
+		const unsigned char* HashedPassword, int HashLength, const char* szEmail);
+	void CreateAccountResponse(const MUID& uidComm, const char* szMessage);
 
 	void LockUIDGenerate() { m_csUIDGenerateLock.lock(); }
 	void UnlockUIDGenerate() { m_csUIDGenerateLock.unlock(); }
@@ -343,7 +346,6 @@ protected:
 		MMatchPremiumGradeID nPGradeID,
 		const char* szRandomValue);
 	MCommand* CreateCmdMatchResponseLoginFailed(const MUID& uidComm, const int nResult);
-
 
 	float GetDuelVictoryMultiflier(int nVictorty);
 	float GetDuelPlayersMultiflier(int nPlayerCount);
@@ -655,7 +657,7 @@ protected:
 
 	inline void SetTickTime(u64 nTickTime);
 
-	static MMatchServer*	m_pInstance;
+	static MMatchServer* m_pInstance;
 	u64						m_nTickTime;
 
 	u32					m_HSCheckCounter;
@@ -678,7 +680,7 @@ protected:
 	MAgentObjectMap		m_AgentMap;
 
 	MSafeUDP			m_SafeUDP;
-	IDatabase*			Database{};
+	IDatabase* Database{};
 
 	MAsyncProxy			m_AsyncProxy;
 	MMatchAdmin			m_Admin;
@@ -688,7 +690,7 @@ protected:
 
 	bool				m_bCreated{};
 
-	MMatchScheduleMgr*		m_pScheduler;
+	MMatchScheduleMgr* m_pScheduler;
 	MMatchQuest				m_Quest;
 
 	MMatchEventManager		m_CustomEventManager;

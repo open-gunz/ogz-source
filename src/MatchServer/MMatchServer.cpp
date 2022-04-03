@@ -68,7 +68,7 @@
 
 MMatchServer* MMatchServer::m_pInstance = NULL;
 
-static void RcpLog(const char *pFormat, ...)
+static void RcpLog(const char* pFormat, ...)
 {
 	char szBuf[256];
 
@@ -106,7 +106,6 @@ public:
 
 #define NUM_CHECKPOINTER	3
 static MPointerChecker g_PointerChecker[NUM_CHECKPOINTER];
-
 
 void _CheckValidPointer(void* pPointer1, void* pPointer2, void* pPointer3, int nState, int nValue)
 {
@@ -160,10 +159,8 @@ void CopyCharInfoForTrans(MTD_CharInfo* pDest, MMatchCharInfo* pSrcCharInfo, MMa
 					pDest->nEquipedItemDesc[i] = pItemDesc->m_nID;
 				}
 			}
-
 		}
 	}
-
 
 	if (pSrcObject)
 	{
@@ -198,7 +195,6 @@ void CopyCharInfoDetailForTrans(MTD_CharInfo_Detail* pDest, MMatchCharInfo* pSrc
 		pDest->nKillCount = pSrcCharInfo->m_nTotalKillCount;
 		pDest->nDeathCount = pSrcCharInfo->m_nTotalDeathCount;
 
-
 		unsigned long int nNowTime = MMatchServer::GetInstance()->GetTickTime();
 
 		pDest->nConnPlayTimeSec = MGetTimeDistance(pSrcCharInfo->m_nConnTime, nNowTime) / 1000;
@@ -217,7 +213,6 @@ void CopyCharInfoDetailForTrans(MTD_CharInfo_Detail* pDest, MMatchCharInfo* pSrc
 		}
 	}
 
-
 	if (pSrcObject)
 	{
 		pDest->nUGradeID = pSrcObject->GetAccountInfo()->m_nUGrade;
@@ -229,7 +224,6 @@ void CopyCharInfoDetailForTrans(MTD_CharInfo_Detail* pDest, MMatchCharInfo* pSrc
 
 	pDest->nClanCLID = pSrcCharInfo->m_ClanInfo.m_nClanID;
 }
-
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -245,6 +239,8 @@ IDatabase* MakeDatabaseFromConfig()
 	{
 	case DatabaseType::SQLite:
 		return new SQLiteDatabase;
+	case DatabaseType::MSSQL:
+		return new MSSQLDatabase;
 	}
 	MLog("Invalid db config\n");
 	return nullptr;
@@ -330,7 +326,7 @@ bool MMatchServer::LoadInitFile()
 		return false;
 	}
 #endif
-	if ( (MGetServerConfig()->GetServerMode() == MSM_CLAN) || (MGetServerConfig()->GetServerMode() == MSM_TEST))
+	if ((MGetServerConfig()->GetServerMode() == MSM_CLAN) || (MGetServerConfig()->GetServerMode() == MSM_TEST))
 	{
 		GetLadderMgr()->Init();
 	}
@@ -394,7 +390,7 @@ bool MMatchServer::LoadInitFile()
 #endif
 
 	return true;
-}
+	}
 
 bool MMatchServer::LoadChannelPreset()
 {
@@ -498,7 +494,6 @@ bool MMatchServer::Create(int nPort)
 	GetDBMgr()->UpdateServerInfo(MGetServerConfig()->GetServerID(), MGetServerConfig()->GetMaxUser(),
 		MGetServerConfig()->GetServerName());
 
-
 	MGetServerStatusSingleton()->Create(this);
 
 	if (!InitScheduler()) {
@@ -572,9 +567,7 @@ void MMatchServer::OnRegisterCommand(MCommandManager* pCommandManager)
 	MAddSharedCommandTable(pCommandManager,
 		static_cast<MSharedCommandType::Type>(MSharedCommandType::MatchServer | MSharedCommandType::Client));
 	Log(LOG_ALL, "Command registeration completed");
-
 }
-
 
 void MMatchServer::OnPrepareRun()
 {
@@ -656,7 +649,6 @@ void MMatchServer::OnRun(void)
 		pStage->Tick(nGlobalClock);
 
 		if (pStage->GetState() == STAGE_STATE_CLOSE) {
-
 			StageRemove(pStage->GetUID(), &iStage);
 			continue;
 		}
@@ -678,7 +670,7 @@ void MMatchServer::OnRun(void)
 	MGetServerStatusSingleton()->SetRunStatus(105);
 
 	// Update Ladders
-	if ( (MGetServerConfig()->GetServerMode() == MSM_CLAN) || (MGetServerConfig()->GetServerMode() == MSM_TEST))
+	if ((MGetServerConfig()->GetServerMode() == MSM_CLAN) || (MGetServerConfig()->GetServerMode() == MSM_TEST))
 	{
 		GetLadderMgr()->Tick(nGlobalClock);
 	}
@@ -826,7 +818,7 @@ void MMatchServer::UpdateServerStatusDB()
 		{
 			LOG(LOG_ALL, "[CRITICAL ERROR] DB Connection Lost. ");
 
-			if (auto DB = GetDBMgr())
+			if (auto DB = dynamic_cast<MSSQLDatabase*>(GetDBMgr()))
 			{
 				InitDB();
 			}
@@ -884,7 +876,7 @@ void MMatchServer::RouteResponseToListener(MObject* pObject, const int nCmdID, i
 	RouteToListener(pObject, pNew);
 }
 
-void MMatchServer::OnVoiceChat(const MUID & Player, unsigned char* EncodedFrame, int Length)
+void MMatchServer::OnVoiceChat(const MUID& Player, unsigned char* EncodedFrame, int Length)
 {
 	auto Obj = GetObject(Player);
 
@@ -1052,7 +1044,7 @@ static int GetBlobCmdID(const char* Data)
 	return *(u16*)(Data + 2);
 }
 
-void MMatchServer::OnTunnelledP2PCommand(const MUID & Sender, const MUID & Receiver, const char * Blob, size_t BlobSize)
+void MMatchServer::OnTunnelledP2PCommand(const MUID& Sender, const MUID& Receiver, const char* Blob, size_t BlobSize)
 {
 	auto SenderObj = GetObject(Sender);
 	if (!SenderObj)
@@ -1120,50 +1112,39 @@ void MMatchServer::OnTunnelledP2PCommand(const MUID & Sender, const MUID & Recei
 		{
 			auto Cmd = MakeCmdFromSaneTunnelingBlob(Sender, MUID(0, 0), Blob, BlobSize);
 
-			if (Cmd)
+			v3 Pos, Dir;
+			ZC_SHOT_SP_TYPE Type;
+			int SelectedSlot;
+			if (!Cmd->GetParameter(&Pos, 1, MPT_POS))
+				return;
+			if (!Cmd->GetParameter(&Dir, 2, MPT_VECTOR))
+				return;
+			if (!Cmd->GetParameter(&Type, 3, MPT_INT))
+				return;
+			if (!Cmd->GetParameter(&SelectedSlot, 4, MPT_INT))
+				return;
+
+			auto Item = SenderObj->GetCharInfo()->m_EquipedItem.GetItem(MMatchCharItemParts(SelectedSlot));
+			if (!Item)
+				return;
+			auto ItemDesc = Item->GetDesc();
+			if (!ItemDesc)
+				return;
+
+			switch (Type)
 			{
-				v3 Pos, Dir;
-				ZC_SHOT_SP_TYPE Type;
-				int SelectedSlot;
-				if (!Cmd->GetParameter(&Pos, 1, MPT_POS) ||
-					!Cmd->GetParameter(&Dir, 2, MPT_VECTOR) ||
-					!Cmd->GetParameter(&Type, 3, MPT_INT) ||
-					!Cmd->GetParameter(&SelectedSlot, 4, MPT_INT))
-				{
-					delete Cmd;
-					return;
-				}
-
-				auto Item = SenderObj->GetCharInfo()->m_EquipedItem.GetItem(MMatchCharItemParts(SelectedSlot));
-				if (!Item)
-				{
-					delete Cmd;
-					return;
-				}
-				auto ItemDesc = Item->GetDesc();
-				if (!ItemDesc)
-				{
-					delete Cmd;
-					return;
-				}
-
-				switch (Type)
-				{
-				case ZC_WEAPON_SP_ROCKET:
-					Stage->MovingWeaponMgr.AddRocket(SenderObj, ItemDesc, Pos, Dir);
-					break;
-				case ZC_WEAPON_SP_ITEMKIT:
-					Stage->MovingWeaponMgr.AddItemKit(SenderObj, ItemDesc, Pos, Dir);
-					break;
-				case ZC_WEAPON_SP_GRENADE:
-					auto GrenadeSpeed = 1200.f;
-					Stage->MovingWeaponMgr.AddGrenade(SenderObj, ItemDesc, Pos, Dir,
-						Dir * GrenadeSpeed + SenderObj->GetVelocity() + v3{ 0, 0, 300 });
-					break;
-				};
-
-				delete Cmd;
-			}
+			case ZC_WEAPON_SP_ROCKET:
+				Stage->MovingWeaponMgr.AddRocket(SenderObj, ItemDesc, Pos, Dir);
+				break;
+			case ZC_WEAPON_SP_ITEMKIT:
+				Stage->MovingWeaponMgr.AddItemKit(SenderObj, ItemDesc, Pos, Dir);
+				break;
+			case ZC_WEAPON_SP_GRENADE:
+				auto GrenadeSpeed = 1200.f;
+				Stage->MovingWeaponMgr.AddGrenade(SenderObj, ItemDesc, Pos, Dir,
+					Dir * GrenadeSpeed + SenderObj->GetVelocity() + v3{ 0, 0, 300 });
+				break;
+			};
 		}
 		break;
 		case MC_PEER_DIE:
@@ -1370,8 +1351,7 @@ void MMatchServer::RouteToAllConnection(MCommand* pCommand)
 
 	char* pCmdData = new char[nCmdSize];
 	int nSize = pCommand->GetData(pCmdData, nCmdSize);
-	_ASSERT(nSize < MAX_PACKET_SIZE && nSize == nCmdSize);
-
+	_ASSERT(nSize < MAX_PACKET_SIZE&& nSize == nCmdSize);
 
 	if (pCommand->m_pCommandDesc->IsFlag(MCCT_NON_ENCRYPTED))
 	{
@@ -1496,7 +1476,6 @@ void MMatchServer::RouteToStageWaitRoom(const MUID& uidStage, MCommand* pCommand
 	}
 
 	for (auto i = pStage->GetObjBegin(); i != pStage->GetObjEnd(); i++) {
-
 		MUID uidObj = i->first;
 		MMatchObject* pObj = (MMatchObject*)GetObject(uidObj);
 		if (pObj) {
@@ -1725,10 +1704,6 @@ MMatchObject* MMatchServer::GetPlayerByAID(u32 nAID)
 	return NULL;
 }
 
-
-
-
-
 MUID MMatchServer::UseUID(void)
 {
 	LockUIDGenerate();
@@ -1768,9 +1743,6 @@ void MMatchServer::AnnounceErrorMsg(const MUID& CommUID, const int nErrorCode)
 void MMatchServer::AnnounceErrorMsg(MObject* pObj, const int nErrorCode)
 {
 }
-
-
-
 
 void MMatchServer::OnBridgePeer(const MUID& uidChar, u32 dwIP, u32 nPort)
 {
@@ -1848,7 +1820,7 @@ bool MMatchServer::UDPSocketRecvEvent(u32 dwIP, u16 wRawPort, char* pPacket, u32
 {
 	if (dwSize < sizeof(MPacketHeader)) return false;
 
-	MPacketHeader*	pPacketHeader;
+	MPacketHeader* pPacketHeader;
 	pPacketHeader = (MPacketHeader*)pPacket;
 
 	if ((dwSize < pPacketHeader->nSize) ||
@@ -1990,7 +1962,6 @@ void MMatchServer::ResponsePeerList(const MUID& uidChar, const MUID& uidStage)
 	RouteToListener(pObj, pNew);
 }
 
-
 bool MMatchServer::CheckBridgeFault()
 {
 	for (MMatchObjectList::iterator i = m_Objects.begin(); i != m_Objects.end(); i++) {
@@ -2000,9 +1971,6 @@ bool MMatchServer::CheckBridgeFault()
 	}
 	return false;
 }
-
-
-
 
 void MMatchServer::OnUserWhisper(const MUID& uidComm, char* pszSenderName, char* pszTargetName, char* pszMessage)
 {
@@ -2205,7 +2173,6 @@ void MMatchServer::OnChatRoomInvite(const MUID& uidComm, const char* pszTargetNa
 	pCmd->AddParameter(new MCmdParamStr(const_cast<char*>(pszTargetName)));
 	pCmd->AddParameter(new MCmdParamStr(const_cast<char*>(pRoom->GetName())));
 	RouteToListener(pTargetObj, pCmd);
-
 }
 
 // RAONHAJE 임시코드
@@ -2271,8 +2238,6 @@ void MMatchServer::DisconnectObject(const MUID& uidObject)
 	Disconnect(pObj->GetCommListener());
 }
 
-
-
 void MMatchServer::InsertChatDBLog(const MUID& uidPlayer, const char* szMsg)
 {
 	MMatchObject* pObj = GetObject(uidPlayer);
@@ -2299,7 +2264,6 @@ void MMatchServer::InsertChatDBLog(const MUID& uidPlayer, const char* szMsg)
 	{
 		for (int i = 0; i < stnLogTop; i++)
 		{
-
 			if (!GetDBMgr()->InsertChatLog(stChatLog[i].nCID, stChatLog[i].szMsg, stChatLog[i].nTime))
 			{
 				LOG(LOG_ALL, "DB Query(InsertChatDBLog > InsertChatLog) Failed");
@@ -2308,8 +2272,6 @@ void MMatchServer::InsertChatDBLog(const MUID& uidPlayer, const char* szMsg)
 		stnLogTop = 0;
 	}
 }
-
-
 
 int MMatchServer::ValidateMakingName(const char* szCharName, int nMinLength, int nMaxLength)
 {
@@ -2413,7 +2375,6 @@ int MMatchServer::ValidateChannelJoin(const MUID& uidPlayer, const MUID& uidChan
 	return MOK;
 }
 
-
 int MMatchServer::ValidateEquipItem(MMatchObject* pObj, MMatchItem* pItem, const MMatchCharItemParts parts)
 {
 	if (!IsEnabledObject(pObj)) return MERR_UNKNOWN;
@@ -2452,9 +2413,8 @@ int MMatchServer::ValidateEquipItem(MMatchObject* pObj, MMatchItem* pItem, const
 		return MERR_TOO_HEAVY;
 	}
 
+	// checking if same item is equipped twice in primary or secondary slots
 
-	// checking if same item is equipped twice in primary or secondary slots 
-	
 	if ((parts == MMCIP_PRIMARY) || (parts == MMCIP_SECONDARY))
 	{
 		MMatchCharItemParts tarparts = MMCIP_PRIMARY;
@@ -2670,7 +2630,6 @@ bool MMatchServer::CheckItemXML()
 		case MMIST_EXTRA: nSlot = 9; break;
 		}
 
-
 		nDamage = pItemDesc->m_nDamage;
 		nDelay = pItemDesc->m_nDelay;
 		nControl = pItemDesc->m_nControllability;
@@ -2696,12 +2655,9 @@ bool MMatchServer::CheckItemXML()
 		*/
 	}
 
-
-
 	fclose(fp);
 
 	return true;
-
 }
 
 // sql파일 생성을 위해서. 게임을 위해서 사용되지는 않음.
@@ -2832,7 +2788,6 @@ bool MMatchServer::CheckUpdateItemXML()
 	return true;
 }
 
-
 u32 MMatchServer::GetStageListChecksum(MUID& uidChannel, int nStageCursor, int nStageCount)
 {
 	MMatchChannel* pChannel = FindChannel(uidChannel);
@@ -2856,9 +2811,6 @@ u32 MMatchServer::GetStageListChecksum(MUID& uidChannel, int nStageCursor, int n
 
 	return nStageListChecksum;
 }
-
-
-
 
 void MMatchServer::BroadCastClanRenewVictories(const char* szWinnerClanName, const char* szLoserClanName, const int nVictories)
 {
@@ -2901,7 +2853,6 @@ void MMatchServer::BroadCastDuelInterruptVictories(const MUID& chanID, const cha
 	RouteToChannel(chanID, pCmd);
 }
 
-
 bool MMatchServer::InitScheduler()
 {
 	// 스케쥴 업데이트시 커멘드를 포스트하기 위해서,
@@ -2929,12 +2880,10 @@ bool MMatchServer::InitScheduler()
 	return true;
 }
 
-
 bool MMatchServer::InitLocale()
 {
 	if (MGetServerConfig()->IsComplete())
 	{
-
 		MGetLocale()->Init(GetCountryID(MGetServerConfig()->GetLanguage().c_str()));
 	}
 	else
@@ -2981,13 +2930,12 @@ bool MMatchServer::InitEvent()
 	return true;
 }
 
-
 void MMatchServer::CustomCheckEventObj(const u32 dwEventID, MMatchObject* pObj, void* pContext)
 {
 	m_CustomEventManager.CustomCheckEventObj(dwEventID, pObj, pContext);
 }
 
-void MMatchServer::PostDeath(const MMatchObject & Victim, const MMatchObject & Attacker)
+void MMatchServer::PostDeath(const MMatchObject& Victim, const MMatchObject& Attacker)
 {
 	auto DeathCmd = MCommand(m_CommandManager.GetCommandDescByID(MC_PEER_DIE), MUID(0, 0), m_This);
 	DeathCmd.AddParameter(new MCmdParamUID(Attacker.GetUID()));

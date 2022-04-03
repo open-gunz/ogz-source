@@ -10,6 +10,7 @@ target_include_directories(Locator PRIVATE
 	../RealSpace2/Include
 	../SafeUDP/Include
 	../MCountryFilter/Include
+	../MDatabase/Include
 	${LIBSQLITE3_INCLUDE_DIR}
 	../sdk/dx9/include
 	../sdk)

@@ -12,20 +12,20 @@
 
 MMatchConfig::MMatchConfig()
 {
-	m_nMaxUser					= 0;
-	m_szDB_DNS[0]				= '\0';
-	m_szDB_UserName[0]			= '\0';
-	m_szDB_Password[0]			= '\0';
-	m_nServerID					= 0;
-	m_szServerName[0]			= '\0';
-	m_nServerMode				= MSM_NORMAL_;
-	m_bRestrictionMap			= false;
-	m_bCheckPremiumIP			= false;
-	m_bUseFilter				= false;
-	m_bAcceptInvalidIP			= false;
-	m_bIsDebugServer			= false;
-	m_bEnabledCreateLadderGame	= true;
-	m_bIsComplete				= false;
+	m_nMaxUser = 0;
+	m_szDB_DNS[0] = '\0';
+	m_szDB_UserName[0] = '\0';
+	m_szDB_Password[0] = '\0';
+	m_nServerID = 0;
+	m_szServerName[0] = '\0';
+	m_nServerMode = MSM_NORMAL_;
+	m_bRestrictionMap = false;
+	m_bCheckPremiumIP = false;
+	m_bUseFilter = false;
+	m_bAcceptInvalidIP = false;
+	m_bIsDebugServer = false;
+	m_bEnabledCreateLadderGame = true;
+	m_bIsComplete = false;
 
 	Version.Major = RGUNZ_VERSION_MAJOR;
 	Version.Minor = RGUNZ_VERSION_MINOR;
@@ -54,6 +54,41 @@ static bool SetEnum(const IniParser& ini, T& Dest, const char* Section, const ch
 	return true;
 }
 
+#define SET_OR_RETURN(Dest, Section, Name) do {\
+		auto MaybeStr = ini.GetString((Section), (Name));\
+		if (!MaybeStr){\
+			MLog("Missing value for config options [%s] %s\n", (Section), (Name));\
+			return false;\
+		}\
+		(Dest) = *MaybeStr;\
+	} while (false)
+
+bool GetDBConnDetails(const IniParser& ini, MDatabase::ConnectionDetails& Output)
+{
+	if (!SetEnum(ini, Output.Driver, "DB", "DRIVER") ||
+		!SetEnum(ini, Output.Auth, "DB", "AUTH"))
+		return false;
+
+	if (Output.Driver == MDatabase::DBDriver::SQLServer)
+	{
+		SET_OR_RETURN(Output.Server, "DB", "SERVER");
+		SET_OR_RETURN(Output.Database, "DB", "DATABASE");
+	}
+	else if (Output.Driver == MDatabase::DBDriver::ODBC)
+	{
+		SET_OR_RETURN(Output.DSN, "DB", "DNS");
+	}
+
+	if (Output.Auth == MDatabase::DBAuth::SQLServer)
+	{
+		SET_OR_RETURN(Output.Username, "DB", "USERNAME");
+		SET_OR_RETURN(Output.Password, "DB", "PASSWORD");
+	}
+
+	return true;
+}
+
+#undef SET_OR_RETURN
 
 bool MMatchConfig::Create()
 {
@@ -71,7 +106,7 @@ bool MMatchConfig::Create()
 	auto AddIPs = [&](auto& Container, const char* Name) {
 		Split(ini.GetString("SERVER", Name, ""), " ", [&](StringView Str) {
 			Container.push_back(Str.str());
-		});
+			});
 	};
 
 	AddIPs(m_FreeLoginIPList, "FREELOGINIP");
@@ -93,13 +128,13 @@ bool MMatchConfig::Create()
 
 		auto it = std::find_if(std::begin(g_MapDesc), std::end(g_MapDesc), [&](auto& x) {
 			return iequals(token, x.szMapName);
-		});
+			});
 		if (it != std::end(g_MapDesc))
 		{
 			nMapCount++;
 			m_EnableMaps.insert(set<int>::value_type(it - std::begin(g_MapDesc)));
 		}
-	});
+		});
 
 	if (nMapCount <= 0)
 	{
@@ -117,6 +152,20 @@ bool MMatchConfig::Create()
 	if (!SetEnum(ini, DBType, "DB", "database_type"))
 		return false;
 
+	if (DBType == DatabaseType::MSSQL)
+	{
+		MDatabase::ConnectionDetails ConnDetails;
+		if (!GetDBConnDetails(ini, ConnDetails))
+			return false;
+		Driver = ConnDetails.Driver;
+		Auth = ConnDetails.Auth;
+		strcpy_safe(Server, ConnDetails.Server);
+		strcpy_safe(Database, ConnDetails.Database);
+		strcpy_safe(m_szDB_DNS, ConnDetails.DSN);
+		strcpy_safe(m_szDB_UserName, ConnDetails.Username);
+		strcpy_safe(m_szDB_Password, ConnDetails.Password);
+	}
+
 	strcpy_safe(m_NJ_szDBAgentIP, ini.GetString("LOCALE", "DBAgentIP",
 		SERVER_CONFIG_DEFAULT_NJ_DBAGENT_IP));
 	m_NJ_nDBAgentPort = ini.GetInt("LOCALE", "DBAgentPort", SERVER_CONFIG_DEFAULT_NJ_DBAGENT_PORT);
@@ -133,7 +182,6 @@ bool MMatchConfig::Create()
 }
 void MMatchConfig::Destroy()
 {
-
 }
 
 void MMatchConfig::AddFreeLoginIP(const char* pszIP)
@@ -141,17 +189,15 @@ void MMatchConfig::AddFreeLoginIP(const char* pszIP)
 	m_FreeLoginIPList.push_back(pszIP);
 }
 
-
-void MMatchConfig::AddDebugLoginIP( const char* szIP )
+void MMatchConfig::AddDebugLoginIP(const char* szIP)
 {
-	m_DebugLoginIPList.push_back( szIP );
+	m_DebugLoginIPList.push_back(szIP);
 }
-
 
 bool MMatchConfig::CheckFreeLoginIPList(const char* pszIP)
 {
 	list<string>::iterator end = m_FreeLoginIPList.end();
-	for (list<string>::iterator i = m_FreeLoginIPList.begin(); i!= end; i++) {
+	for (list<string>::iterator i = m_FreeLoginIPList.begin(); i != end; i++) {
 		const char* pszFreeIP = (*i).c_str();
 		if (strncmp(pszIP, pszFreeIP, strlen(pszFreeIP)) == 0) {
 			return true;
@@ -160,12 +206,11 @@ bool MMatchConfig::CheckFreeLoginIPList(const char* pszIP)
 	return false;
 }
 
-
-bool MMatchConfig::IsDebugLoginIPList( const char* pszIP )
+bool MMatchConfig::IsDebugLoginIPList(const char* pszIP)
 {
 	list< string >::iterator it, end;
 	end = m_DebugLoginIPList.end();
-	for( it = m_DebugLoginIPList.begin(); it != end; ++it )
+	for (it = m_DebugLoginIPList.begin(); it != end; ++it)
 	{
 		const char* pszFreeIP = (*it).c_str();
 		if (strncmp(pszIP, pszFreeIP, strlen(pszFreeIP)) == 0) {
@@ -175,12 +220,10 @@ bool MMatchConfig::IsDebugLoginIPList( const char* pszIP )
 	return false;
 }
 
-
 void MMatchConfig::TrimStr(const char* szSrcStr, char* outStr, int maxlen)
 {
 	char szInputMapName[256] = "";
 
-	// 왼쪽 공백제거
 	int nSrcStrLen = (int)strlen(szSrcStr);
 	for (int i = 0; i < nSrcStrLen; i++)
 	{
@@ -190,9 +233,8 @@ void MMatchConfig::TrimStr(const char* szSrcStr, char* outStr, int maxlen)
 			break;
 		}
 	}
-	// 오른쪽 공백제거
 	int nLen = (int)strlen(szInputMapName);
-	for (int i = nLen-1; i >= 0; i--)
+	for (int i = nLen - 1; i >= 0; i--)
 	{
 		if (isspace(szInputMapName[i]))
 		{
@@ -209,29 +251,25 @@ void MMatchConfig::TrimStr(const char* szSrcStr, char* outStr, int maxlen)
 
 void MMatchConfig::Clear()
 {
-	memset(m_szDB_DNS, 0, 64 );
-	memset(m_szDB_UserName, 0, 64 );
-	memset(m_szDB_Password, 0, 64 );		///< DB Password
+	memset(m_szDB_DNS, 0, 64);
+	memset(m_szDB_UserName, 0, 64);
+	memset(m_szDB_Password, 0, 64);
 
-	m_nMaxUser = 0;					///< 최대 접속자
+	m_nMaxUser = 0;
 	m_nServerID = 0;
-	memset(m_szServerName, 0, 256 );		///< 서버이름
+	memset(m_szServerName, 0, 256);
 
-	// m_nServerMode;				///< 서버모드
-	m_bRestrictionMap = false;			///< 맵제한이 있는지 여부 - default : false
-	m_EnableMaps.clear();				///< 맵제한이 있을경우 가능한 맵
-	m_FreeLoginIPList.clear();			///< 접속인원 무시 IP
-	m_bCheckPremiumIP = true;			///< 프리미엄 IP 체크
+	m_bRestrictionMap = false;
+	m_EnableMaps.clear();
+	m_FreeLoginIPList.clear();
+	m_bCheckPremiumIP = true;
 
-	// enabled 씨리즈 - ini에서 관리하지 않는다.
-	m_bEnabledCreateLadderGame = false;	///< 클랜전 생성가능한지 여부
+	m_bEnabledCreateLadderGame = false;
 
-	// -- 일본 넷마블 전용
-	memset( m_NJ_szDBAgentIP, 0, 64 );
+	memset(m_NJ_szDBAgentIP, 0, 64);
 	m_NJ_nDBAgentPort = 0;
 	m_NJ_nGameCode = 0;
 
-	// filter 사용 설정.
-	m_bUseFilter = false;				/// 필터 사용을 설정함(0:사용않함. 1:사용.)
-	m_bAcceptInvalidIP = true;			/// 리스트에 없는 IP허용 여부.(0:허용하지 않음. 1:허용.)
+	m_bUseFilter = false;
+	m_bAcceptInvalidIP = true;
 }
