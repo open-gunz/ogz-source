@@ -39,7 +39,7 @@
 #define NO_DIRECTION_LOCK
 
 // Default field of view in radians.
-#define DEFAULT_FOV		1.39626f // 80 degrees in radians
+#define DEFAULT_FOV		1.22173048f // 70 degrees in radians
 
 // Default distance from the camera to the near plane in the projection transform.
 // 5.0f in vanilla Gunz
