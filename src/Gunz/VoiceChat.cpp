@@ -135,6 +135,8 @@ void VoiceChat::StartRecording()
 {
 	if (Recording || !CanRecord || ZGetGame()->IsReplay())
 		return;
+	if (ZGetGame()->m_pMyCharacter->IsDie()) //Jorklenis2: No Talking dead..
+		return;	
 
 #ifdef WAVEIN
 	for (int i = 0; i < 2; i++)
@@ -341,6 +343,11 @@ int VoiceChat::RecordCallback(const void *inputBuffer, void *outputBuffer,
 		MLog("opus_encode failed with error code %d: %s\n", Size, opus_strerror(Size));
 		return paContinue;
 	}
+	
+	if (ZApplication::GetGameInterface()->IsLeaveBattleReserved() == true) return paAbort; //Jorklenis2: while I leave a room during the count you will not be able to speak for possible crash here too.
+
+	if (ZGetGameInterface()->GetCombatInterface()->GetObserver()->IsVisible() == true) 
+	    return paAbort;	//Jorklenis2: This prevents the viewer from speaking while he is still a spectator, if we let him speak, the game will close. 
 
 	//MLog("Encoded data, size %d\n", Size);
 
@@ -366,6 +373,11 @@ int VoiceChat::PlayCallback(const void *inputBuffer, void *outputBuffer,
 
 	if (it == GetInstance()->MicStreams.end())
 		return paComplete;
+	
+	if (ZApplication::GetGameInterface()->IsLeaveBattleReserved() == true) return paComplete; //Jorklenis2
+
+	if (ZGetGameInterface()->GetCombatInterface()->GetObserver()->IsVisible() == true) //Jorklenis2: same as above, this is just for you not to talk.
+		return paComplete;	
 
 	//MLog("Play! Size: %d\n", g_VoiceChat.MicStreams.size());
 
