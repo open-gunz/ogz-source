@@ -17,7 +17,7 @@ public:
 		if (g_pGame->GetTime() > m_fNextDamageTime) {
 			m_fNextDamageTime += DAMAGE_DELAY;
 
-			if (pObj->IsDie()) {
+			if (pObj->IsDead()) {
 				if (pObj->m_pVMesh->GetVisibility() < 0.5f) {
 					Active = false;
 					return;
@@ -36,7 +36,7 @@ public:
 
 		if (g_pGame->GetTime() > m_fNextEffectTime) {
 
-			if (!pObj->IsDie())
+			if (!pObj->IsDead())
 			{
 				int nEffectLevel = GetEffectLevel() + 1;
 

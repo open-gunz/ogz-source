@@ -83,7 +83,7 @@ void ZRuleBerserker::AssignBerserker(MUID& uidBerserker)
 		ZGetEffectManager()->AddBerserkerIcon(pBerserkerChar);
 		pBerserkerChar->SetTagger(true);
 		
-		if (!pBerserkerChar->IsDie())
+		if (!pBerserkerChar->IsDead())
 		{
 			float fMaxHP = pBerserkerChar->GetProperty()->fMaxHP;
 			float fMaxAP = pBerserkerChar->GetProperty()->fMaxAP;
@@ -119,7 +119,7 @@ void ZRuleBerserker::BonusHealth(ZCharacter* pBerserker)
 {
 	if (pBerserker)
 	{
-		if (pBerserker->IsDie()) return;
+		if (pBerserker->IsDead()) return;
 
 		float fBonusAP = 0.0f;
 		float fBonusHP = BERSERKER_BONUS_HEALTH;

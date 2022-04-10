@@ -2582,7 +2582,7 @@ void ZGameInterface::ChangeWeapon(ZChangeWeaponType nType)
 
 	if (pChar->m_pVMesh == NULL) return;
 
-	if (pChar->IsDie()) return;
+	if (pChar->IsDead()) return;
 
 	if (m_pGame->GetMatch()->IsRuleGladiator() && !pChar->IsAdmin())
 		return;

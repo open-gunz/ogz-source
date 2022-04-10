@@ -92,7 +92,7 @@ bool PickHistory(typename ContainerT::value_type Exception,
 		if (HitParts == ZOH_NONE)
 			continue;
 
-		if (Obj->IsDie())
+		if (Obj->IsDead())
 			continue;
 
 		if (!HitObject || Magnitude(TempHitPos - src) < Magnitude(HitPos - src))

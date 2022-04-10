@@ -201,7 +201,7 @@ public:
 	bool IsDirLocked() {
 		return (m_bSkill || m_bWallJump || m_bWallJump2 || m_bWallHang ||
 			m_bTumble || m_bBlast || m_bBlastStand || m_bBlastDrop)
-			&& !IsDie();
+			&& !IsDead();
 	}
 
 private:

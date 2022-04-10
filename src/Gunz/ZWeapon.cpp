@@ -629,7 +629,7 @@ void ZWeaponFlashBang::Explosion()
 		return;
 	}
 
-	if (g_pGame->m_pMyCharacter->IsDie())
+	if (g_pGame->m_pMyCharacter->IsDead())
 	{
 		return;
 	}

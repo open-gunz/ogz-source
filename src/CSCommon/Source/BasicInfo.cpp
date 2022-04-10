@@ -86,7 +86,6 @@ bool UnpackNewBasicInfo(NewBasicInfo& nbi, const u8* pbi, size_t BlobSize)
 MCommandParameterBlob* PackNewBasicInfo(const CharacterInfo& Input, BasicInfoNetState& State, float Time)
 {
 	char buf[64];
-
 	size_t Size = 1;
 	auto Write = [&](auto&& Val)
 	{

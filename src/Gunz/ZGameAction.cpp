@@ -130,7 +130,7 @@ void ZGameAction::OnPeerSkill_LastShot(float fShotTime,ZCharacter *pOwnerCharact
 
 		rvector TargetPosition, TargetDir;
 
-		if (pTar->IsDie()) continue;
+		if (pTar->IsDead()) continue;
 
 		if (!pTar->GetHistory(&TargetPosition, &TargetDir, fShotTime)) continue;
 
@@ -229,7 +229,7 @@ void ZGameAction::OnPeerSkill_Uppercut(ZCharacter *pOwnerCharacter)
 
 		rvector TargetPosition,TargetDir;
 
-		if(pTar->IsDie()) continue;
+		if(pTar->IsDead()) continue;
 
 		if( !pTar->GetHistory(&TargetPosition,&TargetDir,fShotTime)) continue;
 
@@ -332,7 +332,7 @@ void ZGameAction::OnPeerSkill_Dash(ZCharacter *pOwnerCharacter)
 
 		rvector TargetPosition,TargetDir;
 
-		if(pTar->IsDie()) continue;
+		if(pTar->IsDead()) continue;
 
 		if( !pTar->GetHistory(&TargetPosition,&TargetDir,fShotTime)) continue;
 

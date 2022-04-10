@@ -345,7 +345,7 @@ void ZMyBotCharacter::OnUpdate(float Delta)
 		UpdateAnimation();
 		UpdateVelocity(Delta);
 
-		if (GetDistToFloor() < 0 && !IsDie())
+		if (GetDistToFloor() < 0 && !IsDead())
 		{
 			float fAdjust = 400.f * Delta;
 			rvector diff = rvector(0, 0, min(-GetDistToFloor(), fAdjust));
@@ -370,7 +370,7 @@ bool ZMyBotCharacter::GetHistory(v3* Pos, v3* Dir, float Time, v3* CameraDir)
 	Info.Dir = Dir;
 	Info.CameraDir = CameraDir;
 
-	return RecordedHistory.GetInfo(Info, RelativeTime, std::ref(GetItemDesc), Sex, IsDie());
+	return RecordedHistory.GetInfo(Info, RelativeTime, std::ref(GetItemDesc), Sex, IsDead());
 }
 
 void ZMyBotCharacter::OnDamaged(ZObject* pAttacker, rvector srcPos, ZDAMAGETYPE damageType,
@@ -613,7 +613,7 @@ void ZMyBotCharacter::RenderCam()
 
 void ZMyBotCharacter::CheckDead()
 {
-	if (IsDie())
+	if (IsDead())
 		return;
 
 	MUID uidAttacker = MUID(0, 0);
@@ -642,7 +642,7 @@ void ZMyBotCharacter::CheckDead()
 	if (ZGetGameClient()->GetMatchStageSetting()->GetNetcode() == NetcodeType::ServerBased)
 		return;
 
-	if ((IsDie() == false) && (GetHP() <= 0))
+	if ((IsDead() == false) && (GetHP() <= 0))
 	{
 		if (uidAttacker == MUID(0, 0) && GetLastAttacker() != MUID(0, 0))
 			uidAttacker = GetLastAttacker();

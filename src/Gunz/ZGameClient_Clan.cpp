@@ -499,7 +499,7 @@ void ZGameClient::OnClanMsg(const char* szSenderName, const char* szMsg)
 
 	/*if ( ZApplication::GetGame())
 	{
-		if ( (ZApplication::GetGame()->GetMatch()->GetMatchType() == MMATCH_GAMETYPE_DUEL)	&& !ZApplication::GetGame()->m_pMyCharacter->IsDie())
+		if ( (ZApplication::GetGame()->GetMatch()->GetMatchType() == MMATCH_GAMETYPE_DUEL)	&& !ZApplication::GetGame()->m_pMyCharacter->IsDead())
 			sprintf_safe(szText, "%s(%s) : %s", ZMsg( MSG_CHARINFO_CLAN), szSenderName, ". . . . .");
 	}*/
 

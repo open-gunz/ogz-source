@@ -641,8 +641,8 @@ void ZGame::OnGameResponseTimeSync(u64 nLocalTimeStamp, u64 nGlobalTimeSync)
 {
 	ZGameTimer* pTimer = GetGameTimer();
 	auto nCurrentTick = pTimer->GetGlobalTick();
-	auto nDelay = (nCurrentTick - nLocalTimeStamp) / 2;
-	auto nOffset = nGlobalTimeSync - nCurrentTick + nDelay;
+	int nDelay = (nCurrentTick - nLocalTimeStamp) / 2;
+	auto nOffset = int(nGlobalTimeSync) - int(nCurrentTick) + nDelay;
 
 	pTimer->SetGlobalOffset(nOffset);
 
@@ -741,7 +741,7 @@ void ZGame::OnCameraUpdate(float Elapsed)
 
 void ZGame::CheckMyCharDead(float fElapsed)
 {
-	if(!m_pMyCharacter || m_pMyCharacter->IsDie()) return;
+	if(!m_pMyCharacter || m_pMyCharacter->IsDead()) return;
 
 	MUID uidAttacker = MUID(0,0);
 
@@ -770,7 +770,7 @@ void ZGame::CheckMyCharDead(float fElapsed)
 	if (ZGetGameClient()->GetMatchStageSetting()->GetNetcode() == NetcodeType::ServerBased)
 		return;
 
-	if ((m_pMyCharacter->IsDie() == false) && (m_pMyCharacter->GetHP() <= 0))
+	if ((m_pMyCharacter->IsDead() == false) && (m_pMyCharacter->GetHP() <= 0))
 	{
 		if (uidAttacker == MUID(0,0) && m_pMyCharacter->GetLastAttacker() != MUID(0,0))
 			uidAttacker = m_pMyCharacter->GetLastAttacker();
@@ -1206,7 +1206,7 @@ bool ZGame::OnCommand_Immediate(MCommand* pCommand)
 		bool Spec = NewTeam == MMT_SPECTATOR;
 		if (Spec)
 		{
-			if (!Target->IsDie())
+			if (!Target->IsDead())
 			{
 				Target->ActDead();
 				Target->Die();
@@ -1886,6 +1886,13 @@ void ZGame::OnPeerPing(MCommand *pCommand)
 	unsigned int nTimeStamp;
 	pCommand->GetParameter(&nTimeStamp, 0, MPT_UINT);
 
+	// ping when spectating is always 100 above actual ping, this is caused by some calculation going wrong
+	// it is caused by the 0.2f (200 ms) delay for spectator divided by 2 (one way latency)
+	// this dirty fixes the issue, see also ZGame::OnPeerPong
+	ZObserver* observer = ZApplication::GetGameInterface()->GetCombatInterface()->GetObserver();
+	if (observer && observer->IsVisible())
+		nTimeStamp = nTimeStamp + (ZOBSERVER_DEFAULT_DELAY_TIME * 1000);
+
 	if (IsReplay() && pCommand->GetSenderUID() == m_pMyCharacter->GetUID())
 	{
 		Pings.AddTime(nTimeStamp, GetTime());
@@ -1919,6 +1926,7 @@ void ZGame::OnPeerPong(MCommand *pCommand)
 			return;
 		auto PingTime = pair.second;
 		auto PongTime = GetTime();
+		// ping shown in game when watching replay
 		auto Ping = (PongTime - PingTime) / 2 * 1000;
 		SetCharPing(Ping);
 		return;
@@ -1928,7 +1936,17 @@ void ZGame::OnPeerPong(MCommand *pCommand)
 	if (!pPeer)
 		return;
 
-	auto Ping = (GetTickTime() - nTimeStamp) / 2;
+	// this is the ping shown ingame when playing or spectating
+	auto Ping = GetTickTime() - nTimeStamp;
+	
+	// ping when spectating is always 100 above actual ping, this is caused by some calculation going wrong
+	// it is caused by the 0.2f (200 ms) delay for spectator divided by 2 (one way latency)
+	// this dirty fixes the issue, also see ZGame::OnPeerPing
+	ZObserver* observer = ZApplication::GetGameInterface()->GetCombatInterface()->GetObserver();
+	if (observer && observer->IsVisible())
+		Ping = Ping - (ZOBSERVER_DEFAULT_DELAY_TIME * 1000);
+
+	Ping = Ping / 2;	// divide by 2 for one way time
 
 	pPeer->UpdatePing(GetTickTime(), Ping);
 	SetCharPing(Ping);
@@ -1945,7 +1963,7 @@ void ZGame::OnPeerOpened(MCommand *pCommand)
 
 	//// Show Character ////////////////////////////////////////
 	ZCharacter* pCharacter = m_CharacterManager.Find(uidChar);
-	if (pCharacter && pCharacter->IsDie()==false) {
+	if (pCharacter && pCharacter->IsDead()==false) {
 		pCharacter->SetVisible(true);
 
 		ZCharacter* pMyCharacter = g_pGame->m_pMyCharacter;
@@ -2147,7 +2165,7 @@ void ZGame::OnExplosionGrenade(MUID uidOwner, rvector pos, float fDamage, float 
 
 	for (auto* Target : MakePairValueAdapter(m_ObjectManager))
 	{
-		if (Target->IsDie())
+		if (Target->IsDead())
 			continue;
 
 		auto TargetToPos = pos - (Target->GetPosition() + rvector(0, 0, 80));
@@ -2214,7 +2232,7 @@ void ZGame::OnExplosionMagic(ZWeaponMagic *pWeapon, MUID uidOwner, rvector pos,
 
 		if(!pWeapon->GetDesc()->IsAreaTarget() && pWeapon->GetTarget()!=pTarget->GetUID()) continue;
 
-		if(pTarget && !pTarget->IsDie()) {
+		if(pTarget && !pTarget->IsDead()) {
 
 			fDist = Magnitude(pos - (pTarget->GetPosition() + rvector(0, 0, 80)));
 			if (pWeapon->GetDesc()->IsAreaTarget())
@@ -2282,7 +2300,7 @@ void ZGame::OnExplosionMagicNonSplash(ZWeaponMagic *pWeapon, MUID uidOwner, MUID
 
 	if(pTarget->IsNPC()) return;
 
-	if(pTarget && !pTarget->IsDie()) {
+	if(pTarget && !pTarget->IsDead()) {
 		float fDamage = pWeapon->GetDesc()->nModDamage;
 		if(pWeapon->GetDesc()->CheckResist(pTarget,&fDamage))
 		{
@@ -2389,7 +2407,7 @@ void ZGame::OnPeerShot_Melee(const MUID& uidOwner, float fShotTime)
 	for (ZObject* pTar : MakePairValueAdapter(m_ObjectManager))
 	{
 		if (pOwner == pTar) continue;
-		if (pTar->IsDie()) continue;
+		if (pTar->IsDead()) continue;
 		rvector TargetPosition, TargetDir;
 		if (!pTar->GetHistory(&TargetPosition, &TargetDir, fShotTime)) continue;
 		if (!IsAttackable(pOwner, pTar)) continue;
@@ -2510,7 +2528,7 @@ void ZGame::OnPeerSlash(ZCharacter *pOwner, const rvector &pos, const rvector &d
 	{
 		ZObject *pTarget = it.second;
 
-		if (pTarget == pOwner || pTarget->IsDie())
+		if (pTarget == pOwner || pTarget->IsDead())
 			continue;
 
 		const rvector &TargetPos = pTarget->GetPosition();
@@ -2641,7 +2659,7 @@ void ZGame::OnPeerMassive(ZCharacter *pOwner, const rvector &pos, const rvector 
 			&& (!pVictim->IsNPC() || !static_cast<ZActor*>(pVictim)->IsMyControl()))
 			continue;
 
-		if (pVictim->IsDie())
+		if (pVictim->IsDead())
 			continue;
 
 		const rvector &TargetPos = pVictim->GetPosition();
@@ -3524,7 +3542,7 @@ void ZGame::OnPeerReload(const MUID& uid)
 {
 	ZCharacter* pCharacter = m_CharacterManager.Find(uid);
 
-	if (pCharacter == NULL || pCharacter->IsDie() ) return;
+	if (pCharacter == NULL || pCharacter->IsDead() ) return;
 
 	if(pCharacter==m_pMyCharacter)
 		m_pMyCharacter->Animation_Reload();
@@ -3567,7 +3585,7 @@ void ZGame::OnPeerSpawn(const MUID& uid, const rvector& pos, const rvector& dir)
 	ZCharacter* pCharacter = m_CharacterManager.Find(uid);
 	if (pCharacter == NULL) return;
 
-	bool isRespawn = pCharacter->IsDie();
+	bool isRespawn = pCharacter->IsDead();
 
 	pCharacter->SetVisible(true);
 	pCharacter->Revival();
@@ -3777,7 +3795,7 @@ bool ZGame::PickHistory(ZObject *pOwnerObject,float fTime, const rvector &origin
 			}
 		}
 
-		if (pc->IsDie())
+		if (pc->IsDead())
 			bCheck = false;
 
 
@@ -3844,7 +3862,7 @@ bool ZGame::ObjectColTest(ZObject* pOwner, const rvector& origin, const rvector&
 		bool bCheck = true;
 
 		if(pc == pOwner || !pc->IsVisible())  bCheck = false;
-		if( pc->IsDie() ) bCheck = false;
+		if( pc->IsDead() ) bCheck = false;
 
 		if(bCheck)
 		{
@@ -3981,7 +3999,8 @@ void ZGame::PostBasicInfo()
 {
 	if (m_pMyCharacter->GetInitialized() == false) return;
 
-	if(m_pMyCharacter->IsDie() && GetTime()-m_pMyCharacter->m_fDeadTime>5.f) return;
+	// Do not send position if dead for longer than 5 seconds.
+	if(m_pMyCharacter->IsDead() && GetTime()-m_pMyCharacter->m_fDeadTime>5.f) return;
 
 	int nMoveTick;
 	if (ZGetGameClient()->GetMatchStageSetting()->IsVanillaMode())
@@ -4070,7 +4089,7 @@ void ZGame::CheckCombo(ZCharacter *pOwnerCharacter, ZObject *pHitObject, bool bP
 
 	if(pHitObject)
 	{
-		if(pHitObject->IsDie()) return;
+		if(pHitObject->IsDead()) return;
 	}
 
 	if (IsPlayerObject(pHitObject))
@@ -4335,7 +4354,7 @@ void ZGame::AddEffectRoundState(MMATCH_ROUNDSTATE nRoundState, int nArg)
 						if(pCharacter->GetTeamID() != nTeam)
 							continue;
 
-						if(pCharacter->IsDie())
+						if(pCharacter->IsDead())
 						{
 							ZCharacter *pKiller = ZGetCharacterManager()->Find(pCharacter->GetLastAttacker());
 							if(pAllKillPlayer==NULL)
@@ -4395,14 +4414,14 @@ void ZGame::AddEffectRoundState(MMATCH_ROUNDSTATE nRoundState, int nArg)
 						{
 							if ( uidTarget == pCharacter->GetUID())
 							{
-								if ( pCharacter->IsDie())
+								if ( pCharacter->IsDead())
 									bAddLose |= true;
 								else
 									bAddWin |= true;
 							}
 							else
 							{
-								if ( pCharacter->IsDie())
+								if ( pCharacter->IsDead())
 									bAddWin |= true;
 								else
 									bAddLose |= true;

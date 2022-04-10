@@ -338,7 +338,7 @@ void ZActor::UpdateHeight(float fDelta)
 		}
 	}
 
-	if(GetDistToFloor()<0 && !IsDie())
+	if(GetDistToFloor()<0 && !IsDead())
 	{
 		float fAdjust=400.f*fDelta;
 		rvector diff=rvector(0,0,min(-GetDistToFloor(),fAdjust));
@@ -453,7 +453,7 @@ void ZActor::PostBasicInfo()
 	DWORD nNowTime = GetGlobalTimeMS();
 	if (GetInitialized() == false) return;
 
-	if(IsDie() && ZGetGame()->GetTime() - GetDeadTime()>5.f) return;
+	if(IsDead() && ZGetGame()->GetTime() - GetDeadTime()>5.f) return;
 	int nMoveTick = (ZGetGameClient()->GetAllowTunneling() == false) ? PEERMOVE_TICK : PEERMOVE_AGENT_TICK;
 
 	if ((int)(nNowTime - m_nLastTime[ACTOR_LASTTIME_BASICINFO]) >= nMoveTick)
@@ -622,7 +622,7 @@ void ZActor::RunTo(rvector& dir)
 	SetFlag(AF_MOVING, true);
 }
 
-bool ZActor::IsDie() 
+bool ZActor::IsDead() 
 { 
 	if(CheckFlag(AF_MY_CONTROL))
 		return CheckFlag(AF_DEAD); 
@@ -898,7 +898,7 @@ bool ZActor::IsCollideable()
 		ZA_ANIM_STATE nAnimState = m_Animation.GetCurrState();
 		if (nAnimState == ZA_ANIM_DIE) return false;
 
-		return (!IsDie());
+		return (!IsDead());
 	}
 
 	return m_Collision.bCollideable;

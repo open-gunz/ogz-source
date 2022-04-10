@@ -355,7 +355,7 @@ DWORD g_dwLastAnimationTime=GetGlobalTimeMS();
 void ZCharacter::SetAnimationLower(ZC_STATE_LOWER nAni)
 {
 	if (m_bInitialized == false) return;
-	if ((IsDie()) && (IsHero())) return;
+	if ((IsDead()) && (IsHero())) return;
 
 	if(nAni==m_AniState_Lower) return;
 	_ASSERT(nAni>=0 && nAni<ZC_STATE_LOWER_END);
@@ -388,7 +388,7 @@ void ZCharacter::SetAnimationLower(ZC_STATE_LOWER nAni)
 void ZCharacter::SetAnimationUpper(ZC_STATE_UPPER nAni)
 {
 	if (m_bInitialized == false) return;
-	if ((IsDie()) && (IsHero())) return;
+	if ((IsDead()) && (IsHero())) return;
 
 	if(nAni==m_AniState_Upper) 	return;
 
@@ -442,7 +442,7 @@ void ZCharacter::UpdateMotion(float fDelta)
 	// run , idle
 
 	// 자신의 타겟방향에 캐릭터의 방향을 맞춘다..
-	if (IsDie()) { //허리 변형 없다~
+	if (IsDead()) { //허리 변형 없다~
 
 		m_pVMesh->m_vRotXYZ.x = 0.f;
 		m_pVMesh->m_vRotXYZ.y = 0.f;
@@ -536,7 +536,7 @@ void ZCharacter::UpdateMotion(float fDelta)
 //{
 //	if (m_bInitialized==false) return;
 //
-//	if (IsDie()) {
+//	if (IsDead()) {
 //		m_pVMesh->m_vRotXYZ = { 0, 0, 0 };
 //		return;
 //	}
@@ -751,7 +751,7 @@ void ZCharacter::UpdateSpWeapon()
 	}
 }
 
-bool ZCharacter::IsMan() 
+bool ZCharacter::IsMan() const
 {
 	if(m_pVMesh) {
 		if(m_pVMesh->m_pMesh) {
@@ -827,7 +827,7 @@ void ZCharacter::OnDraw()
 	if (!m_bHero && ZGetGame()->GetMatch()->GetMatchType() == MMATCH_GAMETYPE_SKILLMAP)
 		MaxVisibility = 0.4f;
 
-	if(IsDie())
+	if(IsDead())
 	{
 		// If we are dead, fade out
 		constexpr auto TRAN_AFTER = 3.0f;
@@ -1040,7 +1040,7 @@ void ZCharacter::OnUpdate(float fDelta)
 
 	if( m_pVMesh && Enable_Cloth && m_pVMesh->isChestClothMesh() )
 	{
-		if(IsDie())
+		if(IsDead())
 		{
 			rvector force = rvector(0, 0, -150);
 			m_pVMesh->UpdateForce(force);
@@ -1082,7 +1082,7 @@ void ZCharacter::OnUpdate(float fDelta)
 		vProxyDirection = m_DirectionLower;
 	}
 
-	if(IsDie()) {
+	if(IsDead()) {
 		vProxyDirection = m_Direction;
 	}
 
@@ -1209,7 +1209,7 @@ void ZCharacter::UpdateVelocity(float fDelta)
 	if(fSpeed>max_speed)
 		fSpeed=max_speed;
 
-	bool bTumble= !IsDie() && (m_bTumble ||
+	bool bTumble= !IsDead() && (m_bTumble ||
 		(ZC_STATE_LOWER_TUMBLE_FORWARD<=m_AniState_Lower && m_AniState_Lower<=ZC_STATE_LOWER_TUMBLE_LEFT));
 
 	if(m_bLand && !m_bWallJump && !bTumble)
@@ -1486,7 +1486,7 @@ bool ZCharacter::GetHistory(rvector *pos, rvector *direction, float fTime, rvect
 	Info.Pos = pos;
 	Info.Dir = direction;
 	Info.CameraDir = cameradir;
-	return BasicInfoHistory.GetInfo(Info, fTime, std::ref(GetItemDesc), Sex, IsDie());
+	return BasicInfoHistory.GetInfo(Info, fTime, std::ref(GetItemDesc), Sex, IsDead());
 }
 
 void ZCharacter::GetPositions(v3* Head, v3* Foot, double Time)
@@ -1499,7 +1499,7 @@ void ZCharacter::GetPositions(v3* Head, v3* Foot, double Time)
 		BasicInfoHistoryManager::Info Info;
 		Info.Head = Head;
 		Info.Pos = Foot;
-		BasicInfoHistory.GetInfo(Info, Time, GetItemDesc, m_Property.nSex, IsDie());
+		BasicInfoHistory.GetInfo(Info, Time, GetItemDesc, m_Property.nSex, IsDead());
 		return;
 	}
 
@@ -1659,7 +1659,7 @@ void ZCharacter::UpdateSound()
 		}
 	}
 
-	if ( m_bDamaged && (!IsDie()) && (GetHP() < 30.f))
+	if ( m_bDamaged && (!IsDead()) && (GetHP() < 30.f))
 	{
 		if(GetProperty()->nSex==MMS_MALE)
 		{
@@ -2790,7 +2790,7 @@ bool ZCharacter::IsCollideable()
 {
 	if (m_Collision.bCollideable)
 	{
-		return ((!IsDie() && !m_bBlastDrop));
+		return ((!IsDead() && !m_bBlastDrop));
 	}
 
 	return m_Collision.bCollideable;
@@ -2798,7 +2798,7 @@ bool ZCharacter::IsCollideable()
 
 bool ZCharacter::IsAttackable()
 {
-	if (IsDie()) return false;
+	if (IsDead()) return false;
 	return true;
 }
 
@@ -2854,7 +2854,7 @@ ZOBJECTHITTEST ZCharacter::HitTest(const rvector& origin, const rvector& to,floa
 void ZCharacter::OnDamaged(ZObject* pAttacker, rvector srcPos, ZDAMAGETYPE damageType, MMatchWeaponType weaponType, float fDamage, float fPiercingRatio, int nMeleeType)
 {
 	if (m_bInitialized==false) return;
-	if (!IsVisible() || IsDie()) return;
+	if (!IsVisible() || IsDead()) return;
 
 	// If this isn't called on MyCharacter, it's unreliable predicted damage.
 	// Actual damage for other players is reported in HP/AP info packets.
