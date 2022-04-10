@@ -147,7 +147,8 @@ public:
 
 	void UpdateVelocity(float fDelta);
 	void UpdateHeight(float fDelta);
-	void UpdateDirection(float fDelta, const v3& Direction);
+	void UpdateMotion(float fDelta);
+	//void UpdateDirection(float fDelta, const v3& Direction);
 	virtual void UpdateAnimation();
 
 	void UpdateLoadAnimation();
