@@ -52,7 +52,9 @@ _NAMESPACE_REALSPACE2_BEGIN
 
 extern HWND g_hWnd;
 
-static bool g_bActive;
+#ifdef GAME_FOCUS_CHECK
+static bool g_bActiveg_bActive;
+#endif
 
 static RECT g_rcWindowBounds;
 static WNDPROC g_WinProc;
@@ -202,7 +204,9 @@ LRESULT FAR PASCAL WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam
 		if (wParam == TRUE) {
 			if (g_pFunctions[RF_ACTIVATE])
 				g_pFunctions[RF_ACTIVATE](NULL);
+			#ifdef GAME_FOCUS_CHECK
 			g_bActive = true;
+			#endif
 		}
 		else {
 			if (g_pFunctions[RF_DEACTIVATE])
@@ -212,7 +216,9 @@ LRESULT FAR PASCAL WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam
 				ShowWindow(hWnd, SW_MINIMIZE);
 				UpdateWindow(hWnd);
 			}
+			#ifdef GAME_FOCUS_CHECK
 			g_bActive = false;
+			#endif
 		}
 	}
 	break;
@@ -298,9 +304,10 @@ static int RenderLoop()
 
 			MCheckProfileCount();
 		}
-
+		#ifdef GAME_FOCUS_CHECK
 		if (!g_bActive)
 			Sleep(10);
+		#endif
 	} while (WM_QUIT != msg.message);
 
 	return static_cast<int>(msg.wParam);
