@@ -32,8 +32,9 @@ LPDIRECT3DDEVICE8 g_dev = NULL;
 
 int		g_id;
 HWND	g_hAppWnd = NULL;
+#ifdef GAME_FOCUS_CHECK
 BOOL	g_bActive;
-
+#endif
 
 RFont g_Font;
 MEdit* g_pEdit = NULL;
@@ -309,11 +310,13 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 					break;
 				}
 			}       
-        
+
         case WM_ACTIVATEAPP:
         {
+			#ifdef GAME_FOCUS_CHECK
             // Determine whether app is being activated or not
             g_bActive = (BOOL)wParam ? TRUE : FALSE;
+			#endif
         }
         break;
 

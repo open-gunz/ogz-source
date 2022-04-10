@@ -98,3 +98,6 @@
 
 // Controls whether the hit sound (fx_myhit) stacks when hitting multiple enemies at once.
 #define DONT_STACK_HITSOUNDS
+
+// Controls whether the game saves resourses when the main window is out of focus
+//#define GAME_FOCUS_CHECK
