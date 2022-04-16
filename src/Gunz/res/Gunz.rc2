@@ -20,11 +20,11 @@ BEGIN
     BEGIN
         BLOCK "041204b0"
         BEGIN
-            VALUE "CompanyName", "International GunZ"
+            VALUE "CompanyName", "Open GunZ"
             VALUE "FileDescription", "GunZ"
             VALUE "FileVersion", STRFILEVER
             VALUE "InternalName", "GunZ"
-            VALUE "LegalCopyright", "Copyright (c) - 2020 International GunZ"
+            VALUE "LegalCopyright", "Copyright (c) - 2020 Open GunZ"
             VALUE "OriginalFilename", "Gunz.exe"
             VALUE "ProductName", "GunZ"
             VALUE "ProductVersion", STRPRODUCTVER

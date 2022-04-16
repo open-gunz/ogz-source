@@ -44,11 +44,11 @@ BEGIN
     BEGIN
         BLOCK "000004b0"
         BEGIN
-            VALUE "CompanyName", "International GunZ"
+            VALUE "CompanyName", "Open GunZ"
             VALUE "FileDescription", "GunZ"
             VALUE "FileVersion", "1, 0, 0"
             VALUE "InternalName", "GunZ"
-            VALUE "LegalCopyright", "Copyright (c) - 2020 International GunZ"
+            VALUE "LegalCopyright", "Copyright (c) - 2020 Open GunZ"
             VALUE "OriginalFilename", "Gunz.exe"
             VALUE "ProductName", "GunZ"
             VALUE "ProductVersion", "1, 0, 0"

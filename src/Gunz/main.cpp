@@ -622,10 +622,10 @@ int PASCAL GunzMain(HINSTANCE this_inst, HINSTANCE prev_inst, LPSTR cmdline, int
 
 #ifdef ONECLIENT
 	// Create a mutex so we can't run multiple clients
-	Mutex = CreateMutex(NULL, TRUE, "iGunZ");
+	Mutex = CreateMutex(NULL, TRUE, "Open GunZ");
 	if (GetLastError() == ERROR_ALREADY_EXISTS)
 	{
-		MessageBox(0, "International GunZ is already running", "iGunZ", 0);
+		MessageBox(0, "Open GunZ is already running", "Open GunZ", 0);
 		exit(-1);
 		return 0;
 	}
@@ -640,7 +640,7 @@ int PASCAL GunzMain(HINSTANCE this_inst, HINSTANCE prev_inst, LPSTR cmdline, int
 	// Seed the random number generator rand() from the C standard library
 	srand((unsigned int)time(nullptr));
 
-	mlog("International GunZ v%d.%d.%d-%X launched. Build date: " __DATE__ " " __TIME__ "\n",
+	mlog("Open GunZ v%d.%d.%d-%X launched. Build date: " __DATE__ " " __TIME__ "\n",
 		RGUNZ_VERSION_MAJOR, RGUNZ_VERSION_MINOR, RGUNZ_VERSION_PATCH, RGUNZ_VERSION_REVISION);
 
 	char szDateRun[128]; szDateRun[0] = 0;

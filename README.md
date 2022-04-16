@@ -62,7 +62,7 @@ Requisites:
 	- [Client files](https://github.com/open-gunz/client)
 	- [Server files](https://github.com/open-gunz/server)
 * Replace the GunZ.exe and MatchServer.exe in their respective client/server folders, you can either build them yourself as described above or download the executables [here](https://github.com/open-gunz/ogz-source/releases)
-* Change IP to `127.0.0.1` in config file --> `C:\Users\[username]\Documents\International GunZ\config.xml`.
+* Change IP to `127.0.0.1` in config file --> `C:\Users\[username]\Documents\Open GunZ\config.xml`.
 * In the server folder, make sure `server.ini` has these values:
   - `FREELOGINIP`, `KEEPERIP`, `DBAgentIP` set to `127.0.0.1`.
 * Launch MatchServer.exe from the server folder.

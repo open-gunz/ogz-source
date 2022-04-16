@@ -45,7 +45,7 @@ struct ReplayVersion
 		case ServerType::FreestyleGunz:
 			return "Freestyle Gunz";
 		case ServerType::RefinedGunz:
-			return "International GunZ";
+			return "Open GunZ";
 		case ServerType::DarkGunz:
 			return "Dark Gunz";
 		case ServerType::None:

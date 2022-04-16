@@ -60,7 +60,7 @@ LRESULT WINAPI WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
 }
 
 // TODO: Fix during source organization
-#define GUNZ_FOLDER			"/International GunZ"
+#define GUNZ_FOLDER			"/Open GunZ"
 #define LAUNCHER_LOG		"/launcher_log.txt"
 
 
