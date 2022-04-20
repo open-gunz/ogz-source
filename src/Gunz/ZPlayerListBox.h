@@ -43,7 +43,9 @@ public:
 	}
 
 	void SetColor(MCOLOR c) { m_Color = c; }
-	MCOLOR GetColor() const { return m_Color; }
+	const MCOLOR GetColor() { 
+		return m_Color; 
+	}
 	const MUID& GetUID() const { return m_PlayerUID; }
 
 	MUID				m_PlayerUID{};
