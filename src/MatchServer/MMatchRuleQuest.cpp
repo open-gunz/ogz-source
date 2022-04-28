@@ -163,6 +163,8 @@ void MMatchRuleQuest::RouteSectorBonus(const MUID& uidPlayer, u32 nEXPValue)
 
 void MMatchRuleQuest::OnBegin()
 {
+	m_nQuestCompleteTime = 0;
+
 	MakeQuestLevel();
 
 	MMatchRuleBaseQuest::OnBegin();		// 여기서 게임정보도 보냄 - 순서에 주의
