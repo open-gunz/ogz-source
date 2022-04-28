@@ -26,6 +26,20 @@ bool MMatchRuleTeamDeath::OnRun()
 
 void MMatchRuleTeamDeath::OnRoundBegin()
 {
+	//dirty fix for tdm rounds ending while players are still alive.
+	//this ensures m_bAlive is true for each player when the round begins.
+	for (auto i = m_pStage->GetObjBegin(); i != m_pStage->GetObjEnd(); i++)
+	{
+		MMatchObject* pObj = i->second;
+		if (pObj->GetEnterBattle() == true)
+		{
+			if (pObj->GetTeam() == MMT_RED || pObj->GetTeam() == MMT_BLUE)
+			{
+				if (!pObj->IsAlive())
+					pObj->SetAlive(true);
+			}
+		}
+	}
 	MMatchRule::OnRoundBegin();
 }
 
