@@ -1,0 +1,6 @@
+C:/Users/GooseWrld/source/repos/ogzbunz/src/../install/client/launcher.exe
+C:/Users/GooseWrld/source/repos/ogzbunz/src/../install/tools/PatchCreator.exe
+C:/Users/GooseWrld/source/repos/ogzbunz/src/../install/server/MatchServer.exe
+C:/Users/GooseWrld/source/repos/ogzbunz/src/../install/client/Gunz.exe
+C:/Users/GooseWrld/source/repos/ogzbunz/src/../install/pdb/Gunz.pdb
+C:/Users/GooseWrld/source/repos/ogzbunz/src/../install/tools/PartsIndexer.exe
