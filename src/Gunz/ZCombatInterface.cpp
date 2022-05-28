@@ -805,14 +805,14 @@ int ZCombatInterface::DrawVictory( MDrawContext* pDC, int x, int y, int nWinCoun
 
 	nSize = 19.0f;
 	nPosY = ( y - 2) / 600.f;
-	if ( (nWinCount % 10) >= 5)
+	if ((nWinCount % 10) >= 5)
 	{
 		nPosX -= nSize * 0.2f / 800.f;
 		pDC->DrawRelative(nPosX, nPosY, nSize, nSize, nImage, 64, 32, 32);
 		nPosX -= nSize * 1.1f / 800.f;
 	}
 	else
-		nPosX -= nSize * 0.5f;
+		nPosX -= nSize * 0.5f / 800.f;
 
 	nSize = 22.0f;
 	nPosY = ( y - 5) / 600.f;
