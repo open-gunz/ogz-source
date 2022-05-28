@@ -1364,7 +1364,6 @@ typedef list<ZScoreBoardItem*> ZSCOREBOARDITEMLIST;
 void ZCombatInterface::DrawScoreBoard(MDrawContext* pDC)
 {
 	bool bClanGame = ZGetGameClient()->IsLadderGame();
-//	bool bClanGame = true;
 
 	ZSCOREBOARDITEMLIST items;
 
@@ -1490,7 +1489,7 @@ void ZCombatInterface::DrawScoreBoard(MDrawContext* pDC)
 		sprintf_safe( szText, "%s : %d", ZMsg( MSG_WORD_ENDKILL), g_pGame->GetMatch()->GetRoundCount());
 	}
 
-	else if ( ZApplication::GetGame()->GetMatch()->IsWaitForRoundEnd() && !bClanGame)
+	else if ( ZApplication::GetGame()->GetMatch()->IsWaitForRoundEnd())
 	{
 		if ( g_pGame->GetMatch()->GetRoundState() == MMATCH_ROUNDSTATE_PLAY)
 		{
@@ -1520,7 +1519,7 @@ void ZCombatInterface::DrawScoreBoard(MDrawContext* pDC)
 	}
 	else if ( ZGetGameTypeManager()->IsQuestDerived(g_pGame->GetMatch()->GetMatchType()))
 		sprintf_safe( szText, "%s : %d / %d", ZMsg( MSG_WORD_RPROGRESS), ZGetQuest()->GetGameInfo()->GetCurrSectorIndex() + 1, ZGetQuest()->GetGameInfo()->GetMapSectorCount());
-	else if ( !bClanGame)
+	else
 	{
 		if ( g_pGame->GetMatch()->GetRoundState() == MMATCH_ROUNDSTATE_PLAY)
 		{
