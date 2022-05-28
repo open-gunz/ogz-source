@@ -355,7 +355,60 @@ RRESULT OnUpdate(void* pParam)
 	return R_OK;
 }
 
+
+
+void PrintText(const char* Format, ...)
+{
+	char buf[512];
+	size_t y_offset{};
+	va_list va;
+	va_start(va, Format);
+	vsprintf_safe(buf, Format, va);
+	va_end(va);
+	g_pDefFont->m_Font.DrawText(MGetWorkspaceWidth() - 200, y_offset, buf);
+	y_offset += 20;
+}
+
 #include "LogMatrix.h"
+
+void DrawDebugInformation()
+{
+	if (ZGetConfiguration()->GetShowDebugInfo() &&
+		ZGetGame() && ZGetGame()->m_pMyCharacter)
+	{
+		const auto& CharPos = ZGetGame()->m_pMyCharacter->GetPosition();
+		PrintText("Pos: %d, %d, %d", int(CharPos.x), int(CharPos.y), int(CharPos.z));
+		const auto& CharDir = ZGetGame()->m_pMyCharacter->GetDirection();
+		PrintText("Char dir: %.4f, %.4f, %.4f", CharDir.x, CharDir.y, CharDir.z);
+		const auto& CamDir = ZGetCamera()->GetCurrentDir();
+		PrintText("Cam dir: %.4f, %.4f, %.4f", CamDir.x, CamDir.y, CamDir.z);
+		PrintText("Cam ang: %.1f, %.1f", ToDegree(ZGetCamera()->GetAngleZ()), ToDegree(ZGetCamera()->GetAngleX()));
+
+		auto* vmesh = ZGetGame()->m_pMyCharacter->m_pVMesh;
+		if (vmesh)
+		{
+			const auto& HeadPos = vmesh->GetHeadPosition();
+			PrintText("Head pos: %d, %d, %d", int(HeadPos.x), int(HeadPos.y), int(HeadPos.z));
+
+			const auto& Lower = ZGetGame()->m_pMyCharacter->GetStateLower();
+			const auto& Upper = ZGetGame()->m_pMyCharacter->GetStateUpper();
+
+			const auto AniSpeedMultiplier = 4.8f;
+
+			PrintText("Lower ani: %s\n", g_AnimationInfoTableLower[Lower].Name);
+			PrintText("Upper ani: %s\n", g_AnimationInfoTableUpper[Upper].Name);
+			PrintText("Lower time: %.2f\n", vmesh->GetFrameInfo(ani_mode_lower)->m_nFrame / 1000.0f / AniSpeedMultiplier);
+			PrintText("Upper time: %.2f\n", vmesh->GetFrameInfo(ani_mode_upper)->m_nFrame / 1000.0f / AniSpeedMultiplier);
+			PrintText("Lower spd: %.3f\n", vmesh->GetFrameInfo(ani_mode_lower)->m_fSpeed / AniSpeedMultiplier);
+			PrintText("Upper spd: %.3f\n", vmesh->GetFrameInfo(ani_mode_upper)->m_fSpeed / AniSpeedMultiplier);
+#ifdef _DEBUG
+			PrintText("Draw calls: %d\n", g_nCall);
+			PrintText("Polygons: %d\n", g_nPoly);
+#endif
+		}
+	}
+}
+
 
 RRESULT OnRender(void *pParam)
 {
@@ -370,17 +423,6 @@ RRESULT OnRender(void *pParam)
 
 	if(g_pDefFont &&
 		(!ZGetGame() || ZGetGame()->IsShowReplayInfo() || !ZGetGame()->IsReplay())) {
-		char buf[512];
-		size_t y_offset{};
-		auto PrintText = [&](const char* Format, ...)
-		{
-			va_list va;
-			va_start(va, Format);
-			vsprintf_safe(buf, Format, va);
-			va_end(va);
-			g_pDefFont->m_Font.DrawText(MGetWorkspaceWidth() - 200, y_offset, buf);
-			y_offset += 20;
-		};
 
 		if (ZGetConfiguration()->GetVisualFPSLimit() != 0)
 		{
@@ -392,40 +434,7 @@ RRESULT OnRender(void *pParam)
 			PrintText("FPS: %d", LogicalFPSLimiter.LastFPS);
 		}
 
-		if (ZGetConfiguration()->GetShowDebugInfo() &&
-			ZGetGame() && ZGetGame()->m_pMyCharacter)
-		{
-			const auto& CharPos = ZGetGame()->m_pMyCharacter->GetPosition();
-			PrintText("Pos: %d, %d, %d", int(CharPos.x), int(CharPos.y), int(CharPos.z));
-			const auto& CharDir = ZGetGame()->m_pMyCharacter->GetDirection();
-			PrintText("Char dir: %.4f, %.4f, %.4f", CharDir.x, CharDir.y, CharDir.z);
-			const auto& CamDir = ZGetCamera()->GetCurrentDir();
-			PrintText("Cam dir: %.4f, %.4f, %.4f", CamDir.x, CamDir.y, CamDir.z);
-			PrintText("Cam ang: %.1f, %.1f", ToDegree(ZGetCamera()->GetAngleZ()), ToDegree(ZGetCamera()->GetAngleX()));
-
-			auto* vmesh = ZGetGame()->m_pMyCharacter->m_pVMesh;
-			if (vmesh)
-			{
-				const auto& HeadPos = vmesh->GetHeadPosition();
-				PrintText("Head pos: %d, %d, %d", int(HeadPos.x), int(HeadPos.y), int(HeadPos.z));
-
-				const auto& Lower = ZGetGame()->m_pMyCharacter->GetStateLower();
-				const auto& Upper = ZGetGame()->m_pMyCharacter->GetStateUpper();
-
-				const auto AniSpeedMultiplier = 4.8f;
-
-				PrintText("Lower ani: %s\n", g_AnimationInfoTableLower[Lower].Name);
-				PrintText("Upper ani: %s\n", g_AnimationInfoTableUpper[Upper].Name);
-				PrintText("Lower time: %.2f\n", vmesh->GetFrameInfo(ani_mode_lower)->m_nFrame / 1000.0f / AniSpeedMultiplier);
-				PrintText("Upper time: %.2f\n", vmesh->GetFrameInfo(ani_mode_upper)->m_nFrame / 1000.0f / AniSpeedMultiplier);
-				PrintText("Lower spd: %.3f\n", vmesh->GetFrameInfo(ani_mode_lower)->m_fSpeed / AniSpeedMultiplier);
-				PrintText("Upper spd: %.3f\n", vmesh->GetFrameInfo(ani_mode_upper)->m_fSpeed / AniSpeedMultiplier);
-#ifdef _DEBUG
-				PrintText("Draw calls: %d\n", g_nCall);
-				PrintText("Polygons: %d\n", g_nPoly);
-#endif
-			}
-		}
+		DrawDebugInformation();
 	}
 
 	MEndProfile(mainOnRender);

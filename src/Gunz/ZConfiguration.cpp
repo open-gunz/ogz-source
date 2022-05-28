@@ -439,6 +439,11 @@ bool ZConfiguration::LoadConfig(const char* szFileName)
 
 		if (parentElement.FindChildNode(ZTOK_ETC, &childElement))
 		{
+			char buf[1024];
+			if (childElement.GetChildContents(buf, ZTOK_ETC_CROSSHAIRSCALE)) {
+				GetEtc()->fCrosshairScale = stof(buf);
+			}
+
 			childElement.GetChildContents(&m_Etc.nNetworkPort1, ZTOK_ETC_NETWORKPORT1);
 			childElement.GetChildContents(&m_Etc.nNetworkPort2, ZTOK_ETC_NETWORKPORT2);
 			childElement.GetChildContents(&m_Etc.bBoost, ZTOK_ETC_BOOST);
@@ -703,6 +708,7 @@ bool ZConfiguration::SaveToFile(const char *szFileName, const char* szHeader)
 #ifdef ENABLE_FOV_OPTION
 		Section.Add(ZTOK_ETC_FOV, FOV);
 #endif
+		Section.Add(ZTOK_ETC_CROSSHAIRSCALE, fCrosshairScale);
 		Section.Add(ZTOK_ETC_COLORINVERT, ColorInvert);
 		Section.Add(ZTOK_ETC_MONOCHROME, Monochrome);
 		Section.Add(ZTOK_ETC_ASYNCSCREENSHOTS, AsyncScreenshots);
@@ -776,6 +782,7 @@ void ZConfiguration::Init()
 	m_Etc.nNetworkPort1 = 7700;
 	m_Etc.nNetworkPort2 = 7800;
 	m_Etc.nCrossHair = 2;
+	m_Etc.fCrosshairScale = 0.75f;
 	m_Etc.bInGameNoChat = false;
 
 	m_bOptimization = false;
@@ -839,7 +846,7 @@ void ZConfiguration::LoadDefaultKeySetting()
 		{"VoiceChat", 37, -1 },	// 'k'
 		{"Chat", DIK_RETURN, -1},	// 'enter'
 		{"TeamChat", DIK_APOSTROPHE, -1},	// '''
-		// Ãß°¡ by Á¤µ¿¼· @ 2006/3/16
+		// ï¿½ß°ï¿½ by ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ @ 2006/3/16
 	};
 
 	_ASSERT(ZACTION_COUNT==sizeof(DefaultActionKeys)/sizeof(ZACTIONKEYDESCRIPTION));

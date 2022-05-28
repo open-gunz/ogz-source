@@ -15,6 +15,10 @@ void CalcRangeShotControllability(v3& vOutDir, const v3& vSrcDir,
 	if (nControllability > 0)
 		MaxSpread = nControllability * CtrlFactor / 1000.f;
 
+	// Address probable crash if zitem entry is set to have 0 controlability.
+	if (MaxSpread == 0)
+		MaxSpread = 1;
+
 	vOutDir = GetSpreadDir(vSrcDir, MaxSpread, rng);
 }
 
