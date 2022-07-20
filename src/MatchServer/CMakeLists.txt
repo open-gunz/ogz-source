@@ -22,9 +22,12 @@ target_include_directories(MatchServer_lib PUBLIC
 	${LIBSODIUM_INCLUDE_DIRS}
 )
 
-target_link_libraries(MatchServer_lib PUBLIC
+if (WIN32)
 	msvcrt.lib
 	msvcmrt.lib
+endif()
+
+target_link_libraries(MatchServer_lib PUBLIC
 	${ZLIB_LIBRARY}
 	sodium
 	sqlite3
