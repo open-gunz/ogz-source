@@ -34,3 +34,7 @@ target_link_libraries(cml PUBLIC
 	${OPENSSL_LIBRARIES}
 	curl
 )
+
+if (UNIX)
+	target_link_libraries(cml PUBLIC z)
+endif()
