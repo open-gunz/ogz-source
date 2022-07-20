@@ -10,7 +10,7 @@
 #include "StringView.h"
 #include "optional.h"
 #include "function_view.h"
-#ifdef _LINUX
+#ifdef __linux
 #include <limits>
 #endif
 
