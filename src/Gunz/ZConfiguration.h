@@ -110,6 +110,7 @@ struct ZCONFIG_ETC
 	bool		bRejectInvite;
 	int			nCrossHair;
 	bool		bInGameNoChat;
+	float 		fCrosshairScale;
 };
 
 struct ZCONFIG_LOCALE
@@ -208,6 +209,7 @@ public:
 	bool GetUnlockedDir() const { return UnlockedDir; }
 	bool GetShowDebugInfo() const { return ShowDebugInfo; }
 	float GetFOV() const { return FOV; }
+	float GetCrosshairScale() const { return fCrosshairScale; }
 	bool GetColorInvert() const { return ColorInvert; }
 	bool GetMonochrome() const { return Monochrome; }
 
@@ -264,6 +266,7 @@ private:
 	bool UnlockedDir{};
 	bool ShowDebugInfo{};
 	float FOV = ToDegree(DEFAULT_FOV);
+	float fCrosshairScale;
 	bool ColorInvert{};
 	bool Monochrome{};
 };
@@ -371,6 +374,7 @@ ZConfiguration*	ZGetConfiguration();
 #define ZTOK_ETC_UNLOCKEDDIR		"UNLOCKEDDIR"
 #define ZTOK_ETC_SHOWDEBUGINFO		"SHOWDEBUGINFO"
 #define ZTOK_ETC_FOV				"FOV"
+#define ZTOK_ETC_CROSSHAIRSCALE 	"CROSSHAIRSCALE"
 #define ZTOK_ETC_COLORINVERT		"COLORINVERT"
 #define ZTOK_ETC_MONOCHROME			"MONOCHROME"
 #define ZTOK_ETC_ASYNCSCREENSHOTS	"ASYNCSCREENSHOTS"
