@@ -9,7 +9,7 @@ Requisites:
 * GCC x64 Windows: http://tdm-gcc.tdragon.net/download
 * CMake 3.7 or later: Download the latest release from https://cmake.org/download/ under "Binary distributions." In the installer, select "Add CMake to the system PATH for all users". [Picture here](https://i.imgur.com/rQHLXX8.png).
 
-* Install Visual Studio 2019 Community edition (https://visualstudio.microsoft.com/downloads/)
+* Install Visual Studio 2022 Community edition (https://visualstudio.microsoft.com/downloads/)
 
   - In the installer, select the `Desktop development with C++`
 
