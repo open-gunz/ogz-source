@@ -350,10 +350,13 @@ bool ZGameInterface::OnCommand(MCommand* pCommand)
 	case MC_MATCH_RESPONSE_BUY_ITEM:
 		{
 			int nResult;
+			int nBP;
 			pCommand->GetParameter(&nResult, 0, MPT_INT);
+			pCommand->GetParameter(&nBP, 1, MPT_INT);
+			
 			if (nResult == MOK)
 			{
-				ZApplication::GetGameInterface()->ShowMessage(MSG_GAME_BUYITEM);
+				ZApplication::GetGameInterface()->OnResponseBuyQuestItem(nResult, nBP);
 			}
 			else if ((nResult == MERR_TOO_EXPENSIVE_BOUNTY) || (nResult == MERR_TOO_MANY_ITEM))
 			{

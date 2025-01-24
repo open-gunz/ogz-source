@@ -62,6 +62,7 @@ bool MMatchServer::BuyItem(MMatchObject* pObject, unsigned int nItemID, bool bRe
 	{
 		MCommand* pNew = CreateCommand(MC_MATCH_RESPONSE_BUY_ITEM, MUID(0,0));
 		pNew->AddParameter(new MCmdParamInt(MERR_TOO_MANY_ITEM));
+		pNew->AddParameter(new MCmdParamInt(0));
 		RouteToListener(pObject, pNew);
 
 		return false;
@@ -73,6 +74,7 @@ bool MMatchServer::BuyItem(MMatchObject* pObject, unsigned int nItemID, bool bRe
 	{
 		MCommand* pNew = CreateCommand(MC_MATCH_RESPONSE_BUY_ITEM, MUID(0,0));
 		pNew->AddParameter(new MCmdParamInt(MERR_TOO_EXPENSIVE_BOUNTY));
+		pNew->AddParameter(new MCmdParamInt(0));
 		RouteToListener(pObject, pNew);
 
 		return false;
@@ -87,6 +89,7 @@ bool MMatchServer::BuyItem(MMatchObject* pObject, unsigned int nItemID, bool bRe
 	{
 		MCommand* pNew = CreateCommand(MC_MATCH_RESPONSE_BUY_ITEM, MUID(0,0));
 		pNew->AddParameter(new MCmdParamInt(MERR_CANNOT_BUY_ITEM));
+		pNew->AddParameter(new MCmdParamInt(0));
 		RouteToListener(pObject, pNew);
 
 		return false;
@@ -94,7 +97,7 @@ bool MMatchServer::BuyItem(MMatchObject* pObject, unsigned int nItemID, bool bRe
 
 
 	// 오브젝트에 바운티 깎는다.
-	pObject->GetCharInfo()->m_nBP -= nPrice;
+	pObject->GetCharInfo()->DecBP(nPrice);
 
 	// 오브젝트에 아이템 추가
 	MUID uidNew = MMatchItemMap::UseUID();
@@ -103,6 +106,7 @@ bool MMatchServer::BuyItem(MMatchObject* pObject, unsigned int nItemID, bool bRe
 
 	MCommand* pNew = CreateCommand(MC_MATCH_RESPONSE_BUY_ITEM, MUID(0,0));
 	pNew->AddParameter(new MCmdParamInt(MOK));
+	pNew->AddParameter(new MCmdParamInt(pObject->GetCharInfo()->m_nBP));
 	RouteToListener(pObject, pNew);
 
 	return true;

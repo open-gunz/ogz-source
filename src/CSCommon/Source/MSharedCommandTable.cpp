@@ -623,6 +623,7 @@ void MAddSharedCommandTable(MCommandManager* CommandManager, MSharedCommandType:
 			P(MPT_UINT, "ItemID");
 		C(MC_MATCH_RESPONSE_BUY_ITEM, "Match.ResponseBuyItem", "Response Buy Item", MCDT_MACHINE2MACHINE);
 			P(MPT_INT, "result");
+			P(MPT_INT, "Bounty"); // current player bounty only when result is MOK, otherwise always 0
 		C(MC_MATCH_REQUEST_SELL_ITEM, "Match.RequestSellItem", "Request Sell Item", MCDT_MACHINE2MACHINE);
 			P(MPT_UID, "uidChar");
 			P(MPT_UID, "uidItem");
