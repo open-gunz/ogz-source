@@ -10,6 +10,9 @@
 #include "StringView.h"
 #include "optional.h"
 #include "function_view.h"
+#ifdef __linux
+#include <limits>
+#endif
 
 #ifdef _MSC_VER
 #include <intrin.h>
